@@ -187,7 +187,7 @@ map.on("zoomend", function(e)
   
   var sidebar = L.control.sidebar('sidebar').addTo(map);
   
-  var osm2 = new L.TileLayer('childangle/{z}/map_tile_{x}_{y}.png', {minZoom: 8, maxZoom: 8, attribution: "minimap"});
+  var osm2 = new L.TileLayer('maps/childangle/{z}/map_tile_{x}_{y}.png', {minZoom: 8, maxZoom: 8, attribution: "minimap"});
   var miniMap = new L.Control.MiniMap(osm2).addTo(map);
   
   map.on('draw:created', function(e) {
