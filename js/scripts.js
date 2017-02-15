@@ -97,18 +97,19 @@ var myStyle = {
 };
   
   
-var sceneLayerData;
+var layerData;
 
 var sceneLayer;
-loadScenes(0);
+loadFeatures(0, dataRegions, dataRegionNames);
 
-function loadScenes(sceneSelect)
+function loadFeatures(currentMap, data, names)
 {
-  sceneLayerData = Array();
-  for(i in dataScenes[sceneSelect])
+  layerData = Array();
+  for(i in data[currentMap])
   {
-    scene = dataScenes[sceneSelect][i];
-    if(Array.isArray(scene.Outline))
+    var currentFeature = data[currentMap][i];
+    console.log(currentFeature);
+    if(Array.isArray(currentFeature.Outline))
     {
       /*var coordsX = new Array();
       var coordsY = new Array();
@@ -118,23 +119,22 @@ function loadScenes(sceneSelect)
         coordsY.push(scene.Outline[0][j][1]);
       }
       dataScenes[0][i].Area = polygonArea(coordsX, coordsY);*/
-      sceneLayerData.push(
+      layerData.push(
       {
            "type": "Feature", 
            "geometry": { 
              "type": "Polygon", 
-             "coordinates": scene.Outline
+             "coordinates": currentFeature.Outline
            }, 
            "properties": { 
-             "name": dataSceneNames[scene.Map].Name, 
-             "area": scene.Area
+             "name": names[currentFeature.id].Name
              } 
       });
     }
   }
 
 
-   sceneLayer = L.geoJSON(sceneLayerData, {
+   sceneLayer = L.geoJSON(layerData, {
       style: myStyle,
       onEachFeature: function (feature, layer) {
         layer.on('mouseover', function () {
@@ -159,7 +159,7 @@ function loadScenes(sceneSelect)
   sceneLayer.eachLayer(function(layer) {
     var bounds = layer.getBounds();
     var fontSize = (bounds._northEast.lng - bounds._southWest.lng) / map.getZoom() * 3000;
-    if(fontSize > 12) {
+    if(fontSize > 8) {
       layer.bindTooltip("<span style='font-size: " + fontSize + "px'>" + layer.feature.properties.name + "</span>", {
         className: "label",
         permanent: true,
@@ -175,7 +175,7 @@ map.on("zoomend", function(e)
   sceneLayer.eachLayer(function(layer) {
     if(typeof layer.getTooltip() != "undefined")
     {
-      if(map.getZoom() < 12){
+      if(map.getZoom() < 13){
         layer.openTooltip();
       }
       else {
