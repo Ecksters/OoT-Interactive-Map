@@ -10,4 +10,4 @@ Due to sheer size of the split OoT maps, to install the images, [download the zi
 This project is being worked on heavily, but you can view a recently uploaded version here:
 http://map.ecksters.com/
 
-Built using [LeafletJS](leafletjs.com).
+Built using [LeafletJS](http://leafletjs.com).
