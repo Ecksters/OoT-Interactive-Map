@@ -1,4 +1,4 @@
-# OoT-Interactive-Map
+# Zelda: Ocarina of Time - Interactive Map
 Interactive Map for the world of Zelda: Ocarina of Time.
 
 Check out our goals for the project on [Trello](https://trello.com/b/DSrWWi3Z/ocarina-of-time-interactive-map).
