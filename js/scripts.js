@@ -52,7 +52,7 @@
     map.setMinZoom(layerData[data.name]["zoom"]);
     map.setZoom(layerData[data.name]["zoom"]);
     sceneLayer.remove();
-    loadScenes(layerData[data.name]["id"]);
+    loadFeatures(layerData[data.name]["id"], dataScenes, dataSceneNames);
     miniMap.changeLayer(new L.TileLayer('maps/' + layerData[data.name]["folder"] + '/{z}/map_tile_{x}_{y}.png', {minZoom: 8, maxZoom: 8, attribution: "minimap"}));
   }
   
@@ -75,51 +75,29 @@
   map.setMaxBounds(mapBounds);
   
   L.control.layers(baseMaps, null, {collapsed: false}).addTo(map);
-  
 
-  
-function polygonArea(X, Y) 
-{ 
-  area = 0;         // Accumulates area in the loop
-  j = X.length-1;  // The last vertex is the 'previous' one to the first
-
-  for (i=0; i<X.length; i++)
-    { area = area +  (X[j]+X[i]) * (Y[j]-Y[i]); 
-      j = i;  //j is previous vertex to i
-    }
-  return Math.abs(area/2);
-}
 
 var myStyle = {
-  "color": "#000000",
+  "color": "#ff0000",
   "weight": 0,
-  "fill": false
+  "fill": false,
+  "lineJoin":  'round'
 };
   
-  
-var layerData;
-
-var sceneLayer;
-loadFeatures(0, dataRegions, dataRegionNames);
+var areaLayer = addOverlay(loadFeatures(0, dataRegions, dataRegionNames));
+addLabel(areaLayer);
+var sceneLayer = loadFeatures(0, dataScenes, dataSceneNames);
+var roomLayer = addOverlay(loadRooms(0, dataRooms));
 
 function loadFeatures(currentMap, data, names)
 {
-  layerData = Array();
+  var overlayData = Array();
   for(i in data[currentMap])
   {
     var currentFeature = data[currentMap][i];
-    console.log(currentFeature);
     if(Array.isArray(currentFeature.Outline))
     {
-      /*var coordsX = new Array();
-      var coordsY = new Array();
-      for(j in scene.Outline[0])
-      {
-        coordsX.push(scene.Outline[0][j][0]);
-        coordsY.push(scene.Outline[0][j][1]);
-      }
-      dataScenes[0][i].Area = polygonArea(coordsX, coordsY);*/
-      layerData.push(
+      overlayData.push(
       {
            "type": "Feature", 
            "geometry": { 
@@ -132,9 +110,37 @@ function loadFeatures(currentMap, data, names)
       });
     }
   }
+  return overlayData;
+}
 
+function loadRooms(currentMap, data)
+{
+  var overlayData = Array();
+  for(i in data[currentMap])
+  {
+    var currentFeature = data[currentMap][i];
+    if(Array.isArray(currentFeature.Outline))
+    {
+      overlayData.push(
+      {
+           "type": "Feature", 
+           "geometry": { 
+             "type": "Polygon", 
+             "coordinates": currentFeature.Outline
+           }, 
+           "properties": { 
+             "name": currentFeature.Name
+             } 
+      });
+    }
+  }
+  return overlayData;
+}
 
-   sceneLayer = L.geoJSON(layerData, {
+function addOverlay(overlayData)
+{
+  console.log(overlayData)
+  overlayLayer = L.geoJSON(overlayData, {
       style: myStyle,
       onEachFeature: function (feature, layer) {
         layer.on('mouseover', function () {
@@ -155,11 +161,14 @@ function loadFeatures(currentMap, data, names)
         });
       }
   }).addTo(map);
-  
-  sceneLayer.eachLayer(function(layer) {
+  return overlayLayer;
+}
+
+function addLabel(overlayLayer){
+  overlayLayer.eachLayer(function(layer) {
     var bounds = layer.getBounds();
     var fontSize = (bounds._northEast.lng - bounds._southWest.lng) / map.getZoom() * 3000;
-    if(fontSize > 8) {
+    if(fontSize > 2) {
       layer.bindTooltip("<span style='font-size: " + fontSize + "px'>" + layer.feature.properties.name + "</span>", {
         className: "label",
         permanent: true,
@@ -169,10 +178,9 @@ function loadFeatures(currentMap, data, names)
   });
 }
 
-
 map.on("zoomend", function(e)
 {
-  sceneLayer.eachLayer(function(layer) {
+  areaLayer.eachLayer(function(layer) {
     if(typeof layer.getTooltip() != "undefined")
     {
       if(map.getZoom() < 13){
@@ -190,8 +198,8 @@ map.on("zoomend", function(e)
   var osm2 = new L.TileLayer('maps/childangle/{z}/map_tile_{x}_{y}.png', {minZoom: 8, maxZoom: 8, attribution: "minimap"});
   var miniMap = new L.Control.MiniMap(osm2).addTo(map);
   
-  map.on('draw:created', function(e) {
-  
+map.on('draw:created', function(e) {
+
   var layerType = getLayerType(e.layer);
   var coords;
   var coordsText = "";
@@ -209,22 +217,8 @@ map.on("zoomend", function(e)
     }
     coordsText = coordsText.substring(0, coordsText.length - 2);
   }
- console.log("[[" + coordsText + "]]");
-  
-  /*console.log( 
-'  { "type": "Feature", \n' +
-'         "geometry": { \n' +
-'           "type": "' + layerType + '", \n' +
-'           "coordinates": [[\n' +
-'               ' + coordsText + ' \n' +
-'             ]]\n' +
-'         }, \n' +
-'         "properties": { \n' +
-'           "prop0": "value0", \n' +
-'           "prop1": {"this": "that"} \n' +
-'           } \n' +
-'         }\n');*/
-  });
+  console.log("[[" + coordsText + "]]");
+});
   
   function getLayerType(layer) {
 
