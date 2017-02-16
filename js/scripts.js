@@ -51,8 +51,12 @@
     map.setMaxBounds(mapBounds);
     map.setMinZoom(layerData[data.name]["zoom"]);
     map.setZoom(layerData[data.name]["zoom"]);
-    sceneLayer.remove();
-    loadFeatures(layerData[data.name]["id"], dataScenes, dataSceneNames);
+    regionLayer.remove();
+    roomLayer.remove();
+    regionLayer = addOverlay(loadFeatures(layerData[data.name]["id"], dataRegions, dataRegionNames));
+    addLabel(regionLayer);
+    sceneLayer = loadFeatures(layerData[data.name]["id"], dataScenes, dataSceneNames);
+    roomLayer = addOverlay(loadRooms(layerData[data.name]["id"], dataRooms));
     miniMap.changeLayer(new L.TileLayer('maps/' + layerData[data.name]["folder"] + '/{z}/map_tile_{x}_{y}.png', {minZoom: 8, maxZoom: 8, attribution: "minimap"}));
   }
   
@@ -84,8 +88,8 @@ var myStyle = {
   "lineJoin":  'round'
 };
   
-var areaLayer = addOverlay(loadFeatures(0, dataRegions, dataRegionNames));
-addLabel(areaLayer);
+var regionLayer = addOverlay(loadFeatures(0, dataRegions, dataRegionNames));
+addLabel(regionLayer);
 var sceneLayer = loadFeatures(0, dataScenes, dataSceneNames);
 var roomLayer = addOverlay(loadRooms(0, dataRooms));
 
@@ -142,7 +146,6 @@ function loadRooms(currentMap, data)
 
 function addOverlay(overlayData)
 {
-  console.log(overlayData)
   overlayLayer = L.geoJSON(overlayData, {
       style: myStyle,
       onEachFeature: function (feature, layer) {
