@@ -2298,15 +2298,9 @@ var dataRooms = {
       },
       {
          "Scene": 62,
-         "Room": 5,
-         "Name": "Octorok Pool Grotto",
-         "Outline": ""
-      },
-      {
-         "Scene": 62,
          "Room": 6,
          "Name": "Business Scrub Grotto (Deku Nut Upgrade)",
-         "Outline": ""
+         "Outline": [[[0.48162841796875, -0.25775146484375], [0.48162841796875, -0.250762939453125], [0.490692138671875, -0.250762939453125], [0.490692138671875, -0.25775146484375]]]
       },
       {
          "Scene": 62,

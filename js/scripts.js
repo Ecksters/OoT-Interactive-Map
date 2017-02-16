@@ -129,7 +129,10 @@ function loadRooms(currentMap, data)
              "coordinates": currentFeature.Outline
            }, 
            "properties": { 
-             "name": currentFeature.Name
+             "name": currentFeature.Name,
+             "scene": currentFeature.Scene,
+             "sceneName": dataSceneNames[currentFeature.Scene].Name,
+             "room": currentFeature.Room,
              } 
       });
     }
@@ -143,15 +146,17 @@ function addOverlay(overlayData)
   overlayLayer = L.geoJSON(overlayData, {
       style: myStyle,
       onEachFeature: function (feature, layer) {
-        layer.on('mouseover', function () {
+        layer.on('mouseover', function (e) {
           this.setStyle({
             'fill': true
           });
+          showTip(feature, e);
         });
         layer.on('mouseout', function () {
           this.setStyle({
             'fill': false
           });
+          $('#mouseTip').hide();
         });
         layer.on('click', function () {
           this.setStyle({
@@ -162,6 +167,15 @@ function addOverlay(overlayData)
       }
   }).addTo(map);
   return overlayLayer;
+}
+
+function showTip(feature, e)
+{
+  var mouseX =   e.originalEvent.pageX;
+  var mouseY = e.originalEvent.pageY;
+  $('#mouseTip').show().html("Scene ID: " +  feature.properties.scene + "<br>Scene Name: " + feature.properties.sceneName + "<br>Room ID: " + feature.properties.room + "<br>Room Description: " +feature.properties.name).css({
+            top:mouseY, left:mouseX
+        });
 }
 
 function addLabel(overlayLayer){
