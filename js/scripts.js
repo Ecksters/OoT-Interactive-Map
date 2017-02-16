@@ -21,6 +21,12 @@
     }),
     adultTopLayer: L.tileLayer('maps/adulttop/{z}/map_tile_{x}_{y}.png', {
       attribution: 'Adult Top View',
+    }),
+       childCombinedLayer: L.tileLayer('maps/childanglecombined/{z}/map_tile_{x}_{y}.png', {
+      attribution: 'Child Combined View',
+    }),
+       adultCombinedLayer: L.tileLayer('maps/adultanglecombined/{z}/map_tile_{x}_{y}.png', {
+      attribution: 'Adult Combined View',
     })
   };
   
@@ -29,6 +35,8 @@
   "Child Top View": {"id": 1, "southWest": [0, 15600], "northEast": [20940, 0], "folder": "childtop", "zoom": 11},
   "Adult Isometric View": {"id": 2, "southWest": [0, 15000], "northEast": [25000, 0], "folder": "adultangle", "zoom": 11},
   "Adult Top View": {"id": 3, "southWest": [0, 22000], "northEast": [30000, 0], "folder": "adulttop", "zoom": 10},
+  "Child Combined View": {"id": 4, "southWest": [-4000, 25000], "northEast": [33000, -2000], "folder": "adultanglecombined", "zoom": 11},
+  "Adult Combined View": {"id": 5, "southWest": [-4000, 25000], "northEast": [33000, -2000], "folder": "childanglecombined", "zoom": 11}
   };
  
   
@@ -50,7 +58,6 @@
     mapBounds = new L.LatLngBounds(southWest, northEast);
     map.setMaxBounds(mapBounds);
     map.setMinZoom(layerData[data.name]["zoom"]);
-    map.setZoom(layerData[data.name]["zoom"]);
     regionLayer.remove();
     roomLayer.remove();
     regionLayer = addOverlay(loadFeatures(layerData[data.name]["id"], dataRegions, dataRegionNames));
@@ -71,8 +78,9 @@
     "Child Isometric View": layers.childLayer,
     "Child Top View": layers.childTopLayer,
     "Adult Isometric View": layers.adultLayer,
-    "Adult Top View": layers.adultTopLayer
-    
+    "Adult Top View": layers.adultTopLayer,
+    "Child Combined View": layers.childCombinedLayer,
+    "Adult Combined View": layers.adultCombinedLayer
 };
   
  
