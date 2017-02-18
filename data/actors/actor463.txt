@@ -1,0 +1,12 @@
+Scene,Setup,Room
+83,0,1,01CF,5101,Skulltula Sprouting from Bean Spot,,-715,120,-340,0000,0000,0000
+83,1,1,01CF,5101,Skulltula Sprouting from Bean Spot,,-715,120,-340,0000,0000,0000
+85,0,0,01CF,4D01,Skulltula Sprouting from Bean Spot,,1190,0,-480,0000,0000,0000
+87,0,0,01CF,5301,Skulltula Sprouting from Bean Spot,,-2602,-1033,3617,0000,0000,0000
+90,0,0,01CF,5401,Skulltula Sprouting from Bean Spot,,-515,-2051,110,0000,0000,0000
+91,0,5,01CF,4E01,Skulltula Sprouting from Bean Spot,,-1220,0,935,0000,0000,0000
+91,0,6,01CF,4E02,Skulltula Sprouting from Bean Spot,,610,0,-1770,0000,0000,0000
+92,0,0,01CF,5601,Skulltula Sprouting from Bean Spot,,-1330,8,290,0000,0000,0000
+96,0,0,01CF,5002,Skulltula Sprouting from Bean Spot,,-1610,677,-735,0000,0000,0000
+97,0,1,01CF,5001,Skulltula Sprouting from Bean Spot,,-127,421,-168,0000,0000,0000
+Total: 10

@@ -1,0 +1,8 @@
+Scene,Setup,Room
+80,0,0,0189,0000,Uncursed Skulltula Person,,0,0,20,0000,0000,0000
+80,0,0,0189,0001,Uncursed Skulltula Person,,240,0,140,0000,AAAB,0000
+80,0,0,0189,0002,Uncursed Skulltula Person,,-240,0,140,0000,5555,0000
+80,0,0,0189,0003,Uncursed Skulltula Person,,0,0,-270,0000,0000,0000
+80,0,0,0189,0004,Uncursed Skulltula Person,,-240,0,-140,0000,2AAB,0000
+80,0,0,0189,0005,Uncursed Skulltula Person,,240,0,-140,0000,EAAB,0000
+Total: 6

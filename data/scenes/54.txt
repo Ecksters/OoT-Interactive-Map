@@ -1,0 +1,44 @@
+Scene at 02C54000
+Setup 0: 00000000
+15: Sound Settings: Reverb 5, Playback option Always Playing, Song 1F.
+04: There are 1 room(s). List starts at 00000080
+02C55000 02C83250
+0E: There are 1 transition actor(s). List starts at 00000070.
+00 FF -> 00 00, 0009:01BF, Locked Door, No Flag, (190, 0, 230) (0000, 4000, 0000)
+19: JPEG background camera related: 20 Overworld Region:  13
+03: Collision Header starts at 00000644
+Offset to vertex array 000004EC
+Offset to polygon array 0000010C
+Offset to polygon type defs 000000EC
+Offset to camera data 000000D4
+Offset to water boxes 00000000
+Size in bytes 1436
+06: Entrance Index Definitions starts at 00000088
+07: Elf_Message 1, Load Object 0002
+00: There are 1 position(s). List starts at 00000060.
+0000:0EFF Link, (147, 0, 234) (0000, C000, 0000)
+11: Skybox 15, Cast: Sunny, Fog? Yes
+13: Exit List starts at 0000008C. 042F 0000
+0F: There are 1 environment setting(s). List starts at 00000090.
+
+Room 0
+Room at 02C55000
+Setup 0: 00000000
+16: Sound Settings: Echo 1
+08: Room Behavior: ? 02, Show invisible actors? False, Idle Animation 04
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000E0
+0B: There are 5 Object(s). List starts at 00000040
+0027, 0088, 00D0, 00C0, 018B, 
+01: There are 9 actor(s). List starts at 0000004C
+00CB:FFFF Ingo, (-35, 0, 95) (0000, 78E4, 0002)
+00CB:FFFF Ingo, (-35, 0, 95) (0000, 78E4, 0003)
+00CB:FFFF Ingo, (-35, 0, 95) (0000, 78E4, 0004)
+00D9:FFFF Adult Malon, (120, 0, 0) (0000, CAAB, 0005)
+003C:000F Normal Horse, (355, 0, -245) (0000, 0000, 00AA)
+01C6:0000 Cow, (-122, 0, -254) (0000, 0000, 0000)
+01C6:0000 Cow, (-3, 0, -254) (0000, 0000, 0000)
+003C:000F Normal Horse, (238, 0, -245) (0000, 0000, 00AA)
+0084:0002 Talon, (-149, 0, 2) (0000, 4000, 0000)
+

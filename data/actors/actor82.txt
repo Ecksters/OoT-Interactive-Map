@@ -1,0 +1,3 @@
+Scene,Setup,Room
+20,0,1,0052,FFFF,Phantom Ganon,,15,606,-3321,0000,0000,0000
+Total: 1

@@ -1,0 +1,3 @@
+Scene,Setup,Room
+81,1,0,00F1,0003,Ocarina of Time,,299,-136,884,0000,0000,0000
+Total: 1

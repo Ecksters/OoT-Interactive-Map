@@ -1,0 +1,4 @@
+Scene,Setup,Room
+9,0,5,00D6,0000,Movable Ice Block,,-1060,0,-900,0000,0000,0000
+9,4,5,00D6,0000,Movable Ice Block,,-1060,0,-900,0000,0000,0000
+Total: 2

@@ -1,0 +1,3 @@
+Scene,Setup,Room
+17,0,1,0028,FFFF,Ghoma,,-160,-280,-371,0000,0000,0000
+Total: 1

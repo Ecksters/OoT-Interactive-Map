@@ -1,0 +1,4 @@
+Scene,Setup,Room
+67,5,0,017F,0001,The End message (Defunct?),,-1,70,39,0000,0000,0000
+74,4,0,017F,FFFF,The End message (Defunct?),,-216,44,33,0000,0000,0000
+Total: 2

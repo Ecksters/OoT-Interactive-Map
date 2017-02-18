@@ -1,0 +1,7 @@
+Scene,Setup,Room
+3,0,12,0093,021D,Poe Sisters Puzzle,Type: Joelle Painting; Perm: 1D,-707,1308,-3380,0000,C000,0000
+3,0,13,0093,031E,Poe Sisters Puzzle,Type: Beth Painting; Perm: 1E,825,1308,-3380,0000,4000,0000
+3,0,16,0093,011F,Poe Sisters Puzzle,Type: ??? Amy; Perm: 1F,2029,883,-1470,0000,4000,0000
+3,0,16,0093,041F,Poe Sisters Puzzle,Type: ??? Amy; Perm: 1F,2355,603,-1440,0000,C000,0000
+3,0,16,0093,001F,Poe Sisters Puzzle,Type: ??? Amy; Perm: 1F,2089,883,-1530,0000,4000,0000
+Total: 5

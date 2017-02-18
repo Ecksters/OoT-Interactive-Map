@@ -1,0 +1,4 @@
+Scene,Setup,Room
+13,0,3,01B7,0000,Large Square Ice Block,,3032,-320,-900,0000,4000,0000
+13,0,3,01B7,0000,Large Square Ice Block,,2792,-320,-1020,0000,4000,0000
+Total: 2

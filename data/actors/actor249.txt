@@ -1,0 +1,5 @@
+Scene,Setup,Room
+6,0,13,00F9,0000,Giant Rolling Boulder,,1569,-92,-1310,0000,C000,0000
+6,0,13,00F9,0000,Giant Rolling Boulder,,1569,-130,-1080,0000,4000,0000
+6,0,13,00F9,0000,Giant Rolling Boulder,,1569,-130,-813,0000,C000,0000
+Total: 3

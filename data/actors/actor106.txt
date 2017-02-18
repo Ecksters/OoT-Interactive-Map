@@ -1,0 +1,18 @@
+Scene,Setup,Room
+67,0,1,006A,0001,Temple of Time Windows,,0,276,1120,0000,0000,0000
+67,0,1,006A,0000,Temple of Time Windows,,-1,-39,1761,0000,0000,0000
+67,4,1,006A,0001,Temple of Time Windows,,0,276,1120,0000,0000,0000
+67,4,1,006A,0000,Temple of Time Windows,,-1,-39,1761,0000,0000,0000
+67,5,1,006A,0000,Temple of Time Windows,,-1,-39,1761,0000,0000,0000
+67,6,1,006A,0001,Temple of Time Windows,,0,276,1120,0000,0000,0000
+67,6,1,006A,0000,Temple of Time Windows,,-1,-39,1761,0000,0000,0000
+67,7,1,006A,0000,Temple of Time Windows,,-1,-39,1761,0000,0000,0000
+67,7,1,006A,0001,Temple of Time Windows,,0,276,1120,0000,0000,0000
+67,8,1,006A,0000,Temple of Time Windows,,-1,-39,1761,0000,0000,0000
+67,9,1,006A,0000,Temple of Time Windows,,-1,-39,1761,0000,0000,0000
+67,10,1,006A,0000,Temple of Time Windows,,-1,-39,1761,0000,0000,0000
+67,11,1,006A,0000,Temple of Time Windows,,-1,-39,1761,0000,0000,0000
+67,12,1,006A,0000,Temple of Time Windows,,-1,-39,1761,0000,0000,0000
+67,13,1,006A,0000,Temple of Time Windows,,-1,-39,1761,0000,0000,0000
+67,14,1,006A,0000,Temple of Time Windows,,-1,-39,1761,0000,0000,0000
+Total: 16

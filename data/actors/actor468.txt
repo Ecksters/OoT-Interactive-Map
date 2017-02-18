@@ -1,0 +1,4 @@
+Scene,Setup,Room
+57,0,0,01D4,0000,Running Man (Adult),,-75,0,-135,0000,0000,0000
+91,2,5,01D4,0001,Running Man (Adult),,-1140,-220,1569,0000,D1C7,0000
+Total: 2

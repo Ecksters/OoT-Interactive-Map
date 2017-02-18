@@ -1,0 +1,74 @@
+Scene at 0344A000
+Setup 0: 00000000
+15: Sound Settings: Reverb 6, Playback option Always Playing, Song 01.
+04: There are 2 room(s). List starts at 00000098
+0344F000 03466B80
+03467000 03470F20
+0E: There are 1 transition actor(s). List starts at 00000088.
+00 FF -> 01 FF, 0023:003F, Transition Plane, 00 FF -> 01 FF Type 0: No Flag, (1412, 196, -840) (0000, C000, 0000)
+19: JPEG background camera related: 00 Overworld Region:  15
+03: Collision Header starts at 00002ACC
+Offset to vertex array 000021A0
+Offset to polygon array 00000200
+Offset to polygon type defs 000001A8
+Offset to camera data 000001A0
+Offset to water boxes 00000000
+Size in bytes 10584
+06: Entrance Index Definitions starts at 000000A8
+07: Elf_Message 0, Load Object 0003
+0D: Pathway List starts at 00000184
+ 00) 000134  (746, 226, -840) (979, 226, -840) (1267, 196, -840) (1350, 196, -840)
+ 01) 00014C  (1665, 206, -837) (1876, 276, -879) (1986, 296, -801) (2165, 356, -846) (2318, 406, -878) (2426, 426, -800) (2638, 496, -840) (2807, 506, -840) (2950, 506, -840)
+
+00: There are 2 position(s). List starts at 00000068.
+0000:0EFF Link, (609, 208, -840) (0000, 4000, 0000)
+0000:0EFF Link, (2735, 506, -832) (0000, C000, 0000)
+11: Skybox 0, Cast: Sunny, Fog? Yes
+13: Exit List starts at 000000AC. 04B6 0517
+0F: There are 6 environment setting(s). List starts at 000000B0.
+
+Room 0
+Room at 0344F000
+Setup 0: 00000000
+16: Sound Settings: Echo 17
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000C0
+0B: There are 7 Object(s). List starts at 00000040
+0139, 0060, 014F, 0139, 0156, 0092, 0098, 
+01: There are 7 actor(s). List starts at 00000050
+003B:0012 Ambient Sound, Quake/Collapse, (867, 226, -824) (0000, 0000, 0000)
+0179:2903 ???, (746, 226, -837) (0000, C000, 0000)
+01CC:0000 Zelda's Path in Ganon Castle Escape?, (903, 226, -788) (0000, 0000, 0000)
+0177:2908 Metal Bars (Ganon's Castle), (1292, 196, -840) (0000, C000, 0000)
+0090:7F01 Redead, Standing, (942, 220, -912) (0000, 0000, 0000)
+00B5:0006 Flying rubble, (783, 226, -908) (0000, 0000, 0000)
+00B5:0006 Flying rubble, (1070, 202, -746) (0000, 0000, 0000)
+
+Room 1
+Room at 03467000
+Setup 0: 00000000
+16: Sound Settings: Echo 17
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000130
+0B: There are 6 Object(s). List starts at 00000040
+0139, 0060, 014F, 0139, 0156, 0092, 
+01: There are 14 actor(s). List starts at 0000004C
+003B:0012 Ambient Sound, Quake/Collapse, (2709, 506, -820) (0000, 0000, 0000)
+0179:2A13 ???, (1665, 206, -837) (0000, C000, 0000)
+01CC:0000 Zelda's Path in Ganon Castle Escape?, (1578, 196, -837) (0000, 0000, 0000)
+0177:2A09 Metal Bars (Ganon's Castle), (2832, 506, -840) (0000, C000, 0000)
+00B5:0005 Flying rubble, (1986, 446, -860) (0000, 0000, 0000)
+00B5:0005 Flying rubble, (2429, 576, -866) (0000, 0000, 0000)
+00B5:0006 Flying rubble, (1777, 256, -799) (0000, 0000, 0000)
+00B5:0006 Flying rubble, (2062, 296, -884) (0000, 0000, 0000)
+00B5:0006 Flying rubble, (2198, 386, -784) (0000, 0000, 0000)
+00B5:0006 Flying rubble, (2495, 446, -882) (0000, 0000, 0000)
+0008:03F5 Decorative Flame, (1931, 338, -770) (0000, 8000, 0000)
+0008:03F5 Decorative Flame, (1933, 338, -910) (0000, 0000, 0000)
+0008:03F5 Decorative Flame, (2370, 468, -770) (0000, 8000, 0000)
+0008:03F5 Decorative Flame, (2374, 468, -910) (0000, 0000, 0000)
+

@@ -1,0 +1,3 @@
+Scene,Setup,Room
+0,0,2,012C,0050,Square Collapsing Platform,,-1188,390,1190,0000,E000,0000
+Total: 1

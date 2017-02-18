@@ -1,0 +1,9 @@
+Scene,Setup,Room
+13,0,1,01A7,0000,Ganon's Tower Magic Barrier,,0,-240,-840,0000,0000,0000
+13,0,4,01A7,0001,Ganon's Tower Magic Barrier,,3962,-210,-840,0000,C000,0000
+13,0,7,01A7,0006,Ganon's Tower Magic Barrier,,2014,140,2648,0000,9555,0000
+13,0,11,01A7,0002,Ganon's Tower Magic Barrier,,-4149,-180,-840,0000,4000,0000
+13,0,13,01A7,0004,Ganon's Tower Magic Barrier,,2351,240,-4912,0000,EAAB,0000
+13,0,15,01A7,0003,Ganon's Tower Magic Barrier,,-2187,183,-4268,0000,1555,0000
+13,0,19,01A7,0005,Ganon's Tower Magic Barrier,,-1531,180,1812,0000,6AAB,0000
+Total: 7

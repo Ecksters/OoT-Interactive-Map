@@ -1,0 +1,4 @@
+Scene,Setup,Room
+84,0,0,013E,FFFF,Been Seller,,-717,100,-312,0000,C000,0000
+99,8,0,013E,FFFF,Been Seller,,464,16,-265,0000,AD83,0000
+Total: 2

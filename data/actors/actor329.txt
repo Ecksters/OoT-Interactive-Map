@@ -1,0 +1,4 @@
+Scene,Setup,Room
+78,0,0,0149,0000,Potion Shop Hag,,-14,-22,84,0000,0000,0000
+99,8,0,0149,0000,Potion Shop Hag,,639,10,-397,0000,D6C1,0000
+Total: 2

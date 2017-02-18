@@ -1,0 +1,4 @@
+Scene,Setup,Room
+7,0,4,00A4,FFFF,Dead Hand,,-2424,-63,-413,0000,0000,0000
+8,0,4,00A4,FFFF,Dead Hand,,1281,-20,211,0000,C000,0000
+Total: 2

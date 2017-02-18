@@ -1,0 +1,14 @@
+Scene,Setup,Room
+69,0,0,008F,0000,Castle Courtyard Guards,,1600,0,-130,0000,0000,0000
+69,0,0,008F,0001,Castle Courtyard Guards,,950,0,-120,0000,0000,0000
+69,0,0,008F,0102,Castle Courtyard Guards,,690,0,160,0000,8000,0000
+69,0,0,008F,0303,Castle Courtyard Guards,,55,0,120,0000,C000,0000
+69,0,0,008F,0204,Castle Courtyard Guards,,-500,0,-120,0000,0000,0000
+69,0,0,008F,0305,Castle Courtyard Guards,,-1170,0,-600,0000,0000,0000
+69,0,0,008F,0206,Castle Courtyard Guards,,-911,0,125,0000,8000,0000
+69,0,0,008F,0307,Castle Courtyard Guards,,-1450,0,-80,0000,8000,0000
+69,0,0,008F,05FF,Castle Courtyard Guards,,1874,0,140,0000,493F,0000
+69,0,0,008F,05FF,Castle Courtyard Guards,,1932,0,221,0000,5555,0000
+70,0,0,008F,05FF,Castle Courtyard Guards,,1924,0,122,0000,4444,0000
+70,0,0,008F,05FF,Castle Courtyard Guards,,1989,0,218,0000,4FA5,0000
+Total: 12

@@ -1,0 +1,191 @@
+Scene at 03292000
+Setup 0: 00000000
+15: Sound Settings: Reverb 3, Playback option Always Playing, Song 18.
+04: There are 6 room(s). List starts at 00000130
+032A0000 032A4D40
+032A5000 032AC2B0
+032AD000 032B0E50
+032B1000 032BC310
+032BD000 032C0920
+032C1000 032C5E40
+19: JPEG background camera related: 00 Overworld Region:  0C
+03: Collision Header starts at 000074EC
+Offset to vertex array 00005C20
+Offset to polygon array 00000460
+Offset to polygon type defs 00000358
+Offset to camera data 00000318
+Offset to water boxes 00000000
+Size in bytes 29184
+06: Entrance Index Definitions starts at 00000160
+07: Elf_Message 0, Load Object 0003
+0D: Pathway List starts at 000002AC
+ 00) 0001F0  (-13, 0, -2399) (75, 0, -2455) (15, 0, -2507) (-109, 0, -2514) (-123, 0, -2646) (-127, 0, -2945) (-633, 0, -2945)
+ 01) 00021C  (327, -240, -1123) (394, -240, -1179) (351, -240, -1239) (204, -240, -1240) (79, -240, -920) (78, 0, -332) (-368, 0, -338)
+ 02) 000248  (524, 0, 425) (455, 0, 471) (396, 0, 444) (399, 0, 342) (720, 0, 178) (1102, 120, 177) (1101, 120, -224)
+ 03) 000274  (2162, 0, -2868) (2218, 0, -2919) (2184, 0, -2982) (2067, 0, -2981) (1647, 0, -2751) (1387, 0, -2742) (1387, 0, -2316) (1026, 0, -2298) (1039, 0, -1798)
+
+00: There are 13 position(s). List starts at 00000060.
+0000:0DFF Link, (-296, 0, -2951) (0000, 4000, 0000)
+0000:0DFF Link, (-301, 0, -2023) (0000, 8000, 0000)
+0000:0DFF Link, (877, -91, -1502) (0000, 4000, 0000)
+0000:0DFF Link, (892, 85, -977) (0000, 4000, 0000)
+0000:0DFF Link, (-105, 0, -335) (0000, 4000, 0000)
+0000:0DFF Link, (538, 0, -1920) (0000, C000, 0000)
+0000:0DFF Link, (-416, -80, 39) (0000, 4000, 0000)
+0000:0DFF Link, (1102, 120, 30) (0000, 0000, 0000)
+0000:0DFF Link, (1487, 211, -985) (0000, 4000, 0000)
+0000:0DFF Link, (2188, 297, -1343) (0000, 4000, 0000)
+0000:0DFF Link, (1153, -160, -3048) (0000, 4000, 0000)
+0000:0DFF Link, (-1287, 600, -3503) (0000, 4000, 0000)
+0000:0DFF Link, (1061, 0, -2037) (0000, 8000, 0000)
+11: Skybox 0, Cast: Sunny, Fog? Yes
+13: Exit List starts at 0000017C. 0231 0235 0239 02AA 02BA 02BE 02C2 02C6 02D2 02D6 02DA 02DE 03A4 0000
+0F: There are 4 environment setting(s). List starts at 00000198.
+
+Room 0
+Room at 032A0000
+Setup 0: 00000000
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000F0
+0B: There are 7 Object(s). List starts at 00000040
+00A4, 0122, 014B, 0169, 0167, 0170, 0116, 
+01: There are 10 actor(s). List starts at 00000050
+0186:FF01 Patrolling Gerudo, (1344, -160, -3640) (0000, 471C, 0000)
+0186:0800 Patrolling Gerudo, (1306, 216, -3480) (0000, 40B6, 0002)
+0112:1D3F Invisible Collectible, 03 14 3F, (820, 214, -3511) (0000, 0000, 0001)
+0112:1D3F Invisible Collectible, 03 14 3F, (38, 210, -3509) (0000, 0000, 0001)
+0111:5409 Breakable Pot, Collectable: 09 Temp: 0A, (1438, -108, -3629) (0000, 0000, 0000)
+0111:560E Breakable Pot, Collectable: 0E Temp: 0B, (1403, -108, -3679) (0000, 0000, 0000)
+01A0:FFFF Large Crate, (1600, -160, -3550) (0000, 0000, 0000)
+01A0:FFFF Large Crate, (1600, -160, -3502) (0000, 0000, 0000)
+01A0:FFFF Large Crate, (1360, -160, -3325) (0000, 0000, 0000)
+01A0:FFFF Large Crate, (1260, -160, -3155) (0000, 0000, 0000)
+
+Room 1
+Room at 032A5000
+Setup 0: 00000000
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000100
+0B: There are 7 Object(s). List starts at 00000040
+00A4, 0122, 014B, 0169, 0167, 0170, 0116, 
+01: There are 11 actor(s). List starts at 00000050
+0172:0A04 Metal Grate Door (Boss Door?), (2136, 0, -2980) (0000, C000, 0000)
+0197:0A00 Gerudo Fighter, (1912, 300, -2896) (0000, 4000, 0010)
+0186:1600 Patrolling Gerudo, (1598, 0, -2314) (0000, C000, 0003)
+0112:1D3F Invisible Collectible, 03 14 3F, (1666, 112, -2323) (0000, 0000, 0001)
+0112:1D3F Invisible Collectible, 03 14 3F, (1378, 107, -2829) (0000, 0000, 0001)
+005E:2400 Lit Wooden Torch, Perm: 00, (1680, 0, -3080) (0000, C000, 0000)
+005E:2400 Lit Wooden Torch, Perm: 00, (2080, 0, -2680) (0000, C000, 0000)
+005E:2400 Lit Wooden Torch, Perm: 00, (2080, 0, -3080) (0000, C000, 0000)
+0133:0433 Carpenter, (2162, 0, -2868) (0000, C000, 0010)
+0185:4708 Check Spot, Instant, dialog Hey, you! Young man, over there! Look ov, Perm: 08, (2159, 55, -2870) (0000, C000, 000A)
+01A0:FFFF Large Crate, (1090, 0, -2210) (0000, 0000, 0000)
+
+Room 2
+Room at 032AD000
+Setup 0: 00000000
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000100
+0B: There are 7 Object(s). List starts at 00000040
+00A4, 0122, 014B, 0169, 0167, 0170, 0116, 
+01: There are 11 actor(s). List starts at 00000050
+0172:0C01 Metal Grate Door (Boss Door?), (-44, 0, -2509) (0000, C000, 0000)
+0197:0C00 Gerudo Fighter, (-178, 300, -2424) (0000, C000, 0011)
+0112:1D3F Invisible Collectible, 03 14 3F, (-307, 172, -2200) (0000, 0000, 0001)
+0112:1D3F Invisible Collectible, 03 14 3F, (-305, 172, -2633) (0000, 0000, 0001)
+005E:2400 Lit Wooden Torch, Perm: 00, (-100, 0, -2229) (0000, C000, 0000)
+0133:0100 Carpenter, (-13, 0, -2399) (0000, C000, 0011)
+0111:4003 Breakable Pot, Collectable: 03 Temp: 00, (-475, 0, -2622) (0000, 0000, 0000)
+0111:4209 Breakable Pot, Collectable: 09 Temp: 01, (-511, 0, -2582) (0000, 0000, 0000)
+0111:4402 Breakable Pot, Collectable: 02 Temp: 02, (-512, 0, -2621) (0000, 0000, 0000)
+0185:4705 Check Spot, Instant, dialog Hey, you! Young man, over there! Look ov, Perm: 05, (-15, 45, -2396) (0000, C000, 0005)
+01A0:FFFF Large Crate, (-510, 0, -2213) (0000, 0000, 0000)
+
+Room 3
+Room at 032B1000
+Setup 0: 00000000
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000130
+0B: There are 8 Object(s). List starts at 00000040
+00A4, 0122, 014B, 0169, 0167, 0170, 0024, 0116, 
+01: There are 14 actor(s). List starts at 00000050
+003B:0014 Ambient Sound, Torches, (1940, 0, -585) (0000, 0000, 0000)
+0186:0800 Patrolling Gerudo, (2105, 0, -900) (0000, 0000, 0002)
+0186:0800 Patrolling Gerudo, (1783, 0, -583) (0000, 8000, 0002)
+0112:1D3F Invisible Collectible, 03 14 3F, (1204, 93, -610) (0000, 0000, 0001)
+0112:12BF Invisible Collectible, 02 0A 3F, (1940, 40, -585) (0000, 0000, 0001)
+0111:4609 Breakable Pot, Collectable: 09 Temp: 03, (1908, 52, -789) (0000, 0000, 0000)
+0111:4803 Breakable Pot, Collectable: 03 Temp: 04, (1951, 52, -850) (0000, 0000, 0000)
+01A0:FFFF Large Crate, (1610, 0, -624) (0000, 0000, 0000)
+0186:0A00 Patrolling Gerudo, (1551, 0, -660) (0000, C000, 0002)
+0183:FF40 Song of Storms Fairy (Giant Fairy?), (2138, 0, -621) (0000, 0000, 0000)
+01A0:FFFF Large Crate, (1256, 0, -787) (0000, C000, 0000)
+01A0:FFFF Large Crate, (1256, 0, -847) (0000, C000, 0000)
+01A0:FFFF Large Crate, (1144, 0, -1251) (0000, C000, 0000)
+01A0:FFFF Large Crate, (1144, 0, -1191) (0000, C000, 0000)
+
+Room 4
+Room at 032BD000
+Setup 0: 00000000
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000110
+0B: There are 7 Object(s). List starts at 00000040
+00A4, 0122, 014B, 0169, 0167, 0170, 0116, 
+01: There are 12 actor(s). List starts at 00000050
+0172:0E02 Metal Grate Door (Boss Door?), (296, -240, -1240) (0000, C000, 0000)
+0197:0E00 Gerudo Fighter, (68, 60, -1146) (0000, 4000, 0012)
+0112:1D3F Invisible Collectible, 03 14 3F, (77, -72, -1345) (0000, 0000, 0001)
+0112:1D3F Invisible Collectible, 03 14 3F, (71, -70, -928) (0000, 0000, 0001)
+005E:2400 Lit Wooden Torch, Perm: 00, (-80, -240, -960) (0000, C000, 0000)
+005E:2400 Lit Wooden Torch, Perm: 00, (-80, -240, -1320) (0000, C000, 0000)
+005E:2400 Lit Wooden Torch, Perm: 00, (240, -240, -1320) (0000, C000, 0000)
+005E:2400 Lit Wooden Torch, Perm: 00, (240, -240, -960) (0000, C000, 0000)
+0133:0211 Carpenter, (327, -240, -1123) (0000, C000, 0012)
+0111:4A01 Breakable Pot, Collectable: 01 Temp: 05, (67, -80, -1975) (0000, 0000, 0000)
+0111:4C03 Breakable Pot, Collectable: 03 Temp: 06, (39, -80, -1943) (0000, 0000, 0000)
+0185:4706 Check Spot, Instant, dialog Hey, you! Young man, over there! Look ov, Perm: 06, (326, -181, -1123) (0000, C000, 0006)
+
+Room 5
+Room at 032C1000
+Setup 0: 00000000
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000160
+0B: There are 8 Object(s). List starts at 00000040
+00A4, 0122, 014B, 0169, 0167, 0170, 0024, 0116, 
+01: There are 17 actor(s). List starts at 00000050
+0172:0F03 Metal Grate Door (Boss Door?), (401, 0, 397) (0000, 8000, 0000)
+0197:0F00 Gerudo Fighter, (532, 300, 203) (0000, 0000, 0013)
+0112:1D3F Invisible Collectible, 03 14 3F, (-65, 174, 173) (0000, 0000, 0001)
+0112:1D3F Invisible Collectible, 03 14 3F, (709, 166, 180) (0000, 0000, 0001)
+005E:2400 Lit Wooden Torch, Perm: 00, (-39, 0, 341) (0000, C000, 0000)
+005E:2400 Lit Wooden Torch, Perm: 00, (681, 0, 341) (0000, C000, 0000)
+0133:0322 Carpenter, (524, 0, 425) (0000, 8000, 0013)
+0111:4E03 Breakable Pot, Collectable: 03 Temp: 07, (661, 0, 16) (0000, 0000, 0000)
+0111:5001 Breakable Pot, Collectable: 01 Temp: 08, (691, 0, 48) (0000, 0000, 0000)
+0111:5202 Breakable Pot, Collectable: 02 Temp: 09, (691, 0, 16) (0000, 0000, 0000)
+0111:5803 Breakable Pot, Collectable: 03 Temp: 0C, (254, 0, 529) (0000, 0000, 0000)
+0111:5A03 Breakable Pot, Collectable: 03 Temp: 0D, (215, 0, 549) (0000, 0000, 0000)
+0111:5C03 Breakable Pot, Collectable: 03 Temp: 0E, (26, 0, 524) (0000, 0000, 0000)
+0111:5E03 Breakable Pot, Collectable: 03 Temp: 0F, (61, 0, 549) (0000, 0000, 0000)
+0185:4707 Check Spot, Instant, dialog Hey, you! Young man, over there! Look ov, Perm: 07, (523, 54, 424) (0000, 8000, 0006)
+01A0:FFFF Large Crate, (11, 0, 11) (0000, 0000, 0000)
+01A0:FFFF Large Crate, (-49, 0, 11) (0000, 0000, 0000)
+

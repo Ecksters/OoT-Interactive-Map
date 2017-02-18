@@ -1,0 +1,8 @@
+Scene,Setup,Room
+4,0,1,01D6,3820,Time Block Spawning (Green Navi) Spot,,1560,100,-1340,0000,0000,0000
+4,0,1,01D6,B820,Time Block Spawning (Green Navi) Spot,,1560,240,-1390,0000,0000,0000
+4,0,11,01D6,B021,Time Block Spawning (Green Navi) Spot,,-2030,2940,-2,0000,0000,0000
+4,0,11,01D6,3021,Time Block Spawning (Green Navi) Spot,,-1730,2800,188,0000,0000,0000
+6,0,13,01D6,3811,Time Block Spawning (Green Navi) Spot,,1278,-33,-1355,0000,0000,0003
+6,0,13,01D6,B811,Time Block Spawning (Green Navi) Spot,,1278,-33,-1085,0000,0000,0003
+Total: 6

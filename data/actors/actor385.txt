@@ -1,0 +1,3 @@
+Scene,Setup,Room
+62,0,0,0181,0000,Grotto Chest,,43,-36,-473,0000,8000,0000
+Total: 1

@@ -1,0 +1,3 @@
+Scene,Setup,Room
+3,0,6,0086,1500,Large Round Platform (Forest Temple),,209,827,-3320,0000,0000,0000
+Total: 1

@@ -1,0 +1,7 @@
+Scene,Setup,Room
+93,0,0,0191,0002,Gerudo Fortress Training Area Gate,,86,337,-1035,0000,C000,0000
+93,2,0,0191,003A,Gerudo Fortress Training Area Gate,,86,337,-1035,0000,C000,0000
+93,3,0,0191,003A,Gerudo Fortress Training Area Gate,,86,337,-1035,0000,C000,0000
+93,5,0,0191,00FF,Gerudo Fortress Training Area Gate,,86,337,-1035,0000,C000,0000
+93,6,0,0191,00FF,Gerudo Fortress Training Area Gate,,86,337,-1035,0000,C000,0000
+Total: 5

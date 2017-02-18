@@ -1,0 +1,5 @@
+Scene,Setup,Room
+98,0,2,013D,0006,Lockable Blue Arrow Spot,,-951,400,1317,0000,399A,0000
+98,2,2,013D,0006,Lockable Blue Arrow Spot,,-951,400,1317,0000,399A,0000
+98,4,2,013D,0006,Lockable Blue Arrow Spot,,-951,400,1317,0000,399A,0000
+Total: 3

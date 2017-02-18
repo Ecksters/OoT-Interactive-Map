@@ -1,0 +1,8 @@
+Scene,Setup,Room
+80,0,0,0188,0000,Cursed Skulltula Person,,0,280,20,0000,0000,0000
+80,0,0,0188,0001,Cursed Skulltula Person,,240,280,140,0000,AAAB,0000
+80,0,0,0188,0002,Cursed Skulltula Person,,-240,280,140,0000,5555,0000
+80,0,0,0188,0003,Cursed Skulltula Person,,0,280,-270,0000,0000,0000
+80,0,0,0188,0004,Cursed Skulltula Person,,-240,280,-140,0000,2AAB,0000
+80,0,0,0188,0005,Cursed Skulltula Person,,240,280,-140,0000,EAAB,0000
+Total: 6

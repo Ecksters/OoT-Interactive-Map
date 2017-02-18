@@ -1,0 +1,6 @@
+Scene,Setup,Room
+4,0,2,0041,000E,Huge Stone Spike Platform (Fire Temple),,-1020,3000,0,0000,4000,0000
+4,0,10,0041,000E,Huge Stone Spike Platform (Fire Temple),,-1020,3000,0,0000,4000,0000
+4,0,10,0041,0110,Huge Stone Spike Platform (Fire Temple),,-1220,3700,0,0000,0000,0000
+4,0,13,0041,0211,Huge Stone Spike Platform (Fire Temple),,-2341,4420,-300,0000,E0B6,0000
+Total: 4

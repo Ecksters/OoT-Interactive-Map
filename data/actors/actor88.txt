@@ -1,0 +1,5 @@
+Scene,Setup,Room
+1,0,0,0058,00FF,Rising Stone Actor,,-420,-180,-1180,0000,0000,0000
+1,0,0,0058,00FF,Rising Stone Actor,,0,-180,-780,0000,0000,0000
+1,0,0,0058,000A,Rising Stone Actor,,420,-180,-1180,0000,0000,0000
+Total: 3

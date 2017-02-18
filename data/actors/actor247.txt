@@ -1,0 +1,10 @@
+Scene,Setup,Room
+7,0,2,00F7,1B00,Shadow Temple Truth Spinner,,666,-63,55,0000,0000,0000
+7,0,2,00F7,1B01,Shadow Temple Truth Spinner,,666,-63,55,0000,0000,0000
+7,0,2,00F7,1B03,Shadow Temple Truth Spinner,,456,17,55,0000,0000,0000
+7,0,2,00F7,1B03,Shadow Temple Truth Spinner,,561,17,-127,0000,D555,0000
+7,0,2,00F7,1B03,Shadow Temple Truth Spinner,,771,17,-127,0000,AAAB,0000
+7,0,2,00F7,1B03,Shadow Temple Truth Spinner,,561,17,237,0000,2AAB,0000
+7,0,2,00F7,1B03,Shadow Temple Truth Spinner,,771,17,237,0000,5555,0000
+7,0,2,00F7,1B02,Shadow Temple Truth Spinner,,1421,-63,55,0000,0000,0000
+Total: 8

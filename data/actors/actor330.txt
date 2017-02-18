@@ -1,0 +1,4 @@
+Scene,Setup,Room
+56,0,0,014A,0000,Lakeside Professor,,-100,0,53,0000,07D2,0000
+99,8,0,014A,0000,Lakeside Professor,,422,19,-339,0000,0000,0000
+Total: 2

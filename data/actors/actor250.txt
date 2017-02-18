@@ -1,0 +1,6 @@
+Scene,Setup,Room
+6,0,23,00FA,0000,Sliding Climbable Brick Wall (Spirit Temple),,680,1243,-87,0000,0000,0000
+6,0,23,00FA,0000,Sliding Climbable Brick Wall (Spirit Temple),,680,1343,-87,0000,0000,0000
+6,0,23,00FA,0000,Sliding Climbable Brick Wall (Spirit Temple),,680,1043,-87,0000,0000,0000
+6,0,23,00FA,0000,Sliding Climbable Brick Wall (Spirit Temple),,680,943,-87,0000,0000,0000
+Total: 4

@@ -1,0 +1,6 @@
+Scene,Setup,Room
+0,0,3,0050,FF02,Deku Tree Puzzle Elements,,-1080,600,0,0000,0000,0000
+0,0,5,0050,FF00,Deku Tree Puzzle Elements,,-835,-880,1050,0000,4000,0000
+0,0,5,0050,3E01,Deku Tree Puzzle Elements,,-835,-900,1050,0000,0000,0000
+0,0,10,0050,3D02,Deku Tree Puzzle Elements,,-1080,580,0,0000,0000,0000
+Total: 4

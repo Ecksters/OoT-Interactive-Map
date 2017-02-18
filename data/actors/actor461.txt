@@ -1,0 +1,4 @@
+Scene,Setup,Room
+11,0,3,01CD,0000,Circular Piece of Stone Wall,,-1157,279,-2747,0000,C000,0000
+11,0,8,01CD,0001,Circular Piece of Stone Wall,,-279,120,-1180,0000,0000,0000
+Total: 2

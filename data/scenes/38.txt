@@ -1,0 +1,41 @@
+Scene at 02686000
+Setup 0: 00000000
+15: Sound Settings: Reverb 5, Playback option Always Playing, Song 1F.
+04: There are 1 room(s). List starts at 00000068
+02687000 026B2C30
+19: JPEG background camera related: 20 Overworld Region:  04
+03: Collision Header starts at 00000C8C
+Offset to vertex array 0000099C
+Offset to polygon array 000000FC
+Offset to polygon type defs 000000CC
+Offset to camera data 000000B4
+Offset to water boxes 00000000
+Size in bytes 3076
+06: Entrance Index Definitions starts at 00000070
+07: Elf_Message 0, Load Object 0002
+00: There are 1 position(s). List starts at 00000058.
+0000:0E00 Link, (-1, 0, -134) (0000, 0000, 0000)
+11: Skybox 12, Cast: Sunny, Fog? Yes
+13: Exit List starts at 00000074. 026A 0000
+0F: There are 1 environment setting(s). List starts at 00000078.
+
+Room 0
+Room at 02687000
+Setup 0: 00000000
+16: Sound Settings: Echo 3
+08: Room Behavior: ? 02, Show invisible actors? False, Idle Animation 05
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000D0
+0B: There are 4 Object(s). List starts at 00000040
+00FC, 00FD, 00C5, 012C, 
+01: There are 8 actor(s). List starts at 00000048
+003B:0014 Ambient Sound, Torches, (0, 0, 4) (0000, 0000, 0000)
+0163:FF07 Kokiri Child, (64, 1, -108) (0000, ECCD, 0000)
+0163:FF08 Kokiri Child, (1, 12, 121) (0000, A000, 0000)
+0163:FF0B Kokiri Child, (92, 12, 79) (0000, A5B0, 0000)
+0163:FF07 Kokiri Child, (14, 9, -36) (0000, 69F5, 0001)
+0163:FF07 Kokiri Child, (85, 1, -84) (0000, F3E9, 0002)
+0111:4100 Breakable Pot, Collectable: 00 Temp: 00, (-134, 0, -29) (0000, 0000, 0000)
+0111:4300 Breakable Pot, Collectable: 00 Temp: 01, (-68, 0, 114) (0000, 0000, 0000)
+

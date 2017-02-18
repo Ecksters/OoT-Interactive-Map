@@ -1,0 +1,11 @@
+Scene,Setup,Room
+2,0,12,0187,7828,Timer,Room Clear Time: 00:40 Perm: 1E,-651,-340,-5767,0000,0000,0000
+5,0,2,0187,3BFF,Timer,Clear to Switch Flag converter Perm: 0E,181,-500,236,0000,0000,0000
+7,0,16,0187,0FFF,Timer,Clear to Switch Flag converter Perm: 03,5319,-1143,2142,0000,0000,0000
+10,0,2,0187,2BFF,Timer,Clear to Switch Flag converter Perm: 0A,-94,260,-11,0000,0000,0000
+11,0,1,0187,7C3C,Timer,Room Clear Time: 01:00 Perm: 1F,-1606,-90,-123,0000,0000,0000
+11,0,2,0187,705A,Timer,Room Clear Time: 01:30 Perm: 1C,-1583,105,-1113,0000,0000,0000
+11,0,7,0187,785A,Timer,Room Clear Time: 01:30 Perm: 1E,1553,-59,-171,0000,0000,0000
+13,0,3,0187,FC78,Timer,Room Clear Time: 02:00 No Flag,2646,-320,-896,0000,0000,0000
+13,0,8,0187,FC3C,Timer,Room Clear Time: 01:00 No Flag,-2713,-120,-842,0000,0000,0000
+Total: 9

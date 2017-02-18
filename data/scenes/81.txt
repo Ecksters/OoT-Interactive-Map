@@ -1,0 +1,843 @@
+Scene at 01FB8000
+Setup 0: 00000000
+18: Alternate headers start at 00000068.
+15: Sound Settings: Reverb 2, Playback option 00, Song 02.
+04: There are 1 room(s). List starts at 000001B8
+01FE3000 01FF8230
+19: JPEG background camera related: 00 Overworld Region:  00
+03: Collision Header starts at 00008464
+Offset to vertex array 000068C8
+Offset to polygon array 00000618
+Offset to polygon type defs 00000430
+Offset to camera data 00000410
+Offset to water boxes 00008404
+Size in bytes 32896
+06: Entrance Index Definitions starts at 000001C0
+07: Elf_Message 1, Load Object 0002
+0D: Pathway List starts at 00000400
+ 00) 00037C  (5139, -37, 5369) (4888, -30, 4719) (4932, -44, 4113) (5427, -44, 3840) (6025, -44, 3995) (5427, -37, 3833) (4674, -37, 3003) (4383, -30, 2189) (3401, -30, 1716) (2049, -30, 926) (1518, -37, 424) (1311, -30, 320) (766, -44, 877) (-641, -37, 882) (-872, -61, 965) (-1854, -48, 23) (-1908, -34, -1212) (-2810, 125, -574) (-2816, -61, -601) (-3334, -61, -43) (-4436, -48, 581) (-6348, -74, 860)
+
+00: There are 18 position(s). List starts at 00000098.
+0000:0DFF Link, (160, 0, 1415) (0000, F1C7, 0000)
+0000:0DFF Link, (3757, 251, 232) (0000, E000, 0000)
+0000:0FFF Link, (5984, -20, 3773) (0000, B1C7, 0000)
+0000:0FFF Link, (5105, -160, 8467) (0000, C000, 0000)
+0000:0FFF Link, (-5891, -881, 15676) (0000, 8AAB, 0000)
+0000:0FFF Link, (-9645, -155, 6850) (0000, 0AAB, 0000)
+0000:0DFF Link, (-1850, 196, 5956) (0000, 638E, 0000)
+0000:0FFF Link, (1, 0, 697) (0000, 0000, 0000)
+0000:0FFF Link, (-5920, -876, 15632) (0000, 8AAB, 0000)
+0000:0FFF Link, (0, 70, 1380) (0000, 8000, 0000)
+0000:0FFF Link, (-2499, -300, 398) (0000, 8E39, 0000)
+0000:0FFF Link, (-2953, 100, 8336) (0000, 0000, 0000)
+0000:0FFF Link, (-4668, -122, 6865) (0000, C000, 0000)
+0000:0FFF Link, (-1391, 100, 6865) (0000, 4000, 0000)
+0000:0FFF Link, (5977, -135, 3982) (0000, B1C7, 0000)
+0000:0FFF Link, (-8, 0, 1461) (0000, 8000, 0000)
+0000:0DFF Link, (0, 0, 1289) (0000, 0000, 0000)
+0000:0DFF Link, (186, 0, 1327) (0000, 4000, 0000)
+11: Skybox 1, Cast: Sunny, Fog? No
+13: Exit List starts at 000001E4. 0033 00DB 00EA 04DE 0102 0117 0157 0276 0102 036D 003F 02AE 02E2 02E6 01D9 0000
+0F: There are 17 environment setting(s). List starts at 00000204.
+
+Setup 1: 00011690
+15: Sound Settings: Reverb 2, Playback option 00, Song 02.
+04: There are 1 room(s). List starts at 00011810
+01FE3000 01FF8230
+19: JPEG background camera related: 00 Overworld Region:  00
+03: Collision Header starts at 00008464
+Offset to vertex array 000068C8
+Offset to polygon array 00000618
+Offset to polygon type defs 00000430
+Offset to camera data 00000410
+Offset to water boxes 00008404
+Size in bytes 32896
+06: Entrance Index Definitions starts at 00011818
+07: Elf_Message 1, Load Object 0002
+0D: Pathway List starts at 00011AB4
+ 00) 0119D4  (5139, -37, 5369) (4888, -30, 4719) (4932, -44, 4113) (5427, -44, 3840) (6025, -44, 3995) (5427, -37, 3833) (4674, -37, 3003) (4383, -30, 2189) (3401, -30, 1716) (2049, -30, 926) (1518, -37, 424) (1311, -30, 320) (766, -44, 877) (-641, -37, 882) (-872, -61, 965) (-1854, -48, 23) (-1908, -34, -1212) (-2810, 125, -574) (-2816, -61, -601) (-3334, -61, -43) (-4436, -48, 581) (-6348, -74, 860)
+ 01) 011A58  (-5050, -300, 2800) (-4536, -123, 4935) (-5243, 101, 5439) (-5645, -196, 6133) (-4779, -157, 7632) (-4843, -127, 9591) (-3278, -357, 10876) (-993, -500, 11012) (679, -106, 8790) (-488, 100, 7049) (-1005, 46, 4951) (-1994, -143, 4282) (-3581, -300, 4601) (-4935, -300, 2737) (-5050, -300, 2800)
+
+00: There are 18 position(s). List starts at 000116F0.
+0000:0DFF Link, (160, 0, 1415) (0000, F1C7, 0000)
+0000:0DFF Link, (3757, 251, 232) (0000, E000, 0000)
+0000:0FFF Link, (5984, -20, 3773) (0000, B1C7, 0000)
+0000:0FFF Link, (5105, -160, 8467) (0000, C000, 0000)
+0000:0FFF Link, (-5891, -881, 15676) (0000, 8AAB, 0000)
+0000:0FFF Link, (-9645, -155, 6850) (0000, 0AAB, 0000)
+0000:0DFF Link, (-1850, 196, 5956) (0000, 638E, 0000)
+0000:0FFF Link, (1, 0, 697) (0000, 0000, 0000)
+0000:0FFF Link, (-5920, -876, 15632) (0000, 8AAB, 0000)
+0000:0FFF Link, (0, 70, 1380) (0000, 8000, 0000)
+0000:0FFF Link, (-2499, -300, 398) (0000, 8E39, 0000)
+0000:0FFF Link, (-2953, 100, 8336) (0000, 0000, 0000)
+0000:0FFF Link, (-4668, -122, 6865) (0000, C000, 0000)
+0000:0FFF Link, (-1391, 100, 6865) (0000, 4000, 0000)
+0000:0FFF Link, (5977, -135, 3982) (0000, B1C7, 0000)
+0000:0FFF Link, (-8, 0, 1461) (0000, 8000, 0000)
+0000:0DFF Link, (0, 0, 1289) (0000, 0000, 0000)
+0000:0DFF Link, (186, 0, 1327) (0000, 4000, 0000)
+11: Skybox 1, Cast: Sunny, Fog? No
+13: Exit List starts at 0001183C. 0033 00DB 00EA 04DE 0102 0117 0157 0276 0102 036D 003F 02AE 02E2 02E6 01D9 0000
+0F: There are 17 environment setting(s). List starts at 0001185C.
+
+Setup 2: 000112D0
+15: Sound Settings: Reverb 2, Playback option 00, Song 02.
+04: There are 1 room(s). List starts at 00011450
+01FE3000 01FF8230
+19: JPEG background camera related: 00 Overworld Region:  00
+03: Collision Header starts at 00008464
+Offset to vertex array 000068C8
+Offset to polygon array 00000618
+Offset to polygon type defs 00000430
+Offset to camera data 00000410
+Offset to water boxes 00008404
+Size in bytes 32896
+06: Entrance Index Definitions starts at 00011458
+07: Elf_Message 1, Load Object 0002
+0D: Pathway List starts at 00011680
+ 00) 0115FC  (5139, -37, 5369) (4888, -30, 4719) (4932, -44, 4113) (5427, -44, 3840) (6025, -44, 3995) (5427, -37, 3833) (4674, -37, 3003) (4383, -30, 2189) (3401, -30, 1716) (2049, -30, 926) (1518, -37, 424) (1311, -30, 320) (766, -44, 877) (-641, -37, 882) (-872, -61, 965) (-1854, -48, 23) (-1908, -34, -1212) (-2810, 125, -574) (-2816, -61, -601) (-3334, -61, -43) (-4436, -48, 581) (-6348, -74, 860)
+
+00: There are 18 position(s). List starts at 00011330.
+0000:0FFF Link, (-10, 0, 1324) (0000, 8000, 0000)
+0000:0DFF Link, (3759, 252, 232) (0000, E000, 0000)
+0000:0FFF Link, (5984, -20, 3773) (0000, B1C7, 0000)
+0000:0FFF Link, (5137, -160, 8467) (0000, C000, 0000)
+0000:0FFF Link, (-5890, -874, 15636) (0000, 8AAB, 0000)
+0000:0FFF Link, (-9645, -155, 6850) (0000, 0AAB, 0000)
+0000:0FFF Link, (-1850, 196, 5956) (0000, 638E, 0000)
+0000:0FFF Link, (-6, 0, 1182) (0000, 0000, 0000)
+0000:0FFF Link, (-5919, -869, 15592) (0000, 8AAB, 0000)
+0000:0FFF Link, (-1394, 0, 990) (0000, 1555, 0000)
+0000:0FFF Link, (4796, -60, 4721) (0000, 8E39, 0000)
+0000:0FFF Link, (-2851, 100, 8319) (0000, 0000, 0000)
+0000:0FFF Link, (-4668, -122, 6865) (0000, C000, 0000)
+0000:0FFF Link, (-1391, 100, 6865) (0000, 4000, 0000)
+0000:0FFF Link, (5977, -135, 3982) (0000, B1C7, 0000)
+0000:0FFF Link, (-1727, 94, 5756) (0000, 62D8, 0000)
+0000:0DFF Link, (0, 0, 1389) (0000, 0000, 0000)
+0000:0DFF Link, (186, 0, 1327) (0000, 0000, 0000)
+11: Skybox 1, Cast: Sunny, Fog? No
+13: Exit List starts at 0001147C. 0033 00DB 00EA 04DE 0102 0117 0157 0276 0102 036D 003F 02AE 02E2 02E6 01D9 0000
+0F: There are 16 environment setting(s). List starts at 0001149C.
+
+Cutscene 0: 00011AD0
+15: Sound Settings: Reverb 7, Playback option 02, Song 7F.
+04: There are 1 room(s). List starts at 00011B38
+01FE3000 01FF8230
+19: JPEG background camera related: 00 Overworld Region:  00
+03: Collision Header starts at 00008464
+Offset to vertex array 000068C8
+Offset to polygon array 00000618
+Offset to polygon type defs 00000430
+Offset to camera data 00000410
+Offset to water boxes 00008404
+Size in bytes 32896
+06: Entrance Index Definitions starts at 00011B40
+00: There are 1 position(s). List starts at 00011B28.
+0000:0FFF Link, (2367, 11, 2211) (0000, AAAB, 0000)
+11: Skybox 1, Cast: Cloudy, Fog? Yes
+13: Exit List starts at 00011B44. 00B1 00DB 010E 00EE 0102 0117
+0F: There are 1 environment setting(s). List starts at 00011B50.
+17: Cutscene starts at 00012400
+
+Cutscene 1: 00011B70
+15: Sound Settings: Reverb 2, Playback option 02, Song 7F.
+04: There are 1 room(s). List starts at 00011BD8
+01FE3000 01FF8230
+19: JPEG background camera related: 00 Overworld Region:  00
+03: Collision Header starts at 00008464
+Offset to vertex array 000068C8
+Offset to polygon array 00000618
+Offset to polygon type defs 00000430
+Offset to camera data 00000410
+Offset to water boxes 00008404
+Size in bytes 32896
+06: Entrance Index Definitions starts at 00011BE0
+00: There are 1 position(s). List starts at 00011BC8.
+0000:0FFF Link, (2367, 11, 2211) (0000, AAAB, 0000)
+11: Skybox 1, Cast: Cloudy, Fog? No
+13: Exit List starts at 00011BE4. 00B1 00DB 010E 00EE 0102 0117
+0F: There are 9 environment setting(s). List starts at 00011BF0.
+17: Cutscene starts at 00008494
+
+Cutscene 2: 00011CC0
+15: Sound Settings: Reverb 2, Playback option 02, Song 7F.
+04: There are 1 room(s). List starts at 00011D28
+01FE3000 01FF8230
+19: JPEG background camera related: 00 Overworld Region:  00
+03: Collision Header starts at 00008464
+Offset to vertex array 000068C8
+Offset to polygon array 00000618
+Offset to polygon type defs 00000430
+Offset to camera data 00000410
+Offset to water boxes 00008404
+Size in bytes 32896
+06: Entrance Index Definitions starts at 00011D30
+00: There are 1 position(s). List starts at 00011D18.
+0000:0FFF Link, (2367, 11, 2211) (0000, AAAB, 0000)
+11: Skybox 1, Cast: Cloudy, Fog? Yes
+13: Exit List starts at 00011D34. 00B1 00DB 010E 00EE 0102 0117
+0F: There are 1 environment setting(s). List starts at 00011D40.
+17: Cutscene starts at 0000A000
+
+Cutscene 3: 00011D60
+15: Sound Settings: Reverb 10, Playback option Always Playing, Song 1E.
+04: There are 1 room(s). List starts at 00011DD0
+01FE3000 01FF8230
+19: JPEG background camera related: 00 Overworld Region:  00
+03: Collision Header starts at 00008464
+Offset to vertex array 000068C8
+Offset to polygon array 00000618
+Offset to polygon type defs 00000430
+Offset to camera data 00000410
+Offset to water boxes 00008404
+Size in bytes 32896
+06: Entrance Index Definitions starts at 00011DD8
+07: Elf_Message 1, Load Object 0002
+00: There are 1 position(s). List starts at 00011DC0.
+0000:0FFF Link, (-56, 1, 2117) (0000, 0000, 0000)
+11: Skybox 1, Cast: Sunny, Fog? Yes
+13: Exit List starts at 00011DDC. 0033 00DB 00EA 04DA 0102 0117 0157 0276 0102 036D 003F 02AE 02E2 02E6 01D9 0000
+0F: There are 4 environment setting(s). List starts at 00011DFC.
+17: Cutscene starts at 0000A920
+
+Cutscene 4: 00011E60
+15: Sound Settings: Reverb 2, Playback option Always Playing, Song 7F.
+04: There are 1 room(s). List starts at 00011ED0
+01FE3000 01FF8230
+19: JPEG background camera related: 00 Overworld Region:  00
+03: Collision Header starts at 00008464
+Offset to vertex array 000068C8
+Offset to polygon array 00000618
+Offset to polygon type defs 00000430
+Offset to camera data 00000410
+Offset to water boxes 00008404
+Size in bytes 32896
+06: Entrance Index Definitions starts at 00011ED8
+07: Elf_Message 1, Load Object 0002
+00: There are 1 position(s). List starts at 00011EC0.
+0000:0FFF Link, (-10, 0, 1324) (0000, 8000, 0000)
+11: Skybox 1, Cast: Sunny, Fog? Yes
+13: Exit List starts at 00011EDC. 0033 00DB 00EA 04DA 0102 0117 0157 0276 0102 036D 003F 02AE 02E2 02E6 01D9 0000
+0F: There are 1 environment setting(s). List starts at 00011EFC.
+17: Cutscene starts at 0000BB80
+
+Cutscene 5: 00011F20
+15: Sound Settings: Reverb 2, Playback option Always Playing, Song 67.
+04: There are 1 room(s). List starts at 00011F90
+01FE3000 01FF8230
+19: JPEG background camera related: 00 Overworld Region:  00
+03: Collision Header starts at 00008464
+Offset to vertex array 000068C8
+Offset to polygon array 00000618
+Offset to polygon type defs 00000430
+Offset to camera data 00000410
+Offset to water boxes 00008404
+Size in bytes 32896
+06: Entrance Index Definitions starts at 00011F98
+07: Elf_Message 1, Load Object 0002
+00: There are 1 position(s). List starts at 00011F80.
+0000:00FF Link, (-56, 1, 2117) (0000, 0000, 0000)
+11: Skybox 1, Cast: Sunny, Fog? Yes
+13: Exit List starts at 00011F9C. 0033 00DB 00EA 04DA 0102 0117 0157 0276 0102 036D 003F 02AE 02E2 02E6 01D9 0000
+0F: There are 4 environment setting(s). List starts at 00011FBC.
+17: Cutscene starts at 0000BF40
+
+Cutscene 6: 00012020
+15: Sound Settings: Reverb 2, Playback option Always Playing, Song 7F.
+04: There are 1 room(s). List starts at 00012090
+01FE3000 01FF8230
+19: JPEG background camera related: 00 Overworld Region:  00
+03: Collision Header starts at 00008464
+Offset to vertex array 000068C8
+Offset to polygon array 00000618
+Offset to polygon type defs 00000430
+Offset to camera data 00000410
+Offset to water boxes 00008404
+Size in bytes 32896
+06: Entrance Index Definitions starts at 00012098
+07: Elf_Message 1, Load Object 0002
+00: There are 1 position(s). List starts at 00012080.
+0000:0FFF Link, (-10, 0, 1324) (0000, 8000, 0000)
+11: Skybox 1, Cast: Sunny, Fog? Yes
+13: Exit List starts at 0001209C. 0033 00DB 00EA 04DA 0102 0117 0157 0276 0102 036D 003F 02AE 02E2 02E6 01D9 0000
+0F: There are 1 environment setting(s). List starts at 000120BC.
+17: Cutscene starts at 0000C120
+
+Cutscene 7: 000120E0
+15: Sound Settings: Reverb 2, Playback option Always Playing, Song 52.
+04: There are 1 room(s). List starts at 00012148
+01FE3000 01FF8230
+19: JPEG background camera related: 00 Overworld Region:  00
+03: Collision Header starts at 00008464
+Offset to vertex array 000068C8
+Offset to polygon array 00000618
+Offset to polygon type defs 00000430
+Offset to camera data 00000410
+Offset to water boxes 00008404
+Size in bytes 32896
+06: Entrance Index Definitions starts at 00012150
+00: There are 1 position(s). List starts at 00012138.
+0000:0FFF Link, (2367, 11, 2211) (0000, AAAB, 0000)
+11: Skybox 1, Cast: Sunny, Fog? Yes
+13: Exit List starts at 00012154. 00B1 00DB 010E 00EE 0102 0117
+0F: There are 1 environment setting(s). List starts at 00012160.
+17: Cutscene starts at 0000C8C0
+
+Cutscene 8: 00012180
+15: Sound Settings: Reverb 2, Playback option 00, Song 02.
+04: There are 1 room(s). List starts at 000121F0
+01FE3000 01FF8230
+19: JPEG background camera related: 00 Overworld Region:  00
+03: Collision Header starts at 00008464
+Offset to vertex array 000068C8
+Offset to polygon array 00000618
+Offset to polygon type defs 00000430
+Offset to camera data 00000410
+Offset to water boxes 00008404
+Size in bytes 32896
+06: Entrance Index Definitions starts at 000121F8
+07: Elf_Message 1, Load Object 0002
+00: There are 1 position(s). List starts at 000121E0.
+0000:0FFF Link, (-56, 1, 2117) (0000, 0000, 0000)
+11: Skybox 1, Cast: Sunny, Fog? No
+13: Exit List starts at 000121FC. 0033 00DB 00EA 04DA 0102 0117 0157 0276 0102 036D 003F 02AE 02E2 02E6 01D9 0000
+0F: There are 13 environment setting(s). List starts at 0001221C.
+17: Cutscene starts at 0000DCB0
+
+Room 0
+Room at 01FE3000
+Setup 0: 00000000
+18: Alternate headers start at 00000050.
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 0A
+05: Wind Settings: Forces Westward 50, Vertical 50, Southward 50, Strength 00
+0A: Room Mesh: 03000520
+0B: There are 7 Object(s). List starts at 00000080
+002F, 007C, 012F, 0131, 0018, 0163, 0184, 
+01: There are 73 actor(s). List starts at 00000090
+003B:0001 Ambient Sound, Stream, (-2862, -315, -500) (0000, 0000, 0000)
+003B:0000 Ambient Sound, Nothing, (5161, 29, 3688) (0000, 0000, 0000)
+003B:0015 Ambient Sound, Cows, (-7870, -300, 6920) (0000, 0000, 0000)
+014D:004C Kaepora Gaebora, Type 1, Perm: 0C, (4284, 182, 7877) (0000, 0000, 0000)
+014D:00FF Kaepora Gaebora, Type 3, No Flag, (3276, 510, 971) (0000, 0000, 0000)
+014D:013F Kaepora Gaebora, Type 4, No Flag, (-6270, 30, 8579) (0000, 0000, 0000)
+014D:014B Kaepora Gaebora, Type 5, Perm: 0B, (-4670, -500, 13739) (0000, 0000, 0000)
+004A:FFFF Drawbridge Object, (0, -10, 670) (0000, 0000, 0000)
+001D:FFFF Peahat, (-4858, -300, -216) (0000, 0000, 0000)
+001D:FFFF Peahat, (-993, -402, 9938) (0000, 0000, 0000)
+001D:FFFF Peahat, (483, -436, 11174) (0000, 0000, 0000)
+001D:FFFF Peahat, (1411, -447, 12262) (0000, 0000, 0000)
+001D:FFFF Peahat, (3145, -189, 7530) (0000, 0000, 0000)
+001D:0000 Peahat, (-5445, -195, 10195) (0000, 0000, 0000)
+001D:0000 Peahat, (-1349, -500, 13418) (0000, 0000, 0000)
+00A7:10A4 Enemy Spawner, (116, 192, 6206) (0000, 0000, 0000)
+009B:0000 Grotto, Generic, Visible, Chest: Blue Rupee, Flag 00, (-1425, 0, 810) (0000, E000, 0000)
+009B:0003 Grotto, Generic, Visible, Chest: Blue Rupee, Flag 03, (-4030, -700, 13860) (0000, 8000, 0000)
+009B:0022 Grotto, Generic, Visible, Chest: Red Rupee, Flag 02, (-270, -500, 12350) (0000, 9555, 0000)
+009B:02E1 Grotto, Tektite, Hit, Chest: None, Flag 01, (-4945, -300, 2835) (0000, 1555, 000B)
+009B:02E4 Grotto, Webbed, Hit, Chest: None, Flag 04, (-7870, -300, 6920) (0000, 0000, 0005)
+009B:02E5 Grotto, Big Skulltula, Hit, Chest: None, Flag 05, (2060, 20, -170) (0000, C000, 0001)
+009B:02E6 Grotto, Heart Piece Scrub, Hit, Chest: None, Flag 06, (-4990, -700, 13820) (0000, EAAB, 0002)
+0039:050A Gameplay_keep Items, (3230, -20, 570) (0000, 0000, 0000)
+0039:0C0A Gameplay_keep Items, (5925, -20, 3805) (0000, 071C, 0000)
+0039:150A Gameplay_keep Items, (-1564, -159, 4318) (0000, BB06, 0000)
+0039:170A Gameplay_keep Items, (-4935, -700, 14045) (0000, 8E39, 0000)
+0039:190A Gameplay_keep Items, (-8780, -300, 7680) (0000, 9555, 0000)
+0039:390A Gameplay_keep Items, (3952, -143, 7232) (0000, 5555, 0000)
+0039:3A0A Gameplay_keep Items, (-130, 0, 2105) (0000, C000, 0000)
+014E:FF01 Small Rock, (674, -145, 8256) (0000, 0000, 0000)
+0077:0206 Greenery, Group of trees, dark brown trunk, yellow leaves, Rand02, (1635, -428, 12043) (0000, 0000, 0000)
+0077:0B07 Greenery, Medium tree, dark brown trunk, yellow leaves, Three Hearts/Green Rupees, (-4976, -300, 2812) (0000, 0000, 0000)
+0077:0B07 Greenery, Medium tree, dark brown trunk, yellow leaves, Three Hearts/Green Rupees, (-1448, 0, 620) (0000, 0000, 0000)
+0077:0208 Greenery, Group of trees, dark brown trunk, greener leaves, Rand02, (450, -446, 11705) (0000, 0000, 0000)
+0077:0208 Greenery, Group of trees, dark brown trunk, greener leaves, Rand02, (1015, -500, 12657) (0000, 0000, 0000)
+0077:0208 Greenery, Group of trees, dark brown trunk, greener leaves, Rand02, (3837, -110, 6980) (0000, 5A50, 0000)
+0077:0D08 Greenery, Group of trees, dark brown trunk, greener leaves, Rand0D, (-4713, -300, 262) (0000, F333, 0000)
+0077:0D08 Greenery, Group of trees, dark brown trunk, greener leaves, Rand0D, (-30, -500, 12654) (0000, 0000, 0000)
+0077:0205 Greenery, Medium tree, dark brown trunk, greener leaves, Rand02, (-1244, 0, 819) (0000, 0000, 0000)
+0077:0205 Greenery, Medium tree, dark brown trunk, greener leaves, Rand02, (-1041, 0, 1022) (0000, 0000, 0000)
+0077:020D Greenery, Group of bushes, Rand02, (-6293, -500, 7182) (0000, 0000, 0000)
+0077:020D Greenery, Group of bushes, Rand02, (-5223, -648, 12892) (0000, 0000, 0000)
+0077:020D Greenery, Group of bushes, Rand02, (-5211, -300, 1541) (0000, 0000, 0000)
+0077:020D Greenery, Group of bushes, Rand02, (-5114, -300, 16) (0000, 8000, 0000)
+0077:020D Greenery, Group of bushes, Rand02, (-4122, -300, -144) (0000, 0000, 0000)
+0077:020D Greenery, Group of bushes, Rand02, (-4007, -700, 13620) (0000, 0000, 0000)
+0077:020D Greenery, Group of bushes, Rand02, (-1374, -500, 13381) (0000, 0000, 0000)
+0077:020D Greenery, Group of bushes, Rand02, (130, -500, 12933) (0000, 0000, 0000)
+0077:020D Greenery, Group of bushes, Rand02, (482, -435, 11173) (0000, 0000, 0000)
+0077:020D Greenery, Group of bushes, Rand02, (1410, -447, 12261) (0000, 0000, 0000)
+0077:0D02 Greenery, Small tree, Rand0D, (2076, 20, -91) (0000, 0000, 0000)
+0112:12BF Invisible Collectible, 02 0A 3F, (-99, 405, 662) (0000, 0000, 0001)
+0112:12BF Invisible Collectible, 02 0A 3F, (-1, 401, 665) (0000, 0000, 0001)
+0112:12BF Invisible Collectible, 02 0A 3F, (93, 401, 659) (0000, 0000, 0001)
+0151:0202 Shrubs or Rocks, (-7875, -300, 6915) (0000, 0000, 0000)
+0151:0201 Shrubs or Rocks, (-5557, -347, 9065) (0000, 0000, 0000)
+0151:0201 Shrubs or Rocks, (-5210, -253, 9585) (0000, 0000, 0000)
+0151:0201 Shrubs or Rocks, (-991, -402, 9939) (0000, 0000, 0000)
+0151:0201 Shrubs or Rocks, (-447, -451, 11258) (0000, 0000, 0000)
+0151:0201 Shrubs or Rocks, (908, 219, 3571) (0000, 0000, 0000)
+0151:0201 Shrubs or Rocks, (3144, -189, 7529) (0000, 0000, 0000)
+0077:0200 Greenery, Large tree, Rand02, (3117, 282, 4239) (0000, 0000, 0000)
+0077:0B00 Greenery, Large tree, Three Hearts/Green Rupees, (-6270, -500, 8579) (0000, 0000, 0000)
+0077:0B00 Greenery, Large tree, Three Hearts/Green Rupees, (-4377, -700, 13662) (0000, 0000, 0000)
+0077:0B00 Greenery, Large tree, Three Hearts/Green Rupees, (-1907, 66, 5409) (0000, 0000, 0000)
+0077:0B00 Greenery, Large tree, Three Hearts/Green Rupees, (-786, -500, 11293) (0000, 0000, 0000)
+0077:0B00 Greenery, Large tree, Three Hearts/Green Rupees, (3276, -20, 971) (0000, 0000, 0000)
+0127:8008 Brown Boulder, Perm: 08 Puzzle Solved Sound, (-270, -500, 12350) (0000, 0000, 0000)
+0127:800E Brown Boulder, Perm: 0E Puzzle Solved Sound, (-1425, 0, 810) (0000, 0000, 0000)
+0127:8010 Brown Boulder, Perm: 10 Puzzle Solved Sound, (-4450, -300, -425) (0000, 8000, 0000)
+009B:10FF Grotto, Fairy Fountain, Visible, Chest: None, Flag 1F, (-4450, -300, -425) (0000, 0000, 0000)
+0183:FF41 Song of Storms Fairy (Giant Fairy?), (5143, -55, 5012) (0000, 0000, 0000)
+
+Setup 1: 00000C50
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 0A
+05: Wind Settings: Forces Westward 50, Vertical 50, Southward 50, Strength 00
+0A: Room Mesh: 03000520
+0B: There are 9 Object(s). List starts at 00000C98
+002F, 007C, 012F, 0018, 0163, 0184, 00C5, 013C, 00DE, 
+01: There are 71 actor(s). List starts at 00000CAC
+003B:0001 Ambient Sound, Stream, (-2862, -315, -500) (0000, 0000, 0000)
+003B:0000 Ambient Sound, Nothing, (5161, 29, 3688) (0000, 0000, 0000)
+003B:0015 Ambient Sound, Cows, (-7870, -300, 6920) (0000, 0000, 0000)
+004A:FFFF Drawbridge Object, (0, -10, 670) (0000, 0000, 0000)
+001D:FFFF Peahat, (-4858, -300, -216) (0000, 0000, 0000)
+001D:FFFF Peahat, (-993, -402, 9938) (0000, 0000, 0000)
+001D:FFFF Peahat, (483, -436, 11174) (0000, 0000, 0000)
+001D:FFFF Peahat, (1411, -447, 12262) (0000, 0000, 0000)
+001D:FFFF Peahat, (3145, -189, 7530) (0000, 0000, 0000)
+001D:0000 Peahat, (-5445, -195, 10195) (0000, 0000, 0000)
+001D:0000 Peahat, (-1349, -500, 13418) (0000, 0000, 0000)
+00A7:10A4 Enemy Spawner, (116, 192, 6206) (0000, 0000, 0000)
+0162:0001 Running Man, (-5050, -300, 2800) (0000, 11C7, 0000)
+009B:0003 Grotto, Generic, Visible, Chest: Blue Rupee, Flag 03, (-4030, -700, 13860) (0000, 8000, 0000)
+009B:0000 Grotto, Generic, Visible, Chest: Blue Rupee, Flag 00, (-1425, 0, 810) (0000, E000, 0000)
+009B:0022 Grotto, Generic, Visible, Chest: Red Rupee, Flag 02, (-270, -500, 12350) (0000, 9555, 0000)
+009B:02E4 Grotto, Webbed, Hit, Chest: None, Flag 04, (-7870, -300, 6920) (0000, 0000, 0005)
+009B:02E6 Grotto, Heart Piece Scrub, Hit, Chest: None, Flag 06, (-4990, -700, 13820) (0000, EAAB, 0002)
+009B:02E1 Grotto, Tektite, Hit, Chest: None, Flag 01, (-4945, -300, 2835) (0000, 1555, 000B)
+009B:02E5 Grotto, Big Skulltula, Hit, Chest: None, Flag 05, (2060, 20, -170) (0000, C000, 0001)
+0039:190A Gameplay_keep Items, (-8780, -300, 7680) (0000, 9555, 0000)
+0039:170A Gameplay_keep Items, (-4935, -700, 14045) (0000, 8E39, 0000)
+0039:150A Gameplay_keep Items, (-1564, -159, 4318) (0000, BB06, 0000)
+0039:3A0A Gameplay_keep Items, (-130, 0, 2105) (0000, C000, 0000)
+0039:050A Gameplay_keep Items, (3230, -20, 570) (0000, 0000, 0000)
+0039:390A Gameplay_keep Items, (3952, -143, 7232) (0000, 5555, 0000)
+0039:0C0A Gameplay_keep Items, (5925, -20, 3805) (0000, 071C, 0000)
+014E:FF01 Small Rock, (674, -145, 8256) (0000, 0000, 0000)
+0077:0206 Greenery, Group of trees, dark brown trunk, yellow leaves, Rand02, (1635, -428, 12043) (0000, 0000, 0000)
+0077:0B07 Greenery, Medium tree, dark brown trunk, yellow leaves, Three Hearts/Green Rupees, (-4976, -300, 2812) (0000, 0000, 0000)
+0077:0B07 Greenery, Medium tree, dark brown trunk, yellow leaves, Three Hearts/Green Rupees, (-1448, 0, 620) (0000, 0000, 0000)
+0077:0D08 Greenery, Group of trees, dark brown trunk, greener leaves, Rand0D, (-4713, -300, 262) (0000, F333, 0000)
+0077:0D08 Greenery, Group of trees, dark brown trunk, greener leaves, Rand0D, (-30, -500, 12654) (0000, 0000, 0000)
+0077:0208 Greenery, Group of trees, dark brown trunk, greener leaves, Rand02, (450, -446, 11705) (0000, 0000, 0000)
+0077:0208 Greenery, Group of trees, dark brown trunk, greener leaves, Rand02, (1015, -500, 12657) (0000, 0000, 0000)
+0077:0208 Greenery, Group of trees, dark brown trunk, greener leaves, Rand02, (3837, -110, 6980) (0000, 5A50, 0000)
+0077:0205 Greenery, Medium tree, dark brown trunk, greener leaves, Rand02, (-1244, 0, 819) (0000, 0000, 0000)
+0077:0205 Greenery, Medium tree, dark brown trunk, greener leaves, Rand02, (-1041, 0, 1022) (0000, 0000, 0000)
+0077:020D Greenery, Group of bushes, Rand02, (-6293, -500, 7182) (0000, 0000, 0000)
+0077:020D Greenery, Group of bushes, Rand02, (-5223, -648, 12892) (0000, 0000, 0000)
+0077:020D Greenery, Group of bushes, Rand02, (-5211, -300, 1541) (0000, 0000, 0000)
+0077:020D Greenery, Group of bushes, Rand02, (-5114, -300, 16) (0000, 8000, 0000)
+0077:020D Greenery, Group of bushes, Rand02, (-4122, -300, -144) (0000, 0000, 0000)
+0077:020D Greenery, Group of bushes, Rand02, (-4007, -700, 13620) (0000, 0000, 0000)
+0077:020D Greenery, Group of bushes, Rand02, (-1374, -500, 13381) (0000, 0000, 0000)
+0077:020D Greenery, Group of bushes, Rand02, (130, -500, 12933) (0000, 0000, 0000)
+0077:020D Greenery, Group of bushes, Rand02, (482, -435, 11173) (0000, 0000, 0000)
+0077:020D Greenery, Group of bushes, Rand02, (1410, -447, 12261) (0000, 0000, 0000)
+00F1:0003 Ocarina of Time, (299, -136, 884) (0000, 0000, 0000)
+0077:0D02 Greenery, Small tree, Rand0D, (2076, 20, -91) (0000, 0000, 0000)
+0112:12BF Invisible Collectible, 02 0A 3F, (-99, 405, 662) (0000, 0000, 0001)
+0112:12BF Invisible Collectible, 02 0A 3F, (-1, 401, 665) (0000, 0000, 0001)
+0112:12BF Invisible Collectible, 02 0A 3F, (93, 401, 659) (0000, 0000, 0001)
+0151:0202 Shrubs or Rocks, (-7875, -300, 6915) (0000, 0000, 0000)
+0151:0201 Shrubs or Rocks, (-5557, -347, 9065) (0000, 0000, 0000)
+0151:0201 Shrubs or Rocks, (-5210, -253, 9585) (0000, 0000, 0000)
+0151:0201 Shrubs or Rocks, (-991, -402, 9939) (0000, 0000, 0000)
+0151:0201 Shrubs or Rocks, (-447, -451, 11258) (0000, 0000, 0000)
+0151:0201 Shrubs or Rocks, (908, 219, 3571) (0000, 0000, 0000)
+0151:0201 Shrubs or Rocks, (3144, -189, 7529) (0000, 0000, 0000)
+0077:0B00 Greenery, Large tree, Three Hearts/Green Rupees, (-6270, -500, 8579) (0000, 0000, 0000)
+0077:0B00 Greenery, Large tree, Three Hearts/Green Rupees, (-4377, -700, 13662) (0000, 0000, 0000)
+0077:0B00 Greenery, Large tree, Three Hearts/Green Rupees, (-1907, 66, 5409) (0000, 0000, 0000)
+0077:0B00 Greenery, Large tree, Three Hearts/Green Rupees, (-786, -500, 11293) (0000, 0000, 0000)
+0077:0200 Greenery, Large tree, Rand02, (3117, 282, 4239) (0000, 0000, 0000)
+0077:0B00 Greenery, Large tree, Three Hearts/Green Rupees, (3276, -20, 971) (0000, 0000, 0000)
+0127:8010 Brown Boulder, Perm: 10 Puzzle Solved Sound, (-4450, -300, -425) (0000, 8000, 0000)
+0127:800E Brown Boulder, Perm: 0E Puzzle Solved Sound, (-1425, 0, 810) (0000, 0000, 0000)
+0127:8008 Brown Boulder, Perm: 08 Puzzle Solved Sound, (-270, -500, 12350) (0000, 0000, 0000)
+009B:10FF Grotto, Fairy Fountain, Visible, Chest: None, Flag 1F, (-4450, -300, -425) (0000, 0000, 0000)
+0183:FF41 Song of Storms Fairy (Giant Fairy?), (5143, -55, 5012) (0000, 0000, 0000)
+
+Setup 2: 00000770
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 0A
+05: Wind Settings: Forces Westward 50, Vertical 50, Southward 50, Strength 00
+0A: Room Mesh: 03000520
+0B: There are 6 Object(s). List starts at 000007B8
+0166, 007C, 012F, 006D, 001A, 0163, 
+01: There are 72 actor(s). List starts at 000007C4
+003B:0001 Ambient Sound, Stream, (-2862, -315, -500) (0000, 0000, 0000)
+003B:0000 Ambient Sound, Nothing, (5161, 29, 3688) (0000, 0000, 0000)
+003B:0015 Ambient Sound, Cows, (-7870, -300, 6920) (0000, 0000, 0000)
+0165:0A00 Proximity Weather Effect, (0, 0, 635) (0000, 0000, 0000)
+0194:0000 ???, (0, -10, 670) (0000, 0000, 0000)
+0194:0001 ???, (-3713, -400, 11456) (0000, 6AAB, 04FA)
+0194:0001 ???, (-869, 4, 7990) (0000, EAAB, FBBC)
+0194:0001 ???, (746, -100, 8925) (0000, EAAB, 0000)
+01D2:0011 Bronze Boulder, (-7870, -310, 6920) (0000, 0000, 0000)
+01D2:0012 Bronze Boulder, (-7804, -264, 7983) (0000, 0000, 0000)
+01D2:0014 Bronze Boulder, (-8397, -322, 7947) (0000, 0000, 0000)
+01D2:0015 Bronze Boulder, (-6461, -297, 8220) (0000, 0000, 0000)
+0175:0016 Big Poe, (-5215, -273, 1504) (0000, 0000, 0000)
+0175:0017 Big Poe, (-1933, 104, 5455) (0000, 0000, 0000)
+0175:0018 Big Poe, (-118, 27, 2167) (0000, 0000, 0000)
+0175:0019 Big Poe, (3709, 164, 1721) (0000, 0000, 0000)
+0175:001A Big Poe, (1361, 421, 5869) (0000, 0000, 0000)
+0175:001B Big Poe, (679, -118, 8268) (0000, 0000, 0000)
+0175:001C Big Poe, (-446, -417, 11256) (0000, 0000, 0000)
+0175:001D Big Poe, (-29, -473, 12613) (0000, 0000, 0000)
+0175:001E Big Poe, (-6267, -473, 7135) (0000, 0000, 0000)
+0175:001F Big Poe, (-6146, -473, 9007) (0000, 0000, 0000)
+0165:1401 Proximity Weather Effect, (-1923, 263, 6047) (0000, 0000, 0000)
+009B:0000 Grotto, Generic, Visible, Chest: Blue Rupee, Flag 00, (-1425, 0, 810) (0000, E000, 0000)
+009B:0003 Grotto, Generic, Visible, Chest: Blue Rupee, Flag 03, (-4030, -700, 13860) (0000, 8000, 0000)
+009B:0022 Grotto, Generic, Visible, Chest: Red Rupee, Flag 02, (-270, -500, 12350) (0000, 9555, 0000)
+009B:02E1 Grotto, Tektite, Hit, Chest: None, Flag 01, (-4945, -300, 2835) (0000, 1555, 000B)
+009B:02E4 Grotto, Webbed, Hit, Chest: None, Flag 04, (-7870, -300, 6920) (0000, 0000, 0005)
+009B:02E5 Grotto, Big Skulltula, Hit, Chest: None, Flag 05, (2060, 20, -170) (0000, C000, 0001)
+009B:02E6 Grotto, Heart Piece Scrub, Hit, Chest: None, Flag 06, (-4990, -700, 13820) (0000, EAAB, 0002)
+0039:050A Gameplay_keep Items, (3230, -20, 570) (0000, 0000, 0000)
+0039:0C0A Gameplay_keep Items, (5925, -20, 3805) (0000, 071C, 0000)
+0039:160A Gameplay_keep Items, (-1564, -159, 4318) (0000, BB06, 0000)
+0039:170A Gameplay_keep Items, (-4935, -700, 14045) (0000, 8E39, 0000)
+0039:190A Gameplay_keep Items, (-8780, -300, 7680) (0000, 9555, 0000)
+0039:390A Gameplay_keep Items, (3952, -143, 7232) (0000, 5555, 0000)
+0039:3A0A Gameplay_keep Items, (-130, 0, 2105) (0000, C000, 0000)
+014E:FF01 Small Rock, (674, -145, 8256) (0000, 0000, 0000)
+0077:0706 Greenery, Group of trees, dark brown trunk, yellow leaves, Rand07, (450, -446, 11705) (0000, 0000, 0000)
+0077:0706 Greenery, Group of trees, dark brown trunk, yellow leaves, Rand07, (1015, -500, 12657) (0000, 0000, 0000)
+0077:0706 Greenery, Group of trees, dark brown trunk, yellow leaves, Rand07, (3837, -110, 6980) (0000, 5A50, 0000)
+0077:0D06 Greenery, Group of trees, dark brown trunk, yellow leaves, Rand0D, (-30, -500, 12654) (0000, 0000, 0000)
+0077:0D06 Greenery, Group of trees, dark brown trunk, yellow leaves, Rand0D, (-4713, -300, 262) (0000, F333, 0000)
+0077:0707 Greenery, Medium tree, dark brown trunk, yellow leaves, Rand07, (-4976, -300, 2812) (0000, 0000, 0000)
+0077:0707 Greenery, Medium tree, dark brown trunk, yellow leaves, Rand07, (-1244, 0, 819) (0000, 0000, 0000)
+0077:0707 Greenery, Medium tree, dark brown trunk, yellow leaves, Rand07, (-1041, 0, 1022) (0000, 0000, 0000)
+0077:0902 Greenery, Small tree, Magic jars, (2076, 20, -91) (0000, 0000, 0000)
+0151:0702 Shrubs or Rocks, (-7875, -300, 6915) (0000, 0000, 0000)
+0151:0701 Shrubs or Rocks, (-5557, -347, 9065) (0000, 0000, 0000)
+0151:0701 Shrubs or Rocks, (-5210, -253, 9585) (0000, 0000, 0000)
+0151:0701 Shrubs or Rocks, (-991, -402, 9939) (0000, 0000, 0000)
+0151:0701 Shrubs or Rocks, (-447, -451, 11258) (0000, 0000, 0000)
+0151:0701 Shrubs or Rocks, (908, 219, 3571) (0000, 0000, 0000)
+0151:0701 Shrubs or Rocks, (3144, -138, 7529) (0000, 0000, 0000)
+0077:0713 Greenery, Group of dark bushes, Rand07, (-6293, -500, 7182) (0000, 0000, 0000)
+0077:0713 Greenery, Group of dark bushes, Rand07, (-5223, -648, 12892) (0000, 0000, 0000)
+0077:0713 Greenery, Group of dark bushes, Rand07, (-5211, -300, 1541) (0000, 0000, 0000)
+0077:0713 Greenery, Group of dark bushes, Rand07, (130, -500, 12933) (0000, 0000, 0000)
+0077:0713 Greenery, Group of dark bushes, Rand07, (482, -435, 11173) (0000, 0000, 0000)
+0077:0B13 Greenery, Group of dark bushes, Three Hearts/Green Rupees, (-4007, -700, 13620) (0000, 0000, 0000)
+0077:0B0A Greenery, Ugly tree from Kakariko Village, Three Hearts/Green Rupees, (-1448, 0, 620) (0000, 0000, 0000)
+0077:0B00 Greenery, Large tree, Three Hearts/Green Rupees, (-1907, 66, 5409) (0000, 0000, 0000)
+0077:0B00 Greenery, Large tree, Three Hearts/Green Rupees, (-786, -500, 11293) (0000, 0000, 0000)
+0077:0700 Greenery, Large tree, Rand07, (3117, 282, 4239) (0000, 0000, 0000)
+0077:0B00 Greenery, Large tree, Three Hearts/Green Rupees, (3276, -20, 971) (0000, 0000, 0000)
+0077:0B00 Greenery, Large tree, Three Hearts/Green Rupees, (-4377, -700, 13662) (0000, 0000, 0000)
+0077:0B00 Greenery, Large tree, Three Hearts/Green Rupees, (-6241, -500, 7097) (0000, 0000, 0000)
+0127:8008 Brown Boulder, Perm: 08 Puzzle Solved Sound, (-270, -500, 12350) (0000, 0000, 0000)
+0127:800E Brown Boulder, Perm: 0E Puzzle Solved Sound, (-1425, 0, 810) (0000, 0000, 0000)
+0127:8010 Brown Boulder, Perm: 10 Puzzle Solved Sound, (-4450, -300, -425) (0000, 8000, 0000)
+009B:10FF Grotto, Fairy Fountain, Visible, Chest: None, Flag 1F, (-4450, -300, -425) (0000, 0000, 0000)
+0183:FF41 Song of Storms Fairy (Giant Fairy?), (5143, -55, 5012) (0000, 0000, 0000)
+
+Cutscene 0: 00001120
+16: Sound Settings: Echo 15
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: 1500 00
+05: Wind Settings: Forces Westward 50, Vertical 50, Southward 50, Strength 01
+0A: Room Mesh: 03000520
+0B: There are 7 Object(s). List starts at 00001168
+002F, 0191, 002D, 0046, 009B, 0047, 0087, 
+01: There are 7 actor(s). List starts at 00001178
+004A:FFFF Drawbridge Object, (0, -10, 670) (0000, 0000, 0000)
+002A:0000 Impa's Horse, (2313, -11, 2013) (0000, 0000, 0000)
+002A:0101 Impa, (2398, -12, 2017) (0000, 0000, 0000)
+002A:0202 Child Zelda, (2313, -7, 2098) (0000, 0000, 0000)
+002A:0303 Ganondorf sitting on horse, (2395, -2, 2098) (0000, 0000, 0000)
+002A:0404 Ganondorf's Horse (Standing), (2361, -9, 2062) (0000, 0000, 0000)
+003B:0001 Ambient Sound, Stream, (-2862, -315, -500) (0000, 0000, 0000)
+
+Cutscene 1: 000011F0
+16: Sound Settings: Echo 15
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 32
+05: Wind Settings: Forces Westward 50, Vertical 50, Southward 50, Strength 00
+0A: Room Mesh: 03000520
+0B: There are 9 Object(s). List starts at 00001238
+002F, 0191, 002D, 0046, 009B, 0047, 0087, 00DE, 011A, 
+01: There are 7 actor(s). List starts at 0000124C
+004A:FFFF Drawbridge Object, (0, -10, 670) (0000, 0000, 0000)
+002A:0000 Impa's Horse, (2313, -11, 2013) (0000, 0000, 0000)
+002A:0101 Impa, (2398, -12, 2017) (0000, 0000, 0000)
+002A:0202 Child Zelda, (2313, -7, 2098) (0000, 0000, 0000)
+002A:0303 Ganondorf sitting on horse, (2395, -2, 2098) (0000, 0000, 0000)
+002A:0404 Ganondorf's Horse (Standing), (2361, -9, 2062) (0000, 0000, 0000)
+003B:0001 Ambient Sound, Stream, (-2862, -315, -500) (0000, 0000, 0000)
+
+Cutscene 2: 000012C0
+16: Sound Settings: Echo 15
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: 0400 00
+05: Wind Settings: Forces Westward 50, Vertical 50, Southward 50, Strength 00
+0A: Room Mesh: 03000520
+0B: There are 6 Object(s). List starts at 00001308
+002F, 0191, 0046, 0047, 0087, 00DE, 
+01: There are 4 actor(s). List starts at 00001314
+004A:FFFF Drawbridge Object, (0, -10, 670) (0000, 0000, 0000)
+002A:0000 Impa's Horse, (2313, -11, 2013) (0000, 0000, 0000)
+002A:0101 Impa, (2398, -12, 2017) (0000, 0000, 0000)
+002A:0202 Child Zelda, (2313, -7, 2098) (0000, 0000, 0000)
+
+Cutscene 3: 00001360
+16: Sound Settings: Echo 15
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: 0400 05
+05: Wind Settings: Forces Westward 50, Vertical 50, Southward 50, Strength 00
+0A: Room Mesh: 03000520
+0B: There are 4 Object(s). List starts at 000013A8
+002F, 007C, 001A, 014A, 
+01: There are 28 actor(s). List starts at 000013B0
+004A:FFFF Drawbridge Object, (0, -10, 670) (0000, 0000, 0000)
+0077:FF05 Greenery, Medium tree, dark brown trunk, greener leaves, Nothing, (-4725, -300, 2592) (0000, 0000, 0000)
+0077:FF0D Greenery, Group of bushes, Nothing, (-3431, -300, 1173) (0000, 0000, 0000)
+0077:FF0D Greenery, Group of bushes, Nothing, (-6855, -500, 9364) (0000, 0000, 0000)
+0077:FF0D Greenery, Group of bushes, Nothing, (-5383, -646, 12852) (0000, 0000, 0000)
+0077:FF0D Greenery, Group of bushes, Nothing, (-4007, -700, 13620) (0000, 0000, 0000)
+0077:FF0D Greenery, Group of bushes, Nothing, (482, -435, 11173) (0000, 0000, 0000)
+0151:FF02 Shrubs or Rocks, (685, 163, 6522) (0000, 0000, 0000)
+0151:FF01 Shrubs or Rocks, (3144, -138, 7529) (0000, 0000, 0000)
+0151:FF01 Shrubs or Rocks, (908, 219, 3571) (0000, 0000, 0000)
+0151:FF01 Shrubs or Rocks, (-447, -451, 11258) (0000, 0000, 0000)
+0151:FF01 Shrubs or Rocks, (-991, -402, 9939) (0000, 0000, 0000)
+0151:FF01 Shrubs or Rocks, (-5210, -253, 9585) (0000, 0000, 0000)
+0151:FF01 Shrubs or Rocks, (-5557, -347, 9065) (0000, 0000, 0000)
+0151:FF00 Shrubs or Rocks, (4338, 3, 6586) (04FA, 0000, 016C)
+0151:FF00 Shrubs or Rocks, (-4301, -264, 2628) (0000, 0000, 0000)
+0077:FF00 Greenery, Large tree, Nothing, (2771, 356, 4624) (0000, 0000, 0000)
+0077:FF00 Greenery, Large tree, Nothing, (-786, -500, 11293) (0000, 0000, 0000)
+0077:FF00 Greenery, Large tree, Nothing, (-1907, 66, 5409) (0000, 0000, 0000)
+0077:FF00 Greenery, Large tree, Nothing, (-4377, -700, 13662) (0000, 0000, 0000)
+0077:FF00 Greenery, Large tree, Nothing, (-6332, -500, 9129) (0000, 0000, 0000)
+0077:FF03 Greenery, Group of trees, Nothing, (3178, -144, 7005) (0000, 0000, 0000)
+0077:FF01 Greenery, Medium tree, Nothing, (4136, 45, 6136) (0000, 0000, 0000)
+0077:FF01 Greenery, Medium tree, Nothing, (1790, 20, -137) (0000, 0000, 0000)
+0171:0000 Title Logo, (-48, 1, 2317) (0000, 0000, 0000)
+0077:FF00 Greenery, Large tree, Nothing, (5322, -23, 3275) (0000, 0000, 0000)
+003B:0001 Ambient Sound, Stream, (-2862, -315, -500) (0000, 0000, 0000)
+003B:0001 Ambient Sound, Stream, (-2862, -315, -500) (0000, 0000, 0000)
+
+Cutscene 4: 00001570
+16: Sound Settings: Echo 15
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: 1220 00
+0A: Room Mesh: 03000520
+0B: There are 3 Object(s). List starts at 000015B0
+002F, 007C, 001A, 
+01: There are 49 actor(s). List starts at 000015B8
+0108:FFFF Lon Lon Ranch Fence Obstacle, (-6010, -499, 8499) (0000, 0000, 0000)
+0108:FFFF Lon Lon Ranch Fence Obstacle, (-5374, -429, 11033) (0000, 1333, 04FA)
+004A:FFFF Drawbridge Object, (0, -10, 670) (0000, 0000, 0000)
+014E:FF01 Small Rock, (674, -145, 8256) (0000, 0000, 0000)
+0077:FF07 Greenery, Medium tree, dark brown trunk, yellow leaves, Nothing, (-4735, -300, 45) (0000, 0000, 0000)
+0077:FF07 Greenery, Medium tree, dark brown trunk, yellow leaves, Nothing, (-4775, -300, -425) (0000, 0000, 0000)
+0077:FF07 Greenery, Medium tree, dark brown trunk, yellow leaves, Nothing, (-5171, -300, 188) (0000, 0000, 0000)
+0077:FF07 Greenery, Medium tree, dark brown trunk, yellow leaves, Nothing, (-4725, -300, 2592) (0000, 0000, 0000)
+0151:FF02 Shrubs or Rocks, (685, 163, 6522) (0000, 0000, 0000)
+0151:FF01 Shrubs or Rocks, (3144, -138, 7529) (0000, 0000, 0000)
+0151:FF01 Shrubs or Rocks, (-4299, -251, 2628) (0000, 0000, 0000)
+0151:FF01 Shrubs or Rocks, (-5557, -347, 9065) (0000, 0000, 0000)
+0151:FF01 Shrubs or Rocks, (-5210, -253, 9585) (0000, 0000, 0000)
+0151:FF01 Shrubs or Rocks, (908, 219, 3571) (0000, 0000, 0000)
+0151:FF01 Shrubs or Rocks, (-990, -356, 9939) (0000, 0000, 0000)
+0151:FF01 Shrubs or Rocks, (-447, -451, 11258) (0000, 0000, 0000)
+0151:FF00 Shrubs or Rocks, (4338, 3, 6586) (04FA, 0000, 016C)
+0151:FF00 Shrubs or Rocks, (-1360, -463, 11530) (0000, 0000, 0000)
+0151:FF00 Shrubs or Rocks, (-4301, -264, 2628) (0000, 0000, 0000)
+0077:FF13 Greenery, Group of dark bushes, Nothing, (2055, 20, 149) (0000, 0000, 0000)
+0077:FF13 Greenery, Group of dark bushes, Nothing, (-4359, -300, -331) (0000, 0000, 0000)
+0077:FF13 Greenery, Group of dark bushes, Nothing, (-5351, -300, -11) (0000, 0000, 0000)
+0077:FF13 Greenery, Group of dark bushes, Nothing, (-3431, -300, 1173) (0000, 0000, 0000)
+0077:FF13 Greenery, Group of dark bushes, Nothing, (-6855, -500, 9364) (0000, 0000, 0000)
+0077:FF13 Greenery, Group of dark bushes, Nothing, (-5383, -646, 12852) (0000, 0000, 0000)
+0077:FF13 Greenery, Group of dark bushes, Nothing, (-4007, -700, 13620) (0000, 0000, 0000)
+0077:FF13 Greenery, Group of dark bushes, Nothing, (482, -435, 11173) (0000, 0000, 0000)
+0077:FF13 Greenery, Group of dark bushes, Nothing, (1410, -447, 12261) (0000, 0000, 0000)
+0077:FF13 Greenery, Group of dark bushes, Nothing, (130, -500, 12933) (0000, 0000, 0000)
+0077:FF13 Greenery, Group of dark bushes, Nothing, (-1374, -500, 13381) (0000, 0000, 0000)
+0077:FF0A Greenery, Ugly tree from Kakariko Village, Nothing, (5319, -23, 3280) (0000, 0000, 0000)
+0077:FF0A Greenery, Ugly tree from Kakariko Village, Nothing, (4136, 45, 6136) (0000, 0000, 0000)
+0077:FF0A Greenery, Ugly tree from Kakariko Village, Nothing, (3178, -144, 7005) (0000, 0000, 0000)
+0077:FF0A Greenery, Ugly tree from Kakariko Village, Nothing, (2771, 356, 4624) (0000, 0000, 0000)
+0077:FF0A Greenery, Ugly tree from Kakariko Village, Nothing, (2042, 20, -193) (0000, 0000, 0000)
+0077:FF0A Greenery, Ugly tree from Kakariko Village, Nothing, (1790, 20, -137) (0000, 0000, 0000)
+0077:FF0A Greenery, Ugly tree from Kakariko Village, Nothing, (1414, -403, 11892) (0000, 0000, 0000)
+0077:FF0A Greenery, Ugly tree from Kakariko Village, Nothing, (989, -500, 12499) (0000, 0000, 0000)
+0077:FF0A Greenery, Ugly tree from Kakariko Village, Nothing, (200, -500, 12317) (0000, 0000, 0000)
+0077:FF0A Greenery, Ugly tree from Kakariko Village, Nothing, (-786, -500, 11293) (0000, 0000, 0000)
+0077:FF0A Greenery, Ugly tree from Kakariko Village, Nothing, (-1907, 66, 5409) (0000, 0000, 0000)
+0077:FF0A Greenery, Ugly tree from Kakariko Village, Nothing, (-4377, -700, 13662) (0000, 0000, 0000)
+0077:FF0A Greenery, Ugly tree from Kakariko Village, Nothing, (-6332, -500, 9129) (0000, 0000, 0000)
+0077:FF0A Greenery, Ugly tree from Kakariko Village, Nothing, (3622, -158, 7473) (0000, 0000, 0000)
+0077:FF0A Greenery, Ugly tree from Kakariko Village, Nothing, (2808, -234, 7920) (0000, 0000, 0000)
+0077:FF0A Greenery, Ugly tree from Kakariko Village, Nothing, (2645, -188, 7351) (0000, 0000, 0000)
+0077:FF0A Greenery, Ugly tree from Kakariko Village, Nothing, (-461, -500, 12654) (0000, 0000, 0000)
+0077:FF0A Greenery, Ugly tree from Kakariko Village, Nothing, (597, -453, 11841) (0000, 0000, 0000)
+0077:FF0A Greenery, Ugly tree from Kakariko Village, Nothing, (-318, -500, 11861) (0000, 0000, 0000)
+
+Cutscene 5: 000018D0
+16: Sound Settings: Echo 15
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: 0F00 0A
+05: Wind Settings: Forces Westward 50, Vertical 50, Southward 50, Strength 00
+0A: Room Mesh: 03000520
+0B: There are 3 Object(s). List starts at 00001910
+002F, 007C, 001A, 
+
+Cutscene 6: 00001920
+16: Sound Settings: Echo 15
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: 1220 00
+0A: Room Mesh: 03000520
+0B: There are 3 Object(s). List starts at 00001960
+002F, 007C, 001A, 
+01: There are 49 actor(s). List starts at 00001968
+0108:FFFF Lon Lon Ranch Fence Obstacle, (-6010, -499, 8499) (0000, 0000, 0000)
+0108:FFFF Lon Lon Ranch Fence Obstacle, (-5374, -429, 11033) (0000, 1333, 04FA)
+004A:FFFF Drawbridge Object, (0, -10, 670) (0000, 0000, 0000)
+014E:FF01 Small Rock, (674, -145, 8256) (0000, 0000, 0000)
+0077:FF07 Greenery, Medium tree, dark brown trunk, yellow leaves, Nothing, (-4735, -300, 45) (0000, 0000, 0000)
+0077:FF07 Greenery, Medium tree, dark brown trunk, yellow leaves, Nothing, (-4775, -300, -425) (0000, 0000, 0000)
+0077:FF07 Greenery, Medium tree, dark brown trunk, yellow leaves, Nothing, (-5171, -300, 188) (0000, 0000, 0000)
+0077:FF07 Greenery, Medium tree, dark brown trunk, yellow leaves, Nothing, (-4725, -300, 2592) (0000, 0000, 0000)
+0151:FF02 Shrubs or Rocks, (685, 163, 6522) (0000, 0000, 0000)
+0151:FF01 Shrubs or Rocks, (3144, -138, 7529) (0000, 0000, 0000)
+0151:FF01 Shrubs or Rocks, (-4299, -251, 2628) (0000, 0000, 0000)
+0151:FF01 Shrubs or Rocks, (-5557, -347, 9065) (0000, 0000, 0000)
+0151:FF01 Shrubs or Rocks, (-5210, -253, 9585) (0000, 0000, 0000)
+0151:FF01 Shrubs or Rocks, (908, 219, 3571) (0000, 0000, 0000)
+0151:FF01 Shrubs or Rocks, (-990, -356, 9939) (0000, 0000, 0000)
+0151:FF01 Shrubs or Rocks, (-447, -451, 11258) (0000, 0000, 0000)
+0151:FF00 Shrubs or Rocks, (4338, 3, 6586) (04FA, 0000, 016C)
+0151:FF00 Shrubs or Rocks, (-1360, -463, 11530) (0000, 0000, 0000)
+0151:FF00 Shrubs or Rocks, (-4301, -264, 2628) (0000, 0000, 0000)
+0077:FF13 Greenery, Group of dark bushes, Nothing, (2055, 20, 149) (0000, 0000, 0000)
+0077:FF13 Greenery, Group of dark bushes, Nothing, (-4359, -300, -331) (0000, 0000, 0000)
+0077:FF13 Greenery, Group of dark bushes, Nothing, (-5351, -300, -11) (0000, 0000, 0000)
+0077:FF13 Greenery, Group of dark bushes, Nothing, (-3431, -300, 1173) (0000, 0000, 0000)
+0077:FF13 Greenery, Group of dark bushes, Nothing, (-6855, -500, 9364) (0000, 0000, 0000)
+0077:FF13 Greenery, Group of dark bushes, Nothing, (-5383, -646, 12852) (0000, 0000, 0000)
+0077:FF13 Greenery, Group of dark bushes, Nothing, (-4007, -700, 13620) (0000, 0000, 0000)
+0077:FF13 Greenery, Group of dark bushes, Nothing, (482, -435, 11173) (0000, 0000, 0000)
+0077:FF13 Greenery, Group of dark bushes, Nothing, (1410, -447, 12261) (0000, 0000, 0000)
+0077:FF13 Greenery, Group of dark bushes, Nothing, (130, -500, 12933) (0000, 0000, 0000)
+0077:FF13 Greenery, Group of dark bushes, Nothing, (-1374, -500, 13381) (0000, 0000, 0000)
+0077:FF0A Greenery, Ugly tree from Kakariko Village, Nothing, (5319, -23, 3280) (0000, 0000, 0000)
+0077:FF0A Greenery, Ugly tree from Kakariko Village, Nothing, (4136, 45, 6136) (0000, 0000, 0000)
+0077:FF0A Greenery, Ugly tree from Kakariko Village, Nothing, (3178, -144, 7005) (0000, 0000, 0000)
+0077:FF0A Greenery, Ugly tree from Kakariko Village, Nothing, (2771, 356, 4624) (0000, 0000, 0000)
+0077:FF0A Greenery, Ugly tree from Kakariko Village, Nothing, (2042, 20, -193) (0000, 0000, 0000)
+0077:FF0A Greenery, Ugly tree from Kakariko Village, Nothing, (1790, 20, -137) (0000, 0000, 0000)
+0077:FF0A Greenery, Ugly tree from Kakariko Village, Nothing, (1414, -403, 11892) (0000, 0000, 0000)
+0077:FF0A Greenery, Ugly tree from Kakariko Village, Nothing, (989, -500, 12499) (0000, 0000, 0000)
+0077:FF0A Greenery, Ugly tree from Kakariko Village, Nothing, (200, -500, 12317) (0000, 0000, 0000)
+0077:FF0A Greenery, Ugly tree from Kakariko Village, Nothing, (-786, -500, 11293) (0000, 0000, 0000)
+0077:FF0A Greenery, Ugly tree from Kakariko Village, Nothing, (-1907, 66, 5409) (0000, 0000, 0000)
+0077:FF0A Greenery, Ugly tree from Kakariko Village, Nothing, (-4377, -700, 13662) (0000, 0000, 0000)
+0077:FF0A Greenery, Ugly tree from Kakariko Village, Nothing, (-6332, -500, 9129) (0000, 0000, 0000)
+0077:FF0A Greenery, Ugly tree from Kakariko Village, Nothing, (3622, -158, 7473) (0000, 0000, 0000)
+0077:FF0A Greenery, Ugly tree from Kakariko Village, Nothing, (2808, -234, 7920) (0000, 0000, 0000)
+0077:FF0A Greenery, Ugly tree from Kakariko Village, Nothing, (2645, -188, 7351) (0000, 0000, 0000)
+0077:FF0A Greenery, Ugly tree from Kakariko Village, Nothing, (-461, -500, 12654) (0000, 0000, 0000)
+0077:FF0A Greenery, Ugly tree from Kakariko Village, Nothing, (597, -453, 11841) (0000, 0000, 0000)
+0077:FF0A Greenery, Ugly tree from Kakariko Village, Nothing, (-318, -500, 11861) (0000, 0000, 0000)
+
+Cutscene 7: 00001C80
+16: Sound Settings: Echo 15
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: 0E00 00
+0A: Room Mesh: 03000520
+0B: There are 5 Object(s). List starts at 00001CC0
+002F, 0060, 0092, 0048, 014E, 
+01: There are 2 actor(s). List starts at 00001CCC
+004D:0001 En_Zl2?, (2289, 1, 2172) (0000, 0000, 0000)
+008C:0007 ???, (2404, -10, 2196) (0000, 0000, 0000)
+
+Cutscene 8: 00001CF0
+16: Sound Settings: Echo 15
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 0A
+05: Wind Settings: Forces Westward 50, Vertical 50, Southward 50, Strength 00
+0A: Room Mesh: 03000520
+0B: There are 4 Object(s). List starts at 00001D38
+002F, 007C, 00DE, 0087, 
+01: There are 42 actor(s). List starts at 00001D40
+004A:FFFF Drawbridge Object, (0, -10, 670) (0000, 0000, 0000)
+0077:FF05 Greenery, Medium tree, dark brown trunk, greener leaves, Nothing, (-4735, -300, 45) (0000, 0000, 0000)
+0077:FF05 Greenery, Medium tree, dark brown trunk, greener leaves, Nothing, (-4775, -300, -425) (0000, 0000, 0000)
+0077:FF05 Greenery, Medium tree, dark brown trunk, greener leaves, Nothing, (-4725, -300, 2592) (0000, 0000, 0000)
+0077:FF05 Greenery, Medium tree, dark brown trunk, greener leaves, Nothing, (-5371, -300, 1248) (0000, 0000, 0000)
+0077:FF0D Greenery, Group of bushes, Nothing, (2055, 20, 149) (0000, 0000, 0000)
+0077:FF0D Greenery, Group of bushes, Nothing, (-4359, -300, -331) (0000, 0000, 0000)
+0077:FF0D Greenery, Group of bushes, Nothing, (-5351, -300, -11) (0000, 0000, 0000)
+0077:FF0D Greenery, Group of bushes, Nothing, (-3431, -300, 1173) (0000, 0000, 0000)
+0077:FF0D Greenery, Group of bushes, Nothing, (-6855, -500, 9364) (0000, 0000, 0000)
+0077:FF0D Greenery, Group of bushes, Nothing, (-5383, -646, 12852) (0000, 0000, 0000)
+0077:FF0D Greenery, Group of bushes, Nothing, (-4007, -700, 13620) (0000, 0000, 0000)
+0077:FF0D Greenery, Group of bushes, Nothing, (482, -435, 11173) (0000, 0000, 0000)
+0077:FF0D Greenery, Group of bushes, Nothing, (1410, -447, 12261) (0000, 0000, 0000)
+0077:FF0D Greenery, Group of bushes, Nothing, (130, -500, 12933) (0000, 0000, 0000)
+0077:FF0D Greenery, Group of bushes, Nothing, (-1374, -500, 13381) (0000, 0000, 0000)
+0077:FF0D Greenery, Group of bushes, Nothing, (-5211, -300, 1541) (0000, 0000, 0000)
+0077:FF02 Greenery, Small tree, Nothing, (2042, 20, -193) (0000, 0000, 0000)
+0151:FF02 Shrubs or Rocks, (685, 163, 6522) (0000, 0000, 0000)
+0151:FF01 Shrubs or Rocks, (3144, -138, 7529) (0000, 0000, 0000)
+0151:FF01 Shrubs or Rocks, (908, 219, 3571) (0000, 0000, 0000)
+0151:FF01 Shrubs or Rocks, (-447, -451, 11258) (0000, 0000, 0000)
+0151:FF01 Shrubs or Rocks, (-991, -402, 9939) (0000, 0000, 0000)
+0151:FF01 Shrubs or Rocks, (-5210, -253, 9585) (0000, 0000, 0000)
+0151:FF01 Shrubs or Rocks, (-5557, -347, 9065) (0000, 0000, 0000)
+0151:FF00 Shrubs or Rocks, (4338, 3, 6586) (04FA, 0000, 016C)
+0151:FF00 Shrubs or Rocks, (-1360, -463, 11530) (0000, 0000, 0000)
+0151:FF00 Shrubs or Rocks, (-4301, -264, 2628) (0000, 0000, 0000)
+0077:FF00 Greenery, Large tree, Nothing, (5319, -23, 3280) (0000, 0000, 0000)
+0077:FF00 Greenery, Large tree, Nothing, (2771, 356, 4624) (0000, 0000, 0000)
+0077:FF00 Greenery, Large tree, Nothing, (-786, -500, 11293) (0000, 0000, 0000)
+0077:FF00 Greenery, Large tree, Nothing, (-1907, 66, 5409) (0000, 0000, 0000)
+0077:FF00 Greenery, Large tree, Nothing, (-4377, -700, 13662) (0000, 0000, 0000)
+0077:FF00 Greenery, Large tree, Nothing, (-6332, -500, 9129) (0000, 0000, 0000)
+0077:FF03 Greenery, Group of trees, Nothing, (3178, -144, 7005) (0000, 0000, 0000)
+0077:FF03 Greenery, Group of trees, Nothing, (1414, -403, 11892) (0000, 0000, 0000)
+0077:FF03 Greenery, Group of trees, Nothing, (200, -500, 12317) (0000, 0000, 0000)
+0077:FF01 Greenery, Medium tree, Nothing, (4136, 45, 6136) (0000, 0000, 0000)
+0077:FF01 Greenery, Medium tree, Nothing, (1790, 20, -137) (0000, 0000, 0000)
+0077:FF01 Greenery, Medium tree, Nothing, (989, -500, 12499) (0000, 0000, 0000)
+003B:0001 Ambient Sound, Stream, (-2862, -315, -500) (0000, 0000, 0000)
+00A9:0004 Impa, (274, 0, 1698) (0000, 0000, 0000)
+

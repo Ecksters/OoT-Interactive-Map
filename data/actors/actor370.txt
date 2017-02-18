@@ -1,0 +1,6 @@
+Scene,Setup,Room
+12,0,1,0172,0A04,Metal Grate Door (Boss Door?),,2136,0,-2980,0000,C000,0000
+12,0,2,0172,0C01,Metal Grate Door (Boss Door?),,-44,0,-2509,0000,C000,0000
+12,0,4,0172,0E02,Metal Grate Door (Boss Door?),,296,-240,-1240,0000,C000,0000
+12,0,5,0172,0F03,Metal Grate Door (Boss Door?),,401,0,397,0000,8000,0000
+Total: 4

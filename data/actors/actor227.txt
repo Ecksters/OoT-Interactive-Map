@@ -1,0 +1,6 @@
+Scene,Setup,Room
+3,0,14,00E3,FF00,Forest Temple Object,,1999,1058,-1322,0000,0000,0000
+3,0,17,00E3,1001,Forest Temple Object,,119,-779,-1029,0000,8000,0000
+3,0,17,00E3,1101,Forest Temple Object,,119,-779,-2103,0000,0000,0000
+3,0,17,00E3,1201,Forest Temple Object,,657,-779,-1566,0000,C000,0000
+Total: 4

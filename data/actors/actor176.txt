@@ -1,0 +1,3 @@
+Scene,Setup,Room
+7,0,21,00B0,3800,Shadow Temple Ship,,4738,-1395,-2006,0000,0000,0000
+Total: 1

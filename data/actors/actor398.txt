@@ -1,0 +1,4 @@
+Scene,Setup,Room
+6,0,0,018E,000B,Stone Platform (Defunct?),,0,-50,-61,0000,0000,0000
+6,0,6,018E,000B,Stone Platform (Defunct?),,0,443,-61,0000,0000,0000
+Total: 2

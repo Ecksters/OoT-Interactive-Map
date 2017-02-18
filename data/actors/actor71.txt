@@ -1,0 +1,3 @@
+Scene,Setup,Room
+4,0,24,0047,FFFF,Stone Elevator (Fire Temple),,-2928,2840,139,0000,4000,0000
+Total: 1

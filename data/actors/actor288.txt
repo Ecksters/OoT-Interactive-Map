@@ -1,0 +1,8 @@
+Scene,Setup,Room
+88,0,0,0120,0001,Zora's Domain Waterfall,,445,1008,-1742,0000,0000,0000
+88,2,0,0120,0001,Zora's Domain Waterfall,,445,1008,-1742,0000,0000,0000
+88,4,0,0120,0001,Zora's Domain Waterfall,,445,1008,-1742,0000,0000,0000
+88,0,1,0120,0000,Zora's Domain Waterfall,,0,0,0,0000,0000,0000
+88,2,1,0120,0000,Zora's Domain Waterfall,,0,0,0,0000,0000,0000
+88,4,1,0120,0000,Zora's Domain Waterfall,,0,0,0,0000,0000,0000
+Total: 6

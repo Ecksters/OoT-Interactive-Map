@@ -1,0 +1,7 @@
+Scene,Setup,Room
+7,0,5,00BE,1E01,Shadow Temple Object,,3604,-463,55,0000,C000,0000
+7,0,20,00BE,1C02,Shadow Temple Object,,4569,-1337,-743,0000,8000,0000
+7,0,21,00BE,1000,Shadow Temple Object,,-2257,-1323,-699,0000,0000,0000
+8,0,0,00BE,0702,Shadow Temple Object,,-200,24,-197,0000,0000,0000
+8,0,0,00BE,0802,Shadow Temple Object,,-1080,24,-1477,0000,0000,0000
+Total: 5

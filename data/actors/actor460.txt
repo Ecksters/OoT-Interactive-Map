@@ -1,0 +1,9 @@
+Scene,Setup,Room
+14,0,0,01CC,0000,Zelda's Path in Ganon Castle Escape?,,-139,0,-165,0000,0000,0000
+14,0,1,01CC,0000,Zelda's Path in Ganon Castle Escape?,,2,260,19,0000,0000,0000
+14,0,2,01CC,0000,Zelda's Path in Ganon Castle Escape?,,92,520,-196,0000,0000,0000
+14,0,3,01CC,0000,Zelda's Path in Ganon Castle Escape?,,-29,0,-978,0000,0000,0000
+14,0,4,01CC,0000,Zelda's Path in Ganon Castle Escape?,,9,780,-415,0000,0000,0000
+15,0,0,01CC,0000,Zelda's Path in Ganon Castle Escape?,,903,226,-788,0000,0000,0000
+15,0,1,01CC,0000,Zelda's Path in Ganon Castle Escape?,,1578,196,-837,0000,0000,0000
+Total: 7

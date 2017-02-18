@@ -1,0 +1,228 @@
+Scene,Setup,Room
+32,0,0,0077,FF02,Greenery,Small tree; Nothing,-100,0,240,0000,1555,0000
+33,0,0,0077,FF02,Greenery,Small tree; Nothing,-100,0,240,0000,0000,0000
+81,0,0,0077,0206,Greenery,Group of trees; dark brown trunk; yellow leaves; Rand02,1635,-428,12043,0000,0000,0000
+81,0,0,0077,0B07,Greenery,Medium tree; dark brown trunk; yellow leaves; Three Hearts/Green Rupees,-4976,-300,2812,0000,0000,0000
+81,0,0,0077,0B07,Greenery,Medium tree; dark brown trunk; yellow leaves; Three Hearts/Green Rupees,-1448,0,620,0000,0000,0000
+81,0,0,0077,0208,Greenery,Group of trees; dark brown trunk; greener leaves; Rand02,450,-446,11705,0000,0000,0000
+81,0,0,0077,0208,Greenery,Group of trees; dark brown trunk; greener leaves; Rand02,1015,-500,12657,0000,0000,0000
+81,0,0,0077,0208,Greenery,Group of trees; dark brown trunk; greener leaves; Rand02,3837,-110,6980,0000,5A50,0000
+81,0,0,0077,0D08,Greenery,Group of trees; dark brown trunk; greener leaves; Rand0D,-4713,-300,262,0000,F333,0000
+81,0,0,0077,0D08,Greenery,Group of trees; dark brown trunk; greener leaves; Rand0D,-30,-500,12654,0000,0000,0000
+81,0,0,0077,0205,Greenery,Medium tree; dark brown trunk; greener leaves; Rand02,-1244,0,819,0000,0000,0000
+81,0,0,0077,0205,Greenery,Medium tree; dark brown trunk; greener leaves; Rand02,-1041,0,1022,0000,0000,0000
+81,0,0,0077,020D,Greenery,Group of bushes; Rand02,-6293,-500,7182,0000,0000,0000
+81,0,0,0077,020D,Greenery,Group of bushes; Rand02,-5223,-648,12892,0000,0000,0000
+81,0,0,0077,020D,Greenery,Group of bushes; Rand02,-5211,-300,1541,0000,0000,0000
+81,0,0,0077,020D,Greenery,Group of bushes; Rand02,-5114,-300,16,0000,8000,0000
+81,0,0,0077,020D,Greenery,Group of bushes; Rand02,-4122,-300,-144,0000,0000,0000
+81,0,0,0077,020D,Greenery,Group of bushes; Rand02,-4007,-700,13620,0000,0000,0000
+81,0,0,0077,020D,Greenery,Group of bushes; Rand02,-1374,-500,13381,0000,0000,0000
+81,0,0,0077,020D,Greenery,Group of bushes; Rand02,130,-500,12933,0000,0000,0000
+81,0,0,0077,020D,Greenery,Group of bushes; Rand02,482,-435,11173,0000,0000,0000
+81,0,0,0077,020D,Greenery,Group of bushes; Rand02,1410,-447,12261,0000,0000,0000
+81,0,0,0077,0D02,Greenery,Small tree; Rand0D,2076,20,-91,0000,0000,0000
+81,0,0,0077,0200,Greenery,Large tree; Rand02,3117,282,4239,0000,0000,0000
+81,0,0,0077,0B00,Greenery,Large tree; Three Hearts/Green Rupees,-6270,-500,8579,0000,0000,0000
+81,0,0,0077,0B00,Greenery,Large tree; Three Hearts/Green Rupees,-4377,-700,13662,0000,0000,0000
+81,0,0,0077,0B00,Greenery,Large tree; Three Hearts/Green Rupees,-1907,66,5409,0000,0000,0000
+81,0,0,0077,0B00,Greenery,Large tree; Three Hearts/Green Rupees,-786,-500,11293,0000,0000,0000
+81,0,0,0077,0B00,Greenery,Large tree; Three Hearts/Green Rupees,3276,-20,971,0000,0000,0000
+81,1,0,0077,0206,Greenery,Group of trees; dark brown trunk; yellow leaves; Rand02,1635,-428,12043,0000,0000,0000
+81,1,0,0077,0B07,Greenery,Medium tree; dark brown trunk; yellow leaves; Three Hearts/Green Rupees,-4976,-300,2812,0000,0000,0000
+81,1,0,0077,0B07,Greenery,Medium tree; dark brown trunk; yellow leaves; Three Hearts/Green Rupees,-1448,0,620,0000,0000,0000
+81,1,0,0077,0D08,Greenery,Group of trees; dark brown trunk; greener leaves; Rand0D,-4713,-300,262,0000,F333,0000
+81,1,0,0077,0D08,Greenery,Group of trees; dark brown trunk; greener leaves; Rand0D,-30,-500,12654,0000,0000,0000
+81,1,0,0077,0208,Greenery,Group of trees; dark brown trunk; greener leaves; Rand02,450,-446,11705,0000,0000,0000
+81,1,0,0077,0208,Greenery,Group of trees; dark brown trunk; greener leaves; Rand02,1015,-500,12657,0000,0000,0000
+81,1,0,0077,0208,Greenery,Group of trees; dark brown trunk; greener leaves; Rand02,3837,-110,6980,0000,5A50,0000
+81,1,0,0077,0205,Greenery,Medium tree; dark brown trunk; greener leaves; Rand02,-1244,0,819,0000,0000,0000
+81,1,0,0077,0205,Greenery,Medium tree; dark brown trunk; greener leaves; Rand02,-1041,0,1022,0000,0000,0000
+81,1,0,0077,020D,Greenery,Group of bushes; Rand02,-6293,-500,7182,0000,0000,0000
+81,1,0,0077,020D,Greenery,Group of bushes; Rand02,-5223,-648,12892,0000,0000,0000
+81,1,0,0077,020D,Greenery,Group of bushes; Rand02,-5211,-300,1541,0000,0000,0000
+81,1,0,0077,020D,Greenery,Group of bushes; Rand02,-5114,-300,16,0000,8000,0000
+81,1,0,0077,020D,Greenery,Group of bushes; Rand02,-4122,-300,-144,0000,0000,0000
+81,1,0,0077,020D,Greenery,Group of bushes; Rand02,-4007,-700,13620,0000,0000,0000
+81,1,0,0077,020D,Greenery,Group of bushes; Rand02,-1374,-500,13381,0000,0000,0000
+81,1,0,0077,020D,Greenery,Group of bushes; Rand02,130,-500,12933,0000,0000,0000
+81,1,0,0077,020D,Greenery,Group of bushes; Rand02,482,-435,11173,0000,0000,0000
+81,1,0,0077,020D,Greenery,Group of bushes; Rand02,1410,-447,12261,0000,0000,0000
+81,1,0,0077,0D02,Greenery,Small tree; Rand0D,2076,20,-91,0000,0000,0000
+81,1,0,0077,0B00,Greenery,Large tree; Three Hearts/Green Rupees,-6270,-500,8579,0000,0000,0000
+81,1,0,0077,0B00,Greenery,Large tree; Three Hearts/Green Rupees,-4377,-700,13662,0000,0000,0000
+81,1,0,0077,0B00,Greenery,Large tree; Three Hearts/Green Rupees,-1907,66,5409,0000,0000,0000
+81,1,0,0077,0B00,Greenery,Large tree; Three Hearts/Green Rupees,-786,-500,11293,0000,0000,0000
+81,1,0,0077,0200,Greenery,Large tree; Rand02,3117,282,4239,0000,0000,0000
+81,1,0,0077,0B00,Greenery,Large tree; Three Hearts/Green Rupees,3276,-20,971,0000,0000,0000
+81,2,0,0077,0706,Greenery,Group of trees; dark brown trunk; yellow leaves; Rand07,450,-446,11705,0000,0000,0000
+81,2,0,0077,0706,Greenery,Group of trees; dark brown trunk; yellow leaves; Rand07,1015,-500,12657,0000,0000,0000
+81,2,0,0077,0706,Greenery,Group of trees; dark brown trunk; yellow leaves; Rand07,3837,-110,6980,0000,5A50,0000
+81,2,0,0077,0D06,Greenery,Group of trees; dark brown trunk; yellow leaves; Rand0D,-30,-500,12654,0000,0000,0000
+81,2,0,0077,0D06,Greenery,Group of trees; dark brown trunk; yellow leaves; Rand0D,-4713,-300,262,0000,F333,0000
+81,2,0,0077,0707,Greenery,Medium tree; dark brown trunk; yellow leaves; Rand07,-4976,-300,2812,0000,0000,0000
+81,2,0,0077,0707,Greenery,Medium tree; dark brown trunk; yellow leaves; Rand07,-1244,0,819,0000,0000,0000
+81,2,0,0077,0707,Greenery,Medium tree; dark brown trunk; yellow leaves; Rand07,-1041,0,1022,0000,0000,0000
+81,2,0,0077,0902,Greenery,Small tree; Magic jars,2076,20,-91,0000,0000,0000
+81,2,0,0077,0713,Greenery,Group of dark bushes; Rand07,-6293,-500,7182,0000,0000,0000
+81,2,0,0077,0713,Greenery,Group of dark bushes; Rand07,-5223,-648,12892,0000,0000,0000
+81,2,0,0077,0713,Greenery,Group of dark bushes; Rand07,-5211,-300,1541,0000,0000,0000
+81,2,0,0077,0713,Greenery,Group of dark bushes; Rand07,130,-500,12933,0000,0000,0000
+81,2,0,0077,0713,Greenery,Group of dark bushes; Rand07,482,-435,11173,0000,0000,0000
+81,2,0,0077,0B13,Greenery,Group of dark bushes; Three Hearts/Green Rupees,-4007,-700,13620,0000,0000,0000
+81,2,0,0077,0B0A,Greenery,Ugly tree from Kakariko Village; Three Hearts/Green Rupees,-1448,0,620,0000,0000,0000
+81,2,0,0077,0B00,Greenery,Large tree; Three Hearts/Green Rupees,-1907,66,5409,0000,0000,0000
+81,2,0,0077,0B00,Greenery,Large tree; Three Hearts/Green Rupees,-786,-500,11293,0000,0000,0000
+81,2,0,0077,0700,Greenery,Large tree; Rand07,3117,282,4239,0000,0000,0000
+81,2,0,0077,0B00,Greenery,Large tree; Three Hearts/Green Rupees,3276,-20,971,0000,0000,0000
+81,2,0,0077,0B00,Greenery,Large tree; Three Hearts/Green Rupees,-4377,-700,13662,0000,0000,0000
+81,2,0,0077,0B00,Greenery,Large tree; Three Hearts/Green Rupees,-6241,-500,7097,0000,0000,0000
+81,7,0,0077,FF05,Greenery,Medium tree; dark brown trunk; greener leaves; Nothing,-4725,-300,2592,0000,0000,0000
+81,7,0,0077,FF0D,Greenery,Group of bushes; Nothing,-3431,-300,1173,0000,0000,0000
+81,7,0,0077,FF0D,Greenery,Group of bushes; Nothing,-6855,-500,9364,0000,0000,0000
+81,7,0,0077,FF0D,Greenery,Group of bushes; Nothing,-5383,-646,12852,0000,0000,0000
+81,7,0,0077,FF0D,Greenery,Group of bushes; Nothing,-4007,-700,13620,0000,0000,0000
+81,7,0,0077,FF0D,Greenery,Group of bushes; Nothing,482,-435,11173,0000,0000,0000
+81,7,0,0077,FF00,Greenery,Large tree; Nothing,2771,356,4624,0000,0000,0000
+81,7,0,0077,FF00,Greenery,Large tree; Nothing,-786,-500,11293,0000,0000,0000
+81,7,0,0077,FF00,Greenery,Large tree; Nothing,-1907,66,5409,0000,0000,0000
+81,7,0,0077,FF00,Greenery,Large tree; Nothing,-4377,-700,13662,0000,0000,0000
+81,7,0,0077,FF00,Greenery,Large tree; Nothing,-6332,-500,9129,0000,0000,0000
+81,7,0,0077,FF03,Greenery,Group of trees; Nothing,3178,-144,7005,0000,0000,0000
+81,7,0,0077,FF01,Greenery,Medium tree; Nothing,4136,45,6136,0000,0000,0000
+81,7,0,0077,FF01,Greenery,Medium tree; Nothing,1790,20,-137,0000,0000,0000
+81,7,0,0077,FF00,Greenery,Large tree; Nothing,5322,-23,3275,0000,0000,0000
+81,8,0,0077,FF07,Greenery,Medium tree; dark brown trunk; yellow leaves; Nothing,-4735,-300,45,0000,0000,0000
+81,8,0,0077,FF07,Greenery,Medium tree; dark brown trunk; yellow leaves; Nothing,-4775,-300,-425,0000,0000,0000
+81,8,0,0077,FF07,Greenery,Medium tree; dark brown trunk; yellow leaves; Nothing,-5171,-300,188,0000,0000,0000
+81,8,0,0077,FF07,Greenery,Medium tree; dark brown trunk; yellow leaves; Nothing,-4725,-300,2592,0000,0000,0000
+81,8,0,0077,FF13,Greenery,Group of dark bushes; Nothing,2055,20,149,0000,0000,0000
+81,8,0,0077,FF13,Greenery,Group of dark bushes; Nothing,-4359,-300,-331,0000,0000,0000
+81,8,0,0077,FF13,Greenery,Group of dark bushes; Nothing,-5351,-300,-11,0000,0000,0000
+81,8,0,0077,FF13,Greenery,Group of dark bushes; Nothing,-3431,-300,1173,0000,0000,0000
+81,8,0,0077,FF13,Greenery,Group of dark bushes; Nothing,-6855,-500,9364,0000,0000,0000
+81,8,0,0077,FF13,Greenery,Group of dark bushes; Nothing,-5383,-646,12852,0000,0000,0000
+81,8,0,0077,FF13,Greenery,Group of dark bushes; Nothing,-4007,-700,13620,0000,0000,0000
+81,8,0,0077,FF13,Greenery,Group of dark bushes; Nothing,482,-435,11173,0000,0000,0000
+81,8,0,0077,FF13,Greenery,Group of dark bushes; Nothing,1410,-447,12261,0000,0000,0000
+81,8,0,0077,FF13,Greenery,Group of dark bushes; Nothing,130,-500,12933,0000,0000,0000
+81,8,0,0077,FF13,Greenery,Group of dark bushes; Nothing,-1374,-500,13381,0000,0000,0000
+81,8,0,0077,FF0A,Greenery,Ugly tree from Kakariko Village; Nothing,5319,-23,3280,0000,0000,0000
+81,8,0,0077,FF0A,Greenery,Ugly tree from Kakariko Village; Nothing,4136,45,6136,0000,0000,0000
+81,8,0,0077,FF0A,Greenery,Ugly tree from Kakariko Village; Nothing,3178,-144,7005,0000,0000,0000
+81,8,0,0077,FF0A,Greenery,Ugly tree from Kakariko Village; Nothing,2771,356,4624,0000,0000,0000
+81,8,0,0077,FF0A,Greenery,Ugly tree from Kakariko Village; Nothing,2042,20,-193,0000,0000,0000
+81,8,0,0077,FF0A,Greenery,Ugly tree from Kakariko Village; Nothing,1790,20,-137,0000,0000,0000
+81,8,0,0077,FF0A,Greenery,Ugly tree from Kakariko Village; Nothing,1414,-403,11892,0000,0000,0000
+81,8,0,0077,FF0A,Greenery,Ugly tree from Kakariko Village; Nothing,989,-500,12499,0000,0000,0000
+81,8,0,0077,FF0A,Greenery,Ugly tree from Kakariko Village; Nothing,200,-500,12317,0000,0000,0000
+81,8,0,0077,FF0A,Greenery,Ugly tree from Kakariko Village; Nothing,-786,-500,11293,0000,0000,0000
+81,8,0,0077,FF0A,Greenery,Ugly tree from Kakariko Village; Nothing,-1907,66,5409,0000,0000,0000
+81,8,0,0077,FF0A,Greenery,Ugly tree from Kakariko Village; Nothing,-4377,-700,13662,0000,0000,0000
+81,8,0,0077,FF0A,Greenery,Ugly tree from Kakariko Village; Nothing,-6332,-500,9129,0000,0000,0000
+81,8,0,0077,FF0A,Greenery,Ugly tree from Kakariko Village; Nothing,3622,-158,7473,0000,0000,0000
+81,8,0,0077,FF0A,Greenery,Ugly tree from Kakariko Village; Nothing,2808,-234,7920,0000,0000,0000
+81,8,0,0077,FF0A,Greenery,Ugly tree from Kakariko Village; Nothing,2645,-188,7351,0000,0000,0000
+81,8,0,0077,FF0A,Greenery,Ugly tree from Kakariko Village; Nothing,-461,-500,12654,0000,0000,0000
+81,8,0,0077,FF0A,Greenery,Ugly tree from Kakariko Village; Nothing,597,-453,11841,0000,0000,0000
+81,8,0,0077,FF0A,Greenery,Ugly tree from Kakariko Village; Nothing,-318,-500,11861,0000,0000,0000
+81,10,0,0077,FF07,Greenery,Medium tree; dark brown trunk; yellow leaves; Nothing,-4735,-300,45,0000,0000,0000
+81,10,0,0077,FF07,Greenery,Medium tree; dark brown trunk; yellow leaves; Nothing,-4775,-300,-425,0000,0000,0000
+81,10,0,0077,FF07,Greenery,Medium tree; dark brown trunk; yellow leaves; Nothing,-5171,-300,188,0000,0000,0000
+81,10,0,0077,FF07,Greenery,Medium tree; dark brown trunk; yellow leaves; Nothing,-4725,-300,2592,0000,0000,0000
+81,10,0,0077,FF13,Greenery,Group of dark bushes; Nothing,2055,20,149,0000,0000,0000
+81,10,0,0077,FF13,Greenery,Group of dark bushes; Nothing,-4359,-300,-331,0000,0000,0000
+81,10,0,0077,FF13,Greenery,Group of dark bushes; Nothing,-5351,-300,-11,0000,0000,0000
+81,10,0,0077,FF13,Greenery,Group of dark bushes; Nothing,-3431,-300,1173,0000,0000,0000
+81,10,0,0077,FF13,Greenery,Group of dark bushes; Nothing,-6855,-500,9364,0000,0000,0000
+81,10,0,0077,FF13,Greenery,Group of dark bushes; Nothing,-5383,-646,12852,0000,0000,0000
+81,10,0,0077,FF13,Greenery,Group of dark bushes; Nothing,-4007,-700,13620,0000,0000,0000
+81,10,0,0077,FF13,Greenery,Group of dark bushes; Nothing,482,-435,11173,0000,0000,0000
+81,10,0,0077,FF13,Greenery,Group of dark bushes; Nothing,1410,-447,12261,0000,0000,0000
+81,10,0,0077,FF13,Greenery,Group of dark bushes; Nothing,130,-500,12933,0000,0000,0000
+81,10,0,0077,FF13,Greenery,Group of dark bushes; Nothing,-1374,-500,13381,0000,0000,0000
+81,10,0,0077,FF0A,Greenery,Ugly tree from Kakariko Village; Nothing,5319,-23,3280,0000,0000,0000
+81,10,0,0077,FF0A,Greenery,Ugly tree from Kakariko Village; Nothing,4136,45,6136,0000,0000,0000
+81,10,0,0077,FF0A,Greenery,Ugly tree from Kakariko Village; Nothing,3178,-144,7005,0000,0000,0000
+81,10,0,0077,FF0A,Greenery,Ugly tree from Kakariko Village; Nothing,2771,356,4624,0000,0000,0000
+81,10,0,0077,FF0A,Greenery,Ugly tree from Kakariko Village; Nothing,2042,20,-193,0000,0000,0000
+81,10,0,0077,FF0A,Greenery,Ugly tree from Kakariko Village; Nothing,1790,20,-137,0000,0000,0000
+81,10,0,0077,FF0A,Greenery,Ugly tree from Kakariko Village; Nothing,1414,-403,11892,0000,0000,0000
+81,10,0,0077,FF0A,Greenery,Ugly tree from Kakariko Village; Nothing,989,-500,12499,0000,0000,0000
+81,10,0,0077,FF0A,Greenery,Ugly tree from Kakariko Village; Nothing,200,-500,12317,0000,0000,0000
+81,10,0,0077,FF0A,Greenery,Ugly tree from Kakariko Village; Nothing,-786,-500,11293,0000,0000,0000
+81,10,0,0077,FF0A,Greenery,Ugly tree from Kakariko Village; Nothing,-1907,66,5409,0000,0000,0000
+81,10,0,0077,FF0A,Greenery,Ugly tree from Kakariko Village; Nothing,-4377,-700,13662,0000,0000,0000
+81,10,0,0077,FF0A,Greenery,Ugly tree from Kakariko Village; Nothing,-6332,-500,9129,0000,0000,0000
+81,10,0,0077,FF0A,Greenery,Ugly tree from Kakariko Village; Nothing,3622,-158,7473,0000,0000,0000
+81,10,0,0077,FF0A,Greenery,Ugly tree from Kakariko Village; Nothing,2808,-234,7920,0000,0000,0000
+81,10,0,0077,FF0A,Greenery,Ugly tree from Kakariko Village; Nothing,2645,-188,7351,0000,0000,0000
+81,10,0,0077,FF0A,Greenery,Ugly tree from Kakariko Village; Nothing,-461,-500,12654,0000,0000,0000
+81,10,0,0077,FF0A,Greenery,Ugly tree from Kakariko Village; Nothing,597,-453,11841,0000,0000,0000
+81,10,0,0077,FF0A,Greenery,Ugly tree from Kakariko Village; Nothing,-318,-500,11861,0000,0000,0000
+81,12,0,0077,FF05,Greenery,Medium tree; dark brown trunk; greener leaves; Nothing,-4735,-300,45,0000,0000,0000
+81,12,0,0077,FF05,Greenery,Medium tree; dark brown trunk; greener leaves; Nothing,-4775,-300,-425,0000,0000,0000
+81,12,0,0077,FF05,Greenery,Medium tree; dark brown trunk; greener leaves; Nothing,-4725,-300,2592,0000,0000,0000
+81,12,0,0077,FF05,Greenery,Medium tree; dark brown trunk; greener leaves; Nothing,-5371,-300,1248,0000,0000,0000
+81,12,0,0077,FF0D,Greenery,Group of bushes; Nothing,2055,20,149,0000,0000,0000
+81,12,0,0077,FF0D,Greenery,Group of bushes; Nothing,-4359,-300,-331,0000,0000,0000
+81,12,0,0077,FF0D,Greenery,Group of bushes; Nothing,-5351,-300,-11,0000,0000,0000
+81,12,0,0077,FF0D,Greenery,Group of bushes; Nothing,-3431,-300,1173,0000,0000,0000
+81,12,0,0077,FF0D,Greenery,Group of bushes; Nothing,-6855,-500,9364,0000,0000,0000
+81,12,0,0077,FF0D,Greenery,Group of bushes; Nothing,-5383,-646,12852,0000,0000,0000
+81,12,0,0077,FF0D,Greenery,Group of bushes; Nothing,-4007,-700,13620,0000,0000,0000
+81,12,0,0077,FF0D,Greenery,Group of bushes; Nothing,482,-435,11173,0000,0000,0000
+81,12,0,0077,FF0D,Greenery,Group of bushes; Nothing,1410,-447,12261,0000,0000,0000
+81,12,0,0077,FF0D,Greenery,Group of bushes; Nothing,130,-500,12933,0000,0000,0000
+81,12,0,0077,FF0D,Greenery,Group of bushes; Nothing,-1374,-500,13381,0000,0000,0000
+81,12,0,0077,FF0D,Greenery,Group of bushes; Nothing,-5211,-300,1541,0000,0000,0000
+81,12,0,0077,FF02,Greenery,Small tree; Nothing,2042,20,-193,0000,0000,0000
+81,12,0,0077,FF00,Greenery,Large tree; Nothing,5319,-23,3280,0000,0000,0000
+81,12,0,0077,FF00,Greenery,Large tree; Nothing,2771,356,4624,0000,0000,0000
+81,12,0,0077,FF00,Greenery,Large tree; Nothing,-786,-500,11293,0000,0000,0000
+81,12,0,0077,FF00,Greenery,Large tree; Nothing,-1907,66,5409,0000,0000,0000
+81,12,0,0077,FF00,Greenery,Large tree; Nothing,-4377,-700,13662,0000,0000,0000
+81,12,0,0077,FF00,Greenery,Large tree; Nothing,-6332,-500,9129,0000,0000,0000
+81,12,0,0077,FF03,Greenery,Group of trees; Nothing,3178,-144,7005,0000,0000,0000
+81,12,0,0077,FF03,Greenery,Group of trees; Nothing,1414,-403,11892,0000,0000,0000
+81,12,0,0077,FF03,Greenery,Group of trees; Nothing,200,-500,12317,0000,0000,0000
+81,12,0,0077,FF01,Greenery,Medium tree; Nothing,4136,45,6136,0000,0000,0000
+81,12,0,0077,FF01,Greenery,Medium tree; Nothing,1790,20,-137,0000,0000,0000
+81,12,0,0077,FF01,Greenery,Medium tree; Nothing,989,-500,12499,0000,0000,0000
+82,0,0,0077,0201,Greenery,Medium tree; Rand02,-860,0,522,0000,4000,0000
+82,1,0,0077,2001,Greenery,Medium tree; Nothing,-860,0,522,0000,4000,0071
+82,2,0,0077,FF0A,Greenery,Ugly tree from Kakariko Village; Nothing,-860,0,522,0000,0000,0000
+82,3,0,0077,FF0A,Greenery,Ugly tree from Kakariko Village; Nothing,-860,0,522,0000,0000,0000
+82,4,0,0077,FF0A,Greenery,Ugly tree from Kakariko Village; Nothing,-860,0,522,0000,0000,0000
+82,5,0,0077,FF0A,Greenery,Ugly tree from Kakariko Village; Nothing,-860,0,522,0000,0000,0000
+82,6,0,0077,FF01,Greenery,Medium tree; Nothing,-860,0,522,0000,0000,0000
+82,7,0,0077,FF01,Greenery,Medium tree; Nothing,-860,0,522,0000,0000,0000
+82,8,0,0077,FF01,Greenery,Medium tree; Nothing,-860,0,522,0000,0000,0000
+84,0,0,0077,0201,Greenery,Medium tree; Rand02,-1690,100,554,0000,1555,0072
+89,0,0,0077,FF0B,Greenery,Bush; Nothing,551,35,2184,0000,0000,0000
+89,0,0,0077,FF0B,Greenery,Bush; Nothing,386,43,2265,0000,0000,0000
+89,0,0,0077,FF0B,Greenery,Bush; Nothing,544,45,2373,0000,0000,0000
+89,0,0,0077,FF0B,Greenery,Bush; Nothing,231,52,2406,0000,0000,0000
+89,0,0,0077,FF0B,Greenery,Bush; Nothing,394,55,2510,0000,0000,0000
+89,0,0,0077,FF0B,Greenery,Bush; Nothing,167,56,2514,0000,0000,0000
+89,0,0,0077,8001,Greenery,Medium tree; Nothing,186,44,2222,0000,2000,0072
+89,1,0,0077,FF0B,Greenery,Bush; Nothing,551,35,2184,0000,0000,0000
+89,1,0,0077,FF0B,Greenery,Bush; Nothing,386,43,2265,0000,0000,0000
+89,1,0,0077,FF0B,Greenery,Bush; Nothing,544,45,2373,0000,0000,0000
+89,1,0,0077,FF0B,Greenery,Bush; Nothing,231,52,2406,0000,0000,0000
+89,1,0,0077,FF0B,Greenery,Bush; Nothing,394,55,2510,0000,0000,0000
+89,1,0,0077,FF0B,Greenery,Bush; Nothing,167,56,2514,0000,0000,0000
+89,1,0,0077,8001,Greenery,Medium tree; Nothing,186,44,2222,0000,2000,0072
+95,0,0,0077,0202,Greenery,Small tree; Rand02,-331,1447,1438,0000,0000,0000
+95,0,0,0077,0202,Greenery,Small tree; Rand02,-73,1446,1459,0000,0000,0000
+95,0,0,0077,0202,Greenery,Small tree; Rand02,421,1409,1397,0000,0000,0000
+95,0,0,0077,0202,Greenery,Small tree; Rand02,827,1393,1428,0000,0000,0000
+95,0,0,0077,0202,Greenery,Small tree; Rand02,943,1415,2051,0000,0000,0000
+95,0,0,0077,0202,Greenery,Small tree; Rand02,1022,1385,1444,0000,0000,0000
+95,0,0,0077,0202,Greenery,Small tree; Rand02,1209,1412,2242,0000,0000,0000
+95,0,0,0077,0400,Greenery,Large tree; Rand04,-145,1089,2961,0000,0000,006F
+95,0,0,0077,0200,Greenery,Large tree; Rand02,924,1571,872,0000,0000,0000
+95,0,0,0077,0201,Greenery,Medium tree; Rand02,1494,1388,2108,0000,0000,0000
+99,0,0,0077,0801,Greenery,Medium tree; Deku seeds,1309,0,-2241,0000,E38E,006C
+99,1,0,0077,0801,Greenery,Medium tree; Deku seeds,1309,0,-2241,0000,E38E,006C
+Total: 226

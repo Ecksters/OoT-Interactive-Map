@@ -1,0 +1,17 @@
+Scene,Setup,Room
+93,2,1,012F,0000,Horseback Archery target (hitbox),,3360,1734,485,0000,0000,0000
+93,2,1,012F,0000,Horseback Archery target (hitbox),,3380,1734,-4935,0000,0000,0000
+93,2,1,012F,0001,Horseback Archery target (hitbox),,4490,1670,-2815,0000,0000,0000
+93,2,1,012F,0001,Horseback Archery target (hitbox),,4490,1670,-1785,0000,0000,0000
+93,2,1,012F,0002,Horseback Archery target (hitbox),,4490,1720,-2295,0000,0000,0000
+93,4,1,012F,0000,Horseback Archery target (hitbox),,3380,1734,-4935,0000,0000,0000
+93,4,1,012F,0000,Horseback Archery target (hitbox),,3360,1734,485,0000,0000,0000
+93,4,1,012F,0001,Horseback Archery target (hitbox),,4490,1670,-2815,0000,0000,0000
+93,4,1,012F,0001,Horseback Archery target (hitbox),,4490,1670,-1785,0000,0000,0000
+93,4,1,012F,0002,Horseback Archery target (hitbox),,4490,1720,-2295,0000,0000,0000
+93,5,1,012F,0000,Horseback Archery target (hitbox),,3380,1734,-4935,0000,0000,0000
+93,5,1,012F,0000,Horseback Archery target (hitbox),,3360,1734,485,0000,0000,0000
+93,5,1,012F,0001,Horseback Archery target (hitbox),,4490,1670,-2815,0000,0000,0000
+93,5,1,012F,0001,Horseback Archery target (hitbox),,4490,1670,-1785,0000,0000,0000
+93,5,1,012F,0002,Horseback Archery target (hitbox),,4490,1720,-2295,0000,0000,0000
+Total: 15

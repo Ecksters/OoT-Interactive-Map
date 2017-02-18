@@ -1,0 +1,13 @@
+Scene,Setup,Room
+14,0,0,0177,2707,Metal Bars (Ganon's Castle),,0,0,-349,0000,0000,0000
+14,0,1,0177,2605,Metal Bars (Ganon's Castle),,349,260,0,0000,C000,0000
+14,0,2,0177,2503,Metal Bars (Ganon's Castle),,0,520,349,0000,8000,0000
+14,0,3,0177,2808,Metal Bars (Ganon's Castle),,830,-220,-419,0000,C000,0000
+14,0,4,0177,2401,Metal Bars (Ganon's Castle),,-490,800,0,0000,4000,0000
+15,0,0,0177,2908,Metal Bars (Ganon's Castle),,1292,196,-840,0000,C000,0000
+15,0,1,0177,2A09,Metal Bars (Ganon's Castle),,2832,506,-840,0000,C000,0000
+26,0,0,0177,2000,Metal Bars (Ganon's Castle),,-144,3544,-43,0000,2000,0000
+26,0,0,0177,2102,Metal Bars (Ganon's Castle),,-470,3303,-824,0000,8000,0000
+26,0,0,0177,2204,Metal Bars (Ganon's Castle),,-924,2932,-362,0000,C000,0000
+26,0,0,0177,2306,Metal Bars (Ganon's Castle),,-476,2575,90,0000,0000,0000
+Total: 11

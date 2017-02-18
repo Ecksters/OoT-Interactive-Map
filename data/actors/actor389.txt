@@ -1,0 +1,82 @@
+Scene,Setup,Room
+1,0,0,0185,033F,Check Spot,Checkable; dialog Giant dead Dodongo... when it sees red; ; No Flag,578,568,-929,0000,4000,0000
+1,0,12,0185,8A3F,Check Spot,Disappears on Switch; dialog Look at this!; No Flag,3088,592,-608,0000,0000,0000
+5,0,0,0185,057F,Check Spot,Checkable; dialog Those who wish to open the gate on the f; No Flag,-690,928,342,0000,8000,0000
+5,0,1,0185,057F,Check Spot,Checkable; dialog Those who wish to open the gate on the f; No Flag,-300,432,-7,0000,8000,0000
+5,0,17,0185,053F,Check Spot,Checkable; dialog Those who wish to open the path sleeping; No Flag,999,859,338,0000,8000,0000
+6,0,0,0185,083F,Check Spot,Checkable; dialog If you want to travel to the future; you; No Flag,302,-51,310,0000,EAAB,0016
+6,0,0,0185,087F,Check Spot,Checkable; dialog If you want to proceed to the past; you ; No Flag,-282,-51,312,0000,1555,0016
+6,0,4,0185,04BF,Check Spot,Checkable; dialog Show me the light!; No Flag,-920,480,-884,0000,0000,000B
+6,0,5,0185,8AF3,Check Spot,Disappears on Switch; dialog The crest of the Royal Family is inscrib; Temp: 13,445,674,-1265,0000,0000,000B
+6,0,14,0185,8AF1,Check Spot,Disappears on Switch; dialog The crest of the Royal Family is inscrib; Temp: 11,373,30,-872,0000,00B6,000B
+6,0,24,0185,8AF5,Check Spot,Disappears on Switch; dialog The crest of the Royal Family is inscrib; Temp: 15,679,1633,-816,0000,0000,000B
+7,0,0,0185,4225,Check Spot,Instant; dialog Shadow Temple... here is gathered Hyrule; Temp: 05,-792,-38,85,0000,8000,0001
+7,0,0,0185,4226,Check Spot,Instant; dialog Shadow Temple... here is gathered Hyrule; Temp: 06,-1074,-38,-188,0000,4000,0001
+7,0,0,0185,4267,Check Spot,Instant; dialog What is hidden in the darkness... Tricks; Temp: 07,-1612,-38,-67,0000,0000,0001
+7,0,0,0185,4268,Check Spot,Instant; dialog What is hidden in the darkness... Tricks; Temp: 08,-1273,-38,-185,0000,4000,0001
+7,0,0,0185,42A9,Check Spot,Instant; dialog One who gains the eye of truth will be a; Temp: 09,-1553,-38,-462,0000,0000,0001
+7,0,0,0185,422A,Check Spot,Instant; dialog Shadow Temple... here is gathered Hyrule; Temp: 0A,-1827,-38,-190,0000,4000,0001
+7,0,0,0185,422B,Check Spot,Instant; dialog Shadow Temple... here is gathered Hyrule; Temp: 0B,-794,-38,-465,0000,0000,0001
+7,0,0,0185,42AC,Check Spot,Instant; dialog One who gains the eye of truth will be a; Temp: 0C,-514,-38,-185,0000,C000,0001
+7,0,2,0185,493C,Check Spot,Instant; dialog Make my beak face the skull of truth. Th; Local: 04,738,-38,54,0000,0000,0001
+7,0,2,0185,4F3D,Check Spot,Instant; dialog The Shadow will yield only to one with t; Local: 05,304,-2,294,0000,C000,0015
+8,0,0,0185,8AC3,Check Spot,Disappears on Switch; dialog The crest of the Royal Family is inscrib; Perm: 03,10,0,-1502,0000,0000,000B
+11,0,0,0185,4C2F,Check Spot,Instant; dialog If you can overcome the trials in the ch; Temp: 0F,-43,-64,-629,0000,0000,000B
+11,0,0,0185,4C2F,Check Spot,Instant; dialog If you can overcome the trials in the ch; Temp: 0F,468,-64,-188,0000,0000,000B
+11,0,0,0185,4C2F,Check Spot,Instant; dialog If you can overcome the trials in the ch; Temp: 0F,-590,-74,-176,0000,0000,000B
+11,0,1,0185,4C9F,Check Spot,Instant; dialog Defeat all the enemies in a limited time; Perm: 1F,-1395,-82,-233,0000,0000,0045
+11,0,2,0185,4E5C,Check Spot,Instant; dialog Gather the jewels of white; while avoidi; Perm: 1C,-1557,-40,-1268,0000,0000,0045
+11,0,3,0185,4DCB,Check Spot,Instant; dialog One with silver hands shall move a giant; Perm: 0B,-1574,231,-2930,0000,0000,000B
+11,0,3,0185,4E0F,Check Spot,Instant; dialog Without the necessary items; one will be; Perm: 0F,-1422,159,-2512,0000,0000,0045
+11,0,4,0185,4D95,Check Spot,Instant; dialog Blind the eyes of the statue!; Perm: 15,159,-66,-2746,0000,0000,0045
+11,0,5,0185,4D59,Check Spot,Instant; dialog Find a secret passage in this room!; Perm: 19,1447,-65,-2744,0000,0000,0045
+11,0,6,0185,4D16,Check Spot,Instant; dialog Cross the sea of fire!; Perm: 16,1483,-214,-784,0000,0000,000B
+11,0,6,0185,4D16,Check Spot,Instant; dialog Cross the sea of fire!; Perm: 16,1433,3,-2310,0000,0000,000B
+11,0,6,0185,4D16,Check Spot,Instant; dialog Cross the sea of fire!; Perm: 16,912,-47,-1525,0000,0000,000B
+11,0,7,0185,4C9E,Check Spot,Instant; dialog Defeat all the enemies in a limited time; Perm: 1E,1251,-58,-374,0000,0000,0045
+11,0,8,0185,4C48,Check Spot,Instant; dialog If you desire to acquire our hidden trea; Perm: 08,-32,-80,-1400,0000,0000,0045
+11,0,9,0185,4CDB,Check Spot,Instant; dialog Collect the underwater gems!; Perm: 1B,2196,-179,-1466,0000,0000,0045
+12,0,1,0185,4708,Check Spot,Instant; dialog Hey; you! Young man; over there! Look ov; Perm: 08,2159,55,-2870,0000,C000,000A
+12,0,2,0185,4705,Check Spot,Instant; dialog Hey; you! Young man; over there! Look ov; Perm: 05,-15,45,-2396,0000,C000,0005
+12,0,4,0185,4706,Check Spot,Instant; dialog Hey; you! Young man; over there! Look ov; Perm: 06,326,-181,-1123,0000,C000,0006
+12,0,5,0185,4707,Check Spot,Instant; dialog Hey; you! Young man; over there! Look ov; Perm: 07,523,54,424,0000,8000,0006
+51,0,0,0185,81FF,Check Spot,Disappears on Switch; dialog Happy Mask Shop / Please read this sign ; No Flag,-112,30,31,0000,0E39,002A
+52,0,0,0185,8ABF,Check Spot,Disappears on Switch; dialog LINK’s Records! / Spiders squished: 0 / ; No Flag,78,38,116,0000,8E39,0000
+59,0,0,0185,8AF8,Check Spot,Disappears on Switch; dialog The crest of the Royal Family is inscrib; Local: 00,-22,10,-798,0000,0000,000B
+65,0,0,0185,06F8,Check Spot,Checkable; dialog Those who break into the Royal Tomb will; Local: 00,292,36,1426,0000,C000,0001
+65,0,0,0185,06B9,Check Spot,Checkable; dialog Shine light on the living dead...; Local: 01,-247,18,1446,0000,22D8,0000
+83,0,1,0185,0B3F,Check Spot,Checkable; dialog R.I.P. / Here lie the souls of those who; No Flag,-805,38,266,0000,C000,0029
+83,0,1,0185,0AFF,Check Spot,Checkable; dialog The crest of the Royal Family is inscrib; No Flag,602,185,80,0000,C000,0015
+83,1,1,0185,0B3F,Check Spot,Checkable; dialog R.I.P. / Here lie the souls of those who; No Flag,-805,38,264,0000,C000,0029
+83,1,1,0185,0AFF,Check Spot,Checkable; dialog The crest of the Royal Family is inscrib; No Flag,603,185,80,0000,C000,0015
+83,2,1,0185,0B3F,Check Spot,Checkable; dialog R.I.P. / Here lie the souls of those who; No Flag,-807,42,266,0000,C000,0029
+83,2,1,0185,0AFF,Check Spot,Checkable; dialog The crest of the Royal Family is inscrib; No Flag,601,185,81,0000,C000,0015
+83,3,1,0185,0B3F,Check Spot,Checkable; dialog R.I.P. / Here lie the souls of those who; No Flag,-806,41,266,0000,C000,0015
+83,3,1,0185,0AFF,Check Spot,Checkable; dialog The crest of the Royal Family is inscrib; No Flag,604,185,80,0000,C000,0029
+84,0,0,0185,4BBB,Check Spot,Instant; dialog Some frogs are looking at you from under; Local: 03,1000,205,-1202,0000,960B,0000
+84,0,1,0185,8B7F,Check Spot,Disappears on Switch; dialog Sleepless Waterfall / The flow of this w; No Flag,4096,920,-1401,0000,C000,0029
+84,2,1,0185,8B7F,Check Spot,Disappears on Switch; dialog Sleepless Waterfall / The flow of this w; No Flag,4097,920,-1399,0000,C000,0029
+85,0,0,0185,461F,Check Spot,Instant; dialog Hi; LINK! Look this way! Look over here ; Perm: 1F,861,34,-340,0000,0000,0003
+85,0,0,0185,FFFF,Check Spot,Z-target; no text; dialog You borrowed a Pocket Egg! ...; No Flag,-915,130,872,0000,2E39,0000
+85,0,0,0185,FFFF,Check Spot,Z-target; no text; dialog You borrowed a Pocket Egg! ...; No Flag,-896,130,826,0000,2E39,0000
+85,0,0,0185,FFFF,Check Spot,Z-target; no text; dialog You borrowed a Pocket Egg! ...; No Flag,-584,130,963,0000,B1C7,0028
+87,0,0,0185,87FF,Check Spot,Disappears on Switch; dialog When water fills the lake; shoot for the; No Flag,-491,-1226,7259,0000,C000,0029
+87,0,0,0185,8EBF,Check Spot,Disappears on Switch; dialog Fishing Pond / The fish are really bitin; No Flag,1341,-1180,3779,0000,C000,0029
+87,2,0,0185,87FF,Check Spot,Disappears on Switch; dialog When water fills the lake; shoot for the; No Flag,-491,-1216,7259,0000,C000,0029
+87,2,0,0185,8EBF,Check Spot,Disappears on Switch; dialog Fishing Pond / The fish are really bitin; No Flag,1341,-1180,3779,0000,C000,0029
+92,0,0,0185,8EFF,Check Spot,Disappears on Switch; dialog ...???; No Flag,2261,159,-1542,0000,0000,0029
+92,0,0,0185,FFFF,Check Spot,Z-target; no text; dialog You borrowed a Pocket Egg! ...; No Flag,1176,83,1959,0000,5E94,0000
+92,2,0,0185,8EDD,Check Spot,Disappears on Switch; dialog ...???; Perm: 1D,2261,159,-1542,0000,0000,0029
+92,2,0,0185,FFFF,Check Spot,Z-target; no text; dialog You borrowed a Pocket Egg! ...; No Flag,1176,83,1959,0000,5E94,0000
+94,0,1,0185,04FF,Check Spot,Checkable; dialog One with the eye of truth shall be guide; No Flag,645,278,-2234,0000,0000,002A
+95,0,0,0185,867F,Check Spot,Disappears on Switch; dialog The current time is: [time].; No Flag,1062,1465,2921,0000,4000,0029
+95,0,0,0185,8EC1,Check Spot,Disappears on Switch; dialog ...???; Perm: 01,2730,1172,2540,0000,C000,0029
+96,0,0,0185,8EC3,Check Spot,Disappears on Switch; dialog ...???; Perm: 03,-237,3370,-4462,0000,127D,0029
+96,2,0,0185,8EC3,Check Spot,Disappears on Switch; dialog ...???; Perm: 03,-237,3370,-4462,0000,127D,0029
+97,2,1,0185,8EDC,Check Spot,Disappears on Switch; dialog ...???; Perm: 1C,-1329,880,955,0000,5111,002A
+98,0,3,0185,88FF,Check Spot,Disappears on Switch; dialog It looks like something used to be set i; No Flag,0,535,175,0000,0000,0000
+98,0,3,0185,8BFF,Check Spot,Disappears on Switch; dialog You’re standing on a soft carpet for gue; No Flag,-71,-2,-333,0000,0000,0029
+98,2,3,0185,88FF,Check Spot,Disappears on Switch; dialog It looks like something used to be set i; No Flag,0,535,175,0000,0000,0000
+98,2,3,0185,8BFF,Check Spot,Disappears on Switch; dialog You’re standing on a soft carpet for gue; No Flag,-74,-2,-328,0000,0000,0029
+100,0,0,0185,8EC1,Check Spot,Disappears on Switch; dialog ...???; Perm: 01,2896,1237,521,0000,C000,0033
+Total: 80

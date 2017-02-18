@@ -1,0 +1,5 @@
+Scene,Setup,Room
+6,0,0,01D5,0010,Young Link Silver Block,,542,-50,-1,0000,8000,0000
+6,0,6,01D5,0009,Young Link Silver Block,,340,413,-461,0000,0000,0000
+6,0,6,01D5,000C,Young Link Silver Block,,540,413,-261,0000,0000,0000
+Total: 3

@@ -1,0 +1,4 @@
+Scene,Setup,Room
+99,0,0,009A,FFFF,Young Epona,,-4,0,-572,0000,4000,0003
+99,5,0,009A,FFFF,Young Epona,,-4,0,-572,0000,4000,0003
+Total: 2

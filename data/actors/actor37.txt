@@ -1,0 +1,14 @@
+Scene,Setup,Room
+1,0,3,0025,0500,Lizafos,Spawn on entering door bound to Perm: 05,3969,100,-2161,0000,0000,0000
+1,0,3,0025,0501,Lizafos,Spawn on entering door bound to Perm: 05,2829,100,-1961,0000,0000,0000
+1,0,3,0025,0600,Lizafos,Spawn on entering door bound to Perm: 06,4261,531,-1055,0000,0000,0000
+1,0,3,0025,0601,Lizafos,Spawn on entering door bound to Perm: 06,4442,531,-1386,0000,0000,0000
+6,0,4,0025,FFFF,Lizafos,Spawn on entering door bound to invalid,-1074,501,-717,0000,6000,0000
+6,0,4,0025,FFFF,Lizafos,Spawn on entering door bound to invalid,-730,480,-736,0000,AAAB,0000
+6,0,26,0025,FFFF,Lizafos,Spawn on entering door bound to invalid,-545,1743,-830,0000,8000,0000
+6,0,26,0025,FFFF,Lizafos,Spawn on entering door bound to invalid,-24,1743,-304,0000,C000,0000
+10,0,0,0025,FFFE,Lizafos,Spawn on entering door bound to invalid,26,0,-133,0000,C000,0000
+10,0,0,0025,FFFE,Lizafos,Spawn on entering door bound to invalid,35,0,119,0000,C000,0000
+11,0,7,0025,FFFE,Lizafos,Spawn on entering door bound to invalid,1494,-80,70,0000,B8E4,0000
+11,0,7,0025,FFFE,Lizafos,Spawn on entering door bound to invalid,1526,-59,-245,0000,C71C,0000
+Total: 12

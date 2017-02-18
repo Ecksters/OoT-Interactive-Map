@@ -1,0 +1,24 @@
+Scene,Setup,Room
+1,0,0,0195,0004,Ground Deku Scrub,Deku Shield,-966,0,-318,0000,4000,0000
+1,0,6,0195,0000,Ground Deku Scrub,Deku Nuts,1638,411,-1953,0000,0000,0000
+1,0,6,0195,0003,Ground Deku Scrub,Deku Seeds,2045,411,-1962,0000,0000,0000
+1,0,13,0195,0001,Ground Deku Scrub,Deku Sticks,2433,100,-3171,0000,0000,0000
+2,0,1,0195,0000,Ground Deku Scrub,Deku Nuts,-737,-1233,-1701,0000,4000,0000
+13,0,16,0195,0005,Ground Deku Scrub,Bombs,92,-240,969,0000,9555,0000
+13,0,16,0195,0007,Ground Deku Scrub,Red Potion,-189,-240,865,0000,5555,0000
+13,0,16,0195,0006,Ground Deku Scrub,Deku Seeds,-84,-240,970,0000,6AAB,0000
+13,0,16,0195,0008,Ground Deku Scrub,Green Potion,210,-240,870,0000,AAAB,0000
+62,0,1,0195,0002,Ground Deku Scrub,Piece of Heart,1222,9,-489,0000,0000,0000
+62,0,6,0195,000A,Ground Deku Scrub,Deku Nut Upgrade,573,0,865,0000,0000,0000
+62,0,6,0195,0006,Ground Deku Scrub,Deku Seeds,684,0,742,0000,0000,0000
+62,0,9,0195,0007,Ground Deku Scrub,Red Potion,2362,0,707,0000,0000,0000
+62,0,9,0195,0008,Ground Deku Scrub,Green Potion,2463,0,847,0000,0000,0000
+62,0,12,0195,0000,Ground Deku Scrub,Deku Nuts,4490,-20,889,0000,E889,0000
+62,0,12,0195,0005,Ground Deku Scrub,Bombs,5099,-20,882,0000,0000,0000
+62,0,12,0195,0006,Ground Deku Scrub,Deku Seeds,4785,-20,593,0000,0B61,0000
+91,0,5,0195,0009,Ground Deku Scrub,Deku Stick Upgrade,-1137,-200,2180,0000,C000,0000
+91,4,5,0195,0002,Ground Deku Scrub,Piece of Heart,-1121,-258,2183,0000,C000,0000
+91,0,6,0195,0000,Ground Deku Scrub,Deku Nuts,653,0,-1726,0000,ED83,0000
+91,0,6,0195,0001,Ground Deku Scrub,Deku Sticks,443,0,-1357,0000,8000,0000
+97,0,1,0195,0005,Ground Deku Scrub,Bombs,-853,769,1196,0000,0000,0000
+Total: 22

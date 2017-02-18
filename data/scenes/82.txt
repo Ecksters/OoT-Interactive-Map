@@ -1,0 +1,735 @@
+Scene at 01FF9000
+Setup 0: 00000000
+18: Alternate headers start at 00000070.
+15: Sound Settings: Reverb 1, Playback option 01, Song 27.
+04: There are 1 room(s). List starts at 00000220
+02016000 0201FEE0
+0E: There are 9 transition actor(s). List starts at 00000190.
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (1220, 260, 524) (0000, C000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (-339, 240, 1700) (0000, C000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (-16, 0, 224) (0000, C000, 0000)
+00 FF -> 00 FF, 0009:02A6, Locked Door, Temp: 06, (744, 200, 24) (0000, 4000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (324, 160, 820) (0000, 8000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (-320, 80, 1020) (0000, 4000, 0000)
+00 FF -> 00 FF, 0009:029D, Locked Door, Perm: 1D, (-223, 320, -664) (0000, 2FA5, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (150, 320, -554) (0000, B111, 0000)
+00 FF -> 00 FF, 0009:02A7, Locked Door, Temp: 07, (559, 320, -602) (0000, 3111, 0000)
+19: JPEG background camera related: 00 Overworld Region:  01
+03: Collision Header starts at 00004A1C
+Offset to vertex array 00003BDC
+Offset to polygon array 000005EC
+Offset to polygon type defs 000004FC
+Offset to camera data 00000494
+Offset to water boxes 00004A0C
+Size in bytes 17844
+06: Entrance Index Definitions starts at 00000228
+07: Elf_Message 1, Load Object 0002
+0D: Pathway List starts at 000003D0
+ 00) 0003A4  (1105, 80, 88) (759, 80, 360) (-110, 0, 376) (-210, 0, 3) (-725, 200, -7) (-765, 200, -87) (-675, 200, -417)
+ 01) 000380  (1167, 260, 663) (1167, 260, 924) (1055, 80, 1364) (1085, 80, 1468) (1704, 189, 1475) (1743, 189, 1447)
+ 02) 00036C  (497, 300, 831) (497, 300, 1163) (172, 300, 1163)
+
+00: There are 16 position(s). List starts at 00000090.
+0000:0FFF Link, (-2649, 138, 1063) (0000, 4000, 0000)
+0000:0FFF Link, (-97, 511, -1787) (0000, 0E39, 0000)
+0000:0FFF Link, (1895, 189, 1391) (0000, CE39, 0000)
+0000:0E01 Link, (-193, 320, -651) (0000, 31C7, 0000)
+0000:0EFF Link, (917, -500, 521) (0000, C000, 0000)
+0000:0E00 Link, (-371, 240, 1701) (0000, C000, 0000)
+0000:0E08 Link, (-49, 0, 224) (0000, C000, 0000)
+0000:0E04 Link, (776, 200, 25) (0000, 4000, 0000)
+0000:0E05 Link, (1188, 260, 524) (0000, C000, 0000)
+0000:0E02 Link, (120, 320, -567) (0000, B1C7, 0000)
+0000:0E06 Link, (324, 160, 788) (0000, 8000, 0000)
+0000:0E07 Link, (-289, 80, 1021) (0000, 4000, 0000)
+0000:0E03 Link, (588, 320, -588) (0000, 2B61, 0000)
+0000:0DFF Link, (175, 0, 477) (0000, 4000, 0000)
+0000:0DFF Link, (-65, 620, 1520) (0000, 8000, 0000)
+0000:0EFF Link, (260, 240, 1730) (0000, 4000, 0000)
+11: Skybox 1, Cast: Sunny, Fog? No
+13: Exit List starts at 00000248. 017D 013D 00E4 00B7 0098 039C 02FD 0072 0453 0384 003B 0550 03EC 05C8
+0F: There are 12 environment setting(s). List starts at 00000264.
+
+Setup 1: 00009980
+15: Sound Settings: Reverb 1, Playback option 01, Song 27.
+04: There are 1 room(s). List starts at 00009B78
+02016000 0201FEE0
+0E: There are 9 transition actor(s). List starts at 00009AE8.
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (1220, 260, 524) (0000, C000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (-339, 240, 1700) (0000, C000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (-16, 0, 224) (0000, C000, 0000)
+00 FF -> 00 FF, 0009:02A6, Locked Door, Temp: 06, (744, 200, 24) (0000, 4000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (324, 160, 820) (0000, 8000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (-320, 80, 1020) (0000, 4000, 0000)
+00 FF -> 00 FF, 0009:029E, Locked Door, Perm: 1E, (-223, 320, -664) (0000, 2FA5, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (150, 320, -554) (0000, B111, 0000)
+00 FF -> 00 FF, 0009:02A7, Locked Door, Temp: 07, (559, 320, -602) (0000, 3111, 0000)
+19: JPEG background camera related: 00 Overworld Region:  01
+03: Collision Header starts at 00004A1C
+Offset to vertex array 00003BDC
+Offset to polygon array 000005EC
+Offset to polygon type defs 000004FC
+Offset to camera data 00000494
+Offset to water boxes 00004A0C
+Size in bytes 17844
+06: Entrance Index Definitions starts at 00009B80
+07: Elf_Message 1, Load Object 0002
+0D: Pathway List starts at 00009CD8
+ 00) 009CC4  (497, 300, 831) (497, 300, 1163) (172, 300, 1163)
+
+00: There are 16 position(s). List starts at 000099E8.
+0000:0FFF Link, (-2649, 138, 1063) (0000, 4000, 0000)
+0000:0FFF Link, (-97, 511, -1787) (0000, 0E39, 0000)
+0000:0FFF Link, (1895, 189, 1391) (0000, CE39, 0000)
+0000:0E01 Link, (-193, 320, -651) (0000, 31C7, 0000)
+0000:0EFF Link, (917, -500, 521) (0000, C000, 0000)
+0000:0E00 Link, (-371, 240, 1701) (0000, C000, 0000)
+0000:0E08 Link, (-48, 0, 228) (0000, C000, 0000)
+0000:0E04 Link, (777, 200, 25) (0000, 4000, 0000)
+0000:0E05 Link, (1187, 260, 526) (0000, C000, 0000)
+0000:0E02 Link, (119, 320, -566) (0000, B1C7, 0000)
+0000:0E06 Link, (323, 160, 785) (0000, 8000, 0000)
+0000:0E07 Link, (-285, 80, 1018) (0000, 4000, 0000)
+0000:0E03 Link, (590, 320, -590) (0000, 2B61, 0000)
+0000:0DFF Link, (175, 0, 477) (0000, 4000, 0000)
+0000:0DFF Link, (-65, 620, 1520) (0000, 8000, 0000)
+0000:0EFF Link, (260, 240, 1730) (0000, 4000, 0000)
+11: Skybox 1, Cast: Sunny, Fog? No
+13: Exit List starts at 00009BA0. 017D 013D 00E4 00B7 0098 039C 02FD 0072 0453 0384 003B 0550 03EC 05C8
+0F: There are 12 environment setting(s). List starts at 00009BBC.
+
+Setup 2: 000090D0
+15: Sound Settings: Reverb 1, Playback option 01, Song 19.
+04: There are 1 room(s). List starts at 000092C8
+02016000 0201FEE0
+0E: There are 9 transition actor(s). List starts at 00009238.
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (1220, 260, 524) (0000, C000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (-339, 240, 1700) (0000, C000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (-16, 0, 224) (0000, C000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (744, 200, 24) (0000, 4000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (324, 160, 820) (0000, 8000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (-320, 80, 1020) (0000, 4000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (-223, 320, -664) (0000, 2FA5, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (150, 320, -554) (0000, B111, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (559, 320, -602) (0000, 3111, 0000)
+19: JPEG background camera related: 00 Overworld Region:  01
+03: Collision Header starts at 00004A1C
+Offset to vertex array 00003BDC
+Offset to polygon array 000005EC
+Offset to polygon type defs 000004FC
+Offset to camera data 00000494
+Offset to water boxes 00004A0C
+Size in bytes 17844
+06: Entrance Index Definitions starts at 000092D0
+07: Elf_Message 1, Load Object 0002
+0D: Pathway List starts at 00009528
+ 00) 00951C  (-301, 80, 1257) (-665, 80, 1241)
+
+00: There are 16 position(s). List starts at 00009138.
+0000:0FFF Link, (-2638, 138, 1065) (0000, 4000, 0000)
+0000:0FFF Link, (-97, 511, -1787) (0000, 0E39, 0000)
+0000:0FFF Link, (1901, 189, 1385) (0000, CCCD, 0000)
+0000:0E01 Link, (-191, 320, -650) (0000, 31C7, 0000)
+0000:0EFF Link, (846, -500, 520) (0000, C000, 0000)
+0000:0E00 Link, (-373, 240, 1702) (0000, C000, 0000)
+0000:0E08 Link, (-51, 0, 224) (0000, C000, 0000)
+0000:0E04 Link, (780, 200, 24) (0000, 4000, 0000)
+0000:0E05 Link, (1183, 260, 523) (0000, C000, 0000)
+0000:0E02 Link, (119, 320, -567) (0000, B1C7, 0000)
+0000:0E06 Link, (323, 160, 784) (0000, 8000, 0000)
+0000:0E07 Link, (-287, 80, 1017) (0000, 4000, 0000)
+0000:0E03 Link, (592, 320, -586) (0000, 2B61, 0000)
+0000:0DFF Link, (175, 0, 477) (0000, 4000, 0000)
+0000:0DFF Link, (-64, 529, 1622) (0000, 0000, 0000)
+0000:0EFF Link, (260, 240, 1730) (0000, 4000, 0000)
+11: Skybox 1, Cast: Sunny, Fog? No
+13: Exit List starts at 000092F0. 017D 013D 00E4 00B7 0098 039C 02FD 0072 0453 0384 003B 0550 03EC 05C8
+0F: There are 24 environment setting(s). List starts at 0000930C.
+
+Setup 3: 00009530
+15: Sound Settings: Reverb 1, Playback option 01, Song 19.
+04: There are 1 room(s). List starts at 00009720
+02016000 0201FEE0
+0E: There are 9 transition actor(s). List starts at 00009690.
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (1220, 260, 524) (0000, C000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (-339, 240, 1700) (0000, C000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (-16, 0, 224) (0000, C000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (744, 200, 24) (0000, 4000, 0000)
+00 FF -> 00 FF, 0009:028F, Locked Door, Perm: 0F, (324, 160, 820) (0000, 8000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (-320, 80, 1020) (0000, 4000, 0000)
+00 FF -> 00 FF, 0009:0291, Locked Door, Perm: 11, (-223, 320, -664) (0000, 2FA5, 0000)
+00 FF -> 00 FF, 0009:028E, Locked Door, Perm: 0E, (150, 320, -554) (0000, B111, 0000)
+00 FF -> 00 FF, 0009:028E, Locked Door, Perm: 0E, (559, 320, -602) (0000, 3111, 0000)
+19: JPEG background camera related: 00 Overworld Region:  01
+03: Collision Header starts at 00004A1C
+Offset to vertex array 00003BDC
+Offset to polygon array 000005EC
+Offset to polygon type defs 000004FC
+Offset to camera data 00000494
+Offset to water boxes 00004A0C
+Size in bytes 17844
+06: Entrance Index Definitions starts at 00009728
+07: Elf_Message 1, Load Object 0002
+00: There are 16 position(s). List starts at 00009590.
+0000:0FFF Link, (-2638, 138, 1065) (0000, 4000, 0000)
+0000:0FFF Link, (-97, 511, -1787) (0000, 0E39, 0000)
+0000:0FFF Link, (1897, 189, 1395) (0000, CC17, 0000)
+0000:0E01 Link, (-192, 320, -652) (0000, 31C7, 0000)
+0000:0EFF Link, (846, -500, 520) (0000, C000, 0000)
+0000:0E00 Link, (-372, 240, 1701) (0000, C000, 0000)
+0000:0E08 Link, (-49, 0, 224) (0000, C000, 0000)
+0000:0E04 Link, (776, 200, 22) (0000, 4000, 0000)
+0000:0E05 Link, (1183, 260, 523) (0000, C000, 0000)
+0000:0E02 Link, (120, 320, -568) (0000, B1C7, 0000)
+0000:0E06 Link, (323, 160, 784) (0000, 8000, 0000)
+0000:0E07 Link, (-284, 80, 1019) (0000, 4000, 0000)
+0000:0E03 Link, (592, 320, -590) (0000, 2AAB, 0000)
+0000:0DFF Link, (175, 0, 477) (0000, 4000, 0000)
+0000:0FFF Link, (-131, 554, 1479) (0000, 0000, 0000)
+0000:0EFF Link, (260, 240, 1730) (0000, 4000, 0000)
+11: Skybox 1, Cast: Sunny, Fog? No
+13: Exit List starts at 00009748. 017D 013D 00E4 00B7 0098 039C 02FD 0072 0453 0384 003B 0550 03EC 05C8
+0F: There are 24 environment setting(s). List starts at 00009764.
+
+Cutscene 0: 00009CE0
+15: Sound Settings: Reverb 1, Playback option 01, Song 7F.
+04: There are 1 room(s). List starts at 00009DE8
+02016000 0201FEE0
+0E: There are 9 transition actor(s). List starts at 00009D58.
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (1220, 260, 524) (0000, C000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (-339, 240, 1700) (0000, C000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (-16, 0, 224) (0000, C000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (744, 200, 24) (0000, 4000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (324, 160, 820) (0000, 8000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (-320, 80, 1020) (0000, 4000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (-223, 320, -664) (0000, 2FA5, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (150, 320, -554) (0000, B111, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (559, 320, -602) (0000, 3111, 0000)
+19: JPEG background camera related: 00 Overworld Region:  01
+03: Collision Header starts at 00004A1C
+Offset to vertex array 00003BDC
+Offset to polygon array 000005EC
+Offset to polygon type defs 000004FC
+Offset to camera data 00000494
+Offset to water boxes 00004A0C
+Size in bytes 17844
+06: Entrance Index Definitions starts at 00009DF0
+07: Elf_Message 1, Load Object 0002
+00: There are 1 position(s). List starts at 00009D48.
+0000:0FFF Link, (-2684, 138, 1072) (0000, 4000, 0000)
+11: Skybox 1, Cast: Cloudy, Fog? Yes
+13: Exit List starts at 00009DF4. 017D 013D 00E4 02B2 0398 02FD 0453 043B 0388 0000
+0F: There are 4 environment setting(s). List starts at 00009E08.
+17: Cutscene starts at 00004A50
+
+Cutscene 1: 00009E60
+15: Sound Settings: Reverb 1, Playback option 01, Song 7F.
+04: There are 1 room(s). List starts at 00009F68
+02016000 0201FEE0
+0E: There are 9 transition actor(s). List starts at 00009ED8.
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (1220, 260, 524) (0000, C000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (-339, 240, 1700) (0000, C000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (-16, 0, 224) (0000, C000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (744, 200, 24) (0000, 4000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (324, 160, 820) (0000, 8000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (-320, 80, 1020) (0000, 4000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (-223, 320, -664) (0000, 2FA5, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (150, 320, -554) (0000, B111, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (559, 320, -602) (0000, 3111, 0000)
+19: JPEG background camera related: 00 Overworld Region:  01
+03: Collision Header starts at 00004A1C
+Offset to vertex array 00003BDC
+Offset to polygon array 000005EC
+Offset to polygon type defs 000004FC
+Offset to camera data 00000494
+Offset to water boxes 00004A0C
+Size in bytes 17844
+06: Entrance Index Definitions starts at 00009F70
+07: Elf_Message 1, Load Object 0002
+00: There are 1 position(s). List starts at 00009EC8.
+0000:0FFF Link, (-2684, 138, 1072) (0000, 4000, 0000)
+11: Skybox 1, Cast: Cloudy, Fog? No
+13: Exit List starts at 00009F74. 017D 013D 00E4 02B2 0398 02FD 0453 043B 0388 0000
+0F: There are 8 environment setting(s). List starts at 00009F88.
+17: Cutscene starts at 00006DF0
+
+Cutscene 2: 0000A040
+15: Sound Settings: Reverb 1, Playback option 02, Song 7F.
+04: There are 1 room(s). List starts at 0000A148
+02016000 0201FEE0
+0E: There are 9 transition actor(s). List starts at 0000A0B8.
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (1220, 260, 524) (0000, C000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (-339, 240, 1700) (0000, C000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (-16, 0, 224) (0000, C000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (744, 200, 24) (0000, 4000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (324, 160, 820) (0000, 8000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (-320, 80, 1020) (0000, 4000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (-223, 320, -664) (0000, 2FA5, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (150, 320, -554) (0000, B111, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (559, 320, -602) (0000, 3111, 0000)
+19: JPEG background camera related: 00 Overworld Region:  01
+03: Collision Header starts at 00004A1C
+Offset to vertex array 00003BDC
+Offset to polygon array 000005EC
+Offset to polygon type defs 000004FC
+Offset to camera data 00000494
+Offset to water boxes 00004A0C
+Size in bytes 17844
+06: Entrance Index Definitions starts at 0000A150
+07: Elf_Message 1, Load Object 0002
+00: There are 1 position(s). List starts at 0000A0A8.
+0000:0FFF Link, (-2684, 138, 1072) (0000, 4000, 0000)
+11: Skybox 1, Cast: Cloudy, Fog? No
+13: Exit List starts at 0000A154. 017D 013D 00E4 02B2 0398 02FD 0453 043B 0388 0000
+0F: There are 8 environment setting(s). List starts at 0000A168.
+17: Cutscene starts at 00008090
+
+Cutscene 3: 0000A220
+15: Sound Settings: Reverb 1, Playback option Always Playing, Song 18.
+04: There are 1 room(s). List starts at 0000A328
+02016000 0201FEE0
+0E: There are 9 transition actor(s). List starts at 0000A298.
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (1220, 260, 524) (0000, C000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (-339, 240, 1700) (0000, C000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (-16, 0, 224) (0000, C000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (744, 200, 24) (0000, 4000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (324, 160, 820) (0000, 8000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (-320, 80, 1020) (0000, 4000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (-223, 320, -664) (0000, 2FA5, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (150, 320, -554) (0000, B111, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (559, 320, -602) (0000, 3111, 0000)
+19: JPEG background camera related: 00 Overworld Region:  01
+03: Collision Header starts at 00004A1C
+Offset to vertex array 00003BDC
+Offset to polygon array 000005EC
+Offset to polygon type defs 000004FC
+Offset to camera data 00000494
+Offset to water boxes 00004A0C
+Size in bytes 17844
+06: Entrance Index Definitions starts at 0000A330
+07: Elf_Message 1, Load Object 0002
+00: There are 1 position(s). List starts at 0000A288.
+0000:0FFF Link, (-2684, 138, 1072) (0000, 4000, 0000)
+11: Skybox 1, Cast: Cloudy, Fog? No
+13: Exit List starts at 0000A334. 017D 013D 00E4 05CC 0398 02FD 0453 043B 0388 0000
+0F: There are 8 environment setting(s). List starts at 0000A348.
+17: Cutscene starts at 00008670
+
+Cutscene 4: 0000A400
+15: Sound Settings: Reverb 1, Playback option Always Playing, Song 67.
+04: There are 1 room(s). List starts at 0000A508
+02016000 0201FEE0
+0E: There are 9 transition actor(s). List starts at 0000A478.
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (1220, 260, 524) (0000, C000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (-339, 240, 1700) (0000, C000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (-16, 0, 224) (0000, C000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (744, 200, 24) (0000, 4000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (324, 160, 820) (0000, 8000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (-320, 80, 1020) (0000, 4000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (-223, 320, -664) (0000, 2FA5, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (150, 320, -554) (0000, B111, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (559, 320, -602) (0000, 3111, 0000)
+19: JPEG background camera related: 00 Overworld Region:  01
+03: Collision Header starts at 00004A1C
+Offset to vertex array 00003BDC
+Offset to polygon array 000005EC
+Offset to polygon type defs 000004FC
+Offset to camera data 00000494
+Offset to water boxes 00004A0C
+Size in bytes 17844
+06: Entrance Index Definitions starts at 0000A510
+07: Elf_Message 1, Load Object 0002
+00: There are 1 position(s). List starts at 0000A468.
+0000:02FF Link, (-2684, 138, 1072) (0000, 4000, 0000)
+11: Skybox 1, Cast: Sunny, Fog? Yes
+13: Exit List starts at 0000A514. 017D 013D 00E4 02B2 0398 02FD 0453 043B 0388 0000
+0F: There are 1 environment setting(s). List starts at 0000A528.
+17: Cutscene starts at 00008EE0
+
+Room 0
+Room at 02016000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000420
+0B: There are 14 Object(s). List starts at 00000068
+00F9, 0181, 0097, 007C, 0013, 00C5, 0110, 012F, 00EC, 012C, 017A, 0121, 0122, 0170, 
+01: There are 57 actor(s). List starts at 00000084
+0178:FF04 Hyrule Guard, (-384, 240, 1773) (0000, A16C, 0000)
+0103:FFFF Kakariko Village Well Crossbeam, (799, 80, 503) (0000, D555, 0000)
+0104:FFFF Kakariko Village Well Water, (762, 52, 524) (0000, 0000, 0000)
+01BC:0002 Carpenter (Defunct?), (1105, 80, 88) (0000, DB06, 0000)
+01BC:0103 Carpenter (Defunct?), (1167, 260, 663) (0000, 0000, 0000)
+019D:0203 Semi-built Shooting Gallery (Defunct?), (324, 160, 1000) (0000, 0000, 0000)
+0102:FFFF Windmill Sails, (1140, 990, 524) (0000, C000, 0000)
+00B3:FF05 Hyrule Guard, (-30, 400, -1298) (0000, 0E39, 0000)
+0111:4103 Breakable Pot, Collectable: 03 Temp: 00, (222, 200, -377) (0000, 0000, 0000)
+0111:4303 Breakable Pot, Collectable: 03 Temp: 01, (255, 200, -366) (0000, 0000, 0000)
+0111:4503 Breakable Pot, Collectable: 03 Temp: 02, (284, 200, -356) (0000, 0000, 0000)
+0111:4703 Breakable Pot, Collectable: 03 Temp: 03, (-384, 240, 1568) (0000, 0000, 0000)
+0111:4903 Breakable Pot, Collectable: 03 Temp: 04, (-384, 240, 1539) (0000, 0000, 0000)
+0111:4B03 Breakable Pot, Collectable: 03 Temp: 05, (-384, 240, 1510) (0000, 0000, 0000)
+0111:4D03 Breakable Pot, Collectable: 03 Temp: 06, (-450, 320, -895) (0000, 0000, 0000)
+0111:4F03 Breakable Pot, Collectable: 03 Temp: 07, (-422, 320, -883) (0000, 0000, 0000)
+0111:5103 Breakable Pot, Collectable: 03 Temp: 08, (-392, 320, -870) (0000, 0000, 0000)
+0111:5303 Breakable Pot, Collectable: 03 Temp: 09, (781, 200, 89) (0000, 0000, 0000)
+0111:5503 Breakable Pot, Collectable: 03 Temp: 0A, (815, 200, 89) (0000, 0000, 0000)
+009B:0028 Grotto, Generic, Visible, Chest: Red Rupee, Flag 08, (860, 80, -260) (0000, 0000, 0000)
+009B:02E7 Grotto, Two Redeads, Hit, Chest: None, Flag 07, (-400, 0, 400) (0000, 0000, 0003)
+0167:0000 Kakariko Village Rooftop Man, (370, 483, 100) (0000, 9555, 0000)
+0039:010A Gameplay_keep Items, (-2590, 138, 965) (0000, 8E39, 0000)
+0039:060A Gameplay_keep Items, (1165, 80, 1550) (0000, 0E39, 0000)
+0019:FFFF Cucco, (-1697, 80, 870) (0000, 127D, 0000)
+0019:FFFF Cucco, (57, 320, -673) (0000, D6C1, 0000)
+0019:FFFF Cucco, (796, 80, 1639) (0000, 4889, 0000)
+0019:FFFF Cucco, (1417, 465, 169) (0000, 0000, 0000)
+0019:0004 Cucco, (-60, 0, -46) (0000, 0000, 0000)
+0019:0008 Cucco, (-247, 80, 854) (0000, DDDE, 0000)
+0019:0008 Cucco, (1079, 80, -47) (0000, 1F4A, 0000)
+013C:FFFF Kakariko Cucco Lady, (486, 80, 1423) (0000, 8000, 0000)
+014E:0200 Small Rock, (220, 400, -1236) (0000, 0000, 0000)
+014E:0210 Small Rock, (-664, 80, 1288) (0000, 0000, 0000)
+0141:0307 Square Signpost, (655, 80, 525) (0000, C000, 0000)
+0141:0308 Square Signpost, (210, 400, -1275) (0000, F8E4, 0000)
+0125:0200 Regen Grass, (-887, 0, 467) (0000, 0000, 0000)
+0125:0200 Regen Grass, (-883, 0, 582) (0000, 0000, 0000)
+0125:0200 Regen Grass, (-827, 0, 465) (0000, 0000, 0000)
+0125:0200 Regen Grass, (-826, 0, 585) (0000, 0000, 0000)
+0125:0200 Regen Grass, (-800, 0, 521) (0000, 0000, 0000)
+0125:0200 Regen Grass, (1072, 80, 1592) (0000, 0000, 0000)
+0125:0200 Regen Grass, (1103, 80, 1532) (0000, 0000, 0000)
+0125:0200 Regen Grass, (1116, 80, 1581) (0000, 0000, 0000)
+0132:FFFF ???, (-932, 0, 521) (0000, C000, 0000)
+0077:0201 Greenery, Medium tree, Rand02, (-860, 0, 522) (0000, 4000, 0000)
+0094:2324 Butterflies (defunct?), (4, 805, -117) (0000, 0000, 0000)
+0178:FF00 Hyrule Guard, (-2201, 138, 919) (0000, D49F, 0000)
+00E5:FFFF Death Mountain Cloud Ring, (-1409, 2767, -4417) (0000, 0000, 0000)
+01A0:FFFF Large Crate, (-636, 200, -478) (FFFF, 305B, 0000)
+01A0:FFFF Large Crate, (-60, 0, -46) (FFFF, 4000, 0000)
+01A0:FFFF Large Crate, (1170, 80, 111) (FFFF, 0000, 0000)
+01A0:FFFF Large Crate, (1170, 260, 601) (FFFF, 0000, 0000)
+01A0:FFFF Large Crate, (1732, 189, 1366) (FFFF, 0000, 0000)
+0100:FFFF Death Mountain Trail gate, (91, 400, -1350) (0000, F99A, 0000)
+0112:129F Invisible Collectible, 02 0A 1F, (148, 300, 1165) (0000, 0000, 0001)
+003B:0015 Ambient Sound, Cows, (158, 257, 1742) (0000, 0000, 0000)
+
+Setup 1: 00000C40
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000420
+0B: There are 12 Object(s). List starts at 00000C80
+00F9, 0181, 0097, 007C, 00C5, 0024, 012C, 017A, 0128, 012F, 00EC, 0170, 
+01: There are 50 actor(s). List starts at 00000C98
+01A6:FFFF Carpenter's Son (Child Version?), (-901, 0, 522) (0000, C000, 0000)
+0178:FF04 Hyrule Guard, (-384, 240, 1773) (0000, A16C, 0000)
+0103:FFFF Kakariko Village Well Crossbeam, (799, 80, 503) (0000, D555, 0000)
+0104:FFFF Kakariko Village Well Water, (762, 52, 524) (0000, 0000, 0000)
+019D:0003 Semi-built Shooting Gallery (Defunct?), (324, 160, 1000) (0000, 0000, 0000)
+0102:FFFF Windmill Sails, (1140, 990, 524) (0000, C000, 0000)
+00B3:FF05 Hyrule Guard, (-30, 400, -1298) (0000, 0E39, 0000)
+0111:4103 Breakable Pot, Collectable: 03 Temp: 00, (222, 200, -377) (0000, 0000, 0000)
+0111:4303 Breakable Pot, Collectable: 03 Temp: 01, (255, 200, -366) (0000, 0000, 0000)
+0111:4503 Breakable Pot, Collectable: 03 Temp: 02, (284, 200, -356) (0000, 0000, 0000)
+0111:4703 Breakable Pot, Collectable: 03 Temp: 03, (-384, 240, 1568) (0000, 0000, 0000)
+0111:4903 Breakable Pot, Collectable: 03 Temp: 04, (-384, 240, 1539) (0000, 0000, 0000)
+0111:4B03 Breakable Pot, Collectable: 03 Temp: 05, (-384, 240, 1510) (0000, 0000, 0000)
+0111:4D03 Breakable Pot, Collectable: 03 Temp: 06, (-450, 320, -895) (0000, 0000, 0000)
+0111:4F03 Breakable Pot, Collectable: 03 Temp: 07, (-422, 320, -883) (0000, 0000, 0000)
+0111:5103 Breakable Pot, Collectable: 03 Temp: 08, (-392, 320, -870) (0000, 0000, 0000)
+0111:5303 Breakable Pot, Collectable: 03 Temp: 09, (781, 200, 89) (0000, 0000, 0000)
+0111:5503 Breakable Pot, Collectable: 03 Temp: 0A, (815, 200, 89) (0000, 0000, 0000)
+009B:0028 Grotto, Generic, Visible, Chest: Red Rupee, Flag 08, (860, 80, -260) (0000, 0000, 0000)
+009B:02E7 Grotto, Two Redeads, Hit, Chest: None, Flag 07, (-400, 0, 400) (0000, 0000, 0003)
+0167:0000 Kakariko Village Rooftop Man, (370, 483, 100) (0000, 9555, 0000)
+0039:010A Gameplay_keep Items, (-2590, 138, 965) (0000, 8E39, 0000)
+0039:060A Gameplay_keep Items, (1165, 80, 1550) (0000, 0E39, 0000)
+0095:B102 Gold Skulltula, Type 5, Group 11, Flag 02, (-465, 377, -888) (0000, 6E39, 0000)
+0095:B104 Gold Skulltula, Type 5, Group 11, Flag 04, (5, 686, -171) (0000, 8000, 0000)
+0095:B108 Gold Skulltula, Type 5, Group 11, Flag 08, (324, 270, 905) (4000, 0000, 0000)
+0095:B110 Gold Skulltula, Type 5, Group 11, Flag 10, (-602, 120, 1120) (4000, 0000, 0000)
+014E:0200 Small Rock, (220, 400, -1236) (0000, 0000, 0000)
+014E:0210 Small Rock, (-664, 80, 1288) (0000, 0000, 0000)
+0141:0307 Square Signpost, (655, 80, 525) (0000, C000, 0000)
+0141:0308 Square Signpost, (210, 400, -1275) (0000, F8E4, 0000)
+0125:0200 Regen Grass, (-887, 0, 467) (0000, 0000, 0000)
+0125:0200 Regen Grass, (-883, 0, 582) (0000, 0000, 0000)
+0125:0200 Regen Grass, (-827, 0, 465) (0000, 0000, 0000)
+0125:0200 Regen Grass, (-826, 0, 585) (0000, 0000, 0000)
+0125:0200 Regen Grass, (-800, 0, 521) (0000, 0000, 0000)
+0125:0200 Regen Grass, (1072, 80, 1592) (0000, 0000, 0000)
+0125:0200 Regen Grass, (1103, 80, 1532) (0000, 0000, 0000)
+0125:0200 Regen Grass, (1116, 80, 1581) (0000, 0000, 0000)
+0077:2001 Greenery, Medium tree, Nothing, (-860, 0, 522) (0000, 4000, 0071)
+0178:FF00 Hyrule Guard, (-2201, 138, 919) (0000, D49F, 0000)
+00E5:FFFF Death Mountain Cloud Ring, (-1409, 2767, -4417) (0000, 0000, 0000)
+01A0:FFFF Large Crate, (-636, 200, -478) (FFFF, 305B, 0000)
+01A0:FFFF Large Crate, (-60, 0, -46) (FFFF, C000, 0000)
+01A0:FFFF Large Crate, (1170, 80, 111) (FFFF, 0000, 0000)
+01A0:FFFF Large Crate, (1170, 260, 601) (FFFF, 0000, 0000)
+01A0:FFFF Large Crate, (1732, 189, 1366) (FFFF, 0000, 0000)
+0100:FFFF Death Mountain Trail gate, (91, 400, -1350) (0000, F99A, 0000)
+0112:129F Invisible Collectible, 02 0A 1F, (148, 300, 1165) (0000, 0000, 0001)
+003B:0015 Ambient Sound, Cows, (158, 257, 1742) (0000, 0000, 0000)
+
+Setup 2: 00000570
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000420
+0B: There are 14 Object(s). List starts at 000005B0
+00F9, 0180, 007C, 00C5, 0110, 012F, 00EC, 0170, 017A, 0111, 0107, 0182, 010C, 0013, 
+01: There are 51 actor(s). List starts at 000005CC
+019D:0002 Semi-built Shooting Gallery (Defunct?), (-234, 425, -560) (0000, 305B, 0000)
+019D:0000 Semi-built Shooting Gallery (Defunct?), (126, 425, -566) (0000, B05B, 0000)
+0103:FFFF Kakariko Village Well Crossbeam, (799, 80, 503) (0000, D555, 0000)
+0145:FFFF ???, (879, -500, 524) (0000, 0000, 0000)
+0104:FFFF Kakariko Village Well Water, (762, -506, 524) (0000, 0000, 0000)
+019D:0001 Semi-built Shooting Gallery (Defunct?), (210, 250, 795) (0000, 8000, 0000)
+019D:FF04 Semi-built Shooting Gallery (Defunct?), (324, 160, 1000) (0000, 0000, 0000)
+0102:FFFF Windmill Sails, (1140, 990, 524) (0000, C000, 0000)
+01AC:0000 Entwined Lovers (Honey & Darling), (1671, 539, 400) (0000, 0000, 0000)
+016E:0785 Market NPC, (-578, 200, -431) (0000, EFA5, 0000)
+016E:0007 Market NPC, (-301, 80, 1257) (0000, BDDE, 0000)
+016E:0782 Market NPC, (1104, 80, 136) (0000, F27D, 0000)
+016E:078C Market NPC, (4, 755, -87) (0000, 0000, 0000)
+0165:1805 Proximity Weather Effect, (258, 80, 1412) (0000, 0000, 0000)
+0165:1804 Proximity Weather Effect, (-318, 200, -156) (0000, 0000, 0000)
+0167:0000 Kakariko Village Rooftop Man, (370, 483, 100) (0000, 9555, 0000)
+0039:010A Gameplay_keep Items, (-2590, 138, 965) (0000, 8E39, 0000)
+0039:060A Gameplay_keep Items, (1165, 80, 1545) (0000, 0E39, 0000)
+0019:0008 Cucco, (1373, 902, 631) (0000, 40B6, 0000)
+013C:FFFF Kakariko Cucco Lady, (496, 80, 1418) (0000, 8000, 0000)
+016E:078A Market NPC, (-876, 0, 572) (0000, 9BBC, 0000)
+014E:0700 Small Rock, (220, 400, -1236) (0000, 0000, 0000)
+014E:0710 Small Rock, (-664, 80, 1288) (0000, 0000, 0000)
+016E:0789 Market NPC, (-909, 0, 499) (0000, 0000, 0000)
+0125:0700 Regen Grass, (-887, 0, 467) (0000, 0000, 0000)
+0125:0700 Regen Grass, (-883, 0, 582) (0000, 0000, 0000)
+0125:0700 Regen Grass, (-827, 0, 465) (0000, 0000, 0000)
+0125:0700 Regen Grass, (-826, 0, 585) (0000, 0000, 0000)
+0125:0700 Regen Grass, (-800, 0, 521) (0000, 0000, 0000)
+0125:0700 Regen Grass, (1072, 80, 1592) (0000, 0000, 0000)
+0125:0700 Regen Grass, (1103, 80, 1532) (0000, 0000, 0000)
+0125:0700 Regen Grass, (1116, 80, 1581) (0000, 0000, 0000)
+0077:FF0A Greenery, Ugly tree from Kakariko Village, Nothing, (-860, 0, 522) (0000, 0000, 0000)
+00E5:FFFF Death Mountain Cloud Ring, (-1409, 2767, -4417) (0000, 0000, 0000)
+01A0:FFFF Large Crate, (-724, 80, 871) (FFFF, 4000, 0000)
+01A0:FFFF Large Crate, (-489, 200, -424) (FFFF, F05B, 0000)
+01A0:FFFF Large Crate, (-433, 200, -401) (0008, F05B, 0020)
+01A0:FFFF Large Crate, (-389, 240, 1470) (FFFF, 0000, 0000)
+01A0:FFFF Large Crate, (-389, 240, 1518) (FFFF, 0000, 0000)
+01A0:FFFF Large Crate, (32, 0, 348) (FFFF, 0000, 0000)
+01A0:FFFF Large Crate, (92, 0, 348) (FFFF, 0000, 0000)
+01A0:FFFF Large Crate, (185, 160, 776) (FFFF, 0000, 0000)
+01A0:FFFF Large Crate, (186, 320, -758) (FFFF, 2FA5, 0000)
+01A0:FFFF Large Crate, (483, 80, -302) (FFFF, 305B, 0000)
+01A0:FFFF Large Crate, (506, 80, -358) (FFFF, 305B, 0000)
+01A0:FFFF Large Crate, (1099, 80, 10) (0002, 0000, 0021)
+01A0:FFFF Large Crate, (1039, 80, 10) (FFFF, 0000, 0000)
+009B:02E7 Grotto, Two Redeads, Hit, Chest: None, Flag 07, (-400, 0, 400) (0000, 0000, 0003)
+014E:FF01 Small Rock, (1436, 400, 1361) (0000, 0000, 0000)
+009B:0028 Grotto, Generic, Visible, Chest: Red Rupee, Flag 08, (860, 80, -260) (0000, 0000, 0000)
+003B:0015 Ambient Sound, Cows, (158, 257, 1742) (0000, 0000, 0000)
+
+Setup 3: 00000900
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000420
+0B: There are 13 Object(s). List starts at 00000940
+00F9, 0180, 007C, 00C5, 012F, 0170, 017A, 0111, 0107, 0182, 010C, 0024, 00EC, 
+01: There are 46 actor(s). List starts at 0000095C
+019D:0002 Semi-built Shooting Gallery (Defunct?), (-234, 425, -560) (0000, 305B, 0000)
+019D:0000 Semi-built Shooting Gallery (Defunct?), (126, 425, -566) (0000, B05B, 0000)
+0103:FFFF Kakariko Village Well Crossbeam, (799, 80, 503) (0000, D555, 0000)
+0145:FFFF ???, (879, -500, 524) (0000, 0000, 0000)
+0104:FFFF Kakariko Village Well Water, (762, -506, 524) (0000, 0000, 0000)
+019D:0001 Semi-built Shooting Gallery (Defunct?), (210, 250, 795) (0000, 8000, 0000)
+019D:FF04 Semi-built Shooting Gallery (Defunct?), (324, 160, 1000) (0000, 0000, 0000)
+0102:FFFF Windmill Sails, (1140, 990, 524) (0000, C000, 0000)
+01AC:0000 Entwined Lovers (Honey & Darling), (1671, 539, 400) (0000, 0000, 0000)
+016E:0785 Market NPC, (-578, 200, -431) (0000, EFA5, 0000)
+016E:078C Market NPC, (4, 755, -87) (0000, 0000, 0000)
+0165:1805 Proximity Weather Effect, (258, 80, 1412) (0000, 0000, 0000)
+009B:0028 Grotto, Generic, Visible, Chest: Red Rupee, Flag 08, (860, 80, -260) (0000, 0000, 0000)
+009B:02E7 Grotto, Two Redeads, Hit, Chest: None, Flag 07, (-400, 0, 400) (0000, 0000, 0003)
+0165:1804 Proximity Weather Effect, (-318, 200, -156) (0000, 0000, 0000)
+0167:0000 Kakariko Village Rooftop Man, (370, 483, 100) (0000, 9555, 0000)
+0039:010A Gameplay_keep Items, (-2590, 138, 965) (0000, 8E39, 0000)
+0039:060A Gameplay_keep Items, (1165, 80, 1545) (0000, 0E39, 0000)
+0095:B140 Gold Skulltula, Type 5, Group 11, Flag 40, (-18, 540, 1800) (0000, 8000, 0000)
+014E:FF01 Small Rock, (1436, 400, 1361) (0000, 0000, 0000)
+014E:0700 Small Rock, (220, 400, -1236) (0000, 0000, 0000)
+014E:0710 Small Rock, (-664, 80, 1288) (0000, 0000, 0000)
+0125:0700 Regen Grass, (-887, 0, 467) (0000, 0000, 0000)
+0125:0700 Regen Grass, (-883, 0, 582) (0000, 0000, 0000)
+0125:0700 Regen Grass, (-827, 0, 465) (0000, 0000, 0000)
+0125:0700 Regen Grass, (-826, 0, 585) (0000, 0000, 0000)
+0125:0700 Regen Grass, (-800, 0, 521) (0000, 0000, 0000)
+0125:0700 Regen Grass, (1072, 80, 1592) (0000, 0000, 0000)
+0125:0700 Regen Grass, (1103, 80, 1532) (0000, 0000, 0000)
+0125:0700 Regen Grass, (1116, 80, 1581) (0000, 0000, 0000)
+0077:FF0A Greenery, Ugly tree from Kakariko Village, Nothing, (-860, 0, 522) (0000, 0000, 0000)
+00E5:FFFF Death Mountain Cloud Ring, (-1409, 2767, -4417) (0000, 0000, 0000)
+01A0:FFFF Large Crate, (-724, 80, 871) (FFFF, 4000, 0000)
+01A0:FFFF Large Crate, (-489, 200, -424) (FFFF, F05B, 0000)
+01A0:FFFF Large Crate, (-433, 200, -401) (FFFF, F05B, 0000)
+01A0:FFFF Large Crate, (-389, 240, 1470) (FFFF, 0000, 0000)
+01A0:FFFF Large Crate, (-389, 240, 1518) (FFFF, 0000, 0000)
+01A0:FFFF Large Crate, (32, 0, 348) (FFFF, 0000, 0000)
+01A0:FFFF Large Crate, (92, 0, 348) (FFFF, 0000, 0000)
+01A0:FFFF Large Crate, (185, 160, 776) (0008, 0000, 0021)
+01A0:FFFF Large Crate, (186, 320, -758) (FFFF, 2FA5, 0000)
+01A0:FFFF Large Crate, (483, 80, -302) (FFFF, 305B, 0000)
+01A0:FFFF Large Crate, (506, 80, -358) (0002, 305B, 0020)
+01A0:FFFF Large Crate, (1099, 80, 10) (FFFF, 0000, 0000)
+01A0:FFFF Large Crate, (1039, 80, 10) (FFFF, 0000, 0000)
+003B:0015 Ambient Sound, Cows, (158, 257, 1742) (0000, 0000, 0000)
+
+Cutscene 0: 00000FC0
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000420
+0B: There are 9 Object(s). List starts at 00001000
+00F9, 007C, 0013, 008A, 00B1, 002C, 017A, 0180, 0170, 
+01: There are 29 actor(s). List starts at 00001014
+0102:FFFF Windmill Sails, (1140, 990, 524) (0000, C000, 0000)
+0100:FFFF Death Mountain Trail gate, (91, 400, -1350) (0000, F99A, 0000)
+0048:0005 Sheik?, (-2619, 138, 1077) (0000, 0000, 0000)
+0119:0000 ???, (0, 0, 0) (0000, 0000, 0000)
+00BF:FFFF Crater Smoke Cone, (-736, -369, 902) (0000, 0000, 0000)
+00BF:FFFF Crater Smoke Cone, (-453, 240, 1452) (0000, 0000, 0000)
+00BF:FFFF Crater Smoke Cone, (982, -234, 7) (0000, 0000, 0000)
+00BF:FFFF Crater Smoke Cone, (-217, 80, 908) (0000, 0000, 0000)
+008D:00FF Large Flame Wall, (-513, 340, 1145) (0000, 4000, 0000)
+008D:00FF Large Flame Wall, (-461, 282, 1124) (0000, 4000, 0000)
+0049:1FFF Flame Circle, Small, shuts off for long time with ticking sound, camera 0F, bound to No Flag, (292, 423, 1674) (0000, 0000, 0000)
+0049:1FFF Flame Circle, Small, shuts off for long time with ticking sound, camera 0F, bound to No Flag, (296, 339, 1759) (0000, 0000, 0000)
+0049:1FFF Flame Circle, Small, shuts off for long time with ticking sound, camera 0F, bound to No Flag, (269, 371, 1533) (0000, 0000, 0000)
+00BF:FFFF Crater Smoke Cone, (371, 80, 1647) (0000, 0000, 0000)
+0143:0001 Hopping Cucco, (-872, 0, 405) (0000, 0000, 0000)
+0103:FFFF Kakariko Village Well Crossbeam, (799, 190, 503) (0000, D555, 0000)
+0104:FFFF Kakariko Village Well Water, (762, 52, 524) (0000, 0000, 0000)
+00E5:FFFF Death Mountain Cloud Ring, (-1409, 2767, -4417) (0000, 0000, 0000)
+019D:0001 Semi-built Shooting Gallery (Defunct?), (210, 250, 795) (0000, 8000, 0000)
+019D:FF04 Semi-built Shooting Gallery (Defunct?), (324, 160, 1000) (0000, 0000, 0000)
+01A0:FFFF Large Crate, (185, 160, 776) (FFFF, 0000, 0000)
+01A0:FFFF Large Crate, (32, 0, 348) (FFFF, 0000, 0000)
+01A0:FFFF Large Crate, (92, 0, 348) (FFFF, 0000, 0000)
+0077:FF0A Greenery, Ugly tree from Kakariko Village, Nothing, (-860, 0, 522) (0000, 0000, 0000)
+0125:0700 Regen Grass, (-887, 0, 467) (0000, 0000, 0000)
+0125:0700 Regen Grass, (-883, 0, 582) (0000, 0000, 0000)
+0125:0700 Regen Grass, (-827, 0, 465) (0000, 0000, 0000)
+0125:0700 Regen Grass, (-826, 0, 585) (0000, 0000, 0000)
+0125:0700 Regen Grass, (-800, 0, 521) (0000, 0000, 0000)
+
+Cutscene 1: 000011F0
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000420
+0B: There are 8 Object(s). List starts at 00001230
+00F9, 0097, 007C, 0013, 008A, 017A, 0180, 0170, 
+01: There are 21 actor(s). List starts at 00001240
+0104:FFFF Kakariko Village Well Water, (762, 52, 524) (0000, 0000, 0000)
+0102:FFFF Windmill Sails, (1140, 990, 524) (0000, C000, 0000)
+0019:FFFF Cucco, (-546, 80, 1304) (0000, 0000, 0000)
+0019:FFFF Cucco, (57, 320, -673) (0000, D6C1, 0000)
+0019:FFFF Cucco, (796, 80, 1639) (0000, 4889, 0000)
+0019:FFFF Cucco, (-549, 240, 1571) (0000, 1F4A, 0000)
+0019:FFFF Cucco, (-1697, 80, 870) (0000, 127D, 0000)
+0100:FFFF Death Mountain Trail gate, (91, 400, -1350) (0000, F99A, 0000)
+0048:0005 Sheik?, (-2619, 138, 1077) (0000, 0000, 0000)
+00E5:FFFF Death Mountain Cloud Ring, (-1409, 2767, -4417) (0000, 0000, 0000)
+019D:0001 Semi-built Shooting Gallery (Defunct?), (210, 250, 795) (0000, 8000, 0000)
+019D:FF04 Semi-built Shooting Gallery (Defunct?), (324, 160, 1000) (0000, 0000, 0000)
+01A0:FFFF Large Crate, (185, 160, 776) (FFFF, 0000, 0000)
+01A0:FFFF Large Crate, (32, 0, 348) (FFFF, 0000, 0000)
+01A0:FFFF Large Crate, (92, 0, 348) (FFFF, 0000, 0000)
+0077:FF0A Greenery, Ugly tree from Kakariko Village, Nothing, (-860, 0, 522) (0000, 0000, 0000)
+0125:0700 Regen Grass, (-887, 0, 467) (0000, 0000, 0000)
+0125:0700 Regen Grass, (-883, 0, 582) (0000, 0000, 0000)
+0125:0700 Regen Grass, (-827, 0, 465) (0000, 0000, 0000)
+0125:0700 Regen Grass, (-826, 0, 585) (0000, 0000, 0000)
+0125:0700 Regen Grass, (-800, 0, 521) (0000, 0000, 0000)
+
+Cutscene 2: 00001390
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000420
+0B: There are 2 Object(s). List starts at 000013D0
+00F9, 007C, 
+01: There are 10 actor(s). List starts at 000013D4
+0103:FFFF Kakariko Village Well Crossbeam, (799, 80, 503) (0000, D555, 0000)
+0104:FFFF Kakariko Village Well Water, (762, 52, 524) (0000, 0000, 0000)
+0102:FFFF Windmill Sails, (1140, 990, 524) (0000, C000, 0000)
+0151:FF02 Shrubs or Rocks, (-1409, 111, 587) (0000, 0000, 0000)
+0151:FF02 Shrubs or Rocks, (594, 138, 1465) (0000, 0000, 0000)
+0151:FF01 Shrubs or Rocks, (-35, 400, -1184) (0000, 0000, 0000)
+0151:FF00 Shrubs or Rocks, (-548, 58, 405) (0000, 0000, 0000)
+0077:FF01 Greenery, Medium tree, Nothing, (-860, 0, 522) (0000, 0000, 0000)
+0100:FFFF Death Mountain Trail gate, (91, 400, -1350) (0000, F99A, 0000)
+00E5:FFFF Death Mountain Cloud Ring, (-1409, 2767, -4417) (0000, 0000, 0000)
+
+Cutscene 3: 00001480
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: 0C00 00
+0A: Room Mesh: 03000420
+0B: There are 13 Object(s). List starts at 000014C0
+00F9, 0097, 00C5, 0105, 0107, 0108, 010D, 010C, 007C, 0013, 00EC, 014D, 017A, 
+01: There are 21 actor(s). List starts at 000014DC
+0103:FFFF Kakariko Village Well Crossbeam, (799, 80, 503) (0000, D555, 0000)
+0104:FFFF Kakariko Village Well Water, (762, 52, 524) (0000, 0000, 0000)
+0102:FFFF Windmill Sails, (1140, 990, 524) (0000, C000, 0000)
+00B3:FF05 Hyrule Guard, (-30, 400, -1298) (0000, 0E39, 0000)
+016E:0006 Market NPC, (-205, 0, 185) (0000, E9F5, 0000)
+016E:7007 Market NPC, (-73, 320, -591) (0000, 0000, 0000)
+016E:0008 Market NPC, (-408, 240, 1632) (0000, ACCD, 0000)
+0019:FFFF Cucco, (-546, 80, 1304) (0000, 0000, 0000)
+0019:FFFF Cucco, (57, 320, -673) (0000, D6C1, 0000)
+0019:FFFF Cucco, (796, 80, 1639) (0000, 4889, 0000)
+0019:FFFF Cucco, (-549, 240, 1571) (0000, 1F4A, 0000)
+0019:FFFF Cucco, (-1697, 80, 870) (0000, 127D, 0000)
+0151:FF02 Shrubs or Rocks, (-1409, 111, 587) (0000, 0000, 0000)
+0151:FF02 Shrubs or Rocks, (594, 138, 1465) (0000, 0000, 0000)
+0151:FF01 Shrubs or Rocks, (-35, 400, -1184) (0000, 0000, 0000)
+0151:FF00 Shrubs or Rocks, (-548, 58, 405) (0000, 0000, 0000)
+0077:FF01 Greenery, Medium tree, Nothing, (-860, 0, 522) (0000, 0000, 0000)
+0100:FFFF Death Mountain Trail gate, (91, 400, -1350) (0000, F99A, 0000)
+0167:0000 Kakariko Village Rooftop Man, (370, 483, 100) (0000, 9555, 0000)
+0176:0000 Lava Particle Fountain, (-1693, 2642, -5035) (0000, 0000, 0000)
+00E5:FFFF Death Mountain Cloud Ring, (-1409, 2767, -4417) (0000, 0000, 0000)
+
+Cutscene 4: 00001630
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: 0620 00
+0A: Room Mesh: 03000420
+0B: There are 12 Object(s). List starts at 00001670
+00F9, 0097, 00C5, 0105, 0107, 0108, 010D, 010C, 007C, 0013, 00EC, 017A, 
+01: There are 9 actor(s). List starts at 00001688
+0103:FFFF Kakariko Village Well Crossbeam, (799, 80, 503) (0000, D555, 0000)
+0104:FFFF Kakariko Village Well Water, (762, 52, 524) (0000, 0000, 0000)
+0102:FFFF Windmill Sails, (1140, 990, 524) (0000, C000, 0000)
+0151:FF02 Shrubs or Rocks, (-1409, 111, 587) (0000, 0000, 0000)
+0151:FF02 Shrubs or Rocks, (594, 138, 1465) (0000, 0000, 0000)
+0151:FF01 Shrubs or Rocks, (-35, 400, -1184) (0000, 0000, 0000)
+0151:FF00 Shrubs or Rocks, (-548, 58, 405) (0000, 0000, 0000)
+0077:FF01 Greenery, Medium tree, Nothing, (-860, 0, 522) (0000, 0000, 0000)
+00E5:FFFF Death Mountain Cloud Ring, (-1409, 2767, -4417) (0000, 0000, 0000)
+

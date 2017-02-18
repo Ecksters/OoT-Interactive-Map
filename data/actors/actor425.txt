@@ -1,0 +1,6 @@
+Scene,Setup,Room
+97,0,1,01A9,0001,Explodable Crater Wall,,1310,1476,1566,0000,0000,0000
+97,2,1,01A9,0001,Explodable Crater Wall,,1310,1476,1566,0000,0000,0000
+97,4,1,01A9,00FF,Explodable Crater Wall,,1310,1476,1566,0000,0000,0000
+97,5,1,01A9,00FF,Explodable Crater Wall,,1310,1476,1566,0000,0000,0000
+Total: 4

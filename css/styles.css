@@ -24,14 +24,11 @@ html, body, #map {
   font-family: "Cambria", "Georgia";
 }
 
-#mouseTip {
-  width: 200px;
-  height: 100px;
-  background-color: white;
-  border-radius: 5px;
-  box-shadow: 0px 0px 15px #000000;
-  display: none;
-  position: absolute;
-  z-index: 5000;
-  padding: 10px;
+.leaflet-control-minimap {
+  background: #050505;
+}
+
+.sidebar-content {
+  background: rgba(0, 0, 0, 0.9);
+  color: white;
 }

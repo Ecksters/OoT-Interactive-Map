@@ -1,0 +1,105 @@
+Scene,Setup,Room
+6,0,2,0117,1FC5,Silver Rupee,Type: Rupee; Perm: 05,-766,229,-1075,0000,0000,0000
+6,0,2,0117,1FC5,Silver Rupee,Type: Rupee; Perm: 05,-672,50,-1075,0000,0000,0000
+6,0,2,0117,1FC5,Silver Rupee,Type: Rupee; Perm: 05,-511,50,-1075,0000,0000,0000
+6,0,2,0117,1FC5,Silver Rupee,Type: Rupee; Perm: 05,-347,229,-1075,0000,0000,0000
+6,0,2,0117,1FC5,Silver Rupee,Type: Rupee; Perm: 05,-335,30,-1409,0000,0000,0000
+6,0,2,0117,0145,Silver Rupee,Type: Collect 5 Rupees; Perm: 05,-592,30,-1126,0000,0000,0000
+6,0,8,0117,1FCA,Silver Rupee,Type: Rupee; Perm: 0A,-1836,923,-446,0000,0000,0000
+6,0,8,0117,1FCA,Silver Rupee,Type: Rupee; Perm: 0A,-1433,913,-283,0000,0000,0000
+6,0,8,0117,1FCA,Silver Rupee,Type: Rupee; Perm: 0A,-1275,922,-247,0000,0000,0000
+6,0,8,0117,1FCA,Silver Rupee,Type: Rupee; Perm: 0A,-1123,923,428,0000,0000,0000
+6,0,8,0117,1FCA,Silver Rupee,Type: Rupee; Perm: 0A,-984,923,-450,0000,0000,0000
+6,0,8,0117,014A,Silver Rupee,Type: Collect 5 Rupees; Perm: 0A,-1434,923,-84,0000,0000,0000
+6,0,13,0117,1FC2,Silver Rupee,Type: Rupee; Perm: 02,1284,-33,-1355,0000,0000,0000
+6,0,13,0117,1FC2,Silver Rupee,Type: Rupee; Perm: 02,1284,-33,-813,0000,0000,0000
+6,0,13,0117,1FC2,Silver Rupee,Type: Rupee; Perm: 02,1856,-33,-944,0000,0000,0000
+6,0,13,0117,1FC2,Silver Rupee,Type: Rupee; Perm: 02,1856,-33,-1219,0000,0000,0000
+6,0,13,0117,1FC2,Silver Rupee,Type: Rupee; Perm: 02,1573,-33,-920,0000,0000,0000
+6,0,13,0117,0142,Silver Rupee,Type: Collect 5 Rupees; Perm: 02,1562,-41,-1195,0000,0000,0000
+7,0,6,0117,1FC1,Silver Rupee,Type: Rupee; Perm: 01,3243,-543,-1061,0000,0000,0000
+7,0,6,0117,1FC1,Silver Rupee,Type: Rupee; Perm: 01,3007,-423,-1222,0000,0000,0000
+7,0,6,0117,1FC1,Silver Rupee,Type: Rupee; Perm: 01,3554,-543,-1432,0000,0000,0000
+7,0,6,0117,1FC1,Silver Rupee,Type: Rupee; Perm: 01,2869,-543,-948,0000,0000,0000
+7,0,6,0117,1FC1,Silver Rupee,Type: Rupee; Perm: 01,3399,-543,-838,0000,0000,0000
+7,0,6,0117,0141,Silver Rupee,Type: Collect 5 Rupees; Perm: 01,3359,-492,-947,0000,0000,0000
+7,0,9,0117,1FC9,Silver Rupee,Type: Rupee; Perm: 09,2131,-1343,3030,0000,0000,0000
+7,0,9,0117,1FC9,Silver Rupee,Type: Rupee; Perm: 09,2115,-1343,3738,0000,0000,0000
+7,0,9,0117,1FC9,Silver Rupee,Type: Rupee; Perm: 09,2110,-1343,3368,0000,0000,0000
+7,0,9,0117,1FC9,Silver Rupee,Type: Rupee; Perm: 09,2243,-1343,3361,0000,0000,0000
+7,0,9,0117,1FC9,Silver Rupee,Type: Rupee; Perm: 09,1998,-1343,3358,0000,0000,0000
+7,0,9,0117,0149,Silver Rupee,Type: Collect 5 Rupees; Perm: 09,2111,-1194,3344,0000,0000,0000
+7,0,11,0117,1FC8,Silver Rupee,Type: Rupee; Perm: 08,2042,-1203,849,0000,0000,0000
+7,0,11,0117,1FC8,Silver Rupee,Type: Rupee; Perm: 08,2940,-1268,1069,0000,0000,0000
+7,0,11,0117,1FC8,Silver Rupee,Type: Rupee; Perm: 08,2478,-1343,1208,0000,0000,0000
+7,0,11,0117,1FC8,Silver Rupee,Type: Rupee; Perm: 08,2135,-1225,1297,0000,0000,0000
+7,0,11,0117,1FC8,Silver Rupee,Type: Rupee; Perm: 08,2254,-1197,988,0000,0000,0000
+7,0,11,0117,0148,Silver Rupee,Type: Collect 5 Rupees; Perm: 08,2478,-1343,1076,0000,0000,0000
+8,0,1,0117,1FDF,Silver Rupee,Type: Rupee; Perm: 1F,-796,0,-150,0000,0000,0000
+8,0,1,0117,1FDF,Silver Rupee,Type: Rupee; Perm: 1F,-614,-465,-297,0000,0000,0000
+8,0,1,0117,1FDF,Silver Rupee,Type: Rupee; Perm: 1F,-560,-720,-291,0000,0000,0000
+8,0,1,0117,1FDF,Silver Rupee,Type: Rupee; Perm: 1F,-402,-701,-401,0000,0000,0000
+8,0,1,0117,1FDF,Silver Rupee,Type: Rupee; Perm: 1F,-259,-708,-234,0000,0000,0000
+8,0,1,0117,015F,Silver Rupee,Type: Collect 5 Rupees; Perm: 1F,-528,-720,-307,0000,0000,0000
+9,0,3,0117,1FC8,Silver Rupee,Type: Rupee; Perm: 08,1,0,-143,0000,0000,0000
+9,0,3,0117,1FC8,Silver Rupee,Type: Rupee; Perm: 08,198,0,-388,0000,0000,0000
+9,0,3,0117,1FC8,Silver Rupee,Type: Rupee; Perm: 08,278,0,-637,0000,0000,0000
+9,0,3,0117,1FC8,Silver Rupee,Type: Rupee; Perm: 08,389,0,-382,0000,0000,0000
+9,0,3,0117,1FC8,Silver Rupee,Type: Rupee; Perm: 08,414,178,-579,0000,0000,0000
+9,0,3,0117,0148,Silver Rupee,Type: Collect 5 Rupees; Perm: 08,605,0,-247,0000,0000,0000
+9,0,5,0117,1FC9,Silver Rupee,Type: Rupee; Perm: 09,-1676,112,-552,0000,0000,0000
+9,0,5,0117,1FC9,Silver Rupee,Type: Rupee; Perm: 09,-1558,41,-951,0000,0000,0000
+9,0,5,0117,1FC9,Silver Rupee,Type: Rupee; Perm: 09,-1294,113,-899,0000,0000,0000
+9,0,5,0117,1FC9,Silver Rupee,Type: Rupee; Perm: 09,-1120,119,-1577,0000,0000,0000
+9,0,5,0117,1FC9,Silver Rupee,Type: Rupee; Perm: 09,-1040,112,-485,0000,0000,0000
+9,0,5,0117,0149,Silver Rupee,Type: Collect 5 Rupees; Perm: 09,-1387,0,-334,0000,0000,0000
+11,0,2,0117,1FDC,Silver Rupee,Type: Rupee; Perm: 1C,-1332,-80,-992,0000,0000,0000
+11,0,2,0117,1FDC,Silver Rupee,Type: Rupee; Perm: 1C,-1886,-80,-956,0000,0000,0000
+11,0,2,0117,1FDC,Silver Rupee,Type: Rupee; Perm: 1C,-1579,236,-999,0000,0000,0000
+11,0,2,0117,1FDC,Silver Rupee,Type: Rupee; Perm: 1C,-1627,182,-1462,0000,0000,0000
+11,0,2,0117,1FDC,Silver Rupee,Type: Rupee; Perm: 1C,-1887,160,-2134,0000,0000,0000
+11,0,2,0117,015C,Silver Rupee,Type: Collect 5 Rupees; Perm: 1C,-1580,-80,-804,0000,8000,0000
+11,0,6,0117,1FCC,Silver Rupee,Type: Rupee; Perm: 0C,1320,-239,-1248,0000,0000,0000
+11,0,6,0117,1FCC,Silver Rupee,Type: Rupee; Perm: 0C,1558,-239,-1370,0000,0000,0000
+11,0,6,0117,1FCC,Silver Rupee,Type: Rupee; Perm: 0C,1134,-239,-1841,0000,0000,0000
+11,0,6,0117,1FCC,Silver Rupee,Type: Rupee; Perm: 0C,1437,30,-2193,0000,0000,0000
+11,0,6,0117,1FCC,Silver Rupee,Type: Rupee; Perm: 0C,1560,-239,-1861,0000,0000,0000
+11,0,6,0117,014C,Silver Rupee,Type: Collect 5 Rupees; Perm: 0C,1492,-214,-1558,0000,0000,0000
+11,0,9,0117,1FDB,Silver Rupee,Type: Rupee; Perm: 1B,2308,-961,-1464,0000,0000,0000
+11,0,9,0117,1FDB,Silver Rupee,Type: Rupee; Perm: 1B,2497,-605,-1465,0000,0000,0000
+11,0,9,0117,1FDB,Silver Rupee,Type: Rupee; Perm: 1B,2453,-890,-1612,0000,0000,0000
+11,0,9,0117,1FDB,Silver Rupee,Type: Rupee; Perm: 1B,2078,-806,-1458,0000,0000,0000
+11,0,9,0117,1FDB,Silver Rupee,Type: Rupee; Perm: 1B,2160,-900,-1315,0000,0000,0000
+11,0,9,0117,015B,Silver Rupee,Type: Collect 5 Rupees; Perm: 1B,2109,-154,-1560,0000,0000,0000
+13,0,6,0117,1FCE,Silver Rupee,Type: Rupee; Perm: 0E,1247,59,1787,0000,0000,0000
+13,0,6,0117,1FCE,Silver Rupee,Type: Rupee; Perm: 0E,1361,115,1222,0000,0000,0000
+13,0,6,0117,1FCE,Silver Rupee,Type: Rupee; Perm: 0E,1538,118,2225,0000,0000,0000
+13,0,6,0117,1FCE,Silver Rupee,Type: Rupee; Perm: 0E,1651,30,2021,0000,0000,0000
+13,0,6,0117,1FCE,Silver Rupee,Type: Rupee; Perm: 0E,1634,164,1550,0000,0000,0000
+13,0,6,0117,014E,Silver Rupee,Type: Collect 5 Rupees; Perm: 0E,1734,110,2115,0000,0000,0000
+13,0,8,0117,1FD2,Silver Rupee,Type: Rupee; Perm: 12,-2509,-240,-1091,0000,0000,0000
+13,0,8,0117,1FD2,Silver Rupee,Type: Rupee; Perm: 12,-2649,-240,-545,0000,0000,0000
+13,0,8,0117,1FD2,Silver Rupee,Type: Rupee; Perm: 12,-2646,-120,-839,0000,0000,0000
+13,0,8,0117,1FD2,Silver Rupee,Type: Rupee; Perm: 12,-2680,-240,-893,0000,0000,0000
+13,0,8,0117,1FD2,Silver Rupee,Type: Rupee; Perm: 12,-2674,-240,-777,0000,0000,0000
+13,0,8,0117,0152,Silver Rupee,Type: Collect 5 Rupees; Perm: 12,-2564,-270,-711,0000,0000,0000
+13,0,14,0117,1FC9,Silver Rupee,Type: Rupee; Perm: 09,-854,152,-3679,0000,0000,0000
+13,0,14,0117,1FC9,Silver Rupee,Type: Rupee; Perm: 09,-1555,151,-2317,0000,0000,0000
+13,0,14,0117,1FC9,Silver Rupee,Type: Rupee; Perm: 09,-515,133,-3253,0000,0000,0000
+13,0,14,0117,1FC9,Silver Rupee,Type: Rupee; Perm: 09,-604,133,-2592,0000,0000,0000
+13,0,14,0117,1FC9,Silver Rupee,Type: Rupee; Perm: 09,-1867,227,-2754,0000,0000,0000
+13,0,14,0117,0149,Silver Rupee,Type: Collect 5 Rupees; Perm: 09,-2109,153,-3432,0000,0000,0000
+13,0,17,0117,1FCB,Silver Rupee,Type: Rupee; Perm: 0B,-829,274,591,0000,0000,0000
+13,0,17,0117,1FCB,Silver Rupee,Type: Rupee; Perm: 0B,-940,165,270,0000,0000,0000
+13,0,17,0117,1FCB,Silver Rupee,Type: Rupee; Perm: 0B,-865,165,656,0000,0000,0000
+13,0,17,0117,1FCB,Silver Rupee,Type: Rupee; Perm: 0B,-725,165,942,0000,0000,0000
+13,0,17,0117,1FCB,Silver Rupee,Type: Rupee; Perm: 0B,-1142,165,639,0000,0000,0000
+13,0,17,0117,014B,Silver Rupee,Type: Collect 5 Rupees; Perm: 0B,-941,150,798,0000,0000,0000
+93,4,1,0117,2FFF,Silver Rupee,Type: ???; No Flag,4090,1450,-2980,0000,0000,0000
+93,4,1,0117,2FFF,Silver Rupee,Type: ???; No Flag,4090,1450,-2740,0000,0000,0000
+93,4,1,0117,2FFF,Silver Rupee,Type: ???; No Flag,4090,1450,-2500,0000,0000,0000
+93,4,1,0117,2FFF,Silver Rupee,Type: ???; No Flag,4090,1450,-2260,0000,0000,0000
+93,4,1,0117,2FFF,Silver Rupee,Type: ???; No Flag,4090,1450,-2020,0000,0000,0000
+93,4,1,0117,2FFF,Silver Rupee,Type: ???; No Flag,4090,1450,-1780,0000,0000,0000
+93,4,1,0117,2FFF,Silver Rupee,Type: ???; No Flag,4090,1450,-1540,0000,0000,0000
+Total: 103

@@ -1,0 +1,7 @@
+Scene,Setup,Room
+32,0,0,01AC,0000,Entwined Lovers (Honey & Darling),,132,0,0,0000,0000,0000
+33,0,0,01AC,0000,Entwined Lovers (Honey & Darling),,124,0,-18,0000,0000,0000
+82,2,0,01AC,0000,Entwined Lovers (Honey & Darling),,1671,539,400,0000,0000,0000
+82,3,0,01AC,0000,Entwined Lovers (Honey & Darling),,1671,539,400,0000,0000,0000
+99,11,0,01AC,0000,Entwined Lovers (Honey & Darling),,567,0,-270,0000,960B,0000
+Total: 5

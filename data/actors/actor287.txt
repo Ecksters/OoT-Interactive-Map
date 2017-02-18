@@ -1,0 +1,4 @@
+Scene,Setup,Room
+84,0,1,011F,0038,Zora's River Waterfall,,4226,660,-1402,0000,0000,0000
+84,2,1,011F,0038,Zora's River Waterfall,,4226,660,-1402,0000,0000,0000
+Total: 2

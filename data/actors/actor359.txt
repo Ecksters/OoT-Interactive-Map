@@ -1,0 +1,7 @@
+Scene,Setup,Room
+82,0,0,0167,0000,Kakariko Village Rooftop Man,,370,483,100,0000,9555,0000
+82,1,0,0167,0000,Kakariko Village Rooftop Man,,370,483,100,0000,9555,0000
+82,2,0,0167,0000,Kakariko Village Rooftop Man,,370,483,100,0000,9555,0000
+82,3,0,0167,0000,Kakariko Village Rooftop Man,,370,483,100,0000,9555,0000
+82,7,0,0167,0000,Kakariko Village Rooftop Man,,370,483,100,0000,9555,0000
+Total: 5

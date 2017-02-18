@@ -1,0 +1,6 @@
+Scene,Setup,Room
+89,0,0,01A8,0003,Zora's Fountain Bombable Wall,,316,60,2634,0000,0000,0000
+89,1,0,01A8,0003,Zora's Fountain Bombable Wall,,316,60,2634,0000,0000,0000
+89,2,0,01A8,0003,Zora's Fountain Bombable Wall,,316,60,2634,0000,0000,0000
+89,4,0,01A8,00FF,Zora's Fountain Bombable Wall,,316,60,2634,0000,0000,0000
+Total: 4

@@ -1,0 +1,5 @@
+Scene,Setup,Room
+4,0,10,0044,FFFF,Spinning Flame Thrower (Fire Temple),,-1057,2800,-360,0000,4000,0000
+4,0,10,0044,FFFF,Spinning Flame Thrower (Fire Temple),,-1057,2800,360,0000,4000,0000
+13,0,14,0044,FFFF,Spinning Flame Thrower (Fire Temple),,-1474,151,-2385,0000,0000,0000
+Total: 3

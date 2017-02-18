@@ -1,0 +1,4 @@
+Scene,Setup,Room
+4,0,10,0045,4000,Stationary Flame Thrower (Fire Temple),,-2297,2800,800,0000,0000,0000
+4,0,10,0045,0000,Stationary Flame Thrower (Fire Temple),,-1751,2800,-913,0000,8000,0000
+Total: 2

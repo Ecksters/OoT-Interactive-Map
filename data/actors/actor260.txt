@@ -1,0 +1,11 @@
+Scene,Setup,Room
+82,0,0,0104,FFFF,Kakariko Village Well Water,,762,52,524,0000,0000,0000
+82,1,0,0104,FFFF,Kakariko Village Well Water,,762,52,524,0000,0000,0000
+82,2,0,0104,FFFF,Kakariko Village Well Water,,762,-506,524,0000,0000,0000
+82,3,0,0104,FFFF,Kakariko Village Well Water,,762,-506,524,0000,0000,0000
+82,4,0,0104,FFFF,Kakariko Village Well Water,,762,52,524,0000,0000,0000
+82,5,0,0104,FFFF,Kakariko Village Well Water,,762,52,524,0000,0000,0000
+82,6,0,0104,FFFF,Kakariko Village Well Water,,762,52,524,0000,0000,0000
+82,7,0,0104,FFFF,Kakariko Village Well Water,,762,52,524,0000,0000,0000
+82,8,0,0104,FFFF,Kakariko Village Well Water,,762,52,524,0000,0000,0000
+Total: 9

@@ -1,0 +1,20 @@
+Scene,Setup,Room
+81,8,0,0108,FFFF,Lon Lon Ranch Fence Obstacle,,-6010,-499,8499,0000,0000,0000
+81,8,0,0108,FFFF,Lon Lon Ranch Fence Obstacle,,-5374,-429,11033,0000,1333,04FA
+81,10,0,0108,FFFF,Lon Lon Ranch Fence Obstacle,,-6010,-499,8499,0000,0000,0000
+81,10,0,0108,FFFF,Lon Lon Ranch Fence Obstacle,,-5374,-429,11033,0000,1333,04FA
+90,0,0,0108,0000,Lon Lon Ranch Fence Obstacle,,-391,-70,-98,0000,4000,0000
+90,6,0,0108,0000,Lon Lon Ranch Fence Obstacle,,-391,-70,-98,0000,4000,0000
+99,2,0,0108,0000,Lon Lon Ranch Fence Obstacle,,-444,0,-312,0000,4000,0000
+99,2,0,0108,0000,Lon Lon Ranch Fence Obstacle,,295,-27,-989,0000,4000,0000
+99,3,0,0108,0000,Lon Lon Ranch Fence Obstacle,,-444,0,-312,0000,4000,0000
+99,3,0,0108,0000,Lon Lon Ranch Fence Obstacle,,295,-27,-989,0000,4000,0000
+99,4,0,0108,0001,Lon Lon Ranch Fence Obstacle,,1497,-21,-1198,0000,20B6,0000
+99,4,0,0108,0001,Lon Lon Ranch Fence Obstacle,,820,-44,-1655,0000,C000,0000
+99,4,0,0108,0001,Lon Lon Ranch Fence Obstacle,,1655,-44,-396,0000,0000,0000
+99,4,0,0108,0001,Lon Lon Ranch Fence Obstacle,,1291,-44,205,0000,E000,0000
+99,4,0,0108,0001,Lon Lon Ranch Fence Obstacle,,379,-21,455,0000,4000,0000
+99,4,0,0108,0001,Lon Lon Ranch Fence Obstacle,,-939,1,455,0000,4000,0000
+99,4,0,0108,0001,Lon Lon Ranch Fence Obstacle,,-1644,-21,-1035,0000,EFA5,0000
+99,4,0,0108,0001,Lon Lon Ranch Fence Obstacle,,-95,-21,455,0000,4000,0000
+Total: 18

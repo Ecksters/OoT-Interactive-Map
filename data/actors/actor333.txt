@@ -1,0 +1,17 @@
+Scene,Setup,Room
+81,0,0,014D,004C,Kaepora Gaebora,Type 1; Perm: 0C,4284,182,7877,0000,0000,0000
+81,0,0,014D,00FF,Kaepora Gaebora,Type 3; No Flag,3276,510,971,0000,0000,0000
+81,0,0,014D,013F,Kaepora Gaebora,Type 4; No Flag,-6270,30,8579,0000,0000,0000
+81,0,0,014D,014B,Kaepora Gaebora,Type 5; Perm: 0B,-4670,-500,13739,0000,0000,0000
+84,0,0,014D,01BF,Kaepora Gaebora,Type 6; No Flag,-1397,260,426,0000,0000,0000
+87,0,0,014D,01CA,Kaepora Gaebora,Type 7; Perm: 0A,-3080,-985,6067,0000,6000,0000
+90,6,0,014D,003F,Kaepora Gaebora,Type 0; No Flag,14,242,-264,0000,0000,0000
+91,0,2,014D,02C7,Kaepora Gaebora,Type 11; Perm: 07,955,210,-798,0000,C000,0000
+91,0,8,014D,0308,Kaepora Gaebora,Type 12; Perm: 08,798,208,-2246,0000,8000,0000
+92,0,0,014D,029F,Kaepora Gaebora,Type 10; Perm: 1F,-1456,811,425,0000,0000,0000
+92,4,0,014D,0FFF,Kaepora Gaebora,Type 63; No Flag,-1421,810,-380,0000,360B,0000
+92,4,0,014D,003F,Kaepora Gaebora,Type 0; No Flag,-1518,736,-360,0000,0000,0000
+95,0,0,014D,0085,Kaepora Gaebora,Type 2; Perm: 05,-146,1619,2961,0000,0000,0000
+96,0,0,014D,0213,Kaepora Gaebora,Type 8; Perm: 13,-42,3347,-4409,0000,0AAB,0000
+99,5,0,014D,003F,Kaepora Gaebora,Type 0; No Flag,76,0,-664,0000,0000,0000
+Total: 15

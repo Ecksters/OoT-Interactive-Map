@@ -1,0 +1,3 @@
+Scene,Setup,Room
+32,0,0,019A,0200,Girl Chasing Cucco (Defunct?),,115,0,-495,0000,C000,0000
+Total: 1

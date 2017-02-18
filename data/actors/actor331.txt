@@ -1,0 +1,4 @@
+Scene,Setup,Room
+75,0,0,014B,FFFF,Bombchu Bowling Alley Lady,,180,-12,260,0000,C000,0000
+99,8,0,014B,FFFF,Bombchu Bowling Alley Lady,,634,8,-359,0000,C5B0,0000
+Total: 2

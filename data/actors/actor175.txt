@@ -1,0 +1,8 @@
+Scene,Setup,Room
+7,0,6,00AF,0103,Shadow Temple Platforms,,3768,-543,-786,0000,4000,0000
+7,0,9,00AF,0903,Shadow Temple Platforms,,1711,-1343,3372,0000,C000,0000
+7,0,9,00AF,0001,Shadow Temple Platforms,,3140,-1000,3400,0000,0000,0000
+7,0,9,00AF,0000,Shadow Temple Platforms,,2741,-1343,1895,0000,0000,0000
+7,0,12,00AF,0002,Shadow Temple Platforms,,-5559,-1363,-1587,0000,8000,0000
+7,0,16,00AF,0303,Shadow Temple Platforms,,5732,-1143,2134,0000,4000,0000
+Total: 6

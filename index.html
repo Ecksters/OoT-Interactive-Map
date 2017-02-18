@@ -7,18 +7,21 @@
     <link rel="stylesheet" href="css/leaflet-sidebar.css" />
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/leaflet.zoomhome.css"/>
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
     <script src="js/leaflet.draw.js"></script>
     <script src="js/Control.MiniMap.min.js"></script>
     <script src="js/leaflet-sidebar.js"></script>
+    <script src="js/leaflet.zoomhome.min.js"></script>
+    <script src="js/leaflet-hash.js"></script>
+    <script src="js/Leaflet.Control.Custom.js"></script>
     <script src="js/mapdata.js"></script>
     <meta charset="UTF-8">
    
     <title>OoT Interactive Map</title>
   </head>
   <body>
-  <div id="mouseTip"></div>
   <div id="sidebar" class="sidebar collapsed">
         <!-- Nav tabs -->
         <div class="sidebar-tabs">
@@ -39,7 +42,7 @@
             <div class="sidebar-pane" id="home">
                 <h1 class="sidebar-header">
                     Ocarina of Time - Interactive World Map
-                    <span class="sidebar-close"><i class="fa fa-caret-left"></i></span>
+                    <span class="sidebar-close"><i class="fa fa-caret-right"></i></span>
                 </h1>
 
                 <p>The goal of this Interactive World Map for The Legend of Zelda: Ocarina of Time is to provide a visual guide or table of contents
@@ -51,6 +54,9 @@
                 
                 <p>Please visit the <a href="https://trello.com/b/DSrWWi3Z/ocarina-of-time-interactive-map">Trello board</a> to see a listing of upcoming
                 and feel free to suggest anything you think should be added.</p>
+                <div id="layercontrol">
+                    <label><input type="checkbox" data-layer="cities">Cities</label>
+                </div>
             </div>
 
             <div class="sidebar-pane" id="profile">

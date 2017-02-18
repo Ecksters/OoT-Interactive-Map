@@ -1,0 +1,111 @@
+Scene,Setup,Room
+0,0,0,0095,0000,Skullwalltula,Type 0; Group 00; Flag 00,283,478,357,0000,A38E,0000
+0,0,0,0095,0000,Skullwalltula,Type 0; Group 00; Flag 00,416,520,179,0000,B333,0000
+0,0,0,0095,0000,Skullwalltula,Type 0; Group 00; Flag 00,327,678,321,0000,A4FA,0000
+0,0,3,0095,8102,Gold Skulltula,Type 4; Group 01; Flag 02,-281,-815,-436,0000,0000,0000
+0,0,3,0095,8104,Gold Skulltula,Type 4; Group 01; Flag 04,95,-713,-43,0000,D3E9,0000
+0,0,8,0095,8101,Gold Skulltula,Type 4; Group 01; Flag 01,-2577,-626,-411,0000,8000,0000
+0,0,10,0095,8108,Gold Skulltula,Type 4; Group 01; Flag 08,-1081,866,501,0000,8000,0000
+1,0,1,0095,8202,Gold Skulltula,Type 4; Group 02; Flag 02,2132,220,-717,0000,0000,0000
+1,0,2,0095,0000,Skullwalltula,Type 0; Group 00; Flag 00,-1920,604,-1252,0000,0000,0000
+1,0,2,0095,8201,Gold Skulltula,Type 4; Group 02; Flag 01,-2000,683,-1256,0000,0000,0000
+1,0,2,0095,8204,Gold Skulltula,Type 4; Group 02; Flag 04,-1965,635,-2059,0000,0000,0000
+1,0,11,0095,8210,Gold Skulltula,Type 4; Group 02; Flag 10,2561,63,634,0000,8000,0000
+1,0,14,0095,8208,Gold Skulltula,Type 4; Group 02; Flag 08,1475,128,-4739,0000,0000,0000
+2,0,3,0095,8301,Gold Skulltula,Type 4; Group 03; Flag 01,-84,-977,-3657,0000,0000,0000
+2,0,3,0095,8302,Gold Skulltula,Type 4; Group 03; Flag 02,-325,-925,-3509,0000,2B61,0000
+2,0,5,0095,8304,Gold Skulltula,Type 4; Group 03; Flag 04,1640,-274,-1505,0000,5E94,0000
+2,0,14,0095,8308,Gold Skulltula,Type 4; Group 03; Flag 08,801,-1129,-2380,0000,4000,0000
+3,0,0,0095,8402,Gold Skulltula,Type 4; Group 04; Flag 02,452,1058,642,0000,C000,0000
+3,0,2,0095,8408,Gold Skulltula,Type 4; Group 04; Flag 08,453,601,-2420,0000,C000,0000
+3,0,7,0095,0000,Skullwalltula,Type 0; Group 00; Flag 00,704,905,-3025,0000,0000,0000
+3,0,7,0095,8401,Gold Skulltula,Type 4; Group 04; Flag 01,1533,444,-2783,0000,C000,0000
+3,0,8,0095,0000,Skullwalltula,Type 0; Group 00; Flag 00,-305,684,-2883,0000,C000,0000
+3,0,8,0095,0000,Skullwalltula,Type 0; Group 00; Flag 00,-305,329,-2860,0000,C000,0000
+3,0,8,0095,0000,Skullwalltula,Type 0; Group 00; Flag 00,-305,539,-2780,0000,C000,0000
+3,0,8,0095,8404,Gold Skulltula,Type 4; Group 04; Flag 04,-1123,784,-3032,0000,0000,0000
+3,0,17,0095,8410,Gold Skulltula,Type 4; Group 04; Flag 10,-411,-595,-1196,0000,2000,0000
+4,0,5,0095,8504,Gold Skulltula,Type 4; Group 05; Flag 04,2198,2883,-1193,FF4A,0000,0000
+4,0,7,0095,8510,Gold Skulltula,Type 4; Group 05; Flag 10,1664,4347,-788,0000,C000,0000
+4,0,8,0095,8508,Gold Skulltula,Type 4; Group 05; Flag 08,1728,4473,-231,0000,E000,0000
+4,0,18,0095,8502,Gold Skulltula,Type 4; Group 05; Flag 02,338,86,-1576,0000,0000,0000
+4,0,19,0095,8501,Gold Skulltula,Type 4; Group 05; Flag 01,810,341,-1742,0000,4000,0000
+5,0,1,0095,8604,Gold Skulltula,Type 4; Group 06; Flag 04,-275,979,-353,0000,0000,0000
+5,0,3,0095,8601,Gold Skulltula,Type 4; Group 06; Flag 01,-2311,402,856,0000,4000,0000
+5,0,5,0095,8602,Gold Skulltula,Type 4; Group 06; Flag 02,-1736,904,-457,0000,0000,0000
+5,0,12,0095,8608,Gold Skulltula,Type 4; Group 06; Flag 08,-1179,165,-2240,0000,4000,0000
+5,0,21,0095,8610,Gold Skulltula,Type 4; Group 06; Flag 10,-2279,349,-3469,0000,0000,0000
+6,0,2,0095,8710,Gold Skulltula,Type 4; Group 07; Flag 10,-349,151,-1039,4000,0000,0000
+6,0,4,0095,0000,Skullwalltula,Type 0; Group 00; Flag 00,-1185,619,-870,3F4A,4000,0000
+6,0,4,0095,0000,Skullwalltula,Type 0; Group 00; Flag 00,-1178,583,-971,4000,4000,0000
+6,0,4,0095,0000,Skullwalltula,Type 0; Group 00; Flag 00,-1000,152,-1295,4000,C000,0000
+6,0,4,0095,0000,Skullwalltula,Type 0; Group 00; Flag 00,-1000,278,-1236,4000,C000,0000
+6,0,4,0095,8708,Gold Skulltula,Type 4; Group 07; Flag 08,-1120,442,-1258,4000,4000,0000
+6,0,5,0095,8704,Gold Skulltula,Type 4; Group 07; Flag 04,-629,860,-1555,4000,4000,0000
+6,0,9,0095,8701,Gold Skulltula,Type 4; Group 07; Flag 01,-1699,1072,502,0000,0000,0000
+6,0,13,0095,8702,Gold Skulltula,Type 4; Group 07; Flag 02,1259,20,-1082,4000,4000,0000
+6,0,23,0095,0000,Skullwalltula,Type 0; Group 00; Flag 00,681,1200,-87,4000,0000,0000
+7,0,10,0095,8802,Gold Skulltula,Type 4; Group 08; Flag 02,770,-1272,4066,C000,4000,0000
+7,0,12,0095,8804,Gold Skulltula,Type 4; Group 08; Flag 04,-5890,-1188,-1585,4000,4000,0000
+7,0,14,0095,8801,Gold Skulltula,Type 4; Group 08; Flag 01,1303,-1302,1082,4000,4000,0000
+7,0,16,0095,8808,Gold Skulltula,Type 4; Group 08; Flag 08,5995,-1031,2129,4000,C000,0000
+7,0,21,0095,8810,Gold Skulltula,Type 4; Group 08; Flag 10,3881,-948,-1495,4000,4000,0000
+8,0,0,0095,8901,Gold Skulltula,Type 4; Group 09; Flag 01,1130,124,-740,0000,0000,4000
+8,0,5,0095,8902,Gold Skulltula,Type 4; Group 09; Flag 02,101,126,-1208,4000,4000,0000
+8,0,6,0095,8904,Gold Skulltula,Type 4; Group 09; Flag 04,-325,126,-1282,C000,8000,0000
+9,0,3,0095,8A02,Gold Skulltula,Type 4; Group 0A; Flag 02,-16,199,-167,4000,5F4A,0000
+9,0,5,0095,8A01,Gold Skulltula,Type 4; Group 0A; Flag 01,-761,185,-525,0000,A889,0000
+9,0,11,0095,8A04,Gold Skulltula,Type 4; Group 0A; Flag 04,1349,143,163,0000,8000,0000
+62,0,4,0095,8B01,Gold Skulltula,Type 4; Group 0B; Flag 01,3709,160,-298,4000,CCCD,0000
+62,0,8,0095,0000,Skullwalltula,Type 0; Group 00; Flag 00,1651,94,1497,0000,5555,0000
+62,0,8,0095,0000,Skullwalltula,Type 0; Group 00; Flag 00,2031,115,1439,0000,AB61,0000
+62,0,8,0095,8F02,Gold Skulltula,Type 4; Group 0F; Flag 02,1610,123,1424,0000,53E9,0000
+62,0,13,0095,8B02,Gold Skulltula,Type 4; Group 0B; Flag 02,746,140,-492,4000,D555,0000
+82,1,0,0095,B102,Gold Skulltula,Type 5; Group 11; Flag 02,-465,377,-888,0000,6E39,0000
+82,1,0,0095,B104,Gold Skulltula,Type 5; Group 11; Flag 04,5,686,-171,0000,8000,0000
+82,1,0,0095,B108,Gold Skulltula,Type 5; Group 11; Flag 08,324,270,905,4000,0000,0000
+82,1,0,0095,B110,Gold Skulltula,Type 5; Group 11; Flag 10,-602,120,1120,4000,0000,0000
+82,3,0,0095,B140,Gold Skulltula,Type 5; Group 11; Flag 40,-18,540,1800,0000,8000,0000
+83,1,1,0095,B180,Gold Skulltula,Type 5; Group 11; Flag 80,156,315,795,4000,8000,0000
+83,2,1,0095,0000,Skullwalltula,Type 0; Group 00; Flag 00,-686,137,-158,4000,0000,0000
+83,2,1,0095,0000,Skullwalltula,Type 0; Group 00; Flag 00,-38,135,405,4000,C000,0000
+83,3,1,0095,0000,Skullwalltula,Type 0; Group 00; Flag 00,-38,135,405,4000,C000,0000
+83,3,1,0095,0000,Skullwalltula,Type 0; Group 00; Flag 00,-686,137,-158,4000,0000,0000
+84,2,0,0095,B210,Gold Skulltula,Type 5; Group 12; Flag 10,26,702,258,4000,82D8,0000
+84,0,1,0095,B201,Gold Skulltula,Type 5; Group 12; Flag 01,3727,647,-1609,4000,A000,0000
+84,2,1,0095,B208,Gold Skulltula,Type 5; Group 12; Flag 08,2832,1055,-1466,4000,238E,0000
+85,0,0,0095,AD02,Gold Skulltula,Type 5; Group 0D; Flag 02,-1307,153,401,0000,CD83,0000
+85,2,0,0095,AD04,Gold Skulltula,Type 5; Group 0D; Flag 04,1153,251,625,4000,E93F,0000
+85,3,0,0095,AD04,Gold Skulltula,Type 5; Group 0D; Flag 04,1153,251,625,4000,E93F,0000
+86,2,0,0095,AE08,Gold Skulltula,Type 5; Group 0E; Flag 08,534,289,280,4000,C000,0000
+87,0,0,0095,B302,Gold Skulltula,Type 5; Group 13; Flag 02,822,-1254,7188,4000,0000,0000
+87,0,0,0095,B304,Gold Skulltula,Type 5; Group 13; Flag 04,-2873,-938,4019,5555,0000,0000
+87,2,0,0095,B310,Gold Skulltula,Type 5; Group 13; Flag 10,-732,-699,7445,0000,A16C,0000
+88,2,1,0095,B240,Gold Skulltula,Type 5; Group 12; Flag 40,-10,897,-909,4000,0000,0000
+89,1,0,0095,B204,Gold Skulltula,Type 5; Group 12; Flag 04,-1891,187,1911,4000,4666,0000
+89,2,0,0095,B220,Gold Skulltula,Type 5; Group 12; Flag 20,989,1063,1688,4000,56C1,0000
+90,0,0,0095,B402,Gold Skulltula,Type 5; Group 14; Flag 02,1707,95,-227,47D2,E71C,0000
+90,2,0,0095,B404,Gold Skulltula,Type 5; Group 14; Flag 04,-1329,360,309,31C7,E4FA,0000
+90,2,0,0095,B408,Gold Skulltula,Type 5; Group 14; Flag 08,-1171,160,-1225,4000,0000,0000
+91,2,6,0095,AE04,Gold Skulltula,Type 5; Group 0E; Flag 04,772,210,-1808,0000,E000,0000
+92,2,0,0095,B608,Gold Skulltula,Type 5; Group 16; Flag 08,456,268,2332,4000,0000,0000
+92,2,0,0095,B604,Gold Skulltula,Type 5; Group 16; Flag 04,1336,436,-542,0C17,8000,0000
+93,3,0,0095,B502,Gold Skulltula,Type 5; Group 15; Flag 02,1598,999,-2008,4000,C000,0000
+93,3,1,0095,B501,Gold Skulltula,Type 5; Group 15; Flag 01,3377,1734,-4935,4000,0000,0000
+94,0,0,0095,9602,Gold Skulltula,Type 4; Group 16; Flag 02,637,-393,-2536,4000,0000,0000
+96,0,0,0095,0000,Skullwalltula,Type 0; Group 00; Flag 00,62,2619,-3983,4000,0000,0000
+96,0,0,0095,0000,Skullwalltula,Type 0; Group 00; Flag 00,-157,2784,-3983,4000,0000,0000
+96,0,0,0095,0000,Skullwalltula,Type 0; Group 00; Flag 00,15,3040,-3981,4000,0000,0000
+96,0,0,0095,9004,Gold Skulltula,Type 4; Group 10; Flag 04,-1653,478,1194,4000,C000,0000
+96,2,0,0095,0000,Skullwalltula,Type 0; Group 00; Flag 00,64,2609,-3982,4000,0000,0000
+96,2,0,0095,0000,Skullwalltula,Type 0; Group 00; Flag 00,-176,2753,-3981,4000,0000,0000
+96,2,0,0095,0000,Skullwalltula,Type 0; Group 00; Flag 00,-90,2925,-3982,4000,0000,0000
+96,2,0,0095,9004,Gold Skulltula,Type 4; Group 10; Flag 04,-1653,478,1194,4000,C000,0000
+96,2,0,0095,B008,Gold Skulltula,Type 5; Group 10; Flag 08,-1166,1465,-812,4000,D333,0000
+96,2,0,0095,B010,Gold Skulltula,Type 5; Group 10; Flag 10,0,2123,-3196,4000,B8E4,0000
+98,2,3,0095,9020,Gold Skulltula,Type 4; Group 10; Flag 20,1,499,165,4000,8222,0000
+99,1,0,0095,8C01,Gold Skulltula,Type 4; Group 0C; Flag 01,-2344,180,672,4000,599A,0000
+99,1,0,0095,8C02,Gold Skulltula,Type 4; Group 0C; Flag 02,808,48,326,4000,0000,0000
+99,1,0,0095,8C04,Gold Skulltula,Type 4; Group 0C; Flag 04,997,286,-2698,4000,C000,0000
+100,0,0,0095,8F01,Gold Skulltula,Type 4; Group 0F; Flag 01,1059,1448,792,4000,6AAB,0000
+Total: 109

@@ -1,0 +1,9 @@
+Scene,Setup,Room
+2,0,2,0063,FFFF,Bari (Big Jellyfish),,-127,60,-3272,0000,0000,0000
+2,0,2,0063,FFFF,Bari (Big Jellyfish),,3,60,-3612,0000,0000,0000
+2,4,2,0063,FFFF,Bari (Big Jellyfish),,-127,60,-3272,0000,0000,0000
+2,4,2,0063,FFFF,Bari (Big Jellyfish),,3,60,-3612,0000,0000,0000
+2,4,6,0063,FFFF,Bari (Big Jellyfish),,-1360,200,-2634,0000,80B6,0000
+2,4,7,0063,FFFF,Bari (Big Jellyfish),,-410,-220,-4670,0000,2EEF,0000
+2,4,7,0063,FFFF,Bari (Big Jellyfish),,410,-220,-4671,0000,D49F,0000
+Total: 7

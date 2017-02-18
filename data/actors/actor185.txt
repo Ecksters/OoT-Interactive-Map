@@ -1,0 +1,9 @@
+Scene,Setup,Room
+98,0,1,00B9,FF00,Darunia's Room Statue,,92,40,-1540,0000,FF4A,0000
+98,0,1,00B9,0001,Darunia's Room Statue,,92,40,-1540,0000,0000,0000
+98,2,1,00B9,1100,Darunia's Room Statue,,92,40,-1540,0000,0000,0000
+98,4,1,00B9,FF00,Darunia's Room Statue,,92,40,-1532,0000,FF4A,0000
+98,4,1,00B9,0001,Darunia's Room Statue,,92,40,-1532,0000,0000,0000
+98,5,1,00B9,FF00,Darunia's Room Statue,,92,40,-1532,0000,FF4A,0000
+98,5,1,00B9,0001,Darunia's Room Statue,,92,40,-1532,0000,0000,0000
+Total: 7

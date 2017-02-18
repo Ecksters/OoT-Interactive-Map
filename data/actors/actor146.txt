@@ -1,0 +1,5 @@
+Scene,Setup,Room
+13,0,1,0092,0401,Golden Gauntlets Rock,,-1212,-240,-840,0000,4000,0000
+13,0,14,0092,0F00,Golden Gauntlets Rock,,-1867,222,-2754,0000,5555,0000
+100,0,0,0092,0100,Golden Gauntlets Rock,,3004,1186,517,0000,C000,0000
+Total: 3

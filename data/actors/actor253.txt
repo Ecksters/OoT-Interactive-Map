@@ -1,0 +1,4 @@
+Scene,Setup,Room
+6,0,2,00FD,0005,Climbable Metal Grating (Fire Temple),,-591,30,-1053,0000,0000,0000
+6,0,3,00FD,0003,Climbable Metal Grating (Fire Temple),,-1569,30,-1053,0000,0000,0000
+Total: 2

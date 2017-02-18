@@ -1,0 +1,8 @@
+Scene,Setup,Room
+84,0,0,00ED,0000,Frog Song Spot and Frogs,,990,205,-1220,0000,1555,0000
+84,0,0,00ED,0001,Frog Song Spot and Frogs,,1093,205,-1069,0000,98E4,0000
+84,0,0,00ED,0003,Frog Song Spot and Frogs,,1082,199,-1028,0000,91C7,0000
+84,0,0,00ED,0004,Frog Song Spot and Frogs,,1169,226,-1021,0000,A222,0000
+84,0,0,00ED,0002,Frog Song Spot and Frogs,,1098,194,-1110,0000,A38E,0000
+84,0,0,00ED,0005,Frog Song Spot and Frogs,,1122,230,-980,0000,8E39,0000
+Total: 6

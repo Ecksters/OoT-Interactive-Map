@@ -1,0 +1,46 @@
+Scene at 02944000
+Setup 0: 00000000
+15: Sound Settings: Reverb 0, Playback option Always Playing, Song 1D.
+04: There are 1 room(s). List starts at 000000E0
+02946000 029BB700
+0E: There are 3 transition actor(s). List starts at 000000B0.
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (620, 0, 927) (0000, 8000, 0000)
+00 FF -> 00 FF, 0009:0281, Locked Door, Perm: 01, (-666, 0, 980) (0000, 4000, 0000)
+00 FF -> 00 FF, 0009:0281, Locked Door, Perm: 01, (666, 0, 740) (0000, C000, 0000)
+19: JPEG background camera related: 30 Overworld Region:  0E
+03: Collision Header starts at 00001218
+Offset to vertex array 00000E28
+Offset to polygon array 000001C8
+Offset to polygon type defs 00000178
+Offset to camera data 00000158
+Offset to water boxes 00000000
+Size in bytes 4332
+06: Entrance Index Definitions starts at 000000E8
+07: Elf_Message 1, Load Object 0002
+00: There are 5 position(s). List starts at 00000060.
+0000:0F00 Link, (-536, 0, 596) (0000, 0000, 0000)
+0000:0F01 Link, (520, 0, 594) (0000, 0000, 0000)
+0000:0E01 Link, (631, 0, 740) (0000, C000, 0000)
+0000:0E00 Link, (-628, 0, 978) (0000, 4000, 0000)
+0000:0E01 Link, (618, 0, 891) (0000, 8000, 0000)
+11: Skybox 0, Cast: Sunny, Fog? Yes
+13: Exit List starts at 000000F4. 0262 029E 0528 043B 0398 0000
+0F: There are 1 environment setting(s). List starts at 00000100.
+
+Room 0
+Room at 02946000
+Setup 0: 00000000
+16: Sound Settings: Echo 5
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 06
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000B0
+0B: There are 11 Object(s). List starts at 00000040
+0107, 0097, 0013, 00C5, 010C, 0108, 0105, 0107, 0111, 0115, 016B, 
+01: There are 5 actor(s). List starts at 00000058
+016E:078E Market NPC, (-212, 0, 1354) (0000, 8000, 0000)
+016E:078F Market NPC, (469, 0, 834) (0000, 4000, 0000)
+0178:FF07 Hyrule Guard, (-328, 0, 1199) (0000, 0000, 0000)
+016E:078D Market NPC, (-574, 0, 1053) (0000, 8000, 0000)
+003B:000B Ambient Sound, ??, (515, -4, 759) (0000, 0000, 0000)
+

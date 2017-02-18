@@ -1,0 +1,3 @@
+Scene,Setup,Room
+99,2,0,01C5,FFFF,Adult Malon (Ranch),,-158,0,-1596,0000,5DDE,0000
+Total: 1

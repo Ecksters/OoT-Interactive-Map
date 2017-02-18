@@ -1,0 +1,79 @@
+Scene,Setup,Room
+81,0,0,009B,0000,Grotto,Generic; Visible; Chest: Blue Rupee; Flag 00,-1425,0,810,0000,E000,0000
+81,0,0,009B,0003,Grotto,Generic; Visible; Chest: Blue Rupee; Flag 03,-4030,-700,13860,0000,8000,0000
+81,0,0,009B,0022,Grotto,Generic; Visible; Chest: Red Rupee; Flag 02,-270,-500,12350,0000,9555,0000
+81,0,0,009B,02E1,Grotto,Tektite; Hit; Chest: None; Flag 01,-4945,-300,2835,0000,1555,000B
+81,0,0,009B,02E4,Grotto,Webbed; Hit; Chest: None; Flag 04,-7870,-300,6920,0000,0000,0005
+81,0,0,009B,02E5,Grotto,Big Skulltula; Hit; Chest: None; Flag 05,2060,20,-170,0000,C000,0001
+81,0,0,009B,02E6,Grotto,Heart Piece Scrub; Hit; Chest: None; Flag 06,-4990,-700,13820,0000,EAAB,0002
+81,0,0,009B,10FF,Grotto,Fairy Fountain; Visible; Chest: None; Flag 1F,-4450,-300,-425,0000,0000,0000
+81,1,0,009B,0003,Grotto,Generic; Visible; Chest: Blue Rupee; Flag 03,-4030,-700,13860,0000,8000,0000
+81,1,0,009B,0000,Grotto,Generic; Visible; Chest: Blue Rupee; Flag 00,-1425,0,810,0000,E000,0000
+81,1,0,009B,0022,Grotto,Generic; Visible; Chest: Red Rupee; Flag 02,-270,-500,12350,0000,9555,0000
+81,1,0,009B,02E4,Grotto,Webbed; Hit; Chest: None; Flag 04,-7870,-300,6920,0000,0000,0005
+81,1,0,009B,02E6,Grotto,Heart Piece Scrub; Hit; Chest: None; Flag 06,-4990,-700,13820,0000,EAAB,0002
+81,1,0,009B,02E1,Grotto,Tektite; Hit; Chest: None; Flag 01,-4945,-300,2835,0000,1555,000B
+81,1,0,009B,02E5,Grotto,Big Skulltula; Hit; Chest: None; Flag 05,2060,20,-170,0000,C000,0001
+81,1,0,009B,10FF,Grotto,Fairy Fountain; Visible; Chest: None; Flag 1F,-4450,-300,-425,0000,0000,0000
+81,2,0,009B,0000,Grotto,Generic; Visible; Chest: Blue Rupee; Flag 00,-1425,0,810,0000,E000,0000
+81,2,0,009B,0003,Grotto,Generic; Visible; Chest: Blue Rupee; Flag 03,-4030,-700,13860,0000,8000,0000
+81,2,0,009B,0022,Grotto,Generic; Visible; Chest: Red Rupee; Flag 02,-270,-500,12350,0000,9555,0000
+81,2,0,009B,02E1,Grotto,Tektite; Hit; Chest: None; Flag 01,-4945,-300,2835,0000,1555,000B
+81,2,0,009B,02E4,Grotto,Webbed; Hit; Chest: None; Flag 04,-7870,-300,6920,0000,0000,0005
+81,2,0,009B,02E5,Grotto,Big Skulltula; Hit; Chest: None; Flag 05,2060,20,-170,0000,C000,0001
+81,2,0,009B,02E6,Grotto,Heart Piece Scrub; Hit; Chest: None; Flag 06,-4990,-700,13820,0000,EAAB,0002
+81,2,0,009B,10FF,Grotto,Fairy Fountain; Visible; Chest: None; Flag 1F,-4450,-300,-425,0000,0000,0000
+82,0,0,009B,0028,Grotto,Generic; Visible; Chest: Red Rupee; Flag 08,860,80,-260,0000,0000,0000
+82,0,0,009B,02E7,Grotto,Two Redeads; Hit; Chest: None; Flag 07,-400,0,400,0000,0000,0003
+82,1,0,009B,0028,Grotto,Generic; Visible; Chest: Red Rupee; Flag 08,860,80,-260,0000,0000,0000
+82,1,0,009B,02E7,Grotto,Two Redeads; Hit; Chest: None; Flag 07,-400,0,400,0000,0000,0003
+82,2,0,009B,02E7,Grotto,Two Redeads; Hit; Chest: None; Flag 07,-400,0,400,0000,0000,0003
+82,2,0,009B,0028,Grotto,Generic; Visible; Chest: Red Rupee; Flag 08,860,80,-260,0000,0000,0000
+82,3,0,009B,0028,Grotto,Generic; Visible; Chest: Red Rupee; Flag 08,860,80,-260,0000,0000,0000
+82,3,0,009B,02E7,Grotto,Two Redeads; Hit; Chest: None; Flag 07,-400,0,400,0000,0000,0003
+84,0,0,009B,0029,Grotto,Generic; Visible; Chest: Red Rupee; Flag 09,360,570,130,0000,8000,0000
+84,0,0,009B,01EB,Grotto,Two Deku Salescrubs - Green Pot; Song of Storms; Chest: None; Flag 0B,-1630,100,-130,0000,0000,000A
+84,0,0,009B,10E6,Grotto,???; Visible; Chest: None; Flag 06,670,570,-365,0000,E000,0006
+84,2,0,009B,0029,Grotto,Generic; Visible; Chest: Red Rupee; Flag 09,360,570,130,0000,8000,0000
+84,2,0,009B,01EB,Grotto,Two Deku Salescrubs - Green Pot; Song of Storms; Chest: None; Flag 0B,-1630,100,-130,0000,0000,000A
+84,2,0,009B,10E6,Grotto,Fairy Fountain; Visible; Chest: None; Flag 06,670,570,-365,0000,E000,0000
+85,0,0,009B,012C,Grotto,Generic; Song of Storms; Chest: Red Rupee; Flag 0C,-512,380,-1224,0000,4000,0000
+85,2,0,009B,012C,Grotto,Generic; Song of Storms; Chest: Red Rupee; Flag 0C,-512,380,-1224,0000,4000,0000
+85,3,0,009B,012C,Grotto,Generic; Song of Storms; Chest: Red Rupee; Flag 0C,-512,380,-1224,0000,4000,0000
+86,0,0,009B,01EE,Grotto,Two Deku Salescrubs - Green Pot; Song of Storms; Chest: None; Flag 0E,310,480,-2300,0000,AAAB,000A
+86,0,0,009B,10FF,Grotto,Fairy Fountain; Visible; Chest: None; Flag 1F,45,0,220,0000,0000,0000
+86,0,0,009B,02ED,Grotto,Two Wolfos; Hit; Chest: None; Flag 0D,-195,0,1900,0000,8000,0008
+86,2,0,009B,02ED,Grotto,Two Wolfos; Hit; Chest: None; Flag 0D,-195,0,1900,0000,8000,0008
+86,2,0,009B,01EE,Grotto,Two Deku Salescrubs - Green Pot; Song of Storms; Chest: None; Flag 0E,310,480,-2300,0000,AAAB,000A
+86,2,0,009B,10FF,Grotto,Fairy Fountain; Visible; Chest: None; Flag 1F,45,0,220,0000,0000,0000
+87,0,0,009B,00EF,Grotto,Three Deku Salescrubs; Visible; Chest: None; Flag 0F,-3040,-1033,6075,0000,0000,0004
+87,2,0,009B,00EF,Grotto,Three Deku Salescrubs; Visible; Chest: None; Flag 0F,-3040,-1033,6075,0000,0000,0004
+88,0,1,009B,11FF,Grotto,Fairy Fountain; Song of Storms; Chest: None; Flag 1F,-860,14,-470,0000,D555,0000
+88,2,1,009B,11FF,Grotto,Fairy Fountain; Song of Storms; Chest: None; Flag 1F,-860,14,-470,0000,D555,0000
+90,0,0,009B,00F2,Grotto,Octorok; Visible; Chest: None; Flag 12,280,-555,1470,0000,8000,0006
+90,2,0,009B,00F2,Grotto,Octorok; Visible; Chest: None; Flag 12,280,-555,1470,0000,8000,0006
+90,2,0,009B,01F0,Grotto,Two Deku Salescrubs - Green Pot; Song of Storms; Chest: None; Flag 10,-1323,15,-969,0000,9555,000A
+91,0,2,009B,0014,Grotto,Generic; Visible; Chest: Blue Rupee; Flag 14,915,0,-925,0000,E000,0000
+91,2,2,009B,0014,Grotto,Generic; Visible; Chest: Blue Rupee; Flag 14,915,0,-925,0000,E000,0000
+91,0,6,009B,00F3,Grotto,Forest Stage; Visible; Chest: None; Flag 13,80,-20,-1600,0000,4000,000C
+91,2,6,009B,00F3,Grotto,Forest Stage; Visible; Chest: None; Flag 13,80,-20,-1600,0000,4000,000C
+91,0,8,009B,00F5,Grotto,Two Deku Salescrubs - Deku Nut Upgrade; Visible; Chest: None; Flag 15,670,0,-2520,0000,2000,0007
+91,2,8,009B,00F5,Grotto,Two Deku Salescrubs - Deku Nut Upgrade; Visible; Chest: None; Flag 15,670,0,-2520,0000,2000,0007
+92,0,0,009B,00FD,Grotto,Two Deku Salescrubs - Green Pot; Visible; Chest: None; Flag 1D,60,-32,-1300,0000,A71C,000A
+92,2,0,009B,00FD,Grotto,Two Deku Salescrubs - Green Pot; Visible; Chest: None; Flag 1D,60,-32,-1300,0000,A71C,000A
+93,2,0,009B,11FF,Grotto,Fairy Fountain; Song of Storms; Chest: None; Flag 1F,376,333,-1564,0000,4000,0000
+93,3,0,009B,11FF,Grotto,Fairy Fountain; Song of Storms; Chest: None; Flag 1F,376,333,-1564,0000,4000,0000
+95,0,0,009B,01F6,Grotto,Bombable wall; Song of Storms; Chest: None; Flag 16,996,1571,844,0000,9555,0009
+96,0,0,009B,00F8,Grotto,Cow; Visible; Chest: None; Flag 18,-688,1946,-285,0000,8000,000D
+96,0,0,009B,0157,Grotto,Generic; Song of Storms; Chest: Yellow Rupee; Flag 17,-383,1386,-1206,0000,8000,0000
+96,2,0,009B,00F8,Grotto,Cow; Visible; Chest: None; Flag 18,-688,1946,-285,0000,8000,000D
+96,2,0,009B,0157,Grotto,Generic; Song of Storms; Chest: Yellow Rupee; Flag 17,-383,1386,-1206,0000,8000,0000
+97,0,1,009B,007A,Grotto,Generic; Visible; Chest: Bombs (20); Flag 1A,40,1233,1770,0000,238E,0000
+97,0,1,009B,00F9,Grotto,Three Deku Salescrubs; Visible; Chest: None; Flag 19,-1699,722,-472,0000,31C7,0004
+97,2,1,009B,007A,Grotto,Generic; Visible; Chest: Bombs (20); Flag 1A,40,1233,1770,0000,238E,0000
+97,2,1,009B,00F9,Grotto,Three Deku Salescrubs; Visible; Chest: None; Flag 19,-1699,722,-472,0000,31C7,0004
+98,0,3,009B,00FB,Grotto,Three Deku Salescrubs; Visible; Chest: None; Flag 1B,1100,580,-1190,0000,0000,0004
+98,2,3,009B,00FB,Grotto,Three Deku Salescrubs; Visible; Chest: None; Flag 1B,1100,580,-1190,0000,0000,0004
+99,0,0,009B,00FC,Grotto,Three Deku Salescrubs; Visible; Chest: None; Flag 1C,1800,0,1500,0000,AAAB,0004
+99,1,0,009B,00FC,Grotto,Three Deku Salescrubs; Visible; Chest: None; Flag 1C,1800,0,1500,0000,AAAB,0004
+Total: 77

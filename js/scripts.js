@@ -10,122 +10,89 @@
   
 
   var layers = {
-    childLayer: L.tileLayer('maps/childangle/{z}/map_tile_{x}_{y}.png', {
-      attribution: 'Child Isometric View',
+       childAngledLayer: L.tileLayer('maps/childAngled/{z}/map_tile_{x}_{y}.png', {
+      attribution: 'Child Angled View',
     }),
-    childTopLayer: L.tileLayer('maps/childtop/{z}/map_tile_{x}_{y}.png', {
-      attribution: 'Child Top View',
-    }),
-    adultLayer: L.tileLayer('maps/adultangle/{z}/map_tile_{x}_{y}.png', {
-      attribution: 'Adult Isometric View',
-    }),
-    adultTopLayer: L.tileLayer('maps/adulttop/{z}/map_tile_{x}_{y}.png', {
-      attribution: 'Adult Top View',
-    }),
-       childCombinedLayer: L.tileLayer('maps/childanglecombined/{z}/map_tile_{x}_{y}.png', {
-      attribution: 'Child Combined View',
-    }),
-       adultCombinedLayer: L.tileLayer('maps/adultanglecombined/{z}/map_tile_{x}_{y}.png', {
-      attribution: 'Adult Combined View',
+       adultAngledLayer: L.tileLayer('maps/adultAngled/{z}/map_tile_{x}_{y}.png', {
+      attribution: 'Adult Angled View',
     })
   };
   
   var layerData = {
-  "Child Isometric View": {"id": 0, "southWest": [0, 11424], "northEast": [21393, 0], "folder": "childangle", "zoom": 11},
-  "Child Top View": {"id": 1, "southWest": [0, 15600], "northEast": [20940, 0], "folder": "childtop", "zoom": 11},
-  "Adult Isometric View": {"id": 2, "southWest": [0, 15000], "northEast": [25000, 0], "folder": "adultangle", "zoom": 11},
-  "Adult Top View": {"id": 3, "southWest": [0, 22000], "northEast": [30000, 0], "folder": "adulttop", "zoom": 10},
-  "Child Combined View": {"id": 4, "southWest": [-4000, 25000], "northEast": [33000, -2000], "folder": "adultanglecombined", "zoom": 11},
-  "Adult Combined View": {"id": 5, "southWest": [-4000, 25000], "northEast": [33000, -2000], "folder": "childanglecombined", "zoom": 11}
+  "Child Angled View": {"id": 0, "southWest": [-13000, 25000], "northEast": [40000, -8000], "folder": "childAngled", "zoom": 11},
+  "Adult Angled View": {"id": 1, "southWest": [0, 15000], "northEast": [15000, 0], "folder": "adultAngled", "zoom": 11}
   };
- 
   
+  var defaultMap = layerData["Child Angled View"];
+ 
   
   var map = L.map('map', {
     crs: L.CRS.Simple,
     maxZoom: 15,
-    minZoom: 11,
+    zoom: 11,
+    center: [-.23,.4],
+    minZoom: defaultMap.zoom,
     noWrap: true,
-    continuousWorld: true,
-    drawControl: true,
-    layers: [layers.childLayer]
-  }).setView([15000,7500], 11);
+    layers: [layers.childAngledLayer],
+    attributionControl: false,
+    zoomControl: false,
+  });
+ 
   
   function updateView(data)
   {
-    southWest = map.unproject(layerData[data.name]["southWest"], 15);
-    northEast = map.unproject(layerData[data.name]["northEast"], 15);
-    mapBounds = new L.LatLngBounds(southWest, northEast);
-    map.setMaxBounds(mapBounds);
+    //southWest = map.unproject(layerData[data.name]["southWest"], 15);
+    //northEast = map.unproject(layerData[data.name]["northEast"], 15);
+    //mapBounds = new L.LatLngBounds(southWest, northEast);
+    //map.setMaxBounds(mapBounds);
     map.setMinZoom(layerData[data.name]["zoom"]);
     regionLayer.remove();
-    roomLayer.remove();
-    regionLayer = addOverlay(loadFeatures(layerData[data.name]["id"], dataRegions, dataRegionNames));
+    regionLayer = addOverlay(loadAreas(layerData[data.name]["id"], dataRegions));
     addLabel(regionLayer);
-    sceneLayer = loadFeatures(layerData[data.name]["id"], dataScenes, dataSceneNames);
-    roomLayer = addOverlay(loadRooms(layerData[data.name]["id"], dataRooms));
-    miniMap.changeLayer(new L.TileLayer('maps/' + layerData[data.name]["folder"] + '/{z}/map_tile_{x}_{y}.png', {minZoom: 8, maxZoom: 8, attribution: "minimap"}));
+    miniMap.changeLayer(new L.TileLayer('maps/' + layerData[data.name]["folder"] + '/{z}/map_tile_{x}_{y}.png', {minZoom: 8, maxZoom: 10, attribution: "minimap"}));
   }
-  
-  var southWest = map.unproject([-2100, 13500], 15);
-  var northEast = map.unproject([23500, -2100], 15);
-  mapBounds = new L.LatLngBounds(southWest, northEast);
  
- 
- map.on('baselayerchange', updateView);
+  mapBounds = new L.LatLngBounds(map.unproject(defaultMap.southWest, 15), map.unproject(defaultMap.northEast, 15));
   
-  var baseMaps = {
-    "Child Isometric View": layers.childLayer,
-    "Child Top View": layers.childTopLayer,
-    "Adult Isometric View": layers.adultLayer,
-    "Adult Top View": layers.adultTopLayer,
-    "Child Combined View": layers.childCombinedLayer,
-    "Adult Combined View": layers.adultCombinedLayer
-};
-  
- 
   map.setMaxBounds(mapBounds);
   
-  L.control.layers(baseMaps, null, {collapsed: false}).addTo(map);
+  var hash = new L.Hash(map);
+  var zoomHome = L.Control.zoomHome();
+  zoomHome.addTo(map);
+  var drawControl = new L.Control.Draw();
+  map.addControl(drawControl);
+ 
+ var mapAdult = false;
+ map.addLayer(layers.childAngledLayer);
+  
+ // L.control.layers(baseMaps, null, {collapsed: false}).addTo(map);
+function changeAge() {    
+    mapAdult = !mapAdult;
+    // toggle the layer
+    if (mapAdult) {
+        map.removeLayer(layers.childAngledLayer);
+        map.addLayer(layers.adultAngledLayer);
+        updateView({layer: layers.adultAngledLayer, name: "Adult Angled View"})
+    } else {
+        map.removeLayer(layers.adultAngledLayer);
+        map.addLayer(layers.childAngledLayer);
+        updateView({layer: layers.childAngledLayer, name: "Child Angled View"})
+    }
 
+}
 
 var myStyle = {
-  "color": "#ff0000",
+  "color": "#000000",
   "weight": 0,
   "fill": false,
   "lineJoin":  'round'
 };
   
-var regionLayer = addOverlay(loadFeatures(0, dataRegions, dataRegionNames));
+var regionLayer = addOverlay(loadAreas(0, dataRegions));
 addLabel(regionLayer);
-var sceneLayer = loadFeatures(0, dataScenes, dataSceneNames);
-var roomLayer = addOverlay(loadRooms(0, dataRooms));
 
-function loadFeatures(currentMap, data, names)
-{
-  var overlayData = Array();
-  for(i in data[currentMap])
-  {
-    var currentFeature = data[currentMap][i];
-    if(Array.isArray(currentFeature.Outline))
-    {
-      overlayData.push(
-      {
-           "type": "Feature", 
-           "geometry": { 
-             "type": "Polygon", 
-             "coordinates": currentFeature.Outline
-           }, 
-           "properties": { 
-             "name": names[currentFeature.id].Name
-             } 
-      });
-    }
-  }
-  return overlayData;
-}
 
-function loadRooms(currentMap, data)
+function loadAreas(currentMap, data)
 {
   var overlayData = Array();
   for(i in data[currentMap])
@@ -143,7 +110,6 @@ function loadRooms(currentMap, data)
            "properties": { 
              "name": currentFeature.Name,
              "scene": currentFeature.Scene,
-             "sceneName": dataSceneNames[currentFeature.Scene].Name,
              "room": currentFeature.Room,
              } 
       });
@@ -161,13 +127,11 @@ function addOverlay(overlayData)
           this.setStyle({
             'fill': true
           });
-          showTip(feature, e);
         });
         layer.on('mouseout', function () {
           this.setStyle({
             'fill': false
           });
-          $('#mouseTip').hide();
         });
         layer.on('click', function () {
           this.setStyle({
@@ -180,15 +144,6 @@ function addOverlay(overlayData)
   return overlayLayer;
 }
 
-function showTip(feature, e)
-{
-  var mouseX =   e.originalEvent.pageX;
-  var mouseY = e.originalEvent.pageY;
-  $('#mouseTip').show().html("Scene ID: " +  feature.properties.scene + "<br>Scene Name: " + feature.properties.sceneName + "<br>Room ID: " + feature.properties.room + "<br>Room Description: " +feature.properties.name).css({
-            top:mouseY, left:mouseX
-        });
-}
-
 function addLabel(overlayLayer){
   overlayLayer.eachLayer(function(layer) {
     var bounds = layer.getBounds();
@@ -198,14 +153,18 @@ function addLabel(overlayLayer){
         className: "label",
         permanent: true,
         direction: "center"
-      }).openTooltip();
+      });
+      if(map.getZoom() > 12)
+      {
+        layer.closeTooltip();
+      }
      }
   });
 }
 
 map.on("zoomend", function(e)
 {
-  areaLayer.eachLayer(function(layer) {
+  regionLayer.eachLayer(function(layer) {
     if(typeof layer.getTooltip() != "undefined")
     {
       if(map.getZoom() < 13){
@@ -218,11 +177,37 @@ map.on("zoomend", function(e)
   });
 });
   
-  var sidebar = L.control.sidebar('sidebar').addTo(map);
+  var sidebar = L.control.sidebar('sidebar', {position: 'right'}).addTo(map);
   
-  var osm2 = new L.TileLayer('maps/childangle/{z}/map_tile_{x}_{y}.png', {minZoom: 8, maxZoom: 8, attribution: "minimap"});
-  var miniMap = new L.Control.MiniMap(osm2).addTo(map);
+  var osm2 = new L.TileLayer('maps/' + defaultMap.folder + '/{z}/map_tile_{x}_{y}.png', {minZoom: 8, maxZoom: 10, attribution: "minimap"});
+  var miniMap = new L.Control.MiniMap(osm2, {position: 'bottomleft', width: 200}).addTo(map);
   
+  
+L.control.custom({
+    position: 'bottomleft',
+    content : '<div><img src="images/ageToggle.png" style="cursor: pointer"><div id="ageToggle" style="height: 100px; background: rgba(0,0,0,.7); width: 100px; position: absolute; left: 100px; top: 0px; z-index: 5000;"></div></div>',
+    classes : '',
+    style   :
+    {
+        margin: '10px',
+        padding: '0px 0 0 0',
+        cursor: 'pointer',
+    },
+    datas   :
+    {
+        'foo': 'bar',
+    },
+    events:
+    {
+        click: function(data)
+        {
+            changeAge();
+            $('#ageToggle').animate({left: !mapAdult*100+"px"}, 200)
+        }
+    }
+})
+.addTo(map);
+
 map.on('draw:created', function(e) {
 
   var layerType = getLayerType(e.layer);
@@ -242,7 +227,7 @@ map.on('draw:created', function(e) {
     }
     coordsText = coordsText.substring(0, coordsText.length - 2);
   }
-  console.log("[[" + coordsText + "]]");
+  window.prompt("Copy to clipboard: Ctrl+C, Enter", "[[" + coordsText + "]]");
 });
   
   function getLayerType(layer) {

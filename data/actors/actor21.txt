@@ -1,0 +1,175 @@
+Scene,Setup,Room
+0,0,0,0015,2C03,Collectable Heart,Temp: 0C,-25,280,-81,0000,0000,0000
+0,0,0,0015,2D03,Collectable Heart,Temp: 0D,87,744,-16,0000,0000,0000
+0,0,9,0015,2E03,Collectable Heart,Temp: 0E,-885,-1950,-185,0000,0000,0000
+0,0,9,0015,3003,Collectable Heart,Temp: 10,-820,-1960,-76,0000,0000,0000
+0,0,9,0015,3103,Collectable Heart,Temp: 11,-354,-1943,-206,0000,0000,0000
+1,0,3,0015,1803,Collectable Heart,Perm: 18,4266,100,-1575,0000,ACCD,0000
+1,0,3,0015,2403,Collectable Heart,Temp: 04,3580,531,-2004,0000,0000,0000
+1,0,3,0015,2503,Collectable Heart,Temp: 05,3553,531,-1962,0000,0000,0000
+1,0,9,0015,3003,Collectable Heart,Temp: 10,2039,351,-317,0000,0000,0000
+3,0,8,0015,2D03,Collectable Heart,Temp: 0D,-1124,504,-2855,0000,0000,0000
+3,0,8,0015,2E03,Collectable Heart,Temp: 0E,-1165,504,-2788,0000,0000,0000
+3,0,9,0015,2F03,Collectable Heart,Temp: 0F,307,-236,-1734,0000,0000,0000
+3,0,9,0015,3003,Collectable Heart,Temp: 10,251,-236,-1735,0000,0000,0000
+4,0,6,0015,3503,Collectable Heart,Temp: 15,1813,2800,-37,0000,0000,0000
+4,0,6,0015,3603,Collectable Heart,Temp: 16,1783,2800,-91,0000,0000,0000
+4,0,6,0015,3703,Collectable Heart,Temp: 17,1753,2800,-136,0000,0000,0000
+4,0,16,0015,3103,Collectable Heart,Temp: 11,603,2940,-190,0000,0000,0000
+4,0,16,0015,3203,Collectable Heart,Temp: 12,862,2940,-169,0000,0000,0000
+4,0,16,0015,3303,Collectable Heart,Temp: 13,1381,2800,-1120,0000,0000,0000
+4,0,21,0015,2F03,Collectable Heart,Temp: 0F,3476,640,-359,0000,0000,0000
+4,0,21,0015,3003,Collectable Heart,Temp: 10,3476,640,-295,0000,0000,0000
+4,0,21,0015,3403,Collectable Heart,Temp: 14,3526,640,-339,0000,4000,0000
+5,0,21,0015,2A03,Collectable Heart,Temp: 0A,-2781,193,-2515,0000,0000,0000
+5,0,21,0015,2D03,Collectable Heart,Temp: 0D,-2528,180,-2727,0000,0000,0000
+5,0,21,0015,3203,Collectable Heart,Temp: 12,-2436,189,-3348,0000,0000,0000
+5,0,21,0015,3403,Collectable Heart,Temp: 14,-2021,190,-2937,0000,0000,0000
+6,0,23,0015,0103,Collectable Heart,Perm: 01,708,1681,227,0000,0000,0000
+6,0,23,0015,0203,Collectable Heart,Perm: 02,661,1681,227,0000,0000,0000
+7,0,16,0015,2003,Collectable Heart,Temp: 00,5676,-1028,1565,0000,0000,0000
+7,0,16,0015,2103,Collectable Heart,Temp: 01,5695,-1028,1589,0000,0000,0000
+7,0,21,0015,2203,Collectable Heart,Temp: 02,3971,-1043,-1716,0000,0000,0000
+7,0,21,0015,2303,Collectable Heart,Temp: 03,3970,-1043,-1560,0000,0000,0000
+7,0,21,0015,3903,Collectable Heart,Temp: 19,-3473,-1003,-927,0000,0000,0000
+7,0,21,0015,3A03,Collectable Heart,Temp: 1A,-3471,-1003,-884,0000,0000,0000
+7,0,21,0015,3C03,Collectable Heart,Temp: 1C,-3164,-1201,-646,0000,0000,0000
+8,0,1,0015,0201,Collectable Blue rupee,Perm: 02,47,-560,-805,0000,0000,0000
+8,0,1,0015,0301,Collectable Blue rupee,Perm: 03,94,-560,-762,0000,0000,0000
+8,0,1,0015,0401,Collectable Blue rupee,Perm: 04,85,-560,-710,0000,0000,0000
+8,0,1,0015,0501,Collectable Blue rupee,Perm: 05,-67,-560,-748,0000,0000,0000
+8,0,1,0015,0601,Collectable Blue rupee,Perm: 06,-19,-560,-828,0000,0000,0000
+8,0,2,0015,0111,Collectable Small Key,Perm: 01,-2346,10,-614,0000,0000,0000
+8,0,2,0015,1F03,Collectable Heart,Perm: 1F,-1947,10,-625,0000,0000,0000
+8,0,2,0015,2003,Collectable Heart,Temp: 00,-2144,10,-859,0000,0000,0000
+9,0,1,0015,2101,Collectable Blue rupee,Temp: 01,-105,-10,854,0000,8000,0000
+9,0,5,0015,2E02,Collectable Red rupee,Temp: 0E,-1699,225,-697,0000,0000,0000
+9,0,5,0015,2F02,Collectable Red rupee,Temp: 0F,-1648,226,-715,0000,0000,0000
+9,0,5,0015,3002,Collectable Red rupee,Temp: 10,-1648,225,-677,0000,0000,0000
+9,0,9,0015,2203,Collectable Heart,Temp: 02,1171,182,-2258,0000,0000,0000
+9,0,9,0015,2303,Collectable Heart,Temp: 03,1212,182,-2213,0000,0000,0000
+9,0,9,0015,2403,Collectable Heart,Temp: 04,1166,182,-2173,0000,0000,0000
+9,0,11,0015,0106,Collectable Heart Piece,Perm: 01,1262,-71,68,0000,0000,0000
+11,0,6,0015,0111,Collectable Small Key,Perm: 01,1054,-80,-1519,0000,0000,0000
+11,0,7,0015,2203,Collectable Heart,Temp: 02,1486,-20,204,0000,0000,0000
+11,0,7,0015,2303,Collectable Heart,Temp: 03,1858,-19,-183,0000,0000,0000
+13,0,12,0015,2103,Collectable Heart,Temp: 01,1855,141,-3953,0000,0000,0000
+13,0,12,0015,2203,Collectable Heart,Temp: 02,1844,162,-4038,0000,0000,0000
+13,0,12,0015,2303,Collectable Heart,Temp: 03,1827,169,-4106,0000,0000,0000
+13,0,14,0015,2403,Collectable Heart,Temp: 04,-1636,140,-3069,0000,0000,0000
+13,0,17,0015,2603,Collectable Heart,Temp: 06,-517,170,592,0000,0000,0000
+41,0,0,0015,3803,Collectable Heart,Temp: 18,45,1,-52,0000,0000,0000
+41,0,0,0015,3903,Collectable Heart,Temp: 19,46,1,56,0000,0000,0000
+41,0,0,0015,3B03,Collectable Heart,Temp: 1B,-46,1,57,0000,0000,0000
+41,0,0,0015,3A03,Collectable Heart,Temp: 1A,-46,1,-51,0000,0000,0000
+55,0,0,0015,0106,Collectable Heart Piece,Perm: 01,86,0,-200,0000,0000,0000
+56,0,0,0015,0102,Collectable Red rupee,Perm: 01,68,-372,-207,0000,0000,0000
+56,0,0,0015,0202,Collectable Red rupee,Perm: 02,-52,-372,-32,0000,0000,0000
+56,0,0,0015,0302,Collectable Red rupee,Perm: 03,-169,-372,-124,0000,0000,0000
+62,0,3,0015,2803,Collectable Heart,Temp: 08,2287,-8,-412,0000,0000,0000
+62,0,3,0015,2903,Collectable Heart,Temp: 09,2371,-1,-532,0000,0000,0000
+62,0,3,0015,2A03,Collectable Heart,Temp: 0A,2449,-5,-534,0000,0000,0000
+62,0,3,0015,2B03,Collectable Heart,Temp: 0B,2569,-1,-432,0000,0000,0000
+62,0,5,0015,3801,Collectable Blue rupee,Temp: 18,-42,-135,880,0000,0000,0000
+62,0,5,0015,3901,Collectable Blue rupee,Temp: 19,58,-126,803,0000,0000,0000
+62,0,5,0015,3A01,Collectable Blue rupee,Temp: 1A,90,-139,910,0000,0000,0000
+62,0,5,0015,3B00,Collectable Green Rupee,Temp: 1B,-68,-135,959,0000,0000,0000
+62,0,5,0015,3C00,Collectable Green Rupee,Temp: 1C,132,-134,961,0000,0000,0000
+62,0,5,0015,3D00,Collectable Green Rupee,Temp: 1D,-38,-132,768,0000,0000,0000
+62,0,5,0015,3E00,Collectable Green Rupee,Temp: 1E,121,-125,784,0000,0000,0000
+62,0,5,0015,3F02,Collectable Red rupee,Temp: 1F,32,-129,852,0000,0000,0000
+62,0,10,0015,0106,Collectable Heart Piece,Perm: 01,3016,-340,743,0000,0000,0000
+72,0,1,0015,3800,Collectable Green Rupee,Temp: 18,385,-551,-2766,0000,0000,0000
+72,0,1,0015,3900,Collectable Green Rupee,Temp: 19,528,-510,-3216,0000,0000,0000
+72,0,1,0015,3A00,Collectable Green Rupee,Temp: 1A,753,-570,-4828,0000,0000,0000
+72,0,2,0015,3B00,Collectable Green Rupee,Temp: 1B,570,-570,-5599,0000,0000,0000
+72,0,2,0015,3C00,Collectable Green Rupee,Temp: 1C,1461,-730,-5736,0000,0000,0000
+72,0,2,0015,3D00,Collectable Green Rupee,Temp: 1D,2376,-730,-4647,0000,0000,0000
+72,0,3,0015,3E00,Collectable Green Rupee,Temp: 1E,2573,-730,-3758,0000,0000,0000
+72,0,3,0015,3F00,Collectable Green Rupee,Temp: 1F,1511,-668,-3118,0000,0000,0000
+72,0,6,0015,0106,Collectable Heart Piece,Perm: 01,2619,-10,30,0000,4000,0000
+76,0,0,0015,0106,Collectable Heart Piece,Perm: 01,-352,-10,-507,0000,0000,0000
+83,0,1,0015,0406,Collectable Heart Piece,Perm: 04,-1050,264,-350,0000,0000,0000
+83,1,1,0015,0406,Collectable Heart Piece,Perm: 04,-1050,264,-350,0000,0000,0000
+83,2,1,0015,0406,Collectable Heart Piece,Perm: 04,-1050,264,-350,0000,0000,0000
+83,3,1,0015,0406,Collectable Heart Piece,Perm: 04,-1050,264,-350,0000,0000,0000
+84,0,0,0015,0406,Collectable Heart Piece,Perm: 04,376,460,-1237,0000,2000,0000
+84,2,0,0015,0406,Collectable Heart Piece,Perm: 04,373,460,-1231,0000,0000,0000
+84,0,1,0015,0B06,Collectable Heart Piece,Perm: 0B,3585,848,-1665,0000,0000,0000
+84,2,1,0015,2002,Collectable Red rupee,Temp: 00,4216,520,-1464,0000,0000,0000
+84,2,1,0015,2102,Collectable Red rupee,Temp: 01,4171,520,-1436,0000,0000,0000
+84,2,1,0015,2202,Collectable Red rupee,Temp: 02,4171,520,-1376,0000,0000,0000
+84,2,1,0015,2302,Collectable Red rupee,Temp: 03,4224,520,-1339,0000,0000,0000
+84,2,1,0015,0B06,Collectable Heart Piece,Perm: 0B,3585,848,-1665,0000,0000,0000
+85,0,0,0015,2400,Collectable Green Rupee,Temp: 04,-537,1,194,0000,0000,00B6
+85,0,0,0015,2700,Collectable Green Rupee,Temp: 07,-459,1,181,0000,0000,0000
+85,0,0,0015,2500,Collectable Green Rupee,Temp: 05,35,1,-418,0000,0000,0000
+85,0,0,0015,2600,Collectable Green Rupee,Temp: 06,107,1,-418,0000,0000,0000
+85,0,0,0015,1201,Collectable Blue rupee,Perm: 12,-364,53,-783,0000,0000,0000
+85,0,0,0015,1101,Collectable Blue rupee,Perm: 11,2,180,-45,0000,0000,0000
+85,0,0,0015,1C03,Collectable Heart,Perm: 1C,451,200,810,0000,0000,0000
+85,0,0,0015,1E03,Collectable Heart,Perm: 1E,509,205,725,0000,0000,0000
+85,0,0,0015,1D03,Collectable Heart,Perm: 1D,567,212,819,0000,0000,0000
+85,8,1,0015,FF06,Collectable Heart Piece,Temp: DF,854,185,-487,0000,0000,0000
+85,9,1,0015,FF06,Collectable Heart Piece,Temp: DF,854,185,-487,0000,0000,0000
+85,0,2,0015,0F01,Collectable Blue rupee,Perm: 0F,-1009,120,1556,0000,0000,0000
+85,0,2,0015,0E01,Collectable Blue rupee,Perm: 0E,-712,120,1857,0000,0000,0000
+87,0,0,0015,1E06,Collectable Heart Piece,Perm: 1E,-2524,-258,3991,0000,0000,0000
+87,0,0,0015,2000,Collectable Green Rupee,Temp: 00,-940,-1482,3968,0000,0000,0000
+87,0,0,0015,2100,Collectable Green Rupee,Temp: 01,-868,-1507,4090,0000,0000,0000
+87,0,0,0015,2200,Collectable Green Rupee,Temp: 02,-861,-1558,4212,0000,0000,0000
+87,2,0,0015,1E06,Collectable Heart Piece,Perm: 1E,-2524,-258,3991,0000,0000,0000
+89,2,0,0015,2000,Collectable Green Rupee,Temp: 00,68,-1382,-166,0000,0000,0000
+89,2,0,0015,2100,Collectable Green Rupee,Temp: 01,172,-1380,-35,0000,0000,0000
+89,2,0,0015,2200,Collectable Green Rupee,Temp: 02,137,-1385,130,0000,0000,0000
+89,2,0,0015,2300,Collectable Green Rupee,Temp: 03,-76,-1373,172,0000,0000,0000
+89,2,0,0015,2400,Collectable Green Rupee,Temp: 04,-207,-1364,47,0000,0000,0000
+89,2,0,0015,2500,Collectable Green Rupee,Temp: 05,-173,-1377,-132,0000,0000,0000
+89,2,0,0015,2600,Collectable Green Rupee,Temp: 06,242,-1209,-576,0000,0000,0000
+89,2,0,0015,2700,Collectable Green Rupee,Temp: 07,540,-1228,-124,0000,0000,0000
+89,2,0,0015,2800,Collectable Green Rupee,Temp: 08,397,-1285,318,0000,0000,0000
+89,2,0,0015,2900,Collectable Green Rupee,Temp: 09,-166,-1265,428,0000,0000,0000
+89,2,0,0015,2A00,Collectable Green Rupee,Temp: 0A,-574,-1204,163,0000,0000,0000
+89,2,0,0015,2B00,Collectable Green Rupee,Temp: 0B,-464,-1242,-389,0000,0000,0000
+89,2,0,0015,2C00,Collectable Green Rupee,Temp: 0C,353,-1072,-934,0000,0000,0000
+89,2,0,0015,2D00,Collectable Green Rupee,Temp: 0D,1032,-1025,-254,0000,0000,0000
+89,2,0,0015,2E00,Collectable Green Rupee,Temp: 0E,603,-1206,466,0000,0000,0000
+89,2,0,0015,2F00,Collectable Green Rupee,Temp: 0F,-227,-1163,696,0000,0000,0000
+89,2,0,0015,3000,Collectable Green Rupee,Temp: 10,-847,-1095,206,0000,0000,0000
+89,2,0,0015,3100,Collectable Green Rupee,Temp: 11,-857,-1082,-654,0000,0000,0000
+89,2,0,0015,0106,Collectable Heart Piece,Perm: 01,974,30,90,0000,B3E9,0000
+89,2,0,0015,1406,Collectable Heart Piece,Perm: 14,-14,-1445,4,0000,0000,0000
+90,0,0,0015,0106,Collectable Heart Piece,Perm: 01,35,-1630,-2780,0000,0000,0000
+90,0,0,0015,0206,Collectable Heart Piece,Perm: 02,-350,-555,1480,0000,0000,0000
+90,2,0,0015,0106,Collectable Heart Piece,Perm: 01,35,-1630,-2780,0000,0000,0000
+90,2,0,0015,0206,Collectable Heart Piece,Perm: 02,-350,-555,1480,0000,0000,0000
+91,0,3,0015,3400,Collectable Green Rupee,Temp: 14,2215,-260,-850,0000,0000,0000
+91,0,3,0015,3500,Collectable Green Rupee,Temp: 15,2164,-260,-850,0000,0000,0000
+91,0,3,0015,3600,Collectable Green Rupee,Temp: 16,2113,-260,-850,0000,0000,0000
+91,0,3,0015,3700,Collectable Green Rupee,Temp: 17,2061,-260,-853,0000,0000,0000
+91,0,3,0015,3900,Collectable Green Rupee,Temp: 19,2194,-260,-895,0000,0000,0000
+91,0,3,0015,3A00,Collectable Green Rupee,Temp: 1A,2156,-260,-937,0000,0000,0000
+91,0,3,0015,3B00,Collectable Green Rupee,Temp: 1B,2193,-260,-813,0000,0000,0000
+91,0,3,0015,3C00,Collectable Green Rupee,Temp: 1C,2153,-260,-779,0000,0000,0000
+91,0,7,0015,1301,Collectable Blue rupee,Perm: 13,1720,0,-2510,0000,0000,0000
+91,2,7,0015,1301,Collectable Blue rupee,Perm: 13,1720,0,-2510,0000,0000,0000
+92,0,0,0015,0D06,Collectable Heart Piece,Perm: 0D,-583,459,-18,0000,0000,0000
+92,2,0,0015,0D06,Collectable Heart Piece,Perm: 0D,-583,459,-18,0000,0000,0000
+93,0,0,0015,0106,Collectable Heart Piece,Perm: 01,200,1113,-2725,0000,0000,0000
+96,0,0,0015,0A02,Collectable Red rupee,Perm: 0A,-625,1794,-55,0000,0000,0000
+96,0,0,0015,0701,Collectable Blue rupee,Perm: 07,-1060,1694,-51,0000,0000,0000
+96,0,0,0015,1E06,Collectable Heart Piece,Perm: 1E,-1500,1031,-1100,0000,0000,0000
+96,2,0,0015,1E06,Collectable Heart Piece,Perm: 1E,-1500,1031,-1100,0000,0000,0000
+97,0,1,0015,2002,Collectable Red rupee,Temp: 00,675,395,-718,0000,0000,0000
+97,0,1,0015,2102,Collectable Red rupee,Temp: 01,1117,379,-185,0000,0000,0000
+97,0,1,0015,2201,Collectable Blue rupee,Temp: 02,1117,379,-248,0000,0000,0000
+97,0,1,0015,2301,Collectable Blue rupee,Temp: 03,1116,379,-128,0000,0000,0000
+97,0,1,0015,2401,Collectable Blue rupee,Temp: 04,1159,379,-162,0000,0000,0000
+97,0,1,0015,2501,Collectable Blue rupee,Temp: 05,1158,379,-227,0000,0000,0000
+97,0,1,0015,2601,Collectable Blue rupee,Temp: 06,1078,379,-226,0000,0000,0000
+97,0,1,0015,2701,Collectable Blue rupee,Temp: 07,1078,379,-164,0000,0000,0000
+97,0,1,0015,0206,Collectable Heart Piece,Perm: 02,4,749,1208,0000,0000,0000
+97,0,1,0015,0806,Collectable Heart Piece,Perm: 08,-734,1167,132,0000,0000,0000
+97,2,1,0015,0206,Collectable Heart Piece,Perm: 02,4,749,1208,0000,0000,0000
+97,2,1,0015,0806,Collectable Heart Piece,Perm: 08,-734,1167,132,0000,0000,FF4A
+Total: 173

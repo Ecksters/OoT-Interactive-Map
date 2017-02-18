@@ -1,0 +1,19 @@
+Scene,Setup,Room
+67,0,0,00F5,0010,Sages; Balls of Light (Cutscene),,697,0,-168,0000,0000,0000
+67,4,0,00F5,0010,Sages; Balls of Light (Cutscene),,684,670,89,0000,0000,0000
+67,6,0,00F5,0010,Sages; Balls of Light (Cutscene),,684,670,89,0000,0000,0000
+68,6,0,00F5,0001,Sages; Balls of Light (Cutscene),,-4,6,2,0000,0000,0000
+96,8,0,00F5,000E,Sages; Balls of Light (Cutscene),,-1778,685,-467,0000,0000,0000
+96,8,0,00F5,000F,Sages; Balls of Light (Cutscene),,-1714,691,-451,0000,0000,0000
+96,8,0,00F5,0010,Sages; Balls of Light (Cutscene),,-1602,701,-435,0000,0000,0000
+96,8,0,00F5,0011,Sages; Balls of Light (Cutscene),,-1666,687,-515,0000,0000,0000
+96,8,0,00F5,0012,Sages; Balls of Light (Cutscene),,-1586,693,-515,0000,0000,0000
+96,8,0,00F5,0013,Sages; Balls of Light (Cutscene),,-1714,681,-547,0000,0000,0000
+99,10,0,00F5,0013,Sages; Balls of Light (Cutscene),,-151,0,0,0000,0000,0000
+99,10,0,00F5,000E,Sages; Balls of Light (Cutscene),,-100,0,0,0000,0000,0000
+99,10,0,00F5,0011,Sages; Balls of Light (Cutscene),,-43,0,0,0000,0000,0000
+99,10,0,00F5,000F,Sages; Balls of Light (Cutscene),,-11,0,0,0000,0000,0000
+99,10,0,00F5,0012,Sages; Balls of Light (Cutscene),,46,0,0,0000,0000,0000
+100,0,0,00F5,0000,Sages; Balls of Light (Cutscene),,100,1358,1466,0000,0000,0000
+100,4,0,00F5,0000,Sages; Balls of Light (Cutscene),,100,1358,1466,0000,0000,0000
+Total: 17

@@ -1,0 +1,29 @@
+Scene,Setup,Room
+90,0,0,00B8,0003,Gerudo Valley Objects,,-1105,15,-747,0000,0CCD,0000
+90,0,0,00B8,0002,Gerudo Valley Objects,,0,0,0,0000,0000,0000
+90,0,0,00B8,0001,Gerudo Valley Objects,,0,0,0,0000,0000,0000
+90,0,0,00B8,0000,Gerudo Valley Objects,,0,0,0,0000,0000,0000
+90,0,0,00B8,0004,Gerudo Valley Objects,,0,0,0,0000,0000,0000
+90,2,0,00B8,0003,Gerudo Valley Objects,,-1105,15,-747,0000,0CCD,0000
+90,2,0,00B8,0002,Gerudo Valley Objects,,0,0,0,0000,0000,0000
+90,2,0,00B8,0001,Gerudo Valley Objects,,0,0,0,0000,0000,0000
+90,2,0,00B8,0000,Gerudo Valley Objects,,0,0,0,0000,0000,0000
+90,2,0,00B8,0004,Gerudo Valley Objects,,0,0,0,0000,0000,0000
+90,4,0,00B8,0001,Gerudo Valley Objects,,0,0,0,0000,0000,0000
+90,4,0,00B8,0003,Gerudo Valley Objects,,-1219,0,-832,0000,0000,0000
+90,4,0,00B8,0003,Gerudo Valley Objects,,-1105,15,-747,0000,0CCD,0000
+90,4,0,00B8,0000,Gerudo Valley Objects,,0,0,0,0000,0000,0000
+90,4,0,00B8,0002,Gerudo Valley Objects,,0,0,0,0000,0000,0000
+90,4,0,00B8,0004,Gerudo Valley Objects,,0,0,0,0000,0000,0000
+90,5,0,00B8,0001,Gerudo Valley Objects,,0,0,0,0000,0000,0000
+90,5,0,00B8,0003,Gerudo Valley Objects,,-1219,0,-832,0000,0000,0000
+90,5,0,00B8,0003,Gerudo Valley Objects,,-1105,15,-747,0000,0CCD,0000
+90,5,0,00B8,0000,Gerudo Valley Objects,,0,0,0,0000,0000,0000
+90,5,0,00B8,0002,Gerudo Valley Objects,,0,0,0,0000,0000,0000
+90,5,0,00B8,0004,Gerudo Valley Objects,,0,0,0,0000,0000,0000
+90,6,0,00B8,0003,Gerudo Valley Objects,,-1105,15,-747,0000,0CCD,0000
+90,6,0,00B8,0000,Gerudo Valley Objects,,0,0,0,0000,0000,0000
+90,6,0,00B8,0002,Gerudo Valley Objects,,0,0,0,0000,0000,0000
+90,6,0,00B8,0001,Gerudo Valley Objects,,0,0,0,0000,0000,0000
+90,6,0,00B8,0004,Gerudo Valley Objects,,0,0,0,0000,0000,0000
+Total: 27

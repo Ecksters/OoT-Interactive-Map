@@ -1,0 +1,48 @@
+Scene at 0284A000
+Setup 0: 00000000
+15: Sound Settings: Reverb 6, Playback option Always Playing, Song 2C.
+04: There are 2 room(s). List starts at 00000080
+0284C000 02851EC0
+02852000 0285FAB0
+0E: There are 1 transition actor(s). List starts at 00000070.
+00 FF -> 01 FF, 002E:0154, Boss Door, Perm: 14, (-514, -193, -3017) (0000, D555, 0000)
+19: JPEG background camera related: 00 Overworld Region:  00
+03: Collision Header starts at 00000B1C
+Offset to vertex array 000008EC
+Offset to polygon array 0000014C
+Offset to polygon type defs 00000124
+Offset to camera data 00000104
+Offset to water boxes 00000000
+Size in bytes 2628
+06: Entrance Index Definitions starts at 00000090
+07: Elf_Message 2, Load Object 0003
+00: There are 1 position(s). List starts at 00000060.
+0000:0DFF Link, (-474, -193, -3040) (0000, 5555, 0000)
+11: Skybox 0, Cast: Sunny, Fog? Yes
+13: Exit List starts at 00000094. 024E 0000
+0F: There are 4 environment setting(s). List starts at 00000098.
+
+Room 0
+Room at 0284C000
+Setup 0: 00000000
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 05, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 03000050
+0B: There are 6 Object(s). List starts at 00000038
+0037, 005A, 0075, 00BD, 0048, 00B0, 
+
+Room 1
+Room at 02852000
+Setup 0: 00000000
+16: Sound Settings: Echo 4
+08: Room Behavior: ? 05, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 03000060
+0B: There are 6 Object(s). List starts at 00000040
+0037, 005A, 0075, 00BD, 0048, 00B0, 
+01: There are 1 actor(s). List starts at 0000004C
+0052:FFFF Phantom Ganon, (15, 606, -3321) (0000, 0000, 0000)
+

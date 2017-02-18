@@ -1,0 +1,5 @@
+Scene,Setup,Room
+4,0,1,0043,FF01,Fire Temple Stone Blocks,,1629,0,314,0000,C000,0000
+4,0,1,0043,FF01,Fire Temple Stone Blocks,,1966,0,-729,0000,C000,0000
+4,0,21,0043,2F00,Fire Temple Stone Blocks,,3310,440,120,0000,0000,0000
+Total: 3

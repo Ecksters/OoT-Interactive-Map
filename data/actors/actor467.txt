@@ -1,0 +1,4 @@
+Scene,Setup,Room
+74,0,0,01D3,0000,Child Princess Zelda,,-485,84,0,0000,4000,0000
+74,4,0,01D3,0000,Child Princess Zelda,,-462,84,0,0000,4000,0000
+Total: 2

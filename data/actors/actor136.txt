@@ -1,0 +1,3 @@
+Scene,Setup,Room
+3,0,17,0088,FFFF,Forest Temple Rotating Pushable Walls,,119,-779,-1566,0000,8000,0000
+Total: 1

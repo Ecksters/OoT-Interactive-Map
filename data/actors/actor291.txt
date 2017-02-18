@@ -1,0 +1,8 @@
+Scene,Setup,Room
+72,0,0,0123,0135,Rotating Windmill Mechanism,,210,-570,-5199,0000,0000,0000
+72,0,0,0123,0136,Rotating Windmill Mechanism,,2010,-730,-4211,0000,8000,0000
+72,0,0,0123,0137,Rotating Windmill Mechanism,,2894,-410,-1893,0000,8000,0000
+72,0,4,0123,0134,Rotating Windmill Mechanism,,2892,-410,-1273,0000,8000,0000
+72,0,6,0123,0134,Rotating Windmill Mechanism,,2892,-410,-1273,0000,8000,0000
+72,0,6,0123,00FF,Rotating Windmill Mechanism,,2892,-150,30,0000,8000,0000
+Total: 6

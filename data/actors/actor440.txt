@@ -1,0 +1,3 @@
+Scene,Setup,Room
+77,2,0,01B8,FFFF,Poe Collector and Surroundings,,-50,0,-200,0000,0000,0000
+Total: 1

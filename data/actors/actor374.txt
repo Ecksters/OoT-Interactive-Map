@@ -1,0 +1,3 @@
+Scene,Setup,Room
+82,7,0,0176,0000,Lava Particle Fountain,,-1693,2642,-5035,0000,0000,0000
+Total: 1

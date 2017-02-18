@@ -1,0 +1,11 @@
+Scene,Setup,Room
+81,0,0,004A,FFFF,Drawbridge Object,,0,-10,670,0000,0000,0000
+81,1,0,004A,FFFF,Drawbridge Object,,0,-10,670,0000,0000,0000
+81,4,0,004A,FFFF,Drawbridge Object,,0,-10,670,0000,0000,0000
+81,5,0,004A,FFFF,Drawbridge Object,,0,-10,670,0000,0000,0000
+81,6,0,004A,FFFF,Drawbridge Object,,0,-10,670,0000,0000,0000
+81,7,0,004A,FFFF,Drawbridge Object,,0,-10,670,0000,0000,0000
+81,8,0,004A,FFFF,Drawbridge Object,,0,-10,670,0000,0000,0000
+81,10,0,004A,FFFF,Drawbridge Object,,0,-10,670,0000,0000,0000
+81,12,0,004A,FFFF,Drawbridge Object,,0,-10,670,0000,0000,0000
+Total: 9

@@ -1,0 +1,3 @@
+Scene,Setup,Room
+1,0,0,003F,001A,Dodongo's Cavern 'Mega Dodongo',,0,196,-1750,0000,0000,0000
+Total: 1

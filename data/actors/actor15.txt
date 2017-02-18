@@ -1,0 +1,12 @@
+Scene,Setup,Room
+0,0,0,000F,0FC5,Web,Springy; Perm: 05; Burn on No Flag,0,0,0,0000,4000,0000
+0,0,2,000F,1FFF,Web,Wall; No Flag; Burn on No Flag,-1047,613,1077,0CCD,E5B0,0EEF
+0,0,3,000F,1080,Web,Wall; Perm: 00; Burn on Perm: 02,21,-850,-277,FBBC,D555,0000
+0,0,3,000F,0FC6,Web,Springy; Perm: 06; Burn on No Flag,-635,-820,0,0000,4000,0000
+0,0,3,000F,1FC9,Web,Wall; Perm: 09; Burn on No Flag,-82,-880,517,0000,949F,0000
+0,0,7,000F,1FC7,Web,Wall; Perm: 07; Burn on No Flag,-1355,-820,3,0000,C000,0000
+0,0,7,000F,1FC8,Web,Wall; Perm: 08; Burn on No Flag,-2229,-760,-262,0000,2000,0000
+62,0,4,000F,1FE0,Web,Wall; Temp: 00; Burn on No Flag,2930,0,-278,0000,2000,0000
+62,0,4,000F,1FE1,Web,Wall; Temp: 01; Burn on No Flag,3301,0,-224,0000,DDDE,0000
+62,0,4,000F,1FE2,Web,Wall; Temp: 02; Burn on No Flag,3073,-1,139,0000,8000,0000
+Total: 10

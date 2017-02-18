@@ -1,0 +1,6 @@
+Scene,Setup,Room
+4,0,1,00CF,0701,Bombable Walls (Fire Temple),,1560,200,1500,0000,8000,0000
+4,0,5,00CF,0000,Bombable Walls (Fire Temple),,2080,2940,-640,0000,4000,0000
+4,0,5,00CF,1C02,Bombable Walls (Fire Temple),,2200,2800,-1040,0000,0000,0000
+4,0,10,00CF,1202,Bombable Walls (Fire Temple),,-2576,2840,-245,0000,6000,0000
+Total: 4

@@ -1,0 +1,4 @@
+Scene,Setup,Room
+87,0,0,01CA,FFFF,Bonooru the Scarecrow,,-154,-1293,2888,0000,0000,0000
+87,2,0,01CA,FFFF,Bonooru the Scarecrow,,-164,-1293,2914,0000,0000,0000
+Total: 2

@@ -1,0 +1,5 @@
+Scene,Setup,Room
+26,0,0,00B4,FFFF,Falling Rock Spawner,,-461,4102,-352,0000,0000,0000
+96,0,0,00B4,0005,Falling Rock Spawner,,-199,2032,-3060,0000,0000,0000
+96,2,0,00B4,0005,Falling Rock Spawner,,-199,2032,-3060,0000,0000,0000
+Total: 3

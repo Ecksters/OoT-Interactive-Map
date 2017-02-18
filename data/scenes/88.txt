@@ -1,0 +1,228 @@
+Scene at 020F2000
+Setup 0: 00000000
+18: Alternate headers start at 00000070.
+15: Sound Settings: Reverb 4, Playback option Always Playing, Song 50.
+04: There are 2 room(s). List starts at 000000F0
+020FC000 021022F0
+02103000 0210F9A0
+0E: There are 2 transition actor(s). List starts at 000000D0.
+01 FF -> 00 FF, 0023:013F, Transition Plane, 01 FF -> 00 FF Type 4: No Flag, (-195, 857, -1350) (0000, 0000, 0000)
+01 FF -> 00 FF, 0023:013F, Transition Plane, 01 FF -> 00 FF Type 4: No Flag, (625, 619, -689) (0000, 0000, 0000)
+19: JPEG background camera related: 00 Overworld Region:  07
+03: Collision Header starts at 00003824
+Offset to vertex array 00002EE4
+Offset to polygon array 00000374
+Offset to polygon type defs 000002AC
+Offset to camera data 00000264
+Offset to water boxes 000037E4
+Size in bytes 13804
+06: Entrance Index Definitions starts at 00000100
+07: Elf_Message 0, Load Object 0002
+0D: Pathway List starts at 00000234
+ 00) 00021C  (452, 887, -1631) (802, 887, -1637)
+ 01) 000228  (628, 996, -1783) (531, 996, -1783)
+
+00: There are 5 position(s). List starts at 00000080.
+0000:0FFF Link, (-1112, 210, -160) (0000, 4000, 0000)
+0000:0FFF Link, (540, 996, -2503) (0000, 18E4, 0000)
+0000:0FFF Link, (524, 52, 254) (0000, 2444, 0000)
+0000:0DFF Link, (623, 947, -1499) (0000, 9E94, 0000)
+0000:0FFF Link, (-208, -210, -280) (0000, 8E39, 0000)
+11: Skybox 0, Cast: Sunny, Fog? No
+13: Exit List starts at 0000010C. 019D 0225 0380 0560
+0F: There are 12 environment setting(s). List starts at 00000114.
+
+Setup 2: 00003A40
+15: Sound Settings: Reverb 4, Playback option Always Playing, Song 50.
+04: There are 2 room(s). List starts at 00003B18
+020FC000 021022F0
+02103000 0210F9A0
+0E: There are 2 transition actor(s). List starts at 00003AF8.
+01 FF -> 00 FF, 0023:013F, Transition Plane, 01 FF -> 00 FF Type 4: No Flag, (-195, 857, -1350) (0000, 0000, 0000)
+01 FF -> 00 FF, 0023:013F, Transition Plane, 01 FF -> 00 FF Type 4: No Flag, (625, 619, -689) (0000, 0000, 0000)
+19: JPEG background camera related: 00 Overworld Region:  07
+03: Collision Header starts at 00003824
+Offset to vertex array 00002EE4
+Offset to polygon array 00000374
+Offset to polygon type defs 000002AC
+Offset to camera data 00000264
+Offset to water boxes 000037E4
+Size in bytes 13804
+06: Entrance Index Definitions starts at 00003B28
+07: Elf_Message 1, Load Object 0002
+0D: Pathway List starts at 00003C50
+ 00) 003C44  (628, 996, -1780) (531, 996, -1780)
+
+00: There are 5 position(s). List starts at 00003AA8.
+0000:0FFF Link, (-1150, 210, -150) (0000, 4000, 0000)
+0000:0FFF Link, (537, 996, -2501) (0000, 18E4, 0000)
+0000:0EFF Link, (520, 52, 248) (0000, 2444, 0000)
+0000:0DFF Link, (617, 947, -1507) (0000, 905B, 0000)
+0000:0FFF Link, (-208, -210, -280) (0000, 8E39, 0000)
+11: Skybox 0, Cast: Sunny, Fog? No
+13: Exit List starts at 00003B34. 019D 0225 0380 0560
+0F: There are 12 environment setting(s). List starts at 00003B3C.
+
+Cutscene 0: 00003C60
+15: Sound Settings: Reverb 4, Playback option Always Playing, Song 67.
+04: There are 2 room(s). List starts at 00003CF8
+020FC000 021022F0
+02103000 0210F9A0
+0E: There are 2 transition actor(s). List starts at 00003CD8.
+01 FF -> 00 FF, 0023:013F, Transition Plane, 01 FF -> 00 FF Type 4: No Flag, (-195, 857, -1350) (0000, 0000, 0000)
+01 FF -> 00 FF, 0023:013F, Transition Plane, 01 FF -> 00 FF Type 4: No Flag, (625, 619, -689) (0000, 0000, 0000)
+19: JPEG background camera related: 00 Overworld Region:  07
+03: Collision Header starts at 00003824
+Offset to vertex array 00002EE4
+Offset to polygon array 00000374
+Offset to polygon type defs 000002AC
+Offset to camera data 00000264
+Offset to water boxes 000037E4
+Size in bytes 13804
+06: Entrance Index Definitions starts at 00003D08
+07: Elf_Message 1, Load Object 0002
+00: There are 1 position(s). List starts at 00003CC8.
+0000:00FF Link, (922, 899, -1341) (0000, 0000, 0000)
+11: Skybox 0, Cast: Sunny, Fog? Yes
+13: Exit List starts at 00003D0C. 019D 0225 0380 0000
+0F: There are 4 environment setting(s). List starts at 00003D14.
+17: Cutscene starts at 00003850
+
+Room 0
+Room at 020FC000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 04
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000150
+0B: There are 8 Object(s). List starts at 00000058
+0113, 00A4, 012F, 012C, 00FE, 00FF, 00A3, 0188, 
+01: There are 14 actor(s). List starts at 00000068
+003B:0000 Ambient Sound, Nothing, (642, 857, -1691) (0000, 0000, 0000)
+0164:0100 King Zora (mweep), (628, 996, -1780) (0000, 0000, 0000)
+00A1:0005 Child Princess Ruto, (603, 996, -1806) (0000, 0D83, 0000)
+0120:0001 Zora's Domain Waterfall, (445, 1008, -1742) (0000, 0000, 0000)
+0039:2B0A Gameplay_keep Items, (345, 857, -1572) (0000, 8000, 0000)
+005E:2400 Lit Wooden Torch, Perm: 00, (462, 887, -1275) (0000, 0000, 0000)
+005E:2400 Lit Wooden Torch, Perm: 00, (778, 887, -1275) (0000, 0000, 0000)
+0141:0324 Square Signpost, (720, 890, -1345) (0000, 0000, 0000)
+0124:FFFF Zora Diving Game, (-149, 857, -1020) (0000, A2D8, 0000)
+019E:FF02 Beehive, (382, 1173, -1337) (0000, 0000, 0000)
+019E:FF02 Beehive, (948, 1217, -1500) (0000, 0000, 0000)
+019E:FF02 Beehive, (701, 1250, -2056) (0000, DF4A, 0000)
+005E:2000 Unlit Wooden Torch, Perm: 00, (644, 402, -157) (0000, A71C, 0000)
+01B9:3809 Gossip Stone, (620, 857, -1600) (0000, 0000, 0000)
+
+Setup 2: 00000220
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 04
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000150
+0B: There are 7 Object(s). List starts at 00000260
+0113, 006B, 00A4, 012F, 012C, 0188, 00FF, 
+01: There are 9 actor(s). List starts at 00000270
+0164:0000 King Zora (mweep), (628, 996, -1780) (0000, 0000, 0000)
+01B9:3809 Gossip Stone, (620, 857, -1600) (0000, 0000, 0000)
+0120:0001 Zora's Domain Waterfall, (445, 1008, -1742) (0000, 0000, 0000)
+0039:2B0A Gameplay_keep Items, (345, 857, -1572) (0000, 8000, 0000)
+005E:2000 Unlit Wooden Torch, Perm: 00, (462, 887, -1275) (0000, 0000, 0000)
+005E:2000 Unlit Wooden Torch, Perm: 00, (778, 887, -1275) (0000, 0000, 0000)
+0165:1402 Proximity Weather Effect, (-177, 0, -1061) (0000, 0000, 0000)
+0141:0324 Square Signpost, (720, 890, -1345) (0000, 0000, 0000)
+0097:0003 Environmental Effects, (624, 857, -1555) (0000, 0000, 0000)
+
+Cutscene 0: 00000300
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 04
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000150
+0B: There are 3 Object(s). List starts at 00000340
+0113, 00A4, 012F, 
+01: There are 5 actor(s). List starts at 00000348
+005E:2400 Lit Wooden Torch, Perm: 00, (809, 857, -1560) (0000, 0000, 0000)
+005E:2400 Lit Wooden Torch, Perm: 00, (428, 857, -1560) (0000, 0000, 0000)
+0141:0324 Square Signpost, (720, 890, -1345) (0000, 0000, 0000)
+0141:032B Square Signpost, (230, 857, -1440) (0000, 4000, 0000)
+0120:0001 Zora's Domain Waterfall, (445, 1008, -1742) (0000, 0000, 0000)
+
+Room 1
+Room at 02103000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 04
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000210
+0B: There are 7 Object(s). List starts at 00000058
+0113, 00A4, 012F, 012C, 00FE, 000E, 0090, 
+01: There are 26 actor(s). List starts at 00000068
+003B:0003 Ambient Sound, Waterfall, (-189, 17, -941) (0000, 0000, 0000)
+01CE:FFC0 Zora, (-786, 14, -486) (0000, FF4A, 0000)
+01CE:FFC1 Zora, (841, 24, 39) (0000, C7D2, 0000)
+01CE:FFC2 Zora, (241, -75, -384) (0000, F8E4, 0000)
+01CE:FFC3 Zora, (-298, -200, -217) (0000, DDDE, 0000)
+01CE:FFC4 Zora, (-589, -120, -621) (0000, 2D83, 0000)
+01CE:FFC5 Zora, (-936, -319, -352) (0000, F1C7, 0000)
+0120:0000 Zora's Domain Waterfall, (0, 0, 0) (0000, 0000, 0000)
+0039:3B0A Gameplay_keep Items, (217, 178, 150) (0000, 2EEF, 0000)
+0094:5322 Butterflies (defunct?), (653, -10, -485) (0000, 0000, 0000)
+0151:0202 Shrubs or Rocks, (462, -20, -776) (0000, 0000, 0000)
+0141:030E Square Signpost, (-980, 210, -210) (0000, D1C7, 0000)
+0141:0333 Square Signpost, (477, 60, 318) (0000, 1C72, 0000)
+0124:FFFF Zora Diving Game, (-149, 857, -1020) (0000, A2D8, 0000)
+009B:11FF Grotto, Fairy Fountain, Song of Storms, Chest: None, Flag 1F, (-860, 14, -470) (0000, D555, 0000)
+000A:B7C0 Chest, Large, Appears, Switch Flag, reward 3E: Piece of Heart, chest flag: 00, bound to Perm: 1F, (-210, 8, -1079) (0000, 8000, 001F)
+005E:2000 Unlit Wooden Torch, Perm: 00, (644, 402, -157) (0000, A71C, 0000)
+005E:111F Timed Torch, Light: 4, Perm: 1F, (586, 51, 204) (0000, 0000, FF4A)
+005E:111F Timed Torch, Light: 4, Perm: 1F, (552, -20, -910) (0000, 0000, FF4A)
+005E:111F Timed Torch, Light: 4, Perm: 1F, (-260, 8, -1030) (0000, 0000, FF4A)
+005E:111F Timed Torch, Light: 4, Perm: 1F, (-130, 8, -1030) (0000, 0000, FF4A)
+0111:4101 Breakable Pot, Collectable: 01 Temp: 00, (614, 67, 419) (0000, 0000, 0000)
+0111:4303 Breakable Pot, Collectable: 03 Temp: 01, (289, 114, 415) (0000, 0000, 0000)
+0111:4503 Breakable Pot, Collectable: 03 Temp: 02, (676, 53, 377) (0000, 0000, 0000)
+0111:470C Breakable Pot, Collectable: 0C Temp: 03, (289, 128, 289) (0000, 0000, 0000)
+0111:490D Breakable Pot, Collectable: 0D Temp: 04, (220, 130, 384) (0000, 0000, 0000)
+
+Setup 2: 00000360
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 04
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000210
+0B: There are 7 Object(s). List starts at 000003A0
+0113, 006B, 00A4, 012F, 012C, 0188, 0024, 
+01: There are 17 actor(s). List starts at 000003B0
+0120:0000 Zora's Domain Waterfall, (0, 0, 0) (0000, 0000, 0000)
+0111:410D Breakable Pot, Collectable: 0D Temp: 00, (220, 130, 384) (0000, 0000, 0000)
+0111:4303 Breakable Pot, Collectable: 03 Temp: 01, (289, 114, 415) (0000, 0000, 0000)
+0111:450C Breakable Pot, Collectable: 0C Temp: 02, (289, 128, 289) (0000, 0000, 0000)
+0111:4701 Breakable Pot, Collectable: 01 Temp: 03, (614, 67, 419) (0000, 0000, 0000)
+0111:4903 Breakable Pot, Collectable: 03 Temp: 04, (676, 53, 377) (0000, 0000, 0000)
+0039:3B0A Gameplay_keep Items, (217, 178, 150) (0000, 2EEF, 0000)
+0095:B240 Gold Skulltula, Type 5, Group 12, Flag 40, (-10, 897, -909) (4000, 0000, 0000)
+005E:13FF Timed Torch, Light: 15, No Flag, (586, 51, 204) (0000, 0000, 0000)
+005E:13FF Timed Torch, Light: 15, No Flag, (552, -20, -910) (0000, 0000, 0000)
+0165:1402 Proximity Weather Effect, (-177, 0, -1061) (0000, 0000, 0000)
+0151:0202 Shrubs or Rocks, (462, -20, -776) (0000, 0000, 0000)
+0141:030E Square Signpost, (-980, 210, -210) (0000, D1C7, 0000)
+0141:0333 Square Signpost, (477, 60, 318) (0000, 1C72, 0000)
+0097:0003 Environmental Effects, (-375, 0, -261) (0000, 0000, 0000)
+00EF:0304 Red Ice, (483, 53, 214) (0000, 2000, 0000)
+009B:11FF Grotto, Fairy Fountain, Song of Storms, Chest: None, Flag 1F, (-860, 14, -470) (0000, D555, 0000)
+
+Cutscene 0: 000004C0
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 04
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000210
+0B: There are 3 Object(s). List starts at 00000500
+0113, 00A4, 012F, 
+01: There are 1 actor(s). List starts at 00000508
+0120:0000 Zora's Domain Waterfall, (0, 0, 0) (0000, 0000, 0000)
+

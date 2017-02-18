@@ -1,0 +1,3 @@
+Scene,Setup,Room
+83,0,1,016C,0000,Graveyard Boy,Path 0,-474,61,447,0000,8000,0000
+Total: 1

@@ -1,0 +1,3 @@
+Scene,Setup,Room
+22,0,1,00C4,FFFF,Morpha,,20,-280,14,0000,0000,0000
+Total: 1

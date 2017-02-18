@@ -1,0 +1,8 @@
+Scene,Setup,Room
+82,0,0,0100,FFFF,Death Mountain Trail gate,,91,400,-1350,0000,F99A,0000
+82,1,0,0100,FFFF,Death Mountain Trail gate,,91,400,-1350,0000,F99A,0000
+82,4,0,0100,FFFF,Death Mountain Trail gate,,91,400,-1350,0000,F99A,0000
+82,5,0,0100,FFFF,Death Mountain Trail gate,,91,400,-1350,0000,F99A,0000
+82,6,0,0100,FFFF,Death Mountain Trail gate,,91,400,-1350,0000,F99A,0000
+82,7,0,0100,FFFF,Death Mountain Trail gate,,91,400,-1350,0000,F99A,0000
+Total: 6

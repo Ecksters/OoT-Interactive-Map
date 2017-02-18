@@ -1,0 +1,21 @@
+Scene,Setup,Room
+1,0,10,0049,2FF8,Flame Circle,Small; shuts off for long time; camera 0F; bound to Local: 00,2948,531,-316,0000,0000,0000
+1,0,12,0049,2FF9,Flame Circle,Small; shuts off for long time; camera 0F; bound to Local: 01,3109,531,-919,0000,0000,0000
+1,0,12,0049,2FFA,Flame Circle,Small; shuts off for long time; camera 0F; bound to Local: 02,2927,531,-921,0000,0000,0000
+4,0,3,0049,0FFF,Flame Circle,Large; doesn't shut off; camera 0F; bound to No Flag,-361,80,-1300,0000,0000,0000
+4,0,4,0049,3FE3,Flame Circle,Large; shuts off for a short time with ticking sound; camera 0F; bound to Temp: 03,2346,2520,-90,0000,0000,0000
+4,0,8,0049,1378,Flame Circle,Small; shuts off for long time with ticking sound; camera 03; bound to Local: 00,1938,4680,-393,0000,0000,0000
+4,0,12,0049,3FE4,Flame Circle,Large; shuts off for a short time with ticking sound; camera 0F; bound to Temp: 04,-2758,4180,-79,0000,0000,0000
+4,0,13,0049,117A,Flame Circle,Small; shuts off for long time with ticking sound; camera 01; bound to Local: 02,-2180,4680,380,0000,4000,0000
+4,0,24,0049,0FFF,Flame Circle,Large; doesn't shut off; camera 0F; bound to No Flag,-2928,2920,139,0000,0000,0000
+6,0,17,0049,4FFA,Flame Circle,Disabled; small; turns on for short time; camera 0F; bound to Local: 02,1468,845,-113,0000,0000,0000
+6,0,22,0049,2FF7,Flame Circle,Small; shuts off for long time; camera 0F; bound to Temp: 17,688,1633,-1604,0000,0000,0000
+6,0,27,0049,4FF9,Flame Circle,Disabled; small; turns on for short time; camera 0F; bound to Local: 01,-865,30,-1507,0000,0000,0000
+10,0,2,0049,6FCA,Flame Circle,Large; turns off permanently; camera 0F; bound to Perm: 0A,2,260,-1,0000,0000,0000
+11,0,5,0049,2FD0,Flame Circle,Small; shuts off for long time; camera 0F; bound to Perm: 10,1446,-65,-2746,0000,0000,0000
+11,0,6,0049,2FFC,Flame Circle,Small; shuts off for long time; camera 0F; bound to Local: 04,1129,-246,-1857,0000,0000,0000
+14,0,1,0049,5FF8,Flame Circle,Disabled; large; turns on permanently; camera 0F; bound to Local: 00,0,260,150,0000,0000,0000
+82,4,0,0049,1FFF,Flame Circle,Small; shuts off for long time with ticking sound; camera 0F; bound to No Flag,292,423,1674,0000,0000,0000
+82,4,0,0049,1FFF,Flame Circle,Small; shuts off for long time with ticking sound; camera 0F; bound to No Flag,296,339,1759,0000,0000,0000
+82,4,0,0049,1FFF,Flame Circle,Small; shuts off for long time with ticking sound; camera 0F; bound to No Flag,269,371,1533,0000,0000,0000
+Total: 19

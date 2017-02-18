@@ -1,0 +1,4 @@
+Scene,Setup,Room
+3,0,2,0087,001B,Forest Temple Elevator,,119,233,-1566,0000,0000,0000
+3,0,17,0087,001B,Forest Temple Elevator,,119,-779,-1566,0000,0000,0000
+Total: 2

@@ -1,0 +1,8 @@
+Scene,Setup,Room
+42,0,0,01BC,FF01,Carpenter (Defunct?),,-122,0,115,0000,6222,0000
+42,0,0,01BC,FF02,Carpenter (Defunct?),,-130,0,35,0000,3777,0000
+42,0,0,01BC,FF03,Carpenter (Defunct?),,-146,16,-124,0000,1BBC,0000
+48,0,0,01BC,FF00,Carpenter (Defunct?),,-104,0,64,0000,149F,0000
+82,0,0,01BC,0002,Carpenter (Defunct?),,1105,80,88,0000,DB06,0000
+82,0,0,01BC,0103,Carpenter (Defunct?),,1167,260,663,0000,0000,0000
+Total: 6

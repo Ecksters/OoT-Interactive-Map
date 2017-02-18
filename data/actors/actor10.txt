@@ -1,0 +1,181 @@
+Scene,Setup,Room
+0,0,0,000A,0823,Chest,Large; reward 41: Map; chest flag: 03; bound to Perm: 00,333,360,253,0000,20B6,0000
+0,0,2,000A,00A1,Chest,Large; reward 05: Fairy Slingshot; chest flag: 01; bound to Perm: 00,-1391,480,1391,0000,E000,0000
+0,0,2,000A,5905,Chest,Small; reward 48: Heart; chest flag: 05; bound to Perm: 00,-1108,656,1582,0000,2000,0000
+0,0,3,000A,5904,Chest,Small; reward 48: Heart; chest flag: 04; bound to Perm: 00,53,-845,-278,0000,8000,0000
+0,0,10,000A,0802,Chest,Large; reward 40: Compass; chest flag: 02; bound to Perm: 00,-1491,840,1,0000,C000,0000
+0,0,10,000A,5906,Chest,Small; reward 48: Heart; chest flag: 06; bound to Perm: 00,-1082,820,387,0000,0000,0000
+1,0,0,000A,0828,Chest,Large; reward 41: Map; chest flag: 08; bound to Perm: 00,-961,0,-908,0000,C000,0000
+1,0,0,000A,552A,Chest,Small; reward 29: Deku Shield; chest flag: 0A; bound to Perm: 00,-843,531,-1540,0000,BF4A,0000
+1,0,9,000A,0644,Chest,Large; reward 32: Bomb Bag; chest flag: 04; bound to Perm: 00,1568,591,-1162,0000,8000,0000
+1,0,9,000A,59C6,Chest,Small; reward 4E: Red Rupee; chest flag: 06; bound to Perm: 00,1780,471,-197,0000,C000,0000
+1,0,15,000A,0805,Chest,Large; reward 40: Compass; chest flag: 05; bound to Perm: 00,-1953,0,-275,0000,0000,0000
+2,4,8,000A,10C0,Chest,Large; Appears; Clear Flag; reward 06: Boomerang; chest flag: 00; bound to Perm: 00,-11,-340,-6006,0000,8000,0000
+2,0,9,000A,10C1,Chest,Large; Appears; Clear Flag; reward 06: Boomerang; chest flag: 01; bound to Perm: 00,1549,-340,-4681,0000,4000,0000
+2,4,9,000A,1821,Chest,Large; Appears; Clear Flag; reward 41: Map; chest flag: 01; bound to Perm: 00,1549,-340,-4681,0000,C000,0000
+2,0,10,000A,1822,Chest,Large; Appears; Clear Flag; reward 41: Map; chest flag: 02; bound to Perm: 00,-1793,-340,-4680,0000,C000,0000
+2,4,10,000A,1802,Chest,Large; Appears; Clear Flag; reward 40: Compass; chest flag: 02; bound to Perm: 00,-1762,-340,-4680,0000,4000,0000
+2,4,11,000A,07C4,Chest,Large; reward 3E: Piece of Heart; chest flag: 04; bound to Perm: 00,661,-340,-5876,0000,8000,0000
+2,0,12,000A,B804,Chest,Large; Appears; Switch Flag; reward 40: Compass; chest flag: 04; bound to Perm: 1E,-669,-340,-5681,0000,8000,001E
+2,4,12,000A,0043,Chest,Large; reward 02: Deku Nuts; chest flag: 03; bound to Perm: 00,-659,-340,-5681,0000,8000,0000
+3,0,0,000A,5843,Chest,Small; reward 42: Small Key; chest flag: 03; bound to Perm: 00,-171,860,574,0000,C000,0000
+3,0,6,000A,7840,Chest,Small; Appears; Clear Flag; reward 42: Small Key; chest flag: 00; bound to Perm: 00,124,467,-3322,0000,8000,0000
+3,0,6,000A,B08C,Chest,Large; Appears; Switch Flag; reward 04: Fairy bow; chest flag: 0C; bound to Perm: 15,129,836,-3320,0000,0000,0015
+3,0,7,000A,5905,Chest,Small; reward 48: Heart; chest flag: 05; bound to Perm: 00,1668,523,-2594,0000,4000,0000
+3,0,8,000A,5849,Chest,Small; reward 42: Small Key; chest flag: 09; bound to Perm: 00,-1033,-236,-1751,0000,0000,0000
+3,0,9,000A,5849,Chest,Small; reward 42: Small Key; chest flag: 09; bound to Perm: 00,-1033,-236,-1751,0000,0000,0000
+3,0,10,000A,1821,Chest,Large; Appears; Clear Flag; reward 41: Map; chest flag: 01; bound to Perm: 00,120,800,-2745,0000,8000,0000
+3,0,11,000A,8964,Chest,Small; Falls; Switch Flag; reward 4B: Arrows (15); chest flag: 04; bound to Perm: 0F,-1645,1156,-1297,0000,FF4A,000F
+3,0,12,000A,784D,Chest,Small; Appears; Clear Flag; reward 42: Small Key; chest flag: 0D; bound to Perm: 00,-458,827,-3495,0000,4000,0000
+3,0,13,000A,180F,Chest,Large; Appears; Clear Flag; reward 40: Compass; chest flag: 0F; bound to Perm: 00,575,827,-3498,0000,C000,0000
+3,0,15,000A,5947,Chest,Small; reward 4A: Arrows (10); chest flag: 07; bound to Perm: 00,1993,403,-2201,0000,C000,0000
+3,0,17,000A,592B,Chest,Small; reward 49: Arrows (5); chest flag: 0B; bound to Perm: 00,-404,-779,-1041,0000,E000,0000
+3,0,18,000A,7842,Chest,Small; Appears; Clear Flag; reward 42: Small Key; chest flag: 02; bound to Perm: 00,-2074,503,-1965,0000,C000,0000
+4,0,2,000A,5841,Chest,Small; reward 42: Small Key; chest flag: 01; bound to Perm: 00,-1287,200,965,0000,3F4A,0000
+4,0,3,000A,7CC0,Chest,Small; Appears; Clear Flag; reward 66: Bombs; chest flag: 00; bound to Perm: 00,-361,80,-1300,0000,0000,0000
+4,0,4,000A,584B,Chest,Small; reward 42: Small Key; chest flag: 0B; bound to Perm: 00,2474,2080,-50,0000,8000,0000
+4,0,5,000A,5843,Chest,Small; reward 42: Small Key; chest flag: 03; bound to Perm: 00,2228,2800,1189,0000,4000,0000
+4,0,5,000A,5846,Chest,Small; reward 42: Small Key; chest flag: 06; bound to Perm: 00,1810,2940,1333,0000,4000,0000
+4,0,8,000A,5ACD,Chest,Small; reward 56: Yellow Rupee; chest flag: 0D; bound to Perm: 00,1944,4681,-393,0000,5F4A,0000
+4,0,11,000A,5849,Chest,Small; reward 42: Small Key; chest flag: 09; bound to Perm: 00,-1545,2800,-41,0000,8000,0000
+4,0,13,000A,01A5,Chest,Large; reward 0D: Megaton hammer; chest flag: 05; bound to Perm: 00,-2180,4680,380,0000,E000,0000
+4,0,16,000A,082A,Chest,Large; reward 41: Map; chest flag: 0A; bound to Perm: 00,1243,2800,-240,0000,6000,0000
+4,0,17,000A,27EC,Chest,Boss Key’s Chest; reward 3F: Boss Key; chest flag: 0C; bound to Perm: 00,-240,0,-369,0000,0000,0000
+4,0,20,000A,5844,Chest,Small; reward 42: Small Key; chest flag: 04; bound to Perm: 00,1979,100,-1908,0000,8000,0000
+4,0,22,000A,5842,Chest,Small; reward 42: Small Key; chest flag: 02; bound to Perm: 00,1508,200,2132,0000,C000,0000
+4,0,23,000A,5848,Chest,Small; reward 42: Small Key; chest flag: 08; bound to Perm: 00,1363,2800,-1852,0000,8000,0000
+4,0,25,000A,0807,Chest,Large; reward 40: Compass; chest flag: 07; bound to Perm: 00,-668,2800,-1300,0000,6000,0000
+5,0,2,000A,5846,Chest,Small; reward 42: Small Key; chest flag: 06; bound to Perm: 00,639,-220,598,0000,4000,0000
+5,0,4,000A,0809,Chest,Large; reward 40: Compass; chest flag: 09; bound to Perm: 00,1526,800,-826,0000,8000,0000
+5,0,7,000A,0127,Chest,Large; reward 09: Longshot; chest flag: 07; bound to Perm: 00,-3120,1080,-4020,0000,8000,0000
+5,0,8,000A,584A,Chest,Small; reward 42: Small Key; chest flag: 0A; bound to Perm: 00,-2196,60,-1952,0000,C000,0000
+5,0,16,000A,27E5,Chest,Boss Key’s Chest; reward 3F: Boss Key; chest flag: 05; bound to Perm: 00,-1280,108,-2890,0000,8000,0000
+5,0,17,000A,5840,Chest,Small; reward 42: Small Key; chest flag: 00; bound to Perm: 00,1381,460,187,0000,4000,0000
+5,0,18,000A,7841,Chest,Small; Appears; Clear Flag; reward 42: Small Key; chest flag: 01; bound to Perm: 00,1504,0,184,0000,4000,0000
+5,0,19,000A,1822,Chest,Large; Appears; Clear Flag; reward 41: Map; chest flag: 02; bound to Perm: 00,1510,780,180,0000,4000,0000
+5,0,20,000A,5848,Chest,Small; reward 42: Small Key; chest flag: 08; bound to Perm: 00,659,470,882,0000,0000,0000
+5,0,21,000A,5843,Chest,Small; reward 42: Small Key; chest flag: 03; bound to Perm: 00,-1561,260,-2656,0000,4000,0000
+6,0,2,000A,8840,Chest,Small; Falls; Switch Flag; reward 42: Small Key; chest flag: 00; bound to Perm: 00,-384,225,-1242,0000,4000,0000
+6,0,3,000A,5528,Chest,Small; reward 29: Deku Shield; chest flag: 08; bound to Perm: 00,-1675,30,-1404,0000,8000,0000
+6,0,4,000A,8066,Chest,Small; Falls; Switch Flag; reward 03: Bombchus (10); chest flag: 06; bound to Perm: 12,-907,589,-1288,0000,8000,0012
+6,0,4,000A,852C,Chest,Small; Falls; Switch Flag; reward 29: Deku Shield; chest flag: 0C; bound to Perm: 12,-717,586,-1139,0000,4000,0012
+6,0,5,000A,B823,Chest,Large; Appears; Switch Flag; reward 41: Map; chest flag: 03; bound to Perm: 06,60,353,-1220,0000,8000,0006
+6,0,5,000A,8842,Chest,Small; Falls; Switch Flag; reward 42: Small Key; chest flag: 02; bound to Temp: 13,-336,1261,-1272,0000,8000,0033
+6,0,5,000A,888F,Chest,Small; Falls; Switch Flag; reward 44: Blue Rupee; chest flag: 0F; bound to Temp: 13,696,1282,-1342,0000,8000,0033
+6,0,8,000A,8841,Chest,Small; Falls; Switch Flag; reward 42: Small Key; chest flag: 01; bound to Temp: 0B,-1277,1132,428,0000,0000,002B
+6,0,12,000A,5847,Chest,Small; reward 42: Small Key; chest flag: 07; bound to Perm: 00,1573,-130,-1867,0000,8000,0000
+6,0,14,000A,3804,Chest,Large; Falling; Switch Flag; reward 40: Compass; chest flag: 04; bound to Temp: 11,358,206,-1392,0000,8000,0031
+6,0,15,000A,890D,Chest,Small; Falls; Switch Flag; reward 48: Heart; chest flag: 0D; bound to Temp: 00,1301,703,-853,0000,4000,0020
+6,0,15,000A,8F8E,Chest,Small; Falls; Switch Flag; reward 7C: Ice Trap; chest flag: 0E; bound to Temp: 14,1298,736,-685,0000,4000,0034
+6,0,19,000A,6914,Chest,Small; Invisible; reward 48: Heart; chest flag: 14; bound to Perm: 00,1876,923,850,0000,C000,0000
+6,0,19,000A,6915,Chest,Small; Invisible; reward 48: Heart; chest flag: 15; bound to Perm: 00,2045,923,850,0000,4000,0000
+6,0,21,000A,5845,Chest,Small; reward 42: Small Key; chest flag: 05; bound to Perm: 00,1891,873,-681,0000,8000,0000
+6,0,22,000A,27EA,Chest,Boss Key’s Chest; reward 3F: Boss Key; chest flag: 0A; bound to Perm: 00,685,1633,-1601,0000,8000,0000
+6,0,26,000A,8CF2,Chest,Small; Falls; Switch Flag; reward 67: Bombs; chest flag: 12; bound to Temp: 0D,-680,1936,-949,0000,9C72,002D
+7,0,1,000A,1821,Chest,Large; Appears; Clear Flag; reward 41: Map; chest flag: 01; bound to Perm: 00,-794,-63,-1000,0000,8000,0000
+7,0,4,000A,15E7,Chest,Large; Appears; Clear Flag; reward 2F: Hover Boots; chest flag: 07; bound to Perm: 01,-2718,-63,-412,0000,C000,0001
+7,0,6,000A,5842,Chest,Small; reward 42: Small Key; chest flag: 02; bound to Perm: 00,3992,-543,-784,0000,4000,0000
+7,0,7,000A,1803,Chest,Large; Appears; Clear Flag; reward 40: Compass; chest flag: 03; bound to Perm: 00,3362,-543,885,0000,0000,0000
+7,0,10,000A,8844,Chest,Small; Falls; Switch Flag; reward 42: Small Key; chest flag: 04; bound to Perm: 04,1107,-1024,3659,0000,4000,0004
+7,0,10,000A,5945,Chest,Small; reward 4A: Arrows (10); chest flag: 05; bound to Perm: 00,505,-1343,3657,0000,4000,0000
+7,0,10,000A,5886,Chest,Small; reward 44: Blue Rupee; chest flag: 06; bound to Perm: 00,224,-1183,4080,0000,C000,0000
+7,0,11,000A,7889,Chest,Small; Appears; Clear Flag; reward 44: Blue Rupee; chest flag: 09; bound to Perm: 00,2478,-1343,1012,0000,8000,0000
+7,0,13,000A,27EB,Chest,Boss Key’s Chest; reward 3F: Boss Key; chest flag: 0B; bound to Perm: 00,-3973,-1363,-2627,0000,8000,0000
+7,0,13,000A,588A,Chest,Small; reward 44: Blue Rupee; chest flag: 0A; bound to Perm: 00,-4636,-1363,-2632,0000,8000,0000
+7,0,16,000A,6976,Chest,Small; Invisible; reward 4B: Arrows (15); chest flag: 16; bound to Perm: 00,5942,-1143,2188,0000,4000,0000
+7,0,16,000A,588C,Chest,Small; reward 44: Blue Rupee; chest flag: 0C; bound to Perm: 00,5941,-1143,2079,0000,4000,0000
+7,0,17,000A,784D,Chest,Small; Appears; Clear Flag; reward 42: Small Key; chest flag: 0D; bound to Perm: 00,-4305,-1363,-363,0000,0000,0000
+7,0,19,000A,6955,Chest,Small; Invisible; reward 4A: Arrows (10); chest flag: 15; bound to Perm: 00,5072,-1363,-19,0000,4000,0000
+7,0,20,000A,6854,Chest,Small; Invisible; reward 42: Small Key; chest flag: 14; bound to Perm: 00,4583,-1363,-755,0000,4000,0000
+7,0,20,000A,7888,Chest,Small; Appears; Clear Flag; reward 44: Blue Rupee; chest flag: 08; bound to Perm: 00,4393,-1363,-1175,0000,8000,0000
+8,0,0,000A,0801,Chest,Large; reward 40: Compass; chest flag: 01; bound to Perm: 00,-314,0,-412,0000,0000,0000
+8,0,0,000A,5062,Chest,Small; reward 03: Bombchus (10); chest flag: 02; bound to Perm: 00,-98,-220,-275,0000,4000,0000
+8,0,0,000A,5C84,Chest,Small; reward 64: Deku nuts; chest flag: 04; bound to Perm: 00,-1100,0,-1510,0000,C000,0000
+8,0,0,000A,5845,Chest,Small; reward 42: Small Key; chest flag: 05; bound to Perm: 00,463,0,-174,0000,C000,0000
+8,0,0,000A,5848,Chest,Small; reward 42: Small Key; chest flag: 08; bound to Perm: 00,-435,0,-183,0000,8000,0000
+8,0,0,000A,5909,Chest,Small; reward 48: Heart; chest flag: 09; bound to Perm: 00,-1353,-200,-737,0000,C000,0000
+8,0,0,000A,554C,Chest,Small; reward 2A: Hylian Shield; chest flag: 0C; bound to Perm: 00,1077,0,-744,0000,4000,0000
+8,0,0,000A,504E,Chest,Small; reward 02: Deku Nuts; chest flag: 0E; bound to Perm: 00,333,0,-407,0000,0000,0000
+8,0,0,000A,5CD0,Chest,Small; reward 66: Bombs; chest flag: 10; bound to Perm: 00,-93,-120,206,0000,C000,0000
+8,0,1,000A,0827,Chest,Large; reward 41: Map; chest flag: 07; bound to Perm: 00,684,-720,75,0000,6000,0000
+8,0,3,000A,552A,Chest,Small; reward 29: Deku Shield; chest flag: 0A; bound to Perm: 00,1151,0,-909,0000,0000,0000
+8,0,4,000A,1143,Chest,Large; Appears; Clear Flag; reward 0A: Lens of Truth; chest flag: 03; bound to Perm: 00,1280,-20,210,0000,4000,0000
+8,0,4,000A,6AD4,Chest,Small; Invisible; reward 56: Yellow Rupee; chest flag: 14; bound to Perm: 00,1575,-20,210,0000,4000,0000
+9,4,3,000A,007F,Chest,Large; reward 03: Bombchus (10); chest flag: 1F; bound to Perm: 00,-118,387,-409,0000,C000,0000
+9,0,7,000A,15C2,Chest,Large; Appears; Clear Flag; reward 2E: Iron Boots; chest flag: 02; bound to Perm: 00,-1005,280,1068,0000,216C,0000
+9,0,9,000A,0820,Chest,Large; reward 41: Map; chest flag: 00; bound to Perm: 00,275,262,-2608,0000,8EEF,0000
+9,0,11,000A,0801,Chest,Large; reward 40: Compass; chest flag: 01; bound to Perm: 00,1202,-71,649,0000,0000,0000
+10,0,2,000A,27EB,Chest,Boss Key’s Chest; reward 3F: Boss Key; chest flag: 0B; bound to Perm: 00,-1,260,-1,0000,0000,0000
+11,0,0,000A,8947,Chest,Small; Falls; Switch Flag; reward 4A: Arrows (10); chest flag: 07; bound to Perm: 1A,157,219,-400,0000,6000,001A
+11,0,0,000A,8893,Chest,Small; Falls; Switch Flag; reward 44: Blue Rupee; chest flag: 13; bound to Perm: 1A,-280,215,-400,0000,A000,001A
+11,0,1,000A,8840,Chest,Small; Falls; Switch Flag; reward 42: Small Key; chest flag: 00; bound to Perm: 1F,-1674,120,-494,0000,8000,001F
+11,0,3,000A,7971,Chest,Small; Appears; Clear Flag; reward 4B: Arrows (15); chest flag: 11; bound to Perm: 00,-1331,159,-2858,0000,8000,0000
+11,0,4,000A,8843,Chest,Small; Falls; Switch Flag; reward 42: Small Key; chest flag: 03; bound to Perm: 15,41,384,-2788,0000,D05B,0015
+11,0,5,000A,5850,Chest,Small; reward 42: Small Key; chest flag: 10; bound to Perm: 00,1446,-65,-2748,0000,C000,0000
+11,0,5,000A,7952,Chest,Small; Appears; Clear Flag; reward 4A: Arrows (10); chest flag: 12; bound to Perm: 00,1441,-81,-3033,0000,8000,0000
+11,0,7,000A,8841,Chest,Small; Falls; Switch Flag; reward 42: Small Key; chest flag: 01; bound to Perm: 1E,1481,120,-187,0000,8000,001E
+11,0,8,000A,5844,Chest,Small; reward 42: Small Key; chest flag: 04; bound to Perm: 00,-60,200,-1599,0000,0000,0000
+11,0,8,000A,5D45,Chest,Small; reward 6A: Bombchus (5); chest flag: 05; bound to Perm: 00,182,-80,-1519,0000,C000,0000
+11,0,8,000A,5AA6,Chest,Small; reward 55: Purple Rupee; chest flag: 06; bound to Perm: 00,-641,-80,-1538,0000,8000,0000
+11,0,8,000A,5968,Chest,Small; reward 4B: Arrows (15); chest flag: 08; bound to Perm: 00,339,-80,-1679,0000,0000,0000
+11,0,8,000A,5969,Chest,Small; reward 4B: Arrows (15); chest flag: 09; bound to Perm: 00,-299,-80,-2001,0000,C000,0000
+11,0,8,000A,59CA,Chest,Small; reward 4E: Red Rupee; chest flag: 0A; bound to Perm: 00,-440,-80,-2020,0000,8000,0000
+11,0,8,000A,584B,Chest,Small; reward 42: Small Key; chest flag: 0B; bound to Perm: 00,-21,201,-1239,0000,4000,0000
+11,0,8,000A,0B2C,Chest,Large; reward 59: Ice Arrow; chest flag: 0C; bound to Perm: 00,-59,-80,-1598,0000,0000,0000
+11,0,9,000A,884D,Chest,Small; Falls; Switch Flag; reward 42: Small Key; chest flag: 0D; bound to Perm: 1B,2183,-108,-1584,0000,C000,001B
+11,0,10,000A,6854,Chest,Small; Invisible; reward 42: Small Key; chest flag: 14; bound to Perm: 00,-1458,139,-3967,0000,7111,0000
+11,0,10,000A,5F82,Chest,Small; reward 7C: Ice Trap; chest flag: 02; bound to Perm: 00,-1671,210,-4029,0000,93E9,0000
+11,0,10,000A,788E,Chest,Small; Appears; Clear Flag; reward 44: Blue Rupee; chest flag: 0E; bound to Perm: 00,-1679,139,-3860,0000,9111,0000
+11,0,10,000A,7ACF,Chest,Small; Appears; Clear Flag; reward 56: Yellow Rupee; chest flag: 0F; bound to Perm: 00,-1488,139,-3721,0000,71C7,0000
+13,0,2,000A,5906,Chest,Small; reward 48: Heart; chest flag: 06; bound to Perm: 00,2044,-250,-601,0000,2000,0000
+13,0,2,000A,5F87,Chest,Small; reward 7C: Ice Trap; chest flag: 07; bound to Perm: 00,2040,-250,-1076,0000,6000,0000
+13,0,5,000A,7889,Chest,Small; Appears; Clear Flag; reward 44: Blue Rupee; chest flag: 09; bound to Perm: 00,920,110,757,0000,1555,0000
+13,0,9,000A,596A,Chest,Small; reward 4B: Arrows (15); chest flag: 0A; bound to Perm: 00,-1626,-240,-1048,0000,8000,0000
+13,0,9,000A,5F8B,Chest,Small; reward 7C: Ice Trap; chest flag: 0B; bound to Perm: 00,-1620,-240,-639,0000,0000,0000
+13,0,9,000A,588C,Chest,Small; reward 44: Blue Rupee; chest flag: 0C; bound to Perm: 00,-1459,-240,-700,0000,1C72,0000
+13,0,9,000A,590D,Chest,Small; reward 48: Heart; chest flag: 0D; bound to Perm: 00,-1779,-240,-690,0000,E38E,0000
+13,0,9,000A,5F8E,Chest,Small; reward 7C: Ice Trap; chest flag: 0E; bound to Perm: 00,-1453,-240,-980,0000,5C72,0000
+13,0,9,000A,5F8F,Chest,Small; reward 7C: Ice Trap; chest flag: 0F; bound to Perm: 00,-1779,-240,-995,0000,A000,0000
+13,0,9,000A,7850,Chest,Small; Appears; Clear Flag; reward 42: Small Key; chest flag: 10; bound to Perm: 00,-1622,-240,-843,0000,C000,0000
+13,0,9,000A,8851,Chest,Small; Falls; Switch Flag; reward 42: Small Key; chest flag: 11; bound to Perm: 11,-2086,-144,-952,0000,8000,0011
+13,0,12,000A,36C5,Chest,Large; Falling; Switch Flag; reward 36: Golden Gauntlets; chest flag: 05; bound to Perm: 05,1757,462,-3595,0000,6AAB,0005
+13,0,12,000A,5888,Chest,Small; reward 44: Blue Rupee; chest flag: 08; bound to Perm: 00,544,150,-2516,0000,AAAB,0000
+13,0,18,000A,8D72,Chest,Small; Falls; Switch Flag; reward 6B: Bombchus (20); chest flag: 12; bound to Perm: 15,-1563,268,540,0000,AC17,0015
+13,0,18,000A,6954,Chest,Small; Invisible; reward 4A: Arrows (10); chest flag: 14; bound to Perm: 00,-1791,150,894,0000,AAAB,0000
+18,0,1,000A,5020,Chest,Small; reward 01: Bombs; chest flag: 00; bound to Perm: 00,-1109,-744,-2786,0000,C000,0000
+40,0,0,000A,59A0,Chest,Small; reward 4D: Blue Rupee; chest flag: 00; bound to Perm: 00,58,0,-55,0000,4000,0000
+40,0,0,000A,59A1,Chest,Small; reward 4D: Blue Rupee; chest flag: 01; bound to Perm: 00,58,0,35,0000,4000,0000
+40,0,0,000A,5982,Chest,Small; reward 4C: Green Rupee; chest flag: 02; bound to Perm: 00,-60,0,-55,0000,C000,0000
+40,0,0,000A,5903,Chest,Small; reward 48: Heart; chest flag: 03; bound to Perm: 00,-60,0,35,0000,C000,0000
+62,0,2,000A,7ACA,Chest,Small; Appears; Clear Flag; reward 56: Yellow Rupee; chest flag: 0A; bound to Perm: 00,1807,1,-343,0000,8000,0000
+62,0,7,000A,7AB1,Chest,Small; Appears; Clear Flag; reward 55: Purple Rupee; chest flag: 11; bound to Perm: 00,1188,-118,807,0000,8000,0000
+63,0,0,000A,A7C0,Chest,Large; Appears; Sun's Song Triggered; reward 3E: Piece of Heart; chest flag: 00; bound to Perm: 00,2,-20,-315,0000,8000,0000
+64,0,0,000A,5540,Chest,Small; reward 2A: Hylian Shield; chest flag: 00; bound to Perm: 00,-22,20,525,0000,8000,0000
+65,0,0,000A,8020,Chest,Small; Falls; Switch Flag; reward 01: Bombs; chest flag: 00; bound to Temp: 00,1,244,1473,0000,0000,0020
+72,0,4,000A,1100,Chest,Large; Appears; Clear Flag; reward 08: Hookshot; chest flag: 00; bound to Perm: 00,2883,-360,-1479,0000,0000,0000
+83,4,1,000A,07C0,Chest,Large; reward 3E: Piece of Heart; chest flag: 00; bound to Perm: 00,-1100,264,-300,0000,C000,0000
+83,5,1,000A,07C0,Chest,Large; reward 3E: Piece of Heart; chest flag: 00; bound to Perm: 00,-1100,264,-300,0000,C000,0000
+85,0,2,000A,04E0,Chest,Large; reward 27: Kokiri’s Sword; chest flag: 00; bound to Perm: 00,-232,178,2245,0000,0000,0000
+88,0,1,000A,B7C0,Chest,Large; Appears; Switch Flag; reward 3E: Piece of Heart; chest flag: 00; bound to Perm: 1F,-210,8,-1079,0000,8000,001F
+90,2,0,000A,5AA0,Chest,Small; reward 55: Purple Rupee; chest flag: 00; bound to Perm: 00,-1341,76,858,0000,E2D8,0000
+92,0,0,000A,3569,Chest,Large; Falling; Switch Flag; reward 2B: Mirror Shield; chest flag: 09; bound to Temp: 02,-1682,1000,-369,0000,C222,0022
+92,0,0,000A,06AB,Chest,Large; reward 35: Silver Gauntlets; chest flag: 0B; bound to Perm: 00,-1702,733,402,0000,C000,0000
+92,2,0,000A,3569,Chest,Large; Falling; Switch Flag; reward 2B: Mirror Shield; chest flag: 09; bound to Temp: 02,-1682,1000,-369,0000,C222,0022
+92,2,0,000A,06AB,Chest,Large; reward 35: Silver Gauntlets; chest flag: 0B; bound to Perm: 00,-1702,733,402,0000,C000,0000
+92,5,0,000A,06AB,Chest,Large; reward 35: Silver Gauntlets; chest flag: 0B; bound to Perm: 00,-1702,733,402,0000,C000,0000
+93,0,0,000A,03E0,Chest,Large; reward 1F: Odd Mushroom; chest flag: 00; bound to Perm: 00,926,1042,-2512,0000,C000,0000
+93,2,0,000A,07C0,Chest,Large; reward 3E: Piece of Heart; chest flag: 00; bound to Perm: 00,926,1042,-2512,0000,C000,0000
+93,3,0,000A,07C0,Chest,Large; reward 3E: Piece of Heart; chest flag: 00; bound to Perm: 00,926,1042,-2512,0000,C000,0000
+94,0,0,000A,8AA0,Chest,Small; Falls; Switch Flag; reward 55: Purple Rupee; chest flag: 00; bound to Perm: 1F,653,-375,-2215,0000,0000,001F
+96,0,0,000A,5AA1,Chest,Small; reward 55: Purple Rupee; chest flag: 01; bound to Perm: 00,-623,1454,-115,0000,B1C7,0000
+96,2,0,000A,5AA1,Chest,Small; reward 55: Purple Rupee; chest flag: 01; bound to Perm: 00,-607,1454,-112,0000,B1C7,0000
+98,0,0,000A,5AC0,Chest,Small; reward 56: Yellow Rupee; chest flag: 00; bound to Perm: 00,-1508,520,-1278,0000,8000,0000
+98,0,0,000A,5AA1,Chest,Small; reward 55: Purple Rupee; chest flag: 01; bound to Perm: 00,-1197,520,-1269,0000,8000,0000
+98,0,0,000A,5AA2,Chest,Small; reward 55: Purple Rupee; chest flag: 02; bound to Perm: 00,-1310,520,-1267,0000,8000,0000
+98,2,0,000A,5AC0,Chest,Small; reward 56: Yellow Rupee; chest flag: 00; bound to Perm: 00,-1508,520,-1278,0000,8000,0000
+98,2,0,000A,5AA1,Chest,Small; reward 55: Purple Rupee; chest flag: 01; bound to Perm: 00,-1197,520,-1269,0000,8000,0000
+98,2,0,000A,5AA2,Chest,Small; reward 55: Purple Rupee; chest flag: 02; bound to Perm: 00,-1310,520,-1267,0000,8000,0000
+98,4,0,000A,0020,Chest,Large; reward 01: Bombs; chest flag: 00; bound to Perm: 00,-1476,520,-1290,0000,8000,0000
+98,4,0,000A,0021,Chest,Large; reward 01: Bombs; chest flag: 01; bound to Perm: 00,-1191,520,-1290,0000,8000,0000
+98,4,3,000A,0022,Chest,Large; reward 01: Bombs; chest flag: 02; bound to Perm: 00,1031,580,-1259,0000,8000,0000
+Total: 179

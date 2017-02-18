@@ -1,0 +1,12 @@
+Scene,Setup,Room
+3,0,6,0002,FFFF,Stalfos,Rises out of Ground; miniboss music,273,467,-3378,0000,F1C7,0000
+3,0,6,0002,FFFF,Stalfos,Rises out of Ground; miniboss music,-38,467,-3382,0000,0E39,0000
+6,0,3,0002,0003,Stalfos,Drops down from sky; No miniboss music,-1565,30,-670,0000,1E94,0000
+7,0,9,0002,0003,Stalfos,Drops down from sky; No miniboss music,3752,-1143,3413,0000,8000,0000
+7,0,21,0002,0003,Stalfos,Drops down from sky; No miniboss music,2746,-991,-2011,0000,0000,0000
+7,0,21,0002,0003,Stalfos,Drops down from sky; No miniboss music,1209,-974,-1982,0000,0000,0000
+10,0,2,0002,FFFF,Stalfos,Rises out of Ground; miniboss music,-183,260,-12,0000,8000,0000
+10,0,2,0002,FFFF,Stalfos,Rises out of Ground; miniboss music,161,260,-7,0000,8000,0000
+11,0,1,0002,0002,Stalfos,Rises out of Ground; No miniboss music,-1629,-90,-19,0000,4E39,0000
+11,0,1,0002,0002,Stalfos,Rises out of Ground; No miniboss music,-1870,-90,-357,0000,3333,0000
+Total: 10

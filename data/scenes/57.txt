@@ -1,0 +1,39 @@
+Scene at 02E57000
+Setup 0: 00000000
+15: Sound Settings: Reverb 5, Playback option Always Playing, Song 1F.
+04: There are 1 room(s). List starts at 00000068
+02E58000 02E8B6A0
+19: JPEG background camera related: 20 Overworld Region:  09
+03: Collision Header starts at 0000064C
+Offset to vertex array 000004C4
+Offset to polygon array 000000E4
+Offset to polygon type defs 000000CC
+Offset to camera data 000000B4
+Offset to water boxes 00000000
+Size in bytes 1476
+06: Entrance Index Definitions starts at 00000070
+07: Elf_Message 0, Load Object 0002
+00: There are 1 position(s). List starts at 00000058.
+0000:0E00 Link, (-2, 0, 174) (0000, 8000, 0000)
+11: Skybox 28, Cast: Sunny, Fog? Yes
+13: Exit List starts at 00000074. 03D0 0000
+0F: There are 1 environment setting(s). List starts at 00000078.
+
+Room 0
+Room at 02E58000
+Setup 0: 00000000
+16: Sound Settings: Echo 1
+08: Room Behavior: ? 02, Show invisible actors? False, Idle Animation 05
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000B0
+0B: There are 3 Object(s). List starts at 00000040
+00C5, 0122, 013C, 
+01: There are 6 actor(s). List starts at 00000048
+0133:FFF0 Carpenter, (101, 0, 16) (0000, BDDE, 0000)
+0133:FFF1 Carpenter, (103, 0, 56) (0000, AFA5, 0000)
+0133:FFF2 Carpenter, (100, 0, 101) (0000, A9F5, 0000)
+0133:FFF3 Carpenter, (95, 0, 143) (0000, A4FA, 0000)
+01D4:0000 Running Man (Adult), (-75, 0, -135) (0000, 0000, 0000)
+003B:0014 Ambient Sound, Torches, (-1, 0, 4) (0000, 0000, 0000)
+

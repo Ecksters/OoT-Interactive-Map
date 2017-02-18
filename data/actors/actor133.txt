@@ -1,0 +1,5 @@
+Scene,Setup,Room
+83,1,1,0085,0000,Dampe's Grave Digging Game,,-476,61,434,0000,8000,0000
+83,4,1,0085,0000,Dampe's Grave Digging Game,,-476,61,434,0000,8000,0000
+83,5,1,0085,0000,Dampe's Grave Digging Game,,-476,61,434,0000,8000,0000
+Total: 3

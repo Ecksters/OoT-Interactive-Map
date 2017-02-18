@@ -1,0 +1,29 @@
+Scene,Setup,Room
+29,0,0,0165,0200,Proximity Weather Effect,,0,0,3060,0000,0000,0000
+81,2,0,0165,0A00,Proximity Weather Effect,,0,0,635,0000,0000,0000
+81,2,0,0165,1401,Proximity Weather Effect,,-1923,263,6047,0000,0000,0000
+82,2,0,0165,1805,Proximity Weather Effect,,258,80,1412,0000,0000,0000
+82,2,0,0165,1804,Proximity Weather Effect,,-318,200,-156,0000,0000,0000
+82,3,0,0165,1805,Proximity Weather Effect,,258,80,1412,0000,0000,0000
+82,3,0,0165,1804,Proximity Weather Effect,,-318,200,-156,0000,0000,0000
+83,0,1,0165,0607,Proximity Weather Effect,,728,181,80,0000,0000,0000
+83,1,1,0165,0607,Proximity Weather Effect,,728,181,80,0000,0000,0000
+83,2,1,0165,1405,Proximity Weather Effect,,-671,0,85,0000,0000,0000
+83,2,1,0165,0607,Proximity Weather Effect,,728,181,80,0000,0000,0000
+83,3,1,0165,1405,Proximity Weather Effect,,-671,0,85,0000,0000,0000
+83,3,1,0165,0607,Proximity Weather Effect,,728,181,80,0000,0000,0000
+84,2,0,0165,1502,Proximity Weather Effect,,4198,-87,-1397,0000,0000,0000
+84,2,1,0165,1502,Proximity Weather Effect,,4198,-87,-1397,0000,0000,0000
+87,2,0,0165,2803,Proximity Weather Effect,,-907,-1200,8013,0000,0000,0000
+88,2,0,0165,1402,Proximity Weather Effect,,-177,0,-1061,0000,0000,0000
+88,2,1,0165,1402,Proximity Weather Effect,,-177,0,-1061,0000,0000,0000
+89,2,0,0165,2802,Proximity Weather Effect,,0,0,0,0000,0000,0000
+91,2,2,0165,0304,Proximity Weather Effect,,798,-80,-1220,0000,0000,0000
+91,2,3,0165,0202,Proximity Weather Effect,,2135,-190,-847,0000,0000,0000
+94,0,1,0165,0C06,Proximity Weather Effect,,2506,-280,1742,0000,0000,0000
+94,0,1,0165,1206,Proximity Weather Effect,,830,-80,794,0000,0000,0000
+97,2,0,0165,2804,Proximity Weather Effect,,0,421,0,0000,0000,0000
+97,2,1,0165,2804,Proximity Weather Effect,,0,421,0,0000,0000,0000
+99,2,0,0165,0201,Proximity Weather Effect,,1185,-1,-3760,0000,0000,0000
+99,3,0,0165,0201,Proximity Weather Effect,,1185,0,-3770,0000,0000,0000
+Total: 27

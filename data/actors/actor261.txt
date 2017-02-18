@@ -1,0 +1,9 @@
+Scene,Setup,Room
+3,0,2,0105,001C,Poe Sisters Golden Torch,Color: Purple (Meg); Perm: 1C,-22,285,-1704,0000,0000,0000
+3,0,2,0105,011D,Poe Sisters Golden Torch,Color: Red (Joelle); Perm: 1D,-22,285,-1416,0000,0000,0000
+3,0,2,0105,021E,Poe Sisters Golden Torch,Color: Blue (Beth); Perm: 1E,263,285,-1704,0000,0000,0000
+3,0,2,0105,031F,Poe Sisters Golden Torch,Color: Green (Amy); Perm: 1F,263,285,-1416,0000,0000,0000
+3,0,12,0105,011D,Poe Sisters Golden Torch,Color: Red (Joelle); Perm: 1D,-431,827,-3410,0000,0000,0000
+3,0,13,0105,021E,Poe Sisters Golden Torch,Color: Blue (Beth); Perm: 1E,549,827,-3410,0000,0000,0000
+3,0,16,0105,031F,Poe Sisters Golden Torch,Color: Green (Amy); Perm: 1F,1717,463,-1340,0000,4000,0000
+Total: 7

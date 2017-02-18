@@ -1,0 +1,202 @@
+Scene at 03328000
+Setup 0: 00000000
+18: Alternate headers start at 00000060.
+15: Sound Settings: Reverb 3, Playback option Always Playing, Song 18.
+04: There are 3 room(s). List starts at 000000B4
+0332D000 03337800
+03338000 0333C800
+0333D000 03343110
+0E: There are 2 transition actor(s). List starts at 00000094.
+01 FF -> 02 FF, 0023:003F, Transition Plane, 01 FF -> 02 FF Type 0: No Flag, (0, 0, -420) (0000, 0000, 0000)
+00 FF -> 01 00, 002E:0041, Front Clear Door, Perm: 01, (0, 120, 1100) (0000, 0000, 0000)
+19: JPEG background camera related: 00 Overworld Region:  02
+03: Collision Header starts at 00002250
+Offset to vertex array 00001BCC
+Offset to polygon array 000001EC
+Offset to polygon type defs 0000016C
+Offset to camera data 00000144
+Offset to water boxes 00002240
+Size in bytes 8504
+06: Entrance Index Definitions starts at 000000CC
+00: There are 2 position(s). List starts at 00000074.
+0000:0DFF Link, (-2, 200, 2226) (0000, 8000, 0000)
+0000:0DFF Link, (0, 60, -1151) (0000, 8000, 0000)
+11: Skybox 0, Cast: Sunny, Fog? Yes
+13: Exit List starts at 000000D0. 050B 0000
+0F: There are 4 environment setting(s). List starts at 000000D4.
+
+Cutscene 0: 00002280
+15: Sound Settings: Reverb 3, Playback option Always Playing, Song 18.
+04: There are 3 room(s). List starts at 00002310
+0332D000 03337800
+03338000 0333C800
+0333D000 03343110
+0E: There are 2 transition actor(s). List starts at 000022F0.
+00 FF -> 01 FF, 0023:003F, Transition Plane, 00 FF -> 01 FF Type 0: No Flag, (0, 60, 943) (0000, 0000, 0000)
+01 FF -> 02 FF, 0023:003F, Transition Plane, 01 FF -> 02 FF Type 0: No Flag, (0, 0, -420) (0000, 0000, 0000)
+19: JPEG background camera related: 00 Overworld Region:  00
+03: Collision Header starts at 00002250
+Offset to vertex array 00001BCC
+Offset to polygon array 000001EC
+Offset to polygon type defs 0000016C
+Offset to camera data 00000144
+Offset to water boxes 00002240
+Size in bytes 8504
+06: Entrance Index Definitions starts at 00002328
+00: There are 1 position(s). List starts at 000022E0.
+0000:0DFF Link, (-4, 40, -1063) (0000, 8000, 0000)
+11: Skybox 0, Cast: Sunny, Fog? No
+13: Exit List starts at 0000232C. 050B 0000
+0F: There are 4 environment setting(s). List starts at 00002330.
+17: Cutscene starts at 000024A0
+
+Cutscene 1: 00002390
+15: Sound Settings: Reverb 3, Playback option Always Playing, Song 18.
+04: There are 3 room(s). List starts at 00002420
+0332D000 03337800
+03338000 0333C800
+0333D000 03343110
+0E: There are 2 transition actor(s). List starts at 00002400.
+00 FF -> 01 FF, 0023:003F, Transition Plane, 00 FF -> 01 FF Type 0: No Flag, (0, 60, 943) (0000, 0000, 0000)
+01 FF -> 02 FF, 0023:003F, Transition Plane, 01 FF -> 02 FF Type 0: No Flag, (0, 0, -420) (0000, 0000, 0000)
+19: JPEG background camera related: 00 Overworld Region:  00
+03: Collision Header starts at 00002250
+Offset to vertex array 00001BCC
+Offset to polygon array 000001EC
+Offset to polygon type defs 0000016C
+Offset to camera data 00000144
+Offset to water boxes 00002240
+Size in bytes 8504
+06: Entrance Index Definitions starts at 00002438
+00: There are 1 position(s). List starts at 000023F0.
+0000:0DFF Link, (-4, 40, -1063) (0000, 8000, 0000)
+11: Skybox 0, Cast: Sunny, Fog? No
+13: Exit List starts at 0000243C. 050B 0000
+0F: There are 4 environment setting(s). List starts at 00002440.
+17: Cutscene starts at 000028E0
+
+Room 0
+Room at 0332D000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 4
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 01
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000110
+0B: There are 7 Object(s). List starts at 0000005C
+008D, 0098, 00A4, 000D, 000E, 0090, 018F, 
+01: There are 10 actor(s). List starts at 0000006C
+0013:0003 Roosting Keese, (22, 146, 1757) (0000, C000, 0000)
+0013:0003 Roosting Keese, (281, 81, 1496) (0000, C000, 0000)
+0185:06F8 Check Spot, Checkable, dialog Those who break into the Royal Tomb will, Local: 00, (292, 36, 1426) (0000, C000, 0001)
+0013:0003 Roosting Keese, (54, 73, 1253) (0000, 0000, 0000)
+0013:0003 Roosting Keese, (-63, 27, 1256) (0000, 0000, 0000)
+005E:10A0 Timed Torch, Light: 2, Temp: 00, (-56, 120, 1208) (0000, 0000, 0000)
+005E:10A0 Timed Torch, Light: 2, Temp: 00, (55, 120, 1207) (0000, 0000, 0000)
+000A:8020 Chest, Small, Falls, Switch Flag, reward 01: Bombs, chest flag: 00, bound to Temp: 00, (1, 244, 1473) (0000, 0000, 0020)
+0183:FF40 Song of Storms Fairy (Giant Fairy?), (-210, 5, 1476) (0000, 0000, 0000)
+0185:06B9 Check Spot, Checkable, dialog Shine light on the living dead..., Local: 01, (-247, 18, 1446) (0000, 22D8, 0000)
+
+Cutscene 0: 00000130
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 01
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000110
+0B: There are 4 Object(s). List starts at 00000170
+002B, 0098, 00A4, 000D, 
+01: There are 3 actor(s). List starts at 00000178
+005E:13FF Timed Torch, Light: 15, No Flag, (-56, 120, 1208) (0000, 0000, 0000)
+005E:13FF Timed Torch, Light: 15, No Flag, (55, 120, 1207) (0000, 0000, 0000)
+0059:2001 Bombable Wall, Perm: 01, (-1, 120, 1119) (0000, 0000, 0000)
+
+Cutscene 1: 000001B0
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 01
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000110
+0B: There are 4 Object(s). List starts at 000001F0
+002B, 0098, 00A4, 000D, 
+01: There are 3 actor(s). List starts at 000001F8
+005E:13FF Timed Torch, Light: 15, No Flag, (-56, 120, 1208) (0000, 0000, 0000)
+005E:13FF Timed Torch, Light: 15, No Flag, (55, 120, 1207) (0000, 0000, 0000)
+0059:2001 Bombable Wall, Perm: 01, (-1, 120, 1119) (0000, 0000, 0000)
+
+Room 1
+Room at 03338000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 4
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 01
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000A0
+0B: There are 7 Object(s). List starts at 0000005C
+008D, 0098, 00A4, 000D, 000E, 0090, 018F, 
+01: There are 3 actor(s). List starts at 0000006C
+0090:7F00 Redead, Standing, (130, 0, 177) (0000, C000, 0000)
+0090:7F00 Redead, Standing, (215, 0, 446) (0000, 0000, 0000)
+0090:7F00 Redead, Standing, (-196, 0, 428) (0000, 4000, 0000)
+
+Cutscene 0: 000000C0
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 01
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000A0
+0B: There are 4 Object(s). List starts at 000000F8
+002B, 0098, 00A4, 000D, 
+
+Cutscene 1: 00000100
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 01
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000A0
+0B: There are 4 Object(s). List starts at 00000138
+002B, 0098, 00A4, 000D, 
+
+Room 2
+Room at 0333D000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 4
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 01
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000A0
+0B: There are 7 Object(s). List starts at 0000005C
+008D, 0098, 00A4, 000D, 000E, 0090, 018F, 
+01: There are 3 actor(s). List starts at 0000006C
+012E:17FF Music Staff Spot, Type 5, Song 15, No Flag, (0, 127, -1200) (0000, 0000, 0000)
+005E:2400 Lit Wooden Torch, Perm: 00, (60, 60, -1112) (0000, 0000, 0000)
+005E:2400 Lit Wooden Torch, Perm: 00, (-60, 60, -1112) (0000, 0000, 0000)
+
+Cutscene 0: 000000C0
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 01
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000A0
+0B: There are 4 Object(s). List starts at 00000100
+002B, 0098, 00A4, 000D, 
+01: There are 3 actor(s). List starts at 00000108
+005E:2400 Lit Wooden Torch, Perm: 00, (60, 60, -1112) (0000, 0000, 0000)
+005E:2400 Lit Wooden Torch, Perm: 00, (-60, 60, -1112) (0000, 0000, 0000)
+012E:17FF Music Staff Spot, Type 5, Song 15, No Flag, (-1, 172, -1202) (0000, 0000, 0000)
+
+Cutscene 1: 00000140
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 01
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000A0
+0B: There are 4 Object(s). List starts at 00000180
+002B, 0098, 00A4, 000D, 
+01: There are 3 actor(s). List starts at 00000188
+005E:2400 Lit Wooden Torch, Perm: 00, (60, 60, -1112) (0000, 0000, 0000)
+005E:2400 Lit Wooden Torch, Perm: 00, (-60, 60, -1112) (0000, 0000, 0000)
+012E:17FF Music Staff Spot, Type 5, Song 15, No Flag, (-1, 172, -1202) (0000, 0000, 0000)
+

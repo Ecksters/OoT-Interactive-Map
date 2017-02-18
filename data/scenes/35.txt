@@ -1,0 +1,39 @@
+Scene at 03075000
+Setup 0: 00000000
+15: Sound Settings: Reverb 1, Playback option 05, Song 7F.
+04: There are 1 room(s). List starts at 00000078
+03077000 030C9AF0
+19: JPEG background camera related: 30 Overworld Region:  0E
+03: Collision Header starts at 000014AC
+Offset to vertex array 00000EC4
+Offset to polygon array 00000164
+Offset to polygon type defs 0000011C
+Offset to camera data 00000104
+Offset to water boxes 00000000
+Size in bytes 5076
+06: Entrance Index Definitions starts at 00000080
+07: Elf_Message 1, Load Object 0002
+00: There are 2 position(s). List starts at 00000058.
+0000:0F01 Link, (793, 60, -420) (0000, 4000, 0000)
+0000:0F00 Link, (1346, 110, -1180) (0000, C000, 0000)
+11: Skybox 0, Cast: Sunny, Fog? Yes
+13: Exit List starts at 00000084. 025E 0053
+0F: There are 4 environment setting(s). List starts at 00000088.
+
+Room 0
+Room at 03077000
+Setup 0: 00000000
+16: Sound Settings: Echo 8
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 04
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000A0
+0B: There are 4 Object(s). List starts at 00000040
+0097, 017A, 0188, 016B, 
+01: There are 5 actor(s). List starts at 00000048
+00E5:FFFF Death Mountain Cloud Ring, (1765, 1000, -2200) (0000, 0000, 0000)
+01B9:3806 Gossip Stone, (1000, 60, -680) (0000, C000, 0000)
+01B9:3907 Gossip Stone, (1000, 60, -615) (0000, C000, 0000)
+01B9:3A0E Gossip Stone, (1000, 60, -550) (0000, C000, 0000)
+01B9:3B10 Gossip Stone, (1000, 60, -485) (0000, C000, 0000)
+

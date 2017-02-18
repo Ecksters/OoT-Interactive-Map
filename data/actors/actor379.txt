@@ -1,0 +1,3 @@
+Scene,Setup,Room
+87,0,0,017B,FFFF,Pierre The Scarecrow,,12,-1253,2664,0000,0000,0000
+Total: 1

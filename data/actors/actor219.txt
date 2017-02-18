@@ -1,0 +1,5 @@
+Scene,Setup,Room
+93,4,1,00DB,0002,Horseback Games,,3256,1413,-2571,0000,0000,0000
+93,5,1,00DB,0002,Horseback Games,,3256,1413,-2571,0000,0000,0000
+99,4,0,00DB,0001,Horseback Games,,600,0,375,0000,C000,0000
+Total: 3

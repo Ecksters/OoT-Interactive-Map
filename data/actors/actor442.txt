@@ -1,0 +1,6 @@
+Scene,Setup,Room
+5,0,3,01BA,1600,Bombable Stone Wall,,-540,0,860,0000,0000,0000
+5,0,14,01BA,1104,Bombable Stone Wall,,0,-160,-3430,0000,8000,0000
+5,0,14,01BA,1203,Bombable Stone Wall,,-360,-160,-3430,0000,8000,0000
+5,0,17,01BA,0001,Bombable Stone Wall,,1150,460,180,0000,0000,0000
+Total: 4

@@ -1,0 +1,16 @@
+Scene,Setup,Room
+82,0,0,019D,0203,Semi-built Shooting Gallery (Defunct?),,324,160,1000,0000,0000,0000
+82,1,0,019D,0003,Semi-built Shooting Gallery (Defunct?),,324,160,1000,0000,0000,0000
+82,2,0,019D,0002,Semi-built Shooting Gallery (Defunct?),,-234,425,-560,0000,305B,0000
+82,2,0,019D,0000,Semi-built Shooting Gallery (Defunct?),,126,425,-566,0000,B05B,0000
+82,2,0,019D,0001,Semi-built Shooting Gallery (Defunct?),,210,250,795,0000,8000,0000
+82,2,0,019D,FF04,Semi-built Shooting Gallery (Defunct?),,324,160,1000,0000,0000,0000
+82,3,0,019D,0002,Semi-built Shooting Gallery (Defunct?),,-234,425,-560,0000,305B,0000
+82,3,0,019D,0000,Semi-built Shooting Gallery (Defunct?),,126,425,-566,0000,B05B,0000
+82,3,0,019D,0001,Semi-built Shooting Gallery (Defunct?),,210,250,795,0000,8000,0000
+82,3,0,019D,FF04,Semi-built Shooting Gallery (Defunct?),,324,160,1000,0000,0000,0000
+82,4,0,019D,0001,Semi-built Shooting Gallery (Defunct?),,210,250,795,0000,8000,0000
+82,4,0,019D,FF04,Semi-built Shooting Gallery (Defunct?),,324,160,1000,0000,0000,0000
+82,5,0,019D,0001,Semi-built Shooting Gallery (Defunct?),,210,250,795,0000,8000,0000
+82,5,0,019D,FF04,Semi-built Shooting Gallery (Defunct?),,324,160,1000,0000,0000,0000
+Total: 14

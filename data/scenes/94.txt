@@ -1,0 +1,100 @@
+Scene at 021DC000
+Setup 0: 00000000
+15: Sound Settings: Reverb 8, Playback option 0A, Song 5F.
+04: There are 2 room(s). List starts at 00000098
+021E2000 021E2910
+021E3000 021F5A40
+0E: There are 1 transition actor(s). List starts at 00000088.
+00 FF -> 01 FF, 0023:017F, Transition Plane, 00 FF -> 01 FF Type 5: No Flag, (646, -120, -2116) (0000, 0000, 0000)
+19: JPEG background camera related: 00 Overworld Region:  0D
+03: Collision Header starts at 00003A00
+Offset to vertex array 00002FE4
+Offset to polygon array 000003C4
+Offset to polygon type defs 0000025C
+Offset to camera data 00000234
+Offset to water boxes 00000000
+Size in bytes 14328
+06: Entrance Index Definitions starts at 000000A8
+07: Elf_Message 1, Load Object 0002
+0D: Pathway List starts at 00000218
+ 00) 0001BC  (642, 292, -2261) (599, 314, -2754) (527, 71, -3143) (457, 154, -3442) (457, 154, -3442) (-728, 48, -3440) (-1101, 114, -2931) (-1626, 204, -2924) (-2105, 42, -2154) (-1512, 146, -981) (-2708, 71, -917) (-2111, 105, -2104) (-1517, 146, -979) (-3017, 60, -996) (-6012, 200, -1094)
+
+00: There are 2 position(s). List starts at 00000068.
+0000:0EFF Link, (4500, -360, 3039) (0000, C000, 0000)
+0000:0EFF Link, (-4265, -38, -1101) (0000, 4000, 0000)
+11: Skybox 29, Cast: Sunny, Fog? No
+13: Exit List starts at 000000AC. 03AC 0123 0130 0000
+0F: There are 12 environment setting(s). List starts at 000000B4.
+
+Room 0
+Room at 021E2000
+Setup 0: 00000000
+16: Sound Settings: Echo 30
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+05: Wind Settings: Forces Westward 00, Vertical 00, Southward 00, Strength 00
+0A: Room Mesh: 030000E0
+0B: There are 11 Object(s). List starts at 00000048
+006D, 0144, 0017, 0076, 012C, 000E, 00A4, 0170, 0024, 012F, 0154, 
+01: There are 8 actor(s). List starts at 00000060
+0111:4103 Breakable Pot, Collectable: 03 Temp: 00, (801, -520, -2460) (0000, 0000, 0000)
+0111:430C Breakable Pot, Collectable: 0C Temp: 01, (806, -520, -2426) (0000, 0000, 0000)
+0111:4512 Breakable Pot, Collectable: 12 Temp: 02, (485, -520, -2463) (0000, 0000, 0000)
+0111:470F Breakable Pot, Collectable: 0F Temp: 03, (488, -520, -2424) (0000, 0000, 0000)
+0095:9602 Gold Skulltula, Type 4, Group 16, Flag 02, (637, -393, -2536) (4000, 0000, 0000)
+005E:109F Timed Torch, Light: 2, Perm: 1F, (713, -500, -2460) (0000, 0000, 0000)
+005E:109F Timed Torch, Light: 2, Perm: 1F, (562, -500, -2458) (0000, 0000, 0000)
+000A:8AA0 Chest, Small, Falls, Switch Flag, reward 55: Purple Rupee, chest flag: 00, bound to Perm: 1F, (653, -375, -2215) (0000, 0000, 001F)
+
+Room 1
+Room at 021E3000
+Setup 0: 00000000
+16: Sound Settings: Echo 9
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 02
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+05: Wind Settings: Forces Westward 0F, Vertical 28, Southward 6D, Strength BE
+0A: Room Mesh: 030002C0
+0B: There are 11 Object(s). List starts at 00000048
+006D, 0144, 0017, 0076, 012C, 000E, 00A4, 0170, 0024, 012F, 0154, 
+01: There are 38 actor(s). List starts at 00000060
+003B:000E Ambient Sound, Howling wind, (196, 763, 32) (0000, 0000, 0000)
+016A:0000 Magic Carpet Man, (1506, -357, 3559) (0000, 8000, 0000)
+00A7:0088 Enemy Spawner, (-2062, 74, -1260) (0000, 0000, 0000)
+0039:110A Gameplay_keep Items, (2104, -340, 2389) (0000, ACCD, 0000)
+0026:FFFF Wooden Post With Red Cloth, (168, 90, -1733) (0000, 0000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (-8, 114, -2157) (0000, 0000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (168, 101, -2581) (0000, 0000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (592, 94, -2757) (0000, 0000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (1016, 112, -2581) (0000, 0000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (1192, 114, -2157) (0000, 0000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (1017, 114, -1733) (0000, 0000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (690, 243, -1123) (0000, 0000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (519, 223, -1113) (0000, 0000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (-4105, -36, -1207) (0000, 0000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (-4105, -36, -1007) (0000, 0000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (3075, -300, 2273) (0000, 0000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (2945, -280, 2495) (0000, 0000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (2564, -307, 2319) (0000, 0000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (1963, -321, 2319) (0000, 0000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (1308, -250, 2281) (0000, 0000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (1143, -188, 1726) (0000, 0000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (1440, -170, 1092) (0000, 0000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (1163, -154, 525) (0000, 0000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (1359, 26, -178) (0000, 0000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (652, 100, -470) (0000, 0000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (4255, -360, 2957) (0000, 0000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (4251, -360, 3104) (0000, 0000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (6508, -283, 2924) (0000, 0000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (-5849, -46, -1056) (0000, 0000, 0000)
+01BF:0000 Desert Wasteland Poe Guide, (642, 292, -2261) (0000, 0000, 0000)
+0165:0C06 Proximity Weather Effect, (2506, -280, 1742) (0000, 0000, 0000)
+0165:1206 Proximity Weather Effect, (830, -80, 794) (0000, 0000, 0000)
+0185:04FF Check Spot, Checkable, dialog One with the eye of truth shall be guide, No Flag, (645, 278, -2234) (0000, 0000, 002A)
+01A0:FFFF Large Crate, (-1531, 80, -976) (0000, 293F, 0000)
+01A0:FFFF Large Crate, (3125, -283, 2459) (0000, 1BBC, 0000)
+01A0:FFFF Large Crate, (3026, -272, 2631) (0000, D555, 0000)
+01A0:FFFF Large Crate, (3235, -283, 2313) (0000, 0000, 0000)
+01A0:FFFF Large Crate, (3832, -355, 2840) (0000, B777, 0000)
+

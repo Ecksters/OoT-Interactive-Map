@@ -1,0 +1,4 @@
+Scene,Setup,Room
+75,0,0,01BD,0000,Bombchu Bowling Alley Wall,,0,-100,-272,0000,0000,0000
+75,0,0,01BD,0001,Bombchu Bowling Alley Wall,,0,97,-538,0000,0000,0000
+Total: 2

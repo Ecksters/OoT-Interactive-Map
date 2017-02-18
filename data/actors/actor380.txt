@@ -1,0 +1,3 @@
+Scene,Setup,Room
+16,0,0,017C,0000,Treasure Chest Game Man,,154,-12,114,0000,C000,0000
+Total: 1

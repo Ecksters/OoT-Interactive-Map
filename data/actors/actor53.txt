@@ -1,0 +1,7 @@
+Scene,Setup,Room
+2,0,7,0035,FFFF,Electric Tailparisans,,-79,-340,-4438,0000,2EEF,0000
+2,0,7,0035,FFFF,Electric Tailparisans,,69,-340,-4440,0000,D49F,0000
+2,0,7,0035,FFFF,Electric Tailparisans,,-4,-340,-4517,0000,0000,0000
+2,0,7,0035,FFFF,Electric Tailparisans,,-414,-340,-4557,0000,2B61,0000
+2,0,7,0035,FFFF,Electric Tailparisans,,396,-340,-4557,0000,D60B,0000
+Total: 5

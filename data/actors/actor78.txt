@@ -1,0 +1,3 @@
+Scene,Setup,Room
+4,0,5,004E,FFFF,Hookshotable Elevator (Fire Temple),,1580,3190,-790,0000,0000,0000
+Total: 1

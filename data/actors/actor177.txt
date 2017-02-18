@@ -1,0 +1,6 @@
+Scene,Setup,Room
+7,0,6,00B1,0000,Spining Scythe Statue,,3358,-543,-946,0000,0000,0000
+7,0,16,00B1,0001,Spining Scythe Statue,,5318,-1143,2135,0000,C000,0000
+9,0,3,00B1,0100,Spining Scythe Statue,,293,0,-384,0000,0000,0000
+9,4,3,00B1,0100,Spining Scythe Statue,,293,0,-384,0000,0000,0000
+Total: 4

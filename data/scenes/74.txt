@@ -1,0 +1,150 @@
+Scene at 02E8C000
+Setup 0: 00000000
+18: Alternate headers start at 00000060.
+15: Sound Settings: Reverb 0, Playback option Always Playing, Song 29.
+04: There are 1 room(s). List starts at 00000098
+02E90000 02EA7EC0
+19: JPEG background camera related: 00 Overworld Region:  0F
+03: Collision Header starts at 00001BC8
+Offset to vertex array 00001630
+Offset to polygon array 00000550
+Offset to polygon type defs 00000508
+Offset to camera data 00000500
+Offset to water boxes 00001BB8
+Size in bytes 5876
+06: Entrance Index Definitions starts at 000000A0
+07: Elf_Message 1, Load Object 0002
+00: There are 2 position(s). List starts at 00000078.
+0000:0FFF Link, (604, 44, 8) (0000, C000, 0000)
+0000:0DFF Link, (-429, 84, 0) (0000, C000, 0000)
+11: Skybox 0, Cast: Sunny, Fog? Yes
+13: Exit List starts at 000000A4. 0296 0000
+0F: There are 4 environment setting(s). List starts at 000000A8.
+
+Cutscene 0: 00003720
+15: Sound Settings: Reverb 0, Playback option Always Playing, Song 6A.
+04: There are 1 room(s). List starts at 00003790
+02E90000 02EA7EC0
+19: JPEG background camera related: 00 Overworld Region:  0E
+03: Collision Header starts at 00001BC8
+Offset to vertex array 00001630
+Offset to polygon array 00000550
+Offset to polygon type defs 00000508
+Offset to camera data 00000500
+Offset to water boxes 00001BB8
+Size in bytes 5876
+06: Entrance Index Definitions starts at 00003798
+07: Elf_Message 0, Load Object 0002
+00: There are 1 position(s). List starts at 00003780.
+0000:0FFF Link, (604, 44, 8) (0000, C000, 0000)
+11: Skybox 1, Cast: Sunny, Fog? Yes
+13: Exit List starts at 0000379C. 0296 0000
+0F: There are 2 environment setting(s). List starts at 000037A0.
+17: Cutscene starts at 00001C04
+
+Cutscene 1: 000037D0
+15: Sound Settings: Reverb 0, Playback option Always Playing, Song 29.
+04: There are 1 room(s). List starts at 00003840
+02E90000 02EA7EC0
+19: JPEG background camera related: 00 Overworld Region:  0E
+03: Collision Header starts at 00001BC8
+Offset to vertex array 00001630
+Offset to polygon array 00000550
+Offset to polygon type defs 00000508
+Offset to camera data 00000500
+Offset to water boxes 00001BB8
+Size in bytes 5876
+06: Entrance Index Definitions starts at 00003848
+07: Elf_Message 1, Load Object 0002
+00: There are 1 position(s). List starts at 00003830.
+0000:0FFF Link, (604, 44, 8) (0000, C000, 0000)
+11: Skybox 0, Cast: Sunny, Fog? No
+13: Exit List starts at 0000384C. 0296 0000
+0F: There are 4 environment setting(s). List starts at 00003850.
+17: Cutscene starts at 00002524
+
+Cutscene 2: 000038B0
+15: Sound Settings: Reverb 0, Playback option Always Playing, Song 29.
+04: There are 1 room(s). List starts at 00003920
+02E90000 02EA7EC0
+19: JPEG background camera related: 00 Overworld Region:  0E
+03: Collision Header starts at 00001BC8
+Offset to vertex array 00001630
+Offset to polygon array 00000550
+Offset to polygon type defs 00000508
+Offset to camera data 00000500
+Offset to water boxes 00001BB8
+Size in bytes 5876
+06: Entrance Index Definitions starts at 00003928
+07: Elf_Message 1, Load Object 0002
+00: There are 1 position(s). List starts at 00003910.
+0000:0FFF Link, (604, 44, 8) (0000, C000, 0000)
+11: Skybox 0, Cast: Sunny, Fog? No
+13: Exit List starts at 0000392C. 0296 0000
+0F: There are 4 environment setting(s). List starts at 00003930.
+17: Cutscene starts at 000034B0
+
+Room 0
+Room at 02E90000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 04
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000100
+0B: There are 8 Object(s). List starts at 00000060
+0087, 0097, 009B, 008E, 0095, 0094, 0092, 0191, 
+01: There are 9 actor(s). List starts at 00000070
+0112:47C0 Invisible Collectible, 08 1F 00, (0, 125, 476) (0000, 0000, 0000)
+00B3:FF06 Hyrule Guard, (-1037, 84, 58) (0000, 4000, 0000)
+00B3:FF06 Hyrule Guard, (-1037, 84, -58) (0000, 4000, 0000)
+008C:0000 ???, (-862, 738, 180) (0000, 0000, 0000)
+008B:FF08 Spiritual Stones, (-905, 755, 209) (0000, 0000, 0000)
+0112:1A81 Invisible Collectible, 03 0A 01, (0, 125, -481) (0000, 0000, 0004)
+01D3:0000 Child Princess Zelda, (-485, 84, 0) (0000, 4000, 0000)
+00A9:0005 Impa, (336, 44, 0) (0000, C000, 0000)
+002A:08FF Ganondorf bowing to the King, (-891, 90, 140) (0000, 8000, 0000)
+
+Cutscene 0: 00000120
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000100
+0B: There are 2 Object(s). List starts at 00000160
+0097, 0191, 
+01: There are 4 actor(s). List starts at 00000164
+01D3:0000 Child Princess Zelda, (-462, 84, 0) (0000, 4000, 0000)
+00B3:FF06 Hyrule Guard, (-1037, 84, -58) (0000, 4000, 0000)
+00B3:FF06 Hyrule Guard, (-1037, 84, 58) (0000, 4000, 0000)
+017F:FFFF The End message (Defunct?), (-216, 44, 33) (0000, 0000, 0000)
+
+Cutscene 1: 000001B0
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000100
+0B: There are 2 Object(s). List starts at 000001F0
+001D, 0087, 
+01: There are 4 actor(s). List starts at 000001F4
+00B3:FF06 Hyrule Guard, (-1037, 84, 58) (0000, 4000, 0000)
+00B3:FF06 Hyrule Guard, (-1037, 84, -58) (0000, 4000, 0000)
+0029:FFFF Child Princess Zelda (at window), (-485, 84, 0) (0000, 4000, 0000)
+00A9:0003 Impa, (295, 44, 3) (0000, C000, 0000)
+
+Cutscene 2: 00000240
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000100
+0B: There are 2 Object(s). List starts at 00000280
+001D, 0087, 
+01: There are 4 actor(s). List starts at 00000284
+00B3:FF06 Hyrule Guard, (-1037, 84, 58) (0000, 4000, 0000)
+00B3:FF06 Hyrule Guard, (-1037, 84, -58) (0000, 4000, 0000)
+0029:FFFF Child Princess Zelda (at window), (-485, 84, 0) (0000, 4000, 0000)
+00A9:0005 Impa, (336, 44, 0) (0000, C000, 0000)
+

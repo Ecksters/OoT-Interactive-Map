@@ -1,0 +1,12 @@
+Scene,Setup,Room
+4,0,1,0046,0000,Stone Platform (Fire Temple),,1163,0,793,0000,C000,0000
+4,0,1,0046,0000,Stone Platform (Fire Temple),,1286,0,-889,0000,C000,0000
+4,0,1,0046,0000,Stone Platform (Fire Temple),,1566,0,-929,0000,C000,0000
+4,0,1,0046,0001,Stone Platform (Fire Temple),,1643,0,1073,0000,4000,0000
+4,0,1,0046,0001,Stone Platform (Fire Temple),,1946,0,571,0000,0000,0000
+4,0,1,0046,0000,Stone Platform (Fire Temple),,1946,0,891,0000,C000,0000
+4,0,1,0046,0001,Stone Platform (Fire Temple),,1966,0,-409,0000,4000,0000
+13,0,14,0046,0000,Stone Platform (Fire Temple),,-609,20,-2601,0000,1555,0000
+13,0,14,0046,0000,Stone Platform (Fire Temple),,-1638,20,-3070,0000,1555,0000
+13,0,14,0046,0000,Stone Platform (Fire Temple),,-517,29,-3254,0000,1555,0000
+Total: 10

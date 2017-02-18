@@ -1,0 +1,4 @@
+Scene,Setup,Room
+0,0,2,0051,0123,Rotating Spike Cylinder,,-1066,560,1066,0000,E000,0000
+0,0,5,0051,00FF,Rotating Spike Cylinder,,-835,-860,1050,0000,4000,0000
+Total: 2

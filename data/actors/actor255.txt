@@ -1,0 +1,33 @@
+Scene,Setup,Room
+0,0,5,00FF,FFC0,Small Color12 Block,Bound to No Flag; load when unset,-1365,-880,1200,0000,0000,0000
+1,0,7,00FF,2040,Small Green Block,Bound to Temp: 00; load when unset,0,126,-3194,0000,0000,0000
+1,0,7,00FF,2044,Small Green Block,Bound to Temp: 00; load when set,0,-23,-2774,0000,0000,0000
+1,0,8,00FF,FF40,Small Green Block,Bound to No Flag; load when unset,1163,76,-3844,0000,0000,0000
+1,0,8,00FF,FF40,Small Green Block,Bound to No Flag; load when unset,1663,76,-3694,0000,0000,0000
+1,0,8,00FF,FF40,Small Green Block,Bound to No Flag; load when unset,1763,16,-3634,0000,0000,0000
+1,0,9,00FF,FF00,Small Red Block,Bound to No Flag; load when unset,1990,351,-320,0000,0000,0000
+3,0,11,00FF,0542,Very large Green Block,Bound to Perm: 05; load when unset,-1967,623,-1260,0000,4000,0000
+3,0,11,00FF,0546,Very large Green Block,Bound to Perm: 05; load when set,-2287,603,-1020,0000,0000,0000
+3,0,11,00FF,0702,Very large Red Block,Bound to Perm: 07; load when unset,-1807,843,-1380,0000,4000,0000
+3,0,11,00FF,0706,Very large Red Block,Bound to Perm: 07; load when set,-1607,823,-1140,0000,0000,0000
+4,0,4,00FF,FF42,Very large Green Block,Bound to No Flag; load when unset,2279,2260,340,0000,0000,0000
+5,0,0,00FF,0FC2,Very large Color12 Block,Bound to Perm: 0F; load when unset,-880,60,-180,0000,0000,0000
+5,0,0,00FF,0FC6,Very large Color12 Block,Bound to Perm: 0F; load when set,-1140,-380,-180,0000,0000,0000
+5,0,9,00FF,0FC6,Very large Color12 Block,Bound to Perm: 0F; load when set,-1140,-380,-180,0000,0000,0000
+5,0,14,00FF,1842,Very large Green Block,Bound to Perm: 18; load when unset,-180,-160,-3250,0000,0000,0000
+5,0,14,00FF,1846,Very large Green Block,Bound to Perm: 18; load when set,0,-299,-3670,0000,0000,0000
+6,0,0,00FF,10C3,Huge Color12 Block,Bound to Perm: 10; load when unset,542,-50,-1,0000,8000,0000
+6,0,0,00FF,10C7,Huge Color12 Block,Bound to Perm: 10; load when set,742,-250,-1,0000,0000,0000
+6,0,6,00FF,09C3,Huge Color12 Block,Bound to Perm: 09; load when unset,340,413,-461,0000,0000,0000
+6,0,6,00FF,0CC3,Huge Color12 Block,Bound to Perm: 0C; load when unset,540,413,-261,0000,0000,0000
+6,0,6,00FF,09C7,Huge Color12 Block,Bound to Perm: 09; load when set,540,213,-461,0000,0000,0000
+6,0,6,00FF,0CC7,Huge Color12 Block,Bound to Perm: 0C; load when set,540,213,-61,0000,0000,0000
+6,0,8,00FF,FFC0,Small Color12 Block,Bound to No Flag; load when unset,-1387,843,-200,0000,0000,0000
+6,0,8,00FF,FFC0,Small Color12 Block,Bound to No Flag; load when unset,-1387,843,-140,0000,0000,0000
+6,0,8,00FF,FFC0,Small Color12 Block,Bound to No Flag; load when unset,-1327,843,-200,0000,0000,0000
+7,0,10,00FF,FF02,Very large Red Block,Bound to No Flag; load when unset,961,-1343,3685,0000,0000,0000
+7,0,21,00FF,1D02,Very large Red Block,Bound to Perm: 1D; load when unset,3938,-1363,-1486,0000,0000,0000
+7,0,21,00FF,1DC6,Very large Color12 Block,Bound to Perm: 1D; load when set,4478,-1378,-1586,0000,0000,0000
+11,0,3,00FF,0BC3,Huge Color12 Block,Bound to Perm: 0B; load when unset,-1577,159,-3057,0000,0000,0000
+11,0,3,00FF,0BC7,Huge Color12 Block,Bound to Perm: 0B; load when set,-1577,-41,-3257,0000,0000,0000
+Total: 31

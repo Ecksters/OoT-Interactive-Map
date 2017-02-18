@@ -1,0 +1,86 @@
+Scene at 022CF000
+Setup 0: 00000000
+15: Sound Settings: Reverb 1, Playback option 05, Song 7F.
+04: There are 1 room(s). List starts at 00000178
+022D2000 022D77A0
+0E: There are 6 transition actor(s). List starts at 00000118.
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (-482, 0, 615) (0000, 8000, 0000)
+00 FF -> 00 FF, 0009:028E, Locked Door, Perm: 0E, (534, 0, -120) (0000, C000, 0000)
+00 FF -> 00 FF, 0009:028F, Locked Door, Perm: 0F, (-240, 0, -616) (0000, 0000, 0000)
+00 FF -> 00 FF, 0009:0290, Locked Door, Perm: 10, (320, 0, -579) (0000, 0000, 0000)
+00 FF -> 00 FF, 0009:0291, Locked Door, Perm: 11, (534, 0, 220) (0000, C000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (-480, 0, 0) (0000, 4000, 0000)
+19: JPEG background camera related: 40 Overworld Region:  0E
+03: Collision Header starts at 000025F8
+Offset to vertex array 00001BDC
+Offset to polygon array 000003DC
+Offset to polygon type defs 00000364
+Offset to camera data 00000354
+Offset to water boxes 00000000
+Size in bytes 8912
+06: Entrance Index Definitions starts at 00000180
+07: Elf_Message 1, Load Object 0002
+0D: Pathway List starts at 000002FC
+ 00) 000218  (87, 0, 116) (2, 0, 140) (-98, 0, 108) (-145, 0, 9) (-97, 0, -98) (-8, 0, -248) (126, 0, -252) (177, 0, -36) (87, 0, 116)
+ 01) 000250  (-125, 0, 159) (-233, 0, 218) (-273, 0, 351) (-157, 0, 500) (48, 0, 449) (97, 0, 250) (-1, 0, 179) (-125, 0, 159)
+ 02) 000280  (315, 0, 297) (219, 0, 337) (142, 0, 267) (168, 0, 136) (291, 0, 108) (359, 0, 197) (315, 0, 297)
+ 03) 0002AC  (-131, 0, 421) (-210, 0, 348) (-185, 0, 260) (-41, 0, 267) (21, 0, 346) (-40, 0, 428) (-131, 0, 421)
+ 04) 0001C8  (257, 0, -268) (198, 0, -211) (201, 0, -113) (292, 0, -102) (366, 0, -174) (363, 0, -282) (257, 0, -268)
+ 05) 0002D8  (423, 0, 421) (449, 0, 466) (408, 0, 500) (349, 0, 500) (349, 0, 422) (423, 0, 421)
+ 06) 0001F4  (-199, 0, -257) (-265, 0, -323) (-241, 0, -414) (-150, 0, -412) (-111, 0, -326) (-199, 0, -257)
+
+00: There are 11 position(s). List starts at 00000068.
+0000:0F00 Link, (0, 0, 715) (0000, 8000, 0000)
+0000:0F00 Link, (4, 0, -705) (0000, 0000, 0000)
+0000:0F00 Link, (398, 0, -366) (0000, D555, 0000)
+0000:0F00 Link, (-398, 0, -500) (0000, 3777, 0000)
+0000:0F00 Link, (-414, 0, 531) (0000, 4000, 0000)
+0000:0E00 Link, (489, 0, -117) (0000, C000, 0000)
+0000:0E00 Link, (491, 0, 221) (0000, C000, 0000)
+0000:0E00 Link, (-437, 0, 1) (0000, 40B6, 0000)
+0000:0E00 Link, (-240, 0, -560) (0000, 0000, 0000)
+0000:0E00 Link, (320, 0, -512) (0000, 0000, 0000)
+0000:0E00 Link, (-485, 0, 575) (0000, 8000, 0000)
+11: Skybox 10, Cast: Sunny, Fog? Yes
+13: Exit List starts at 00000198. 0033 0138 0171 00AD 029A 0388 052C 0507 016D 0530 0063 0000
+0F: There are 1 environment setting(s). List starts at 000001B0.
+
+Room 0
+Room at 022D2000
+Setup 0: 00000000
+16: Sound Settings: Echo 5
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000200
+0B: There are 8 Object(s). List starts at 00000040
+0097, 00C5, 007C, 00E0, 016B, 0111, 0182, 0170, 
+01: There are 27 actor(s). List starts at 00000050
+0178:FF08 Hyrule Guard, (-106, 0, -510) (0000, 0000, 0000)
+0178:FF08 Hyrule Guard, (111, 0, -510) (0000, 0000, 0000)
+01AC:0000 Entwined Lovers (Honey & Darling), (124, 0, -18) (0000, 0000, 0000)
+00E7:FFFF Child Malon, (0, 0, -150) (0000, 0000, 0000)
+0077:FF02 Greenery, Small tree, Nothing, (-100, 0, 240) (0000, 0000, 0000)
+0112:1241 Invisible Collectible, 02 09 01, (-524, 180, -246) (0000, 0000, 0001)
+0112:1242 Invisible Collectible, 02 09 02, (-521, 180, 27) (0000, 0000, 0001)
+0125:0200 Regen Grass, (76, 20, -190) (0000, 0000, 0000)
+0125:0200 Regen Grass, (75, 20, -310) (0000, 0000, 0000)
+0125:0200 Regen Grass, (73, 20, -428) (0000, 0000, 0000)
+0125:0200 Regen Grass, (432, 0, -548) (0000, 0000, 0000)
+0125:0200 Regen Grass, (465, 0, -548) (0000, 0000, 0000)
+0125:0200 Regen Grass, (504, 0, -546) (0000, 0000, 0000)
+0125:0200 Regen Grass, (-87, 0, 205) (0000, 0000, 0000)
+0125:0200 Regen Grass, (-74, 0, 233) (0000, 0000, 0000)
+019B:0201 Dog, (87, 0, 116) (0000, E000, 0000)
+019B:0311 Dog, (-125, 0, 159) (0000, C5B0, 0000)
+019B:0421 Dog, (315, 0, 297) (0000, EB61, 0000)
+019B:0531 Dog, (-131, 0, 421) (0000, A93F, 0000)
+019B:0741 Dog, (257, 0, -268) (0000, D49F, 0000)
+019B:0050 Dog, (423, 0, 421) (0000, 1555, 0000)
+019B:0160 Dog, (-199, 0, -257) (0000, A71C, 0000)
+01A0:FFFF Large Crate, (-90, 0, -576) (0002, 0000, 0003)
+01A0:FFFF Large Crate, (-150, 0, -576) (0000, 0000, 0021)
+01A0:FFFF Large Crate, (490, 0, 132) (0000, 0000, 0022)
+01A0:FFFF Large Crate, (490, 0, 338) (0000, 0000, 0023)
+016E:0790 Market NPC, (297, 160, 537) (0000, 8000, 0000)
+

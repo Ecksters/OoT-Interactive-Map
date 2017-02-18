@@ -1,0 +1,4 @@
+Scene,Setup,Room
+88,0,0,0124,FFFF,Zora Diving Game,,-149,857,-1020,0000,A2D8,0000
+88,0,1,0124,FFFF,Zora Diving Game,,-149,857,-1020,0000,A2D8,0000
+Total: 2

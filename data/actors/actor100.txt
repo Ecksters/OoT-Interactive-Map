@@ -1,0 +1,19 @@
+Scene,Setup,Room
+5,0,0,0064,1FFF,Water Temple Platforms,,-780,780,-180,0000,0000,0000
+5,0,0,0064,3FFF,Water Temple Platforms,,-176,820,-1052,0000,0000,0000
+5,0,0,0064,0FD9,Water Temple Platforms,,-180,780,100,0000,0000,0000
+5,0,1,0064,2FFF,Water Temple Platforms,,-180,780,-60,0000,0000,0000
+5,0,3,0064,4FDA,Water Temple Platforms,,-1697,174,860,0000,4000,0000
+5,0,5,0064,7100,Water Temple Platforms,,-1988,57,-345,0000,C000,0000
+5,0,5,0064,7200,Water Temple Platforms,,-1383,631,-180,0000,C000,0000
+5,0,5,0064,7580,Water Temple Platforms,,-1554,425,-180,0000,C000,0000
+5,0,5,0064,76A0,Water Temple Platforms,,-2703,496,-180,0000,4000,0000
+5,0,5,0064,76A2,Water Temple Platforms,,-2567,636,-180,0000,4000,0000
+5,0,5,0064,76A3,Water Temple Platforms,,-2374,443,-180,0000,4000,0000
+5,0,5,0064,76A4,Water Temple Platforms,,-2181,250,-180,0000,4000,0000
+5,0,5,0064,76A5,Water Temple Platforms,,-1988,57,-180,0000,4000,0000
+5,0,6,0064,5FF1,Water Temple Platforms,,-3078,685,-833,0000,C000,0000
+5,0,6,0064,5FF1,Water Temple Platforms,,-3620,685,-538,0000,0000,0000
+5,0,6,0064,5FF1,Water Temple Platforms,,-3382,685,-180,0000,4000,0000
+6,0,23,0064,75EF,Water Temple Platforms,,682,1681,227,0000,8000,0000
+Total: 17

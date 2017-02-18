@@ -1,0 +1,3 @@
+Scene,Setup,Room
+7,0,18,011C,0000,Stone Eye Flamethrower,,4702,-1157,-127,0000,C000,0000
+Total: 1

@@ -1,0 +1,4 @@
+Scene,Setup,Room
+4,0,3,0099,FFFF,Flare Dancer,,-361,80,-1300,0000,0000,0000
+4,0,24,0099,FFFF,Flare Dancer,,-2928,2920,139,0000,0000,0000
+Total: 2

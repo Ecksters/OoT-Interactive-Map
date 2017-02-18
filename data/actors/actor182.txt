@@ -1,0 +1,9 @@
+Scene,Setup,Room
+2,0,4,00B6,00FF,Floppy Muscle Platform,,-1104,-40,-1700,0000,C000,0000
+2,0,4,00B6,00FF,Floppy Muscle Platform,,-1363,-40,-1700,0000,80B6,0000
+2,4,4,00B6,00FF,Floppy Muscle Platform,,-1104,-40,-1700,0000,C000,0000
+2,4,4,00B6,00FF,Floppy Muscle Platform,,-1363,-40,-1700,0000,80B6,0000
+2,4,5,00B6,0014,Floppy Muscle Platform,,1177,-440,-1703,0000,C000,0000
+2,4,5,00B6,0014,Floppy Muscle Platform,,1361,-420,-1813,0000,0000,0000
+2,0,13,00B6,00FF,Floppy Muscle Platform,,-944,-1233,-2426,0000,5C72,0000
+Total: 7

@@ -1,0 +1,6 @@
+Scene,Setup,Room
+11,0,4,0062,0015,Training Grounds Eye Target,,-54,-16,-2692,FC72,105B,0000
+11,0,4,0062,0015,Training Grounds Eye Target,,-14,11,-2774,FC72,4FA5,0000
+11,0,4,0062,0015,Training Grounds Eye Target,,-100,2,-2803,FC72,905B,0000
+11,0,4,0062,0015,Training Grounds Eye Target,,-135,40,-2724,F555,D05B,0000
+Total: 4

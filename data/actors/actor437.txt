@@ -1,0 +1,5 @@
+Scene,Setup,Room
+13,0,18,01B5,0A01,Web Blocked Light Window,,-1175,449,1196,0000,2AAB,0000
+13,0,18,01B5,0A02,Web Blocked Light Window,,-1175,150,1196,0000,2AAB,0000
+13,0,18,01B5,0A00,Web Blocked Light Window,,-1175,390,1196,0000,2AAB,0000
+Total: 3

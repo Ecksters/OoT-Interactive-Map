@@ -1,0 +1,3 @@
+Scene,Setup,Room
+11,0,4,0061,0015,Large Rotating Stone Ring,,-77,-161,-2747,0000,0000,0000
+Total: 1

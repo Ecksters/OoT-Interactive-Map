@@ -1,0 +1,21 @@
+Scene,Setup,Room
+7,0,0,00AE,0003,Shadow Temple Rock Wall with Skull,,-1274,-63,-185,0000,C000,0000
+7,0,0,00AE,0003,Shadow Temple Rock Wall with Skull,,-514,-63,-185,0000,C000,0000
+7,0,0,00AE,0003,Shadow Temple Rock Wall with Skull,,-1074,-63,-185,0000,C000,0000
+7,0,0,00AE,0003,Shadow Temple Rock Wall with Skull,,-1834,-63,-405,0000,C000,0000
+7,0,0,00AE,0003,Shadow Temple Rock Wall with Skull,,-794,-63,-465,0000,0000,0000
+7,0,2,00AE,0004,Shadow Temple Black square with large skull face,,326,-63,295,0000,4000,0000
+7,0,2,00AE,0004,Shadow Temple Black square with large skull face,,326,-63,-185,0000,4000,0000
+7,0,2,00AE,0006,Shadow Temple Wall of Skulls,,3358,-543,55,0000,C000,0000
+7,0,3,00AE,0005,Shadow Temple Boss Room platforms,,-2742,-1363,309,0000,0000,0000
+7,0,5,00AE,0006,Shadow Temple Wall of Skulls,,3358,-543,55,0000,C000,0000
+7,0,6,00AE,0007,Shadow Temple Floor (bluish? texture),,3978,-543,-1226,0000,0000,0000
+7,0,9,00AE,0008,Shadow Temple Massive Platform,,3926,-1257,2888,0000,0000,0000
+7,0,10,00AE,0009,Shadow Temple Wall with bluish?; fat bricks texture (one sided),,961,-1343,3755,0000,0000,0000
+7,0,11,00AE,000C,Shadow Temple Map 11's invisible spikes; invisible hookshot point.,,2478,-1343,1134,0000,0000,0000
+7,0,15,00AE,000A,Shadow Temple Diamond Room (before big key) Fake Walls,,-4306,-1363,-1586,0000,0000,0000
+7,0,18,00AE,000B,Shadow Temple Wall with purplish?; fat brick texture (both side),,4388,-1363,-406,0000,0000,0000
+8,0,0,00AE,0000,Unknown Shadow Temple Graphical,,0,0,-740,0000,0000,0000
+8,0,3,00AE,0001,Unknown Shadow Temple Graphical,,1020,0,-1080,0000,0000,0000
+8,0,5,00AE,0002,Unknown Shadow Temple Graphical,,380,0,-1230,0000,0000,0000
+Total: 19

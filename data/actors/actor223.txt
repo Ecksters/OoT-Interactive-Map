@@ -1,0 +1,12 @@
+Scene,Setup,Room
+2,0,2,00DF,0A81,Jabu-Jabu Electrified Tentacle,,-260,-366,-3401,0000,0000,0000
+2,4,2,00DF,3FFF,Jabu-Jabu Electrified Tentacle,,-260,-366,-3401,0000,0000,0000
+2,0,3,00DF,0A81,Jabu-Jabu Electrified Tentacle,,-260,-1015,-3401,0000,0000,0000
+2,4,3,00DF,3FFF,Jabu-Jabu Electrified Tentacle,,-255,-1015,-3401,0000,0000,0000
+2,0,7,00DF,0B80,Jabu-Jabu Electrified Tentacle,,659,-340,-5021,0000,0000,0000
+2,0,7,00DF,0B80,Jabu-Jabu Electrified Tentacle,,-659,-340,-5022,0000,0000,0000
+2,0,7,00DF,0C82,Jabu-Jabu Electrified Tentacle,,-1,-340,-5140,0000,0000,0000
+2,4,7,00DF,3FFF,Jabu-Jabu Electrified Tentacle,,-1,-340,-5218,0000,0000,0000
+2,4,7,00DF,3FFF,Jabu-Jabu Electrified Tentacle,,658,-340,-5100,0000,0000,0000
+2,4,7,00DF,3FFF,Jabu-Jabu Electrified Tentacle,,-660,-340,-5100,0000,0000,0000
+Total: 10

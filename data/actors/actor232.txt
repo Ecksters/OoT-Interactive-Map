@@ -1,0 +1,4 @@
+Scene,Setup,Room
+25,0,0,00E8,FFFF,Ganondorf (Boss),,-5,0,2,0000,0000,0000
+26,0,0,00E8,0001,Ganondorf (Boss),,-490,4102,-301,0000,0000,0000
+Total: 2

@@ -1,0 +1,26 @@
+Scene,Setup,Room
+6,0,12,0183,FF40,Song of Storms Fairy (Giant Fairy?),,1571,-130,-1896,0000,0000,0000
+6,0,18,0183,FF40,Song of Storms Fairy (Giant Fairy?),,2040,843,-220,0000,0000,0000
+7,0,5,0183,FF41,Song of Storms Fairy (Giant Fairy?),,3362,-543,54,0000,0000,0000
+7,0,9,0183,FF41,Song of Storms Fairy (Giant Fairy?),,3746,-1143,3339,0000,0000,0000
+7,0,19,0183,FF40,Song of Storms Fairy (Giant Fairy?),,4931,-1363,-127,0000,0000,0000
+8,0,1,0183,FF40,Song of Storms Fairy (Giant Fairy?),,641,-720,-1531,0000,0000,0000
+9,0,1,0183,FF41,Song of Storms Fairy (Giant Fairy?),,4,-10,1186,0000,0000,0000
+11,0,0,0183,FF41,Song of Storms Fairy (Giant Fairy?),,-56,-20,-445,0000,0000,0000
+12,0,3,0183,FF40,Song of Storms Fairy (Giant Fairy?),,2138,0,-621,0000,0000,0000
+13,0,17,0183,FF40,Song of Storms Fairy (Giant Fairy?),,-833,150,587,0000,0000,0000
+62,0,1,0183,FF41,Song of Storms Fairy (Giant Fairy?),,1297,-11,-308,0000,0000,0000
+62,0,3,0183,FF41,Song of Storms Fairy (Giant Fairy?),,2498,-11,-311,0000,0000,0000
+62,0,6,0183,FF40,Song of Storms Fairy (Giant Fairy?),,617,0,741,0000,0000,0000
+65,0,0,0183,FF40,Song of Storms Fairy (Giant Fairy?),,-210,5,1476,0000,0000,0000
+81,0,0,0183,FF41,Song of Storms Fairy (Giant Fairy?),,5143,-55,5012,0000,0000,0000
+81,1,0,0183,FF41,Song of Storms Fairy (Giant Fairy?),,5143,-55,5012,0000,0000,0000
+81,2,0,0183,FF41,Song of Storms Fairy (Giant Fairy?),,5143,-55,5012,0000,0000,0000
+87,0,0,0183,FF40,Song of Storms Fairy (Giant Fairy?),,819,-1298,7319,0000,0000,0000
+87,2,0,0183,FF01,Song of Storms Fairy (Giant Fairy?),,-575,-1233,7260,0000,C000,0000
+87,2,0,0183,FF40,Song of Storms Fairy (Giant Fairy?),,814,-1298,7319,0000,0000,0000
+91,0,3,0183,FF41,Song of Storms Fairy (Giant Fairy?),,1930,0,-795,0000,0000,0000
+91,2,3,0183,FF41,Song of Storms Fairy (Giant Fairy?),,1930,0,-795,0000,0000,0000
+96,0,0,0183,FF40,Song of Storms Fairy (Giant Fairy?),,-730,1347,464,0000,0000,0000
+96,2,0,0183,FF40,Song of Storms Fairy (Giant Fairy?),,-730,1347,464,0000,0000,0000
+Total: 24

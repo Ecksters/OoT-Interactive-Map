@@ -1,0 +1,5 @@
+Scene,Setup,Room
+55,0,0,013C,FFFF,Kakariko Cucco Lady,,-99,0,117,0000,78E4,0000
+82,0,0,013C,FFFF,Kakariko Cucco Lady,,486,80,1423,0000,8000,0000
+82,2,0,013C,FFFF,Kakariko Cucco Lady,,496,80,1418,0000,8000,0000
+Total: 3

@@ -1,0 +1,3 @@
+Scene,Setup,Room
+4,0,14,0071,0F00,Stone Steps And Platforms (Fire Temple),,-1884,4200,-892,0000,A000,0000
+Total: 1

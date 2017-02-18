@@ -1,0 +1,3 @@
+Scene,Setup,Room
+24,0,1,00E9,FFFF,Bongo Bongo Hand,,-50,1358,7,0000,0000,0000
+Total: 1

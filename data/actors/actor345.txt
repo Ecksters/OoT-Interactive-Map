@@ -1,0 +1,3 @@
+Scene,Setup,Room
+6,0,4,0159,0023,Light-Blocking Rock,,-1160,686,-880,0000,0000,0000
+Total: 1

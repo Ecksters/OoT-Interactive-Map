@@ -1,0 +1,45 @@
+Scene,Setup,Room
+0,0,0,011B,0A03,Navi Infospot,Type: Pop-up; Text: You can open a door by standing in front of it and pressing A. Pay attention to ; Perm: 0A,-417,400,427,0000,0000,0000
+0,0,0,011B,0A03,Navi Infospot,Type: Pop-up; Text: You can open a door by standing in front of it and pressing A. Pay attention to ; Perm: 0A,-513,800,10,0000,0000,0000
+0,0,0,011B,9301,Navi Infospot,Type: C-up; Text: Look; look; LINK! You can see down below this web using C-Up!; Perm: 13,0,-24,0,0028,0006,0000
+0,0,0,011B,1F02,Navi Infospot,Type: Pop-up; Text: Look at this wall! The vines growing on it give it a rough surface... Maybe you ; Perm: 1F,118,0,-325,0014,0000,0000
+0,0,0,011B,1F02,Navi Infospot,Type: Pop-up; Text: Look at this wall! The vines growing on it give it a rough surface... Maybe you ; Perm: 1F,-1394,280,1188,0000,0000,0000
+0,0,0,011B,1F02,Navi Infospot,Type: Pop-up; Text: Look at this wall! The vines growing on it give it a rough surface... Maybe you ; Perm: 1F,-1186,355,1398,0000,0000,0000
+0,0,0,011B,1F02,Navi Infospot,Type: Pop-up; Text: Look at this wall! The vines growing on it give it a rough surface... Maybe you ; Perm: 1F,-1176,480,1485,0000,0000,0000
+0,0,0,011B,1F02,Navi Infospot,Type: Pop-up; Text: Look at this wall! The vines growing on it give it a rough surface... Maybe you ; Perm: 1F,465,360,114,001C,0000,0000
+0,0,0,011B,1F02,Navi Infospot,Type: Pop-up; Text: Look at this wall! The vines growing on it give it a rough surface... Maybe you ; Perm: 1F,282,360,360,0014,0000,0000
+0,0,5,011B,0F08,Navi Infospot,Type: Pop-up; Text: Stand next to this block and grab hold of it with A. While holding A; you can pu; Perm: 0F,-1364,-883,1188,0014,0000,000A
+0,0,5,011B,510C,Navi Infospot,Type: Pop-up; Text: After you get into the water; if you hold down A; you can dive! I bet there are ; Perm: 11,-700,-880,941,003C,0000,0000
+0,0,5,011B,510C,Navi Infospot,Type: Pop-up; Text: After you get into the water; if you hold down A; you can dive! I bet there are ; Perm: 11,-435,-880,1163,001E,0000,0000
+1,0,0,011B,0816,Navi Infospot,Type: Pop-up; Text: With that switch on; the moving platform goes even higher. Now you can quickly r; Perm: 08,569,531,-1151,0028,004B,0000
+1,0,0,011B,0B15,Navi Infospot,Type: Pop-up; Text: It looks like there are many lava pits around here; so watch your step!; Perm: 0B,16,-153,-1019,0096,0000,0032
+1,0,2,011B,BF14,Navi Infospot,Type: C-up; Text: Wow! Look at all those Bomb Flowers! Is there any way you can set them all off a; No Flag,-1960,20,-1303,001E,0024,0000
+1,0,9,011B,0E19,Navi Infospot,Type: Pop-up; Text: You never know what will be around the corner in these narrow paths... Use Z Tar; Perm: 0E,1703,351,-627,0000,0000,0000
+1,0,9,011B,0E19,Navi Infospot,Type: Pop-up; Text: You never know what will be around the corner in these narrow paths... Use Z Tar; Perm: 0E,1703,351,-448,0000,0000,0000
+1,0,9,011B,0E19,Navi Infospot,Type: Pop-up; Text: You never know what will be around the corner in these narrow paths... Use Z Tar; Perm: 0E,1703,351,-266,0000,0000,0000
+2,0,2,011B,182F,Navi Infospot,Type: Pop-up; Text: Watch out; LINK! Electricity is running through this green slimy thing!; Perm: 18,-267,-353,-3401,001E,000B,0000
+2,0,5,011B,AC39,Navi Infospot,Type: C-up; Text: There’s a switch beyond this wall!; Temp: 0C,1547,-80,-1518,0000,0000,0000
+2,0,7,011B,1931,Navi Infospot,Type: Pop-up; Text: Watch out; LINK! Electricity is running through this red slimy thing!; Perm: 19,-664,-340,-5022,001E,000C,0000
+2,0,7,011B,1A31,Navi Infospot,Type: Pop-up; Text: Watch out; LINK! Electricity is running through this red slimy thing!; Perm: 1A,665,-340,-5012,001E,000C,0000
+2,0,7,011B,1B32,Navi Infospot,Type: Pop-up; Text: Watch out; LINK! Electricity is running through this blue slimy thing!; Perm: 1B,-4,-340,-5132,001E,000D,0000
+2,0,7,011B,3F33,Navi Infospot,Type: Pop-up; Text: This switch... It doesn’t look like you can press it down with your weight alone; No Flag,776,-340,-4686,0006,001D,0000
+2,0,7,011B,1037,Navi Infospot,Type: Pop-up; Text: The red slimy thing is gone! That must be because you cut the red tail! Will tha; Perm: 10,-664,-340,-5022,001E,004C,0000
+2,0,7,011B,1037,Navi Infospot,Type: Pop-up; Text: The red slimy thing is gone! That must be because you cut the red tail! Will tha; Perm: 10,665,-340,-5012,001E,004C,0000
+3,0,11,011B,088F,Navi Infospot,Type: Pop-up; Text: There are arrows painted on the  / floor!; Perm: 08,-2175,623,-1258,0014,0029,0000
+3,0,15,011B,4998,Navi Infospot,Type: Pop-up; Text: Link; watch out! / The ceiling is falling down!; Perm: 09,1984,403,-3067,0032,002C,0014
+3,0,19,011B,1691,Navi Infospot,Type: Pop-up; Text: Watch for the shadows of / monsters that hang from the / ceiling.; Perm: 16,-1773,1206,-3127,0000,0000,0000
+3,0,19,011B,1890,Navi Infospot,Type: Pop-up; Text: This corridor is all twisted!; Perm: 18,-1747,1228,-2077,001E,0000,0014
+3,0,20,011B,1791,Navi Infospot,Type: Pop-up; Text: Watch for the shadows of / monsters that hang from the / ceiling.; Perm: 17,1818,1228,-3319,0000,0000,0000
+4,0,5,011B,BFA3,Navi Infospot,Type: C-up; Text: Link; I hear Goron  / voices down below.; No Flag,2080,2940,-640,001E,0005,0000
+4,0,10,011B,13A9,Navi Infospot,Type: Pop-up; Text: This switch looks rusted.; Perm: 13,-1326,2980,-67,0000,0000,0000
+4,0,11,011B,13A9,Navi Infospot,Type: Pop-up; Text: This switch looks rusted.; Perm: 13,-2031,2980,-2,0000,0000,0000
+4,0,13,011B,BFA7,Navi Infospot,Type: C-up; Text: This statue...haven't we seen it / somewhere before?; No Flag,-2357,4181,-719,001E,0031,0000
+5,0,21,011B,47AB,Navi Infospot,Type: Pop-up; Text: Link! Be careful! / Don't get swallowed by the  / vortexes!; Perm: 07,-2885,380,-4088,0028,0000,0000
+5,0,21,011B,47AB,Navi Infospot,Type: Pop-up; Text: Link! Be careful! / Don't get swallowed by the  / vortexes!; Perm: 07,-2862,380,-4358,0028,0000,0000
+6,0,2,011B,7E91,Navi Infospot,Type: Pop-up; Text: Watch for the shadows of / monsters that hang from the / ceiling.; Local: 06,-722,30,-1366,0064,0000,0001
+7,0,9,011B,3291,Navi Infospot,Type: Pop-up; Text: Watch for the shadows of / monsters that hang from the / ceiling.; Temp: 12,3785,-983,1447,0064,0000,0004
+8,0,0,011B,2391,Navi Infospot,Type: Pop-up; Text: Watch for the shadows of / monsters that hang from the / ceiling.; Temp: 03,3,0,-697,001E,0000,0004
+9,0,3,011B,0580,Navi Infospot,Type: Pop-up; Text: I can hear a voice from / somewhere... / It's saying: / "Collect five silver Rup; Perm: 05,296,9,-4,0006,0021,0002
+9,0,9,011B,6889,Navi Infospot,Type: Pop-up; Text: This blue fire...it doesn't seem / natural. Maybe you can use it for / something; Temp: 08,603,202,-2468,0014,0000,0014
+86,2,0,011B,0E07,Navi Infospot,Type: Pop-up; Text: From here on; we’ll be going through some narrow passages! If you take it slow; ; Perm: 0E,-198,0,1580,0000,0000,0000
+Total: 43

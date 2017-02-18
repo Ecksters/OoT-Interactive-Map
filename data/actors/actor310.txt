@@ -1,0 +1,3 @@
+Scene,Setup,Room
+5,0,13,0136,FFFF,Dark Link's Illusion Room,,-3120,1040,-2680,0000,4000,0000
+Total: 1

@@ -1,0 +1,5 @@
+Scene,Setup,Room
+3,0,7,00E4,0026,Forest Temple Well Water,,1265,174,-1760,0000,0000,0000
+3,0,8,00E4,0026,Forest Temple Well Water,,-1027,174,-1760,0000,0000,0000
+3,0,9,00E4,0026,Forest Temple Well Water,,119,-282,-1820,0000,0000,0000
+Total: 3

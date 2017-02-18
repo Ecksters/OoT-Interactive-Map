@@ -1,0 +1,12 @@
+Scene,Setup,Room
+0,0,3,00C7,0001,Withered Deku Baba (Deku Stick),,-546,-820,392,0000,7E94,0000
+0,0,6,00C7,0001,Withered Deku Baba (Deku Stick),,-2038,-760,1252,0000,6000,0000
+0,0,6,00C7,0001,Withered Deku Baba (Deku Stick),,-1674,-760,1248,0000,A000,0000
+0,0,7,00C7,0001,Withered Deku Baba (Deku Stick),,-2174,-760,295,0000,5A50,0000
+0,0,10,00C7,0001,Withered Deku Baba (Deku Stick),,-1472,840,-157,0000,0B61,0000
+85,0,1,00C7,0001,Withered Deku Baba (Deku Stick),,2109,-1,-317,0000,0000,0000
+85,0,1,00C7,0001,Withered Deku Baba (Deku Stick),,2237,-1,-291,0000,0000,0000
+85,0,1,00C7,0001,Withered Deku Baba (Deku Stick),,2293,-1,-496,0000,0000,0000
+85,0,1,00C7,0001,Withered Deku Baba (Deku Stick),,3126,-180,-1555,0000,0000,0000
+85,0,1,00C7,0001,Withered Deku Baba (Deku Stick),,4129,-170,-548,0000,0000,0000
+Total: 10

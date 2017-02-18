@@ -1,0 +1,27 @@
+Scene,Setup,Room
+5,0,0,012E,1C9E,Music Staff Spot,Type 7; Song 2; Perm: 1E,-690,860,342,0000,8000,0000
+5,0,1,012E,1C9D,Music Staff Spot,Type 7; Song 2; Perm: 1D,-300,380,-7,0000,8000,0000
+5,0,17,012E,1C9C,Music Staff Spot,Type 7; Song 2; Perm: 1C,999,780,338,0000,8000,0000
+6,0,5,012E,1CB3,Music Staff Spot,Type 7; Song 2; Temp: 13,445,674,-1265,0000,0000,0000
+6,0,14,012E,1CB1,Music Staff Spot,Type 7; Song 2; Temp: 11,373,30,-872,0000,0000,0000
+6,0,24,012E,1CB5,Music Staff Spot,Type 7; Song 2; Temp: 15,679,1633,-816,0000,0000,0000
+7,0,21,012E,1CB8,Music Staff Spot,Type 7; Song 2; Local: 00,4670,-1160,-2005,0000,C000,0001
+8,0,0,012E,1C83,Music Staff Spot,Type 7; Song 2; Perm: 03,10,-10,-1528,0000,8000,0001
+13,0,9,012E,1C91,Music Staff Spot,Type 7; Song 2; Perm: 11,-2179,-236,-842,0000,4000,0001
+59,0,0,012E,1CB8,Music Staff Spot,Type 7; Song 2; Local: 00,-22,10,-798,0000,0000,0000
+61,0,0,012E,1CB8,Music Staff Spot,Type 7; Song 2; Local: 00,-21,10,-802,0000,0000,0000
+65,0,2,012E,17FF,Music Staff Spot,Type 5; Song 15; No Flag,0,127,-1200,0000,0000,0000
+65,4,2,012E,17FF,Music Staff Spot,Type 5; Song 15; No Flag,-1,172,-1202,0000,0000,0000
+65,5,2,012E,17FF,Music Staff Spot,Type 5; Song 15; No Flag,-1,172,-1202,0000,0000,0000
+67,0,1,012E,13FF,Music Staff Spot,Type 4; Song 15; No Flag,-1,-40,1384,0000,0000,0000
+67,4,1,012E,13FF,Music Staff Spot,Type 4; Song 15; No Flag,-1,-40,1384,0000,0000,0000
+67,6,1,012E,13FF,Music Staff Spot,Type 4; Song 15; No Flag,-1,-40,1384,0000,0000,0000
+72,0,6,012E,0BC2,Music Staff Spot,Type 2; Song 15; Perm: 02,2892,-150,30,0000,4000,001E
+83,0,1,012E,1BFF,Music Staff Spot,Type 6; Song 15; No Flag,602,181,81,0000,C000,000B
+83,1,1,012E,1BFF,Music Staff Spot,Type 6; Song 15; No Flag,602,181,80,0000,C000,0000
+83,2,1,012E,1BFF,Music Staff Spot,Type 6; Song 15; No Flag,602,181,81,0000,C000,0000
+83,3,1,012E,1BFF,Music Staff Spot,Type 6; Song 15; No Flag,602,181,81,0000,C000,0000
+84,0,1,012E,07F8,Music Staff Spot,Type 1; Song 15; Local: 00,4096,921,-1400,0000,0000,0000
+84,2,1,012E,07F8,Music Staff Spot,Type 1; Song 15; Local: 00,4096,921,-1400,0000,0000,0000
+98,0,3,012E,1C9B,Music Staff Spot,Type 7; Song 2; Perm: 1B,-71,-2,-333,0000,0000,0001
+Total: 25
