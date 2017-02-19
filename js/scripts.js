@@ -61,9 +61,18 @@
   zoomHome.addTo(map);
   var drawControl = new L.Control.Draw();
   map.addControl(drawControl);
- 
+  
+  $('.tooltip').tooltipster({theme: ['tooltipster-shadow', 'tooltipster-shadow-customized'],
+                              side: ['left', 'top', 'bottom', 'right'],
+                              delay: 100
+                              });
+ //Fix odd scrollbar issue in tooltips
+ $('#projectInfo').tooltipster('open');
+ $('#projectInfo').tooltipster('close');
  var mapAdult = false;
  map.addLayer(layers.childAngledLayer);
+ 
+ 
   
  // L.control.layers(baseMaps, null, {collapsed: false}).addTo(map);
 function changeAge() {    

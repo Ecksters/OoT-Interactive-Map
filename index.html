@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/leaflet.zoomhome.css"/>
+    <link rel="stylesheet" type="text/css" href="css/tooltipster.bundle.min.css" />
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
     <script src="js/leaflet.draw.js"></script>
@@ -16,6 +17,7 @@
     <script src="js/leaflet.zoomhome.min.js"></script>
     <script src="js/leaflet-hash.js"></script>
     <script src="js/Leaflet.Control.Custom.js"></script>
+    <script type="text/javascript" src="js/tooltipster.bundle.min.js"></script>
     <script src="js/mapdata.js"></script>
     <meta charset="UTF-8">
    
@@ -26,9 +28,9 @@
         <!-- Nav tabs -->
         <div class="sidebar-tabs">
             <ul role="tablist">
-                <li><a href="#home" role="tab"><i class="fa fa-bars"></i></a></li>
-                <li><a href="#profile" role="tab"><i class="fa fa-user fa-fw"></i></a></li>
-                <li><a href="https://github.com/Ecksters/OoT-Interactive-Map" role="tab" target="_blank"><i class="fa fa-github"></i></a></li>
+                <li class="tooltip" title="Project Information" id="projectInfo"><a href="#home" role="tab"><i class="fa fa-bars"></i></a></li>
+                <li class="tooltip" title="Project Author"><a href="#profile" role="tab"><i class="fa fa-user fa-fw"></i></a></li>
+                <li class="tooltip" title="Project GitHub"><a href="https://github.com/Ecksters/OoT-Interactive-Map" role="tab" target="_blank"><i class="fa fa-github"></i></a></li>
             </ul>
 
             <ul role="tablist">
