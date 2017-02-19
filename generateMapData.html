@@ -1,0 +1,21 @@
+<html>
+  <script src="js/rawmapdata.js"></script>
+  <script>
+    mapData = scenesRaw;
+    var subData = new Array({name: "rooms", data: roomsRaw}, {name: "setups", data: setupsRaw});
+    
+    for(h in subData) {
+      for(i in subData[h].data) {
+        var entry = subData[h].data[i];
+        var sceneID = JSON.parse(JSON.stringify(entry.sceneID));
+        delete entry.sceneID;
+        delete entry.sceneName;
+        if(typeof mapData[sceneID][subData[h].name] === "undefined") {
+          mapData[sceneID][subData[h].name] = new Array();
+        }
+        mapData[sceneID][subData[h].name].push(entry);
+      }
+    }
+    document.write(JSON.stringify(mapData));
+  </script>
+</html>

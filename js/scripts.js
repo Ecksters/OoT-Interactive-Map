@@ -47,7 +47,7 @@
     //map.setMaxBounds(mapBounds);
     map.setMinZoom(layerData[data.name]["zoom"]);
     regionLayer.remove();
-    regionLayer = addOverlay(loadAreas(layerData[data.name]["id"], dataRegions));
+    regionLayer = addOverlay(loadRegions(layerData[data.name]["id"], dataRegions));
     addLabel(regionLayer);
     miniMap.changeLayer(new L.TileLayer('maps/' + layerData[data.name]["folder"] + '/{z}/map_tile_{x}_{y}.png', {minZoom: 8, maxZoom: 10, attribution: "minimap"}));
   }
@@ -90,21 +90,80 @@ function changeAge() {
 
 }
 
-var myStyle = {
-  "color": "#000000",
-  "weight": 0,
-  "fill": false,
-  "lineJoin":  'round'
-};
-  
-var regionLayer = addOverlay(loadAreas(0, dataRegions));
+
+var regionLayerData = loadRegions(0, dataRegions);
+var regionLayer = addOverlay(regionLayerData);
 addLabel(regionLayer);
 
+var areaLayersData = loadAreas(defaultMap.folder)
+var sceneLayer = addOverlay(areaLayersData.sceneData);
+var roomLayer = addOverlay(areaLayersData.roomData);
 
-function loadAreas(currentMap, data)
+function loadAreas(mapName) {
+  var sceneData = Array();
+  var roomData = Array();
+  var coords = mapName + "Coords";
+  for(var i in mapData)
+  {
+    var currentScene = mapData[i];
+    if(Array.isArray(currentScene[coords]))
+    {
+      for(var j in currentScene[coords]){
+        currentSection = currentScene[coords][j];
+        sceneData.push(
+        {
+             "type": "Feature", 
+             "geometry": { 
+               "type": "Polygon", 
+               "coordinates": [currentSection]
+             }, 
+             "properties": { 
+               "name": currentScene.name,
+               "className": "scene scene"+currentScene.id,
+               "type": "scene",
+               "id": currentScene.id
+              } 
+        });
+      }
+    }
+    var rooms = currentScene.rooms;
+    if(Array.isArray(rooms))
+    {
+      for(var j in rooms)
+      {
+        var currentRoom = rooms[j];
+        if(Array.isArray(currentRoom[coords]))
+        {
+          for(var k in currentRoom[coords]){
+            currentSection = currentRoom[coords][k];
+            roomData.push(
+            {
+                 "type": "Feature", 
+                 "geometry": { 
+                   "type": "Polygon", 
+                   "coordinates": [currentSection]
+                 }, 
+                 "properties": { 
+                   "name": currentRoom.name,
+                   "className": "room room"+currentRoom.id+"s"+currentScene.id,
+                   "type": "room",
+                   "scene": currentScene.id,
+                   "id": currentRoom.id
+                  } 
+            });
+          }
+        }
+      }
+    }
+  }
+  return {sceneData, roomData};
+}
+
+
+function loadRegions(currentMap, data)
 {
   var overlayData = Array();
-  for(i in data[currentMap])
+  for(var i in data[currentMap])
   {
     var currentFeature = data[currentMap][i];
     if(Array.isArray(currentFeature.Outline))
@@ -118,8 +177,8 @@ function loadAreas(currentMap, data)
            }, 
            "properties": { 
              "name": currentFeature.Name,
-             "scene": currentFeature.Scene,
-             "room": currentFeature.Room,
+             "className": "region",
+             "type": "region"
              } 
       });
     }
@@ -127,32 +186,37 @@ function loadAreas(currentMap, data)
   return overlayData;
 }
 
+
+
+
 function addOverlay(overlayData)
 {
   overlayLayer = L.geoJSON(overlayData, {
-      style: myStyle,
+      style: function(feature) {
+        return {
+        "color": "#000000",
+        "weight": 0,
+        "fill": false,
+        "lineJoin":  'round',
+        "className": feature.properties.className
+        };
+      },
       onEachFeature: function (feature, layer) {
         layer.on('mouseout', function () {
-          this.setStyle({
-            'fill': false
-          });
+            $('.'+feature.properties.className.split(" ")[1]).attr("fill", "none");
         });
         layer.on('mouseover', function () {
-          this.setStyle({
-            'fill': true,
-            'fillOpacity': 0.1
-          });
+          $('.'+feature.properties.className.split(" ")[1]).attr({"fill": "black", "fill-opacity": "0.2"});
         });
         layer.on('mousedown', function () {
-          this.setStyle({
-            'fill': true,
-            'fillOpacity': 0.4
-          });
+          if(map.getZoom() < 14)
+          $('.'+feature.properties.className.split(" ")[1]).attr({"fill": "black", "fill-opacity": "0.6"});
+        });
+        layer.on('mouseup', function () {
+          $('.'+feature.properties.className.split(" ")[1]).attr("fill", "none");
         });
         layer.on('click', function () {
-          this.setStyle({
-            'fill': false
-          });
+          $('.'+feature.properties.className.split(" ")[1]).attr("fill", "none");
           map.fitBounds(layer.getBounds());
         });
       }
@@ -238,7 +302,7 @@ map.on('draw:created', function(e) {
   else
   {
     coords = e.layer.getLatLngs();
-    for(i in coords[0])
+    for(var i in coords[0])
     {
       coordsText = coordsText + "[" + coords[0][i].lng + ", " + coords[0][i].lat + "], ";
     }
