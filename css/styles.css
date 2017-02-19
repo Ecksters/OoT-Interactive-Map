@@ -17,7 +17,7 @@ html, body, #map {
 }
 .label {
   color: white;
-  text-shadow: 0px 0px .8em black;
+  text-shadow: 0px 0px .5em black;
   background: transparent;
   border: none;
   box-shadow: none;
@@ -31,4 +31,37 @@ html, body, #map {
 .sidebar-content {
   background: rgba(0, 0, 0, 0.9);
   color: white;
+}
+
+#ageToggle{
+  height: 100px;
+  background: rgba(0,0,0,.7);
+  width: 100px;
+  position: absolute;
+  left: 100px;
+  top: 0px;
+  z-index: 5000;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.8);
+  border-radius: 3px;
+}
+
+#ageToggleContainer{
+  cursor: pointer;
+  height: 100px;
+  border-radius: 5px;
+}
+
+#ageToggleContainer > img{
+  border-radius: 5px;
+}
+
+#ageToggleContainer:hover{
+    box-shadow: 0px 0px 20px 0px rgba(0, 255, 0, 0.8);
+    background: rgba(0, 255, 0, 0.8);
+
+}
+
+#ageToggleContainer:active {
+    box-shadow: 0px 0px 30px 0px rgba(255, 255, 255, 0.8);
+    background: rgba(0, 255, 0, 0.8);
 }

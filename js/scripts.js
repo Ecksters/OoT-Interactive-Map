@@ -123,14 +123,21 @@ function addOverlay(overlayData)
   overlayLayer = L.geoJSON(overlayData, {
       style: myStyle,
       onEachFeature: function (feature, layer) {
-        layer.on('mouseover', function (e) {
-          this.setStyle({
-            'fill': true
-          });
-        });
         layer.on('mouseout', function () {
           this.setStyle({
             'fill': false
+          });
+        });
+        layer.on('mouseover', function () {
+          this.setStyle({
+            'fill': true,
+            'fillOpacity': 0.1
+          });
+        });
+        layer.on('mousedown', function () {
+          this.setStyle({
+            'fill': true,
+            'fillOpacity': 0.4
           });
         });
         layer.on('click', function () {
@@ -185,7 +192,7 @@ map.on("zoomend", function(e)
   
 L.control.custom({
     position: 'bottomleft',
-    content : '<div><img src="images/ageToggle.png" style="cursor: pointer"><div id="ageToggle" style="height: 100px; background: rgba(0,0,0,.7); width: 100px; position: absolute; left: 100px; top: 0px; z-index: 5000;"></div></div>',
+    content : '<div id="ageToggleContainer"><img src="images/ageToggle.png"><div id="ageToggle"></div></div>',
     classes : '',
     style   :
     {
