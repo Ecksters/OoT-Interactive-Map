@@ -47,7 +47,12 @@
     //map.setMaxBounds(mapBounds);
     map.setMinZoom(layerData[data.name]["zoom"]);
     regionLayer.remove();
+    sceneLayer.remove();
+    roomLayer.remove();
     regionLayer = addOverlay(loadRegions(layerData[data.name]["id"], dataRegions));
+    areaLayersData = loadAreas(layerData[data.name].folder);
+    sceneLayer = addOverlay(areaLayersData.sceneData);
+    roomLayer = addOverlay(areaLayersData.roomData);
     addLabel(regionLayer);
     miniMap.changeLayer(new L.TileLayer('maps/' + layerData[data.name]["folder"] + '/{z}/map_tile_{x}_{y}.png', {minZoom: 8, maxZoom: 10, attribution: "minimap"}));
   }
@@ -56,7 +61,7 @@
   
   map.setMaxBounds(mapBounds);
   
-  var hash = new L.Hash(map);
+  
   var zoomHome = L.Control.zoomHome();
   zoomHome.addTo(map);
   var drawControl = new L.Control.Draw();

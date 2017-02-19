@@ -160,3 +160,5 @@
 		this._hash.removeFrom();
 	};
 })(window);
+
+var hash = new L.Hash(map);
