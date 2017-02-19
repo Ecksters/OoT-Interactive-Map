@@ -5,7 +5,7 @@ body {
 html, body, #map {
     height: 100%;
     width: 100%;
-    background: #050505;
+    background: #000000;
 }
 .leaflet-container .leaflet-control-mouseposition {
   background-color: rgba(255, 255, 255, 0.7);
@@ -21,16 +21,99 @@ html, body, #map {
   background: transparent;
   border: none;
   box-shadow: none;
-  font-family: "Cambria", "Georgia";
+  font-family: hylianSerif, "Cambria", "Georgia";
 }
 
 .leaflet-control-minimap {
-  background: #050505;
+  background: #000000;
+}
+
+@font-face {
+	font-family: dialogueText;
+	src: url(fonts/chiaro.ttf);
+}
+
+@font-face {
+	font-family: hylianSerif;
+	src: url(fonts/HyliaSerifBeta-Regular.otf);
+}
+
+@font-face {
+	font-family: bossText;
+	src: url(fonts/KokinEdo.otf);
+}
+
+.sidebar-tabs {
+  background: rgba(209, 147, 0, 0.95);
+  text-shadow: 0px 0px 5px black;
+}
+
+.sidebar-tabs > li, .sidebar-tabs > ul > li {
+  color: white;
+  text-shadow: 0px 0px 5px black;
+}
+
+.sidebar-tabs > li.active, .sidebar-tabs > ul > li.active {
+  background: rgba( 6, 80, 224, 1);
+}
+
+.sidebar-tabs > li:hover, .sidebar-tabs > ul > li:hover {
+  color:white;
+  background: rgba(166, 100, 0, 0.95);
+  }
+
+.leaflet-bar a, .leaflet-bar {
+  
+  color:white;
+  background-color: rgba(209, 147, 0, 0.95);
+  text-shadow: 0px 0px 5px black;
+}
+
+.leaflet-bar a:hover {
+  color:white;
+  background-color: rgba(166, 100, 0, 0.95);
+}
+
+.leaflet-bar a.leaflet-disabled {
+  color:white;
+  background-color: rgba(187, 165, 161, 0.95);
 }
 
 .sidebar-content {
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(4, 20, 56, 0.8);
   color: white;
+  text-shadow: 2px 2px black;
+  font-family: dialogueText;
+  border-radius: 5px 0px 0px 5px;
+  font-size: 16px;
+}
+
+.sidebar-header {
+  background: rgba( 6, 80, 224, 1);
+  color: white;
+  text-shadow: 2px 2px black;
+  font-family: bossText;
+  font-size: 16px;
+}
+
+/* unvisited link */
+.sidebar-content * a:link {
+    color: #CC0000;
+}
+
+/* visited link */
+.sidebar-content * a:visited {
+    color: #AA0000;
+}
+
+/* mouse over link */
+.sidebar-content * a:hover {
+    color: #DD0000;
+}
+
+/* selected link */
+.sidebar-content * a:active {
+    color: #AAAAAA;
 }
 
 #ageToggle{
@@ -43,16 +126,33 @@ html, body, #map {
   z-index: 5000;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.8);
   border-radius: 3px;
+  margin-left: 3px;
+}
+
+#ageToggleSelection{
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 5000;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.8);
+  border-radius: 3px;
+  margin-left: 3px;
+  border-bottom: 3px solid white;
 }
 
 #ageToggleContainer{
   cursor: pointer;
   height: 100px;
   border-radius: 5px;
+  margin-bottom: 20px;
+  margin-left: 3px;
 }
 
 #ageToggleContainer > img{
   border-radius: 5px;
+  margin-top: -20px;
 }
 
 #ageToggleContainer:hover{

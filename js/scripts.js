@@ -154,7 +154,7 @@ function addOverlay(overlayData)
 function addLabel(overlayLayer){
   overlayLayer.eachLayer(function(layer) {
     var bounds = layer.getBounds();
-    var fontSize = (bounds._northEast.lng - bounds._southWest.lng) / map.getZoom() * 3000;
+    var fontSize = (bounds._northEast.lng - bounds._southWest.lng) / map.getZoom() * 2500;
     if(fontSize > 2) {
       layer.bindTooltip("<span style='font-size: " + fontSize + "px'>" + layer.feature.properties.name + "</span>", {
         className: "label",
@@ -192,7 +192,7 @@ map.on("zoomend", function(e)
   
 L.control.custom({
     position: 'bottomleft',
-    content : '<div id="ageToggleContainer"><img src="images/ageToggle.png"><div id="ageToggle"></div></div>',
+    content : '<div id="ageToggleContainer"><img src="images/ageToggle.png"><div id="ageToggle"></div><div id="ageToggleSelection"></div></div>',
     classes : '',
     style   :
     {
@@ -210,6 +210,7 @@ L.control.custom({
         {
             changeAge();
             $('#ageToggle').animate({left: !mapAdult*100+"px"}, 200)
+            $('#ageToggleSelection').animate({left: mapAdult*100+"px"}, 200)
         }
     }
 })
