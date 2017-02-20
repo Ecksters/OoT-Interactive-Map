@@ -1,0 +1,11 @@
+Room 0
+Room at 02EB6000
+Setup 0: 00000000
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 05, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000050
+0B: There are 6 Object(s). List starts at 00000038
+0036, 001C, 001E, 0048, 00BD, 012B, 
+

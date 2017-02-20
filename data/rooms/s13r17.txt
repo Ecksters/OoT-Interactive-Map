@@ -1,0 +1,40 @@
+Room 17
+Room at 0325F000
+Setup 0: 00000000
+16: Sound Settings: Echo 6
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000210
+0B: There are 8 Object(s). List starts at 00000040
+0179, 0085, 000E, 0090, 0038, 011C, 008B, 00B7, 
+01: There are 28 actor(s). List starts at 00000050
+012D:FFC2 Hookshot Block, (-831, 350, 587) (4000, EAAB, 0000)
+0008:83F0 Decorative Flame, (-676, 256, 922) (00B6, AAAB, 0000)
+0008:83F0 Decorative Flame, (-665, 255, 902) (0000, AB61, 0000)
+0008:83F0 Decorative Flame, (-680, 255, 906) (FF4A, AAAB, 0000)
+0008:83F0 Decorative Flame, (-476, 256, 575) (FF4A, AAAB, 0000)
+0008:83F0 Decorative Flame, (-465, 255, 556) (00B6, AAAB, 0000)
+0008:83F0 Decorative Flame, (-480, 255, 560) (0000, AB61, 0000)
+0008:83F0 Decorative Flame, (-987, 255, 280) (0000, 2B61, 0000)
+0008:83F0 Decorative Flame, (-976, 255, 260) (00B6, 2AAB, 0000)
+0008:83F0 Decorative Flame, (-972, 255, 276) (0000, 2B61, 0000)
+008A:0600 Beamos, (-829, 150, 589) (0000, 0000, 0000)
+0183:FF40 Song of Storms Fairy (Giant Fairy?), (-833, 150, 587) (0000, 0000, 0000)
+0054:0000 Pushable Armos, (-798, 150, 348) (0000, 6AAB, 0000)
+0054:0000 Pushable Armos, (-668, 150, 486) (0000, 6AAB, 0000)
+0054:0000 Pushable Armos, (-1074, 150, 668) (0000, 6AAB, 0000)
+0054:0000 Pushable Armos, (-782, 150, 886) (0000, 6AAB, 0000)
+0080:0410 Sliding Metal Spike Trap, (-626, 150, 520) (0000, 2AAB, 0000)
+0080:0610 Sliding Metal Spike Trap, (-895, 150, 297) (0000, AAAB, 0000)
+0080:0A10 Sliding Metal Spike Trap, (-862, 150, 651) (0000, 2AAB, 0000)
+0080:0610 Sliding Metal Spike Trap, (-1133, 150, 638) (0000, 2AAB, 0000)
+0080:0610 Sliding Metal Spike Trap, (-730, 150, 928) (0000, AAAB, 0000)
+0117:1FCB Silver Rupee, Type: Rupee, Perm: 0B, (-829, 274, 591) (0000, 0000, 0000)
+0117:1FCB Silver Rupee, Type: Rupee, Perm: 0B, (-940, 165, 270) (0000, 0000, 0000)
+0117:1FCB Silver Rupee, Type: Rupee, Perm: 0B, (-865, 165, 656) (0000, 0000, 0000)
+0117:1FCB Silver Rupee, Type: Rupee, Perm: 0B, (-725, 165, 942) (0000, 0000, 0000)
+0117:1FCB Silver Rupee, Type: Rupee, Perm: 0B, (-1142, 165, 639) (0000, 0000, 0000)
+0117:014B Silver Rupee, Type: Collect 5 Rupees, Perm: 0B, (-941, 150, 798) (0000, 0000, 0000)
+0015:2603 Collectable Heart, Temp: 06, (-517, 170, 592) (0000, 0000, 0000)
+

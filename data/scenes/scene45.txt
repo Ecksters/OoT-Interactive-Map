@@ -1,0 +1,21 @@
+Scene at 02586000
+Setup 0: 00000000
+15: Sound Settings: Reverb 5, Playback option Always Playing, Song 55.
+04: There are 1 room(s). List starts at 00000068
+02587000 025B7C90
+19: JPEG background camera related: 10 Overworld Region:  04
+03: Collision Header starts at 00000950
+Offset to vertex array 00000714
+Offset to polygon array 000000F4
+Offset to polygon type defs 000000CC
+Offset to camera data 000000B4
+Offset to water boxes 00000000
+Size in bytes 2248
+06: Entrance Index Definitions starts at 00000070
+07: Elf_Message 1, Load Object 0003
+00: There are 1 position(s). List starts at 00000058.
+0000:0E00 Link, (0, 0, 109) (0000, 8000, 0000)
+11: Skybox 17, Cast: Sunny, Fog? Yes
+13: Exit List starts at 00000074. 0266 0000
+0F: There are 1 environment setting(s). List starts at 00000078.
+

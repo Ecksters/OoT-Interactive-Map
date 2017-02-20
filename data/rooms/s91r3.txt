@@ -1,0 +1,48 @@
+Room 3
+Room at 02168000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 9
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000130
+0B: There are 11 Object(s). List starts at 00000058
+010A, 0168, 0172, 0117, 0131, 011E, 0163, 0188, 0164, 017B, 0024, 
+01: There are 12 actor(s). List starts at 00000070
+003B:000C Ambient Sound, Unknown, (1596, 0, -1067) (0000, 0000, 0000)
+0097:0000 Environmental Effects, (1735, 0, -792) (0000, 0000, 0000)
+000E:FF00 Octorok, (2114, -20, -847) (0000, C000, 0000)
+0183:FF41 Song of Storms Fairy (Giant Fairy?), (1930, 0, -795) (0000, 0000, 0000)
+0015:3400 Collectable Green Rupee, Temp: 14, (2215, -260, -850) (0000, 0000, 0000)
+0015:3500 Collectable Green Rupee, Temp: 15, (2164, -260, -850) (0000, 0000, 0000)
+0015:3600 Collectable Green Rupee, Temp: 16, (2113, -260, -850) (0000, 0000, 0000)
+0015:3700 Collectable Green Rupee, Temp: 17, (2061, -260, -853) (0000, 0000, 0000)
+0015:3900 Collectable Green Rupee, Temp: 19, (2194, -260, -895) (0000, 0000, 0000)
+0015:3A00 Collectable Green Rupee, Temp: 1A, (2156, -260, -937) (0000, 0000, 0000)
+0015:3B00 Collectable Green Rupee, Temp: 1B, (2193, -260, -813) (0000, 0000, 0000)
+0015:3C00 Collectable Green Rupee, Temp: 1C, (2153, -260, -779) (0000, 0000, 0000)
+
+Setup 2: 00000150
+16: Sound Settings: Echo 9
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000130
+0B: There are 12 Object(s). List starts at 00000190
+00FC, 00FD, 00FB, 013D, 011E, 0188, 0128, 0024, 0163, 00C5, 013C, 010A, 
+01: There are 6 actor(s). List starts at 000001A8
+003B:000C Ambient Sound, Unknown, (1596, 0, -1067) (0000, 0000, 0000)
+0097:0000 Environmental Effects, (1735, 0, -792) (0000, 0000, 0000)
+000E:FF00 Octorok, (2114, -20, -847) (0000, C000, 0000)
+016D:0000 Mido, (1599, 0, -980) (0000, 0000, 0000)
+0165:0202 Proximity Weather Effect, (2135, -190, -847) (0000, 0000, 0000)
+0183:FF41 Song of Storms Fairy (Giant Fairy?), (1930, 0, -795) (0000, 0000, 0000)
+
+Cutscene 0: 00000210
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 03000130
+

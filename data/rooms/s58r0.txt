@@ -1,0 +1,14 @@
+Room 0
+Room at 02CCD000
+Setup 0: 00000000
+16: Sound Settings: Echo 1
+08: Room Behavior: ? 02, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+05: Wind Settings: Forces Westward F6, Vertical 00, Southward FE, Strength 08
+0A: Room Mesh: 03000060
+0B: There are 1 Object(s). List starts at 00000048
+0098, 
+01: There are 1 actor(s). List starts at 0000004C
+0147:17FF Checkable Spot, (-93, 6, 19) (0000, 4000, 0000)
+

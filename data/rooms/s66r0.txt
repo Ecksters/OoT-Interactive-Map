@@ -1,0 +1,49 @@
+Room 0
+Room at 0286D000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 5
+08: Room Behavior: ? 02, Show invisible actors? False, Idle Animation 04
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000A0
+0B: There are 13 Object(s). List starts at 00000060
+005B, 00B7, 00BB, 00BD, 00BE, 00CE, 00D8, 0013, 0119, 012F, 017B, 017F, 016B, 
+01: There are 2 actor(s). List starts at 0000007C
+00C0:0000 Shooting Gallery Game, (-20, 20, 181) (0000, 0000, 0000)
+0141:0329 Square Signpost, (59, 0, 365) (0000, C000, 0000)
+
+Cutscene 0: 000000C0
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: 0000 00
+0A: Room Mesh: 030000A0
+
+Cutscene 1: 000000F0
+16: Sound Settings: Echo 5
+08: Room Behavior: ? 02, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: 0000 00
+0A: Room Mesh: 030000A0
+0B: There are 1 Object(s). List starts at 00000130
+00B6, 
+01: There are 6 actor(s). List starts at 00000134
+008C:0007 ???, (-161, 52, 257) (0000, 0000, 0000)
+008C:0008 ???, (-100, 69, 257) (0000, 0000, 0000)
+008C:0009 ???, (-54, 75, 254) (0000, 0000, 0000)
+008C:000A ???, (-10, 81, 254) (0000, 0000, 0000)
+008C:000B ???, (44, 78, 254) (0000, 0000, 0000)
+008C:000C ???, (93, 91, 257) (0000, 0000, 0000)
+
+Cutscene 2: 000001A0
+16: Sound Settings: Echo 5
+08: Room Behavior: ? 02, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: 0000 00
+0A: Room Mesh: 030000A0
+0B: There are 3 Object(s). List starts at 000001E0
+00B6, 0048, 0075, 
+01: There are 1 actor(s). List starts at 000001E8
+005D:0003 Warp Portal, (-62, 0, 269) (0000, 0000, 0000)
+

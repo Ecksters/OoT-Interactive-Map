@@ -1,0 +1,20 @@
+Room 6
+Room at 024EB000
+Setup 0: 00000000
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000E0
+0B: There are 10 Object(s). List starts at 00000040
+0036, 001E, 0024, 0039, 004A, 000E, 00A4, 012B, 00B7, 00BB, 
+01: There are 8 actor(s). List starts at 00000054
+00C7:0001 Withered Deku Baba (Deku Stick), (-2038, -760, 1252) (0000, 6000, 0000)
+00C7:0001 Withered Deku Baba (Deku Stick), (-1674, -760, 1248) (0000, A000, 0000)
+0125:FF01 Regen Grass, (-1919, -760, 820) (0000, 0000, 0000)
+0125:FF01 Regen Grass, (-1796, -760, 821) (0000, 0000, 0000)
+0055:0000 Deku Baba (Snapping), (-1843, -760, 1033) (0000, 4000, 0000)
+005E:2400 Lit Wooden Torch, Perm: 00, (-1855, -760, 1212) (0000, 0000, 0000)
+005E:1083 Timed Torch, Light: 2, Perm: 03, (-1966, -760, 964) (0000, 0000, 0000)
+005E:1083 Timed Torch, Light: 2, Perm: 03, (-1743, -760, 965) (0000, 0000, 0000)
+

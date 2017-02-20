@@ -1,0 +1,67 @@
+Room 0
+Room at 02515000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: 0C00 00
+0A: Room Mesh: 030000F0
+0B: There are 8 Object(s). List starts at 00000060
+00BC, 0087, 009D, 00CA, 00B3, 00BA, 0048, 0090, 
+01: There are 8 actor(s). List starts at 00000070
+00D2:0000 Adult Ruto, (192, 6, 1) (0000, C000, 0000)
+005D:FFFE Warp Portal, (0, 6, 2) (0000, 0000, 0000)
+00A9:0000 Impa, (-95, 6, 170) (0000, 6AAB, 0000)
+00A8:0000 Sage Darunia (Cutscene), (93, 6, -161) (0000, EAAB, 0000)
+008B:0012 Spiritual Stones, (32, 2, 11) (0000, 0000, 0000)
+00C3:0000 Nabooru, (94, 6, 165) (0000, 9555, 0000)
+00C9:0000 Sage Saria (Cutscene), (-97, 6, -168) (0000, 1555, 0000)
+003B:0010 Ambient Sound, Temple of Light’s dripping sounds, (10, 6, -6) (0000, 0000, 0000)
+
+Cutscene 0: 00000110
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: 0C00 00
+0A: Room Mesh: 030000F0
+0B: There are 7 Object(s). List starts at 00000150
+004B, 009D, 00A7, 00BA, 002E, 0029, 0034, 
+01: There are 2 actor(s). List starts at 00000160
+00A6:0000 Rauru, (-191, 6, 2) (0000, 4000, 0000)
+003B:0010 Ambient Sound, Temple of Light’s dripping sounds, (18, 6, -8) (0000, 0000, 0000)
+
+Cutscene 1: 00000180
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: 0C00 00
+0A: Room Mesh: 030000F0
+0B: There are 7 Object(s). List starts at 000001C0
+0095, 00BC, 0087, 009D, 00A7, 00B3, 0090, 
+01: There are 6 actor(s). List starts at 000001D0
+00C9:0000 Sage Saria (Cutscene), (-97, 6, -168) (0000, 1555, 0000)
+00A8:0000 Sage Darunia (Cutscene), (93, 6, -161) (0000, EAAB, 0000)
+00A6:0000 Rauru, (-195, 6, 1) (0000, 4000, 0000)
+00D2:0000 Adult Ruto, (192, 6, 1) (0000, C000, 0000)
+008B:0012 Spiritual Stones, (32, 2, 11) (0000, 0000, 0000)
+003B:0010 Ambient Sound, Temple of Light’s dripping sounds, (19, 6, -4) (0000, 0000, 0000)
+
+Cutscene 2: 00000230
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 030000F0
+0B: There are 9 Object(s). List starts at 00000270
+00BC, 00CA, 0087, 009D, 00A7, 00B3, 0048, 0090, 00ED, 
+01: There are 8 actor(s). List starts at 00000284
+00A9:0002 Impa, (-95, 6, 170) (0000, 6AAB, 0000)
+00C9:0002 Sage Saria (Cutscene), (-98, 6, -168) (0000, 1555, 0000)
+00A8:0002 Sage Darunia (Cutscene), (93, 6, -161) (0000, EAAB, 0000)
+00C3:0002 Nabooru, (94, 6, 165) (0000, 9555, 0000)
+00A6:0002 Rauru, (-195, 6, 1) (0000, 4000, 0000)
+00D2:0002 Adult Ruto, (192, 6, 1) (0000, C000, 0000)
+00F5:0001 Sages, Balls of Light (Cutscene), (-4, 6, 2) (0000, 0000, 0000)
+003B:0011 Ambient Sound, Low booming-likish sound, (18, 6, -6) (0000, 0000, 0000)
+

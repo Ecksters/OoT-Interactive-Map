@@ -1,0 +1,139 @@
+Room 3
+Room at 022A8000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 04
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000360
+0B: There are 12 Object(s). List starts at 0000005C
+00AF, 0031, 0163, 00C9, 012C, 018A, 009D, 012F, 00A4, 0190, 00A8, 011C, 
+01: There are 46 actor(s). List starts at 00000074
+003B:000D Ambient Sound, Proximity Saria’s Song, (447, 196, 1139) (0000, 0000, 0000)
+01AE:FFEA Goron, (-454, 116, 699) (0000, 493F, 0000)
+01AE:FFEB Goron, (237, 197, 420) (0000, 9D28, 0000)
+01AE:FFE9 Goron, (84, -3, -314) (0000, E38E, 0000)
+0141:0325 Square Signpost, (333, 398, -684) (0000, E38E, 0000)
+0185:88FF Check Spot, Disappears on Switch, dialog It looks like something used to be set i, No Flag, (0, 535, 175) (0000, 0000, 0000)
+01AE:FFE8 Goron, (43, 522, 224) (0000, E889, 0000)
+004C:FFFF Bombflower, (-882, 280, -188) (0000, 0000, 0000)
+004C:FFFF Bombflower, (-378, 400, 695) (0000, 0000, 0000)
+004C:FFFF Bombflower, (-231, 399, 730) (0000, 0000, 0000)
+004C:FFFF Bombflower, (-221, 46, -82) (4000, 3333, 0000)
+004C:FFFF Bombflower, (-195, 44, 67) (4000, 4AAB, 0000)
+004C:FFFF Bombflower, (339, 258, 1057) (4000, 4EEF, 0000)
+004C:FFFF Bombflower, (371, 196, 1020) (0000, 0000, 0000)
+004C:FFFF Bombflower, (438, 196, 999) (0000, 0000, 0000)
+004C:FFFF Bombflower, (491, 256, 1003) (4000, D05B, 0000)
+01AE:FFE7 Goron, (187, 600, 873) (0000, E222, 0000)
+01AE:FC00 Goron, (520, 399, 565) (0000, CD83, 0000)
+012D:FFC0 Hookshot Block, (1161, 480, -148) (0000, 0000, 0000)
+0185:8BFF Check Spot, Disappears on Switch, dialog You’re standing on a soft carpet for gue, No Flag, (-71, -2, -333) (0000, 0000, 0029)
+0059:A001 Bombable Wall, Perm: 01, (-248, -3, -3) (0000, 4AAB, 0000)
+0059:2002 Bombable Wall, Perm: 02, (-315, 398, 780) (0000, 7A50, 0000)
+0127:0003 Brown Boulder, Perm: 03, (-756, 600, 474) (0000, 0000, 0000)
+0059:2004 Bombable Wall, Perm: 04, (-325, 398, 860) (0000, 7A50, 0000)
+0127:0008 Brown Boulder, Perm: 08, (367, 196, 1078) (0000, E2D8, 0000)
+0127:0009 Brown Boulder, Perm: 09, (-670, 600, 470) (0000, E38E, 0000)
+0127:000A Brown Boulder, Perm: 0A, (-607, 600, 419) (0000, 1777, 0000)
+0127:000B Brown Boulder, Perm: 0B, (470, 196, 1031) (0000, 8CCD, 0000)
+0127:800C Brown Boulder, Perm: 0C Puzzle Solved Sound, (416, 196, 1049) (0000, 0000, 0000)
+01D1:3819 Time Block, Perm: 19, (1030, 380, -380) (0000, 0000, 0000)
+01D1:381A Time Block, Perm: 1A, (1030, 440, -900) (0000, 0000, 0000)
+01C4:001B Goron Room Door, (-72, -1, -410) (0000, 0000, 0000)
+012E:1C9B Music Staff Spot, Type 7, Song 2, Perm: 1B, (-71, -2, -333) (0000, 0000, 0001)
+009B:00FB Grotto, Three Deku Salescrubs, Visible, Chest: None, Flag 1B, (1100, 580, -1190) (0000, 0000, 0004)
+005E:111C Timed Torch, Light: 4, Perm: 1C, (-117, -3, 353) (0000, 0000, 0000)
+005E:111C Timed Torch, Light: 4, Perm: 1C, (17, -3, -309) (0000, 0000, 0000)
+005E:111C Timed Torch, Light: 4, Perm: 1C, (43, -3, 387) (0000, 0000, 0000)
+005E:111C Timed Torch, Light: 4, Perm: 1C, (194, -3, -83) (0000, 0000, 0000)
+005E:2000 Unlit Wooden Torch, Perm: 00, (180, 196, 510) (0000, 0889, 0000)
+005E:2000 Unlit Wooden Torch, Perm: 00, (340, 196, 444) (0000, 3555, 0000)
+015C:1C1F Giant Three-Sided Goron Statue?, (3, -3, 20) (0000, 0000, 0000)
+0111:690D Breakable Pot, Collectable: 0D Temp: 14, (-189, 76, 866) (0000, 0000, 0000)
+0111:6B01 Breakable Pot, Collectable: 01 Temp: 15, (-1200, 400, 63) (0000, 02D8, 0000)
+0111:6D00 Breakable Pot, Collectable: 00 Temp: 16, (-1170, 400, 60) (0000, 02D8, 0000)
+0111:7701 Breakable Pot, Collectable: 01 Temp: 1B, (-1185, 400, 95) (0000, 02D8, 0000)
+0111:7903 Breakable Pot, Collectable: 03 Temp: 1C, (-271, 76, 825) (0000, 0000, 0000)
+
+Setup 2: 00000400
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 04
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000360
+0B: There are 12 Object(s). List starts at 00000440
+00AF, 0031, 0163, 00C9, 012C, 018A, 0024, 012F, 00A4, 0190, 00A8, 011C, 
+01: There are 38 actor(s). List starts at 00000458
+003B:000D Ambient Sound, Proximity Saria’s Song, (447, 196, 1139) (0000, 0000, 0000)
+01AE:FFEA Goron, (-454, 116, 699) (0000, 493F, 0000)
+01AE:FFEB Goron, (237, 197, 420) (0000, 9D28, 0000)
+01C4:00FF Goron Room Door, (-71, -1, -410) (0000, 0000, 0000)
+01C4:0100 Goron Room Door, (-235, -2, -8) (0000, 4889, 0000)
+01AE:1C01 Goron, (252, 397, -408) (0000, 82D8, 000A)
+0059:2002 Bombable Wall, Perm: 02, (-315, 398, 780) (0000, 7A50, 0000)
+0059:2004 Bombable Wall, Perm: 04, (-325, 398, 860) (0000, 7A50, 0000)
+0111:7108 Breakable Pot, Collectable: 08 Temp: 18, (-189, 76, 866) (0000, 0000, 0000)
+0111:7300 Breakable Pot, Collectable: 00 Temp: 19, (-1200, 400, 63) (0000, 02D8, 0000)
+0111:7503 Breakable Pot, Collectable: 03 Temp: 1A, (-1170, 400, 60) (0000, 02D8, 0000)
+0111:7708 Breakable Pot, Collectable: 08 Temp: 1B, (-1185, 400, 95) (0000, 02D8, 0000)
+0111:7903 Breakable Pot, Collectable: 03 Temp: 1C, (-271, 76, 825) (0000, 0000, 0000)
+009B:00FB Grotto, Three Deku Salescrubs, Visible, Chest: None, Flag 1B, (1100, 580, -1190) (0000, 0000, 0004)
+0095:9020 Gold Skulltula, Type 4, Group 10, Flag 20, (1, 499, 165) (4000, 8222, 0000)
+01AE:FFE9 Goron, (84, -3, -314) (0000, E38E, 0000)
+01D1:3819 Time Block, Perm: 19, (1030, 380, -380) (0000, 0000, 0000)
+01D1:381A Time Block, Perm: 1A, (1030, 440, -900) (0000, 0000, 0000)
+0185:88FF Check Spot, Disappears on Switch, dialog It looks like something used to be set i, No Flag, (0, 535, 175) (0000, 0000, 0000)
+01AE:FFE8 Goron, (43, 522, 224) (0000, E889, 0000)
+004C:FFFF Bombflower, (-882, 280, -188) (0000, 0000, 0000)
+004C:FFFF Bombflower, (-378, 400, 695) (0000, 0000, 0000)
+004C:FFFF Bombflower, (-231, 399, 730) (0000, 0000, 0000)
+004C:FFFF Bombflower, (-221, 46, -82) (4000, 3333, 0000)
+004C:FFFF Bombflower, (-195, 44, 67) (4000, 4AAB, 0000)
+004C:FFFF Bombflower, (339, 258, 1057) (4000, 4EEF, 0000)
+004C:FFFF Bombflower, (371, 196, 1020) (0000, 0000, 0000)
+004C:FFFF Bombflower, (438, 196, 999) (0000, 0000, 0000)
+004C:FFFF Bombflower, (491, 256, 1003) (4000, D05B, 0000)
+0127:0003 Brown Boulder, Perm: 03, (-756, 600, 474) (0000, 0000, 0000)
+0127:0008 Brown Boulder, Perm: 08, (367, 196, 1078) (0000, E2D8, 0000)
+0127:0009 Brown Boulder, Perm: 09, (-670, 600, 470) (0000, E38E, 0000)
+0127:000A Brown Boulder, Perm: 0A, (-607, 600, 419) (0000, 1777, 0000)
+0127:000B Brown Boulder, Perm: 0B, (470, 196, 1031) (0000, 8CCD, 0000)
+0127:800C Brown Boulder, Perm: 0C Puzzle Solved Sound, (416, 196, 1049) (0000, 0000, 0000)
+01AE:FFE7 Goron, (187, 600, 873) (0000, E222, 0000)
+012D:FFC0 Hookshot Block, (1161, 480, -148) (0000, 0000, 0000)
+0185:8BFF Check Spot, Disappears on Switch, dialog You’re standing on a soft carpet for gue, No Flag, (-74, -2, -328) (0000, 0000, 0029)
+
+Cutscene 0: 000006C0
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 04
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 03000360
+0B: There are 8 Object(s). List starts at 00000700
+00AF, 009D, 0126, 00C9, 011E, 012C, 000E, 002B, 
+01: There are 15 actor(s). List starts at 00000710
+01AE:FFE7 Goron, (-246, 197, -136) (0000, B8E4, 0000)
+01AE:FFE7 Goron, (452, 398, 106) (0000, 3777, 0000)
+01AE:FFE7 Goron, (66, 600, 840) (0000, 0000, 0000)
+01AE:FFE8 Goron, (255, 197, -138) (0000, 0CCD, 0000)
+01AE:FFE9 Goron, (-62, -3, 60) (0000, C000, 0000)
+0126:1F01 Bean Planting Spot, (10, -3, 295) (0000, 2AAB, 0000)
+0127:0003 Brown Boulder, Perm: 03, (-670, 600, 470) (0000, E38E, 0000)
+0127:0008 Brown Boulder, Perm: 08, (418, 196, 1038) (0000, 0000, 0000)
+0127:0008 Brown Boulder, Perm: 08, (380, 196, 1076) (0000, E2D8, 0000)
+0127:0008 Brown Boulder, Perm: 08, (454, 196, 1005) (0000, 8CCD, 0000)
+0127:000F Brown Boulder, Perm: 0F, (-756, 600, 474) (0000, 0000, 0000)
+0127:001F Brown Boulder, Perm: 1F, (-607, 600, 419) (0000, 1777, 0000)
+000A:0022 Chest, Large, reward 01: Bombs, chest flag: 02, bound to Perm: 00, (1031, 580, -1259) (0000, 8000, 0000)
+0059:2002 Bombable Wall, Perm: 02, (-363, 400, 1207) (0000, 782E, 0000)
+0059:2004 Bombable Wall, Perm: 04, (-404, 400, 1319) (0000, 6222, 0000)
+
+Cutscene 1: 00000800
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 04
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000360
+

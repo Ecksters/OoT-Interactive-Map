@@ -1,0 +1,18 @@
+Room 19
+Room at 03275000
+Setup 0: 00000000
+16: Sound Settings: Echo 6
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000B0
+0B: There are 7 Object(s). List starts at 00000040
+0179, 0072, 0073, 00BA, 00ED, 00B3, 0075, 
+01: There are 6 actor(s). List starts at 00000050
+01A7:0005 Ganon's Tower Magic Barrier, (-1531, 180, 1812) (0000, 6AAB, 0000)
+00C3:0002 Nabooru, (-1531, 300, 1812) (2000, 6AAB, 0000)
+0008:03F9 Decorative Flame, (-1378, 193, 1777) (0000, 0000, 0000)
+0008:03F9 Decorative Flame, (-1574, 193, 1662) (0000, 0000, 0000)
+0111:660C Breakable Pot, Collectable: 0C Temp: 13, (-1398, 150, 1402) (0000, 0000, 0000)
+0111:680F Breakable Pot, Collectable: 0F Temp: 14, (-1237, 150, 1494) (0000, 0000, 0000)
+

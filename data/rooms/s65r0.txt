@@ -1,0 +1,49 @@
+Room 0
+Room at 0332D000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 4
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 01
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000110
+0B: There are 7 Object(s). List starts at 0000005C
+008D, 0098, 00A4, 000D, 000E, 0090, 018F, 
+01: There are 10 actor(s). List starts at 0000006C
+0013:0003 Roosting Keese, (22, 146, 1757) (0000, C000, 0000)
+0013:0003 Roosting Keese, (281, 81, 1496) (0000, C000, 0000)
+0185:06F8 Check Spot, Checkable, dialog Those who break into the Royal Tomb will, Local: 00, (292, 36, 1426) (0000, C000, 0001)
+0013:0003 Roosting Keese, (54, 73, 1253) (0000, 0000, 0000)
+0013:0003 Roosting Keese, (-63, 27, 1256) (0000, 0000, 0000)
+005E:10A0 Timed Torch, Light: 2, Temp: 00, (-56, 120, 1208) (0000, 0000, 0000)
+005E:10A0 Timed Torch, Light: 2, Temp: 00, (55, 120, 1207) (0000, 0000, 0000)
+000A:8020 Chest, Small, Falls, Switch Flag, reward 01: Bombs, chest flag: 00, bound to Temp: 00, (1, 244, 1473) (0000, 0000, 0020)
+0183:FF40 Song of Storms Fairy (Giant Fairy?), (-210, 5, 1476) (0000, 0000, 0000)
+0185:06B9 Check Spot, Checkable, dialog Shine light on the living dead..., Local: 01, (-247, 18, 1446) (0000, 22D8, 0000)
+
+Cutscene 0: 00000130
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 01
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000110
+0B: There are 4 Object(s). List starts at 00000170
+002B, 0098, 00A4, 000D, 
+01: There are 3 actor(s). List starts at 00000178
+005E:13FF Timed Torch, Light: 15, No Flag, (-56, 120, 1208) (0000, 0000, 0000)
+005E:13FF Timed Torch, Light: 15, No Flag, (55, 120, 1207) (0000, 0000, 0000)
+0059:2001 Bombable Wall, Perm: 01, (-1, 120, 1119) (0000, 0000, 0000)
+
+Cutscene 1: 000001B0
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 01
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000110
+0B: There are 4 Object(s). List starts at 000001F0
+002B, 0098, 00A4, 000D, 
+01: There are 3 actor(s). List starts at 000001F8
+005E:13FF Timed Torch, Light: 15, No Flag, (-56, 120, 1208) (0000, 0000, 0000)
+005E:13FF Timed Torch, Light: 15, No Flag, (55, 120, 1207) (0000, 0000, 0000)
+0059:2001 Bombable Wall, Perm: 01, (-1, 120, 1119) (0000, 0000, 0000)
+

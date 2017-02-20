@@ -1,0 +1,13 @@
+Room 0
+Room at 02D1B000
+Setup 0: 00000000
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000060
+0B: There are 3 Object(s). List starts at 00000040
+0090, 0091, 0094, 
+01: There are 1 actor(s). List starts at 00000048
+0018:0004 Fairies, (-16, 30, -751) (0000, 0000, 0000)
+

@@ -1,0 +1,57 @@
+Room 0
+Room at 02D05000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000C0
+0B: There are 4 Object(s). List starts at 00000060
+0095, 0091, 000A, 0048, 
+01: There are 5 actor(s). List starts at 00000068
+0008:03F5 Decorative Flame, (-171, 113, -854) (0000, 0000, 0000)
+0008:03F5 Decorative Flame, (134, 113, -854) (0000, 0000, 0000)
+000B:0000 Great Fairy, (-19, -2, -1000) (0000, 0000, 0000)
+012E:1CB8 Music Staff Spot, Type 7, Song 2, Local: 00, (-22, 10, -798) (0000, 0000, 0000)
+0185:8AF8 Check Spot, Disappears on Switch, dialog The crest of the Royal Family is inscrib, Local: 00, (-22, 10, -798) (0000, 0000, 000B)
+
+Cutscene 0: 00000160
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000C0
+0B: There are 4 Object(s). List starts at 000001A0
+0095, 0091, 000A, 0048, 
+01: There are 3 actor(s). List starts at 000001A8
+0008:03F0 Decorative Flame, (-171, 113, -854) (0000, 0000, 0000)
+0008:03F0 Decorative Flame, (134, 113, -854) (0000, 0000, 0000)
+000B:0000 Great Fairy, (-19, -2, -1000) (0000, 0000, 0000)
+
+Cutscene 1: 000001E0
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000C0
+0B: There are 4 Object(s). List starts at 00000220
+0095, 0091, 000A, 0048, 
+01: There are 3 actor(s). List starts at 00000228
+0008:03F0 Decorative Flame, (-171, 113, -854) (0000, 0000, 0000)
+0008:03F0 Decorative Flame, (134, 113, -854) (0000, 0000, 0000)
+000B:0000 Great Fairy, (-19, -2, -1000) (0000, 0000, 0000)
+
+Cutscene 2: 00000260
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000C0
+0B: There are 4 Object(s). List starts at 000002A0
+0095, 0091, 000A, 0048, 
+01: There are 3 actor(s). List starts at 000002A8
+0008:03F0 Decorative Flame, (-171, 113, -854) (0000, 0000, 0000)
+0008:03F0 Decorative Flame, (134, 113, -854) (0000, 0000, 0000)
+000B:0000 Great Fairy, (-19, -2, -1000) (0000, 0000, 0000)
+

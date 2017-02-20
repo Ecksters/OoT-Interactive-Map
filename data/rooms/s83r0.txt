@@ -1,0 +1,177 @@
+Room 0
+Room at 0202C000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030001F0
+0B: There are 2 Object(s). List starts at 0000005C
+00A1, 00A4, 
+01: There are 25 actor(s). List starts at 00000060
+005E:129F Timed Torch, Light: 10, Perm: 1F, (1896, 95, 80) (0000, 4000, 0000)
+005E:129F Timed Torch, Light: 10, Perm: 1F, (1930, 95, -39) (0000, 2AAB, 0000)
+005E:129F Timed Torch, Light: 10, Perm: 1F, (1930, 95, 199) (0000, 5555, 0000)
+005E:129F Timed Torch, Light: 10, Perm: 1F, (1971, 95, 38) (0000, 33E9, 0000)
+005E:129F Timed Torch, Light: 10, Perm: 1F, (1972, 95, 121) (0000, 4B61, 0000)
+005E:129F Timed Torch, Light: 10, Perm: 1F, (2011, 95, 197) (0000, 6000, 0000)
+005E:129F Timed Torch, Light: 10, Perm: 1F, (2015, 95, -127) (0000, 18E4, 0000)
+005E:129F Timed Torch, Light: 10, Perm: 1F, (2015, 95, 284) (0000, 671C, 0000)
+005E:129F Timed Torch, Light: 10, Perm: 1F, (2016, 95, -41) (0000, 216C, 0000)
+005E:129F Timed Torch, Light: 10, Perm: 1F, (2093, 95, -86) (0000, 0B61, 0000)
+005E:129F Timed Torch, Light: 10, Perm: 1F, (2093, 95, 245) (0000, 749F, 0000)
+005E:129F Timed Torch, Light: 10, Perm: 1F, (2136, 95, -158) (0000, 0000, 0000)
+005E:129F Timed Torch, Light: 10, Perm: 1F, (2136, 95, 318) (0000, 8000, 0000)
+005E:129F Timed Torch, Light: 10, Perm: 1F, (2178, 95, -84) (0000, F49F, 0000)
+005E:129F Timed Torch, Light: 10, Perm: 1F, (2180, 95, 245) (0000, 8AAB, 0000)
+005E:129F Timed Torch, Light: 10, Perm: 1F, (2254, 95, -127) (0000, EAAB, 0000)
+005E:129F Timed Torch, Light: 10, Perm: 1F, (2256, 95, 288) (0000, 98E4, 0000)
+005E:129F Timed Torch, Light: 10, Perm: 1F, (2259, 95, -38) (0000, DF4A, 0000)
+005E:129F Timed Torch, Light: 10, Perm: 1F, (2260, 95, 200) (0000, 9F4A, 0000)
+005E:129F Timed Torch, Light: 10, Perm: 1F, (2294, 95, 39) (0000, CD83, 0000)
+005E:129F Timed Torch, Light: 10, Perm: 1F, (2302, 95, 123) (0000, B27D, 0000)
+005E:129F Timed Torch, Light: 10, Perm: 1F, (2343, 95, -39) (0000, D555, 0000)
+005E:129F Timed Torch, Light: 10, Perm: 1F, (2343, 95, 199) (0000, AAAB, 0000)
+005E:129F Timed Torch, Light: 10, Perm: 1F, (2376, 95, 82) (0000, BF4A, 0000)
+009C:1F00 Shadow Temple Blocking Eye Wall, Perm: 1F, (2676, 100, 80) (0000, C000, 0000)
+
+Setup 1: 00000650
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030001F0
+0B: There are 2 Object(s). List starts at 00000690
+00A1, 00A4, 
+01: There are 25 actor(s). List starts at 00000694
+005E:129F Timed Torch, Light: 10, Perm: 1F, (1896, 95, 80) (0000, 4000, 0000)
+005E:129F Timed Torch, Light: 10, Perm: 1F, (1930, 95, -39) (0000, 2AAB, 0000)
+005E:129F Timed Torch, Light: 10, Perm: 1F, (1930, 95, 199) (0000, 5555, 0000)
+005E:129F Timed Torch, Light: 10, Perm: 1F, (1971, 95, 38) (0000, 33E9, 0000)
+005E:129F Timed Torch, Light: 10, Perm: 1F, (1972, 95, 121) (0000, 4B61, 0000)
+005E:129F Timed Torch, Light: 10, Perm: 1F, (2011, 95, 197) (0000, 6000, 0000)
+005E:129F Timed Torch, Light: 10, Perm: 1F, (2015, 95, -127) (0000, 18E4, 0000)
+005E:129F Timed Torch, Light: 10, Perm: 1F, (2015, 95, 284) (0000, 671C, 0000)
+005E:129F Timed Torch, Light: 10, Perm: 1F, (2016, 95, -41) (0000, 216C, 0000)
+005E:129F Timed Torch, Light: 10, Perm: 1F, (2093, 95, -86) (0000, 0B61, 0000)
+005E:129F Timed Torch, Light: 10, Perm: 1F, (2093, 95, 245) (0000, 749F, 0000)
+005E:129F Timed Torch, Light: 10, Perm: 1F, (2136, 95, -158) (0000, 0000, 0000)
+005E:129F Timed Torch, Light: 10, Perm: 1F, (2136, 95, 318) (0000, 8000, 0000)
+005E:129F Timed Torch, Light: 10, Perm: 1F, (2178, 95, -84) (0000, F49F, 0000)
+005E:129F Timed Torch, Light: 10, Perm: 1F, (2180, 95, 245) (0000, 8AAB, 0000)
+005E:129F Timed Torch, Light: 10, Perm: 1F, (2254, 95, -127) (0000, EAAB, 0000)
+005E:129F Timed Torch, Light: 10, Perm: 1F, (2256, 95, 288) (0000, 98E4, 0000)
+005E:129F Timed Torch, Light: 10, Perm: 1F, (2259, 95, -38) (0000, DF4A, 0000)
+005E:129F Timed Torch, Light: 10, Perm: 1F, (2260, 95, 200) (0000, 9F4A, 0000)
+005E:129F Timed Torch, Light: 10, Perm: 1F, (2294, 95, 39) (0000, CD83, 0000)
+005E:129F Timed Torch, Light: 10, Perm: 1F, (2302, 95, 123) (0000, B27D, 0000)
+005E:129F Timed Torch, Light: 10, Perm: 1F, (2343, 95, -39) (0000, D555, 0000)
+005E:129F Timed Torch, Light: 10, Perm: 1F, (2343, 95, 199) (0000, AAAB, 0000)
+005E:129F Timed Torch, Light: 10, Perm: 1F, (2376, 95, 82) (0000, BF4A, 0000)
+009C:1F00 Shadow Temple Blocking Eye Wall, Perm: 1F, (2676, 100, 80) (0000, C000, 0000)
+
+Setup 2: 00000290
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030001F0
+0B: There are 2 Object(s). List starts at 000002D0
+00A1, 00A4, 
+01: There are 25 actor(s). List starts at 000002D4
+005E:129E Timed Torch, Light: 10, Perm: 1E, (1896, 95, 80) (0000, 4000, 0000)
+005E:129E Timed Torch, Light: 10, Perm: 1E, (1930, 95, -39) (0000, 2AAB, 0000)
+005E:129E Timed Torch, Light: 10, Perm: 1E, (1930, 95, 199) (0000, 5555, 0000)
+005E:129E Timed Torch, Light: 10, Perm: 1E, (1971, 95, 38) (0000, 33E9, 0000)
+005E:129E Timed Torch, Light: 10, Perm: 1E, (1972, 95, 121) (0000, 4B61, 0000)
+005E:129E Timed Torch, Light: 10, Perm: 1E, (2011, 95, 197) (0000, 6000, 0000)
+005E:129E Timed Torch, Light: 10, Perm: 1E, (2015, 95, -127) (0000, 18E4, 0000)
+005E:129E Timed Torch, Light: 10, Perm: 1E, (2015, 95, 284) (0000, 671C, 0000)
+005E:129E Timed Torch, Light: 10, Perm: 1E, (2016, 95, -41) (0000, 216C, 0000)
+005E:129E Timed Torch, Light: 10, Perm: 1E, (2093, 95, -86) (0000, 0B61, 0000)
+005E:129E Timed Torch, Light: 10, Perm: 1E, (2093, 95, 245) (0000, 749F, 0000)
+005E:129E Timed Torch, Light: 10, Perm: 1E, (2136, 95, -158) (0000, 0000, 0000)
+005E:129E Timed Torch, Light: 10, Perm: 1E, (2136, 95, 318) (0000, 8000, 0000)
+005E:129E Timed Torch, Light: 10, Perm: 1E, (2178, 95, -84) (0000, F49F, 0000)
+005E:129E Timed Torch, Light: 10, Perm: 1E, (2180, 95, 245) (0000, 8AAB, 0000)
+005E:129E Timed Torch, Light: 10, Perm: 1E, (2254, 95, -127) (0000, EAAB, 0000)
+005E:129E Timed Torch, Light: 10, Perm: 1E, (2256, 95, 288) (0000, 98E4, 0000)
+005E:129E Timed Torch, Light: 10, Perm: 1E, (2259, 95, -38) (0000, DF4A, 0000)
+005E:129E Timed Torch, Light: 10, Perm: 1E, (2260, 95, 200) (0000, 9F4A, 0000)
+005E:129E Timed Torch, Light: 10, Perm: 1E, (2294, 95, 39) (0000, CD83, 0000)
+005E:129E Timed Torch, Light: 10, Perm: 1E, (2302, 95, 123) (0000, B27D, 0000)
+005E:129E Timed Torch, Light: 10, Perm: 1E, (2343, 95, -39) (0000, D555, 0000)
+005E:129E Timed Torch, Light: 10, Perm: 1E, (2343, 95, 199) (0000, AAAB, 0000)
+005E:129E Timed Torch, Light: 10, Perm: 1E, (2376, 95, 82) (0000, BF4A, 0000)
+009C:1E00 Shadow Temple Blocking Eye Wall, Perm: 1E, (2676, 100, 80) (0000, C000, 0000)
+
+Setup 3: 00000470
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030001F0
+0B: There are 2 Object(s). List starts at 000004B0
+00A1, 00A4, 
+01: There are 25 actor(s). List starts at 000004B4
+005E:129E Timed Torch, Light: 10, Perm: 1E, (2376, 95, 82) (0000, BF4A, 0000)
+005E:129E Timed Torch, Light: 10, Perm: 1E, (2343, 95, 199) (0000, AAAB, 0000)
+005E:129E Timed Torch, Light: 10, Perm: 1E, (2343, 95, -39) (0000, D555, 0000)
+005E:129E Timed Torch, Light: 10, Perm: 1E, (2302, 95, 123) (0000, B27D, 0000)
+005E:129E Timed Torch, Light: 10, Perm: 1E, (2294, 95, 39) (0000, CD83, 0000)
+005E:129E Timed Torch, Light: 10, Perm: 1E, (2260, 95, 200) (0000, 9F4A, 0000)
+005E:129E Timed Torch, Light: 10, Perm: 1E, (2259, 95, -38) (0000, DF4A, 0000)
+005E:129E Timed Torch, Light: 10, Perm: 1E, (2256, 95, 288) (0000, 98E4, 0000)
+005E:129E Timed Torch, Light: 10, Perm: 1E, (2254, 95, -127) (0000, EAAB, 0000)
+005E:129E Timed Torch, Light: 10, Perm: 1E, (2180, 95, 245) (0000, 8AAB, 0000)
+005E:129E Timed Torch, Light: 10, Perm: 1E, (2178, 95, -84) (0000, F49F, 0000)
+005E:129E Timed Torch, Light: 10, Perm: 1E, (2136, 95, 318) (0000, 8000, 0000)
+005E:129E Timed Torch, Light: 10, Perm: 1E, (2136, 95, -158) (0000, 0000, 0000)
+005E:129E Timed Torch, Light: 10, Perm: 1E, (2093, 95, 245) (0000, 749F, 0000)
+005E:129E Timed Torch, Light: 10, Perm: 1E, (2093, 95, -86) (0000, 0B61, 0000)
+005E:129E Timed Torch, Light: 10, Perm: 1E, (2016, 95, -41) (0000, 216C, 0000)
+005E:129E Timed Torch, Light: 10, Perm: 1E, (2015, 95, 284) (0000, 671C, 0000)
+005E:129E Timed Torch, Light: 10, Perm: 1E, (2015, 95, -127) (0000, 18E4, 0000)
+005E:129E Timed Torch, Light: 10, Perm: 1E, (2011, 95, 197) (0000, 6000, 0000)
+005E:129E Timed Torch, Light: 10, Perm: 1E, (1972, 95, 121) (0000, 4B61, 0000)
+005E:129E Timed Torch, Light: 10, Perm: 1E, (1971, 95, 38) (0000, 33E9, 0000)
+005E:129E Timed Torch, Light: 10, Perm: 1E, (1930, 95, 199) (0000, 5555, 0000)
+005E:129E Timed Torch, Light: 10, Perm: 1E, (1930, 95, -39) (0000, 2AAB, 0000)
+005E:129E Timed Torch, Light: 10, Perm: 1E, (1896, 95, 80) (0000, 4000, 0000)
+009C:1E00 Shadow Temple Blocking Eye Wall, Perm: 1E, (2676, 100, 80) (0000, C000, 0000)
+
+Cutscene 0: 00000830
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030001F0
+0B: There are 11 Object(s). List starts at 00000870
+00A1, 0061, 0063, 0090, 00A4, 0009, 0089, 00A2, 0013, 011E, 000E, 
+01: There are 7 actor(s). List starts at 00000888
+005E:13FF Timed Torch, Light: 15, No Flag, (1930, 100, -39) (0000, 2AAB, 0000)
+005E:13FF Timed Torch, Light: 15, No Flag, (1930, 100, 199) (0000, 5555, 0000)
+005E:13FF Timed Torch, Light: 15, No Flag, (2136, 100, 318) (0000, 8000, 0000)
+005E:13FF Timed Torch, Light: 15, No Flag, (2343, 100, 199) (0000, AAAB, 0000)
+005E:13FF Timed Torch, Light: 15, No Flag, (2343, 100, -39) (0000, D555, 0000)
+005E:13FF Timed Torch, Light: 15, No Flag, (2136, 100, -158) (0000, 0000, 0000)
+009C:FF00 Shadow Temple Blocking Eye Wall, invalid, (2676, 100, 80) (0000, C000, 0000)
+
+Cutscene 1: 00000900
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 01
+0A: Room Mesh: 030001F0
+0B: There are 12 Object(s). List starts at 00000940
+00A1, 0061, 0063, 0090, 00A4, 0009, 0089, 00A2, 0013, 011E, 000E, 00F9, 
+01: There are 7 actor(s). List starts at 00000958
+005E:13FF Timed Torch, Light: 15, No Flag, (1930, 100, -39) (0000, 2AAB, 0000)
+005E:13FF Timed Torch, Light: 15, No Flag, (1930, 100, 199) (0000, 5555, 0000)
+005E:13FF Timed Torch, Light: 15, No Flag, (2136, 100, 318) (0000, 8000, 0000)
+005E:13FF Timed Torch, Light: 15, No Flag, (2343, 100, 199) (0000, AAAB, 0000)
+005E:13FF Timed Torch, Light: 15, No Flag, (2343, 100, -39) (0000, D555, 0000)
+005E:13FF Timed Torch, Light: 15, No Flag, (2136, 100, -158) (0000, 0000, 0000)
+009C:FF00 Shadow Temple Blocking Eye Wall, invalid, (2676, 100, 80) (0000, C000, 0000)
+

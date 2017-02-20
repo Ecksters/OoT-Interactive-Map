@@ -1,0 +1,16 @@
+Room 0
+Room at 02AA7000
+Setup 0: 00000000
+16: Sound Settings: Echo 3
+08: Room Behavior: ? 02, Show invisible actors? False, Idle Animation 05
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03002090
+0B: There are 4 Object(s). List starts at 00000040
+00FC, 00FD, 00C5, 012C, 
+01: There are 4 actor(s). List starts at 00000048
+0163:FF01 Kokiri Child, (-43, 0, 76) (0000, A222, 0000)
+0163:FF09 Kokiri Child, (-123, 16, 92) (0000, 5BBC, 0000)
+0111:4300 Breakable Pot, Collectable: 00 Temp: 01, (33, 0, -55) (0000, 0000, 0000)
+0111:4501 Breakable Pot, Collectable: 01 Temp: 02, (35, 0, 57) (0000, 0000, 0000)
+

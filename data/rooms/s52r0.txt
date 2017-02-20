@@ -1,0 +1,34 @@
+Room 0
+Room at 0255E000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 3
+08: Room Behavior: ? 02, Show invisible actors? False, Idle Animation 05
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000A0
+0B: There are 3 Object(s). List starts at 0000005C
+012C, 018B, 0013, 
+01: There are 3 actor(s). List starts at 00000064
+0185:8ABF Check Spot, Disappears on Switch, dialog LINK’s Records! / Spiders squished: 0 / , No Flag, (78, 38, 116) (0000, 8E39, 0000)
+01C6:0000 Cow, (-83, 0, -78) (0000, F49F, 0000)
+0111:4103 Breakable Pot, Collectable: 03 Temp: 00, (-118, 0, 51) (0000, 0000, 0000)
+
+Cutscene 0: 00002400
+16: Sound Settings: Echo 5
+08: Room Behavior: ? 02, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000A0
+0B: There are 4 Object(s). List starts at 00002438
+000E, 0029, 0034, 004B, 
+
+Cutscene 1: 00002440
+16: Sound Settings: Echo 5
+08: Room Behavior: ? 02, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000A0
+0B: There are 4 Object(s). List starts at 00002478
+000E, 0029, 0034, 004B, 
+

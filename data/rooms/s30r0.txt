@@ -1,0 +1,17 @@
+Room 0
+Room at 02946000
+Setup 0: 00000000
+16: Sound Settings: Echo 5
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 06
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000B0
+0B: There are 11 Object(s). List starts at 00000040
+0107, 0097, 0013, 00C5, 010C, 0108, 0105, 0107, 0111, 0115, 016B, 
+01: There are 5 actor(s). List starts at 00000058
+016E:078E Market NPC, (-212, 0, 1354) (0000, 8000, 0000)
+016E:078F Market NPC, (469, 0, 834) (0000, 4000, 0000)
+0178:FF07 Hyrule Guard, (-328, 0, 1199) (0000, 0000, 0000)
+016E:078D Market NPC, (-574, 0, 1053) (0000, 8000, 0000)
+003B:000B Ambient Sound, ??, (515, -4, 759) (0000, 0000, 0000)
+

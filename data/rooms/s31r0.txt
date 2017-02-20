@@ -1,0 +1,17 @@
+Room 0
+Room at 02A2A000
+Setup 0: 00000000
+16: Sound Settings: Echo 5
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 06
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000A0
+0B: There are 2 Object(s). List starts at 00000040
+016B, 0097, 
+01: There are 5 actor(s). List starts at 00000044
+019B:0A01 Dog, (-533, 0, 871) (0000, BBBC, 0000)
+019B:0B10 Dog, (-224, 0, 1318) (0000, B555, 0000)
+019B:0C21 Dog, (143, 0, 1233) (0000, 16C1, 0000)
+0178:FF07 Hyrule Guard, (-328, 0, 1199) (0000, 0000, 0000)
+003B:000B Ambient Sound, ??, (71, 0, 1324) (0000, 0000, 0000)
+

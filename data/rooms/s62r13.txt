@@ -1,0 +1,14 @@
+Room 13
+Room at 02710000
+Setup 0: 00000000
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000070
+0B: There are 1 Object(s). List starts at 00000040
+0024, 
+01: There are 2 actor(s). List starts at 00000044
+0037:0001 Big Skulltula, (624, 343, -372) (0000, 0000, 0000)
+0095:8B02 Gold Skulltula, Type 4, Group 0B, Flag 02, (746, 140, -492) (4000, D555, 0000)
+

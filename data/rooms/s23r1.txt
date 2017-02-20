@@ -1,0 +1,107 @@
+Room 1
+Room at 02F61000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000190
+0B: There are 7 Object(s). List starts at 00000060
+016D, 00B0, 00C1, 0090, 0106, 00B3, 016C, 
+01: There are 18 actor(s). List starts at 00000070
+0113:0500 Iron Knuckle, (-1235, 0, 1268) (0000, 0000, 0000)
+0114:0004 ???, (-1235, 0, 1268) (0000, 0000, 0000)
+0114:0003 ???, (-1235, 0, 1268) (0000, 0000, 0000)
+0114:0006 ???, (-1235, 0, 1268) (0000, 0000, 0000)
+0114:0005 ???, (-1235, 0, 1268) (0000, 0000, 0000)
+0114:0001 ???, (-1240, 0, 1248) (0000, E000, 0000)
+0114:0002 ???, (-1213, 0, 1267) (0000, E000, 0000)
+00C3:0004 Nabooru, (-1212, 16, 1210) (0000, E000, 0000)
+0169:0001 Brick Throne, (-1206, -5, 1206) (0000, A000, 0000)
+0169:0000 Brick Pillar, (-1482, 0, 1652) (0000, DF4A, 0000)
+0169:0000 Brick Pillar, (-1652, 0, 1482) (0000, E0B6, 0000)
+0169:0000 Brick Pillar, (-1340, 0, 1510) (0000, E0B6, 0000)
+0169:0000 Brick Pillar, (-1510, 0, 1340) (0000, DF4A, 0000)
+0169:0000 Brick Pillar, (-1370, 0, 1031) (0000, E0B6, 0000)
+0169:0000 Brick Pillar, (-1031, 0, 1370) (0000, DF4A, 0000)
+0114:0000 ???, (-1256, 0, 1210) (0000, E000, 0000)
+00CC:0000 Koume and Kotake, (-1303, 0, 1136) (0000, E000, 0000)
+00CC:0001 Koume and Kotake, (-1125, 0, 1301) (0000, E000, 0000)
+
+Cutscene 0: 000001B0
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000190
+0B: There are 6 Object(s). List starts at 000001F0
+016D, 00C1, 0090, 0106, 00B3, 016C, 
+01: There are 18 actor(s). List starts at 000001FC
+0169:0000 Brick Pillar, (-1482, 0, 1652) (0000, DF4A, 0000)
+0169:0000 Brick Pillar, (-1652, 0, 1482) (0000, E0B6, 0000)
+0169:0000 Brick Pillar, (-1340, 0, 1510) (0000, E0B6, 0000)
+0169:0000 Brick Pillar, (-1510, 0, 1340) (0000, DF4A, 0000)
+0169:0000 Brick Pillar, (-1370, 0, 1031) (0000, E0B6, 0000)
+0169:0000 Brick Pillar, (-1031, 0, 1370) (0000, DF4A, 0000)
+0169:0001 Brick Throne, (-1206, -5, 1206) (0000, A000, 0000)
+0113:0000 Iron Knuckle, (-1235, 0, 1268) (0000, 0000, 0000)
+0114:0004 ???, (-1235, 0, 1268) (0000, 0000, 0000)
+0114:0003 ???, (-1235, 0, 1268) (0000, 0000, 0000)
+0114:0006 ???, (-1235, 0, 1268) (0000, 0000, 0000)
+0114:0005 ???, (-1235, 0, 1268) (0000, 0000, 0000)
+0114:0001 ???, (-1240, 0, 1248) (0000, E000, 0000)
+0114:0002 ???, (-1213, 0, 1267) (0000, E000, 0000)
+00C3:0004 Nabooru, (-1212, 16, 1210) (0000, E000, 0000)
+0114:0000 ???, (-1256, 0, 1210) (0000, E000, 0000)
+00CC:0000 Koume and Kotake, (-1303, 0, 1136) (0000, E000, 0000)
+00CC:0001 Koume and Kotake, (-1125, 0, 1301) (0000, E000, 0000)
+
+Cutscene 1: 00000320
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000190
+0B: There are 6 Object(s). List starts at 00000360
+016D, 00C1, 0090, 0106, 00B3, 016C, 
+01: There are 18 actor(s). List starts at 0000036C
+0169:0000 Brick Pillar, (-1482, 0, 1652) (0000, DF4A, 0000)
+0169:0000 Brick Pillar, (-1652, 0, 1482) (0000, E0B6, 0000)
+0169:0000 Brick Pillar, (-1340, 0, 1510) (0000, E0B6, 0000)
+0169:0000 Brick Pillar, (-1510, 0, 1340) (0000, DF4A, 0000)
+0169:0000 Brick Pillar, (-1370, 0, 1031) (0000, E0B6, 0000)
+0169:0000 Brick Pillar, (-1031, 0, 1370) (0000, DF4A, 0000)
+0169:0001 Brick Throne, (-1206, -5, 1206) (0000, A000, 0000)
+0113:0000 Iron Knuckle, (-1235, 0, 1268) (0000, 0000, 0000)
+0114:0004 ???, (-1235, 0, 1268) (0000, 0000, 0000)
+0114:0003 ???, (-1235, 0, 1268) (0000, 0000, 0000)
+0114:0006 ???, (-1235, 0, 1268) (0000, 0000, 0000)
+0114:0005 ???, (-1235, 0, 1268) (0000, 0000, 0000)
+0114:0001 ???, (-1240, 0, 1248) (0000, E000, 0000)
+0114:0002 ???, (-1213, 0, 1267) (0000, E000, 0000)
+00C3:0004 Nabooru, (-1212, 16, 1210) (0000, E000, 0000)
+0114:0000 ???, (-1256, 0, 1210) (0000, E000, 0000)
+00CC:0000 Koume and Kotake, (-1303, 0, 1136) (0000, E000, 0000)
+00CC:0001 Koume and Kotake, (-1125, 0, 1301) (0000, E000, 0000)
+
+Cutscene 2: 00000490
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000190
+0B: There are 6 Object(s). List starts at 000004D0
+016D, 00B0, 00C1, 0090, 00B3, 016C, 
+01: There are 10 actor(s). List starts at 000004DC
+00C3:0004 Nabooru, (-1212, 16, 1210) (0000, E000, 0000)
+00CC:0000 Koume and Kotake, (-1303, 0, 1136) (0000, E000, 0000)
+00CC:0001 Koume and Kotake, (-1125, 0, 1301) (0000, E000, 0000)
+0169:0000 Brick Pillar, (-1482, 0, 1652) (0000, DF4A, 0000)
+0169:0000 Brick Pillar, (-1652, 0, 1482) (0000, E0B6, 0000)
+0169:0000 Brick Pillar, (-1340, 0, 1510) (0000, E0B6, 0000)
+0169:0000 Brick Pillar, (-1510, 0, 1340) (0000, DF4A, 0000)
+0169:0000 Brick Pillar, (-1370, 0, 1031) (0000, E0B6, 0000)
+0169:0000 Brick Pillar, (-1031, 0, 1370) (0000, DF4A, 0000)
+0169:0001 Brick Throne, (-1210, 0, 1210) (0000, 2000, 0000)
+

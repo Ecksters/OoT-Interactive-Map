@@ -1,0 +1,41 @@
+Room 1
+Room at 0215A000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 9
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000F0
+0B: There are 11 Object(s). List starts at 00000058
+010A, 0168, 0172, 0117, 0131, 011E, 0163, 0188, 0164, 017B, 0024, 
+01: There are 8 actor(s). List starts at 00000070
+003B:000C Ambient Sound, Unknown, (796, 0, -274) (0000, 0000, 0000)
+0115:1BFF Skullkid, (1123, -140, 340) (0000, 1DDE, 0000)
+0115:07FF Skullkid, (1265, -94, 420) (0000, A666, 0000)
+0115:0BFF Skullkid, (1183, -72, 476) (0000, 9777, 0000)
+01A3:FFFF ???, (1368, 80, -173) (0000, 0000, 0000)
+0112:123F Invisible Collectible, 02 08 3F, (1256, -152, 194) (0000, 0000, 0001)
+0112:123F Invisible Collectible, 02 08 3F, (1038, -180, 557) (0000, 0000, 0001)
+0112:127F Invisible Collectible, 02 09 3F, (1371, -180, 497) (0000, 0000, 0001)
+
+Setup 2: 00000110
+16: Sound Settings: Echo 9
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000F0
+0B: There are 12 Object(s). List starts at 00000150
+00FC, 00FD, 00FB, 013D, 011E, 0188, 0128, 0024, 0163, 00C5, 013C, 010A, 
+01: There are 3 actor(s). List starts at 00000168
+003B:000C Ambient Sound, Unknown, (796, 0, -274) (0000, 0000, 0000)
+0115:FFFF Skullkid, (1183, -72, 476) (0000, 9777, 0000)
+0115:FFFF Skullkid, (1265, -94, 420) (0000, A666, 0000)
+
+Cutscene 0: 000001A0
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 030000F0
+

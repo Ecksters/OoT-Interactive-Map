@@ -1,0 +1,51 @@
+Room 1
+Room at 021E3000
+Setup 0: 00000000
+16: Sound Settings: Echo 9
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 02
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+05: Wind Settings: Forces Westward 0F, Vertical 28, Southward 6D, Strength BE
+0A: Room Mesh: 030002C0
+0B: There are 11 Object(s). List starts at 00000048
+006D, 0144, 0017, 0076, 012C, 000E, 00A4, 0170, 0024, 012F, 0154, 
+01: There are 38 actor(s). List starts at 00000060
+003B:000E Ambient Sound, Howling wind, (196, 763, 32) (0000, 0000, 0000)
+016A:0000 Magic Carpet Man, (1506, -357, 3559) (0000, 8000, 0000)
+00A7:0088 Enemy Spawner, (-2062, 74, -1260) (0000, 0000, 0000)
+0039:110A Gameplay_keep Items, (2104, -340, 2389) (0000, ACCD, 0000)
+0026:FFFF Wooden Post With Red Cloth, (168, 90, -1733) (0000, 0000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (-8, 114, -2157) (0000, 0000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (168, 101, -2581) (0000, 0000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (592, 94, -2757) (0000, 0000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (1016, 112, -2581) (0000, 0000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (1192, 114, -2157) (0000, 0000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (1017, 114, -1733) (0000, 0000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (690, 243, -1123) (0000, 0000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (519, 223, -1113) (0000, 0000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (-4105, -36, -1207) (0000, 0000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (-4105, -36, -1007) (0000, 0000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (3075, -300, 2273) (0000, 0000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (2945, -280, 2495) (0000, 0000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (2564, -307, 2319) (0000, 0000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (1963, -321, 2319) (0000, 0000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (1308, -250, 2281) (0000, 0000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (1143, -188, 1726) (0000, 0000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (1440, -170, 1092) (0000, 0000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (1163, -154, 525) (0000, 0000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (1359, 26, -178) (0000, 0000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (652, 100, -470) (0000, 0000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (4255, -360, 2957) (0000, 0000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (4251, -360, 3104) (0000, 0000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (6508, -283, 2924) (0000, 0000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (-5849, -46, -1056) (0000, 0000, 0000)
+01BF:0000 Desert Wasteland Poe Guide, (642, 292, -2261) (0000, 0000, 0000)
+0165:0C06 Proximity Weather Effect, (2506, -280, 1742) (0000, 0000, 0000)
+0165:1206 Proximity Weather Effect, (830, -80, 794) (0000, 0000, 0000)
+0185:04FF Check Spot, Checkable, dialog One with the eye of truth shall be guide, No Flag, (645, 278, -2234) (0000, 0000, 002A)
+01A0:FFFF Large Crate, (-1531, 80, -976) (0000, 293F, 0000)
+01A0:FFFF Large Crate, (3125, -283, 2459) (0000, 1BBC, 0000)
+01A0:FFFF Large Crate, (3026, -272, 2631) (0000, D555, 0000)
+01A0:FFFF Large Crate, (3235, -283, 2313) (0000, 0000, 0000)
+01A0:FFFF Large Crate, (3832, -355, 2840) (0000, B777, 0000)
+

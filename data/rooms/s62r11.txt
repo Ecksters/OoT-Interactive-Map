@@ -1,0 +1,14 @@
+Room 11
+Room at 026FF000
+Setup 0: 00000000
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000070
+0B: There are 5 Object(s). List starts at 00000040
+0171, 012F, 0172, 00C7, 00BB, 
+01: There are 2 actor(s). List starts at 0000004C
+01A1:FFFF Mask Popularity Trigger, (3800, 0, 1140) (0000, 0000, 0000)
+0141:0344 Square Signpost, (3898, 0, 1228) (0000, E2D8, 0000)
+

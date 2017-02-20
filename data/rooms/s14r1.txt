@@ -1,0 +1,22 @@
+Room 1
+Room at 033DA000
+Setup 0: 00000000
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000F0
+0B: There are 6 Object(s). List starts at 00000040
+0139, 0060, 014F, 0156, 0032, 0092, 
+01: There are 10 actor(s). List starts at 0000004C
+003B:0012 Ambient Sound, Quake/Collapse, (-30, 260, 8) (0000, 0000, 0000)
+01CC:0000 Zelda's Path in Ganon Castle Escape?, (2, 260, 19) (0000, 0000, 0000)
+0008:03F5 Decorative Flame, (-236, 374, -233) (0000, 0000, 0000)
+0008:03F5 Decorative Flame, (-235, 374, 235) (0000, 0000, 0000)
+0008:03F5 Decorative Flame, (233, 374, -236) (0000, 0000, 0000)
+0008:03F5 Decorative Flame, (234, 374, 236) (0000, 0000, 0000)
+0179:2623 ???, (-150, 260, 9) (0000, C000, 0038)
+0177:2605 Metal Bars (Ganon's Castle), (349, 260, 0) (0000, C000, 0000)
+0049:5FF8 Flame Circle, Disabled, large, turns on permanently, camera 0F, bound to Local: 00, (0, 260, 150) (0000, 0000, 0000)
+00B5:0006 Flying rubble, (-64, 260, -21) (0000, 0000, 0000)
+

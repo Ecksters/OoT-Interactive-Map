@@ -1,0 +1,118 @@
+Room 0
+Room at 02059000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 0A
+0A: Room Mesh: 03000490
+0B: There are 14 Object(s). List starts at 00000054
+0112, 0188, 012F, 0163, 0013, 0024, 0007, 0016, 011E, 0127, 0131, 00E6, 0090, 007C, 
+01: There are 66 actor(s). List starts at 00000070
+003B:0000 Ambient Sound, Nothing, (2749, 460, -453) (0000, 0000, 0000)
+003B:0100 Ambient Sound, Nothing, (555, 180, -1216) (0000, 0000, 0000)
+014D:01BF Kaepora Gaebora, Type 6, No Flag, (-1397, 260, 426) (0000, 0000, 0000)
+00ED:0000 Frog Song Spot and Frogs, (990, 205, -1220) (0000, 1555, 0000)
+000E:FF00 Octorok, (-133, 60, -53) (0000, AAAB, 0000)
+000E:FF00 Octorok, (2928, 500, -557) (0000, A000, 0000)
+00ED:0001 Frog Song Spot and Frogs, (1093, 205, -1069) (0000, 98E4, 0000)
+01B9:390D Gossip Stone, (800, 570, -1070) (0000, 0000, 0000)
+0015:0406 Collectable Heart Piece, Perm: 04, (376, 460, -1237) (0000, 2000, 0000)
+00ED:0003 Frog Song Spot and Frogs, (1082, 199, -1028) (0000, 91C7, 0000)
+00ED:0004 Frog Song Spot and Frogs, (1169, 226, -1021) (0000, A222, 0000)
+009B:0029 Grotto, Generic, Visible, Chest: Red Rupee, Flag 09, (360, 570, 130) (0000, 8000, 0000)
+009B:01EB Grotto, Two Deku Salescrubs - Green Pot, Song of Storms, Chest: None, Flag 0B, (-1630, 100, -130) (0000, 0000, 000A)
+0019:000B Cucco, (-1634, 100, -131) (0000, 1DDE, 0000)
+0019:000C Cucco, (483, 570, -240) (0000, 6666, 0000)
+0112:123F Invisible Collectible, 02 08 3F, (-1296, 19, 242) (0000, 0000, 0001)
+0112:123F Invisible Collectible, 02 08 3F, (-1290, -99, 862) (0000, 0000, 0001)
+0112:123F Invisible Collectible, 02 08 3F, (-1288, -101, 668) (0000, 0000, 0001)
+0112:123F Invisible Collectible, 02 08 3F, (-1288, -99, 1052) (0000, 0000, 0001)
+0112:123F Invisible Collectible, 02 08 3F, (-1287, -100, 457) (0000, 0000, 0001)
+0112:123F Invisible Collectible, 02 08 3F, (-1063, 10, -4) (0000, 0000, 0001)
+0112:123F Invisible Collectible, 02 08 3F, (-860, 26, -38) (0000, 0000, 0001)
+0112:123F Invisible Collectible, 02 08 3F, (-145, 140, -938) (0000, 0000, 0001)
+0112:123F Invisible Collectible, 02 08 3F, (-142, 15, -383) (0000, 0000, 0001)
+0112:123F Invisible Collectible, 02 08 3F, (-141, 18, -588) (0000, 0000, 0001)
+0112:123F Invisible Collectible, 02 08 3F, (9, 140, -1158) (0000, 0000, 0001)
+0112:123F Invisible Collectible, 02 08 3F, (158, 84, 6) (0000, 0000, 0001)
+0112:123F Invisible Collectible, 02 08 3F, (269, 140, -1018) (0000, 0000, 0001)
+0112:123F Invisible Collectible, 02 08 3F, (353, 83, 9) (0000, 0000, 0001)
+0112:123F Invisible Collectible, 02 08 3F, (509, 140, -1223) (0000, 0000, 0001)
+0112:123F Invisible Collectible, 02 08 3F, (520, 81, 12) (0000, 0000, 0001)
+0112:123F Invisible Collectible, 02 08 3F, (670, 140, 3) (0000, 0000, 0001)
+0112:123F Invisible Collectible, 02 08 3F, (902, 140, -150) (0000, 0000, 0001)
+0112:123F Invisible Collectible, 02 08 3F, (1020, 140, -973) (0000, 0000, 0001)
+0112:123F Invisible Collectible, 02 08 3F, (1021, 140, -224) (0000, 0000, 0001)
+0112:123F Invisible Collectible, 02 08 3F, (1124, 140, -803) (0000, 0000, 0001)
+0112:123F Invisible Collectible, 02 08 3F, (1144, 140, -296) (0000, 0000, 0001)
+0112:123F Invisible Collectible, 02 08 3F, (1204, 140, -608) (0000, 0000, 0001)
+0112:123F Invisible Collectible, 02 08 3F, (1287, 140, -363) (0000, 0000, 0001)
+0112:127F Invisible Collectible, 02 09 3F, (-147, 18, -736) (0000, 0000, 0001)
+0112:127F Invisible Collectible, 02 09 3F, (786, 140, -74) (0000, 0000, 0001)
+0112:12BF Invisible Collectible, 02 0A 3F, (-141, 12, -218) (0000, 0000, 0001)
+001B:FFFE Blue Tektite, (-122, 180, -1252) (0000, 0000, 0000)
+001B:FFFE Blue Tektite, (330, 180, -1108) (0000, C000, 0000)
+00ED:0002 Frog Song Spot and Frogs, (1098, 194, -1110) (0000, A38E, 0000)
+014E:0200 Small Rock, (2044, 440, -786) (0000, 0000, 0000)
+014E:0200 Small Rock, (2425, 488, -446) (0000, 0000, 0000)
+014E:0200 Small Rock, (2425, 528, -524) (0000, 0000, 0000)
+014E:0200 Small Rock, (2503, 528, -571) (0000, 0000, 0000)
+014E:0200 Small Rock, (2550, 488, -415) (0000, 0000, 0000)
+0151:0202 Shrubs or Rocks, (-1635, 128, -133) (0000, 0000, 0000)
+0151:0202 Shrubs or Rocks, (668, 598, -370) (0000, 0000, 0000)
+0125:0210 Regen Grass, (231, 460, -1478) (0000, 0000, 0000)
+0151:0201 Shrubs or Rocks, (-1508, 91, 943) (0000, 0000, 0000)
+0077:0201 Greenery, Medium tree, Rand02, (-1690, 100, 554) (0000, 1555, 0072)
+0094:2324 Butterflies (defunct?), (-1636, 164, -131) (0000, 0000, 0000)
+0126:1F03 Bean Planting Spot, (-730, 100, -220) (0000, C000, 0000)
+013E:FFFF Been Seller, (-717, 100, -312) (0000, C000, 0000)
+0185:4BBB Check Spot, Instant, dialog Some frogs are looking at you from under, Local: 03, (1000, 205, -1202) (0000, 960B, 0000)
+00ED:0005 Frog Song Spot and Frogs, (1122, 230, -980) (0000, 8E39, 0000)
+0127:0002 Brown Boulder, Perm: 02, (-1456, 100, 434) (0000, F555, 0000)
+0127:8005 Brown Boulder, Perm: 05 Puzzle Solved Sound, (672, 561, -366) (0000, 0000, 0000)
+0127:0008 Brown Boulder, Perm: 08, (-1518, 100, 435) (0000, 9B06, 0000)
+0127:0009 Brown Boulder, Perm: 09, (-1576, 100, 430) (0000, 4000, 0000)
+0127:000A Brown Boulder, Perm: 0A, (-1400, 100, 482) (0000, 0000, 0000)
+009B:10E6 Grotto, ???, Visible, Chest: None, Flag 06, (670, 570, -365) (0000, E000, 0006)
+
+Setup 2: 00000580
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 0A
+0A: Room Mesh: 03000490
+0B: There are 9 Object(s). List starts at 000005C0
+0112, 012F, 001A, 0163, 0188, 0024, 0007, 011E, 000E, 
+01: There are 29 actor(s). List starts at 000005D4
+003B:0000 Ambient Sound, Nothing, (2749, 460, -453) (0000, 0000, 0000)
+003B:0100 Ambient Sound, Nothing, (555, 180, -1216) (0000, 0000, 0000)
+000E:FF00 Octorok, (1224, 180, -606) (0000, 0000, 0000)
+000E:FF00 Octorok, (1544, 300, -421) (0000, 0000, 0000)
+000E:FF00 Octorok, (-642, 60, -33) (0000, AAAB, 0000)
+000E:FF00 Octorok, (2928, 500, -557) (0000, A000, 0000)
+000E:FF00 Octorok, (-1106, 60, 9) (0000, 0000, 0000)
+000E:FF00 Octorok, (-122, 180, -1252) (0000, 0000, 0000)
+000E:FF00 Octorok, (330, 180, -1108) (0000, C000, 0000)
+000E:FF00 Octorok, (1140, 180, -1176) (0000, 1555, 0000)
+01B9:390D Gossip Stone, (800, 570, -1070) (0000, 0000, 0000)
+0015:0406 Collectable Heart Piece, Perm: 04, (373, 460, -1231) (0000, 0000, 0000)
+009B:0029 Grotto, Generic, Visible, Chest: Red Rupee, Flag 09, (360, 570, 130) (0000, 8000, 0000)
+009B:01EB Grotto, Two Deku Salescrubs - Green Pot, Song of Storms, Chest: None, Flag 0B, (-1630, 100, -130) (0000, 0000, 000A)
+0095:B210 Gold Skulltula, Type 5, Group 12, Flag 10, (26, 702, 258) (4000, 82D8, 0000)
+0165:1502 Proximity Weather Effect, (4198, -87, -1397) (0000, 0000, 0000)
+014E:0700 Small Rock, (2044, 440, -786) (0000, 0000, 0000)
+014E:0700 Small Rock, (2503, 460, -571) (0000, 0000, 0000)
+014E:0700 Small Rock, (2425, 460, -524) (0000, 0000, 0000)
+014E:0700 Small Rock, (2425, 460, -446) (0000, 0000, 0000)
+014E:0700 Small Rock, (2550, 460, -415) (0000, 0000, 0000)
+0151:0702 Shrubs or Rocks, (668, 598, -370) (0000, 0000, 0000)
+0151:0702 Shrubs or Rocks, (-1635, 128, -133) (0000, 0000, 0000)
+0097:0003 Environmental Effects, (4198, -87, -1397) (0000, 0000, 0000)
+0125:FF10 Regen Grass, (233, 460, -1464) (0000, 0000, 0000)
+0151:0701 Shrubs or Rocks, (-1508, 91, 943) (0000, 0000, 0000)
+0126:0203 Bean Planting Spot, (-730, 100, -220) (0000, C000, 0002)
+0127:8005 Brown Boulder, Perm: 05 Puzzle Solved Sound, (672, 561, -366) (0000, 0000, 0000)
+009B:10E6 Grotto, Fairy Fountain, Visible, Chest: None, Flag 06, (670, 570, -365) (0000, E000, 0000)
+

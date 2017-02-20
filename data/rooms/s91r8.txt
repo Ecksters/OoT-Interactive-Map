@@ -1,0 +1,47 @@
+Room 8
+Room at 0217F000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 9
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000100
+0B: There are 11 Object(s). List starts at 00000058
+010A, 0168, 0172, 0117, 0131, 011E, 0163, 0188, 0164, 017B, 0024, 
+01: There are 9 actor(s). List starts at 00000070
+003B:000C Ambient Sound, Unknown, (793, 0, -2657) (0000, 0000, 0000)
+003B:000C Ambient Sound, Unknown, (799, 0, -3155) (0000, 0000, 0000)
+0097:0000 Environmental Effects, (794, 0, -2379) (0000, 0000, 0000)
+0125:0200 Regen Grass, (952, 0, -2275) (0000, 0000, 0000)
+0125:0200 Regen Grass, (965, 0, -2241) (0000, 0000, 0000)
+0125:0200 Regen Grass, (926, 0, -2232) (0000, 0000, 0000)
+014D:0308 Kaepora Gaebora, Type 12, Perm: 08, (798, 208, -2246) (0000, 8000, 0000)
+009B:00F5 Grotto, Two Deku Salescrubs - Deku Nut Upgrade, Visible, Chest: None, Flag 15, (670, 0, -2520) (0000, 2000, 0007)
+0127:801F Brown Boulder, Perm: 1F Puzzle Solved Sound, (670, 0, -2520) (0000, 0000, 0000)
+
+Setup 2: 00000120
+16: Sound Settings: Echo 9
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000100
+0B: There are 12 Object(s). List starts at 00000160
+00FC, 00FD, 00FB, 013D, 011E, 0188, 0128, 0024, 0163, 00C5, 013C, 010A, 
+01: There are 8 actor(s). List starts at 00000178
+003B:000C Ambient Sound, Unknown, (793, 0, -2657) (0000, 0000, 0000)
+003B:000C Ambient Sound, Unknown, (799, 0, -3155) (0000, 0000, 0000)
+0097:0000 Environmental Effects, (815, 0, -2368) (0000, 0000, 0000)
+009B:00F5 Grotto, Two Deku Salescrubs - Deku Nut Upgrade, Visible, Chest: None, Flag 15, (670, 0, -2520) (0000, 2000, 0007)
+0125:0700 Regen Grass, (952, 0, -2275) (0000, 0000, 0000)
+0125:0700 Regen Grass, (965, 0, -2241) (0000, 0000, 0000)
+0125:0700 Regen Grass, (926, 0, -2232) (0000, 0000, 0000)
+0127:801F Brown Boulder, Perm: 1F Puzzle Solved Sound, (670, 0, -2520) (0000, 0000, 0000)
+
+Cutscene 0: 00000200
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 03000100
+

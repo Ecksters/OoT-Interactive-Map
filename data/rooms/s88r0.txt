@@ -1,0 +1,61 @@
+Room 0
+Room at 020FC000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 04
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000150
+0B: There are 8 Object(s). List starts at 00000058
+0113, 00A4, 012F, 012C, 00FE, 00FF, 00A3, 0188, 
+01: There are 14 actor(s). List starts at 00000068
+003B:0000 Ambient Sound, Nothing, (642, 857, -1691) (0000, 0000, 0000)
+0164:0100 King Zora (mweep), (628, 996, -1780) (0000, 0000, 0000)
+00A1:0005 Child Princess Ruto, (603, 996, -1806) (0000, 0D83, 0000)
+0120:0001 Zora's Domain Waterfall, (445, 1008, -1742) (0000, 0000, 0000)
+0039:2B0A Gameplay_keep Items, (345, 857, -1572) (0000, 8000, 0000)
+005E:2400 Lit Wooden Torch, Perm: 00, (462, 887, -1275) (0000, 0000, 0000)
+005E:2400 Lit Wooden Torch, Perm: 00, (778, 887, -1275) (0000, 0000, 0000)
+0141:0324 Square Signpost, (720, 890, -1345) (0000, 0000, 0000)
+0124:FFFF Zora Diving Game, (-149, 857, -1020) (0000, A2D8, 0000)
+019E:FF02 Beehive, (382, 1173, -1337) (0000, 0000, 0000)
+019E:FF02 Beehive, (948, 1217, -1500) (0000, 0000, 0000)
+019E:FF02 Beehive, (701, 1250, -2056) (0000, DF4A, 0000)
+005E:2000 Unlit Wooden Torch, Perm: 00, (644, 402, -157) (0000, A71C, 0000)
+01B9:3809 Gossip Stone, (620, 857, -1600) (0000, 0000, 0000)
+
+Setup 2: 00000220
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 04
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000150
+0B: There are 7 Object(s). List starts at 00000260
+0113, 006B, 00A4, 012F, 012C, 0188, 00FF, 
+01: There are 9 actor(s). List starts at 00000270
+0164:0000 King Zora (mweep), (628, 996, -1780) (0000, 0000, 0000)
+01B9:3809 Gossip Stone, (620, 857, -1600) (0000, 0000, 0000)
+0120:0001 Zora's Domain Waterfall, (445, 1008, -1742) (0000, 0000, 0000)
+0039:2B0A Gameplay_keep Items, (345, 857, -1572) (0000, 8000, 0000)
+005E:2000 Unlit Wooden Torch, Perm: 00, (462, 887, -1275) (0000, 0000, 0000)
+005E:2000 Unlit Wooden Torch, Perm: 00, (778, 887, -1275) (0000, 0000, 0000)
+0165:1402 Proximity Weather Effect, (-177, 0, -1061) (0000, 0000, 0000)
+0141:0324 Square Signpost, (720, 890, -1345) (0000, 0000, 0000)
+0097:0003 Environmental Effects, (624, 857, -1555) (0000, 0000, 0000)
+
+Cutscene 0: 00000300
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 04
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000150
+0B: There are 3 Object(s). List starts at 00000340
+0113, 00A4, 012F, 
+01: There are 5 actor(s). List starts at 00000348
+005E:2400 Lit Wooden Torch, Perm: 00, (809, 857, -1560) (0000, 0000, 0000)
+005E:2400 Lit Wooden Torch, Perm: 00, (428, 857, -1560) (0000, 0000, 0000)
+0141:0324 Square Signpost, (720, 890, -1345) (0000, 0000, 0000)
+0141:032B Square Signpost, (230, 857, -1440) (0000, 4000, 0000)
+0120:0001 Zora's Domain Waterfall, (445, 1008, -1742) (0000, 0000, 0000)
+

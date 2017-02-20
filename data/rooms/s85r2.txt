@@ -1,0 +1,109 @@
+Room 2
+Room at 020A6000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 1
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000150
+0B: There are 4 Object(s). List starts at 0000007C
+012F, 011F, 000E, 012B, 
+01: There are 12 actor(s). List starts at 00000084
+0015:0F01 Collectable Blue rupee, Perm: 0F, (-1009, 120, 1556) (0000, 0000, 0000)
+0015:0E01 Collectable Blue rupee, Perm: 0E, (-712, 120, 1857) (0000, 0000, 0000)
+0125:FF01 Regen Grass, (-995, 120, 1531) (0000, 0000, 0000)
+0125:FF01 Regen Grass, (-701, 120, 1882) (0000, 0000, 0000)
+0125:FF01 Regen Grass, (-295, 160, 2297) (0000, 0000, 0000)
+0112:123F Invisible Collectible, 02 08 3F, (-590, 120, 1635) (0000, 0000, 0001)
+0112:123F Invisible Collectible, 02 08 3F, (-584, 120, 1762) (0000, 0000, 0001)
+0141:0340 Square Signpost, (-784, 120, 1675) (0000, 8000, 0000)
+0141:0345 Square Signpost, (-273, 160, 2173) (0000, 6000, 0000)
+0125:FF00 Regen Grass, (-757, 120, 708) (0000, 0000, 0000)
+0130:0C02 ???, (-245, 120, 1870) (0000, 8000, 0001)
+000A:04E0 Chest, Large, reward 27: Kokiri’s Sword, chest flag: 00, bound to Perm: 00, (-232, 178, 2245) (0000, 0000, 0000)
+
+Setup 2: 000001D0
+16: Sound Settings: Echo 1
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000150
+
+Setup 3: 00000200
+16: Sound Settings: Echo 1
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000150
+
+Cutscene 0: 00000230
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: 0C00 00
+0A: Room Mesh: 03000150
+
+Cutscene 1: 00000260
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: 0C00 00
+0A: Room Mesh: 03000150
+
+Cutscene 2: 00000290
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: 0C00 00
+0A: Room Mesh: 03000150
+
+Cutscene 3: 000002C0
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: 0C00 00
+0A: Room Mesh: 03000150
+
+Cutscene 4: 000002F0
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 03000150
+
+Cutscene 5: 00000320
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 03000150
+
+Cutscene 6: 00000350
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 03000150
+
+Cutscene 7: 00000380
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 03000150
+
+Cutscene 8: 000003B0
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: 0C00 00
+0A: Room Mesh: 03000150
+
+Cutscene 9: 000003E0
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 03000150
+

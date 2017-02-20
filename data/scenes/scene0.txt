@@ -1,0 +1,46 @@
+Scene at 02499000
+Setup 0: 00000000
+15: Sound Settings: Reverb 3, Playback option Always Playing, Song 1C.
+04: There are 12 room(s). List starts at 00000140
+024A7000 024BC2F0
+024BD000 024C1150
+024C2000 024C7E30
+024C8000 024DC1A0
+024DD000 024E1BD0
+024E2000 024EA320
+024EB000 024EFEC0
+024F0000 024F8910
+024F9000 024F9D00
+024FA000 025038A0
+02504000 02508D80
+02509000 02510170
+0E: There are 12 transition actor(s). List starts at 00000080.
+01 FF -> 00 FF, 002E:007F, Front Clear Door, No Flag, (-455, 400, 455) (0000, E000, 0000)
+06 FF -> 05 FF, 002E:0083, Front Switch Door, Perm: 03, (-1535, -760, 1070) (0000, C000, 0000)
+04 FF -> 03 FF, 002E:003F, Lifting Door, No Flag, (-75, -880, 580) (0000, 0000, 0000)
+07 FF -> 08 FF, 002E:003F, Lifting Door, No Flag, (-2420, -760, -453) (0000, 2000, 0000)
+09 FF -> 11 FF, 002E:007F, Front Clear Door, No Flag, (-896, -1880, -964) (0000, 105B, 0000)
+01 FF -> 02 FF, 002E:007F, Front Clear Door, No Flag, (-936, 400, 936) (0000, 6000, 0000)
+10 FF -> 00 FF, 002E:00BC, Front Switch Door, Local: 04, (-560, 800, 0) (0000, C000, 0000)
+06 FF -> 07 FF, 002E:0083, Front Switch Door, Perm: 03, (-1855, -760, 770) (0000, 0000, 0000)
+04 FF -> 05 FF, 002E:0084, Front Switch Door, Perm: 04, (-335, -880, 960) (0000, 4000, 0000)
+03 FF -> 00 FF, 0023:00BF, Transition Plane, 03 FF -> 00 FF Type 2: No Flag, (0, -320, 0) (0000, C000, 0000)
+09 FF -> 03 FF, 0023:00BF, Transition Plane, 09 FF -> 03 FF Type 2: No Flag, (-635, -1100, 0) (0000, C000, 0000)
+03 FF -> 07 FF, 0023:013F, Transition Plane, 03 FF -> 07 FF Type 4: No Flag, (-1055, -820, 0) (0000, 4000, 0000)
+19: JPEG background camera related: 00 Overworld Region:  00
+03: Collision Header starts at 0000B610
+Offset to vertex array 00009514
+Offset to polygon array 00000404
+Offset to polygon type defs 00000314
+Offset to camera data 000002BC
+Offset to water boxes 0000B5E0
+Size in bytes 45952
+06: Entrance Index Definitions starts at 000001A0
+07: Elf_Message 2, Load Object 0003
+00: There are 2 position(s). List starts at 00000060.
+0000:0EFF Link, (-4, 0, 603) (0000, 8000, 0000)
+0000:0DFF Link, (-850, -1880, -894) (0000, 0FA5, 0000)
+11: Skybox 29, Cast: Sunny, Fog? Yes
+13: Exit List starts at 000001A4. 0209 040F
+0F: There are 7 environment setting(s). List starts at 000001A8.
+

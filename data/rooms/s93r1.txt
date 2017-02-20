@@ -1,0 +1,156 @@
+Room 1
+Room at 021CF000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 02
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000150
+0B: There are 8 Object(s). List starts at 00000060
+0162, 000E, 0076, 001A, 00D2, 0170, 0167, 0116, 
+01: There are 14 actor(s). List starts at 00000070
+01A0:FFFF Large Crate, (3303, 1441, -5018) (0000, FDDE, 0000)
+01A0:FFFF Large Crate, (3330, 1441, 406) (0000, 0B61, 0000)
+01A0:FFFF Large Crate, (3406, 1441, 414) (0000, 09F5, 0000)
+01A0:FFFF Large Crate, (3443, 1489, -4876) (0000, FF4A, 0000)
+01A0:FFFF Large Crate, (3446, 1441, -4875) (0000, 2666, 0000)
+01A0:FFFF Large Crate, (3727, 1413, -243) (0000, 0000, 0000)
+01A0:FFFF Large Crate, (3667, 1413, -243) (0000, 0000, 0000)
+01A0:FFFF Large Crate, (4090, 1413, -2980) (0000, EAAB, 0000)
+01A0:FFFF Large Crate, (4090, 1413, -2740) (0000, 0E39, 0000)
+01A0:FFFF Large Crate, (4090, 1413, -2500) (0000, 438E, 0000)
+01A0:FFFF Large Crate, (4090, 1413, -2260) (0000, E16C, 0000)
+01A0:FFFF Large Crate, (4090, 1413, -2020) (0000, 13E9, 0000)
+01A0:FFFF Large Crate, (4090, 1413, -1780) (0000, EB61, 0000)
+01A0:FFFF Large Crate, (4090, 1413, -1540) (0000, DD28, 0000)
+
+Setup 2: 00000200
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 02
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+05: Wind Settings: Forces Westward 00, Vertical 04, Southward 0A, Strength 50
+0A: Room Mesh: 03000150
+0B: There are 10 Object(s). List starts at 00000248
+0116, 0170, 001A, 00D2, 0162, 000E, 0076, 0167, 012F, 0154, 
+01: There are 21 actor(s). List starts at 0000025C
+0138:0045 White Clothed Gerudo, (3719, 1413, -507) (0000, C000, 0000)
+012F:0000 Horseback Archery target (hitbox), (3360, 1734, 485) (0000, 0000, 0000)
+012F:0000 Horseback Archery target (hitbox), (3380, 1734, -4935) (0000, 0000, 0000)
+012F:0001 Horseback Archery target (hitbox), (4490, 1670, -2815) (0000, 0000, 0000)
+012F:0001 Horseback Archery target (hitbox), (4490, 1670, -1785) (0000, 0000, 0000)
+012F:0002 Horseback Archery target (hitbox), (4490, 1720, -2295) (0000, 0000, 0000)
+0014:FFFF Epona, (3705, 1413, -665) (0000, C000, 0000)
+0141:031A Square Signpost, (3635, 1413, -360) (0000, C000, 0000)
+01A0:FFFF Large Crate, (3303, 1441, -5018) (FFFF, FDDE, 0000)
+01A0:FFFF Large Crate, (3330, 1441, 406) (FFFF, 0B61, 0000)
+01A0:FFFF Large Crate, (3406, 1441, 414) (FFFF, 09F5, 0000)
+01A0:FFFF Large Crate, (3446, 1441, -4875) (FFFF, 2666, 0000)
+01A0:FFFF Large Crate, (3667, 1413, -243) (FFFF, 0000, 0000)
+01A0:FFFF Large Crate, (3727, 1413, -243) (FFFF, 0000, 0000)
+01A0:FFFF Large Crate, (4090, 1413, -2980) (FFFF, EAAB, 0000)
+01A0:FFFF Large Crate, (4090, 1413, -2740) (FFFF, 0E39, 0000)
+01A0:FFFF Large Crate, (4090, 1413, -2500) (FFFF, 438E, 0000)
+01A0:FFFF Large Crate, (4090, 1413, -2260) (FFFF, E16C, 0000)
+01A0:FFFF Large Crate, (4090, 1413, -2020) (FFFF, 13E9, 0000)
+01A0:FFFF Large Crate, (4090, 1413, -1780) (FFFF, EB61, 0000)
+01A0:FFFF Large Crate, (4090, 1413, -1540) (FFFF, DD28, 0000)
+
+Setup 3: 000003B0
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 02
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+05: Wind Settings: Forces Westward 00, Vertical 00, Southward 32, Strength C8
+0A: Room Mesh: 03000150
+0B: There are 10 Object(s). List starts at 000003F8
+0116, 0170, 001A, 0162, 000E, 0076, 0167, 012F, 0154, 0024, 
+01: There are 15 actor(s). List starts at 0000040C
+0141:031A Square Signpost, (3635, 1413, -360) (0000, C000, 0000)
+01A0:FFFF Large Crate, (3303, 1441, -5018) (FFFF, FDDE, 0000)
+01A0:FFFF Large Crate, (3330, 1441, 406) (FFFF, 0B61, 0000)
+01A0:FFFF Large Crate, (3406, 1441, 414) (FFFF, 09F5, 0000)
+01A0:FFFF Large Crate, (3446, 1441, -4875) (FFFF, 2666, 0000)
+01A0:FFFF Large Crate, (3667, 1413, -243) (FFFF, 0000, 0000)
+01A0:FFFF Large Crate, (3727, 1413, -243) (FFFF, 0000, 0000)
+01A0:FFFF Large Crate, (4090, 1413, -2980) (FFFF, EAAB, 0000)
+01A0:FFFF Large Crate, (4090, 1413, -2740) (FFFF, 0E39, 0000)
+01A0:FFFF Large Crate, (4090, 1413, -2500) (FFFF, 438E, 0000)
+01A0:FFFF Large Crate, (4090, 1413, -2260) (FFFF, E16C, 0000)
+01A0:FFFF Large Crate, (4090, 1413, -2020) (FFFF, 13E9, 0000)
+01A0:FFFF Large Crate, (4090, 1413, -1780) (FFFF, EB61, 0000)
+01A0:FFFF Large Crate, (4090, 1413, -1540) (FFFF, DD28, 0000)
+0095:B501 Gold Skulltula, Type 5, Group 15, Flag 01, (3377, 1734, -4935) (4000, 0000, 0000)
+
+Cutscene 0: 00000500
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 02
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000150
+0B: There are 12 Object(s). List starts at 00000540
+000E, 0029, 0034, 0076, 001A, 00BD, 0027, 00D2, 0117, 0170, 0116, 012C, 
+01: There are 28 actor(s). List starts at 00000558
+0117:2FFF Silver Rupee, Type: ???, No Flag, (4090, 1450, -2980) (0000, 0000, 0000)
+0117:2FFF Silver Rupee, Type: ???, No Flag, (4090, 1450, -2740) (0000, 0000, 0000)
+0117:2FFF Silver Rupee, Type: ???, No Flag, (4090, 1450, -2500) (0000, 0000, 0000)
+0117:2FFF Silver Rupee, Type: ???, No Flag, (4090, 1450, -2260) (0000, 0000, 0000)
+0117:2FFF Silver Rupee, Type: ???, No Flag, (4090, 1450, -2020) (0000, 0000, 0000)
+0117:2FFF Silver Rupee, Type: ???, No Flag, (4090, 1450, -1780) (0000, 0000, 0000)
+0117:2FFF Silver Rupee, Type: ???, No Flag, (4090, 1450, -1540) (0000, 0000, 0000)
+012F:0000 Horseback Archery target (hitbox), (3380, 1734, -4935) (0000, 0000, 0000)
+012F:0000 Horseback Archery target (hitbox), (3360, 1734, 485) (0000, 0000, 0000)
+012F:0001 Horseback Archery target (hitbox), (4490, 1670, -2815) (0000, 0000, 0000)
+012F:0001 Horseback Archery target (hitbox), (4490, 1670, -1785) (0000, 0000, 0000)
+012F:0002 Horseback Archery target (hitbox), (4490, 1720, -2295) (0000, 0000, 0000)
+00DB:0002 Horseback Games, (3256, 1413, -2571) (0000, 0000, 0000)
+0014:FFFF Epona, (3705, 1413, -665) (0000, C000, 0000)
+01A0:FFFF Large Crate, (3303, 1441, -5018) (0000, FDDE, 0000)
+01A0:FFFF Large Crate, (3330, 1441, 406) (FF4A, 0B61, 0000)
+01A0:FFFF Large Crate, (3406, 1441, 414) (0000, 09F5, 0000)
+01A0:FFFF Large Crate, (3446, 1441, -4875) (0000, 2666, 0000)
+01A0:FFFF Large Crate, (3727, 1413, -243) (0000, 0000, 0000)
+01A0:FFFF Large Crate, (3667, 1413, -243) (0000, 0000, 0000)
+01A0:FFFF Large Crate, (4090, 1413, -2980) (0000, EAAB, 0000)
+01A0:FFFF Large Crate, (4090, 1413, -2740) (0000, 0E39, 0000)
+01A0:FFFF Large Crate, (4090, 1413, -2500) (0000, 438E, 0000)
+01A0:FFFF Large Crate, (4090, 1413, -2260) (0000, E16C, 0000)
+01A0:FFFF Large Crate, (4090, 1413, -2020) (0000, 13E9, 0000)
+01A0:FFFF Large Crate, (4090, 1413, -1780) (0000, EB61, 0000)
+01A0:FFFF Large Crate, (4090, 1413, -1540) (0000, DD28, 0000)
+0141:031A Square Signpost, (3635, 1413, -360) (0000, C000, 0000)
+
+Cutscene 1: 00000720
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 02
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000150
+0B: There are 9 Object(s). List starts at 00000760
+000E, 0029, 0034, 0076, 001A, 00BD, 0027, 00D2, 0117, 
+01: There are 7 actor(s). List starts at 00000774
+012F:0000 Horseback Archery target (hitbox), (3380, 1734, -4935) (0000, 0000, 0000)
+012F:0000 Horseback Archery target (hitbox), (3360, 1734, 485) (0000, 0000, 0000)
+012F:0001 Horseback Archery target (hitbox), (4490, 1670, -2815) (0000, 0000, 0000)
+012F:0001 Horseback Archery target (hitbox), (4490, 1670, -1785) (0000, 0000, 0000)
+012F:0002 Horseback Archery target (hitbox), (4490, 1720, -2295) (0000, 0000, 0000)
+00DB:0002 Horseback Games, (3256, 1413, -2571) (0000, 0000, 0000)
+003C:0001 Normal Horse, (3578, 1413, -2605) (0000, 0000, 0000)
+
+Cutscene 2: 000007F0
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 02
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000150
+0B: There are 8 Object(s). List starts at 00000830
+000E, 0076, 001A, 0027, 0013, 0100, 0116, 012C, 
+01: There are 6 actor(s). List starts at 00000840
+01A0:FFFF Large Crate, (3330, 1441, 406) (FF4A, 0B61, 0000)
+01A0:FFFF Large Crate, (3406, 1441, 414) (0000, 09F5, 0000)
+01A0:FFFF Large Crate, (3381, 1489, 403) (FF4A, 0B61, 0000)
+01A0:FFFF Large Crate, (3446, 1441, -4875) (0000, 2666, 0000)
+01A0:FFFF Large Crate, (3443, 1489, -4876) (FF4A, FF4A, 0000)
+01A0:FFFF Large Crate, (3303, 1441, -5018) (0000, FDDE, 0000)
+

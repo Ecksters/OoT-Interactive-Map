@@ -1,0 +1,75 @@
+Scene at 023CF000
+Setup 0: 00000000
+15: Sound Settings: Reverb 6, Playback option Always Playing, Song 2C.
+04: There are 23 room(s). List starts at 00000260
+023E5000 023F2BC0
+023F3000 023F8B60
+023F9000 02408A30
+02409000 0240CA10
+0240D000 024102B0
+02411000 024145E0
+02415000 0241E4C0
+0241F000 02432000
+02432000 02449B70
+0244A000 02454190
+02455000 0245A3E0
+0245B000 02465BD0
+02466000 0246E3E0
+0246F000 02477AB0
+02478000 0247DBB0
+0247E000 02480690
+02481000 02485FA0
+02486000 0248F150
+02490000 02491340
+02492000 02492510
+02493000 02494300
+02495000 02496780
+02497000 02498DE0
+0E: There are 29 transition actor(s). List starts at 00000090.
+00 FF -> 01 FF, 0009:003F, Door, No Flag, (119, 359, 60) (0000, 0000, 0000)
+02 FF -> 04 FF, 0009:003F, Door, No Flag, (119, 467, -2516) (0000, 0000, 0000)
+05 FF -> 11 FF, 0009:003F, Door, No Flag, (-1367, 383, -1440) (0000, 4000, 0000)
+07 FF -> 15 FF, 0009:003F, Door, No Flag, (1663, 523, -2876) (0000, 0000, 0000)
+08 FF -> 11 FF, 0009:003F, Door, No Flag, (-1502, 523, -1864) (0000, 8000, 0000)
+13 FF -> 20 FF, 002E:02C0, Locked Door, Perm: 00, (1654, 1228, -3320) (0000, C000, 0000)
+06 FF -> 13 FF, 002E:0095, Front Switch Door, Perm: 15, (499, 827, -3320) (0000, C000, 0000)
+06 FF -> 12 FF, 002E:0095, Front Switch Door, Perm: 15, (-381, 827, -3320) (0000, 4000, 0000)
+06 FF -> 04 FF, 002E:007F, Front Clear Door, No Flag, (119, 467, -3010) (0000, 8000, 0000)
+10 FF -> 08 FF, 002E:007F, Front Clear Door, No Flag, (-121, 800, -2810) (0000, 4000, 0000)
+10 FF -> 07 FF, 002E:007F, Front Clear Door, No Flag, (359, 800, -2810) (0000, C000, 0000)
+21 FF -> 08 FF, 002E:007F, Front Clear Door, No Flag, (-1643, 523, -2794) (0000, 8000, 0000)
+18 FF -> 08 FF, 002E:007F, Front Clear Door, No Flag, (-1745, 523, -2046) (0000, C000, 0000)
+16 FF -> 03 FF, 002E:007F, Front Clear Door, No Flag, (1605, 463, -1440) (0000, 4000, 0000)
+02 FF -> 05 FF, 0009:0081, Locked Door, Perm: 01, (-761, 383, -1440) (0000, 4000, 0000)
+02 FF -> 08 FF, 0009:003F, Door, No Flag, (-669, 243, -2228) (0000, 2000, 0000)
+02 FF -> 07 FF, 002E:00A5, Front Switch Door, Temp: 05, (907, 243, -2228) (0000, E0B6, 0000)
+02 FF -> 03 FF, 0009:003F, Door, No Flag, (999, 463, -1440) (0000, C000, 0000)
+09 FF -> 07 FF, 0023:00BF, Transition Plane, 09 FF -> 07 FF Type 2: No Flag, (1265, -77, -1760) (0000, 0000, 0000)
+09 FF -> 08 FF, 0023:00BF, Transition Plane, 09 FF -> 08 FF Type 2: No Flag, (-1030, -78, -1760) (0000, 0000, 0000)
+17 FF -> 02 FF, 0023:009B, Transition Plane, 17 FF -> 02 FF Type 2: Perm: 1B, (119, 45, -1566) (0000, 0000, 0000)
+15 FF -> 20 FF, 0023:00BF, Transition Plane, 15 FF -> 20 FF Type 2: No Flag, (2124, 813, -3445) (0000, 0000, 0000)
+21 FF -> 19 FF, 0023:00BF, Transition Plane, 21 FF -> 19 FF Type 2: No Flag, (-1761, 683, -3320) (0000, 8000, 0000)
+01 FF -> 02 FF, 0009:003F, Door, No Flag, (119, 383, -580) (0000, 0000, 0000)
+15 FF -> 16 FF, 002E:00AB, Front Switch Door, Temp: 0B, (1991, 403, -1820) (0000, 8000, 0000)
+11 FF -> 19 FF, 002E:02C2, Locked Door, Perm: 02, (-1761, 1228, -1820) (0000, 0000, 0000)
+12 FF -> 19 FF, 002E:02C3, Locked Door, Perm: 03, (-1416, 1228, -3320) (0000, 4000, 0000)
+20 FF -> 14 FF, 002E:02C4, Locked Door, Perm: 04, (1999, 1228, -1820) (0000, 8000, 0000)
+17 FF -> 22 FF, 002E:0154, Boss Door, Perm: 14, (119, -779, -2813) (0000, 0000, 0000)
+19: JPEG background camera related: 00 Overworld Region:  00
+03: Collision Header starts at 00014054
+Offset to vertex array 0000F6D0
+Offset to polygon array 000006A0
+Offset to polygon type defs 000004A8
+Offset to camera data 00000470
+Offset to water boxes 00014004
+Size in bytes 80912
+06: Entrance Index Definitions starts at 00000318
+07: Elf_Message 2, Load Object 0003
+00: There are 3 position(s). List starts at 00000060.
+0000:0FFF Link, (110, 309, 781) (0000, 8000, 0000)
+0000:0DFF Link, (128, -779, -2735) (0000, 0000, 0000)
+0000:0DFF Link, (1992, 403, -3432) (0000, 0000, 0000)
+11: Skybox 0, Cast: Sunny, Fog? Yes
+13: Exit List starts at 00000320. 0215 000C
+0F: There are 15 environment setting(s). List starts at 00000324.
+

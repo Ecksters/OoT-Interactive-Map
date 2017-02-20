@@ -1,0 +1,42 @@
+Room 7
+Room at 0217C000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 9
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000D0
+0B: There are 11 Object(s). List starts at 00000058
+010A, 0168, 0172, 0117, 0131, 011E, 0163, 0188, 0164, 017B, 0024, 
+01: There are 6 actor(s). List starts at 00000070
+003B:000C Ambient Sound, Unknown, (1348, 0, -2389) (0000, 0000, 0000)
+0125:0200 Regen Grass, (1445, 0, -2238) (0000, C000, 0000)
+0125:0200 Regen Grass, (1433, 0, -2276) (0000, C000, 0000)
+0125:0210 Regen Grass, (1476, 0, -2251) (0000, C000, 0000)
+0015:1301 Collectable Blue rupee, Perm: 13, (1720, 0, -2510) (0000, 0000, 0000)
+0127:001E Brown Boulder, Perm: 1E, (1720, 0, -2510) (0000, 0000, 0000)
+
+Setup 2: 000000F0
+16: Sound Settings: Echo 9
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000D0
+0B: There are 12 Object(s). List starts at 00000130
+00FC, 00FD, 00FB, 013D, 011E, 0188, 0128, 0024, 0163, 00C5, 013C, 010A, 
+01: There are 6 actor(s). List starts at 00000148
+003B:000C Ambient Sound, Unknown, (1348, 0, -2389) (0000, 0000, 0000)
+0015:1301 Collectable Blue rupee, Perm: 13, (1720, 0, -2510) (0000, 0000, 0000)
+0125:0700 Regen Grass, (1445, 0, -2238) (0000, C000, 0000)
+0125:0700 Regen Grass, (1476, 0, -2251) (0000, C000, 0000)
+0125:0700 Regen Grass, (1433, 0, -2276) (0000, C000, 0000)
+0127:001E Brown Boulder, Perm: 1E, (1720, 0, -2510) (0000, 0000, 0000)
+
+Cutscene 0: 000001B0
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 030000D0
+

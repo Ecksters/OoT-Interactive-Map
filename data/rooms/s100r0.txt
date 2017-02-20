@@ -1,0 +1,41 @@
+Room 0
+Room at 02930000
+Setup 0: 00000000
+18: Alternate headers start at 00000050.
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: 121E 00
+05: Wind Settings: Forces Westward 00, Vertical 00, Southward 0F, Strength 32
+0A: Room Mesh: 03000140
+0B: There are 8 Object(s). List starts at 00000060
+0130, 009B, 0060, 001A, 011E, 009A, 0024, 0090, 
+01: There are 13 actor(s). List starts at 00000070
+0148:FFFF ???, (-197, 1571, 1037) (0000, 0000, 0000)
+0092:0100 Golden Gauntlets Rock, (3004, 1186, 517) (0000, C000, 0000)
+0095:8F01 Gold Skulltula, Type 4, Group 0F, Flag 01, (1059, 1448, 792) (4000, 6AAB, 0000)
+01D2:0003 Bronze Boulder, (2324, 1168, 533) (0000, 0000, 0000)
+01D2:0005 Bronze Boulder, (1590, 1264, 787) (0000, 0000, 0000)
+01D2:0006 Bronze Boulder, (1661, 1269, 748) (0000, 0000, 0000)
+014E:FF01 Small Rock, (2260, 1169, 560) (0000, 0000, 0000)
+014E:FF01 Small Rock, (1606, 1286, 685) (0000, 0000, 0000)
+014E:FF01 Small Rock, (1766, 1263, 726) (0000, 0000, 0000)
+014E:FF01 Small Rock, (1701, 1272, 661) (0000, 0000, 0000)
+008B:1012 Spiritual Stones, (-335, 1626, 583) (0000, 0000, 0000)
+00F5:0000 Sages, Balls of Light (Cutscene), (100, 1358, 1466) (0000, 0000, 0000)
+0185:8EC1 Check Spot, Disappears on Switch, dialog ...???, Perm: 01, (2896, 1237, 521) (0000, C000, 0033)
+
+Cutscene 0: 00000160
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 01
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+05: Wind Settings: Forces Westward 00, Vertical 00, Southward 0F, Strength 32
+0A: Room Mesh: 03000140
+0B: There are 5 Object(s). List starts at 000001A8
+0061, 0068, 001A, 0090, 0130, 
+01: There are 3 actor(s). List starts at 000001B4
+0148:FFFF ???, (-197, 1571, 1037) (0000, 0000, 0000)
+00F5:0000 Sages, Balls of Light (Cutscene), (100, 1358, 1466) (0000, 0000, 0000)
+008B:1012 Spiritual Stones, (-335, 1626, 583) (0000, 0000, 0000)
+

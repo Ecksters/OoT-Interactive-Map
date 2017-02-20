@@ -1,0 +1,76 @@
+Room 1
+Room at 0228F000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 04
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000F0
+0B: There are 9 Object(s). List starts at 0000005C
+00AF, 0031, 0163, 00C9, 012C, 018A, 009D, 012F, 00A4, 
+01: There are 8 actor(s). List starts at 00000070
+00B9:FF00 Darunia's Room Statue, (92, 40, -1540) (0000, FF4A, 0000)
+00B9:0001 Darunia's Room Statue, (92, 40, -1540) (0000, 0000, 0000)
+0098:FFFF Darunia, (91, 41, -1462) (0000, 0000, 0000)
+005E:2400 Lit Wooden Torch, Perm: 00, (-52, 40, -1473) (0000, 0000, 0000)
+005E:2400 Lit Wooden Torch, Perm: 00, (222, 40, -1473) (0000, 0000, 0000)
+0111:710D Breakable Pot, Collectable: 0D Temp: 18, (262, 70, -1210) (0000, 0000, 0000)
+0111:7300 Breakable Pot, Collectable: 00 Temp: 19, (261, 70, -1254) (0000, 0000, 0000)
+0111:750D Breakable Pot, Collectable: 0D Temp: 1A, (262, 70, -1386) (0000, 0000, 0000)
+
+Setup 2: 00000170
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 04
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000F0
+0B: There are 9 Object(s). List starts at 000001B0
+00AF, 0031, 0163, 00C9, 012C, 018A, 0024, 012F, 00A4, 
+01: There are 6 actor(s). List starts at 000001C4
+00B9:1100 Darunia's Room Statue, (92, 40, -1540) (0000, 0000, 0000)
+0111:7108 Breakable Pot, Collectable: 08 Temp: 18, (262, 70, -1210) (0000, 0000, 0000)
+0111:7303 Breakable Pot, Collectable: 03 Temp: 19, (261, 70, -1254) (0000, 0000, 0000)
+0111:7502 Breakable Pot, Collectable: 02 Temp: 1A, (262, 70, -1386) (0000, 0000, 0000)
+005E:2400 Lit Wooden Torch, Perm: 00, (-52, 40, -1473) (0000, 0000, 0000)
+005E:2400 Lit Wooden Torch, Perm: 00, (222, 40, -1473) (0000, 0000, 0000)
+
+Cutscene 0: 00000230
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 04
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 030000F0
+0B: There are 8 Object(s). List starts at 00000270
+00AF, 009D, 0126, 00C9, 011E, 012C, 000E, 002B, 
+01: There are 8 actor(s). List starts at 00000280
+00B9:FF00 Darunia's Room Statue, (92, 40, -1532) (0000, FF4A, 0000)
+00B9:0001 Darunia's Room Statue, (92, 40, -1532) (0000, 0000, 0000)
+0098:FFFF Darunia, (91, 41, -1462) (0000, 0000, 0000)
+0111:7F3F Breakable Pot, Collectable: 3F Temp: 1F, (262, 70, -1210) (0000, 0000, 0000)
+0111:7F3F Breakable Pot, Collectable: 3F Temp: 1F, (261, 70, -1254) (0000, 0000, 0000)
+0111:7F3F Breakable Pot, Collectable: 3F Temp: 1F, (262, 70, -1386) (0000, 0000, 0000)
+005E:2400 Lit Wooden Torch, Perm: 00, (222, 40, -1473) (0000, 0000, 0000)
+005E:2400 Lit Wooden Torch, Perm: 00, (-52, 40, -1473) (0000, 0000, 0000)
+
+Cutscene 1: 00000300
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 04
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000F0
+0B: There are 4 Object(s). List starts at 00000340
+00AF, 012C, 002B, 00A4, 
+01: There are 11 actor(s). List starts at 00000348
+00B9:FF00 Darunia's Room Statue, (92, 40, -1532) (0000, FF4A, 0000)
+00B9:0001 Darunia's Room Statue, (92, 40, -1532) (0000, 0000, 0000)
+0111:7F3F Breakable Pot, Collectable: 3F Temp: 1F, (-10, 40, -1511) (0000, 0000, 0000)
+0111:7F3F Breakable Pot, Collectable: 3F Temp: 1F, (26, 40, -1517) (0000, 0000, 0000)
+0111:7F3F Breakable Pot, Collectable: 3F Temp: 1F, (10, 40, -1497) (0000, 0000, 0000)
+0111:7F3F Breakable Pot, Collectable: 3F Temp: 1F, (155, 40, -1503) (0000, 0000, 0000)
+0111:7F3F Breakable Pot, Collectable: 3F Temp: 1F, (213, 40, -1335) (0000, 0000, 0000)
+0111:7F3F Breakable Pot, Collectable: 3F Temp: 1F, (165, 40, -1424) (0000, 0000, 0000)
+0111:7F3F Breakable Pot, Collectable: 3F Temp: 1F, (20, 40, -1295) (0000, 0000, 0000)
+005E:2000 Unlit Wooden Torch, Perm: 00, (-52, 40, -1473) (0000, 0000, 0000)
+005E:2000 Unlit Wooden Torch, Perm: 00, (222, 40, -1474) (0000, 0000, 0000)
+

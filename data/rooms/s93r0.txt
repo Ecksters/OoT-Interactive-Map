@@ -1,0 +1,161 @@
+Room 0
+Room at 021BD000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 02
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030001D0
+0B: There are 8 Object(s). List starts at 00000060
+0162, 000E, 0076, 001A, 00D2, 0170, 0167, 0116, 
+01: There are 22 actor(s). List starts at 00000070
+0015:0106 Collectable Heart Piece, Perm: 01, (200, 1113, -2725) (0000, 0000, 0000)
+0039:190A Gameplay_keep Items, (-730, 2, -70) (0000, A9F5, 0000)
+0026:FFFF Wooden Post With Red Cloth, (-4228, -18, -3363) (0000, C000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (-4221, -18, -3246) (0000, C000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (-1666, 13, -3422) (0000, C000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (-382, 480, -2237) (0000, 0000, 0000)
+0138:0000 White Clothed Gerudo, (-1224, 93, -3160) (0000, A5B0, 0000)
+0112:1ABF Invisible Collectible, 03 0A 3F, (1094, 876, -412) (0000, 0000, 0006)
+0112:1ABF Invisible Collectible, 03 0A 3F, (-814, 245, -810) (0000, 0000, 0006)
+0141:031A Square Signpost, (980, 654, -480) (0000, C000, 0000)
+0141:031B Square Signpost, (14, 333, -1159) (0000, C000, 0000)
+0141:031C Square Signpost, (-1850, 9, -3250) (0000, 4000, 0000)
+0190:0003 Gerudo Fortress Wooden Gate, (-1134, 112, -3075) (0000, 2444, 0000)
+0191:0002 Gerudo Fortress Training Area Gate, (86, 337, -1035) (0000, C000, 0000)
+01A0:FFFF Large Crate, (-120, 333, -2210) (0000, 0000, 0000)
+01A0:FFFF Large Crate, (-60, 333, -2210) (0000, 0000, 0000)
+01A0:FFFF Large Crate, (310, 333, -1830) (0000, C000, 0000)
+01A0:FFFF Large Crate, (310, 333, -1770) (0000, C000, 0000)
+01A0:FFFF Large Crate, (-4571, -20, -3429) (0000, 0000, 0000)
+01A0:FFFF Large Crate, (315, 333, -1594) (0000, 4000, 0000)
+01A0:FFFF Large Crate, (315, 333, -1534) (0000, 4000, 0000)
+000A:03E0 Chest, Large, reward 1F: Odd Mushroom, chest flag: 00, bound to Perm: 00, (926, 1042, -2512) (0000, C000, 0000)
+
+Setup 2: 00000300
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 02
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+05: Wind Settings: Forces Westward 00, Vertical 04, Southward 0A, Strength 50
+0A: Room Mesh: 030001D0
+0B: There are 10 Object(s). List starts at 00000348
+0116, 0170, 001A, 00D2, 0162, 000E, 0076, 0167, 012F, 0154, 
+01: There are 30 actor(s). List starts at 0000035C
+0039:190A Gameplay_keep Items, (-730, 2, -70) (0000, A9F5, 0000)
+0026:FFFF Wooden Post With Red Cloth, (-3720, -18, -3363) (0000, C000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (-3720, -18, -3246) (0000, C000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (-1666, 13, -3422) (0000, C000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (-382, 480, -2237) (0000, C000, 0000)
+0112:1ABF Invisible Collectible, 03 0A 3F, (-814, 245, -810) (0000, 0000, 0006)
+0112:1ABF Invisible Collectible, 03 0A 3F, (1094, 876, -412) (0000, 0000, 0006)
+0141:031B Square Signpost, (14, 333, -1159) (0000, C000, 0000)
+0141:031C Square Signpost, (-1850, 9, -3250) (0000, 4000, 0000)
+0138:0004 White Clothed Gerudo, (-857, 112, -3123) (0000, F05B, 0000)
+0138:0004 White Clothed Gerudo, (682, 602, -307) (0000, 8000, 0000)
+01A0:FFFF Large Crate, (-4051, -20, -3429) (FFFF, 0000, 0000)
+01A0:FFFF Large Crate, (-120, 333, -2210) (FFFF, 0000, 0000)
+01A0:FFFF Large Crate, (-60, 333, -2210) (FFFF, 0000, 0000)
+01A0:FFFF Large Crate, (310, 333, -1842) (FFFF, C000, 0000)
+01A0:FFFF Large Crate, (310, 333, -1782) (FFFF, C000, 0000)
+01A0:FFFF Large Crate, (315, 333, -1594) (FFFF, 4000, 0000)
+01A0:FFFF Large Crate, (315, 333, -1534) (FFFF, 4000, 0000)
+01A0:FFFF Large Crate, (51, 1113, -2997) (0014, 038E, 001F)
+009B:11FF Grotto, Fairy Fountain, Song of Storms, Chest: None, Flag 1F, (376, 333, -1564) (0000, 4000, 0000)
+000A:07C0 Chest, Large, reward 3E: Piece of Heart, chest flag: 00, bound to Perm: 00, (926, 1042, -2512) (0000, C000, 0000)
+0138:0301 White Clothed Gerudo, (-950, 622, -3253) (0000, 0000, 0000)
+0190:0003 Gerudo Fortress Wooden Gate, (-1134, 112, -3075) (0000, 2444, 0000)
+0186:0500 Patrolling Gerudo, (56, 333, -2238) (0000, 0000, 0002)
+0186:0500 Patrolling Gerudo, (237, 572, -949) (0000, 0000, 0002)
+0186:0A00 Patrolling Gerudo, (-452, 333, -1868) (0000, 4000, 0002)
+0186:0A00 Patrolling Gerudo, (60, 333, -1428) (0000, C000, 0002)
+01C9:0538 Green Navi Spot, (1298, 1042, -2279) (0000, 0000, 0014)
+0138:3A46 White Clothed Gerudo, (38, 333, -1097) (0000, C000, 0000)
+0191:003A Gerudo Fortress Training Area Gate, (86, 337, -1035) (0000, C000, 0000)
+
+Setup 3: 00000540
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 02
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+05: Wind Settings: Forces Westward 00, Vertical 04, Southward 28, Strength 8C
+0A: Room Mesh: 030001D0
+0B: There are 10 Object(s). List starts at 00000588
+0116, 0170, 001A, 0162, 000E, 0076, 0167, 012F, 0154, 0024, 
+01: There are 31 actor(s). List starts at 0000059C
+0039:190A Gameplay_keep Items, (-730, 2, -70) (0000, A9F5, 0000)
+0026:FFFF Wooden Post With Red Cloth, (-3720, -18, -3363) (0000, C000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (-3720, -18, -3246) (0000, C000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (-1666, 13, -3422) (0000, C000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (-382, 480, -2237) (0000, C000, 0000)
+0112:1ABF Invisible Collectible, 03 0A 3F, (-814, 245, -810) (0000, 0000, 0006)
+0112:1ABF Invisible Collectible, 03 0A 3F, (1094, 876, -412) (0000, 0000, 0006)
+0141:031B Square Signpost, (14, 333, -1159) (0000, C000, 0000)
+0141:031C Square Signpost, (-1850, 9, -3250) (0000, 4000, 0000)
+0138:0004 White Clothed Gerudo, (-857, 112, -3123) (0000, F05B, 0000)
+0138:0004 White Clothed Gerudo, (682, 602, -307) (0000, 8000, 0000)
+01A0:FFFF Large Crate, (-4051, -20, -3429) (FFFF, 0000, 0000)
+01A0:FFFF Large Crate, (-120, 333, -2210) (FFFF, 0000, 0000)
+01A0:FFFF Large Crate, (-60, 333, -2210) (FFFF, 0000, 0000)
+01A0:FFFF Large Crate, (310, 333, -1842) (FFFF, C000, 0000)
+01A0:FFFF Large Crate, (310, 333, -1782) (FFFF, C000, 0000)
+01A0:FFFF Large Crate, (315, 333, -1594) (FFFF, 4000, 0000)
+01A0:FFFF Large Crate, (315, 333, -1534) (FFFF, 4000, 0000)
+01A0:FFFF Large Crate, (51, 1113, -2997) (0014, 038E, 001F)
+009B:11FF Grotto, Fairy Fountain, Song of Storms, Chest: None, Flag 1F, (376, 333, -1564) (0000, 4000, 0000)
+000A:07C0 Chest, Large, reward 3E: Piece of Heart, chest flag: 00, bound to Perm: 00, (926, 1042, -2512) (0000, C000, 0000)
+0095:B502 Gold Skulltula, Type 5, Group 15, Flag 02, (1598, 999, -2008) (4000, C000, 0000)
+0138:0301 White Clothed Gerudo, (-950, 622, -3253) (0000, 0000, 0000)
+0190:0003 Gerudo Fortress Wooden Gate, (-1134, 112, -3075) (0000, 2444, 0000)
+0186:0500 Patrolling Gerudo, (56, 333, -2238) (0000, 0000, 0002)
+0186:0500 Patrolling Gerudo, (237, 572, -949) (0000, 0000, 0002)
+0186:0A00 Patrolling Gerudo, (-452, 333, -1868) (0000, 4000, 0002)
+0186:0A00 Patrolling Gerudo, (60, 333, -1428) (0000, C000, 0002)
+01C9:0538 Green Navi Spot, (1298, 1042, -2279) (0000, 0000, 0014)
+0138:3A46 White Clothed Gerudo, (38, 333, -1097) (0000, C000, 0000)
+0191:003A Gerudo Fortress Training Area Gate, (86, 337, -1035) (0000, C000, 0000)
+
+Cutscene 0: 00000790
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 02
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030001D0
+0B: There are 12 Object(s). List starts at 000007D0
+000E, 0029, 0034, 0076, 001A, 00BD, 0027, 00D2, 0117, 0170, 0116, 012C, 
+01: There are 7 actor(s). List starts at 000007E8
+01A0:FFFF Large Crate, (-120, 333, -2210) (0000, 0000, 0000)
+01A0:FFFF Large Crate, (-60, 333, -2210) (0000, 0000, 0000)
+01A0:FFFF Large Crate, (310, 333, -1830) (0000, C000, 0000)
+01A0:FFFF Large Crate, (310, 333, -1770) (0000, C000, 0000)
+01A0:FFFF Large Crate, (-4571, -20, -3429) (0000, 0000, 0000)
+01A0:FFFF Large Crate, (315, 333, -1594) (0000, 4000, 0000)
+01A0:FFFF Large Crate, (315, 333, -1534) (0000, 4000, 0000)
+
+Cutscene 1: 00000860
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 02
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030001D0
+0B: There are 8 Object(s). List starts at 000008A0
+000E, 0029, 0034, 0076, 001A, 00BD, 0027, 0117, 
+01: There are 1 actor(s). List starts at 000008B0
+0191:00FF Gerudo Fortress Training Area Gate, (86, 337, -1035) (0000, C000, 0000)
+
+Cutscene 2: 000008C0
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 02
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030001D0
+0B: There are 8 Object(s). List starts at 00000900
+000E, 0076, 001A, 0027, 0013, 0100, 0116, 012C, 
+01: There are 5 actor(s). List starts at 00000910
+0026:FFFF Wooden Post With Red Cloth, (-1696, 13, -3424) (0000, C000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (-4228, -18, -3363) (0000, C000, 0000)
+0026:FFFF Wooden Post With Red Cloth, (-4221, -18, -3246) (0000, C000, 0000)
+0191:00FF Gerudo Fortress Training Area Gate, (86, 337, -1035) (0000, C000, 0000)
+0190:00FF Gerudo Fortress Wooden Gate, (-1134, 112, -3075) (0000, 2444, 0000)
+

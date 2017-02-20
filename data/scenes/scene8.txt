@@ -1,0 +1,46 @@
+Scene at 032C6000
+Setup 0: 00000000
+15: Sound Settings: Reverb 3, Playback option Always Playing, Song 5B.
+04: There are 7 room(s). List starts at 00000168
+032D3000 032E85F0
+032E9000 032F42D0
+032F5000 032F8190
+032F9000 032FAC60
+032FB000 032FD450
+032FE000 03300960
+03301000 03303E80
+0E: There are 15 transition actor(s). List starts at 00000078.
+01 FF -> 00 FF, 002E:01DF, Front Switch, Back Clear Door, Perm: 1F, (-890, 0, -100) (0000, 8000, 0000)
+00 FF -> 03 FF, 0009:003F, Door, No Flag, (870, 0, -860) (0000, 0000, 0000)
+00 FF -> 03 FF, 0009:009B, Locked Door, Perm: 1B, (1140, 0, -1420) (0000, 8000, 0000)
+00 FF -> 05 FF, 0009:009D, Locked Door, Perm: 1D, (450, 0, -900) (0000, 0000, 0000)
+00 FF -> 06 FF, 0009:009C, Locked Door, Perm: 1C, (-410, 0, -900) (0000, 0000, 0000)
+02 FF -> 00 FF, 0009:003F, Door, No Flag, (-1570, 0, -740) (0000, C000, 0000)
+04 FF -> 00 FF, 002E:007F, Front Clear Door, No Flag, (900, -20, 210) (0000, 4000, 0000)
+01 FF -> 00 FF, 0023:00BF, Transition Plane, 01 FF -> 00 FF Type 2: No Flag, (-310, -280, -540) (0000, 0000, 0000)
+01 FF -> 00 FF, 0023:00BF, Transition Plane, 01 FF -> 00 FF Type 2: No Flag, (-900, -280, -1500) (0000, 0000, 0000)
+01 FF -> 00 FF, 0023:00BF, Transition Plane, 01 FF -> 00 FF Type 2: No Flag, (0, -240, -740) (0000, 0000, 0000)
+01 FF -> 05 FF, 0023:00BF, Transition Plane, 01 FF -> 05 FF Type 2: No Flag, (370, -280, -1150) (0000, 0000, 0000)
+01 FF -> 00 FF, 0023:00BF, Transition Plane, 01 FF -> 00 FF Type 2: No Flag, (640, -280, -1520) (0000, 0000, 0000)
+01 FF -> 03 FF, 0023:00BF, Transition Plane, 01 FF -> 03 FF Type 2: No Flag, (1100, -280, -1240) (0000, C000, 0000)
+01 FF -> 03 FF, 0023:00BF, Transition Plane, 01 FF -> 03 FF Type 2: No Flag, (900, -280, -1100) (0000, C000, 0000)
+01 FF -> 03 FF, 0023:00BF, Transition Plane, 01 FF -> 03 FF Type 2: No Flag, (1040, -280, -900) (0000, C000, 0000)
+19: JPEG background camera related: 00 Overworld Region:  01
+03: Collision Header starts at 0000A528
+Offset to vertex array 000083D0
+Offset to polygon array 00000580
+Offset to polygon type defs 00000388
+Offset to camera data 00000308
+Offset to water boxes 0000A488
+Size in bytes 41548
+06: Entrance Index Definitions starts at 000001A0
+07: Elf_Message 2, Load Object 0003
+0D: Pathway List starts at 00000220
+ 00) 000200  (640, 50, -20) (640, 50, -1400) (-640, 50, -1400) (-640, 50, -20) (640, 50, -20)
+
+00: There are 1 position(s). List starts at 00000068.
+0000:0FFF Link, (-1, 240, 1705) (0000, 8000, 0000)
+11: Skybox 29, Cast: Sunny, Fog? Yes
+13: Exit List starts at 000001A4. 02A6 0000
+0F: There are 4 environment setting(s). List starts at 000001A8.
+

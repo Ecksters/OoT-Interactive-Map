@@ -1,0 +1,21 @@
+Room 0
+Room at 021E2000
+Setup 0: 00000000
+16: Sound Settings: Echo 30
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+05: Wind Settings: Forces Westward 00, Vertical 00, Southward 00, Strength 00
+0A: Room Mesh: 030000E0
+0B: There are 11 Object(s). List starts at 00000048
+006D, 0144, 0017, 0076, 012C, 000E, 00A4, 0170, 0024, 012F, 0154, 
+01: There are 8 actor(s). List starts at 00000060
+0111:4103 Breakable Pot, Collectable: 03 Temp: 00, (801, -520, -2460) (0000, 0000, 0000)
+0111:430C Breakable Pot, Collectable: 0C Temp: 01, (806, -520, -2426) (0000, 0000, 0000)
+0111:4512 Breakable Pot, Collectable: 12 Temp: 02, (485, -520, -2463) (0000, 0000, 0000)
+0111:470F Breakable Pot, Collectable: 0F Temp: 03, (488, -520, -2424) (0000, 0000, 0000)
+0095:9602 Gold Skulltula, Type 4, Group 16, Flag 02, (637, -393, -2536) (4000, 0000, 0000)
+005E:109F Timed Torch, Light: 2, Perm: 1F, (713, -500, -2460) (0000, 0000, 0000)
+005E:109F Timed Torch, Light: 2, Perm: 1F, (562, -500, -2458) (0000, 0000, 0000)
+000A:8AA0 Chest, Small, Falls, Switch Flag, reward 55: Purple Rupee, chest flag: 00, bound to Perm: 1F, (653, -375, -2215) (0000, 0000, 001F)
+

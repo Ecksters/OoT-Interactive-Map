@@ -1,0 +1,51 @@
+Room 0
+Room at 022C9000
+Setup 0: 00000000
+16: Sound Settings: Echo 5
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 04
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030002D0
+0B: There are 15 Object(s). List starts at 00000040
+00C5, 0105, 0107, 0108, 010D, 010C, 0111, 0013, 007C, 00E0, 016B, 0170, 016A, 0182, 018C, 
+01: There are 39 actor(s). List starts at 00000060
+016E:0003 Market NPC, (289, 0, 488) (0000, 4000, 0000)
+016E:0788 Market NPC, (-338, 2, 51) (0000, 5B06, 0000)
+016E:078B Market NPC, (-155, 0, -287) (0000, 5A50, 0000)
+01AC:0000 Entwined Lovers (Honey & Darling), (132, 0, 0) (0000, 0000, 0000)
+016E:0785 Market NPC, (-387, 0, -228) (0000, 4000, 0000)
+016E:0087 Market NPC, (-344, 0, 9) (0000, 3777, 0000)
+016E:0786 Market NPC, (-160, 0, -133) (0000, 25B0, 0000)
+016E:0782 Market NPC, (393, 0, 264) (0000, AB61, 0000)
+016E:078C Market NPC, (-343, 160, 241) (0000, 5555, 0000)
+01AD:0000 Haggling Townspeople, (250, 2, 400) (0000, 0000, 0000)
+01AD:0001 Haggling Townspeople, (-400, 2, 185) (0000, C000, 0000)
+019A:0200 Girl Chasing Cucco (Defunct?), (115, 0, -495) (0000, C000, 0000)
+016E:0780 Market NPC, (258, 0, -246) (0000, E222, 0000)
+00E7:FFFF Child Malon, (-3, 0, -181) (0000, 0000, 0000)
+0077:FF02 Greenery, Small tree, Nothing, (-100, 0, 240) (0000, 1555, 0000)
+0112:123F Invisible Collectible, 02 08 3F, (-523, 180, -340) (0000, 0000, 0001)
+0112:123F Invisible Collectible, 02 08 3F, (-523, 180, -224) (0000, 0000, 0001)
+0112:123F Invisible Collectible, 02 08 3F, (-521, 180, -113) (0000, 0000, 0001)
+0112:123F Invisible Collectible, 02 08 3F, (-521, 180, -2) (0000, 0000, 0001)
+0112:123F Invisible Collectible, 02 08 3F, (-516, 180, 117) (0000, 0000, 0001)
+016E:078A Market NPC, (-85, 0, 204) (0000, 1777, 0000)
+016E:0781 Market NPC, (480, 0, -202) (0000, CC17, 0000)
+016E:0789 Market NPC, (-72, 0, 245) (0000, 9555, 0000)
+0125:0200 Regen Grass, (76, 20, -190) (0000, 0000, 0000)
+0125:0200 Regen Grass, (75, 20, -310) (0000, 0000, 0000)
+0125:0200 Regen Grass, (73, 20, -428) (0000, 0000, 0000)
+0125:0200 Regen Grass, (432, 0, -548) (0000, 0000, 0000)
+0125:0200 Regen Grass, (465, 0, -548) (0000, 0000, 0000)
+0125:0200 Regen Grass, (504, 0, -546) (0000, 0000, 0000)
+0125:0200 Regen Grass, (-131, 0, 225) (0000, 0000, 0000)
+0125:0200 Regen Grass, (-106, 0, 277) (0000, 0000, 0000)
+0094:3324 Butterflies (defunct?), (77, 49, -204) (0000, 0000, 0000)
+019B:0030 Dog, (206, 0, -193) (0000, 999A, 0000)
+01A0:FFFF Large Crate, (-90, 0, -576) (FFFF, 0000, 0000)
+01A0:FFFF Large Crate, (-150, 0, -576) (FFFF, 0000, 0000)
+01A0:FFFF Large Crate, (490, 0, 132) (FFFF, 0000, 0000)
+01A0:FFFF Large Crate, (490, 0, 338) (FFFF, 0000, 0000)
+016E:0784 Market NPC, (-110, 0, -336) (0000, F8E4, 0000)
+003B:000A Ambient Sound, Market gibberish, (22, 0, 33) (0000, 0000, 0000)
+

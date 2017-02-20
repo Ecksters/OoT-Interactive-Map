@@ -1,0 +1,25 @@
+Room 3
+Room at 033EB000
+Setup 0: 00000000
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000120
+0B: There are 5 Object(s). List starts at 00000040
+0139, 0060, 014F, 0156, 0092, 
+01: There are 13 actor(s). List starts at 0000004C
+003B:0012 Ambient Sound, Quake/Collapse, (5, 0, -905) (0000, 0000, 0000)
+01CC:0000 Zelda's Path in Ganon Castle Escape?, (-29, 0, -978) (0000, 0000, 0000)
+00B5:0005 Flying rubble, (221, 160, -984) (0000, 0000, 0000)
+00B5:0005 Flying rubble, (441, 56, -901) (0000, 0000, 0000)
+00B5:0005 Flying rubble, (699, -3, -576) (0000, 0000, 0000)
+00B5:0006 Flying rubble, (87, -33, -889) (0000, 0000, 0000)
+00B5:0006 Flying rubble, (305, -70, -912) (0000, 0000, 0000)
+00B5:0006 Flying rubble, (486, -120, -768) (0000, 0000, 0000)
+00B5:0006 Flying rubble, (587, -210, -554) (0000, 0000, 0000)
+00B5:0006 Flying rubble, (639, -150, -751) (0000, 0000, 0000)
+00B5:0006 Flying rubble, (663, -220, -426) (0000, 0000, 0000)
+0179:2843 ???, (-45, 0, -830) (0000, 0000, 0000)
+0177:2808 Metal Bars (Ganon's Castle), (830, -220, -419) (0000, C000, 0000)
+

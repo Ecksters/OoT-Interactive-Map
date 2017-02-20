@@ -1,0 +1,15 @@
+Room 2
+Room at 026CF000
+Setup 0: 00000000
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000080
+0B: There are 3 Object(s). List starts at 00000040
+000E, 0090, 0098, 
+01: There are 3 actor(s). List starts at 00000048
+0090:7F02 Redead, Crouching, (1693, 1, -437) (0000, 0FA5, 0000)
+0090:7F01 Redead, Standing, (1930, 1, -445) (0000, E222, 0000)
+000A:7ACA Chest, Small, Appears, Clear Flag, reward 56: Yellow Rupee, chest flag: 0A, bound to Perm: 00, (1807, 1, -343) (0000, 8000, 0000)
+

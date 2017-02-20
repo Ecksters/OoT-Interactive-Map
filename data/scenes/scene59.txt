@@ -1,0 +1,93 @@
+Scene at 02CF7000
+Setup 0: 00000000
+18: Alternate headers start at 00000060.
+15: Sound Settings: Reverb 9, Playback option Always Playing, Song 28.
+04: There are 1 room(s). List starts at 000000A8
+02D05000 02D08910
+19: JPEG background camera related: 00 Overworld Region:  16
+03: Collision Header starts at 000043A4
+Offset to vertex array 000040C8
+Offset to polygon array 000037E8
+Offset to polygon type defs 000037A8
+Offset to camera data 00003790
+Offset to water boxes 00000000
+Size in bytes 3136
+06: Entrance Index Definitions starts at 000000B0
+07: Elf_Message 1, Load Object 0002
+00: There are 3 position(s). List starts at 00000078.
+0000:0FFF Link, (-28, 20, 1) (0000, 8000, 0000)
+0000:0FFF Link, (-28, 20, 1) (0000, 8000, 0000)
+0000:0FFF Link, (-28, 20, 1) (0000, 8000, 0000)
+11: Skybox 0, Cast: Sunny, Fog? Yes
+13: Exit List starts at 000000B8. 7FFE 0000
+0F: There are 5 environment setting(s). List starts at 000000BC.
+
+Cutscene 0: 000044A0
+15: Sound Settings: Reverb 3, Playback option Always Playing, Song 28.
+04: There are 1 room(s). List starts at 00004530
+02D05000 02D08910
+19: JPEG background camera related: 00 Overworld Region:  0F
+03: Collision Header starts at 000043A4
+Offset to vertex array 000040C8
+Offset to polygon array 000037E8
+Offset to polygon type defs 000037A8
+Offset to camera data 00003790
+Offset to water boxes 00000000
+Size in bytes 3136
+06: Entrance Index Definitions starts at 00004538
+07: Elf_Message 1, Load Object 0002
+00: There are 3 position(s). List starts at 00004500.
+0000:0FFF Link, (-28, 20, 1) (0000, 8000, 0000)
+0000:0FFF Link, (-28, 20, 1) (0000, 8000, 0000)
+0000:0FFF Link, (-28, 20, 1) (0000, 8000, 0000)
+11: Skybox 0, Cast: Sunny, Fog? Yes
+13: Exit List starts at 00004540. 7FFE 0000
+0F: There are 5 environment setting(s). List starts at 00004544.
+17: Cutscene starts at 00000130
+
+Cutscene 1: 000045C0
+15: Sound Settings: Reverb 3, Playback option Always Playing, Song 28.
+04: There are 1 room(s). List starts at 00004650
+02D05000 02D08910
+19: JPEG background camera related: 00 Overworld Region:  0F
+03: Collision Header starts at 000043A4
+Offset to vertex array 000040C8
+Offset to polygon array 000037E8
+Offset to polygon type defs 000037A8
+Offset to camera data 00003790
+Offset to water boxes 00000000
+Size in bytes 3136
+06: Entrance Index Definitions starts at 00004658
+07: Elf_Message 1, Load Object 0002
+00: There are 3 position(s). List starts at 00004620.
+0000:0FFF Link, (-28, 20, 1) (0000, 8000, 0000)
+0000:0FFF Link, (-28, 20, 1) (0000, 8000, 0000)
+0000:0FFF Link, (-28, 20, 1) (0000, 8000, 0000)
+11: Skybox 0, Cast: Sunny, Fog? Yes
+13: Exit List starts at 00004660. 7FFE 0000
+0F: There are 5 environment setting(s). List starts at 00004664.
+17: Cutscene starts at 000013E0
+
+Cutscene 2: 000046E0
+15: Sound Settings: Reverb 3, Playback option Always Playing, Song 28.
+04: There are 1 room(s). List starts at 00004770
+02D05000 02D08910
+19: JPEG background camera related: 00 Overworld Region:  0F
+03: Collision Header starts at 000043A4
+Offset to vertex array 000040C8
+Offset to polygon array 000037E8
+Offset to polygon type defs 000037A8
+Offset to camera data 00003790
+Offset to water boxes 00000000
+Size in bytes 3136
+06: Entrance Index Definitions starts at 00004778
+07: Elf_Message 1, Load Object 0002
+00: There are 3 position(s). List starts at 00004740.
+0000:0FFF Link, (-28, 20, 1) (0000, 8000, 0000)
+0000:0FFF Link, (-28, 20, 1) (0000, 8000, 0000)
+0000:0FFF Link, (-28, 20, 1) (0000, 8000, 0000)
+11: Skybox 0, Cast: Sunny, Fog? Yes
+13: Exit List starts at 00004780. 7FFE 0000
+0F: There are 5 environment setting(s). List starts at 00004784.
+17: Cutscene starts at 000025D0
+

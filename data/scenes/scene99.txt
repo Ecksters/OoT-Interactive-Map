@@ -1,0 +1,332 @@
+Scene at 029BC000
+Setup 0: 00000000
+18: Alternate headers start at 00000070.
+15: Sound Settings: Reverb 2, Playback option 00, Song 2F.
+04: There are 1 room(s). List starts at 0000017C
+029CE000 029D46D0
+0E: There are 3 transition actor(s). List starts at 0000014C.
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (-1540, 0, 1490) (0000, 4000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (730, 0, -2860) (0000, 8000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (1020, 0, -3100) (0000, C000, 0000)
+19: JPEG background camera related: 00 Overworld Region:  13
+03: Collision Header starts at 00002948
+Offset to vertex array 00002114
+Offset to polygon array 00000944
+Offset to polygon type defs 0000089C
+Offset to camera data 00000874
+Offset to water boxes 00000000
+Size in bytes 8448
+06: Entrance Index Definitions starts at 00000184
+07: Elf_Message 1, Load Object 0002
+0D: Pathway List starts at 00000314
+ 00) 0002B4  (736, 1, 429) (-983, 1, 440) (-1377, 1, 177) (-1631, 1, -151) (-1687, 1, -564) (-1649, 1, -1015) (-1358, 1, -1334) (-1020, 1, -1616) (1017, 1, -1616) (1364, 1, -1343) (1636, 1, -1015) (1683, 1, -583) (1646, 1, -198) (1411, 1, 112) (1064, 1, 422) (736, 1, 429)
+
+00: There are 11 position(s). List starts at 0000009C.
+0000:0FFF Link, (1107, 0, -3740) (0000, CE39, 0000)
+0000:0DFF Link, (61, 0, -612) (0000, 0000, 0000)
+0000:0FFF Link, (129, 0, 2025) (0000, 8000, 0000)
+0000:0FFF Link, (-2183, 0, 56) (0000, 4000, 0000)
+0000:0E00 Link, (985, 1, -3098) (0000, C000, 0000)
+0000:0E00 Link, (729, 1, -2898) (0000, 8000, 0000)
+0000:0FFF Link, (-1923, 0, -2220) (0000, 0000, 0000)
+0000:0FFF Link, (-1798, 0, -2220) (0000, 0000, 0000)
+0000:0FFF Link, (-1663, 0, -2185) (0000, 0000, 0000)
+0000:0FFF Link, (-1502, 0, -2194) (0000, 0000, 0000)
+0000:0E01 Link, (-1504, 0, 1490) (0000, 4000, 0000)
+11: Skybox 1, Cast: Sunny, Fog? No
+13: Exit List starts at 0000019C. 01F9 028A 028E 0292 004F 02F9 05D0 0000
+0F: There are 12 environment setting(s). List starts at 000001AC.
+
+Setup 1: 00004EF0
+15: Sound Settings: Reverb 2, Playback option 00, Song 2F.
+04: There are 1 room(s). List starts at 00005030
+029CE000 029D46D0
+0E: There are 3 transition actor(s). List starts at 00005000.
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (-1540, 0, 1490) (0000, 4000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (730, 0, -2860) (0000, 8000, 0000)
+00 FF -> 00 FF, 0009:02A9, Locked Door, Temp: 09, (1020, 0, -3100) (0000, C000, 0000)
+19: JPEG background camera related: 00 Overworld Region:  13
+03: Collision Header starts at 00002948
+Offset to vertex array 00002114
+Offset to polygon array 00000944
+Offset to polygon type defs 0000089C
+Offset to camera data 00000874
+Offset to water boxes 00000000
+Size in bytes 8448
+06: Entrance Index Definitions starts at 00005038
+07: Elf_Message 1, Load Object 0002
+00: There are 11 position(s). List starts at 00004F50.
+0000:0FFF Link, (1107, 0, -3740) (0000, CE39, 0000)
+0000:0DFF Link, (61, 0, -612) (0000, 0000, 0000)
+0000:0FFF Link, (129, 0, 2025) (0000, 8000, 0000)
+0000:0FFF Link, (-2183, 0, 56) (0000, 4000, 0000)
+0000:0E00 Link, (985, 1, -3099) (0000, C000, 0000)
+0000:0E00 Link, (727, 1, -2899) (0000, 8000, 0000)
+0000:0FFF Link, (-1926, 0, -2106) (0000, 0000, 0000)
+0000:0FFF Link, (-1723, 0, -2135) (0000, 0000, 0000)
+0000:0FFF Link, (-1940, 0, -1802) (0000, 0000, 0000)
+0000:0FFF Link, (-1651, 0, -1845) (0000, 0000, 0000)
+0000:0E01 Link, (-1506, 0, 1487) (0000, 4000, 0000)
+11: Skybox 1, Cast: Sunny, Fog? No
+13: Exit List starts at 00005050. 01F9 028A 028E 0292 004F 02F9 05D0 0000
+0F: There are 12 environment setting(s). List starts at 00005060.
+
+Setup 2: 000049F0
+15: Sound Settings: Reverb 2, Playback option 00, Song 2F.
+04: There are 1 room(s). List starts at 00004B30
+029CE000 029D46D0
+0E: There are 3 transition actor(s). List starts at 00004B00.
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (-1540, 0, 1490) (0000, 4000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (730, 0, -2860) (0000, 8000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (1020, 0, -3100) (0000, C000, 0000)
+19: JPEG background camera related: 00 Overworld Region:  13
+03: Collision Header starts at 00002948
+Offset to vertex array 00002114
+Offset to polygon array 00000944
+Offset to polygon type defs 0000089C
+Offset to camera data 00000874
+Offset to water boxes 00000000
+Size in bytes 8448
+06: Entrance Index Definitions starts at 00004B38
+07: Elf_Message 1, Load Object 0002
+00: There are 11 position(s). List starts at 00004A50.
+0000:0FFF Link, (1107, 0, -3740) (0000, CE39, 0000)
+0000:0FFF Link, (2074, 0, 33) (0000, C000, 0000)
+0000:0FFF Link, (129, 0, 2025) (0000, 8000, 0000)
+0000:0FFF Link, (-2183, 0, 56) (0000, 4000, 0000)
+0000:0E00 Link, (989, 1, -3100) (0000, C000, 0000)
+0000:0E00 Link, (726, 1, -2897) (0000, 8000, 0000)
+0000:0DFF Link, (-107, 0, -1397) (0000, ACCD, 0000)
+0000:0DFF Link, (-105, 1, -1637) (0000, CE39, 0000)
+0000:0DFF Link, (-105, 1, -1637) (0000, CE39, 0000)
+0000:0DFF Link, (-105, 1, -1637) (0000, CE39, 0000)
+0000:0E01 Link, (-1505, 0, 1487) (0000, 4000, 0000)
+11: Skybox 1, Cast: Sunny, Fog? No
+13: Exit List starts at 00004B50. 01F9 028A 028E 0292 004F 02F9 05D0 0000
+0F: There are 12 environment setting(s). List starts at 00004B60.
+
+Setup 3: 00004C70
+15: Sound Settings: Reverb 2, Playback option 00, Song 2F.
+04: There are 1 room(s). List starts at 00004DB0
+029CE000 029D46D0
+0E: There are 3 transition actor(s). List starts at 00004D80.
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (-1540, 0, 1490) (0000, 4000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (730, 0, -2860) (0000, 8000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (1020, 0, -3100) (0000, C000, 0000)
+19: JPEG background camera related: 00 Overworld Region:  13
+03: Collision Header starts at 00002948
+Offset to vertex array 00002114
+Offset to polygon array 00000944
+Offset to polygon type defs 0000089C
+Offset to camera data 00000874
+Offset to water boxes 00000000
+Size in bytes 8448
+06: Entrance Index Definitions starts at 00004DB8
+07: Elf_Message 1, Load Object 0002
+00: There are 11 position(s). List starts at 00004CD0.
+0000:0FFF Link, (1107, 0, -3740) (0000, CE39, 0000)
+0000:0FFF Link, (2074, 0, 33) (0000, C000, 0000)
+0000:0FFF Link, (129, 0, 2025) (0000, 8000, 0000)
+0000:0FFF Link, (-2183, 0, 56) (0000, 4000, 0000)
+0000:0E00 Link, (988, 1, -3097) (0000, C000, 0000)
+0000:0E00 Link, (728, 1, -2896) (0000, 8000, 0000)
+0000:0DFF Link, (-107, 0, -1397) (0000, ACCD, 0000)
+0000:0DFF Link, (-105, 1, -1637) (0000, CE39, 0000)
+0000:0DFF Link, (-105, 1, -1637) (0000, CE39, 0000)
+0000:0DFF Link, (-105, 1, -1637) (0000, CE39, 0000)
+0000:0E01 Link, (-1506, 0, 1491) (0000, 4000, 0000)
+11: Skybox 1, Cast: Sunny, Fog? No
+13: Exit List starts at 00004DD0. 01F9 028A 028E 0292 004F 02F9 05D0 0000
+0F: There are 12 environment setting(s). List starts at 00004DE0.
+
+Cutscene 0: 00005170
+15: Sound Settings: Reverb 2, Playback option Always Playing, Song 00.
+04: There are 1 room(s). List starts at 00005218
+029CE000 029D46D0
+0E: There are 3 transition actor(s). List starts at 000051E8.
+00 FF -> 00 FF, 0009:0281, Locked Door, Perm: 01, (-1540, 0, 1490) (0000, 4000, 0000)
+00 FF -> 00 FF, 0009:0281, Locked Door, Perm: 01, (730, 0, -2860) (0000, 8000, 0000)
+00 FF -> 00 FF, 0009:0281, Locked Door, Perm: 01, (1020, 0, -3100) (0000, C000, 0000)
+19: JPEG background camera related: 00 Overworld Region:  13
+03: Collision Header starts at 00002948
+Offset to vertex array 00002114
+Offset to polygon array 00000944
+Offset to polygon type defs 0000089C
+Offset to camera data 00000874
+Offset to water boxes 00000000
+Size in bytes 8448
+06: Entrance Index Definitions starts at 00005220
+07: Elf_Message 0, Load Object 0002
+00: There are 1 position(s). List starts at 000051D8.
+0000:0FFF Link, (599, 1, 451) (0000, C000, 0000)
+11: Skybox 1, Cast: Sunny, Fog? No
+13: Exit List starts at 00005224. 01F9 028A 028E 0292 004F 02F9 05D0 0000
+0F: There are 4 environment setting(s). List starts at 00005234.
+17: Cutscene starts at 00002980
+
+Cutscene 1: 00005290
+15: Sound Settings: Reverb 2, Playback option Always Playing, Song 7F.
+04: There are 1 room(s). List starts at 00005328
+029CE000 029D46D0
+0E: There are 2 transition actor(s). List starts at 00005308.
+00 FF -> 255 FF, 0009:01BF, Locked Door, No Flag, (730, 0, -2860) (0000, 8000, 0000)
+00 FF -> 255 FF, 0009:01BF, Locked Door, No Flag, (1020, 0, -3100) (0000, C000, 0000)
+19: JPEG background camera related: 00 Overworld Region:  14
+03: Collision Header starts at 00002948
+Offset to vertex array 00002114
+Offset to polygon array 00000944
+Offset to polygon type defs 0000089C
+Offset to camera data 00000874
+Offset to water boxes 00000000
+Size in bytes 8448
+06: Entrance Index Definitions starts at 00005330
+07: Elf_Message 1, Load Object 0002
+00: There are 1 position(s). List starts at 000052F8.
+0000:0FFF Link, (1107, 0, -3740) (0000, E000, 0000)
+11: Skybox 1, Cast: Sunny, Fog? No
+13: Exit List starts at 00005334. 01F9 028A 028E 0292 004F 02F9
+0F: There are 12 environment setting(s). List starts at 00005340.
+17: Cutscene starts at 00002B40
+
+Cutscene 2: 00005450
+15: Sound Settings: Reverb 2, Playback option Always Playing, Song 68.
+04: There are 1 room(s). List starts at 000054E8
+029CE000 029D46D0
+0E: There are 3 transition actor(s). List starts at 000054B8.
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (-1540, 0, 1490) (0000, 4000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (730, 0, -2860) (0000, 8000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (1020, 0, -3100) (0000, C000, 0000)
+19: JPEG background camera related: 00 Overworld Region:  00
+03: Collision Header starts at 00002948
+Offset to vertex array 00002114
+Offset to polygon array 00000944
+Offset to polygon type defs 0000089C
+Offset to camera data 00000874
+Offset to water boxes 00000000
+Size in bytes 8448
+06: Entrance Index Definitions starts at 000054F0
+00: There are 1 position(s). List starts at 000054A8.
+0000:00FF Link, (-231, 0, 568) (0000, 0000, 0000)
+11: Skybox 29, Cast: Sunny, Fog? Yes
+0F: There are 5 environment setting(s). List starts at 000054F4.
+17: Cutscene starts at 00002F80
+
+Cutscene 3: 00005570
+15: Sound Settings: Reverb 2, Playback option Always Playing, Song 68.
+04: There are 1 room(s). List starts at 00005608
+029CE000 029D46D0
+0E: There are 3 transition actor(s). List starts at 000055D8.
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (-1540, 0, 1490) (0000, 4000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (730, 0, -2860) (0000, 8000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (1020, 0, -3100) (0000, C000, 0000)
+19: JPEG background camera related: 00 Overworld Region:  00
+03: Collision Header starts at 00002948
+Offset to vertex array 00002114
+Offset to polygon array 00000944
+Offset to polygon type defs 0000089C
+Offset to camera data 00000874
+Offset to water boxes 00000000
+Size in bytes 8448
+06: Entrance Index Definitions starts at 00005610
+00: There are 1 position(s). List starts at 000055C8.
+0000:00FF Link, (-652, 0, 280) (0000, 760B, 0000)
+11: Skybox 1, Cast: Sunny, Fog? Yes
+0F: There are 4 environment setting(s). List starts at 00005614.
+17: Cutscene starts at 000031E0
+
+Cutscene 4: 00005670
+15: Sound Settings: Reverb 2, Playback option Always Playing, Song 68.
+04: There are 1 room(s). List starts at 00005710
+029CE000 029D46D0
+0E: There are 3 transition actor(s). List starts at 000056E0.
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (-1540, 0, 1490) (0000, 4000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (730, 0, -2860) (0000, 8000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (1020, 0, -3100) (0000, C000, 0000)
+19: JPEG background camera related: 00 Overworld Region:  00
+03: Collision Header starts at 00002948
+Offset to vertex array 00002114
+Offset to polygon array 00000944
+Offset to polygon type defs 0000089C
+Offset to camera data 00000874
+Offset to water boxes 00000000
+Size in bytes 8448
+06: Entrance Index Definitions starts at 00005718
+0D: Pathway List starts at 000057E4
+ 00) 0057AC  (114, 20, -313) (275, 20, -702) (1068, 20, -1112) (1457, 20, -996) (1440, 21, -24) (918, 21, 236) (469, 23, 247) (97, 28, 120) (58, 28, -80)
+ 01) 005774  (122, 23, -50) (145, 23, -131) (185, 23, -271) (272, 20, -480) (342, 20, -525) (431, 20, -583) (1193, 22, -1075) (1288, 22, -1075) (1398, 22, -1075)
+
+00: There are 1 position(s). List starts at 000056D0.
+0000:00FF Link, (-231, 0, 568) (0000, 0000, 0000)
+11: Skybox 1, Cast: Sunny, Fog? Yes
+0F: There are 4 environment setting(s). List starts at 0000571C.
+17: Cutscene starts at 00003450
+
+Cutscene 5: 00005800
+15: Sound Settings: Reverb 2, Playback option Always Playing, Song 68.
+04: There are 1 room(s). List starts at 00005898
+029CE000 029D46D0
+0E: There are 3 transition actor(s). List starts at 00005868.
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (-1540, 0, 1490) (0000, 4000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (730, 0, -2860) (0000, 8000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (1020, 0, -3100) (0000, C000, 0000)
+19: JPEG background camera related: 00 Overworld Region:  00
+03: Collision Header starts at 00002948
+Offset to vertex array 00002114
+Offset to polygon array 00000944
+Offset to polygon type defs 0000089C
+Offset to camera data 00000874
+Offset to water boxes 00000000
+Size in bytes 8448
+06: Entrance Index Definitions starts at 000058A0
+00: There are 1 position(s). List starts at 00005858.
+0000:00FF Link, (-231, 0, 568) (0000, 0000, 0000)
+11: Skybox 1, Cast: Sunny, Fog? Yes
+0F: There are 4 environment setting(s). List starts at 000058A4.
+17: Cutscene starts at 00003730
+
+Cutscene 6: 00005900
+15: Sound Settings: Reverb 2, Playback option Always Playing, Song 68.
+04: There are 1 room(s). List starts at 00005998
+029CE000 029D46D0
+0E: There are 3 transition actor(s). List starts at 00005968.
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (-1540, 0, 1490) (0000, 4000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (730, 0, -2860) (0000, 8000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (1020, 0, -3100) (0000, C000, 0000)
+19: JPEG background camera related: 00 Overworld Region:  00
+03: Collision Header starts at 00002948
+Offset to vertex array 00002114
+Offset to polygon array 00000944
+Offset to polygon type defs 0000089C
+Offset to camera data 00000874
+Offset to water boxes 00000000
+Size in bytes 8448
+06: Entrance Index Definitions starts at 000059A0
+00: There are 1 position(s). List starts at 00005958.
+0000:00FF Link, (-231, 0, 568) (0000, 0000, 0000)
+11: Skybox 1, Cast: Sunny, Fog? Yes
+0F: There are 10 environment setting(s). List starts at 000059A4.
+17: Cutscene starts at 00003980
+
+Cutscene 7: 00005A80
+15: Sound Settings: Reverb 2, Playback option Always Playing, Song 68.
+04: There are 1 room(s). List starts at 00005B18
+029CE000 029D46D0
+0E: There are 3 transition actor(s). List starts at 00005AE8.
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (-1540, 0, 1490) (0000, 4000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (730, 0, -2860) (0000, 8000, 0000)
+00 FF -> 00 FF, 0009:01BF, Locked Door, No Flag, (1020, 0, -3100) (0000, C000, 0000)
+19: JPEG background camera related: 00 Overworld Region:  00
+03: Collision Header starts at 00002948
+Offset to vertex array 00002114
+Offset to polygon array 00000944
+Offset to polygon type defs 0000089C
+Offset to camera data 00000874
+Offset to water boxes 00000000
+Size in bytes 8448
+06: Entrance Index Definitions starts at 00005B20
+00: There are 1 position(s). List starts at 00005AD8.
+0000:00FF Link, (-231, 0, 568) (0000, 0000, 0000)
+11: Skybox 1, Cast: Sunny, Fog? Yes
+0F: There are 3 environment setting(s). List starts at 00005B24.
+17: Cutscene starts at 00004460
+

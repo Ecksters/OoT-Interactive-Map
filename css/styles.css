@@ -186,3 +186,41 @@ html, body, #map {
   font-size: 14px;
 	padding: 8px;
 }
+
+
+
+#verboseOutput{
+  position: relative;
+  width: 370px;
+  
+  white-space: pre;
+  border-radius: 3px;
+  font-size: 12px;
+  color:#CFDBEC;
+  background-color:#2f2f2f;
+  background-image:-webkit-repeating-linear-gradient(top, #446 0px, #444 14px, #2f2f4f 14px, #2f2f2f 28px);
+  background-image:-moz-repeating-linear-gradient(top, #446 0px, #444 14px, #2f2f4f 14px, #2f2f2f 28px);
+  background-image:-ms-repeating-linear-gradient(top, #446 0px, #444 14px, #2f2f4f 14px, #2f2f2f 28px);
+  background-image:-o-repeating-linear-gradient(top, #446 0px, #444 14px, #2f2f4f 14px, #2f2f2f 28px);
+  background-image:repeating-linear-gradient(top, #446 0px, #444 14px, #2f2f4f 14px, #2f2f2f 28px);
+  text-shadow: none;
+  overflow: auto;
+  font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
+  color: white;
+}
+
+#verboseOutputHeader
+{
+  width: 370px;
+  float: left;
+  margin: 0px;
+  font-size: 16px;
+}
+
+#verboseOutputChanger
+{
+  width: 370px;
+  float: left;
+  margin: 0px;
+  font-size: 14px;
+}

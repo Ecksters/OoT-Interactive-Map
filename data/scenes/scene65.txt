@@ -1,0 +1,77 @@
+Scene at 03328000
+Setup 0: 00000000
+18: Alternate headers start at 00000060.
+15: Sound Settings: Reverb 3, Playback option Always Playing, Song 18.
+04: There are 3 room(s). List starts at 000000B4
+0332D000 03337800
+03338000 0333C800
+0333D000 03343110
+0E: There are 2 transition actor(s). List starts at 00000094.
+01 FF -> 02 FF, 0023:003F, Transition Plane, 01 FF -> 02 FF Type 0: No Flag, (0, 0, -420) (0000, 0000, 0000)
+00 FF -> 01 00, 002E:0041, Front Clear Door, Perm: 01, (0, 120, 1100) (0000, 0000, 0000)
+19: JPEG background camera related: 00 Overworld Region:  02
+03: Collision Header starts at 00002250
+Offset to vertex array 00001BCC
+Offset to polygon array 000001EC
+Offset to polygon type defs 0000016C
+Offset to camera data 00000144
+Offset to water boxes 00002240
+Size in bytes 8504
+06: Entrance Index Definitions starts at 000000CC
+00: There are 2 position(s). List starts at 00000074.
+0000:0DFF Link, (-2, 200, 2226) (0000, 8000, 0000)
+0000:0DFF Link, (0, 60, -1151) (0000, 8000, 0000)
+11: Skybox 0, Cast: Sunny, Fog? Yes
+13: Exit List starts at 000000D0. 050B 0000
+0F: There are 4 environment setting(s). List starts at 000000D4.
+
+Cutscene 0: 00002280
+15: Sound Settings: Reverb 3, Playback option Always Playing, Song 18.
+04: There are 3 room(s). List starts at 00002310
+0332D000 03337800
+03338000 0333C800
+0333D000 03343110
+0E: There are 2 transition actor(s). List starts at 000022F0.
+00 FF -> 01 FF, 0023:003F, Transition Plane, 00 FF -> 01 FF Type 0: No Flag, (0, 60, 943) (0000, 0000, 0000)
+01 FF -> 02 FF, 0023:003F, Transition Plane, 01 FF -> 02 FF Type 0: No Flag, (0, 0, -420) (0000, 0000, 0000)
+19: JPEG background camera related: 00 Overworld Region:  00
+03: Collision Header starts at 00002250
+Offset to vertex array 00001BCC
+Offset to polygon array 000001EC
+Offset to polygon type defs 0000016C
+Offset to camera data 00000144
+Offset to water boxes 00002240
+Size in bytes 8504
+06: Entrance Index Definitions starts at 00002328
+00: There are 1 position(s). List starts at 000022E0.
+0000:0DFF Link, (-4, 40, -1063) (0000, 8000, 0000)
+11: Skybox 0, Cast: Sunny, Fog? No
+13: Exit List starts at 0000232C. 050B 0000
+0F: There are 4 environment setting(s). List starts at 00002330.
+17: Cutscene starts at 000024A0
+
+Cutscene 1: 00002390
+15: Sound Settings: Reverb 3, Playback option Always Playing, Song 18.
+04: There are 3 room(s). List starts at 00002420
+0332D000 03337800
+03338000 0333C800
+0333D000 03343110
+0E: There are 2 transition actor(s). List starts at 00002400.
+00 FF -> 01 FF, 0023:003F, Transition Plane, 00 FF -> 01 FF Type 0: No Flag, (0, 60, 943) (0000, 0000, 0000)
+01 FF -> 02 FF, 0023:003F, Transition Plane, 01 FF -> 02 FF Type 0: No Flag, (0, 0, -420) (0000, 0000, 0000)
+19: JPEG background camera related: 00 Overworld Region:  00
+03: Collision Header starts at 00002250
+Offset to vertex array 00001BCC
+Offset to polygon array 000001EC
+Offset to polygon type defs 0000016C
+Offset to camera data 00000144
+Offset to water boxes 00002240
+Size in bytes 8504
+06: Entrance Index Definitions starts at 00002438
+00: There are 1 position(s). List starts at 000023F0.
+0000:0DFF Link, (-4, 40, -1063) (0000, 8000, 0000)
+11: Skybox 0, Cast: Sunny, Fog? No
+13: Exit List starts at 0000243C. 050B 0000
+0F: There are 4 environment setting(s). List starts at 00002440.
+17: Cutscene starts at 000028E0
+

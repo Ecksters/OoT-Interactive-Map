@@ -1,0 +1,24 @@
+Room 2
+Room at 03051000
+Setup 0: 00000000
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 01
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000110
+0B: There are 8 Object(s). List starts at 00000040
+006C, 0009, 000E, 00A4, 0089, 0133, 012F, 0098, 
+01: There are 12 actor(s). List starts at 00000050
+0015:3B00 Collectable Green Rupee, Temp: 1B, (570, -570, -5599) (0000, 0000, 0000)
+0015:3C00 Collectable Green Rupee, Temp: 1C, (1461, -730, -5736) (0000, 0000, 0000)
+0015:3D00 Collectable Green Rupee, Temp: 1D, (2376, -730, -4647) (0000, 0000, 0000)
+0090:7F02 Redead, Crouching, (2552, -730, -4424) (0000, 8000, 0000)
+0090:7F02 Redead, Crouching, (1248, -730, -5748) (0000, 4000, 0000)
+0008:03F8 Decorative Flame, (2120, -690, -4410) (0000, 8000, 0000)
+0008:03F8 Decorative Flame, (1900, -690, -4410) (0000, 8000, 0000)
+0112:123F Invisible Collectible, 02 08 3F, (570, -570, -5778) (0000, 0000, 0001)
+0112:123F Invisible Collectible, 02 08 3F, (353, -570, -5825) (0000, 0000, 0001)
+0112:123F Invisible Collectible, 02 08 3F, (1666, -730, -5736) (0000, 0000, 0001)
+0112:123F Invisible Collectible, 02 08 3F, (2549, -730, -4598) (0000, 0000, 0001)
+0112:123F Invisible Collectible, 02 08 3F, (2547, -730, -4847) (0000, 0000, 0001)
+

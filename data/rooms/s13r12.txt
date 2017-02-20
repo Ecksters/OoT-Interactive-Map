@@ -1,0 +1,49 @@
+Room 12
+Room at 03235000
+Setup 0: 00000000
+16: Sound Settings: Echo 8
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030002B0
+0B: There are 14 Object(s). List starts at 00000040
+0179, 00A4, 00D4, 000E, 0090, 0114, 0059, 005D, 00B7, 0190, 00A8, 00F2, 00DC, 011C, 
+01: There are 37 actor(s). List starts at 0000005C
+0069:04FC Bubble (flying skull), (937, 124, -2402) (0000, E38E, 0000)
+01B4:FF01 Clear Block, No Flag, (2106, -10, -3903) (0000, 6AAB, 0000)
+01B4:0000 Clear Block, Perm: 00, (1572, 150, -3803) (0000, EAAB, 0000)
+00DD:FFFF Like-Like, (1338, 150, -3117) (0000, EAAB, 0000)
+012A:0500 Floor Switch, Ice? no, ?? no, Blue? no, Toggle? no, Perm: 05, (2107, -10, -3901) (0000, EAAB, 0000)
+000A:36C5 Chest, Large, Falling, Switch Flag, reward 36: Golden Gauntlets, chest flag: 05, bound to Perm: 05, (1757, 462, -3595) (0000, 6AAB, 0005)
+000A:5888 Chest, Small, reward 44: Blue Rupee, chest flag: 08, bound to Perm: 00, (544, 150, -2516) (0000, AAAB, 0000)
+012A:1B01 Rusted Switch, Ice? no, ?? no, Blue? no, Toggle? no, Perm: 1B, (1529, 150, -4116) (0000, EAAB, 0000)
+0015:2103 Collectable Heart, Temp: 01, (1855, 141, -3953) (0000, 0000, 0000)
+01D1:3821 Time Block, Temp: 01, (500, 50, -2125) (0000, EAAB, 0007)
+0015:2203 Collectable Heart, Temp: 02, (1844, 162, -4038) (0000, 0000, 0000)
+01D1:3822 Time Block, Temp: 02, (414, 50, -2175) (0000, EAAB, 0007)
+0015:2303 Collectable Heart, Temp: 03, (1827, 169, -4106) (0000, 0000, 0000)
+01D1:3823 Time Block, Temp: 03, (465, 50, -2262) (0000, EAAB, 0007)
+0111:5A09 Breakable Pot, Collectable: 09 Temp: 0D, (1234, 150, -3418) (0000, 0000, 0000)
+0111:5E0E Breakable Pot, Collectable: 0E Temp: 0F, (1621, 150, -3203) (0000, 0000, 0000)
+01B4:3801 Clear Block, Local: 00, (1105, 150, -2653) (0000, EAAB, 0000)
+01B4:3801 Clear Block, Local: 00, (1018, 150, -2703) (0000, EAAB, 0000)
+01B4:3801 Clear Block, Local: 00, (1005, 150, -2480) (0000, EAAB, 0000)
+01B4:3801 Clear Block, Local: 00, (905, 150, -2307) (0000, EAAB, 0000)
+01B4:3801 Clear Block, Local: 00, (818, 150, -2357) (0000, EAAB, 0000)
+01B4:3801 Clear Block, Local: 00, (768, 150, -2270) (0000, EAAB, 0000)
+01B4:3801 Clear Block, Local: 00, (718, 150, -2183) (0000, EAAB, 0000)
+01B4:3801 Clear Block, Local: 00, (1192, 150, -2603) (0000, EAAB, 0000)
+01B4:3801 Clear Block, Local: 00, (1292, 150, -2776) (0000, EAAB, 0000)
+01B4:3801 Clear Block, Local: 00, (682, 150, -2320) (0000, EAAB, 0000)
+01B4:3801 Clear Block, Local: 00, (596, 150, -2370) (0000, EAAB, 0000)
+01B4:3801 Clear Block, Local: 00, (1523, 133, -3455) (0000, EAAB, 0000)
+01B4:3801 Clear Block, Local: 00, (1118, 140, -2877) (0000, EAAB, 0000)
+01B4:3801 Clear Block, Local: 00, (1903, 110, -3555) (0000, EAAB, 0000)
+01B4:3801 Clear Block, Local: 00, (1954, 70, -3643) (0000, EAAB, 0000)
+01B4:3801 Clear Block, Local: 00, (2005, 30, -3729) (0000, EAAB, 0000)
+01B4:3801 Clear Block, Local: 00, (2055, 30, -3816) (0000, EAAB, 0000)
+01B4:3802 Clear Block, Local: 00, (1291, 150, -2259) (0000, 0000, 0000)
+005E:1079 Timed Torch, Light: 1, Local: 01, (1291, 150, -2259) (0000, 0000, 0000)
+005E:107A Timed Torch, Light: 1, Local: 02, (1980, 210, -4536) (0000, EAAB, 0000)
+012D:FFC2 Hookshot Block, (627, 336, -1925) (0000, 6AAB, 0000)
+

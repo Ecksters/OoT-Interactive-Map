@@ -1,0 +1,41 @@
+Scene at 033CA000
+Setup 0: 00000000
+15: Sound Settings: Reverb 6, Playback option Always Playing, Song 01.
+04: There are 5 room(s). List starts at 000000F8
+033D2000 033D9E80
+033DA000 033E1BB0
+033E2000 033EACA0
+033EB000 033F0640
+033F1000 033F9CF0
+0E: There are 1 transition actor(s). List starts at 000000E8.
+00 FF -> 03 FF, 0023:003F, Transition Plane, 00 FF -> 03 FF Type 0: No Flag, (0, 0, -599) (0000, 0000, 0000)
+19: JPEG background camera related: 00 Overworld Region:  15
+03: Collision Header starts at 000062CC
+Offset to vertex array 00004DE8
+Offset to polygon array 00000308
+Offset to polygon type defs 00000288
+Offset to camera data 00000280
+Offset to water boxes 00000000
+Size in bytes 24696
+06: Entrance Index Definitions starts at 00000120
+07: Elf_Message 0, Load Object 0003
+0D: Pathway List starts at 00000254
+ 00) 0001B0  (210, 800, 409) (-211, 800, 409) (-405, 800, 211) (-465, 800, 0) (-630, 800, 0)
+ 01) 0001D0  (-76, 520, -245) (-244, 520, -92) (-253, 520, 117) (0, 520, 324) (0, 520, 520)
+ 02) 0001F0  (-150, 260, 9) (0, 260, 150) (324, 260, 0) (500, 260, 0)
+ 03) 000208  (5, 0, 200) (-194, 0, 69) (165, 0, -109) (0, 0, -324) (0, 0, -470)
+ 04) 000228  (-51, 0, -838) (89, 0, -1004) (332, -70, -835) (546, -130, -825) (686, -220, -495) (805, -220, -419) (1000, -220, -419)
+
+00: There are 8 position(s). List starts at 00000068.
+0000:0EFF Link, (362, 800, 359) (0000, A000, 0000)
+0000:0EFF Link, (-481, 800, -1) (0000, 4000, 0000)
+0000:0EFF Link, (-5, 520, -347) (0000, 0000, 0000)
+0000:0EFF Link, (-1, 520, 345) (0000, 8000, 0000)
+0000:0EFF Link, (-364, 260, -4) (0000, 4000, 0000)
+0000:0EFF Link, (340, 260, 0) (0000, C000, 0000)
+0000:0EFF Link, (1, 0, 339) (0000, 8000, 0000)
+0000:0EFF Link, (845, -220, -418) (0000, C000, 0000)
+11: Skybox 0, Cast: Sunny, Fog? Yes
+13: Exit List starts at 00000130. 04BA 032C 0330 0334 01C9 051C 0524 056C
+0F: There are 5 environment setting(s). List starts at 00000140.
+

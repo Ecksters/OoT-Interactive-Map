@@ -1,0 +1,58 @@
+Scene at 02875000
+Setup 0: 00000000
+15: Sound Settings: Reverb 3, Playback option Always Playing, Song 18.
+04: There are 11 room(s). List starts at 000001D8
+02887000 02896F90
+02897000 028A0290
+028A1000 028A5F80
+028A6000 028ADC20
+028AE000 028B8150
+028B9000 028BE0E0
+028BF000 028C6F40
+028C7000 028CF330
+028D0000 028D8210
+028D9000 028DC8F0
+028DD000 028E2C60
+0E: There are 22 transition actor(s). List starts at 00000078.
+08 FF -> 06 FF, 0023:003F, Transition Plane, 08 FF -> 06 FF Type 0: No Flag, (800, -80, -1520) (0000, C000, 0000)
+01 FF -> 02 FF, 002E:009F, Front Switch Door, Perm: 1F, (-1580, -80, -620) (0000, 0000, 0000)
+02 FF -> 03 FF, 002E:009C, Front Switch Door, Perm: 1C, (-1579, 160, -2167) (0000, 0000, 0000)
+03 FF -> 10 FF, 002E:008F, Front Switch Door, Perm: 0F, (-1577, 159, -3497) (0000, 0000, 0000)
+00 FF -> 08 FF, 002E:0025, Lifting Door, Temp: 05, (-60, -80, -1100) (0000, 0000, 0000)
+07 FF -> 00 FF, 002E:003F, Lifting Door, No Flag, (860, -80, -180) (0000, 4000, 0000)
+00 FF -> 01 FF, 002E:003F, Lifting Door, No Flag, (-980, -80, -180) (0000, 4000, 0000)
+04 FF -> 03 FF, 002E:003F, Lifting Door, No Flag, (-777, 239, -2747) (0000, 4000, 0000)
+05 FF -> 04 FF, 002E:0099, Front Switch Door, Perm: 19, (823, -81, -2748) (0000, 4000, 0000)
+05 FF -> 06 FF, 002E:004E, Front Clear Door, Perm: 0E, (1443, -81, -2408) (0000, 8000, 0000)
+06 FF -> 09 FF, 002E:008C, Front Switch Door, Perm: 0C, (1922, -240, -1464) (0000, C000, 0000)
+07 FF -> 06 FF, 002E:009E, Front Switch Door, Perm: 1E, (1480, -79, -600) (0000, 0000, 0000)
+04 FF -> 08 FF, 002E:0095, Front Switch Door, Perm: 15, (-78, 239, -2060) (0000, 8000, 0000)
+08 FF -> 08 FF, 002E:02C9, Locked Door, Perm: 09, (-540, -80, -1200) (0000, 4000, 0000)
+08 FF -> 08 FF, 002E:02C1, Locked Door, Perm: 01, (-220, -80, -1360) (0000, 4000, 0000)
+08 FF -> 08 FF, 002E:02CA, Locked Door, Perm: 0A, (100, -80, -1360) (0000, C000, 0000)
+08 FF -> 08 FF, 002E:02C3, Locked Door, Perm: 03, (500, -80, -1280) (0000, 0000, 0000)
+08 FF -> 08 FF, 002E:02C4, Locked Door, Perm: 04, (-300, -80, -1600) (0000, 0000, 0000)
+08 FF -> 08 FF, 002E:02C5, Locked Door, Perm: 05, (-620, -80, -1920) (0000, 0000, 0000)
+08 FF -> 08 FF, 002E:02C6, Locked Door, Perm: 06, (-60, -80, -1840) (0000, C000, 0000)
+08 FF -> 08 FF, 002E:02C7, Locked Door, Perm: 07, (180, -80, -1920) (0000, 8000, 0000)
+08 FF -> 08 FF, 002E:02D7, Locked Door, Perm: 17, (100, -80, -1680) (0000, 4000, 0000)
+19: JPEG background camera related: 00 Overworld Region:  0C
+03: Collision Header starts at 0000F700
+Offset to vertex array 0000C174
+Offset to polygon array 00000484
+Offset to polygon type defs 00000344
+Offset to camera data 00000314
+Offset to water boxes 0000F6F0
+Size in bytes 62488
+06: Entrance Index Definitions starts at 00000230
+07: Elf_Message 2, Load Object 0003
+0D: Pathway List starts at 000002F0
+ 00) 0002C0  (-1219, 516, -2061) (-1217, 228, -2063) (-1221, 225, -1986) (-1221, 101, -1779) (-1221, 102, -1339) (-1221, -19, -1060) (-1223, -19, -834) (-1225, -341, -834)
+ 01) 000290  (-1945, 433, -2063) (-1945, 227, -2063) (-1945, 225, -1857) (-1945, 107, -1661) (-1945, 105, -1540) (-1945, -25, -1261) (-1942, -20, -834) (-1942, -320, -834)
+
+00: There are 1 position(s). List starts at 00000068.
+0000:0FFF Link, (-68, -160, 228) (0000, 8000, 0000)
+11: Skybox 29, Cast: Sunny, Fog? Yes
+13: Exit List starts at 00000234. 03A8 0000
+0F: There are 4 environment setting(s). List starts at 00000238.
+

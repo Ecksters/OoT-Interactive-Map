@@ -1,0 +1,46 @@
+Room 2
+Room at 02F69000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 4
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000D0
+0B: There are 1 Object(s). List starts at 00000060
+016D, 
+01: There are 6 actor(s). List starts at 00000064
+0008:03F4 Decorative Flame, (-1072, 65, 960) (0000, 0000, 0000)
+0008:03F4 Decorative Flame, (-949, 65, 837) (0000, 0000, 0000)
+0008:03F4 Decorative Flame, (-825, 65, 713) (0000, 0000, 0000)
+0008:03F4 Decorative Flame, (-960, 65, 1073) (0000, 0000, 0000)
+0008:03F4 Decorative Flame, (-836, 65, 949) (0000, 0000, 0000)
+0008:03F4 Decorative Flame, (-713, 65, 826) (0000, 0000, 0000)
+
+Cutscene 0: 000000F0
+16: Sound Settings: Echo 4
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000D0
+0B: There are 1 Object(s). List starts at 00000128
+016D, 
+
+Cutscene 1: 00000130
+16: Sound Settings: Echo 4
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000D0
+0B: There are 1 Object(s). List starts at 00000168
+016D, 
+
+Cutscene 2: 00000170
+16: Sound Settings: Echo 4
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000D0
+0B: There are 1 Object(s). List starts at 000001A8
+016D, 
+

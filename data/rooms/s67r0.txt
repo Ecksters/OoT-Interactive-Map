@@ -1,0 +1,170 @@
+Room 0
+Room at 0253C000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000100
+0B: There are 8 Object(s). List starts at 00000080
+005E, 008A, 00AD, 00B6, 0092, 00A8, 0090, 00A1, 
+01: There are 7 actor(s). List starts at 00000090
+00F5:0010 Sages, Balls of Light (Cutscene), (697, 0, -168) (0000, 0000, 0000)
+008C:0001 ???, (195, 40, 77) (0000, 0000, 0000)
+008B:FF0F Spiritual Stones, (0, 70, -1) (0000, 0000, 0000)
+006C:FFFF Master Sword in Pedestal, (-1, 68, 0) (0000, 0000, 0000)
+008C:000E ???, (-14, 939, -652) (0000, 0000, 0000)
+0048:0009 Sheik?, (0, 71, 11) (0000, 0000, 0000)
+009C:0004 Graveyard Actor, (697, 0, -99) (0000, 0000, 0000)
+
+Cutscene 0: 00000120
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: 0C00 00
+0A: Room Mesh: 03000100
+0B: There are 8 Object(s). List starts at 00000160
+005E, 008A, 0090, 00AD, 00B6, 0092, 00A8, 00A1, 
+01: There are 7 actor(s). List starts at 00000170
+00F5:0010 Sages, Balls of Light (Cutscene), (684, 670, 89) (0000, 0000, 0000)
+008C:0001 ???, (195, 40, 77) (0000, 0000, 0000)
+008B:FF0F Spiritual Stones, (0, 70, -1) (0000, 0000, 0000)
+006C:FFFF Master Sword in Pedestal, (-1, 68, 0) (0000, 0000, 0000)
+008C:000E ???, (-14, 939, -652) (0000, 0000, 0000)
+0048:0001 Sheik?, (-60, 71, 6) (0000, FC72, 0000)
+009C:0004 Graveyard Actor, (679, 680, 34) (0000, 0000, 0000)
+
+Cutscene 1: 000001E0
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000100
+0B: There are 2 Object(s). List starts at 00000220
+005E, 00A8, 
+01: There are 4 actor(s). List starts at 00000224
+006C:FFFF Master Sword in Pedestal, (-1, 68, 0) (0000, 0000, 0000)
+008B:FF0F Spiritual Stones, (-1, 70, 0) (0000, 0000, 0000)
+008C:000E ???, (-14, 939, -652) (0000, 0000, 0000)
+017F:0001 The End message (Defunct?), (-1, 70, 39) (0000, 0000, 0000)
+
+Cutscene 2: 000002F0
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: 0C00 00
+0A: Room Mesh: 03000100
+0B: There are 8 Object(s). List starts at 00000330
+005E, 008A, 0090, 00AD, 00B6, 0092, 00A8, 00A1, 
+01: There are 7 actor(s). List starts at 00000340
+00F5:0010 Sages, Balls of Light (Cutscene), (684, 670, 89) (0000, 0000, 0000)
+008C:0001 ???, (195, 40, 77) (0000, 0000, 0000)
+008B:FF0F Spiritual Stones, (0, 70, -1) (0000, 0000, 0000)
+006C:FFFF Master Sword in Pedestal, (-1, 68, 0) (0000, 0000, 0000)
+008C:000E ???, (-14, 939, -652) (0000, 0000, 0000)
+0048:0002 Sheik?, (-60, 71, 6) (0000, FC72, 0000)
+009C:0004 Graveyard Actor, (679, 680, 34) (0000, 0000, 0000)
+
+Cutscene 3: 000003B0
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000100
+0B: There are 3 Object(s). List starts at 000003F0
+005E, 0092, 00A8, 
+01: There are 3 actor(s). List starts at 000003F8
+008B:FF0F Spiritual Stones, (0, 70, -1) (0000, 0000, 0000)
+006C:FFFF Master Sword in Pedestal, (-1, 68, 0) (0000, 0000, 0000)
+008C:000E ???, (-14, 939, -652) (0000, 0000, 0000)
+
+Cutscene 4: 00000430
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000100
+0B: There are 3 Object(s). List starts at 00000470
+005E, 0092, 00A8, 
+01: There are 3 actor(s). List starts at 00000478
+006C:FFFF Master Sword in Pedestal, (-1, 68, 0) (0000, 0000, 0000)
+008B:FF0F Spiritual Stones, (0, 70, -1) (0000, 0000, 0000)
+008C:000E ???, (-14, 939, -652) (0000, 0000, 0000)
+
+Cutscene 5: 000004B0
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000100
+0B: There are 3 Object(s). List starts at 000004F0
+005E, 0092, 00A8, 
+01: There are 3 actor(s). List starts at 000004F8
+006C:FFFF Master Sword in Pedestal, (-1, 68, 0) (0000, 0000, 0000)
+008B:FF0F Spiritual Stones, (0, 70, -1) (0000, 0000, 0000)
+008C:000E ???, (-14, 939, -652) (0000, 0000, 0000)
+
+Cutscene 6: 00000530
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000100
+0B: There are 3 Object(s). List starts at 00000570
+005E, 0092, 00A8, 
+01: There are 3 actor(s). List starts at 00000578
+006C:FFFF Master Sword in Pedestal, (-1, 68, 0) (0000, 0000, 0000)
+008B:FF0F Spiritual Stones, (0, 70, -1) (0000, 0000, 0000)
+008C:000E ???, (-14, 939, -652) (0000, 0000, 0000)
+
+Cutscene 7: 000005B0
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 03000100
+0B: There are 1 Object(s). List starts at 000005F0
+005E, 
+01: There are 1 actor(s). List starts at 000005F4
+008C:000E ???, (-14, 939, -652) (0000, 0000, 0000)
+
+Cutscene 8: 00000610
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000100
+0B: There are 4 Object(s). List starts at 00000650
+005E, 008E, 0092, 00A8, 
+01: There are 3 actor(s). List starts at 00000658
+006C:FFFF Master Sword in Pedestal, (-1, 68, 0) (0000, 0000, 0000)
+008B:FF0F Spiritual Stones, (0, 70, -1) (0000, 0000, 0000)
+008C:000E ???, (-14, 939, -652) (0000, 0000, 0000)
+
+Cutscene 9: 00000690
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 03000100
+0B: There are 4 Object(s). List starts at 000006D0
+005E, 008E, 0092, 00A8, 
+01: There are 3 actor(s). List starts at 000006D8
+006C:FFFF Master Sword in Pedestal, (-1, 68, 0) (0000, 0000, 0000)
+008B:FF0F Spiritual Stones, (0, 70, -1) (0000, 0000, 0000)
+008C:000E ???, (-14, 939, -652) (0000, 0000, 0000)
+
+Cutscene 10: 00000270
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000100
+0B: There are 4 Object(s). List starts at 000002B0
+005E, 008E, 0092, 00A8, 
+01: There are 3 actor(s). List starts at 000002B8
+006C:FFFF Master Sword in Pedestal, (-1, 68, 0) (0000, 0000, 0000)
+008B:FF0F Spiritual Stones, (0, 70, -1) (0000, 0000, 0000)
+008C:000E ???, (-14, 939, -652) (0000, 0000, 0000)
+

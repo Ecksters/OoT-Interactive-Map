@@ -1,0 +1,22 @@
+Room 3
+Room at 026D2000
+Setup 0: 00000000
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000F0
+0B: There are 3 Object(s). List starts at 00000040
+018B, 00B7, 017F, 
+01: There are 10 actor(s). List starts at 00000048
+01C6:0000 Cow, (2444, 9, -471) (0000, 0000, 0000)
+0125:FF00 Regen Grass, (2443, -1, -396) (0000, 0000, 0000)
+0125:FF00 Regen Grass, (2494, 8, -439) (0000, 0000, 0000)
+019E:FF02 Beehive, (2617, 190, -457) (2000, 58E4, 0000)
+0183:FF41 Song of Storms Fairy (Giant Fairy?), (2498, -11, -311) (0000, 0000, 0000)
+01AB:4005 Tower of Rupees, (2425, -20, -120) (0000, 0000, 0000)
+0015:2803 Collectable Heart, Temp: 08, (2287, -8, -412) (0000, 0000, 0000)
+0015:2903 Collectable Heart, Temp: 09, (2371, -1, -532) (0000, 0000, 0000)
+0015:2A03 Collectable Heart, Temp: 0A, (2449, -5, -534) (0000, 0000, 0000)
+0015:2B03 Collectable Heart, Temp: 0B, (2569, -1, -432) (0000, 0000, 0000)
+

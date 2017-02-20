@@ -1,0 +1,217 @@
+Room 0
+Room at 0223C000
+Setup 0: 00000000
+18: Alternate headers start at 00000050.
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 0A
+05: Wind Settings: Forces Westward 9C, Vertical FF, Southward 14, Strength 82
+0A: Room Mesh: 030003D0
+0B: There are 14 Object(s). List starts at 00000070
+00C2, 017A, 00C9, 0031, 0016, 0076, 0092, 011E, 012F, 0131, 0163, 0188, 0024, 000E, 
+01: There are 52 actor(s). List starts at 0000008C
+003B:0015 Ambient Sound, Cows, (-688, 1946, -285) (0000, 0000, 0000)
+0015:0A02 Collectable Red rupee, Perm: 0A, (-625, 1794, -55) (0000, 0000, 0000)
+0015:0701 Collectable Blue rupee, Perm: 07, (-1060, 1694, -51) (0000, 0000, 0000)
+014D:0213 Kaepora Gaebora, Type 8, Perm: 13, (-42, 3347, -4409) (0000, 0AAB, 0000)
+01B9:3804 Gossip Stone, (40, 2872, -3935) (0000, 0000, 0000)
+01AE:FFEC Goron, (-1235, 1159, 892) (0000, 0000, 0000)
+0095:0000 Skullwalltula, Type 0, Group 00, Flag 00, (62, 2619, -3983) (4000, 0000, 0000)
+0095:0000 Skullwalltula, Type 0, Group 00, Flag 00, (-157, 2784, -3983) (4000, 0000, 0000)
+0095:0000 Skullwalltula, Type 0, Group 00, Flag 00, (15, 3040, -3981) (4000, 0000, 0000)
+001B:FFFF Red Tektite, (-2012, 258, 1953) (0000, 1777, 0000)
+001B:FFFF Red Tektite, (-1996, 414, 683) (0000, 0B61, 0000)
+001B:FFFF Red Tektite, (-1918, 357, 1085) (0000, F333, 0000)
+001B:FFFF Red Tektite, (-1776, 790, -19) (0000, DC72, 0000)
+0015:1E06 Collectable Heart Piece, Perm: 1E, (-1500, 1031, -1100) (0000, 0000, 0000)
+00D0:8001 2D Bombable Wall, (-1825, 340, 1189) (0000, C000, 0000)
+00D0:8002 2D Bombable Wall, (-540, 1448, -81) (0000, 31C7, 0000)
+00D0:8003 2D Bombable Wall, (-245, 3305, -4480) (0000, 127D, 0000)
+009B:00F8 Grotto, Cow, Visible, Chest: None, Flag 18, (-688, 1946, -285) (0000, 8000, 000D)
+009B:0157 Grotto, Generic, Song of Storms, Chest: Yellow Rupee, Flag 17, (-383, 1386, -1206) (0000, 8000, 0000)
+0039:050A Gameplay_keep Items, (-1300, 120, 2155) (0000, D8E4, 0000)
+0039:210A Gameplay_keep Items, (-735, 1241, 595) (0000, 199A, 0000)
+0039:230A Gameplay_keep Items, (-40, 3299, -4410) (0000, 1333, 0000)
+0039:2D0A Gameplay_keep Items, (-1127, 1662, 44) (0000, 216C, 0000)
+0026:FFFF Wooden Post With Red Cloth, (-746, 1273, 515) (0000, EAAB, 0000)
+0095:9004 Gold Skulltula, Type 4, Group 10, Flag 04, (-1653, 478, 1194) (4000, C000, 0000)
+01CF:5002 Skulltula Sprouting from Bean Spot, (-1610, 677, -735) (0000, 0000, 0000)
+01AE:1404 Goron, (-1278, 1411, -552) (0000, 3D28, 0000)
+014E:0B00 Small Rock, (-1816, 681, -513) (0000, 0000, 0000)
+014E:0B00 Small Rock, (-1831, 681, -614) (0000, 0000, 0000)
+014E:0B00 Small Rock, (-1857, 681, -536) (0000, 0000, 0000)
+014E:0B00 Small Rock, (-1878, 681, -465) (0000, 0000, 0000)
+014E:0B00 Small Rock, (-1787, 681, -550) (0000, 0000, 0000)
+014E:0210 Small Rock, (-327, 3280, -4286) (0000, 0000, 0000)
+0151:0B02 Shrubs or Rocks, (-383, 1386, -1206) (0000, 0000, 0000)
+0141:0309 Square Signpost, (-1260, 1409, 540) (0000, 0000, 0000)
+0141:030A Square Signpost, (-1834, 681, -571) (0000, 0000, 0000)
+0141:030B Square Signpost, (-299, 1209, -1787) (0000, 0000, 0000)
+0141:0322 Square Signpost, (-1300, 1413, -496) (0000, 3B06, 0000)
+0183:FF40 Song of Storms Fairy (Giant Fairy?), (-730, 1347, 464) (0000, 0000, 0000)
+00B4:0005 Falling Rock Spawner, (-199, 2032, -3060) (0000, 0000, 0000)
+01AE:FC25 Goron, (-311, 1500, -393) (0000, ECCD, 0000)
+00E5:FFFF Death Mountain Cloud Ring, (102, 5583, -6518) (0000, 0000, 0000)
+00CD:04FF Dodongo's Cavern Entrance Rock, (-1679, 684, -690) (0000, 0000, 0000)
+0126:1F06 Bean Planting Spot, (-1610, 677, -735) (0000, 0000, 0000)
+0185:8EC3 Check Spot, Disappears on Switch, dialog ...???, Perm: 03, (-237, 3370, -4462) (0000, 127D, 0029)
+01AE:FFE6 Goron, (-1602, 702, -475) (0000, 0000, 0000)
+004C:FFFF Bombflower, (-1397, 1408, -646) (0000, 0000, 0000)
+0127:0007 Brown Boulder, Perm: 07, (-1060, 1694, -51) (0000, 093F, 0000)
+0127:0008 Brown Boulder, Perm: 08, (-808, 1754, -59) (0000, BF4A, 0000)
+0127:000A Brown Boulder, Perm: 0A, (-625, 1794, -55) (0000, 0000, 0000)
+0127:801F Brown Boulder, Perm: 1F Puzzle Solved Sound, (-688, 1946, -285) (0000, 0000, 0000)
+000A:5AA1 Chest, Small, reward 55: Purple Rupee, chest flag: 01, bound to Perm: 00, (-623, 1454, -115) (0000, B1C7, 0000)
+
+Setup 2: 00000470
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 0A
+05: Wind Settings: Forces Westward 9C, Vertical FF, Southward 14, Strength 82
+0A: Room Mesh: 030003D0
+0B: There are 14 Object(s). List starts at 000004B8
+00C2, 017A, 00C9, 0031, 0016, 0076, 0092, 011E, 012F, 011F, 0163, 0188, 0024, 000E, 
+01: There are 54 actor(s). List starts at 000004D4
+003B:0015 Ambient Sound, Cows, (-688, 1946, -285) (0000, 0000, 0000)
+01B9:3804 Gossip Stone, (40, 2872, -3935) (0000, 0000, 0000)
+0095:0000 Skullwalltula, Type 0, Group 00, Flag 00, (64, 2609, -3982) (4000, 0000, 0000)
+0095:0000 Skullwalltula, Type 0, Group 00, Flag 00, (-176, 2753, -3981) (4000, 0000, 0000)
+0095:0000 Skullwalltula, Type 0, Group 00, Flag 00, (-90, 2925, -3982) (4000, 0000, 0000)
+01AE:FFE2 Goron, (820, 3090, -3900) (0000, A38E, 0000)
+001B:FFFF Red Tektite, (-1993, 368, 1012) (0000, 0000, 0000)
+001B:FFFF Red Tektite, (-1798, 245, 1922) (0000, 0CCD, 0000)
+001B:FFFF Red Tektite, (52, 2874, -3919) (0000, C000, 0000)
+0015:1E06 Collectable Heart Piece, Perm: 1E, (-1500, 1031, -1100) (0000, 0000, 0000)
+01D2:0009 Bronze Boulder, (-1175, 1417, -803) (0000, 0000, 0000)
+01D2:0014 Bronze Boulder, (-1948, 282, 1706) (0000, 0000, 0000)
+01D2:0015 Bronze Boulder, (-2019, 336, 1101) (0000, 0000, 0000)
+01D2:0016 Bronze Boulder, (-1658, 710, -88) (0000, 0000, 0000)
+01D2:0017 Bronze Boulder, (-1753, 913, 445) (0000, 0000, 0000)
+01D2:0018 Bronze Boulder, (-1018, 1089, 1283) (0000, 0000, 0000)
+01D2:0019 Bronze Boulder, (-1986, 392, 727) (0000, 0000, 0000)
+01D2:001A Bronze Boulder, (-23, 2082, -3196) (0000, 0000, 0000)
+01D2:001B Bronze Boulder, (-343, 1926, -2794) (0000, 0000, 0000)
+01D2:001C Bronze Boulder, (-154, 1827, -2484) (0000, 0000, 0000)
+01D2:001D Bronze Boulder, (-1590, 693, -402) (0000, 0000, 0000)
+00D0:8001 2D Bombable Wall, (-1825, 340, 1189) (0000, C000, 0000)
+00D0:8002 2D Bombable Wall, (-540, 1448, -81) (0000, 31C7, 0000)
+00D0:8003 2D Bombable Wall, (-245, 3305, -4480) (0000, 127D, 0000)
+009B:00F8 Grotto, Cow, Visible, Chest: None, Flag 18, (-688, 1946, -285) (0000, 8000, 000D)
+009B:0157 Grotto, Generic, Song of Storms, Chest: Yellow Rupee, Flag 17, (-383, 1386, -1206) (0000, 8000, 0000)
+0039:050A Gameplay_keep Items, (-1300, 120, 2155) (0000, D8E4, 0000)
+0039:210A Gameplay_keep Items, (-735, 1241, 595) (0000, 199A, 0000)
+0039:230A Gameplay_keep Items, (-40, 3299, -4410) (0000, 1333, 0000)
+0039:2D0A Gameplay_keep Items, (-1127, 1662, 44) (0000, 216C, 0000)
+0039:0B0A Gameplay_keep Items, (-299, 1209, -1787) (0000, 58E4, 0000)
+0026:FFFF Wooden Post With Red Cloth, (-746, 1273, 515) (0000, EAAB, 0000)
+0095:9004 Gold Skulltula, Type 4, Group 10, Flag 04, (-1653, 478, 1194) (4000, C000, 0000)
+0095:B008 Gold Skulltula, Type 5, Group 10, Flag 08, (-1166, 1465, -812) (4000, D333, 0000)
+0095:B010 Gold Skulltula, Type 5, Group 10, Flag 10, (0, 2123, -3196) (4000, B8E4, 0000)
+014E:0B00 Small Rock, (-1816, 681, -513) (0000, 0000, 0000)
+014E:0B00 Small Rock, (-1831, 681, -614) (0000, 0000, 0000)
+014E:0B00 Small Rock, (-1857, 681, -536) (0000, 0000, 0000)
+014E:0B00 Small Rock, (-1878, 681, -465) (0000, 0000, 0000)
+014E:0B00 Small Rock, (-1787, 681, -550) (0000, 0000, 0000)
+0151:0B02 Shrubs or Rocks, (-383, 1386, -1206) (0000, 0000, 0000)
+0141:0309 Square Signpost, (-1260, 1409, 540) (0000, 0000, 0000)
+0141:030A Square Signpost, (-1834, 681, -571) (0000, 0000, 0000)
+0183:FF40 Song of Storms Fairy (Giant Fairy?), (-730, 1347, 464) (0000, 0000, 0000)
+00B4:0005 Falling Rock Spawner, (-199, 2032, -3060) (0000, 0000, 0000)
+00E5:FFFF Death Mountain Cloud Ring, (102, 5583, -6518) (0000, 0000, 0000)
+0126:0006 Bean Planting Spot, (-1610, 677, -737) (0000, 0000, 0002)
+0185:8EC3 Check Spot, Disappears on Switch, dialog ...???, Perm: 03, (-237, 3370, -4462) (0000, 127D, 0029)
+0127:0008 Brown Boulder, Perm: 08, (-808, 1754, -59) (0000, BF4A, 0000)
+0127:000A Brown Boulder, Perm: 0A, (-625, 1794, -55) (0000, 0000, 0000)
+0127:801F Brown Boulder, Perm: 1F Puzzle Solved Sound, (-688, 1946, -285) (0000, 0000, 0000)
+0130:0D01 ???, (-1444, 1506, -1627) (0000, F8E4, 0001)
+0130:0C02 ???, (-1145, 2177, -370) (0000, 071C, 0001)
+000A:5AA1 Chest, Small, reward 55: Purple Rupee, chest flag: 01, bound to Perm: 00, (-607, 1454, -112) (0000, B1C7, 0000)
+
+Cutscene 0: 00000940
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: 0D1C 00
+0A: Room Mesh: 030003D0
+0B: There are 2 Object(s). List starts at 00000980
+0093, 0094, 
+01: There are 2 actor(s). List starts at 00000984
+008B:FF05 Spiritual Stones, (-230, 2262, -2544) (0000, 0000, 0000)
+00E5:FFFF Death Mountain Cloud Ring, (102, 5583, -6518) (0000, 0000, 0000)
+
+Cutscene 1: 000009B0
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: 0C00 00
+0A: Room Mesh: 030003D0
+0B: There are 8 Object(s). List starts at 000009F0
+0029, 0034, 00C9, 009D, 00AD, 0090, 0048, 017A, 
+01: There are 9 actor(s). List starts at 00000A00
+00CA:0000 Gorons (Cutscene), (-1808, 684, -544) (0000, 0000, 0000)
+00CA:0001 Gorons (Cutscene), (-1707, 693, -544) (0000, 0000, 0000)
+00CA:0002 Gorons (Cutscene), (-1631, 696, -523) (0000, 0000, 0000)
+00A8:0001 Sage Darunia (Cutscene), (-1799, 705, -466) (0000, 0000, 0000)
+008B:0012 Spiritual Stones, (-1715, 694, -490) (0000, 0000, 0000)
+008B:0014 Spiritual Stones, (-1714, 705, -319) (0000, 0000, 0000)
+00CD:FFFF Dodongo's Cavern Entrance Rock, (-1679, 684, -690) (0000, 0000, 0000)
+00E5:FFFF Death Mountain Cloud Ring, (102, 5583, -6518) (0000, 0000, 0000)
+005D:0006 Warp Portal, (-1656, 695, -519) (0000, 0000, 0000)
+
+Cutscene 2: 00000A90
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: 0C00 00
+0A: Room Mesh: 030003D0
+0B: There are 8 Object(s). List starts at 00000AD0
+0029, 0034, 00C9, 009D, 00AD, 0090, 0048, 017A, 
+01: There are 9 actor(s). List starts at 00000AE0
+00CA:0000 Gorons (Cutscene), (-1808, 684, -544) (0000, 0000, 0000)
+00CA:0001 Gorons (Cutscene), (-1707, 693, -544) (0000, 0000, 0000)
+00CA:0002 Gorons (Cutscene), (-1631, 696, -523) (0000, 0000, 0000)
+00A8:0001 Sage Darunia (Cutscene), (-1799, 705, -466) (0000, 0000, 0000)
+008B:0012 Spiritual Stones, (-1715, 694, -490) (0000, 0000, 0000)
+008B:0014 Spiritual Stones, (-1714, 705, -319) (0000, 0000, 0000)
+00CD:FFFF Dodongo's Cavern Entrance Rock, (-1679, 684, -690) (0000, 0000, 0000)
+00E5:FFFF Death Mountain Cloud Ring, (102, 5583, -6518) (0000, 0000, 0000)
+005D:0006 Warp Portal, (-1656, 695, -519) (0000, 0000, 0000)
+
+Cutscene 3: 00000B70
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: 0C00 FF
+0A: Room Mesh: 030003D0
+0B: There are 15 Object(s). List starts at 00000BB0
+00C2, 017A, 00C9, 0031, 0016, 0076, 0092, 011E, 012F, 0131, 0163, 0188, 0024, 018B, 000E, 
+01: There are 3 actor(s). List starts at 00000BD0
+00CD:FFFF Dodongo's Cavern Entrance Rock, (-1679, 684, -690) (0000, 0000, 0000)
+00E5:FFFF Death Mountain Cloud Ring, (102, 5583, -6518) (0000, 0000, 0000)
+0151:FF02 Shrubs or Rocks, (-383, 1386, -1206) (0000, 0000, 0000)
+
+Cutscene 4: 00000C00
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: 0000 14
+05: Wind Settings: Forces Westward 5A, Vertical 00, Southward FF, Strength FB
+0A: Room Mesh: 030003D0
+0B: There are 6 Object(s). List starts at 00000C48
+0087, 00CA, 00B3, 00BC, 009D, 0090, 
+01: There are 12 actor(s). List starts at 00000C54
+00F5:000E Sages, Balls of Light (Cutscene), (-1778, 685, -467) (0000, 0000, 0000)
+00F5:000F Sages, Balls of Light (Cutscene), (-1714, 691, -451) (0000, 0000, 0000)
+00F5:0010 Sages, Balls of Light (Cutscene), (-1602, 701, -435) (0000, 0000, 0000)
+00F5:0011 Sages, Balls of Light (Cutscene), (-1666, 687, -515) (0000, 0000, 0000)
+00F5:0012 Sages, Balls of Light (Cutscene), (-1586, 693, -515) (0000, 0000, 0000)
+00F5:0013 Sages, Balls of Light (Cutscene), (-1714, 681, -547) (0000, 0000, 0000)
+00C9:0004 Sage Saria (Cutscene), (-1794, 681, -531) (0000, 0000, 0000)
+00A8:0003 Sage Darunia (Cutscene), (-1650, 704, -371) (0000, 0000, 0000)
+00D2:0003 Adult Ruto, (-1714, 682, -531) (0000, 0000, 0000)
+00C3:0005 Nabooru, (-1730, 687, -483) (0000, 0000, 0000)
+00A9:0006 Impa, (-1890, 688, -371) (0000, 0000, 0000)
+00E5:FFFF Death Mountain Cloud Ring, (102, 5583, -6518) (0000, 0000, 0000)
+

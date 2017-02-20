@@ -1,0 +1,148 @@
+Scene at 02110000
+Setup 0: 00000000
+18: Alternate headers start at 00000060.
+15: Sound Settings: Reverb 0, Playback option 00, Song 02.
+04: There are 1 room(s). List starts at 000000D8
+02122000 0212A160
+19: JPEG background camera related: 00 Overworld Region:  08
+03: Collision Header starts at 00002CE0
+Offset to vertex array 00002410
+Offset to polygon array 000002E0
+Offset to polygon type defs 00000228
+Offset to camera data 00000200
+Offset to water boxes 00002CB0
+Size in bytes 11020
+06: Entrance Index Definitions starts at 000000E0
+07: Elf_Message 1, Load Object 0002
+00: There are 6 position(s). List starts at 00000078.
+0000:0FFF Link, (-1480, -10, 1755) (0000, 3555, 0000)
+0000:0FFF Link, (-1560, 52, -46) (0000, C000, 0000)
+0000:0FFF Link, (-2361, 2, 674) (0000, 8000, 0000)
+0000:0DFF Link, (-252, 111, -1735) (0000, 0000, 0000)
+0000:0FFF Link, (-1599, 20, 2598) (0000, 8000, 0000)
+0000:0FFF Link, (232, 60, 2693) (0000, 8000, 0000)
+11: Skybox 29, Cast: Sunny, Fog? No
+13: Exit List starts at 000000EC. 0199 0028 01A1 0088 0371 0000
+0F: There are 12 environment setting(s). List starts at 000000F8.
+
+Setup 1: 00004550
+15: Sound Settings: Reverb 0, Playback option 00, Song 02.
+04: There are 1 room(s). List starts at 00004608
+02122000 0212A160
+19: JPEG background camera related: 00 Overworld Region:  08
+03: Collision Header starts at 00002CE0
+Offset to vertex array 00002410
+Offset to polygon array 000002E0
+Offset to polygon type defs 00000228
+Offset to camera data 00000200
+Offset to water boxes 00002CB0
+Size in bytes 11020
+06: Entrance Index Definitions starts at 00004610
+07: Elf_Message 1, Load Object 0002
+00: There are 6 position(s). List starts at 000045A8.
+0000:0FFF Link, (-1480, -10, 1755) (0000, 3555, 0000)
+0000:0FFF Link, (-1560, 52, -46) (0000, C000, 0000)
+0000:0FFF Link, (-2361, 2, 674) (0000, 8000, 0000)
+0000:0DFF Link, (-252, 111, -1735) (0000, 0000, 0000)
+0000:0FFF Link, (-1599, 20, 2598) (0000, 8000, 0000)
+0000:0FFF Link, (232, 60, 2693) (0000, 8000, 0000)
+11: Skybox 29, Cast: Sunny, Fog? No
+13: Exit List starts at 0000461C. 0199 0028 01A1 0088 0371 0000
+0F: There are 12 environment setting(s). List starts at 00004628.
+
+Setup 2: 00004370
+15: Sound Settings: Reverb 0, Playback option 00, Song 02.
+04: There are 1 room(s). List starts at 00004428
+02122000 0212A160
+19: JPEG background camera related: 00 Overworld Region:  08
+03: Collision Header starts at 00002CE0
+Offset to vertex array 00002410
+Offset to polygon array 000002E0
+Offset to polygon type defs 00000228
+Offset to camera data 00000200
+Offset to water boxes 00002CB0
+Size in bytes 11020
+06: Entrance Index Definitions starts at 00004430
+07: Elf_Message 1, Load Object 0002
+00: There are 6 position(s). List starts at 000043C8.
+0000:0FFF Link, (-1480, -10, 1755) (0000, 3555, 0000)
+0000:0FFF Link, (-1560, 52, -46) (0000, C000, 0000)
+0000:0FFF Link, (-2361, 2, 674) (0000, 8000, 0000)
+0000:0DFF Link, (-252, 101, -1735) (0000, 0000, 0000)
+0000:0FFF Link, (-1599, 20, 2598) (0000, 8000, 0000)
+0000:0FFF Link, (232, 60, 2693) (0000, 8000, 0000)
+11: Skybox 29, Cast: Sunny, Fog? No
+13: Exit List starts at 0000443C. 0199 0028 01A1 0088 0371 0000
+0F: There are 12 environment setting(s). List starts at 00004448.
+
+Cutscene 0: 00004730
+15: Sound Settings: Reverb 1, Playback option 00, Song 02.
+04: There are 1 room(s). List starts at 000047A0
+02122000 0212A160
+19: JPEG background camera related: 00 Overworld Region:  08
+03: Collision Header starts at 00002CE0
+Offset to vertex array 00002410
+Offset to polygon array 000002E0
+Offset to polygon type defs 00000228
+Offset to camera data 00000200
+Offset to water boxes 00002CB0
+Size in bytes 11020
+06: Entrance Index Definitions starts at 000047A8
+07: Elf_Message 0, Load Object 0002
+00: There are 1 position(s). List starts at 00004790.
+0000:0FFF Link, (-2047, 20, 251) (0000, 8000, 0000)
+11: Skybox 1, Cast: Sunny, Fog? Yes
+13: Exit List starts at 000047AC. 0199 0028 01A1 0088
+0F: There are 4 environment setting(s). List starts at 000047B4.
+17: Cutscene starts at 00002D10
+
+Cutscene 1: 00004810
+15: Sound Settings: Reverb 1, Playback option 00, Song 02.
+04: There are 1 room(s). List starts at 000048C0
+02122000 0212A160
+19: JPEG background camera related: 00 Overworld Region:  08
+03: Collision Header starts at 00002CE0
+Offset to vertex array 00002410
+Offset to polygon array 000002E0
+Offset to polygon type defs 00000228
+Offset to camera data 00000200
+Offset to water boxes 00002CB0
+Size in bytes 11020
+06: Entrance Index Definitions starts at 000048C8
+07: Elf_Message 0, Load Object 0002
+00: There are 5 position(s). List starts at 00004870.
+0000:0FFF Link, (-2021, 20, -32) (0000, 42D8, 0000)
+0000:0FFF Link, (-1690, 52, -46) (0000, C000, 0000)
+0000:0FFF Link, (345, 20, 2610) (0000, 8000, 0000)
+0000:0FFF Link, (1759, 239, 138) (0000, CAAB, 0000)
+0000:0FFF Link, (-1599, 20, 2598) (0000, 8000, 0000)
+11: Skybox 1, Cast: Sunny, Fog? No
+13: Exit List starts at 000048D4. 0199 0028 01A1 0088
+0F: There are 8 environment setting(s). List starts at 000048DC.
+17: Cutscene starts at 00003C80
+
+Cutscene 2: 00004990
+15: Sound Settings: Reverb 1, Playback option 00, Song 02.
+04: There are 1 room(s). List starts at 00004A40
+02122000 0212A160
+19: JPEG background camera related: 00 Overworld Region:  08
+03: Collision Header starts at 00002CE0
+Offset to vertex array 00002410
+Offset to polygon array 000002E0
+Offset to polygon type defs 00000228
+Offset to camera data 00000200
+Offset to water boxes 00002CB0
+Size in bytes 11020
+06: Entrance Index Definitions starts at 00004A48
+07: Elf_Message 0, Load Object 0002
+00: There are 5 position(s). List starts at 000049F0.
+0000:0FFF Link, (-2021, 20, -32) (0000, 42D8, 0000)
+0000:0FFF Link, (-1690, 52, -46) (0000, C000, 0000)
+0000:0FFF Link, (345, 20, 2610) (0000, 8000, 0000)
+0000:0FFF Link, (1759, 239, 138) (0000, CAAB, 0000)
+0000:0FFF Link, (-1599, 20, 2598) (0000, 8000, 0000)
+11: Skybox 1, Cast: Sunny, Fog? Yes
+13: Exit List starts at 00004A54. 0199 0028 01A1 0088
+0F: There are 1 environment setting(s). List starts at 00004A5C.
+17: Cutscene starts at 000041F0
+

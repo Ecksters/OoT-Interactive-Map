@@ -1,0 +1,46 @@
+Room 5
+Room at 02171000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 9
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000C0
+0B: There are 11 Object(s). List starts at 00000058
+010A, 0168, 0172, 0117, 0131, 011E, 0163, 0188, 0164, 017B, 0024, 
+01: There are 5 actor(s). List starts at 00000070
+0097:0000 Environmental Effects, (-1191, -220, 1626) (0000, 0000, 0000)
+0195:0009 Ground Deku Scrub, Deku Stick Upgrade, (-1137, -200, 2180) (0000, C000, 0000)
+01CF:4E01 Skulltula Sprouting from Bean Spot, (-1220, 0, 935) (0000, 0000, 0000)
+0126:1F04 Bean Planting Spot, (-1220, 0, 935) (0000, 0000, 0000)
+01B9:381D Gossip Stone, (-1305, -226, 2300) (0000, 8000, 0000)
+
+Setup 2: 000000E0
+16: Sound Settings: Echo 9
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000C0
+0B: There are 12 Object(s). List starts at 00000120
+00FC, 00FD, 00FB, 013D, 011E, 0188, 0128, 0024, 0163, 00C5, 013C, 010A, 
+01: There are 4 actor(s). List starts at 00000138
+0097:0000 Environmental Effects, (-1191, -220, 1626) (0000, 0000, 0000)
+01B9:381D Gossip Stone, (-1305, -227, 2300) (0000, 8000, 0000)
+01D4:0001 Running Man (Adult), (-1140, -220, 1569) (0000, D1C7, 0000)
+0126:0204 Bean Planting Spot, (-1220, 0, 935) (0000, 0000, 0001)
+
+Cutscene 0: 00000180
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 030000C0
+0B: There are 3 Object(s). List starts at 000001C0
+0168, 011E, 00BC, 
+01: There are 4 actor(s). List starts at 000001C8
+0195:0002 Ground Deku Scrub, Piece of Heart, (-1121, -258, 2183) (0000, C000, 0000)
+0097:0000 Environmental Effects, (-1191, -220, 1626) (0000, 0000, 0000)
+0126:1F04 Bean Planting Spot, (-1180, -360, 1363) (0000, 0000, 0000)
+00C9:0005 Sage Saria (Cutscene), (-1208, -220, 1602) (0000, 0000, 0000)
+

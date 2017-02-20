@@ -1,0 +1,34 @@
+Room 1
+Room at 03338000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 4
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 01
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000A0
+0B: There are 7 Object(s). List starts at 0000005C
+008D, 0098, 00A4, 000D, 000E, 0090, 018F, 
+01: There are 3 actor(s). List starts at 0000006C
+0090:7F00 Redead, Standing, (130, 0, 177) (0000, C000, 0000)
+0090:7F00 Redead, Standing, (215, 0, 446) (0000, 0000, 0000)
+0090:7F00 Redead, Standing, (-196, 0, 428) (0000, 4000, 0000)
+
+Cutscene 0: 000000C0
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 01
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000A0
+0B: There are 4 Object(s). List starts at 000000F8
+002B, 0098, 00A4, 000D, 
+
+Cutscene 1: 00000100
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 01
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000A0
+0B: There are 4 Object(s). List starts at 00000138
+002B, 0098, 00A4, 000D, 
+

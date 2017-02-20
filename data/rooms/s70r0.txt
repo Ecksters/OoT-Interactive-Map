@@ -1,0 +1,14 @@
+Room 0
+Room at 0330E000
+Setup 0: 00000000
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 03000070
+0B: There are 5 Object(s). List starts at 00000040
+0029, 0034, 0057, 0097, 0013, 
+01: There are 2 actor(s). List starts at 0000004C
+008F:05FF Castle Courtyard Guards, (1924, 0, 122) (0000, 4444, 0000)
+008F:05FF Castle Courtyard Guards, (1989, 0, 218) (0000, 4FA5, 0000)
+

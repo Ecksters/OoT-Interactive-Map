@@ -27,6 +27,8 @@
         <!-- Nav tabs -->
         <div class="sidebar-tabs">
             <ul role="tablist">
+            
+                <li class="tooltip" title="ROM Data Output"><a href="#data" role="tab"><i class="fa fa-list-alt"></i></a></li>
                 <li class="tooltip" title="Project Information" id="projectInfo"><a href="#home" role="tab"><i class="fa fa-bars"></i></a></li>
                 <li class="tooltip" title="Project Author"><a href="#profile" role="tab"><i class="fa fa-user fa-fw"></i></a></li>
                 <li class="tooltip" title="Project GitHub"><a href="https://github.com/Ecksters/OoT-Interactive-Map" role="tab" target="_blank"><i class="fa fa-github"></i></a></li>
@@ -39,6 +41,20 @@
 
         <!-- Tab panes -->
         <div class="sidebar-content">
+            <div class="sidebar-pane" id="data">
+                <h1 class="sidebar-header">
+                    ROM Data Output
+                    <span class="sidebar-close"><i class="fa fa-caret-right"></i></span>
+                </h1>
+                <p style="float: left; width: 100%;">The data in the below table is pulled directly from the Ocarina of Time game data, attempts have been made to translate the data dumped into its significance at runtime.</p>
+                Click to view data for:
+                <h2 id="verboseOutputChanger">Scene 1: Dodongo's Cavern<br>Room 3: Whatever description we thought of for the room</h2>
+                <p style="float: left; width: 100%;">Currently Viewing Data For:</p>
+                <h2 id="verboseOutputHeader">Scene 0: Inside the Deku Tree<br>here is a longer description</h2>
+                <div id="verboseOutput">
+                   text<br>0E: There are 12 transition actor(s). List starts at 00000080.<br>01 FF -> 00 FF, 002E:007F, Front Clear Door, No Flag, (-455, 400, 455) (0000, E000, 0000)
+                </div>
+            </div>
             <div class="sidebar-pane" id="home">
                 <h1 class="sidebar-header">
                     Ocarina of Time - Interactive World Map

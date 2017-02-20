@@ -1,0 +1,200 @@
+Room 1
+Room at 02554000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000130
+0B: There are 10 Object(s). List starts at 00000080
+005E, 008A, 00AD, 00B6, 0092, 00A8, 0090, 0061, 0062, 0060, 
+01: There are 9 actor(s). List starts at 00000094
+006E:0001 Warp Pad, (0, -40, 2024) (0000, 0000, 0000)
+006A:0001 Temple of Time Windows, (0, 276, 1120) (0000, 0000, 0000)
+006A:0000 Temple of Time Windows, (-1, -39, 1761) (0000, 0000, 0000)
+008C:000D Door of Time, (0, 0, 1080) (0000, 0000, 0000)
+012E:13FF Music Staff Spot, Type 4, Song 15, No Flag, (-1, -40, 1384) (0000, 0000, 0000)
+0147:0FFF Checkable Spot, (0, 5, 1330) (0000, 0000, 2444)
+008B:0013 Spiritual Stones, (-38, 16, 1335) (0000, 0000, 0000)
+008B:0014 Spiritual Stones, (0, 16, 1335) (0000, 0000, 0000)
+008B:0015 Spiritual Stones, (40, 16, 1335) (0000, 0000, 0000)
+
+Cutscene 0: 00000150
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: 0C00 00
+0A: Room Mesh: 03000130
+0B: There are 10 Object(s). List starts at 00000190
+005E, 0061, 0062, 008A, 0060, 0090, 00AD, 00B6, 0092, 00A8, 
+01: There are 9 actor(s). List starts at 000001A4
+006E:0001 Warp Pad, (0, -40, 2024) (0000, 0000, 0000)
+006A:0001 Temple of Time Windows, (0, 276, 1120) (0000, 0000, 0000)
+006A:0000 Temple of Time Windows, (-1, -39, 1761) (0000, 0000, 0000)
+012E:13FF Music Staff Spot, Type 4, Song 15, No Flag, (-1, -40, 1384) (0000, 0000, 0000)
+0147:0FFF Checkable Spot, (0, 0, 1330) (0000, 0000, 0000)
+008B:0013 Spiritual Stones, (-38, 16, 1335) (0000, 0000, 0000)
+008B:0014 Spiritual Stones, (0, 16, 1335) (0000, 0000, 0000)
+008B:0015 Spiritual Stones, (40, 16, 1335) (0000, 0000, 0000)
+008C:000D Door of Time, (0, 0, 1080) (0000, 0000, 0000)
+
+Cutscene 1: 00000240
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000130
+0B: There are 3 Object(s). List starts at 00000280
+005E, 0061, 0062, 
+01: There are 2 actor(s). List starts at 00000288
+006A:0000 Temple of Time Windows, (-1, -39, 1761) (0000, 0000, 0000)
+008C:000D Door of Time, (0, 0, 1080) (0000, 0000, 0000)
+
+Cutscene 2: 00000370
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: 0C00 00
+0A: Room Mesh: 03000130
+0B: There are 10 Object(s). List starts at 000003B0
+005E, 0061, 0062, 008A, 0060, 0090, 00AD, 00B6, 0092, 00A8, 
+01: There are 9 actor(s). List starts at 000003C4
+006E:0001 Warp Pad, (0, -40, 2024) (0000, 0000, 0000)
+006A:0001 Temple of Time Windows, (0, 276, 1120) (0000, 0000, 0000)
+006A:0000 Temple of Time Windows, (-1, -39, 1761) (0000, 0000, 0000)
+012E:13FF Music Staff Spot, Type 4, Song 15, No Flag, (-1, -40, 1384) (0000, 0000, 0000)
+0147:0FFF Checkable Spot, (0, 0, 1330) (0000, 0000, 0000)
+008B:0013 Spiritual Stones, (-38, 16, 1335) (0000, 0000, 0000)
+008B:0014 Spiritual Stones, (0, 16, 1335) (0000, 0000, 0000)
+008B:0015 Spiritual Stones, (40, 16, 1335) (0000, 0000, 0000)
+008C:000D Door of Time, (0, 0, 1080) (0000, 0000, 0000)
+
+Cutscene 3: 00000460
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000130
+0B: There are 5 Object(s). List starts at 000004A0
+005E, 0061, 0062, 00AD, 0090, 
+01: There are 7 actor(s). List starts at 000004AC
+006E:0001 Warp Pad, (9, -40, 2024) (0000, 0000, 0000)
+006A:0000 Temple of Time Windows, (-1, -39, 1761) (0000, 0000, 0000)
+008C:000D Door of Time, (0, 0, 1080) (0000, 0000, 0000)
+008B:0013 Spiritual Stones, (-32, -40, 1405) (0000, 0000, 0000)
+008B:0014 Spiritual Stones, (-2, -40, 1403) (0000, 0000, 0000)
+008B:0015 Spiritual Stones, (27, -40, 1409) (0000, 0000, 0000)
+006A:0001 Temple of Time Windows, (0, 276, 1120) (0000, 0000, 0000)
+
+Cutscene 4: 00000520
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000130
+0B: There are 5 Object(s). List starts at 00000560
+005E, 0061, 0062, 00AD, 0090, 
+01: There are 6 actor(s). List starts at 0000056C
+006E:0001 Warp Pad, (9, -40, 2024) (0000, 0000, 0000)
+006A:0000 Temple of Time Windows, (-1, -39, 1761) (0000, 0000, 0000)
+008C:000D Door of Time, (0, 0, 1080) (0000, 0000, 0000)
+008B:1013 Spiritual Stones, (-38, 16, 1335) (0000, 0000, 0000)
+008B:1014 Spiritual Stones, (0, 16, 1335) (0000, 0000, 0000)
+008B:1015 Spiritual Stones, (40, 16, 1335) (0000, 0000, 0000)
+
+Cutscene 5: 000005D0
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000130
+0B: There are 5 Object(s). List starts at 00000610
+005E, 0061, 0062, 00AD, 0090, 
+01: There are 6 actor(s). List starts at 0000061C
+006E:0001 Warp Pad, (9, -40, 2024) (0000, 0000, 0000)
+006A:0000 Temple of Time Windows, (-1, -39, 1761) (0000, 0000, 0000)
+008C:000D Door of Time, (0, 0, 1080) (0000, 0000, 0000)
+008B:1013 Spiritual Stones, (-38, 16, 1335) (0000, 0000, 0000)
+008B:1014 Spiritual Stones, (0, 16, 1335) (0000, 0000, 0000)
+008B:1015 Spiritual Stones, (40, 16, 1335) (0000, 0000, 0000)
+
+Cutscene 6: 00000680
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000130
+0B: There are 5 Object(s). List starts at 000006C0
+005E, 0061, 0062, 00AD, 0090, 
+01: There are 6 actor(s). List starts at 000006CC
+006E:0001 Warp Pad, (9, -40, 2024) (0000, 0000, 0000)
+006A:0000 Temple of Time Windows, (-1, -39, 1761) (0000, 0000, 0000)
+008C:000D Door of Time, (0, 0, 1080) (0000, 0000, 0000)
+008B:1013 Spiritual Stones, (-38, 16, 1335) (0000, 0000, 0000)
+008B:1014 Spiritual Stones, (0, 16, 1335) (0000, 0000, 0000)
+008B:1015 Spiritual Stones, (40, 16, 1335) (0000, 0000, 0000)
+
+Cutscene 7: 00000730
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 03000130
+0B: There are 7 Object(s). List starts at 00000770
+005E, 0061, 0062, 00AD, 0090, 0191, 0047, 
+01: There are 7 actor(s). List starts at 00000780
+006E:0001 Warp Pad, (9, -40, 2024) (0000, 0000, 0000)
+006A:0000 Temple of Time Windows, (-1, -39, 1761) (0000, 0000, 0000)
+008C:000D Door of Time, (0, 0, 1080) (0000, 0000, 0000)
+008B:1013 Spiritual Stones, (-38, 16, 1321) (0000, 0000, 0000)
+008B:1014 Spiritual Stones, (0, 16, 1321) (0000, 0000, 0000)
+008B:1015 Spiritual Stones, (40, 16, 1321) (0000, 0000, 0000)
+002A:0202 Child Zelda, (0, -40, 1404) (0000, 0000, 0000)
+
+Cutscene 8: 000007F0
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000130
+0B: There are 7 Object(s). List starts at 00000830
+005E, 0061, 0062, 008A, 00AD, 0060, 014E, 
+01: There are 5 actor(s). List starts at 00000840
+006E:0001 Warp Pad, (9, -40, 2024) (0000, 0000, 0000)
+006A:0000 Temple of Time Windows, (-1, -39, 1761) (0000, 0000, 0000)
+008C:000D Door of Time, (0, 0, 1080) (0000, 0000, 0000)
+004D:0000 En_Zl2?, (0, -40, 2288) (0000, 8000, 0000)
+0048:0004 Sheik?, (-3, -40, 2339) (0000, 8000, 0000)
+
+Cutscene 9: 00000890
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 03000130
+0B: There are 7 Object(s). List starts at 000008D0
+005E, 0061, 0062, 008A, 00AD, 0060, 014E, 
+01: There are 5 actor(s). List starts at 000008E0
+006E:0001 Warp Pad, (9, -40, 2024) (0000, 0000, 0000)
+006A:0000 Temple of Time Windows, (-1, -39, 1761) (0000, 0000, 0000)
+008C:000D Door of Time, (0, 0, 1080) (0000, 0000, 0000)
+004D:0000 En_Zl2?, (0, -40, 2288) (0000, 8000, 0000)
+0048:0004 Sheik?, (-3, -40, 2339) (0000, 8000, 0000)
+
+Cutscene 10: 000002B0
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000130
+0B: There are 10 Object(s). List starts at 000002F0
+005E, 0061, 0062, 008A, 0060, 0090, 0048, 00AD, 014E, 0158, 
+01: There are 6 actor(s). List starts at 00000304
+006E:0001 Warp Pad, (9, -40, 2024) (0000, 0000, 0000)
+006A:0000 Temple of Time Windows, (-1, -39, 1761) (0000, 0000, 0000)
+008C:000D Door of Time, (0, 0, 1080) (0000, 0000, 0000)
+004D:0000 En_Zl2?, (3, -40, 2323) (0000, 8000, 0000)
+008B:0016 Spiritual Stones, (9, -40, 1845) (0000, 0000, 0000)
+008B:4012 Spiritual Stones, (0, 28, 2219) (0000, 0000, 0000)
+

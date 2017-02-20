@@ -1,0 +1,15 @@
+Room 9
+Room at 026F3000
+Setup 0: 00000000
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000080
+0B: There are 1 Object(s). List starts at 00000040
+0168, 
+01: There are 3 actor(s). List starts at 00000044
+0195:0007 Ground Deku Scrub, Red Potion, (2362, 0, 707) (0000, 0000, 0000)
+0195:0008 Ground Deku Scrub, Green Potion, (2463, 0, 847) (0000, 0000, 0000)
+019E:FF02 Beehive, (2262, 296, 746) (E000, 271C, 0000)
+

@@ -1,0 +1,15 @@
+Room 0
+Room at 02D83000
+Setup 0: 00000000
+16: Sound Settings: Echo 4
+08: Room Behavior: ? 02, Show invisible actors? False, Idle Animation 04
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000090
+0B: There are 11 Object(s). List starts at 00000040
+0159, 00B2, 00EB, 0173, 0174, 0175, 00F4, 0176, 0177, 0122, 00BB, 
+01: There are 3 actor(s). List starts at 00000058
+003D:0001 Shopkeeper, (30, 0, -40) (0000, 0000, 0000)
+00C2:0000 Shop Shelves, (30, 0, 0) (0000, 0000, 0000)
+01BC:FF00 Carpenter (Defunct?), (-104, 0, 64) (0000, 149F, 0000)
+

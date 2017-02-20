@@ -1,0 +1,35 @@
+Room 9
+Room at 02182000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 9
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000090
+0B: There are 11 Object(s). List starts at 00000058
+010A, 0168, 0172, 0117, 0131, 011E, 0163, 0188, 0164, 017B, 0024, 
+01: There are 2 actor(s). List starts at 00000070
+0115:03FF Skullkid, (-1132, 80, -128) (0000, 22D8, 0000)
+0115:17FF Skullkid, (-951, 20, 52) (0000, A000, 0000)
+
+Setup 2: 000000B0
+16: Sound Settings: Echo 9
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000090
+0B: There are 12 Object(s). List starts at 000000F0
+00FC, 00FD, 00FB, 013D, 011E, 0188, 0128, 0024, 0163, 00C5, 013C, 010A, 
+01: There are 3 actor(s). List starts at 00000108
+013F:0000 Carpenter's Son, (-1075, 0, -130) (0000, 4000, 0000)
+0115:FFFF Skullkid, (-1132, 80, -128) (0000, 22D8, 0000)
+0163:FF0C Kokiri Child, (-1075, 0, -130) (0000, 4000, 0000)
+
+Cutscene 0: 00000140
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 03000090
+

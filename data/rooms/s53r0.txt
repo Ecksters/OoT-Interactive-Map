@@ -1,0 +1,15 @@
+Room 0
+Room at 02E02000
+Setup 0: 00000000
+16: Sound Settings: Echo 1
+08: Room Behavior: ? 02, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000090
+0B: There are 11 Object(s). List starts at 00000040
+012C, 00C5, 0105, 0107, 0108, 010D, 010C, 0111, 0115, 016B, 0170, 
+01: There are 3 actor(s). List starts at 00000058
+003B:0014 Ambient Sound, Torches, (-178, 0, 119) (0000, 0000, 0000)
+016E:0780 Market NPC, (74, 0, -32) (0000, E9F5, 0000)
+01A0:FFFF Large Crate, (176, 0, 170) (0001, 4000, 0020)
+

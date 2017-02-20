@@ -1,0 +1,62 @@
+Scene at 01F12000
+Setup 0: 00000000
+15: Sound Settings: Reverb 4, Playback option Always Playing, Song 18.
+04: There are 17 room(s). List starts at 000001F0
+01F28000 01F438A0
+01F44000 01F4DB00
+01F4E000 01F55DA0
+01F56000 01F63DC0
+01F64000 01F6D850
+01F6E000 01F73EE0
+01F74000 01F76400
+01F77000 01F7E6D0
+01F7F000 01F88400
+01F89000 01F94550
+01F95000 01F9CE50
+01F9D000 01F9F080
+01FA0000 01FA8730
+01FA9000 01FAB480
+01FAC000 01FAE490
+01FAF000 01FB1850
+01FB2000 01FB7550
+0E: There are 23 transition actor(s). List starts at 00000080.
+01 FF -> 00 FF, 0023:003F, Transition Plane, 01 FF -> 00 FF Type 0: No Flag, (1140, 0, -320) (0000, 4000, 0000)
+09 FF -> 00 FF, 0023:003F, Transition Plane, 09 FF -> 00 FF Type 0: No Flag, (1140, 531, -320) (0000, 4000, 0000)
+09 FF -> 00 FF, 0023:003F, Transition Plane, 09 FF -> 00 FF Type 0: No Flag, (1140, 531, -920) (0000, 4000, 0000)
+08 FF -> 07 FF, 0023:003F, Transition Plane, 08 FF -> 07 FF Type 0: No Flag, (620, 76, -2784) (0000, 4000, 0000)
+08 FF -> 07 FF, 0023:003F, Transition Plane, 08 FF -> 07 FF Type 0: No Flag, (593, 76, -3814) (0000, 4000, 0000)
+12 FF -> 09 FF, 0023:003F, Transition Plane, 12 FF -> 09 FF Type 0: No Flag, (2340, 531, -920) (0000, 4000, 0000)
+10 FF -> 09 FF, 0023:003F, Transition Plane, 10 FF -> 09 FF Type 0: No Flag, (2340, 531, -320) (0000, 4000, 0000)
+00 FF -> 07 FF, 002E:003F, Lifting Door, No Flag, (0, 76, -1970) (0000, 0000, 0000)
+03 FF -> 04 FF, 002E:0085, Front Switch Door, Perm: 05, (2787, 100, -2432) (0000, 2AAB, 0000)
+03 FF -> 01 FF, 002E:0085, Front Switch Door, Perm: 05, (3560, 100, -1276) (0000, 8000, 0000)
+03 FF -> 10 FF, 002E:0086, Front Switch Door, Perm: 06, (4339, 531, -600) (0000, 8000, 0000)
+03 FF -> 12 FF, 002E:0086, Front Switch Door, Perm: 06, (3780, 531, -920) (0000, 4000, 0000)
+11 FF -> 01 FF, 002E:003F, Lifting Door, No Flag, (2560, 0, 120) (0000, 0000, 0000)
+14 FF -> 08 FF, 002E:003F, Lifting Door, No Flag, (1473, 76, -4229) (0000, 8000, 0000)
+13 FF -> 04 FF, 002E:003F, Lifting Door, No Flag, (2433, 100, -2894) (0000, 8000, 0000)
+15 FF -> 02 FF, 002E:007F, Front Clear Door, No Flag, (-1960, 0, -740) (0000, 0000, 0000)
+06 FF -> 09 FF, 002E:003F, Lifting Door, No Flag, (1840, 411, -1480) (0000, 8000, 0000)
+05 FF -> 02 FF, 002E:00A2, Front Switch Door, Temp: 02, (-1960, 531, -732) (0000, 0000, 0000)
+05 FF -> 00 FF, 002E:00A2, Front Switch Door, Temp: 02, (-1548, 531, -320) (0000, C000, 0000)
+01 FF -> 01 FF, 002E:00B6, Front Switch Door, Temp: 16, (3560, 100, -560) (0000, 0000, 0000)
+07 FF -> 16 FF, 002E:00A0, Front Switch Door, Temp: 00, (-360, 16, -2784) (0000, 4000, 0000)
+00 FF -> 02 FF, 002E:0099, Front Switch Door, Perm: 19, (-840, 0, -1520) (0000, 4000, 0000)
+04 FF -> 00 FF, 002E:00A1, Front Switch Door, Temp: 01, (1460, 80, -920) (0000, 4000, 0000)
+19: JPEG background camera related: 00 Overworld Region:  00
+03: Collision Header starts at 00011D38
+Offset to vertex array 0000E9B8
+Offset to polygon array 000004C8
+Offset to polygon type defs 00000318
+Offset to camera data 000002F0
+Offset to water boxes 00000000
+Size in bytes 72308
+06: Entrance Index Definitions starts at 00000278
+07: Elf_Message 2, Load Object 0003
+00: There are 2 position(s). List starts at 00000060.
+0000:0DFF Link, (-3, 0, 369) (0000, 8000, 0000)
+0000:0DFF Link, (-245, 16, -2783) (0000, 4000, 0000)
+11: Skybox 29, Cast: Sunny, Fog? Yes
+13: Exit List starts at 0000027C. 0242 040B
+0F: There are 5 environment setting(s). List starts at 00000280.
+

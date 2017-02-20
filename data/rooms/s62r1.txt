@@ -1,0 +1,15 @@
+Room 1
+Room at 026C9000
+Setup 0: 00000000
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000080
+0B: There are 1 Object(s). List starts at 00000040
+0168, 
+01: There are 3 actor(s). List starts at 00000044
+0195:0002 Ground Deku Scrub, Piece of Heart, (1222, 9, -489) (0000, 0000, 0000)
+019E:FF02 Beehive, (1410, 156, -451) (E000, E000, 0000)
+0183:FF41 Song of Storms Fairy (Giant Fairy?), (1297, -11, -308) (0000, 0000, 0000)
+

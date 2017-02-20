@@ -1,0 +1,65 @@
+Scene at 0204D000
+Setup 0: 00000000
+18: Alternate headers start at 00000070.
+15: Sound Settings: Reverb 2, Playback option 00, Song 02.
+04: There are 2 room(s). List starts at 000000DC
+02059000 02066980
+02067000 0206E500
+0E: There are 1 transition actor(s). List starts at 000000CC.
+00 FF -> 01 FF, 0023:013F, Transition Plane, 00 FF -> 01 FF Type 4: No Flag, (2914, 500, -1072) (0000, 0000, 0000)
+19: JPEG background camera related: 00 Overworld Region:  03
+03: Collision Header starts at 00006580
+Offset to vertex array 00005164
+Offset to polygon array 000005D4
+Offset to polygon type defs 00000344
+Offset to camera data 000002F4
+Offset to water boxes 00006420
+Size in bytes 25272
+06: Entrance Index Definitions starts at 000000EC
+07: Elf_Message 1, Load Object 0002
+0D: Pathway List starts at 000002BC
+ 00) 00020C  (3420, 542, -1420) (2963, 542, -1435) (2918, 527, -552) (2278, 542, -506) (2278, 299, -506) (1388, 237, -381) (1394, 138, -381) (658, 132, 13) (-5, 132, 7) (-3, 33, 13) (-1140, 27, 13) (-1285, 33, 144) (-1291, 33, 413) (-1289, -58, 433) (-1295, -52, 1316) (-1433, -58, 1801) (-1965, -58, 1979) (-2444, -52, 1716)
+ 01) 000278  (1764, 243, -449) (1756, 226, -1237) (1362, 243, -1237) (1362, 120, -1237) (1248, 120, -1237) (1239, 120, -269) (1232, 120, -1105) (-105, 136, -1095) (-105, 120, -742) (-114, 29, -742) (-105, 38, 19)
+
+00: There are 5 position(s). List starts at 0000007C.
+0000:0FFF Link, (-1506, -20, 1510) (0000, 705B, 0000)
+0000:0FFF Link, (4179, 1441, -1384) (0000, C000, 0000)
+0000:0FFF Link, (4413, 920, -1403) (0000, C000, 0000)
+0000:0FFF Link, (-1357, -86, 1542) (0000, 78E4, 0000)
+0000:0FFF Link, (4084, 620, -932) (0000, 8000, 0000)
+11: Skybox 1, Cast: Sunny, Fog? No
+13: Exit List starts at 000000F8. 0181 010E 0108 0311 04DA 0000
+0F: There are 12 environment setting(s). List starts at 00000104.
+
+Setup 2: 000065B0
+15: Sound Settings: Reverb 2, Playback option 00, Song 02.
+04: There are 2 room(s). List starts at 00006678
+02059000 02066980
+02067000 0206E500
+0E: There are 1 transition actor(s). List starts at 00006668.
+00 FF -> 01 FF, 0023:013F, Transition Plane, 00 FF -> 01 FF Type 4: No Flag, (2914, 500, -1072) (0000, 0000, 0000)
+19: JPEG background camera related: 00 Overworld Region:  03
+03: Collision Header starts at 00006580
+Offset to vertex array 00005164
+Offset to polygon array 000005D4
+Offset to polygon type defs 00000344
+Offset to camera data 000002F4
+Offset to water boxes 00006420
+Size in bytes 25272
+06: Entrance Index Definitions starts at 00006688
+07: Elf_Message 1, Load Object 0002
+0D: Pathway List starts at 00006908
+ 00) 0067A8  (3420, 542, -1420) (2963, 542, -1435) (2918, 527, -552) (2278, 542, -506) (2278, 299, -506) (1388, 237, -381) (1394, 138, -381) (658, 132, 13) (-5, 132, 7) (-3, 33, 13) (-1140, 27, 13) (-1285, 33, 144) (-1291, 33, 413) (-1289, -58, 433) (-1295, -52, 1316) (-1433, -58, 1801) (-1965, -58, 1979) (-2444, -52, 1716)
+ 01) 006814  (1764, 243, -449) (1756, 226, -1237) (1362, 243, -1237) (1362, 120, -1237) (1248, 120, -1237) (1239, 120, -269) (1232, 120, -1105) (-105, 136, -1095) (-105, 120, -742) (-114, 29, -742) (-105, 38, 19)
+ 02) 006858  (-730, 100, -220) (-730, 310, -220) (-331, 371, -225) (-112, 428, -291) (83, 580, -395) (378, 642, -457) (530, 618, -557) (535, 571, -743) (535, 386, -743) (803, 361, -816) (953, 392, -819) (1288, 443, -789) (1764, 537, -575) (2600, 672, -534) (2828, 747, -550) (2958, 890, -675) (2923, 747, -835) (2888, 739, -680) (2733, 705, -560) (1779, 546, -585) (1287, 537, -790) (902, 630, -1145) (574, 605, -1285) (299, 563, -1175) (-186, 436, -890) (-306, 411, -325) (-551, 352, -220) (-730, 309, -220) (-730, 100, -220)
+
+00: There are 5 position(s). List starts at 00006618.
+0000:0FFF Link, (-1509, -20, 1502) (0000, 6889, 0000)
+0000:0FFF Link, (4179, 1441, -1384) (0000, C000, 0000)
+0000:0FFF Link, (4404, 920, -1403) (0000, C000, 0000)
+0000:0FFF Link, (-1364, -87, 1566) (0000, 71C7, 0000)
+0000:0FFF Link, (4081, 620, -932) (0000, 8000, 0000)
+11: Skybox 1, Cast: Sunny, Fog? No
+13: Exit List starts at 00006694. 0181 010E 0108 0311 04DA 0000
+0F: There are 12 environment setting(s). List starts at 000066A0.
+

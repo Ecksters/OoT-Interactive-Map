@@ -1,0 +1,13 @@
+Room 1
+Room at 024BD000
+Setup 0: 00000000
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000070
+0B: There are 11 Object(s). List starts at 00000040
+0036, 001E, 0024, 0039, 0164, 000E, 00A4, 012B, 00B7, 00BB, 015C, 
+01: There are 1 actor(s). List starts at 00000058
+0192:1A00 Green Deku Scrub, (-695, 400, 692) (0000, 0000, 0000)
+

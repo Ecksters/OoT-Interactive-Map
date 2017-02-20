@@ -1,0 +1,21 @@
+Room 1
+Room at 02EBD000
+Setup 0: 00000000
+16: Sound Settings: Echo 4
+08: Room Behavior: ? 05, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000E0
+0B: There are 6 Object(s). List starts at 00000040
+0036, 001C, 001E, 0048, 00BD, 012B, 
+01: There are 9 actor(s). List starts at 0000004C
+0028:FFFF Ghoma, (-160, -280, -371) (0000, 0000, 0000)
+0125:FF01 Regen Grass, (194, -640, -974) (0000, 0000, 0000)
+0125:FF01 Regen Grass, (480, -640, -681) (0000, 0000, 0000)
+0125:FF01 Regen Grass, (-855, -640, -596) (0000, 0000, 0000)
+0125:FF01 Regen Grass, (-848, -640, -166) (0000, 0000, 0000)
+0125:FF01 Regen Grass, (-444, -640, 323) (0000, 0000, 0000)
+0125:FF01 Regen Grass, (-646, -640, 108) (0000, 0000, 0000)
+0125:FF01 Regen Grass, (525, -640, -375) (0000, 0000, 0000)
+0125:FF01 Regen Grass, (545, -640, -75) (0000, 0000, 0000)
+

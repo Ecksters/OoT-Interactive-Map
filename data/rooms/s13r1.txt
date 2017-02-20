@@ -1,0 +1,16 @@
+Room 1
+Room at 031BA000
+Setup 0: 00000000
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? True, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000090
+0B: There are 5 Object(s). List starts at 00000040
+0179, 000E, 009A, 0168, 004A, 
+01: There are 4 actor(s). List starts at 0000004C
+01B6:0002 2D Stone Wall, (0, -240, 98) (0000, 8000, 0000)
+01A7:0000 Ganon's Tower Magic Barrier, (0, -240, -840) (0000, 0000, 0000)
+0097:0005 Environmental Effects, (0, -240, -840) (0000, 0000, 0000)
+0092:0401 Golden Gauntlets Rock, (-1212, -240, -840) (0000, 4000, 0000)
+

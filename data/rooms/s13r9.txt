@@ -1,0 +1,31 @@
+Room 9
+Room at 0321B000
+Setup 0: 00000000
+16: Sound Settings: Echo 6
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000180
+0B: There are 8 Object(s). List starts at 00000040
+0179, 002C, 0024, 000E, 011F, 0114, 0090, 000D, 
+01: There are 19 actor(s). List starts at 00000050
+0008:83F0 Decorative Flame, (-2055, -166, -976) (0000, 0000, 0000)
+0008:83F0 Decorative Flame, (-2032, -166, -976) (0000, 0000, 0000)
+0008:83F0 Decorative Flame, (-2043, -166, -965) (0000, 0000, 0000)
+0008:83F0 Decorative Flame, (-2132, -165, -965) (0000, 0000, 0000)
+0008:83F0 Decorative Flame, (-2121, -165, -976) (0000, 0000, 0000)
+0008:83F0 Decorative Flame, (-2143, -165, -976) (0000, 0000, 0000)
+0013:8003 Roosting Keese, (-1625, -215, -1046) (0000, 0000, 0000)
+0013:8003 Roosting Keese, (-1776, -215, -691) (0000, 6000, 0000)
+0013:8003 Roosting Keese, (-1459, -215, -707) (0000, A000, 0000)
+0037:0002 Invisible Skulltula, (-1622, -196, -843) (0000, 4000, 0000)
+000A:596A Chest, Small, reward 4B: Arrows (15), chest flag: 0A, bound to Perm: 00, (-1626, -240, -1048) (0000, 8000, 0000)
+000A:5F8B Chest, Small, reward 7C: Ice Trap, chest flag: 0B, bound to Perm: 00, (-1620, -240, -639) (0000, 0000, 0000)
+000A:588C Chest, Small, reward 44: Blue Rupee, chest flag: 0C, bound to Perm: 00, (-1459, -240, -700) (0000, 1C72, 0000)
+000A:590D Chest, Small, reward 48: Heart, chest flag: 0D, bound to Perm: 00, (-1779, -240, -690) (0000, E38E, 0000)
+000A:5F8E Chest, Small, reward 7C: Ice Trap, chest flag: 0E, bound to Perm: 00, (-1453, -240, -980) (0000, 5C72, 0000)
+000A:5F8F Chest, Small, reward 7C: Ice Trap, chest flag: 0F, bound to Perm: 00, (-1779, -240, -995) (0000, A000, 0000)
+000A:7850 Chest, Small, Appears, Clear Flag, reward 42: Small Key, chest flag: 10, bound to Perm: 00, (-1622, -240, -843) (0000, C000, 0000)
+012E:1C91 Music Staff Spot, Type 7, Song 2, Perm: 11, (-2179, -236, -842) (0000, 4000, 0001)
+000A:8851 Chest, Small, Falls, Switch Flag, reward 42: Small Key, chest flag: 11, bound to Perm: 11, (-2086, -144, -952) (0000, 8000, 0011)
+

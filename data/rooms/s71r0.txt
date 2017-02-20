@@ -1,0 +1,128 @@
+Room 0
+Room at 02AA4000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: 1600 00
+0A: Room Mesh: 030000A0
+0B: There are 8 Object(s). List starts at 00000078
+008E, 008F, 0090, 0091, 0092, 0093, 0094, 0095, 
+01: There are 1 actor(s). List starts at 00000088
+008C:0000 ???, (158, 149, 315) (0000, 0000, 0000)
+
+Cutscene 0: 000001E0
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: 0300 00
+0A: Room Mesh: 030000A0
+0B: There are 8 Object(s). List starts at 00000220
+008E, 008F, 0090, 0091, 0092, 0093, 0094, 0095, 
+01: There are 4 actor(s). List starts at 00000230
+008C:0000 ???, (158, 149, 315) (0000, 0000, 0000)
+008B:F404 Spiritual Stones, (4, 95, -59) (0000, 0000, 0000)
+008B:F505 Spiritual Stones, (150, 139, -99) (0000, 0000, 0000)
+008B:F606 Spiritual Stones, (165, 166, -104) (0000, 0000, 0000)
+
+Cutscene 1: 00000270
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000A0
+0B: There are 2 Object(s). List starts at 000002B0
+009B, 002D, 
+01: There are 2 actor(s). List starts at 000002B4
+002A:05FF Ganondorf riding on horse  with flames, (112, 0, 14) (0000, 0000, 0000)
+002A:06FF Ganodorf's Horse (Galloping), (101, 0, 23) (0000, 0000, 0000)
+
+Cutscene 2: 000002E0
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: 1200 00
+0A: Room Mesh: 030000A0
+0B: There are 8 Object(s). List starts at 00000320
+008E, 008F, 0090, 0091, 0092, 0093, 0094, 0095, 
+01: There are 5 actor(s). List starts at 00000330
+008C:0000 ???, (158, 149, 315) (0000, 0000, 0000)
+008B:F404 Spiritual Stones, (4, 95, -59) (0000, 0000, 0000)
+008B:F505 Spiritual Stones, (150, 139, -99) (0000, 0000, 0000)
+008B:F606 Spiritual Stones, (165, 166, -104) (0000, 0000, 0000)
+008B:FF08 Spiritual Stones, (-510, 180, 278) (0000, 0000, 0000)
+
+Cutscene 3: 00000380
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 030000A0
+0B: There are 1 Object(s). List starts at 000003C0
+009B, 
+01: There are 1 actor(s). List starts at 000003C4
+002A:07FF Ganodorf, standing hands crossed, (2, 0, 66) (0000, 0000, 0000)
+
+Cutscene 4: 000003E0
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: 073B 00
+0A: Room Mesh: 030000A0
+0B: There are 7 Object(s). List starts at 00000420
+008E, 008F, 0090, 0091, 0092, 0094, 0095, 
+01: There are 2 actor(s). List starts at 00000430
+008C:0000 ???, (158, 149, 315) (0000, 0000, 0000)
+008B:FF08 Spiritual Stones, (-510, 180, 278) (0000, 0000, 0000)
+
+Cutscene 5: 00000450
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000A0
+0B: There are 2 Object(s). List starts at 00000490
+009B, 002D, 
+01: There are 2 actor(s). List starts at 00000494
+002A:05FF Ganondorf riding on horse  with flames, (112, 0, 14) (0000, 0000, 0000)
+002A:06FF Ganodorf's Horse (Galloping), (101, 0, 23) (0000, 0000, 0000)
+
+Cutscene 6: 000004C0
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000A0
+0B: There are 2 Object(s). List starts at 00000500
+009B, 002D, 
+01: There are 2 actor(s). List starts at 00000504
+002A:05FF Ganondorf riding on horse  with flames, (112, 0, 14) (0000, 0000, 0000)
+002A:06FF Ganodorf's Horse (Galloping), (101, 0, 23) (0000, 0000, 0000)
+
+Cutscene 7: 00000530
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: 1200 00
+0A: Room Mesh: 030000A0
+0B: There are 8 Object(s). List starts at 00000570
+008E, 008F, 0090, 0091, 0092, 0093, 0094, 0095, 
+01: There are 5 actor(s). List starts at 00000580
+008C:0000 ???, (158, 149, 315) (0000, 0000, 0000)
+008B:F404 Spiritual Stones, (4, 95, -59) (0000, 0000, 0000)
+008B:F505 Spiritual Stones, (150, 139, -99) (0000, 0000, 0000)
+008B:F606 Spiritual Stones, (165, 166, -104) (0000, 0000, 0000)
+008B:FF08 Spiritual Stones, (-510, 180, 278) (0000, 0000, 0000)
+
+Cutscene 8: 000005D0
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 030000A0
+0B: There are 1 Object(s). List starts at 00000610
+00E1, 
+01: There are 1 actor(s). List starts at 00000614
+002A:09FF Ganondorf, floating during CURSE YOU, (0, 0, 115) (0000, 8000, 0000)
+

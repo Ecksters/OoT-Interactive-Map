@@ -1,0 +1,44 @@
+Scene at 03292000
+Setup 0: 00000000
+15: Sound Settings: Reverb 3, Playback option Always Playing, Song 18.
+04: There are 6 room(s). List starts at 00000130
+032A0000 032A4D40
+032A5000 032AC2B0
+032AD000 032B0E50
+032B1000 032BC310
+032BD000 032C0920
+032C1000 032C5E40
+19: JPEG background camera related: 00 Overworld Region:  0C
+03: Collision Header starts at 000074EC
+Offset to vertex array 00005C20
+Offset to polygon array 00000460
+Offset to polygon type defs 00000358
+Offset to camera data 00000318
+Offset to water boxes 00000000
+Size in bytes 29184
+06: Entrance Index Definitions starts at 00000160
+07: Elf_Message 0, Load Object 0003
+0D: Pathway List starts at 000002AC
+ 00) 0001F0  (-13, 0, -2399) (75, 0, -2455) (15, 0, -2507) (-109, 0, -2514) (-123, 0, -2646) (-127, 0, -2945) (-633, 0, -2945)
+ 01) 00021C  (327, -240, -1123) (394, -240, -1179) (351, -240, -1239) (204, -240, -1240) (79, -240, -920) (78, 0, -332) (-368, 0, -338)
+ 02) 000248  (524, 0, 425) (455, 0, 471) (396, 0, 444) (399, 0, 342) (720, 0, 178) (1102, 120, 177) (1101, 120, -224)
+ 03) 000274  (2162, 0, -2868) (2218, 0, -2919) (2184, 0, -2982) (2067, 0, -2981) (1647, 0, -2751) (1387, 0, -2742) (1387, 0, -2316) (1026, 0, -2298) (1039, 0, -1798)
+
+00: There are 13 position(s). List starts at 00000060.
+0000:0DFF Link, (-296, 0, -2951) (0000, 4000, 0000)
+0000:0DFF Link, (-301, 0, -2023) (0000, 8000, 0000)
+0000:0DFF Link, (877, -91, -1502) (0000, 4000, 0000)
+0000:0DFF Link, (892, 85, -977) (0000, 4000, 0000)
+0000:0DFF Link, (-105, 0, -335) (0000, 4000, 0000)
+0000:0DFF Link, (538, 0, -1920) (0000, C000, 0000)
+0000:0DFF Link, (-416, -80, 39) (0000, 4000, 0000)
+0000:0DFF Link, (1102, 120, 30) (0000, 0000, 0000)
+0000:0DFF Link, (1487, 211, -985) (0000, 4000, 0000)
+0000:0DFF Link, (2188, 297, -1343) (0000, 4000, 0000)
+0000:0DFF Link, (1153, -160, -3048) (0000, 4000, 0000)
+0000:0DFF Link, (-1287, 600, -3503) (0000, 4000, 0000)
+0000:0DFF Link, (1061, 0, -2037) (0000, 8000, 0000)
+11: Skybox 0, Cast: Sunny, Fog? Yes
+13: Exit List starts at 0000017C. 0231 0235 0239 02AA 02BA 02BE 02C2 02C6 02D2 02D6 02DA 02DE 03A4 0000
+0F: There are 4 environment setting(s). List starts at 00000198.
+

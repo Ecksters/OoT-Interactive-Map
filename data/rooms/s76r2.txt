@@ -1,0 +1,17 @@
+Room 2
+Room at 0337A000
+Setup 0: 00000000
+16: Sound Settings: Echo 5
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 04
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000A0
+0B: There are 2 Object(s). List starts at 00000040
+012C, 00C0, 
+01: There are 5 actor(s). List starts at 00000044
+0111:5301 Breakable Pot, Collectable: 01 Temp: 09, (1256, 140, -78) (0000, 0000, 0000)
+0111:5501 Breakable Pot, Collectable: 01 Temp: 0A, (1256, 140, -51) (0000, 0000, 0000)
+0111:5700 Breakable Pot, Collectable: 00 Temp: 0B, (1255, 140, 47) (0000, 0000, 0000)
+00CB:FFFF Ingo, (1568, 164, -140) (0000, 4000, 0008)
+00CB:FFFF Ingo, (1568, 164, -140) (0000, 4000, 0006)
+

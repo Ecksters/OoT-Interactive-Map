@@ -1,0 +1,47 @@
+Room 3
+Room at 02F6D000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 05, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000080
+0B: There are 5 Object(s). List starts at 00000060
+016D, 00D3, 00BD, 0075, 0048, 
+01: There are 1 actor(s). List starts at 0000006C
+00DC:FFFF Twinrova, (-10, 529, 0) (0000, E000, 0000)
+
+Cutscene 0: 000000A0
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 05, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000080
+0B: There are 5 Object(s). List starts at 000000E0
+016D, 00D3, 00BD, 0075, 0048, 
+01: There are 1 actor(s). List starts at 000000EC
+00DC:FFFF Twinrova, (-10, 529, 0) (0000, E000, 0000)
+
+Cutscene 1: 00000100
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 05, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000080
+0B: There are 5 Object(s). List starts at 00000140
+016D, 00D3, 00BD, 0075, 0048, 
+01: There are 1 actor(s). List starts at 0000014C
+00DC:FFFF Twinrova, (-10, 529, 0) (0000, E000, 0000)
+
+Cutscene 2: 00000160
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000080
+0B: There are 5 Object(s). List starts at 000001A0
+016D, 00D3, 00BD, 0075, 0048, 
+01: There are 1 actor(s). List starts at 000001AC
+00DC:FFFF Twinrova, (-10, 529, 0) (0000, E000, 0000)
+

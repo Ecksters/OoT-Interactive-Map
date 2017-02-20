@@ -1,0 +1,24 @@
+Room 8
+Room at 03211000
+Setup 0: 00000000
+16: Sound Settings: Echo 6
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000110
+0B: There are 8 Object(s). List starts at 00000040
+0179, 006B, 0114, 005D, 000D, 000B, 011F, 011C, 
+01: There are 12 actor(s). List starts at 00000050
+012D:FFC2 Hookshot Block, (-2644, 40, -839) (4000, 0000, 0000)
+0130:0C00 ???, (-2694, -270, -1010) (0000, 51C7, 0000)
+0130:0C01 ???, (-2600, -270, -665) (0000, D1C7, 0000)
+0187:FC3C Timer, Room Clear Time: 01:00 No Flag, (-2713, -120, -842) (0000, 0000, 0000)
+0117:1FD2 Silver Rupee, Type: Rupee, Perm: 12, (-2509, -240, -1091) (0000, 0000, 0000)
+0117:1FD2 Silver Rupee, Type: Rupee, Perm: 12, (-2649, -240, -545) (0000, 0000, 0000)
+0117:1FD2 Silver Rupee, Type: Rupee, Perm: 12, (-2646, -120, -839) (0000, 0000, 0000)
+0117:1FD2 Silver Rupee, Type: Rupee, Perm: 12, (-2680, -240, -893) (0000, 0000, 0000)
+0117:1FD2 Silver Rupee, Type: Rupee, Perm: 12, (-2674, -240, -777) (0000, 0000, 0000)
+0117:0152 Silver Rupee, Type: Collect 5 Rupees, Perm: 12, (-2564, -270, -711) (0000, 0000, 0000)
+0111:4A2A Breakable Pot, Collectable: 2A Temp: 05, (-2581, -240, -839) (0000, 0000, 0000)
+0011:2E02 Ceiling Wall Master, (-2668, 320, -1464) (0000, 0000, 0000)
+

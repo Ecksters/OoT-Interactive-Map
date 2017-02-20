@@ -1,0 +1,18 @@
+Room 0
+Room at 02EC7000
+Setup 0: 00000000
+16: Sound Settings: Echo 4
+08: Room Behavior: ? 05, Show invisible actors? False, Idle Animation 01
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000B0
+0B: There are 6 Object(s). List starts at 00000040
+0069, 0048, 0075, 00B0, 00E2, 00BD, 
+01: There are 6 actor(s). List starts at 0000004C
+0008:03F5 Decorative Flame, (-110, 1721, -998) (0000, 8000, 0000)
+0008:03F5 Decorative Flame, (10, 1721, -998) (0000, 8000, 0000)
+0008:03F5 Decorative Flame, (10, 1721, -837) (0000, 8000, 0000)
+0008:03F5 Decorative Flame, (-110, 1721, -837) (0000, 8000, 0000)
+0008:03F5 Decorative Flame, (-110, 1721, -677) (0000, 8000, 0000)
+0008:03F5 Decorative Flame, (10, 1721, -677) (0000, 8000, 0000)
+

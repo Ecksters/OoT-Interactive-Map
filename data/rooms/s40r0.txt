@@ -1,0 +1,19 @@
+Room 0
+Room at 02F7B000
+Setup 0: 00000000
+16: Sound Settings: Echo 3
+08: Room Behavior: ? 02, Show invisible actors? False, Idle Animation 05
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000C0
+0B: There are 5 Object(s). List starts at 00000040
+00C5, 00FC, 00FD, 00FB, 000E, 
+01: There are 7 actor(s). List starts at 0000004C
+0163:FF04 Kokiri Child, (-56, 16, 128) (0000, 960B, 0000)
+016D:FF00 Mido, (3, 48, 134) (0000, 8000, 0000)
+0163:FF00 Kokiri Child, (-125, 12, 72) (0000, 549F, 0000)
+000A:59A0 Chest, Small, reward 4D: Blue Rupee, chest flag: 00, bound to Perm: 00, (58, 0, -55) (0000, 4000, 0000)
+000A:59A1 Chest, Small, reward 4D: Blue Rupee, chest flag: 01, bound to Perm: 00, (58, 0, 35) (0000, 4000, 0000)
+000A:5982 Chest, Small, reward 4C: Green Rupee, chest flag: 02, bound to Perm: 00, (-60, 0, -55) (0000, C000, 0000)
+000A:5903 Chest, Small, reward 48: Heart, chest flag: 03, bound to Perm: 00, (-60, 0, 35) (0000, C000, 0000)
+

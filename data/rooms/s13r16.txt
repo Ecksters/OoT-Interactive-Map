@@ -1,0 +1,17 @@
+Room 16
+Room at 0325C000
+Setup 0: 00000000
+16: Sound Settings: Echo 6
+08: Room Behavior: ? 01, Show invisible actors? True, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000A0
+0B: There are 5 Object(s). List starts at 00000040
+0179, 000E, 009A, 0168, 004A, 
+01: There are 5 actor(s). List starts at 0000004C
+0195:0005 Ground Deku Scrub, Bombs, (92, -240, 969) (0000, 9555, 0000)
+0195:0007 Ground Deku Scrub, Red Potion, (-189, -240, 865) (0000, 5555, 0000)
+0195:0006 Ground Deku Scrub, Deku Seeds, (-84, -240, 970) (0000, 6AAB, 0000)
+0195:0008 Ground Deku Scrub, Green Potion, (210, -240, 870) (0000, AAAB, 0000)
+0018:0004 Fairies, (-1, -142, 761) (0000, 0000, 0000)
+

@@ -1,0 +1,23 @@
+Room 4
+Room at 026D8000
+Setup 0: 00000000
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000100
+0B: There are 5 Object(s). List starts at 00000040
+0036, 0188, 0024, 012C, 018B, 
+01: There are 11 actor(s). List starts at 0000004C
+0037:0001 Big Skulltula, (3073, 190, 280) (0000, 8000, 0000)
+01C6:0000 Cow, (3485, -4, -291) (0000, D777, 0000)
+0125:FF00 Regen Grass, (3518, -5, -240) (0000, 0000, 0000)
+0125:0210 Regen Grass, (3419, -4, -255) (0000, 0000, 0000)
+0095:8B01 Gold Skulltula, Type 4, Group 0B, Flag 01, (3709, 160, -298) (4000, CCCD, 0000)
+0111:410C Breakable Pot, Collectable: 0C Temp: 00, (3390, -2, -258) (0000, 0000, 0000)
+000F:1FE0 Web, Wall, Temp: 00, Burn on No Flag, (2930, 0, -278) (0000, 2000, 0000)
+0111:430F Breakable Pot, Collectable: 0F Temp: 01, (3410, -3, -223) (0000, 0000, 0000)
+000F:1FE1 Web, Wall, Temp: 01, Burn on No Flag, (3301, 0, -224) (0000, DDDE, 0000)
+000F:1FE2 Web, Wall, Temp: 02, Burn on No Flag, (3073, -1, 139) (0000, 8000, 0000)
+01B9:381B Gossip Stone, (2860, 6, -357) (0000, 2222, 0000)
+

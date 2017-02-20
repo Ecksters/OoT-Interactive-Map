@@ -1,0 +1,39 @@
+Room 0
+Room at 022D2000
+Setup 0: 00000000
+16: Sound Settings: Echo 5
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000200
+0B: There are 8 Object(s). List starts at 00000040
+0097, 00C5, 007C, 00E0, 016B, 0111, 0182, 0170, 
+01: There are 27 actor(s). List starts at 00000050
+0178:FF08 Hyrule Guard, (-106, 0, -510) (0000, 0000, 0000)
+0178:FF08 Hyrule Guard, (111, 0, -510) (0000, 0000, 0000)
+01AC:0000 Entwined Lovers (Honey & Darling), (124, 0, -18) (0000, 0000, 0000)
+00E7:FFFF Child Malon, (0, 0, -150) (0000, 0000, 0000)
+0077:FF02 Greenery, Small tree, Nothing, (-100, 0, 240) (0000, 0000, 0000)
+0112:1241 Invisible Collectible, 02 09 01, (-524, 180, -246) (0000, 0000, 0001)
+0112:1242 Invisible Collectible, 02 09 02, (-521, 180, 27) (0000, 0000, 0001)
+0125:0200 Regen Grass, (76, 20, -190) (0000, 0000, 0000)
+0125:0200 Regen Grass, (75, 20, -310) (0000, 0000, 0000)
+0125:0200 Regen Grass, (73, 20, -428) (0000, 0000, 0000)
+0125:0200 Regen Grass, (432, 0, -548) (0000, 0000, 0000)
+0125:0200 Regen Grass, (465, 0, -548) (0000, 0000, 0000)
+0125:0200 Regen Grass, (504, 0, -546) (0000, 0000, 0000)
+0125:0200 Regen Grass, (-87, 0, 205) (0000, 0000, 0000)
+0125:0200 Regen Grass, (-74, 0, 233) (0000, 0000, 0000)
+019B:0201 Dog, (87, 0, 116) (0000, E000, 0000)
+019B:0311 Dog, (-125, 0, 159) (0000, C5B0, 0000)
+019B:0421 Dog, (315, 0, 297) (0000, EB61, 0000)
+019B:0531 Dog, (-131, 0, 421) (0000, A93F, 0000)
+019B:0741 Dog, (257, 0, -268) (0000, D49F, 0000)
+019B:0050 Dog, (423, 0, 421) (0000, 1555, 0000)
+019B:0160 Dog, (-199, 0, -257) (0000, A71C, 0000)
+01A0:FFFF Large Crate, (-90, 0, -576) (0002, 0000, 0003)
+01A0:FFFF Large Crate, (-150, 0, -576) (0000, 0000, 0021)
+01A0:FFFF Large Crate, (490, 0, 132) (0000, 0000, 0022)
+01A0:FFFF Large Crate, (490, 0, 338) (0000, 0000, 0023)
+016E:0790 Market NPC, (297, 160, 537) (0000, 8000, 0000)
+

@@ -1,0 +1,16 @@
+Room 0
+Room at 02D0A000
+Setup 0: 00000000
+16: Sound Settings: Echo 4
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 01
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000090
+0B: There are 4 Object(s). List starts at 00000040
+0089, 000E, 0098, 00A4, 
+01: There are 4 actor(s). List starts at 00000048
+000A:A7C0 Chest, Large, Appears, Sun's Song Triggered, reward 3E: Piece of Heart, chest flag: 00, bound to Perm: 00, (2, -20, -315) (0000, 8000, 0000)
+0090:7F02 Redead, Crouching, (2, -20, -250) (0000, 0000, 0000)
+005E:2400 Lit Wooden Torch, Perm: 00, (60, -20, -186) (0000, 0000, 0000)
+005E:2400 Lit Wooden Torch, Perm: 00, (-61, -20, -186) (0000, 0000, 0000)
+

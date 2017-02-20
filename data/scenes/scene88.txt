@@ -1,0 +1,90 @@
+Scene at 020F2000
+Setup 0: 00000000
+18: Alternate headers start at 00000070.
+15: Sound Settings: Reverb 4, Playback option Always Playing, Song 50.
+04: There are 2 room(s). List starts at 000000F0
+020FC000 021022F0
+02103000 0210F9A0
+0E: There are 2 transition actor(s). List starts at 000000D0.
+01 FF -> 00 FF, 0023:013F, Transition Plane, 01 FF -> 00 FF Type 4: No Flag, (-195, 857, -1350) (0000, 0000, 0000)
+01 FF -> 00 FF, 0023:013F, Transition Plane, 01 FF -> 00 FF Type 4: No Flag, (625, 619, -689) (0000, 0000, 0000)
+19: JPEG background camera related: 00 Overworld Region:  07
+03: Collision Header starts at 00003824
+Offset to vertex array 00002EE4
+Offset to polygon array 00000374
+Offset to polygon type defs 000002AC
+Offset to camera data 00000264
+Offset to water boxes 000037E4
+Size in bytes 13804
+06: Entrance Index Definitions starts at 00000100
+07: Elf_Message 0, Load Object 0002
+0D: Pathway List starts at 00000234
+ 00) 00021C  (452, 887, -1631) (802, 887, -1637)
+ 01) 000228  (628, 996, -1783) (531, 996, -1783)
+
+00: There are 5 position(s). List starts at 00000080.
+0000:0FFF Link, (-1112, 210, -160) (0000, 4000, 0000)
+0000:0FFF Link, (540, 996, -2503) (0000, 18E4, 0000)
+0000:0FFF Link, (524, 52, 254) (0000, 2444, 0000)
+0000:0DFF Link, (623, 947, -1499) (0000, 9E94, 0000)
+0000:0FFF Link, (-208, -210, -280) (0000, 8E39, 0000)
+11: Skybox 0, Cast: Sunny, Fog? No
+13: Exit List starts at 0000010C. 019D 0225 0380 0560
+0F: There are 12 environment setting(s). List starts at 00000114.
+
+Setup 2: 00003A40
+15: Sound Settings: Reverb 4, Playback option Always Playing, Song 50.
+04: There are 2 room(s). List starts at 00003B18
+020FC000 021022F0
+02103000 0210F9A0
+0E: There are 2 transition actor(s). List starts at 00003AF8.
+01 FF -> 00 FF, 0023:013F, Transition Plane, 01 FF -> 00 FF Type 4: No Flag, (-195, 857, -1350) (0000, 0000, 0000)
+01 FF -> 00 FF, 0023:013F, Transition Plane, 01 FF -> 00 FF Type 4: No Flag, (625, 619, -689) (0000, 0000, 0000)
+19: JPEG background camera related: 00 Overworld Region:  07
+03: Collision Header starts at 00003824
+Offset to vertex array 00002EE4
+Offset to polygon array 00000374
+Offset to polygon type defs 000002AC
+Offset to camera data 00000264
+Offset to water boxes 000037E4
+Size in bytes 13804
+06: Entrance Index Definitions starts at 00003B28
+07: Elf_Message 1, Load Object 0002
+0D: Pathway List starts at 00003C50
+ 00) 003C44  (628, 996, -1780) (531, 996, -1780)
+
+00: There are 5 position(s). List starts at 00003AA8.
+0000:0FFF Link, (-1150, 210, -150) (0000, 4000, 0000)
+0000:0FFF Link, (537, 996, -2501) (0000, 18E4, 0000)
+0000:0EFF Link, (520, 52, 248) (0000, 2444, 0000)
+0000:0DFF Link, (617, 947, -1507) (0000, 905B, 0000)
+0000:0FFF Link, (-208, -210, -280) (0000, 8E39, 0000)
+11: Skybox 0, Cast: Sunny, Fog? No
+13: Exit List starts at 00003B34. 019D 0225 0380 0560
+0F: There are 12 environment setting(s). List starts at 00003B3C.
+
+Cutscene 0: 00003C60
+15: Sound Settings: Reverb 4, Playback option Always Playing, Song 67.
+04: There are 2 room(s). List starts at 00003CF8
+020FC000 021022F0
+02103000 0210F9A0
+0E: There are 2 transition actor(s). List starts at 00003CD8.
+01 FF -> 00 FF, 0023:013F, Transition Plane, 01 FF -> 00 FF Type 4: No Flag, (-195, 857, -1350) (0000, 0000, 0000)
+01 FF -> 00 FF, 0023:013F, Transition Plane, 01 FF -> 00 FF Type 4: No Flag, (625, 619, -689) (0000, 0000, 0000)
+19: JPEG background camera related: 00 Overworld Region:  07
+03: Collision Header starts at 00003824
+Offset to vertex array 00002EE4
+Offset to polygon array 00000374
+Offset to polygon type defs 000002AC
+Offset to camera data 00000264
+Offset to water boxes 000037E4
+Size in bytes 13804
+06: Entrance Index Definitions starts at 00003D08
+07: Elf_Message 1, Load Object 0002
+00: There are 1 position(s). List starts at 00003CC8.
+0000:00FF Link, (922, 899, -1341) (0000, 0000, 0000)
+11: Skybox 0, Cast: Sunny, Fog? Yes
+13: Exit List starts at 00003D0C. 019D 0225 0380 0000
+0F: There are 4 environment setting(s). List starts at 00003D14.
+17: Cutscene starts at 00003850
+

@@ -1,0 +1,21 @@
+Room 9
+Room at 024FA000
+Setup 0: 00000000
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000F0
+0B: There are 10 Object(s). List starts at 00000040
+0036, 001E, 0024, 0039, 0164, 000E, 00A4, 012B, 00B7, 00BB, 
+01: There are 9 actor(s). List starts at 00000054
+0125:FF01 Regen Grass, (-269, -1880, -643) (0000, 0000, 0000)
+0125:FF01 Regen Grass, (-273, -1880, -577) (0000, 0000, 0000)
+0125:FF01 Regen Grass, (-273, -1880, -515) (0000, 0000, 0000)
+0192:0001 Green Deku Scrub, (-662, -1880, -957) (0000, 0000, 0000)
+0192:0002 Green Deku Scrub, (-311, -1880, -904) (0000, 0000, 0000)
+0192:9C03 Green Deku Scrub, (-946, -1880, -767) (0000, 0000, 0000)
+0015:2E03 Collectable Heart, Temp: 0E, (-885, -1950, -185) (0000, 0000, 0000)
+0015:3003 Collectable Heart, Temp: 10, (-820, -1960, -76) (0000, 0000, 0000)
+0015:3103 Collectable Heart, Temp: 11, (-354, -1943, -206) (0000, 0000, 0000)
+

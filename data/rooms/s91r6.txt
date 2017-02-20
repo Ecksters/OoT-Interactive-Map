@@ -1,0 +1,40 @@
+Room 6
+Room at 02178000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 9
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000E0
+0B: There are 11 Object(s). List starts at 00000058
+010A, 0168, 0172, 0117, 0131, 011E, 0163, 0188, 0164, 017B, 0024, 
+01: There are 7 actor(s). List starts at 00000070
+0097:0000 Environmental Effects, (509, -20, -1568) (0000, 0000, 0000)
+0094:5324 Butterflies (defunct?), (77, 28, -1590) (0000, 0000, 0000)
+0195:0000 Ground Deku Scrub, Deku Nuts, (653, 0, -1726) (0000, ED83, 0000)
+0195:0001 Ground Deku Scrub, Deku Sticks, (443, 0, -1357) (0000, 8000, 0000)
+01CF:4E02 Skulltula Sprouting from Bean Spot, (610, 0, -1770) (0000, 0000, 0000)
+0126:1F12 Bean Planting Spot, (610, 0, -1770) (0000, 0000, 0000)
+009B:00F3 Grotto, Forest Stage, Visible, Chest: None, Flag 13, (80, -20, -1600) (0000, 4000, 000C)
+
+Setup 2: 00000100
+16: Sound Settings: Echo 9
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000E0
+0B: There are 12 Object(s). List starts at 00000140
+00FC, 00FD, 00FB, 013D, 011E, 0188, 0128, 0024, 0163, 00C5, 013C, 010A, 
+01: There are 3 actor(s). List starts at 00000158
+009B:00F3 Grotto, Forest Stage, Visible, Chest: None, Flag 13, (80, -20, -1600) (0000, 4000, 000C)
+0095:AE04 Gold Skulltula, Type 5, Group 0E, Flag 04, (772, 210, -1808) (0000, E000, 0000)
+0126:0112 Bean Planting Spot, (610, 0, -1770) (0000, 0000, 0000)
+
+Cutscene 0: 00000190
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 030000E0
+

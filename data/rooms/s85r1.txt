@@ -1,0 +1,213 @@
+Room 1
+Room at 0209D000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 1
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000120
+0B: There are 5 Object(s). List starts at 0000007C
+012F, 0188, 011E, 002A, 0039, 
+01: There are 9 actor(s). List starts at 00000088
+0097:0000 Environmental Effects, (3409, -143, -818) (0000, 0000, 0000)
+00C7:0001 Withered Deku Baba (Deku Stick), (2109, -1, -317) (0000, 0000, 0000)
+00C7:0001 Withered Deku Baba (Deku Stick), (2237, -1, -291) (0000, 0000, 0000)
+00C7:0001 Withered Deku Baba (Deku Stick), (2293, -1, -496) (0000, 0000, 0000)
+00C7:0001 Withered Deku Baba (Deku Stick), (3126, -180, -1555) (0000, 0000, 0000)
+00C7:0001 Withered Deku Baba (Deku Stick), (4129, -170, -548) (0000, 0000, 0000)
+003E:FFFF Great Deku Tree's Jaw, (3882, -171, -1161) (0000, 0000, 0000)
+01B9:391F Gossip Stone, (3800, -159, -2230) (0000, CE39, 0000)
+01B9:3A20 Gossip Stone, (4740, -157, -700) (0000, 638E, 0000)
+
+Setup 2: 00000160
+16: Sound Settings: Echo 1
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000120
+0B: There are 3 Object(s). List starts at 000001A0
+0039, 0188, 002A, 
+01: There are 10 actor(s). List starts at 000001A8
+0097:0000 Environmental Effects, (3409, -143, -818) (0000, 0000, 0000)
+003E:FFFF Great Deku Tree's Jaw, (3882, -171, -1161) (0000, 0000, 0000)
+0055:0001 Deku Baba (Snapping), (2351, -1, -489) (0000, 0000, 0000)
+0055:0001 Deku Baba (Snapping), (2748, -1, -707) (0000, 0000, 0000)
+0055:0001 Deku Baba (Snapping), (2867, -1, -416) (0000, 0000, 0000)
+0055:0001 Deku Baba (Snapping), (3126, -180, -1555) (0000, 0000, 0000)
+0055:0001 Deku Baba (Snapping), (3704, -172, -1074) (0000, 0000, 0000)
+0055:0001 Deku Baba (Snapping), (4129, -170, -548) (0000, 0000, 0000)
+01B9:391F Gossip Stone, (3800, -159, -2230) (0000, CE39, 0000)
+01B9:3A20 Gossip Stone, (4740, -157, -700) (0000, 638E, 0000)
+
+Setup 3: 00000250
+16: Sound Settings: Echo 1
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000120
+0B: There are 5 Object(s). List starts at 00000290
+0188, 012F, 011E, 002A, 00CC, 
+01: There are 5 actor(s). List starts at 0000029C
+0097:0000 Environmental Effects, (3409, -143, -818) (0000, 0000, 0000)
+00D3:1E00 Deku Tree Sprout, (3704, -172, -1074) (0000, 0000, 0000)
+003E:FFFF Great Deku Tree's Jaw, (3882, -171, -1161) (0000, 0000, 0000)
+01B9:391F Gossip Stone, (3800, -159, -2230) (0000, CE39, 0000)
+01B9:3A20 Gossip Stone, (4740, -157, -700) (0000, 638E, 0000)
+
+Cutscene 0: 000002F0
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: 0C00 00
+0A: Room Mesh: 03000120
+0B: There are 3 Object(s). List starts at 00000330
+002A, 0093, 0091, 
+01: There are 3 actor(s). List starts at 00000338
+003E:FFFF Great Deku Tree's Jaw, (3882, -171, -1161) (0000, 0000, 0000)
+008B:FF06 Spiritual Stones, (3225, -61, -377) (0000, 0000, 0000)
+0097:0000 Environmental Effects, (3057, -79, -754) (0000, 0000, 0000)
+
+Cutscene 1: 00000370
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: 0C00 00
+0A: Room Mesh: 03000120
+0B: There are 4 Object(s). List starts at 000003B0
+002A, 0077, 007C, 0048, 
+01: There are 4 actor(s). List starts at 000003B8
+003E:FFFF Great Deku Tree's Jaw, (3882, -171, -1161) (0000, 0000, 0000)
+0097:0000 Environmental Effects, (-239, 120, 597) (0000, 0000, 0000)
+0097:0000 Environmental Effects, (3806, -179, -252) (0000, 0000, 0000)
+005D:0006 Warp Portal, (2857, 0, -594) (0000, 0000, 0000)
+
+Cutscene 2: 00000400
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: 0C00 00
+0A: Room Mesh: 03000120
+0B: There are 3 Object(s). List starts at 00000440
+002A, 00AD, 0090, 
+01: There are 5 actor(s). List starts at 00000448
+003E:FFFF Great Deku Tree's Jaw, (3882, -171, -1161) (0000, 0000, 0000)
+008B:0013 Spiritual Stones, (3561, -169, -1674) (0000, 0000, 0000)
+008B:2112 Spiritual Stones, (3652, -177, -976) (0000, 0000, 0000)
+0097:0000 Environmental Effects, (378, 0, 483) (0000, 0000, 0000)
+0097:0000 Environmental Effects, (3580, -164, -365) (0000, 0000, 0000)
+
+Cutscene 3: 000004A0
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: 0C00 00
+0A: Room Mesh: 03000120
+0B: There are 3 Object(s). List starts at 000004E0
+002A, 0061, 0068, 
+01: There are 2 actor(s). List starts at 000004E8
+0097:0000 Environmental Effects, (3409, -143, -818) (0000, 0000, 0000)
+003E:FFFF Great Deku Tree's Jaw, (3882, -171, -1161) (0000, 0000, 0000)
+
+Cutscene 4: 00000510
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 03000120
+0B: There are 4 Object(s). List starts at 00000550
+002A, 00AD, 0061, 0068, 
+01: There are 14 actor(s). List starts at 00000558
+003B:0001 Ambient Sound, Stream, (402, -12, -491) (0000, 0000, 0000)
+0097:0000 Environmental Effects, (-29, 1, 216) (0000, 0000, 0000)
+00EE:0000 Deku Shield, (18, 100, 1011) (0000, 0000, 0000)
+00EE:0000 Deku Shield, (829, 119, -348) (0000, 0000, 0000)
+0146:0000 Saria, (31, -80, 968) (0000, A71C, 0000)
+0039:1409 Gameplay_keep Items, (-1432, -66, -426) (0000, 4000, 0000)
+0039:1309 Gameplay_keep Items, (-1182, -49, -144) (0000, B8E4, 0000)
+0039:1209 Gameplay_keep Items, (112, -80, 780) (0000, AAAB, 0000)
+0039:1109 Gameplay_keep Items, (661, 0, -101) (0000, 0000, 0000)
+0039:1009 Gameplay_keep Items, (-193, 380, -1307) (0000, 0000, 0000)
+0039:0F09 Gameplay_keep Items, (1420, 0, 21) (0000, CE39, 0000)
+016D:0000 Mido, (1522, 0, 105) (0000, BBBC, 0000)
+0015:FF06 Collectable Heart Piece, Temp: DF, (854, 185, -487) (0000, 0000, 0000)
+0163:D300 Kokiri Child, (-228, 0, -362) (0000, 0000, 0000)
+
+Cutscene 5: 00000640
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 03000120
+0B: There are 4 Object(s). List starts at 00000680
+002A, 00AD, 0061, 0068, 
+01: There are 14 actor(s). List starts at 00000688
+003B:0001 Ambient Sound, Stream, (402, -12, -491) (0000, 0000, 0000)
+0097:0000 Environmental Effects, (-29, 1, 216) (0000, 0000, 0000)
+00EE:0000 Deku Shield, (18, 100, 1011) (0000, 0000, 0000)
+00EE:0000 Deku Shield, (829, 119, -348) (0000, 0000, 0000)
+0146:0000 Saria, (31, -80, 968) (0000, A71C, 0000)
+0039:1409 Gameplay_keep Items, (-1432, -66, -426) (0000, 4000, 0000)
+0039:1309 Gameplay_keep Items, (-1182, -49, -144) (0000, B8E4, 0000)
+0039:1209 Gameplay_keep Items, (112, -80, 780) (0000, AAAB, 0000)
+0039:1109 Gameplay_keep Items, (661, 0, -101) (0000, 0000, 0000)
+0039:1009 Gameplay_keep Items, (-193, 380, -1307) (0000, 0000, 0000)
+0039:0F09 Gameplay_keep Items, (1420, 0, 21) (0000, CE39, 0000)
+016D:0000 Mido, (1522, 0, 105) (0000, BBBC, 0000)
+0015:FF06 Collectable Heart Piece, Temp: DF, (854, 185, -487) (0000, 0000, 0000)
+0163:D300 Kokiri Child, (-228, 0, -362) (0000, 0000, 0000)
+
+Cutscene 6: 00000770
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 03000120
+0B: There are 2 Object(s). List starts at 000007B0
+002A, 00CC, 
+01: There are 4 actor(s). List starts at 000007B4
+0097:0000 Environmental Effects, (-29, 1, 216) (0000, 0000, 0000)
+0097:0000 Environmental Effects, (3554, -173, -856) (0000, 0000, 0000)
+00D3:1E00 Deku Tree Sprout, (3704, -172, -1074) (0000, 0000, 0000)
+003E:FFFF Great Deku Tree's Jaw, (3882, -171, -1161) (0000, 0000, 0000)
+
+Cutscene 7: 00000800
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 03000120
+0B: There are 3 Object(s). List starts at 00000840
+002A, 007C, 012F, 
+01: There are 1 actor(s). List starts at 00000848
+0097:0000 Environmental Effects, (3554, -173, -856) (0000, 0000, 0000)
+
+Cutscene 8: 00000860
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: 0C00 00
+0A: Room Mesh: 03000120
+0B: There are 4 Object(s). List starts at 000008A0
+002A, 00CC, 012F, 0048, 
+01: There are 5 actor(s). List starts at 000008A8
+0097:0000 Environmental Effects, (-29, 1, 216) (0000, 0000, 0000)
+0097:0000 Environmental Effects, (3554, -173, -856) (0000, 0000, 0000)
+00D3:1E00 Deku Tree Sprout, (3704, -172, -1074) (0000, 0000, 0000)
+003E:FFFF Great Deku Tree's Jaw, (3882, -171, -1161) (0000, 0000, 0000)
+005D:0006 Warp Portal, (3656, -176, -1046) (0000, 0000, 0000)
+
+Cutscene 9: 00000900
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 03000120
+0B: There are 2 Object(s). List starts at 00000940
+002A, 00CC, 
+01: There are 4 actor(s). List starts at 00000944
+0097:0000 Environmental Effects, (-29, 1, 216) (0000, 0000, 0000)
+0097:0000 Environmental Effects, (3554, -173, -856) (0000, 0000, 0000)
+00D3:1E00 Deku Tree Sprout, (3704, -172, -1074) (0000, 0000, 0000)
+003E:FFFF Great Deku Tree's Jaw, (3882, -171, -1161) (0000, 0000, 0000)
+

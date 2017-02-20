@@ -1,0 +1,15 @@
+Room 7
+Room at 026EB000
+Setup 0: 00000000
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000080
+0B: There are 3 Object(s). List starts at 00000040
+000E, 0090, 0183, 
+01: There are 3 actor(s). List starts at 00000048
+01AF:FF00 Wolfos, No Flag, (1324, -118, 813) (0000, D49F, 0000)
+01AF:FF00 Wolfos, No Flag, (1063, -118, 733) (0000, 1D28, 0000)
+000A:7AB1 Chest, Small, Appears, Clear Flag, reward 55: Purple Rupee, chest flag: 11, bound to Perm: 00, (1188, -118, 807) (0000, 8000, 0000)
+

@@ -1,0 +1,77 @@
+Room 1
+Room at 02103000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 04
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000210
+0B: There are 7 Object(s). List starts at 00000058
+0113, 00A4, 012F, 012C, 00FE, 000E, 0090, 
+01: There are 26 actor(s). List starts at 00000068
+003B:0003 Ambient Sound, Waterfall, (-189, 17, -941) (0000, 0000, 0000)
+01CE:FFC0 Zora, (-786, 14, -486) (0000, FF4A, 0000)
+01CE:FFC1 Zora, (841, 24, 39) (0000, C7D2, 0000)
+01CE:FFC2 Zora, (241, -75, -384) (0000, F8E4, 0000)
+01CE:FFC3 Zora, (-298, -200, -217) (0000, DDDE, 0000)
+01CE:FFC4 Zora, (-589, -120, -621) (0000, 2D83, 0000)
+01CE:FFC5 Zora, (-936, -319, -352) (0000, F1C7, 0000)
+0120:0000 Zora's Domain Waterfall, (0, 0, 0) (0000, 0000, 0000)
+0039:3B0A Gameplay_keep Items, (217, 178, 150) (0000, 2EEF, 0000)
+0094:5322 Butterflies (defunct?), (653, -10, -485) (0000, 0000, 0000)
+0151:0202 Shrubs or Rocks, (462, -20, -776) (0000, 0000, 0000)
+0141:030E Square Signpost, (-980, 210, -210) (0000, D1C7, 0000)
+0141:0333 Square Signpost, (477, 60, 318) (0000, 1C72, 0000)
+0124:FFFF Zora Diving Game, (-149, 857, -1020) (0000, A2D8, 0000)
+009B:11FF Grotto, Fairy Fountain, Song of Storms, Chest: None, Flag 1F, (-860, 14, -470) (0000, D555, 0000)
+000A:B7C0 Chest, Large, Appears, Switch Flag, reward 3E: Piece of Heart, chest flag: 00, bound to Perm: 1F, (-210, 8, -1079) (0000, 8000, 001F)
+005E:2000 Unlit Wooden Torch, Perm: 00, (644, 402, -157) (0000, A71C, 0000)
+005E:111F Timed Torch, Light: 4, Perm: 1F, (586, 51, 204) (0000, 0000, FF4A)
+005E:111F Timed Torch, Light: 4, Perm: 1F, (552, -20, -910) (0000, 0000, FF4A)
+005E:111F Timed Torch, Light: 4, Perm: 1F, (-260, 8, -1030) (0000, 0000, FF4A)
+005E:111F Timed Torch, Light: 4, Perm: 1F, (-130, 8, -1030) (0000, 0000, FF4A)
+0111:4101 Breakable Pot, Collectable: 01 Temp: 00, (614, 67, 419) (0000, 0000, 0000)
+0111:4303 Breakable Pot, Collectable: 03 Temp: 01, (289, 114, 415) (0000, 0000, 0000)
+0111:4503 Breakable Pot, Collectable: 03 Temp: 02, (676, 53, 377) (0000, 0000, 0000)
+0111:470C Breakable Pot, Collectable: 0C Temp: 03, (289, 128, 289) (0000, 0000, 0000)
+0111:490D Breakable Pot, Collectable: 0D Temp: 04, (220, 130, 384) (0000, 0000, 0000)
+
+Setup 2: 00000360
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 04
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000210
+0B: There are 7 Object(s). List starts at 000003A0
+0113, 006B, 00A4, 012F, 012C, 0188, 0024, 
+01: There are 17 actor(s). List starts at 000003B0
+0120:0000 Zora's Domain Waterfall, (0, 0, 0) (0000, 0000, 0000)
+0111:410D Breakable Pot, Collectable: 0D Temp: 00, (220, 130, 384) (0000, 0000, 0000)
+0111:4303 Breakable Pot, Collectable: 03 Temp: 01, (289, 114, 415) (0000, 0000, 0000)
+0111:450C Breakable Pot, Collectable: 0C Temp: 02, (289, 128, 289) (0000, 0000, 0000)
+0111:4701 Breakable Pot, Collectable: 01 Temp: 03, (614, 67, 419) (0000, 0000, 0000)
+0111:4903 Breakable Pot, Collectable: 03 Temp: 04, (676, 53, 377) (0000, 0000, 0000)
+0039:3B0A Gameplay_keep Items, (217, 178, 150) (0000, 2EEF, 0000)
+0095:B240 Gold Skulltula, Type 5, Group 12, Flag 40, (-10, 897, -909) (4000, 0000, 0000)
+005E:13FF Timed Torch, Light: 15, No Flag, (586, 51, 204) (0000, 0000, 0000)
+005E:13FF Timed Torch, Light: 15, No Flag, (552, -20, -910) (0000, 0000, 0000)
+0165:1402 Proximity Weather Effect, (-177, 0, -1061) (0000, 0000, 0000)
+0151:0202 Shrubs or Rocks, (462, -20, -776) (0000, 0000, 0000)
+0141:030E Square Signpost, (-980, 210, -210) (0000, D1C7, 0000)
+0141:0333 Square Signpost, (477, 60, 318) (0000, 1C72, 0000)
+0097:0003 Environmental Effects, (-375, 0, -261) (0000, 0000, 0000)
+00EF:0304 Red Ice, (483, 53, 214) (0000, 2000, 0000)
+009B:11FF Grotto, Fairy Fountain, Song of Storms, Chest: None, Flag 1F, (-860, 14, -470) (0000, D555, 0000)
+
+Cutscene 0: 000004C0
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 04
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000210
+0B: There are 3 Object(s). List starts at 00000500
+0113, 00A4, 012F, 
+01: There are 1 actor(s). List starts at 00000508
+0120:0000 Zora's Domain Waterfall, (0, 0, 0) (0000, 0000, 0000)
+

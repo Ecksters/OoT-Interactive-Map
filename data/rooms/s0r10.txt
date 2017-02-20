@@ -1,0 +1,25 @@
+Room 10
+Room at 02504000
+Setup 0: 00000000
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000130
+0B: There are 11 Object(s). List starts at 00000040
+0036, 001E, 0024, 0039, 0164, 000E, 00A4, 012B, 00B7, 00BB, 015C, 
+01: There are 13 actor(s). List starts at 00000058
+00C7:0001 Withered Deku Baba (Deku Stick), (-1472, 840, -157) (0000, 0B61, 0000)
+0037:0000 Skulltula, (-1082, 993, 268) (0000, 8000, 0000)
+0125:FF01 Regen Grass, (-1516, 840, 142) (0000, 7333, 0000)
+0125:FF01 Regen Grass, (-1444, 840, 169) (0000, 727D, 0000)
+0055:0000 Deku Baba (Snapping), (-884, 720, 136) (0000, BF4A, 0000)
+005E:2400 Lit Wooden Torch, Perm: 00, (-635, 800, -132) (0000, C000, 0000)
+0173:3F06 Targetable Navi Spot (Green), (-722, 860, 159) (0002, 003D, 0000)
+000A:0802 Chest, Large, reward 40: Compass, chest flag: 02, bound to Perm: 00, (-1491, 840, 1) (0000, C000, 0000)
+000A:5906 Chest, Small, reward 48: Heart, chest flag: 06, bound to Perm: 00, (-1082, 820, 387) (0000, 0000, 0000)
+0095:8108 Gold Skulltula, Type 4, Group 01, Flag 08, (-1081, 866, 501) (0000, 8000, 0000)
+005E:107C Timed Torch, Light: 1, Local: 04, (-722, 800, 157) (0000, C000, 0000)
+012A:3D00 Floor Switch, Ice? no, ?? no, Blue? no, Toggle? no, Local: 05, (-739, 800, -147) (0000, 0000, 0000)
+0050:3D02 Deku Tree Puzzle Elements, (-1080, 580, 0) (0000, 0000, 0000)
+

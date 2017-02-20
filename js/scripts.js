@@ -124,7 +124,7 @@ function loadAreas(mapName) {
              }, 
              "properties": { 
                "name": currentScene.name,
-               "className": "scene scene"+currentScene.id,
+               "className": "scene"+currentScene.id+ " scene",
                "type": "scene",
                "id": currentScene.id
               } 
@@ -150,7 +150,7 @@ function loadAreas(mapName) {
                  }, 
                  "properties": { 
                    "name": currentRoom.name,
-                   "className": "room room"+currentRoom.id+"s"+currentScene.id,
+                   "className": "room"+currentRoom.id+"s"+currentScene.id+" room",
                    "type": "room",
                    "scene": currentScene.id,
                    "id": currentRoom.id
@@ -182,8 +182,9 @@ function loadRegions(currentMap, data)
            }, 
            "properties": { 
              "name": currentFeature.Name,
-             "className": "region",
-             "type": "region"
+             "className": "region"+i+" region",
+             "type": "region",
+             "id": i
              } 
       });
     }
@@ -208,21 +209,45 @@ function addOverlay(overlayData)
       },
       onEachFeature: function (feature, layer) {
         layer.on('mouseout', function () {
-            $('.'+feature.properties.className.split(" ")[1]).attr("fill", "none");
+            $('.'+feature.properties.className.split(" ")[0]).attr("fill", "none");
         });
         layer.on('mouseover', function () {
-          $('.'+feature.properties.className.split(" ")[1]).attr({"fill": "black", "fill-opacity": "0.2"});
+          $('.'+feature.properties.className.split(" ")[0]).attr({"fill": "black", "fill-opacity": "0.2"});
+            var newView = "Hover Over an Area<br><br>";
+            if(feature.properties.type == "scene")
+            {
+              var newView = "Scene " + feature.properties.id + ": " + feature.properties.name + "<br><br>";
+            }
+            else if(feature.properties.type == "room")
+            {
+              var newView = "Scene " + feature.properties.scene + ": " + mapData[feature.properties.scene].name + "<br>Room " + feature.properties.id + ": " + feature.properties.name;
+            }
+            $("#verboseOutputChanger").html(newView);
         });
         layer.on('mousedown', function () {
           if(map.getZoom() < 14)
-          $('.'+feature.properties.className.split(" ")[1]).attr({"fill": "black", "fill-opacity": "0.6"});
+          $('.'+feature.properties.className.split(" ")[0]).attr({"fill": "black", "fill-opacity": "0.6"});
         });
         layer.on('mouseup', function () {
-          $('.'+feature.properties.className.split(" ")[1]).attr("fill", "none");
+          $('.'+feature.properties.className.split(" ")[0]).attr("fill", "none");
         });
         layer.on('click', function () {
-          $('.'+feature.properties.className.split(" ")[1]).attr("fill", "none");
+          $('.'+feature.properties.className.split(" ")[0]).attr("fill", "none");
           map.fitBounds(layer.getBounds());
+          var newData = "none";
+          if(feature.properties.type == "scene")
+          {
+            var newData = "Scene " + feature.properties.id + ": " + feature.properties.name + "<br><br>";
+            fetchROMDump("scenes/scene"+feature.properties.id);
+          }
+          else if(feature.properties.type == "room")
+          {
+            var newData = "Scene " + feature.properties.scene + ": " + mapData[feature.properties.scene].name + "<br>Room " + feature.properties.id + ": " + feature.properties.name;
+            fetchROMDump("rooms/s"+feature.properties.scene+"r"+feature.properties.id);
+          }
+          if(newData != "none") {
+            $("#verboseOutputHeader").html(newData);
+          }
         });
       }
   }).addTo(map);
@@ -246,6 +271,15 @@ function addLabel(overlayLayer){
      }
   });
 }
+
+function fetchROMDump(name)
+{
+  jQuery.get('http://map.ecksters.com/data/'+name+'.txt', function(data) {
+    $("#verboseOutput").html(data);
+  });
+}
+
+fetchROMDump("scenes/0");
 
 map.on("zoomend", function(e)
 {

@@ -1,0 +1,48 @@
+Room 1
+Room at 02067000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 0A
+0A: Room Mesh: 03000120
+0B: There are 6 Object(s). List starts at 00000054
+0112, 0188, 012F, 0163, 0013, 0024, 
+01: There are 12 actor(s). List starts at 00000060
+003B:0000 Ambient Sound, Nothing, (3207, 500, -1527) (0000, 0000, 0000)
+01B9:3A0C Gossip Stone, (3930, 640, -1650) (0000, 0000, 0000)
+011F:0038 Zora's River Waterfall, (4226, 660, -1402) (0000, 0000, 0000)
+0015:0B06 Collectable Heart Piece, Perm: 0B, (3585, 848, -1665) (0000, 0000, 0000)
+0095:B201 Gold Skulltula, Type 5, Group 12, Flag 01, (3727, 647, -1609) (4000, A000, 0000)
+0112:123F Invisible Collectible, 02 08 3F, (2831, 460, -1421) (0000, 0000, 0001)
+0112:123F Invisible Collectible, 02 08 3F, (2987, 460, -1499) (0000, 0000, 0001)
+0112:123F Invisible Collectible, 02 08 3F, (3161, 460, -1493) (0000, 0000, 0001)
+0112:123F Invisible Collectible, 02 08 3F, (3329, 460, -1499) (0000, 0000, 0001)
+012E:07F8 Music Staff Spot, Type 1, Song 15, Local: 00, (4096, 921, -1400) (0000, 0000, 0000)
+0094:3324 Butterflies (defunct?), (4093, 1010, -1400) (0000, 0000, 0000)
+0185:8B7F Check Spot, Disappears on Switch, dialog Sleepless Waterfall / The flow of this w, No Flag, (4096, 920, -1401) (0000, C000, 0029)
+
+Setup 2: 000001E0
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF 0A
+0A: Room Mesh: 03000120
+0B: There are 6 Object(s). List starts at 00000220
+0112, 012F, 001A, 0163, 0188, 0024, 
+01: There are 13 actor(s). List starts at 0000022C
+003B:0000 Ambient Sound, Nothing, (3207, 500, -1527) (0000, 0000, 0000)
+0015:2002 Collectable Red rupee, Temp: 00, (4216, 520, -1464) (0000, 0000, 0000)
+0015:2102 Collectable Red rupee, Temp: 01, (4171, 520, -1436) (0000, 0000, 0000)
+0015:2202 Collectable Red rupee, Temp: 02, (4171, 520, -1376) (0000, 0000, 0000)
+0015:2302 Collectable Red rupee, Temp: 03, (4224, 520, -1339) (0000, 0000, 0000)
+01B9:3A0C Gossip Stone, (3930, 640, -1650) (0000, 0000, 0000)
+011F:0038 Zora's River Waterfall, (4226, 660, -1402) (0000, 0000, 0000)
+0015:0B06 Collectable Heart Piece, Perm: 0B, (3585, 848, -1665) (0000, 0000, 0000)
+0095:B208 Gold Skulltula, Type 5, Group 12, Flag 08, (2832, 1055, -1466) (4000, 238E, 0000)
+0165:1502 Proximity Weather Effect, (4198, -87, -1397) (0000, 0000, 0000)
+0097:0003 Environmental Effects, (4198, -87, -1397) (0000, 0000, 0000)
+012E:07F8 Music Staff Spot, Type 1, Song 15, Local: 00, (4096, 921, -1400) (0000, 0000, 0000)
+0185:8B7F Check Spot, Disappears on Switch, dialog Sleepless Waterfall / The flow of this w, No Flag, (4097, 920, -1399) (0000, C000, 0029)
+

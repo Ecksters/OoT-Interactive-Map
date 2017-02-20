@@ -1,0 +1,61 @@
+Room 2
+Room at 02296000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 04
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000D0
+0B: There are 8 Object(s). List starts at 0000005C
+00AF, 0031, 0163, 00C9, 012C, 018A, 0126, 0188, 
+01: There are 6 actor(s). List starts at 0000006C
+0059:2005 Bombable Wall, Perm: 05, (-508, 398, 1366) (0000, 42D8, 0000)
+0059:A006 Bombable Wall, Perm: 06, (-609, 398, 1351) (0000, 3B06, 0000)
+013D:0006 Lockable Blue Arrow Spot, (-951, 400, 1317) (0000, 399A, 0000)
+0111:6701 Breakable Pot, Collectable: 01 Temp: 13, (-694, 430, 1196) (0000, 0000, 0000)
+0008:0395 Decorative Flame, (-821, 332, 1163) (0000, 0000, 0000)
+01B9:3A19 Gossip Stone, (-863, 400, 1496) (0000, 4000, 0000)
+
+Setup 2: 00000150
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 04
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000D0
+0B: There are 8 Object(s). List starts at 00000190
+00AF, 0031, 0163, 00C9, 012C, 018A, 0126, 0188, 
+01: There are 6 actor(s). List starts at 000001A0
+01B9:3A19 Gossip Stone, (-863, 400, 1496) (0000, 4000, 0000)
+0059:2005 Bombable Wall, Perm: 05, (-508, 398, 1366) (0000, 42D8, 0000)
+0059:A006 Bombable Wall, Perm: 06, (-609, 398, 1351) (0000, 3B06, 0000)
+0111:7101 Breakable Pot, Collectable: 01 Temp: 18, (-694, 430, 1196) (0000, 0000, 0000)
+0008:0395 Decorative Flame, (-821, 332, 1163) (0000, 0000, 0000)
+013D:0006 Lockable Blue Arrow Spot, (-951, 400, 1317) (0000, 399A, 0000)
+
+Cutscene 0: 00000200
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 04
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 030000D0
+0B: There are 8 Object(s). List starts at 00000240
+00AF, 009D, 0126, 00C9, 011E, 012C, 000E, 002B, 
+01: There are 9 actor(s). List starts at 00000250
+0059:2002 Bombable Wall, Perm: 02, (-363, 400, 1207) (0000, 782E, 0000)
+0059:2004 Bombable Wall, Perm: 04, (-404, 400, 1319) (0000, 6222, 0000)
+0059:2005 Bombable Wall, Perm: 05, (-508, 400, 1366) (0000, 42D8, 0000)
+0059:2006 Bombable Wall, Perm: 06, (-609, 400, 1351) (0000, 3B06, 0000)
+0111:7F3F Breakable Pot, Collectable: 3F Temp: 1F, (-694, 430, 1196) (0000, 0000, 0000)
+0008:03F5 Decorative Flame, (-821, 384, 1163) (00B6, 3B06, 0000)
+013D:0006 Lockable Blue Arrow Spot, (-951, 400, 1317) (0000, 399A, 0000)
+0127:00FF Brown Boulder, invalid, (-863, 400, 1496) (0000, 22D8, 0000)
+0127:00FF Brown Boulder, invalid, (-791, 400, 1502) (0000, DA50, 0000)
+
+Cutscene 1: 000002E0
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 04
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000D0
+

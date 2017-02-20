@@ -1,0 +1,22 @@
+Room 2
+Room at 024C2000
+Setup 0: 00000000
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000100
+0B: There are 11 Object(s). List starts at 00000040
+0036, 001E, 0024, 0039, 0164, 000E, 00A4, 012B, 00B7, 011D, 015C, 
+01: There are 10 actor(s). List starts at 00000058
+0125:FF01 Regen Grass, (-1229, 280, 1006) (0000, 0000, 0000)
+0125:FF01 Regen Grass, (-1280, 280, 1026) (0000, 0000, 0000)
+0125:FF01 Regen Grass, (-1005, 280, 1216) (0000, C71C, 0000)
+0125:FF01 Regen Grass, (-1018, 280, 1263) (0000, C71C, 0000)
+0173:3F04 Targetable Navi Spot (Green), (-1065, 590, 1074) (0005, 0024, 0001)
+000F:1FFF Web, Wall, No Flag, Burn on No Flag, (-1047, 613, 1077) (0CCD, E5B0, 0EEF)
+000A:00A1 Chest, Large, reward 05: Fairy Slingshot, chest flag: 01, bound to Perm: 00, (-1391, 480, 1391) (0000, E000, 0000)
+000A:5905 Chest, Small, reward 48: Heart, chest flag: 05, bound to Perm: 00, (-1108, 656, 1582) (0000, 2000, 0000)
+012C:0050 Square Collapsing Platform, (-1188, 390, 1190) (0000, E000, 0000)
+0051:0123 Rotating Spike Cylinder, (-1066, 560, 1066) (0000, E000, 0000)
+

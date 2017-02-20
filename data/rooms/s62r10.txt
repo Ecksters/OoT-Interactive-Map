@@ -1,0 +1,16 @@
+Room 10
+Room at 026F9000
+Setup 0: 00000000
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000090
+0B: There are 1 Object(s). List starts at 00000040
+0016, 
+01: There are 4 actor(s). List starts at 00000044
+0094:5322 Butterflies (defunct?), (3006, -137, 787) (0000, 0000, 0000)
+0094:5322 Butterflies (defunct?), (3010, -207, 831) (0000, 0000, 0000)
+001B:FFFE Blue Tektite, (3034, -20, 768) (0000, 0000, 0000)
+0015:0106 Collectable Heart Piece, Perm: 01, (3016, -340, 743) (0000, 0000, 0000)
+

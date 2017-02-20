@@ -1,0 +1,18 @@
+Room 15
+Room at 03254000
+Setup 0: 00000000
+16: Sound Settings: Echo 6
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000B0
+0B: There are 6 Object(s). List starts at 00000040
+0179, 002C, 00BA, 00ED, 009D, 0075, 
+01: There are 6 actor(s). List starts at 0000004C
+01A7:0003 Ganon's Tower Magic Barrier, (-2187, 183, -4268) (0000, 1555, 0000)
+00A8:0002 Sage Darunia (Cutscene), (-2187, 303, -4264) (2000, 1555, 0000)
+0008:03FC Decorative Flame, (-2033, 193, -4229) (0000, 0000, 0000)
+0008:03FC Decorative Flame, (-2230, 193, -4116) (0000, 0000, 0000)
+0111:6003 Breakable Pot, Collectable: 03 Temp: 10, (-2051, 153, -3855) (0000, 0000, 0000)
+0111:620F Breakable Pot, Collectable: 0F Temp: 11, (-1898, 153, -3942) (0000, 0000, 0000)
+
