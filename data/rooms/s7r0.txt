@@ -1,0 +1,32 @@
+Room 0
+Room at 027C0000
+Setup 0: 00000000
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? True, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 03000190
+0B: There are 3 Object(s). List starts at 00000040
+0069, 0187, 000E, 
+01: There are 20 actor(s). List starts at 00000048
+0111:500F Breakable Pot, Collectable: 0F Temp: 08, (-1806, -63, -344) (0000, 4000, 0000)
+0111:520F Breakable Pot, Collectable: 0F Temp: 09, (-1721, -63, 61) (0000, 8000, 0000)
+0111:5403 Breakable Pot, Collectable: 03 Temp: 0A, (-1407, -63, 61) (0000, 8000, 0000)
+0111:5E01 Breakable Pot, Collectable: 01 Temp: 0F, (-1614, -63, 61) (0000, 8000, 0000)
+0111:600C Breakable Pot, Collectable: 0C Temp: 10, (-1055, -63, -257) (0000, 4000, 0000)
+0111:6203 Breakable Pot, Collectable: 03 Temp: 11, (-1050, -63, -130) (0000, 4000, 0000)
+011D:00F5 Flying Pot, (-1507, -63, 61) (0000, 8000, 0000)
+0185:4225 Check Spot, Instant, dialog Shadow Temple... here is gathered Hyrule, Temp: 05, (-792, -38, 85) (0000, 8000, 0001)
+0185:4226 Check Spot, Instant, dialog Shadow Temple... here is gathered Hyrule, Temp: 06, (-1074, -38, -188) (0000, 4000, 0001)
+0185:4267 Check Spot, Instant, dialog What is hidden in the darkness... Tricks, Temp: 07, (-1612, -38, -67) (0000, 0000, 0001)
+0185:4268 Check Spot, Instant, dialog What is hidden in the darkness... Tricks, Temp: 08, (-1273, -38, -185) (0000, 4000, 0001)
+0185:42A9 Check Spot, Instant, dialog One who gains the eye of truth will be a, Temp: 09, (-1553, -38, -462) (0000, 0000, 0001)
+0185:422A Check Spot, Instant, dialog Shadow Temple... here is gathered Hyrule, Temp: 0A, (-1827, -38, -190) (0000, 4000, 0001)
+0185:422B Check Spot, Instant, dialog Shadow Temple... here is gathered Hyrule, Temp: 0B, (-794, -38, -465) (0000, 0000, 0001)
+0185:42AC Check Spot, Instant, dialog One who gains the eye of truth will be a, Temp: 0C, (-514, -38, -185) (0000, C000, 0001)
+00AE:0003 Shadow Temple Rock Wall with Skull, (-1274, -63, -185) (0000, C000, 0000)
+00AE:0003 Shadow Temple Rock Wall with Skull, (-514, -63, -185) (0000, C000, 0000)
+00AE:0003 Shadow Temple Rock Wall with Skull, (-1074, -63, -185) (0000, C000, 0000)
+00AE:0003 Shadow Temple Rock Wall with Skull, (-1834, -63, -405) (0000, C000, 0000)
+00AE:0003 Shadow Temple Rock Wall with Skull, (-794, -63, -465) (0000, 0000, 0000)
+

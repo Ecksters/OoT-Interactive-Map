@@ -1,0 +1,18 @@
+Room 11
+Room at 01F9D000
+Setup 0: 00000000
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000B0
+0B: There are 6 Object(s). List starts at 00000040
+002B, 018A, 000D, 0024, 015C, 00A4, 
+01: There are 6 actor(s). List starts at 0000004C
+0013:0003 Roosting Keese, (2542, 47, 632) (0000, 8000, 0000)
+0013:0003 Roosting Keese, (2556, 47, 632) (0000, 8000, 0000)
+0013:0003 Roosting Keese, (2572, 47, 632) (0000, 8000, 0000)
+0125:FF01 Regen Grass, (2370, 0, 216) (0000, 0000, 0000)
+005E:2400 Lit Wooden Torch, Perm: 00, (2556, 0, 404) (0000, 0000, 0000)
+0095:8210 Gold Skulltula, Type 4, Group 02, Flag 10, (2561, 63, 634) (0000, 8000, 0000)
+

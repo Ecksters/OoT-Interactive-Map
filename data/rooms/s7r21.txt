@@ -1,0 +1,40 @@
+Room 21
+Room at 0283B000
+Setup 0: 00000000
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 03000220
+0B: There are 11 Object(s). List starts at 00000040
+0069, 0187, 0031, 011C, 0032, 0024, 015C, 0154, 00A8, 0190, 00B7, 
+01: There are 28 actor(s). List starts at 00000058
+012E:1CB8 Music Staff Spot, Type 7, Song 2, Local: 00, (4670, -1160, -2005) (0000, C000, 0001)
+01C9:0539 Green Navi Spot, (3972, -1043, -1632) (0000, 4000, 0003)
+01C9:053B Green Navi Spot, (-3513, -1003, -907) (0000, 4000, 0008)
+00FF:1D02 Very large Red Block, Bound to Perm: 1D, load when unset, (3938, -1363, -1486) (0000, 0000, 0000)
+00FF:1DC6 Very large Color12 Block, Bound to Perm: 1D, load when set, (4478, -1378, -1586) (0000, 0000, 0000)
+0139:001D Block Spot Switch, Perm: 1D, (4478, -1378, -1586) (0000, 0000, 0000)
+0015:2203 Collectable Heart, Temp: 02, (3971, -1043, -1716) (0000, 0000, 0000)
+0015:2303 Collectable Heart, Temp: 03, (3970, -1043, -1560) (0000, 0000, 0000)
+0015:3903 Collectable Heart, Temp: 19, (-3473, -1003, -927) (0000, 0000, 0000)
+0015:3A03 Collectable Heart, Temp: 1A, (-3471, -1003, -884) (0000, 0000, 0000)
+0015:3C03 Collectable Heart, Temp: 1C, (-3164, -1201, -646) (0000, 0000, 0000)
+0095:8810 Gold Skulltula, Type 4, Group 08, Flag 10, (3881, -948, -1495) (4000, 4000, 0000)
+01D1:380C Time Block, Perm: 0C, (-3065, -1363, -642) (0000, 0000, 0002)
+0002:0003 Stalfos, Drops down from sky, No miniboss music, (2746, -991, -2011) (0000, 0000, 0000)
+0002:0003 Stalfos, Drops down from sky, No miniboss music, (1209, -974, -1982) (0000, 0000, 0000)
+0173:2084 Targetable Navi Spot (Green), (-2715, -1293, -288) (0006, 0011, 001E)
+0111:7009 Breakable Pot, Collectable: 09 Temp: 18, (-2400, -1363, -1470) (0000, 0000, 0000)
+0111:763F Breakable Pot, Collectable: 3F Temp: 1B, (-2230, -1363, -1470) (0000, 0000, 0000)
+0111:7A0A Breakable Pot, Collectable: 0A Temp: 1D, (-2859, -1363, -497) (0000, 0000, 0000)
+0111:7C0E Breakable Pot, Collectable: 0E Temp: 1E, (-2624, -1363, -492) (0000, 0000, 0000)
+004C:FFFF Bombflower, (-2216, -1363, -840) (0000, 8000, 0000)
+004C:FFFF Bombflower, (-2270, -1363, -743) (0000, 8000, 0000)
+004C:FFFF Bombflower, (-2251, -1363, -888) (0000, 8000, 0000)
+004C:FFFF Bombflower, (-2229, -1363, -776) (0000, 8000, 0000)
+004C:FFFF Bombflower, (-2267, -1363, -826) (0000, 8000, 0000)
+004C:FFFF Bombflower, (-2305, -1363, -776) (0000, 8000, 0000)
+00BE:1000 Shadow Temple Object, (-2257, -1323, -699) (0000, 0000, 0000)
+00B0:3800 Shadow Temple Ship, (4738, -1395, -2006) (0000, 0000, 0000)
+

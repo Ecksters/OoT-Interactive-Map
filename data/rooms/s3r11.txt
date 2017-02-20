@@ -1,0 +1,26 @@
+Room 11
+Room at 0245B000
+Setup 0: 00000000
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000140
+0B: There are 11 Object(s). List starts at 00000040
+0073, 0072, 0099, 00A4, 000E, 0090, 005C, 006F, 005D, 0024, 00B7, 
+01: There are 14 actor(s). List starts at 00000058
+0069:FFFF Bubble (flying skull), (-1459, 1263, -1591) (0000, DC72, 0000)
+0069:FFFF Bubble (flying skull), (-1578, 383, -1532) (0000, 0000, 0000)
+0069:FFFF Bubble (flying skull), (-1768, 1263, -1354) (0000, 8000, 0000)
+000A:8964 Chest, Small, Falls, Switch Flag, reward 4B: Arrows (15), chest flag: 04, bound to Perm: 0F, (-1645, 1156, -1297) (0000, FF4A, 000F)
+00FF:0542 Very large Green Block, Bound to Perm: 05, load when unset, (-1967, 623, -1260) (0000, 4000, 0000)
+00FF:0546 Very large Green Block, Bound to Perm: 05, load when set, (-2287, 603, -1020) (0000, 0000, 0000)
+0139:0005 Block Spot Switch, Perm: 05, (-2287, 603, -1020) (0000, 0000, 0000)
+00FF:0702 Very large Red Block, Bound to Perm: 07, load when unset, (-1807, 843, -1380) (0000, 4000, 0000)
+00FF:0706 Very large Red Block, Bound to Perm: 07, load when set, (-1607, 823, -1140) (0000, 0000, 0000)
+0139:0007 Block Spot Switch, Perm: 07, (-1607, 823, -1140) (0000, 0000, 0000)
+011B:088F Navi Infospot, Type: Pop-up, Text: There are arrows painted on the  / floor!, Perm: 08, (-2175, 623, -1258) (0014, 0029, 0000)
+012A:0F02 Eye Switch, Ice? no, ?? no, Blue? no, Toggle? no, Perm: 0F, (-1647, 1047, -1251) (0000, 8000, 0000)
+0068:7F20 Twisted Hallway Rooms, (-1761, 1278, -3015) (0000, 0000, 0000)
+012A:2012 Eye Switch, Ice? no, ?? no, Blue? no, Toggle? yes, Temp: 00, (-1760, 1401, -1794) (0000, 0000, 0000)
+

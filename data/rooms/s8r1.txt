@@ -1,0 +1,68 @@
+Room 1
+Room at 032E9000
+Setup 0: 00000000
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030003E0
+0B: There are 10 Object(s). List starts at 00000040
+008D, 0187, 0098, 000E, 0090, 012B, 0031, 0163, 00A6, 00A4, 
+01: There are 56 actor(s). List starts at 00000054
+003B:0008 Ambient Sound, Dripping noise (Well), (-310, -736, -161) (0000, 0000, 0000)
+0125:FF01 Regen Grass, (-956, -720, -1463) (0000, 0000, 0000)
+0125:FF01 Regen Grass, (-956, -720, -1377) (0000, 0000, 0000)
+0125:FF01 Regen Grass, (-943, -720, -1316) (0000, 0000, 0000)
+0125:FF01 Regen Grass, (-918, -720, -1131) (0000, 0000, 0000)
+0125:FF01 Regen Grass, (-886, -720, -1263) (0000, 0000, 0000)
+0125:FF01 Regen Grass, (-874, -720, -1447) (0000, 0000, 0000)
+0125:FF01 Regen Grass, (-872, -720, -1383) (0000, 0000, 0000)
+0125:FF01 Regen Grass, (-870, -720, -1021) (0000, 0000, 0000)
+0125:FF01 Regen Grass, (-858, -720, -1330) (0000, 0000, 0000)
+0125:FF01 Regen Grass, (-619, -720, -627) (0000, 0000, 0000)
+0125:FF01 Regen Grass, (-565, -720, -654) (0000, 0000, 0000)
+0125:FF01 Regen Grass, (-552, -720, -711) (0000, 0000, 0000)
+0090:7F02 Redead, Crouching, (-498, -720, -527) (0000, A000, 0000)
+0090:7F02 Redead, Crouching, (565, -720, 251) (0000, 8000, 0000)
+0008:03F7 Decorative Flame, (-596, -658, -350) (0000, 0000, 0000)
+0008:03F7 Decorative Flame, (-595, -658, -250) (0000, 0000, 0000)
+005E:2400 Lit Wooden Torch, Perm: 00, (38, -720, 13) (0000, 0000, 0000)
+005E:2400 Lit Wooden Torch, Perm: 00, (97, -720, -121) (0000, 0000, 0000)
+0183:FF40 Song of Storms Fairy (Giant Fairy?), (641, -720, -1531) (0000, 0000, 0000)
+004C:FFFF Bombflower, (-939, -720, -1525) (0000, 0000, 0000)
+004C:FFFF Bombflower, (361, -720, -731) (0000, 0000, 0000)
+004C:FFFF Bombflower, (408, -720, -719) (0000, 0000, 0000)
+004C:FFFF Bombflower, (461, -720, -697) (0000, 0000, 0000)
+004C:FFFF Bombflower, (502, -720, -721) (0000, 0000, 0000)
+004C:FFFF Bombflower, (544, -720, -743) (0000, 0000, 0000)
+0015:0201 Collectable Blue rupee, Perm: 02, (47, -560, -805) (0000, 0000, 0000)
+0015:0301 Collectable Blue rupee, Perm: 03, (94, -560, -762) (0000, 0000, 0000)
+0015:0401 Collectable Blue rupee, Perm: 04, (85, -560, -710) (0000, 0000, 0000)
+0015:0501 Collectable Blue rupee, Perm: 05, (-67, -560, -748) (0000, 0000, 0000)
+0015:0601 Collectable Blue rupee, Perm: 06, (-19, -560, -828) (0000, 0000, 0000)
+000A:0827 Chest, Large, reward 41: Map, chest flag: 07, bound to Perm: 00, (684, -720, 75) (0000, 6000, 0000)
+0127:800C Brown Boulder, Perm: 0C Puzzle Solved Sound, (312, -720, 64) (0000, 160B, 0000)
+0127:8013 Brown Boulder, Perm: 13 Puzzle Solved Sound, (334, -720, -8) (0000, CEEF, 0000)
+0127:0014 Brown Boulder, Perm: 14, (409, -720, -637) (0000, 0000, 0000)
+0127:0015 Brown Boulder, Perm: 15, (333, -720, -681) (0000, 8FA5, 0000)
+0127:0019 Brown Boulder, Perm: 19, (-632, -720, -805) (0000, 0000, 0000)
+0127:001A Brown Boulder, Perm: 1A, (-684, -720, -734) (0000, 22D8, 0000)
+0117:1FDF Silver Rupee, Type: Rupee, Perm: 1F, (-796, 0, -150) (0000, 0000, 0000)
+0117:1FDF Silver Rupee, Type: Rupee, Perm: 1F, (-614, -465, -297) (0000, 0000, 0000)
+0117:1FDF Silver Rupee, Type: Rupee, Perm: 1F, (-560, -720, -291) (0000, 0000, 0000)
+0117:1FDF Silver Rupee, Type: Rupee, Perm: 1F, (-402, -701, -401) (0000, 0000, 0000)
+0117:1FDF Silver Rupee, Type: Rupee, Perm: 1F, (-259, -708, -234) (0000, 0000, 0000)
+0117:015F Silver Rupee, Type: Collect 5 Rupees, Perm: 1F, (-528, -720, -307) (0000, 0000, 0000)
+0111:4E03 Breakable Pot, Collectable: 03 Temp: 07, (-95, -720, -673) (0000, 0000, 0000)
+0111:500E Breakable Pot, Collectable: 0E Temp: 08, (75, -720, -598) (0000, 0000, 0000)
+0111:5203 Breakable Pot, Collectable: 03 Temp: 09, (270, -720, -1151) (0000, 0000, 0000)
+0111:5400 Breakable Pot, Collectable: 00 Temp: 0A, (566, -720, -1254) (0000, 0000, 0000)
+0111:560E Breakable Pot, Collectable: 0E Temp: 0B, (378, -720, -1089) (0000, 0000, 0000)
+0111:5803 Breakable Pot, Collectable: 03 Temp: 0C, (665, -720, -1252) (0000, 0000, 0000)
+0111:5A03 Breakable Pot, Collectable: 03 Temp: 0D, (566, -720, -1345) (0000, 0000, 0000)
+0111:5C03 Breakable Pot, Collectable: 03 Temp: 0E, (562, -720, -1304) (0000, 0000, 0000)
+0111:5E0C Breakable Pot, Collectable: 0C Temp: 0F, (313, -720, -1086) (0000, 0000, 0000)
+0111:600D Breakable Pot, Collectable: 0D Temp: 10, (618, -720, -1254) (0000, 0000, 0000)
+0111:620E Breakable Pot, Collectable: 0E Temp: 11, (257, -720, -1099) (0000, 0000, 0000)
+0111:6403 Breakable Pot, Collectable: 03 Temp: 12, (296, -720, -1206) (0000, 0000, 0000)
+

@@ -1,0 +1,16 @@
+Room 24
+Room at 02BB2000
+Setup 0: 00000000
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000090
+0B: There are 2 Object(s). List starts at 00000040
+00F1, 016D, 
+01: There are 4 actor(s). List starts at 00000044
+012E:1CB5 Music Staff Spot, Type 7, Song 2, Temp: 15, (679, 1633, -816) (0000, 0000, 0000)
+0008:03F4 Decorative Flame, (590, 1679, -875) (0000, 0000, 0000)
+0008:03F4 Decorative Flame, (770, 1679, -878) (0000, 0000, 0000)
+0185:8AF5 Check Spot, Disappears on Switch, dialog The crest of the Royal Family is inscrib, Temp: 15, (679, 1633, -816) (0000, 0000, 000B)
+

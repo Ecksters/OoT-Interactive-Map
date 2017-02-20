@@ -1,0 +1,47 @@
+Room 3
+Room at 02C19000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 01
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030001A0
+0B: There are 5 Object(s). List starts at 00000058
+006B, 012C, 00B7, 015C, 0024, 
+01: There are 19 actor(s). List starts at 00000064
+011B:0580 Navi Infospot, Type: Pop-up, Text: I can hear a voice from / somewhere... / It's saying: / "Collect five silver Rup, Perm: 05, (296, 9, -4) (0006, 0021, 0002)
+0095:8A02 Gold Skulltula, Type 4, Group 0A, Flag 02, (-16, 199, -167) (4000, 5F4A, 0000)
+0117:1FC8 Silver Rupee, Type: Rupee, Perm: 08, (1, 0, -143) (0000, 0000, 0000)
+0117:1FC8 Silver Rupee, Type: Rupee, Perm: 08, (198, 0, -388) (0000, 0000, 0000)
+0117:1FC8 Silver Rupee, Type: Rupee, Perm: 08, (278, 0, -637) (0000, 0000, 0000)
+0117:1FC8 Silver Rupee, Type: Rupee, Perm: 08, (389, 0, -382) (0000, 0000, 0000)
+0117:1FC8 Silver Rupee, Type: Rupee, Perm: 08, (414, 178, -579) (0000, 0000, 0000)
+0117:0148 Silver Rupee, Type: Collect 5 Rupees, Perm: 08, (605, 0, -247) (0000, 0000, 0000)
+0111:4E09 Breakable Pot, Collectable: 09 Temp: 07, (433, 0, -732) (0000, 0000, 0000)
+0111:5001 Breakable Pot, Collectable: 01 Temp: 08, (569, 0, -175) (0000, 0000, 0000)
+0111:5203 Breakable Pot, Collectable: 03 Temp: 09, (521, 0, -131) (0000, 0000, 0000)
+011D:00EC Flying Pot, (62, 0, -660) (0000, 0000, 0000)
+01C7:0000 Icicles, (-9, 0, -175) (0000, 0000, 0000)
+01C7:0000 Icicles, (22, 0, -170) (0000, 0000, 0000)
+01C7:0000 Icicles, (44, 0, -139) (0000, 0000, 0000)
+01C8:0801 2D Ice Bars, (575, 172, -728) (0000, D555, 0000)
+00B1:0100 Spining Scythe Statue, (293, 0, -384) (0000, 0000, 0000)
+00EF:030C Red Ice, (651, 0, -232) (0000, B333, 0000)
+00EF:030D Red Ice, (-134, 0, -415) (0000, 3DDE, 0000)
+
+Cutscene 0: 000001C0
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 030001A0
+0B: There are 3 Object(s). List starts at 00000200
+006B, 008A, 00B6, 
+01: There are 5 actor(s). List starts at 00000208
+000A:007F Chest, Large, reward 03: Bombchus (10), chest flag: 1F, bound to Perm: 00, (-118, 387, -409) (0000, C000, 0000)
+00B1:0100 Spining Scythe Statue, (293, 0, -384) (0000, 0000, 0000)
+00EF:03FF Red Ice, (554, 172, -701) (0000, DF4A, 0000)
+00EF:03FF Red Ice, (-55, 0, -415) (0000, 3DDE, 0000)
+00EF:03FF Red Ice, (-134, 0, -415) (0000, 3DDE, 0000)
+

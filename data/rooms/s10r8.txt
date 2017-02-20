@@ -1,0 +1,31 @@
+Room 8
+Room at 02F3C000
+Setup 0: 00000000
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000180
+0B: There are 2 Object(s). List starts at 00000040
+0139, 00B0, 
+01: There are 19 actor(s). List starts at 00000044
+003B:00FA Ambient Sound, Unknown, (-7, 780, 197) (0000, 0000, 0000)
+0111:400E Breakable Pot, Collectable: 0E Temp: 00, (-422, 800, -258) (0000, 0000, 0000)
+0111:4203 Breakable Pot, Collectable: 03 Temp: 01, (-382, 800, -300) (0000, 0000, 0000)
+0111:440F Breakable Pot, Collectable: 0F Temp: 02, (-342, 800, -341) (0000, 0000, 0000)
+0111:460F Breakable Pot, Collectable: 0F Temp: 03, (-298, 800, -383) (0000, 0000, 0000)
+0111:4803 Breakable Pot, Collectable: 03 Temp: 04, (-257, 800, -424) (0000, 0000, 0000)
+0111:4A09 Breakable Pot, Collectable: 09 Temp: 05, (-382, 800, -259) (0000, 0000, 0000)
+0111:4C09 Breakable Pot, Collectable: 09 Temp: 06, (-342, 800, -300) (0000, 0000, 0000)
+0111:4E03 Breakable Pot, Collectable: 03 Temp: 07, (-301, 800, -341) (0000, 0000, 0000)
+0111:503F Breakable Pot, Collectable: 3F Temp: 08, (-258, 800, -383) (0000, 0000, 0000)
+0111:523F Breakable Pot, Collectable: 3F Temp: 09, (418, 800, -261) (0000, 0000, 0000)
+0111:5409 Breakable Pot, Collectable: 09 Temp: 0A, (377, 800, -301) (0000, 0000, 0000)
+0111:5609 Breakable Pot, Collectable: 09 Temp: 0B, (338, 800, -340) (0000, 0000, 0000)
+0111:5803 Breakable Pot, Collectable: 03 Temp: 0C, (300, 800, -380) (0000, 0000, 0000)
+0111:5A03 Breakable Pot, Collectable: 03 Temp: 0D, (260, 800, -420) (0000, 0000, 0000)
+0111:5C03 Breakable Pot, Collectable: 03 Temp: 0E, (378, 800, -261) (0000, 0000, 0000)
+0111:5E3F Breakable Pot, Collectable: 3F Temp: 0F, (337, 800, -300) (0000, 0000, 0000)
+0111:603F Breakable Pot, Collectable: 3F Temp: 10, (299, 800, -340) (0000, 0000, 0000)
+0111:6209 Breakable Pot, Collectable: 09 Temp: 11, (260, 800, -380) (0000, 0000, 0000)
+

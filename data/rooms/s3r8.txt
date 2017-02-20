@@ -1,0 +1,23 @@
+Room 8
+Room at 02432000
+Setup 0: 00000000
+16: Sound Settings: Echo 4
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000110
+0B: There are 11 Object(s). List starts at 00000040
+0073, 0072, 0099, 005D, 0024, 00A4, 000E, 0007, 0039, 00B7, 015C, 
+01: There are 11 actor(s). List starts at 00000058
+000E:FF00 Octorok, (-1330, 188, -2479) (0000, 3333, 0000)
+0095:0000 Skullwalltula, Type 0, Group 00, Flag 00, (-305, 684, -2883) (0000, C000, 0000)
+0095:0000 Skullwalltula, Type 0, Group 00, Flag 00, (-305, 329, -2860) (0000, C000, 0000)
+0095:0000 Skullwalltula, Type 0, Group 00, Flag 00, (-305, 539, -2780) (0000, C000, 0000)
+0055:0001 Deku Baba (Snapping), (-929, 204, -2501) (0000, 238E, 0000)
+0055:0001 Deku Baba (Snapping), (-1509, 523, -2368) (0000, 3E94, 0000)
+0095:8404 Gold Skulltula, Type 4, Group 04, Flag 04, (-1123, 784, -3032) (0000, 0000, 0000)
+000A:5849 Chest, Small, reward 42: Small Key, chest flag: 09, bound to Perm: 00, (-1033, -236, -1751) (0000, 0000, 0000)
+00E4:0026 Forest Temple Well Water, (-1027, 174, -1760) (0000, 0000, 0000)
+0015:2D03 Collectable Heart, Temp: 0D, (-1124, 504, -2855) (0000, 0000, 0000)
+0015:2E03 Collectable Heart, Temp: 0E, (-1165, 504, -2788) (0000, 0000, 0000)
+

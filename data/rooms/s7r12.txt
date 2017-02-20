@@ -1,0 +1,24 @@
+Room 12
+Room at 0280D000
+Setup 0: 00000000
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 03000120
+0B: There are 10 Object(s). List starts at 00000040
+0069, 0187, 00AA, 00CE, 00CD, 00D8, 000D, 0024, 0177, 0031, 
+01: There are 12 actor(s). List starts at 00000054
+0095:8804 Gold Skulltula, Type 4, Group 08, Flag 04, (-5890, -1188, -1585) (4000, 4000, 0000)
+0112:19CB Invisible Collectible, 03 07 0B, (-5061, -1050, -1587) (0000, C000, 0001)
+0008:03F7 Decorative Flame, (-6019, -935, -1254) (0000, 0000, 0000)
+0008:03F7 Decorative Flame, (-5186, -1071, -1923) (0000, 0000, 0000)
+0008:03F7 Decorative Flame, (-5181, -1071, -1258) (0000, 0000, 0000)
+0008:03F7 Decorative Flame, (-6018, -938, -1917) (0000, 0000, 0000)
+004C:FFFF Bombflower, (-6120, -1103, -1763) (0000, 0000, 0000)
+004C:FFFF Bombflower, (-6120, -1103, -1398) (0000, 0000, 0000)
+00BB:00FF Giant Skull Jar, (-5632, -1343, -1713) (0000, D555, 0000)
+00BB:00FF Giant Skull Jar, (-5632, -1343, -1462) (0000, 2AAB, 0000)
+00BB:00FF Giant Skull Jar, (-5414, -1343, -1587) (0000, 8000, 0000)
+00AF:0002 Shadow Temple Platforms, (-5559, -1363, -1587) (0000, 8000, 0000)
+

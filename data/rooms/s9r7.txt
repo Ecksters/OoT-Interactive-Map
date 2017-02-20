@@ -1,0 +1,30 @@
+Room 7
+Room at 02C38000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 01
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000B0
+0B: There are 5 Object(s). List starts at 00000058
+006B, 008A, 000E, 0090, 0183, 
+01: There are 4 actor(s). List starts at 00000064
+01AF:1401 Wolfos, Perm: 14, (-1096, 282, 964) (0000, 9A50, 0000)
+0048:0008 Sheik?, (-1108, 290, 660) (0000, 0000, 0000)
+01C8:FF02 2D Ice Bars, (-896, 278, 1176) (C000, 2000, 0000)
+000A:15C2 Chest, Large, Appears, Clear Flag, reward 2E: Iron Boots, chest flag: 02, bound to Perm: 00, (-1005, 280, 1068) (0000, 216C, 0000)
+
+Cutscene 0: 000000D0
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 030000B0
+0B: There are 3 Object(s). List starts at 00000110
+006B, 008A, 00B6, 
+01: There are 3 actor(s). List starts at 00000118
+0048:0002 Sheik?, (-1219, 291, 777) (0000, 0000, 0000)
+008C:0009 ???, (-1194, 290, 828) (0000, 0000, 0000)
+00EF:02FF Red Ice, (-1005, 280, 1068) (0000, 8000, 0000)
+

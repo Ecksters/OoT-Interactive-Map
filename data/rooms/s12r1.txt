@@ -1,0 +1,23 @@
+Room 1
+Room at 032A5000
+Setup 0: 00000000
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000100
+0B: There are 7 Object(s). List starts at 00000040
+00A4, 0122, 014B, 0169, 0167, 0170, 0116, 
+01: There are 11 actor(s). List starts at 00000050
+0172:0A04 Metal Grate Door (Boss Door?), (2136, 0, -2980) (0000, C000, 0000)
+0197:0A00 Gerudo Fighter, (1912, 300, -2896) (0000, 4000, 0010)
+0186:1600 Patrolling Gerudo, (1598, 0, -2314) (0000, C000, 0003)
+0112:1D3F Invisible Collectible, 03 14 3F, (1666, 112, -2323) (0000, 0000, 0001)
+0112:1D3F Invisible Collectible, 03 14 3F, (1378, 107, -2829) (0000, 0000, 0001)
+005E:2400 Lit Wooden Torch, Perm: 00, (1680, 0, -3080) (0000, C000, 0000)
+005E:2400 Lit Wooden Torch, Perm: 00, (2080, 0, -2680) (0000, C000, 0000)
+005E:2400 Lit Wooden Torch, Perm: 00, (2080, 0, -3080) (0000, C000, 0000)
+0133:0433 Carpenter, (2162, 0, -2868) (0000, C000, 0010)
+0185:4708 Check Spot, Instant, dialog Hey, you! Young man, over there! Look ov, Perm: 08, (2159, 55, -2870) (0000, C000, 000A)
+01A0:FFFF Large Crate, (1090, 0, -2210) (0000, 0000, 0000)
+

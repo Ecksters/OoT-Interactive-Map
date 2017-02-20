@@ -1,0 +1,47 @@
+Room 7
+Room at 02782000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000180
+0B: There are 9 Object(s). List starts at 00000058
+0096, 00A3, 0007, 0012, 0021, 0056, 0026, 00D5, 0022, 
+01: There are 17 actor(s). List starts at 0000006C
+0035:FFFF Electric Tailparisans, (-79, -340, -4438) (0000, 2EEF, 0000)
+0035:FFFF Electric Tailparisans, (69, -340, -4440) (0000, D49F, 0000)
+0035:FFFF Electric Tailparisans, (-4, -340, -4517) (0000, 0000, 0000)
+0035:FFFF Electric Tailparisans, (-414, -340, -4557) (0000, 2B61, 0000)
+0035:FFFF Electric Tailparisans, (396, -340, -4557) (0000, D60B, 0000)
+011B:1931 Navi Infospot, Type: Pop-up, Text: Watch out, LINK! Electricity is running through this red slimy thing!, Perm: 19, (-664, -340, -5022) (001E, 000C, 0000)
+011B:1A31 Navi Infospot, Type: Pop-up, Text: Watch out, LINK! Electricity is running through this red slimy thing!, Perm: 1A, (665, -340, -5012) (001E, 000C, 0000)
+011B:1B32 Navi Infospot, Type: Pop-up, Text: Watch out, LINK! Electricity is running through this blue slimy thing!, Perm: 1B, (-4, -340, -5132) (001E, 000D, 0000)
+011B:3F33 Navi Infospot, Type: Pop-up, Text: This switch... It doesn’t look like you can press it down with your weight alone, No Flag, (776, -340, -4686) (0006, 001D, 0000)
+011B:1037 Navi Infospot, Type: Pop-up, Text: The red slimy thing is gone! That must be because you cut the red tail! Will tha, Perm: 10, (-664, -340, -5022) (001E, 004C, 0000)
+011B:1037 Navi Infospot, Type: Pop-up, Text: The red slimy thing is gone! That must be because you cut the red tail! Will tha, Perm: 10, (665, -340, -5012) (001E, 004C, 0000)
+00DF:0B80 Jabu-Jabu Electrified Tentacle, (659, -340, -5021) (0000, 0000, 0000)
+00DF:0B80 Jabu-Jabu Electrified Tentacle, (-659, -340, -5022) (0000, 0000, 0000)
+00DF:0C82 Jabu-Jabu Electrified Tentacle, (-1, -340, -5140) (0000, 0000, 0000)
+00A1:0206 Child Princess Ruto, (-790, -340, -4686) (0000, C000, 0000)
+00E6:3800 Jabu-Jabu Switch, (-731, -340, -4683) (0000, 0000, 0000)
+00E6:1C01 Jabu-Jabu Switch, (774, -340, -4686) (0000, 0000, 0000)
+
+Cutscene 0: 000001A0
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 03000180
+0B: There are 4 Object(s). List starts at 000001E0
+0096, 00A3, 00D5, 0056, 
+01: There are 7 actor(s). List starts at 000001E8
+0063:FFFF Bari (Big Jellyfish), (-410, -220, -4670) (0000, 2EEF, 0000)
+0063:FFFF Bari (Big Jellyfish), (410, -220, -4671) (0000, D49F, 0000)
+00DF:3FFF Jabu-Jabu Electrified Tentacle, (-1, -340, -5218) (0000, 0000, 0000)
+00DF:3FFF Jabu-Jabu Electrified Tentacle, (658, -340, -5100) (0000, 0000, 0000)
+00DF:3FFF Jabu-Jabu Electrified Tentacle, (-660, -340, -5100) (0000, 0000, 0000)
+00E6:3F00 Jabu-Jabu Switch, (-901, -340, -4683) (0000, 0000, 0000)
+00E6:3F01 Jabu-Jabu Switch, (901, -340, -4683) (0000, 0000, 0000)
+

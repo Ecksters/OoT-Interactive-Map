@@ -1,0 +1,43 @@
+Room 9
+Room at 02C40000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 01
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000170
+0B: There are 9 Object(s). List starts at 00000058
+006B, 0114, 000E, 00B7, 0090, 000D, 0085, 0024, 015C, 
+01: There are 16 actor(s). List starts at 0000006C
+0013:0004 Ice Keese, (429, 356, -2385) (0000, 5555, 0000)
+0013:0004 Ice Keese, (451, 340, -2601) (0000, 0000, 0000)
+0013:0004 Ice Keese, (963, 303, -2046) (0000, B27D, 0000)
+011B:6889 Navi Infospot, Type: Pop-up, Text: This blue fire...it doesn't seem / natural. Maybe you can use it for / something, Temp: 08, (603, 202, -2468) (0014, 0000, 0014)
+0121:FFFF Freezard, (577, 22, -2212) (0000, 0000, 0000)
+0080:4520 Sliding Metal Spike Trap, (600, 22, -2467) (0000, 0000, 0000)
+0015:2203 Collectable Heart, Temp: 02, (1171, 182, -2258) (0000, 0000, 0000)
+0015:2303 Collectable Heart, Temp: 03, (1212, 182, -2213) (0000, 0000, 0000)
+0015:2403 Collectable Heart, Temp: 04, (1166, 182, -2173) (0000, 0000, 0000)
+0111:5A14 Breakable Pot, Collectable: 14 Temp: 0D, (366, 213, -2036) (0000, 0000, 0000)
+00F0:FFFF Blue Flame, (602, 226, -2468) (0000, 0000, 0000)
+00EF:0106 Red Ice, (366, 213, -2036) (0000, 8AAB, 0000)
+00EF:0007 Red Ice, (277, 262, -2600) (0000, 0AAB, 0000)
+0121:0000 Freezard, (405, 213, -2221) (0000, 7333, 0000)
+0121:0000 Freezard, (993, 162, -2216) (0000, C5B0, 0000)
+000A:0820 Chest, Large, reward 41: Map, chest flag: 00, bound to Perm: 00, (275, 262, -2608) (0000, 8EEF, 0000)
+
+Cutscene 0: 00000190
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 03000170
+0B: There are 3 Object(s). List starts at 000001D0
+006B, 008A, 00B6, 
+01: There are 4 actor(s). List starts at 000001D8
+00EF:01FF Red Ice, (1186, 222, -2212) (0000, C000, 0000)
+00EF:01FF Red Ice, (275, 262, -2608) (0000, 0AAB, 0000)
+00EF:01FF Red Ice, (379, 213, -2029) (0000, 8AAB, 0000)
+00F0:FFFF Blue Flame, (580, 226, -2479) (0000, 0000, 0000)
+

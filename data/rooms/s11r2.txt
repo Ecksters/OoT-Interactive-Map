@@ -1,0 +1,31 @@
+Room 2
+Room at 028A1000
+Setup 0: 00000000
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000180
+0B: There are 8 Object(s). List starts at 00000040
+004D, 002C, 011F, 000E, 0090, 018E, 011C, 000B, 
+01: There are 19 actor(s). List starts at 00000050
+012D:FFC2 Hookshot Block, (-1580, 358, -1006) (4000, 0000, 0000)
+012D:FFC2 Hookshot Block, (-1574, 358, -1904) (4000, 0000, 0000)
+012D:FFC2 Hookshot Block, (-1218, 360, -1636) (4000, 0000, 0000)
+012D:FFC2 Hookshot Block, (-1578, 358, -1599) (4000, 0000, 0000)
+0011:1102 Ceiling Wall Master, (-2345, 193, -1439) (0000, 4000, 0000)
+0011:0001 Ceiling Wall Master, (-1589, -80, -1329) (0000, 0000, 0000)
+000C:00FF Proximity Fire Wall, (-1575, 160, -1785) (0000, 0000, 0000)
+000C:00FF Proximity Fire Wall, (-1400, -80, -999) (0000, C000, 0000)
+000C:00FF Proximity Fire Wall, (-1759, 160, -1921) (0000, C000, 0000)
+0117:1FDC Silver Rupee, Type: Rupee, Perm: 1C, (-1332, -80, -992) (0000, 0000, 0000)
+0117:1FDC Silver Rupee, Type: Rupee, Perm: 1C, (-1886, -80, -956) (0000, 0000, 0000)
+0117:1FDC Silver Rupee, Type: Rupee, Perm: 1C, (-1579, 236, -999) (0000, 0000, 0000)
+0117:1FDC Silver Rupee, Type: Rupee, Perm: 1C, (-1627, 182, -1462) (0000, 0000, 0000)
+0117:1FDC Silver Rupee, Type: Rupee, Perm: 1C, (-1887, 160, -2134) (0000, 0000, 0000)
+0117:015C Silver Rupee, Type: Collect 5 Rupees, Perm: 1C, (-1580, -80, -804) (0000, 8000, 0000)
+0185:4E5C Check Spot, Instant, dialog Gather the jewels of white, while avoidi, Perm: 1C, (-1557, -40, -1268) (0000, 0000, 0045)
+0130:0000 ???, (-1221, 519, -2061) (0000, 0000, 0001)
+0130:0001 ???, (-1945, 433, -2063) (0000, 0000, 0001)
+0187:705A Timer, Room Clear Time: 01:30 Perm: 1C, (-1583, 105, -1113) (0000, 0000, 0000)
+

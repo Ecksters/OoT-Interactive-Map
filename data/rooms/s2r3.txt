@@ -1,0 +1,35 @@
+Room 3
+Room at 02769000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000F0
+0B: There are 10 Object(s). List starts at 00000058
+0096, 00A3, 0007, 0012, 0021, 0056, 0026, 00D5, 0024, 015C, 
+01: There are 8 actor(s). List starts at 0000006C
+00DF:0A81 Jabu-Jabu Electrified Tentacle, (-260, -1015, -3401) (0000, 0000, 0000)
+0034:FFFF Biri thing?, (-69, -990, -3530) (0000, 0000, 0000)
+0034:FFFF Biri thing?, (69, -1039, -3380) (0000, 0000, 0000)
+0034:FFFF Biri thing?, (-98, -1022, -3044) (0000, 0000, 0000)
+0034:FFFF Biri thing?, (112, -916, -2936) (0000, 0000, 0000)
+00A1:0203 Child Princess Ruto, (222, -1113, -3270) (0000, 0000, 0000)
+0095:8301 Gold Skulltula, Type 4, Group 03, Flag 01, (-84, -977, -3657) (0000, 0000, 0000)
+0095:8302 Gold Skulltula, Type 4, Group 03, Flag 02, (-325, -925, -3509) (0000, 2B61, 0000)
+
+Cutscene 0: 00000110
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 030000F0
+0B: There are 4 Object(s). List starts at 00000150
+0096, 00A3, 0026, 00D5, 
+01: There are 4 actor(s). List starts at 00000158
+003A:000A Stinger, (30, -1206, -3032) (0000, 0000, 0000)
+003A:000A Stinger, (-18, -1210, -3408) (0000, 0000, 0000)
+00DF:3FFF Jabu-Jabu Electrified Tentacle, (-255, -1015, -3401) (0000, 0000, 0000)
+00A1:0003 Child Princess Ruto, (222, -1113, -3270) (0000, 0000, 0000)
+

@@ -1,0 +1,20 @@
+Room 10
+Room at 01F95000
+Setup 0: 00000000
+16: Sound Settings: Echo 4
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000E0
+0B: There are 15 Object(s). List starts at 00000040
+002B, 018A, 000D, 0031, 000E, 001F, 0038, 0085, 012B, 008B, 0177, 0168, 0024, 0154, 0188, 
+01: There are 8 actor(s). List starts at 00000060
+0125:FF01 Regen Grass, (3189, 411, -485) (0000, 0000, 0000)
+002F:FFFF Baby Dodongo, (3609, 531, -364) (0000, C000, 0000)
+002F:FFFF Baby Dodongo, (3621, 531, -264) (0000, C000, 0000)
+002F:FFFF Baby Dodongo, (4002, 531, -314) (0000, C000, 0000)
+0049:2FF8 Flame Circle, Small, shuts off for long time, camera 0F, bound to Local: 00, (2948, 531, -316) (0000, 0000, 0000)
+012A:3802 Eye Switch, Ice? no, ?? no, Blue? no, Toggle? no, Local: 00, (3218, 731, -320) (0000, C000, 0000)
+0111:7203 Breakable Pot, Collectable: 03 Temp: 19, (3195, 411, -155) (0000, 0000, 0000)
+0111:7401 Breakable Pot, Collectable: 01 Temp: 1A, (2704, 411, -483) (0000, 0000, 0000)
+

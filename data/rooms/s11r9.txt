@@ -1,0 +1,36 @@
+Room 9
+Room at 028D9000
+Setup 0: 00000000
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030001E0
+0B: There are 12 Object(s). List starts at 00000040
+004D, 000E, 0090, 00B5, 00E5, 0021, 0059, 013B, 011C, 0085, 0190, 00A8, 
+01: There are 24 actor(s). List starts at 00000058
+012D:FFC2 Hookshot Block, (2307, -668, -1702) (0000, 0000, 0000)
+012D:FFC2 Hookshot Block, (2307, -671, -1224) (0000, 8000, 0000)
+012D:FFC2 Hookshot Block, (2065, -671, -1464) (0000, 4000, 0000)
+012D:FFC2 Hookshot Block, (2543, -671, -1466) (0000, C000, 0000)
+00C5:FFFF Shell Blade, (2153, -960, -1601) (0000, 20B6, 0000)
+00C5:FFFF Shell Blade, (2450, -961, -1601) (0000, E000, 0000)
+00C5:FFFF Shell Blade, (2450, -961, -1340) (0000, A000, 0000)
+00C5:FFFF Shell Blade, (2160, -961, -1325) (0000, 6000, 0000)
+0080:2220 Sliding Metal Spike Trap, (2304, -961, -1468) (0000, 0000, 0000)
+0094:8322 Butterflies (defunct?), (2211, -709, -1545) (0000, 0000, 0000)
+0094:8322 Butterflies (defunct?), (2395, -894, -1378) (0000, 0000, 0000)
+01D1:B838 Time Block, Local: 00, (2254, -342, -1513) (0000, 0000, 0006)
+01D1:B839 Time Block, Local: 01, (2354, -342, -1513) (0000, 0000, 0006)
+01D1:B83A Time Block, Local: 02, (2254, -342, -1413) (0000, 0000, 0006)
+01D1:B83B Time Block, Local: 03, (2354, -342, -1413) (0000, 0000, 0006)
+00D4:00FF Water Noise, (2305, -555, -1459) (0000, 0000, 0000)
+0117:1FDB Silver Rupee, Type: Rupee, Perm: 1B, (2308, -961, -1464) (0000, 0000, 0000)
+0117:1FDB Silver Rupee, Type: Rupee, Perm: 1B, (2497, -605, -1465) (0000, 0000, 0000)
+0117:1FDB Silver Rupee, Type: Rupee, Perm: 1B, (2453, -890, -1612) (0000, 0000, 0000)
+0117:1FDB Silver Rupee, Type: Rupee, Perm: 1B, (2078, -806, -1458) (0000, 0000, 0000)
+0117:1FDB Silver Rupee, Type: Rupee, Perm: 1B, (2160, -900, -1315) (0000, 0000, 0000)
+0117:015B Silver Rupee, Type: Collect 5 Rupees, Perm: 1B, (2109, -154, -1560) (0000, 0000, 0000)
+0185:4CDB Check Spot, Instant, dialog Collect the underwater gems!, Perm: 1B, (2196, -179, -1466) (0000, 0000, 0045)
+000A:884D Chest, Small, Falls, Switch Flag, reward 42: Small Key, chest flag: 0D, bound to Perm: 1B, (2183, -108, -1584) (0000, C000, 001B)
+

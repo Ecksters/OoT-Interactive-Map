@@ -1,0 +1,36 @@
+Room 6
+Room at 0277D000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000100
+0B: There are 10 Object(s). List starts at 00000058
+0096, 00A3, 015F, 0012, 0021, 0056, 0026, 0090, 00AD, 00B7, 
+01: There are 9 actor(s). List starts at 0000006C
+0034:FFFF Biri thing?, (-1360, 151, -2740) (0000, 80B6, 0000)
+0034:FFFF Biri thing?, (-1368, 170, -2546) (0000, 80B6, 0000)
+00A1:0004 Child Princess Ruto, (-1360, -980, -3342) (0000, 4000, 0000)
+00C8:1F00 Jabu-Jabu object, (-1360, -1025, -3343) (0000, C000, 0000)
+008B:1015 Spiritual Stones, (-1360, -948, -3343) (0000, 4000, 0000)
+0173:3F3A Targetable Navi Spot (Green), (-1360, -930, -3343) (0006, 0003, 0000)
+0111:5012 Breakable Pot, Collectable: 12 Temp: 08, (-1355, 80, -3612) (0000, 0000, 0000)
+0111:520C Breakable Pot, Collectable: 0C Temp: 09, (-1422, 80, -3612) (0000, 0000, 0000)
+0111:540C Breakable Pot, Collectable: 0C Temp: 0A, (-1295, 80, -3612) (0000, 0000, 0000)
+
+Cutscene 0: 00000120
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 03000100
+0B: There are 5 Object(s). List starts at 00000160
+0096, 00A3, 0056, 0090, 00AD, 
+01: There are 4 actor(s). List starts at 0000016C
+00A1:0004 Child Princess Ruto, (-1176, -1025, -3506) (0000, 4000, 0000)
+0063:FFFF Bari (Big Jellyfish), (-1360, 200, -2634) (0000, 80B6, 0000)
+008B:1015 Spiritual Stones, (-1360, -1005, -3342) (0000, 4000, 0000)
+00C8:2000 Jabu-Jabu object, (-1360, -1025, -3343) (0000, C000, 0000)
+

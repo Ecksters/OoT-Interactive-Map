@@ -1,0 +1,42 @@
+Room 1
+Room at 022FB000
+Setup 0: 00000000
+16: Sound Settings: Echo 4
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 03
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000240
+0B: There are 9 Object(s). List starts at 00000040
+002C, 000E, 005D, 000D, 0085, 00A4, 005F, 0190, 00A8, 
+01: There are 30 actor(s). List starts at 00000054
+003B:0006 Ambient Sound, Fire Temple’s lower ambient noise, (1669, 0, -43) (0000, 0000, 0000)
+0069:FFFE Bubble (flying skull), (1116, 0, -893) (0000, 4000, 0000)
+0046:0000 Stone Platform (Fire Temple), (1163, 0, 793) (0000, C000, 0000)
+0013:0000 Fire Keese, (1225, 301, 28) (0000, 0000, 0000)
+0046:0000 Stone Platform (Fire Temple), (1286, 0, -889) (0000, C000, 0000)
+0069:FFFE Bubble (flying skull), (1403, 0, 794) (0000, C000, 0000)
+0013:0000 Fire Keese, (1497, 365, -527) (0000, 0000, 0000)
+0046:0000 Stone Platform (Fire Temple), (1566, 0, -929) (0000, C000, 0000)
+0013:0000 Fire Keese, (1598, 281, 717) (0000, 0000, 0000)
+0043:FF01 Fire Temple Stone Blocks, (1629, 0, 314) (0000, C000, 0000)
+0046:0001 Stone Platform (Fire Temple), (1643, 0, 1073) (0000, 4000, 0000)
+0069:FFFE Bubble (flying skull), (1651, 0, 451) (0000, 0000, 0000)
+0069:FFFE Bubble (flying skull), (1690, 0, -140) (0000, D555, 0000)
+0069:FFFE Bubble (flying skull), (1726, 0, 903) (0000, 4000, 0000)
+0069:FFFE Bubble (flying skull), (1746, 0, -929) (0000, C000, 0000)
+0069:FFFE Bubble (flying skull), (1768, 0, -644) (0000, B777, 0000)
+0069:FFFE Bubble (flying skull), (1853, 0, -270) (0000, 1B06, 0000)
+0013:0000 Fire Keese, (1857, 264, 11) (0000, 0000, 0000)
+0046:0001 Stone Platform (Fire Temple), (1946, 0, 571) (0000, 0000, 0000)
+0046:0000 Stone Platform (Fire Temple), (1946, 0, 891) (0000, C000, 0000)
+0046:0001 Stone Platform (Fire Temple), (1966, 0, -409) (0000, 4000, 0000)
+0043:FF01 Fire Temple Stone Blocks, (1966, 0, -729) (0000, C000, 0000)
+0069:FFFE Bubble (flying skull), (2173, 0, 511) (0000, 0000, 0000)
+00CF:0701 Bombable Walls (Fire Temple), (1560, 200, 1500) (0000, 8000, 0000)
+01D6:3820 Time Block Spawning (Green Navi) Spot, (1560, 100, -1340) (0000, 0000, 0000)
+01D6:B820 Time Block Spawning (Green Navi) Spot, (1560, 240, -1390) (0000, 0000, 0000)
+0111:4009 Breakable Pot, Collectable: 09 Temp: 00, (2227, 400, -862) (0000, 0000, 0000)
+0111:4203 Breakable Pot, Collectable: 03 Temp: 01, (2226, 400, -809) (0000, 0000, 0000)
+0111:4409 Breakable Pot, Collectable: 09 Temp: 02, (2226, 400, -754) (0000, 0000, 0000)
+0173:3F05 Targetable Navi Spot (Green), (1561, 281, -1338) (0000, 0021, 0001)
+

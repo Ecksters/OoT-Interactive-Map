@@ -1,0 +1,17 @@
+Room 19
+Room at 02836000
+Setup 0: 00000000
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 030000A0
+0B: There are 5 Object(s). List starts at 00000040
+0069, 0187, 0098, 000E, 0090, 
+01: There are 5 actor(s). List starts at 0000004C
+0090:7F02 Redead, Crouching, (4924, -1363, -273) (0000, 0000, 0000)
+0090:7F02 Redead, Crouching, (4931, -1363, 25) (0000, 8000, 0000)
+0183:FF40 Song of Storms Fairy (Giant Fairy?), (4931, -1363, -127) (0000, 0000, 0000)
+0173:2228 Targetable Navi Spot (Green), (5101, -1231, -127) (0000, FFA6, 0000)
+000A:6955 Chest, Small, Invisible, reward 4A: Arrows (10), chest flag: 15, bound to Perm: 00, (5072, -1363, -19) (0000, 4000, 0000)
+

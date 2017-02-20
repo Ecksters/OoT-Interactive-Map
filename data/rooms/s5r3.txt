@@ -1,0 +1,27 @@
+Room 3
+Room at 025F5000
+Setup 0: 00000000
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000150
+0B: There are 11 Object(s). List starts at 00000040
+0059, 013B, 013A, 011C, 00B5, 00E5, 0016, 0012, 0026, 0024, 015C, 
+01: There are 15 actor(s). List starts at 00000058
+00C5:FFFF Shell Blade, (-782, -380, 865) (0000, 4000, 0000)
+0065:FF00 Large Water Square, (60, 765, 810) (0000, 0000, 0000)
+001B:FFFE Blue Tektite, (-1857, 300, 777) (0000, 4000, 0000)
+001B:FFFE Blue Tektite, (-1853, 300, 945) (0000, 4000, 0000)
+0095:8601 Gold Skulltula, Type 4, Group 06, Flag 01, (-2311, 402, 856) (0000, 4000, 0000)
+01BA:1600 Bombable Stone Wall, (-540, 0, 860) (0000, 0000, 0000)
+0064:4FDA Water Temple Platforms, (-1697, 174, 860) (0000, 4000, 0000)
+0065:1A02 Large Water Square, (-1700, 125, 810) (0000, 0000, 0000)
+012A:1A00 Floor Switch, Ice? no, ?? no, Blue? no, Toggle? no, Perm: 1A, (-1272, 135, 864) (0000, 0000, 0000)
+0111:4204 Breakable Pot, Collectable: 04 Temp: 01, (-2314, 320, 770) (0000, 4000, 0000)
+0111:4804 Breakable Pot, Collectable: 04 Temp: 04, (-2314, 320, 808) (0000, 4000, 0000)
+012A:2703 Crystal Switch, Ice? no, ?? no, Blue? no, Toggle? no, Temp: 07, (-2214, 320, 857) (0000, 0000, 0000)
+01BB:1FE7 Metal Gate, (-2134, 320, 859) (0000, 4000, 0000)
+0111:5209 Breakable Pot, Collectable: 09 Temp: 09, (-2313, 320, 944) (0000, 4000, 0000)
+0111:6A09 Breakable Pot, Collectable: 09 Temp: 15, (-2313, 320, 905) (0000, 4000, 0000)
+

@@ -1,0 +1,16 @@
+Room 14
+Room at 02B6B000
+Setup 0: 00000000
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000090
+0B: There are 5 Object(s). List starts at 00000040
+00F1, 016D, 0183, 0017, 000E, 
+01: There are 4 actor(s). List starts at 0000004C
+01AF:FF00 Wolfos, No Flag, (444, 30, -780) (0000, 1555, 0000)
+012E:1CB1 Music Staff Spot, Type 7, Song 2, Temp: 11, (373, 30, -872) (0000, 0000, 0000)
+0185:8AF1 Check Spot, Disappears on Switch, dialog The crest of the Royal Family is inscrib, Temp: 11, (373, 30, -872) (0000, 00B6, 000B)
+000A:3804 Chest, Large, Falling, Switch Flag, reward 40: Compass, chest flag: 04, bound to Temp: 11, (358, 206, -1392) (0000, 8000, 0031)
+

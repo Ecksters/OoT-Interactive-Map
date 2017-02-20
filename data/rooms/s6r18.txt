@@ -1,0 +1,21 @@
+Room 18
+Room at 02B8A000
+Setup 0: 00000000
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000E0
+0B: There are 6 Object(s). List starts at 00000040
+00F1, 016D, 00AB, 012A, 0038, 0085, 
+01: There are 9 actor(s). List starts at 0000004C
+0054:FFFF Armos Monster, (1992, 843, 25) (0000, C000, 0000)
+0054:FFFF Armos Monster, (1998, 843, 167) (0000, C000, 0000)
+0054:FFFF Armos Monster, (2140, 843, 167) (0000, C000, 0000)
+0054:FFFF Armos Monster, (2141, 843, 25) (0000, C000, 0000)
+0150:1600 Sun Emblem Switch, (2045, 992, -382) (0000, 0000, 0000)
+00B7:0003 Sun Block Switch, (2040, 843, -220) (0000, 0000, 0000)
+0183:FF40 Song of Storms Fairy (Giant Fairy?), (2040, 843, -220) (0000, 0000, 0000)
+012A:2F20 Floor Switch, Ice? no, ?? no, Blue? yes, Toggle? no, Temp: 0F, (2079, 843, 95) (0000, 0000, 0000)
+0080:0A10 Sliding Metal Spike Trap, (1744, 843, -72) (0000, 4000, 0000)
+

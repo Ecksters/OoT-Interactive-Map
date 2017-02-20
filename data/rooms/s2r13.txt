@@ -1,0 +1,30 @@
+Room 13
+Room at 0279A000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000F0
+0B: There are 9 Object(s). List starts at 00000058
+0096, 00A3, 0007, 0012, 0021, 0056, 0026, 00AC, 00BD, 
+01: There are 8 actor(s). List starts at 0000006C
+000E:FF00 Octorok, (-804, -1140, -2302) (0000, 6AAB, 0000)
+000E:FF00 Octorok, (-1058, -1140, -2579) (0000, 505B, 0000)
+00B6:00FF Floppy Muscle Platform, (-944, -1233, -2426) (0000, 5C72, 0000)
+0111:4012 Breakable Pot, Collectable: 12 Temp: 00, (-1150, -1113, -2248) (0000, 5C72, 0000)
+0111:4201 Breakable Pot, Collectable: 01 Temp: 01, (-1127, -1113, -2271) (0000, 616C, 0000)
+0111:4402 Breakable Pot, Collectable: 02 Temp: 02, (-1178, -1113, -2272) (0000, 5C72, 0000)
+0111:4602 Breakable Pot, Collectable: 02 Temp: 03, (-1131, -1113, -2221) (0000, 5C72, 0000)
+0111:4801 Breakable Pot, Collectable: 01 Temp: 04, (-1173, -1113, -2227) (0000, 5D28, 0000)
+
+Cutscene 0: 00000110
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 030000F0
+0B: There are 2 Object(s). List starts at 00000148
+0096, 00A3, 
+

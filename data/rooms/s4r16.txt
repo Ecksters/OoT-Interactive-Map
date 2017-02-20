@@ -1,0 +1,22 @@
+Room 16
+Room at 0237E000
+Setup 0: 00000000
+16: Sound Settings: Echo 4
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 03
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000100
+0B: There are 10 Object(s). List starts at 00000040
+002C, 0025, 005D, 000D, 0085, 00A4, 005F, 000E, 00B7, 018E, 
+01: There are 10 actor(s). List starts at 00000054
+0069:FFFE Bubble (flying skull), (518, 2740, -269) (0000, 0000, 0000)
+0069:FFFE Bubble (flying skull), (600, 2740, 55) (0000, 1C72, 0000)
+0069:FFFE Bubble (flying skull), (744, 2740, -600) (0000, 0000, 0000)
+0069:FFFE Bubble (flying skull), (941, 2740, 142) (0000, 0000, 0000)
+0069:FFFE Bubble (flying skull), (1144, 2740, -449) (0000, D82E, 0000)
+008D:01FF Large Flame Wall, (1200, 2650, 760) (0000, B27D, 0000)
+000A:082A Chest, Large, reward 41: Map, chest flag: 0A, bound to Perm: 00, (1243, 2800, -240) (0000, 6000, 0000)
+0015:3103 Collectable Heart, Temp: 11, (603, 2940, -190) (0000, 0000, 0000)
+0015:3203 Collectable Heart, Temp: 12, (862, 2940, -169) (0000, 0000, 0000)
+0015:3303 Collectable Heart, Temp: 13, (1381, 2800, -1120) (0000, 0000, 0000)
+

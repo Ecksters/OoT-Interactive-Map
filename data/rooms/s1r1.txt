@@ -1,0 +1,32 @@
+Room 1
+Room at 01F44000
+Setup 0: 00000000
+16: Sound Settings: Echo 4
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030001A0
+0B: There are 15 Object(s). List starts at 00000040
+002B, 018A, 000D, 0031, 000E, 001F, 0038, 0085, 012B, 008B, 0177, 0168, 0024, 0154, 0188, 
+01: There are 20 actor(s). List starts at 00000060
+0013:0003 Roosting Keese, (3483, 155, -966) (4000, 4000, 0000)
+0013:0003 Roosting Keese, (3639, 154, -906) (4000, C000, 0000)
+002F:0000 Baby Dodongo, (1841, 0, -333) (0000, C000, 0000)
+002F:0000 Baby Dodongo, (1911, 0, -273) (0000, C000, 0000)
+002F:0000 Baby Dodongo, (1972, 0, -222) (0000, C000, 0000)
+002F:0000 Baby Dodongo, (2498, 0, -265) (0000, 8000, 0000)
+002F:0000 Baby Dodongo, (2757, 0, -464) (0000, E000, 0000)
+002F:0000 Baby Dodongo, (2817, 0, -404) (0000, E000, 0000)
+0054:0000 Pushable Armos, (3451, 59, -377) (0000, 0000, 0000)
+0054:0000 Pushable Armos, (3665, 40, -377) (0000, 0000, 0000)
+0059:A001 Bombable Wall, Perm: 01, (2560, 0, -107) (0000, 8000, 0000)
+0095:8202 Gold Skulltula, Type 4, Group 02, Flag 02, (2132, 220, -717) (0000, 0000, 0000)
+0111:4400 Breakable Pot, Collectable: 00 Temp: 02, (1708, 0, -471) (0000, 0000, 0000)
+0111:4601 Breakable Pot, Collectable: 01 Temp: 03, (1746, 0, -424) (0000, 0000, 0000)
+01C9:0164 Green Navi Spot, (2138, 160, -566) (0000, 0000, 0005)
+0111:4C00 Breakable Pot, Collectable: 00 Temp: 06, (2573, 0, -489) (0000, 0000, 0000)
+0111:4E01 Breakable Pot, Collectable: 01 Temp: 07, (2622, 0, -489) (0000, 0000, 0000)
+0111:5000 Breakable Pot, Collectable: 00 Temp: 08, (3507, 100, -964) (0000, 0000, 0000)
+0111:5203 Breakable Pot, Collectable: 03 Temp: 09, (3617, 100, -911) (0000, 0000, 0000)
+012A:3620 Floor Switch, Ice? no, ?? no, Blue? yes, Toggle? no, Temp: 16, (3564, 40, -331) (0000, 0000, 0000)
+

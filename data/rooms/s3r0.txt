@@ -1,0 +1,16 @@
+Room 0
+Room at 023E5000
+Setup 0: 00000000
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000A0
+0B: There are 9 Object(s). List starts at 00000040
+0073, 0072, 0183, 005D, 0024, 00A4, 000E, 0039, 015C, 
+01: There are 4 actor(s). List starts at 00000054
+01AF:FF00 Wolfos, No Flag, (74, 309, 389) (0000, 0000, 0000)
+01AF:FF00 Wolfos, No Flag, (161, 309, 393) (0000, 0000, 0000)
+0095:8402 Gold Skulltula, Type 4, Group 04, Flag 02, (452, 1058, 642) (0000, C000, 0000)
+000A:5843 Chest, Small, reward 42: Small Key, chest flag: 03, bound to Perm: 00, (-171, 860, 574) (0000, C000, 0000)
+

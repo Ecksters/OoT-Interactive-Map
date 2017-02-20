@@ -1,0 +1,20 @@
+Room 0
+Room at 022F3000
+Setup 0: 00000000
+16: Sound Settings: Echo 4
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 02
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000D0
+0B: There are 7 Object(s). List starts at 00000040
+002C, 000E, 005D, 000D, 0085, 00A4, 005F, 
+01: There are 8 actor(s). List starts at 00000050
+0013:0000 Fire Keese, (-186, 404, -42) (0000, 0000, 0000)
+0008:03F5 Decorative Flame, (-105, 260, -145) (0000, 0000, 0000)
+0008:03F5 Decorative Flame, (0, 280, -140) (0000, 0000, 0000)
+0008:03F5 Decorative Flame, (105, 260, -145) (0000, 0000, 0000)
+0013:0000 Fire Keese, (185, 362, -17) (0000, 0000, 0000)
+0040:0601 Megaton Statue Head, Perm: 06, (280, 120, 190) (0000, 0000, 0000)
+0040:0C00 Megaton Statue Base, Perm: 0C, (280, 60, 190) (0000, 0000, 0000)
+0040:0D00 Megaton Statue Base, Perm: 0D, (280, 0, 190) (0000, 0000, 0000)
+

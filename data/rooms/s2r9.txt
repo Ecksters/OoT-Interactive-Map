@@ -1,0 +1,31 @@
+Room 9
+Room at 0278A000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000C0
+0B: There are 9 Object(s). List starts at 00000058
+0096, 00A3, 0007, 0012, 0021, 0056, 0026, 000E, 0090, 
+01: There are 5 actor(s). List starts at 0000006C
+003A:000A Stinger, (1563, -340, -4828) (0000, C000, 0000)
+003A:000A Stinger, (1567, -340, -4561) (0000, 4000, 0000)
+003A:000A Stinger, (1431, -340, -4692) (0000, 0000, 0000)
+003A:000A Stinger, (1700, -340, -4692) (0000, 8000, 0000)
+000A:10C1 Chest, Large, Appears, Clear Flag, reward 06: Boomerang, chest flag: 01, bound to Perm: 00, (1549, -340, -4681) (0000, 4000, 0000)
+
+Cutscene 0: 000000E0
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 030000C0
+0B: There are 5 Object(s). List starts at 00000120
+0096, 00A3, 0026, 000E, 0090, 
+01: There are 3 actor(s). List starts at 0000012C
+003A:0000 Stinger, (1544, -340, -4836) (0000, E000, 0000)
+003A:0000 Stinger, (1562, -340, -4533) (0000, A5B0, 0000)
+000A:1821 Chest, Large, Appears, Clear Flag, reward 41: Map, chest flag: 01, bound to Perm: 00, (1549, -340, -4681) (0000, C000, 0000)
+

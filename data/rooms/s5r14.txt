@@ -1,0 +1,25 @@
+Room 14
+Room at 02648000
+Setup 0: 00000000
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000130
+0B: There are 11 Object(s). List starts at 00000040
+0059, 013B, 013A, 011C, 00B5, 00E5, 0016, 0012, 0026, 000E, 0090, 
+01: There are 13 actor(s). List starts at 00000058
+018C:0000 Stinger (Enemy), (-244, -236, -3781) (0000, 0000, 0000)
+018C:0000 Stinger (Enemy), (-225, -170, -3544) (0000, 0000, 0000)
+018C:0000 Stinger (Enemy), (-173, -170, -3728) (0000, 0000, 0000)
+018C:0000 Stinger (Enemy), (-146, -300, -3620) (0000, 0000, 0000)
+018C:0000 Stinger (Enemy), (-110, -223, -3506) (0000, 0000, 0000)
+01BA:1104 Bombable Stone Wall, (0, -160, -3430) (0000, 8000, 0000)
+01BA:1203 Bombable Stone Wall, (-360, -160, -3430) (0000, 8000, 0000)
+00FF:1842 Very large Green Block, Bound to Perm: 18, load when unset, (-180, -160, -3250) (0000, 0000, 0000)
+00FF:1846 Very large Green Block, Bound to Perm: 18, load when set, (0, -299, -3670) (0000, 0000, 0000)
+0065:1804 Large Water Square, (-180, -170, -3430) (0000, 0000, 0000)
+012A:1820 Floor Switch, Ice? no, ?? no, Blue? yes, Toggle? no, Perm: 18, (0, -320, -3670) (0000, C000, 0000)
+0111:7604 Breakable Pot, Collectable: 04 Temp: 1B, (28, -160, -3817) (0000, 0000, 0000)
+0111:7804 Breakable Pot, Collectable: 04 Temp: 1C, (-28, -160, -3817) (0000, 0000, 0000)
+

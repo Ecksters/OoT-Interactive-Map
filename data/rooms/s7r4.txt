@@ -1,0 +1,20 @@
+Room 4
+Room at 027DC000
+Setup 0: 00000000
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 030000D0
+0B: There are 5 Object(s). List starts at 00000040
+0069, 0187, 00A6, 000E, 0090, 
+01: There are 8 actor(s). List starts at 0000004C
+00A5:FFFF Dead Hand's Hand, (-2440, -63, -562) (0000, 0000, 0000)
+00A5:FFFF Dead Hand's Hand, (-2335, -63, -484) (0000, 0000, 0000)
+00A5:FFFF Dead Hand's Hand, (-2341, -63, -335) (0000, 0000, 0000)
+00A5:FFFF Dead Hand's Hand, (-2424, -63, -275) (0000, 0000, 0000)
+00A5:FFFF Dead Hand's Hand, (-2534, -63, -346) (0000, 0000, 0000)
+00A5:FFFF Dead Hand's Hand, (-2528, -63, -495) (0000, 0000, 0000)
+00A4:FFFF Dead Hand, (-2424, -63, -413) (0000, 0000, 0000)
+000A:15E7 Chest, Large, Appears, Clear Flag, reward 2F: Hover Boots, chest flag: 07, bound to Perm: 01, (-2718, -63, -412) (0000, C000, 0001)
+

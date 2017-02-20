@@ -1,0 +1,25 @@
+Room 10
+Room at 02B57000
+Setup 0: 00000000
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000120
+0B: There are 4 Object(s). List starts at 00000040
+00F1, 016D, 016C, 0106, 
+01: There are 13 actor(s). List starts at 00000048
+0113:1901 Iron Knuckle, (-1250, 1003, 1476) (0000, C000, 0000)
+0169:0001 Brick Throne, (-1215, 1003, 1474) (0000, 8000, 0000)
+0169:0000 Brick Pillar, (-1820, 1003, 1354) (0000, 4000, 0000)
+0169:0000 Brick Pillar, (-1820, 1003, 1594) (0000, 4000, 0000)
+0169:0000 Brick Pillar, (-1580, 1003, 1354) (0000, 4000, 0000)
+0169:0000 Brick Pillar, (-1580, 1003, 1594) (0000, 4000, 0000)
+0169:0000 Brick Pillar, (-1340, 1003, 1354) (0000, 4000, 0000)
+0169:0000 Brick Pillar, (-1340, 1003, 1594) (0000, 4000, 0000)
+0008:03F4 Decorative Flame, (-1906, 1047, 1335) (0000, 0000, 0000)
+0008:03F4 Decorative Flame, (-1906, 1047, 1615) (0000, 0000, 0000)
+0008:03F4 Decorative Flame, (-1710, 1042, 1742) (0000, 0000, 0000)
+0008:03F4 Decorative Flame, (-1290, 1041, 1742) (0000, 0000, 0000)
+0008:03F4 Decorative Flame, (-1280, 1041, 1210) (0000, 0000, 0000)
+

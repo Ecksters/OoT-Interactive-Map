@@ -1,0 +1,29 @@
+Room 2
+Room at 02C13000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 01
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000D0
+0B: There are 3 Object(s). List starts at 00000058
+006B, 0114, 0085, 
+01: There are 7 actor(s). List starts at 00000060
+0111:4A03 Breakable Pot, Collectable: 03 Temp: 05, (-206, 11, 449) (0000, 0000, 0000)
+0111:4C03 Breakable Pot, Collectable: 03 Temp: 06, (-203, 10, 492) (0000, 0000, 0000)
+01C7:0000 Icicles, (-308, 13, 322) (0000, 0000, 0000)
+01C7:0000 Icicles, (-272, 13, 348) (0000, 0000, 0000)
+01C7:0000 Icicles, (-226, 12, 371) (0000, 0000, 0000)
+01C7:0000 Icicles, (-187, 13, 395) (0000, 0000, 0000)
+01C7:0001 Icicles, (-237, 129, 472) (0000, 0000, 0000)
+
+Cutscene 0: 000000F0
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 030000D0
+0B: There are 3 Object(s). List starts at 00000128
+006B, 008A, 00B6, 
+

@@ -1,0 +1,24 @@
+Room 3
+Room at 01F56000
+Setup 0: 00000000
+16: Sound Settings: Echo 4
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000110
+0B: There are 4 Object(s). List starts at 00000040
+002B, 018A, 001B, 00B7, 
+01: There are 12 actor(s). List starts at 00000048
+0025:0500 Lizafos, Spawn on entering door bound to Perm: 05, (3969, 100, -2161) (0000, 0000, 0000)
+0025:0501 Lizafos, Spawn on entering door bound to Perm: 05, (2829, 100, -1961) (0000, 0000, 0000)
+0025:0600 Lizafos, Spawn on entering door bound to Perm: 06, (4261, 531, -1055) (0000, 0000, 0000)
+0025:0601 Lizafos, Spawn on entering door bound to Perm: 06, (4442, 531, -1386) (0000, 0000, 0000)
+0015:1803 Collectable Heart, Perm: 18, (4266, 100, -1575) (0000, ACCD, 0000)
+0015:2403 Collectable Heart, Temp: 04, (3580, 531, -2004) (0000, 0000, 0000)
+0015:2503 Collectable Heart, Temp: 05, (3553, 531, -1962) (0000, 0000, 0000)
+0111:5403 Breakable Pot, Collectable: 03 Temp: 0A, (2653, 100, -2031) (0000, 0000, 0000)
+0111:5603 Breakable Pot, Collectable: 03 Temp: 0B, (2673, 100, -2060) (0000, 0000, 0000)
+0111:5801 Breakable Pot, Collectable: 01 Temp: 0C, (3526, 100, -2574) (0000, 0000, 0000)
+0111:5A01 Breakable Pot, Collectable: 01 Temp: 0D, (3579, 100, -2574) (0000, 0000, 0000)
+003B:0006 Ambient Sound, Fire Temple’s lower ambient noise, (3851, 40, -1526) (0000, 0000, 0000)
+

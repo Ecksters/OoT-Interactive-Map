@@ -1,0 +1,26 @@
+Room 4
+Room at 01F64000
+Setup 0: 00000000
+16: Sound Settings: Echo 4
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000140
+0B: There are 12 Object(s). List starts at 00000040
+002B, 018A, 000D, 0031, 000E, 001F, 0038, 0085, 012B, 008B, 00A4, 000C, 
+01: There are 14 actor(s). List starts at 00000058
+0012:FFFF Dodongo, (1707, 80, -1722) (0000, 8000, 0000)
+0012:FFFF Dodongo, (1715, 80, -943) (0000, 96C1, 0000)
+0012:FFFF Dodongo, (2176, 80, -1820) (0000, 8000, 0000)
+005E:2400 Lit Wooden Torch, Perm: 00, (1787, 80, -2341) (0000, 0000, 0000)
+004C:FFFF Bombflower, (2088, 80, -2388) (0000, E9F5, 0000)
+004C:FFFF Bombflower, (2270, 80, -2268) (0000, E9F5, 0000)
+0059:A01B Bombable Wall, Perm: 1B, (2433, 100, -2683) (0000, 0000, 0000)
+005E:10E1 Timed Torch, Light: 3, Temp: 01, (1759, 80, -848) (0000, 0000, 0000)
+005E:10E1 Timed Torch, Light: 3, Temp: 01, (1773, 80, -1238) (0000, 0000, 0000)
+005E:10E1 Timed Torch, Light: 3, Temp: 01, (1778, 80, -1572) (0000, 0000, 0000)
+0111:5C01 Breakable Pot, Collectable: 01 Temp: 0E, (2050, 80, -1964) (0000, 0000, 0000)
+0111:5E00 Breakable Pot, Collectable: 00 Temp: 0F, (1836, 80, -1239) (0000, 0000, 0000)
+0111:6201 Breakable Pot, Collectable: 01 Temp: 11, (1846, 80, -1879) (0000, 0000, 0000)
+0111:6403 Breakable Pot, Collectable: 03 Temp: 12, (2281, 80, -1799) (0000, 0000, 0000)
+

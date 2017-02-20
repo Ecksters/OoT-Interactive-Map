@@ -1,0 +1,35 @@
+Room 5
+Room at 02323000
+Setup 0: 00000000
+16: Sound Settings: Echo 4
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 02
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030001D0
+0B: There are 9 Object(s). List starts at 00000040
+002C, 0025, 011F, 000E, 00C9, 011C, 0024, 015C, 0154, 
+01: There are 23 actor(s). List starts at 00000054
+01C9:017F Green Navi Spot, (1551, 3200, -443) (0000, 8000, 0006)
+0130:0F04 ???, (1559, 2800, -828) (0000, 3F4A, 0000)
+004E:FFFF Hookshotable Elevator (Fire Temple), (1580, 3190, -790) (0000, 0000, 0000)
+0130:0F05 ???, (1691, 2800, -568) (0000, 1F4A, 0000)
+0038:FFFF Torch Slug, (1746, 2940, 917) (0000, 0000, 0000)
+0130:0F06 ???, (1751, 2800, 1124) (0000, 3F4A, 0000)
+0038:FFFF Torch Slug, (1874, 2940, -661) (0000, 0000, 0000)
+0130:0F07 ???, (1900, 2800, -992) (0000, 8000, 0000)
+011B:BFA3 Navi Infospot, Type: C-up, Text: Link, I hear Goron  / voices down below., No Flag, (2080, 2940, -640) (001E, 0005, 0000)
+0130:0F08 ???, (2175, 2800, -341) (0000, 0000, 0000)
+0130:0F09 ???, (2290, 2800, 211) (0000, 4000, 0000)
+0038:FFFF Torch Slug, (2315, 2960, 21) (0000, 0000, 0000)
+00CF:0000 Bombable Walls (Fire Temple), (2080, 2940, -640) (0000, 4000, 0000)
+006F:0302 Metal Gate, (2183, 2800, 1069) (0000, 8000, 0000)
+01AE:0D83 Goron, (2212, 2800, 1091) (0000, 8000, 0000)
+000A:5843 Chest, Small, reward 42: Small Key, chest flag: 03, bound to Perm: 00, (2228, 2800, 1189) (0000, 4000, 0000)
+012A:0300 Floor Switch, Ice? no, ?? no, Blue? no, Toggle? no, Perm: 03, (2320, 2800, 940) (0000, 8000, 0000)
+0095:8504 Gold Skulltula, Type 4, Group 05, Flag 04, (2198, 2883, -1193) (FF4A, 0000, 0000)
+000A:5846 Chest, Small, reward 42: Small Key, chest flag: 06, bound to Perm: 00, (1810, 2940, 1333) (0000, 4000, 0000)
+006F:0A02 Metal Gate, (1764, 2940, 1209) (0000, 8000, 0000)
+01AE:2A23 Goron, (1808, 2940, 1264) (0000, 8000, 0000)
+012A:0A00 Floor Switch, Ice? no, ?? no, Blue? no, Toggle? no, Perm: 0A, (2449, 2940, -346) (0000, 0000, 0000)
+00CF:1C02 Bombable Walls (Fire Temple), (2200, 2800, -1040) (0000, 0000, 0000)
+

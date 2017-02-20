@@ -1,0 +1,40 @@
+Room 0
+Room at 025CE000
+Setup 0: 00000000
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000220
+0B: There are 12 Object(s). List starts at 00000040
+0059, 00A4, 00B5, 00E5, 0016, 0026, 000E, 0090, 00A4, 011C, 00CA, 0154, 
+01: There are 28 actor(s). List starts at 00000058
+012D:FFC2 Hookshot Block, (-179, 135, -1100) (0000, 8000, 0000)
+012D:FFC2 Hookshot Block, (-176, 526, 765) (0000, 8000, 0000)
+0013:0003 Roosting Keese, (-1645, 249, -74) (0000, C000, 0000)
+0013:0003 Roosting Keese, (-1594, 312, -298) (0000, C000, 0000)
+00EC:0000 Spike Enemy, (-144, -98, -656) (0000, 0000, 0000)
+00EC:0000 Spike Enemy, (-143, -103, -589) (0000, 0000, 0000)
+005E:2400 Lit Wooden Torch, Perm: 00, (336, 0, -98) (0000, C000, 0000)
+005E:2400 Lit Wooden Torch, Perm: 00, (337, 0, -257) (0000, C000, 0000)
+005E:2400 Lit Wooden Torch, Perm: 00, (-372, 455, -476) (0000, 8000, 0000)
+0064:1FFF Water Temple Platforms, (-780, 780, -180) (0000, 0000, 0000)
+0064:3FFF Water Temple Platforms, (-176, 820, -1052) (0000, 0000, 0000)
+0065:FF00 Large Water Square, (-180, 765, -180) (0000, 0000, 0000)
+001B:FFFE Blue Tektite, (-455, 780, 78) (0000, 0000, 0000)
+001B:FFFE Blue Tektite, (78, 780, -86) (0000, 0000, 0000)
+0185:057F Check Spot, Checkable, dialog Those who wish to open the gate on the f, No Flag, (-690, 928, 342) (0000, 8000, 0000)
+00FF:0FC2 Very large Color12 Block, Bound to Perm: 0F, load when unset, (-880, 60, -180) (0000, 0000, 0000)
+00FF:0FC6 Very large Color12 Block, Bound to Perm: 0F, load when set, (-1140, -380, -180) (0000, 0000, 0000)
+0139:000F Block Spot Switch, Perm: 0F, (-1140, -380, -180) (0000, 0000, 0000)
+01BB:1153 Metal Gate, (-176, 460, 622) (0000, 8000, 0000)
+012A:1302 Eye Switch, Ice? no, ?? no, Blue? no, Toggle? no, Perm: 13, (-182, 417, 440) (0000, 8000, 0000)
+01C9:FFD7 Green Navi Spot, (-602, 860, 325) (0000, 8000, 0000)
+0064:0FD9 Water Temple Platforms, (-180, 780, 100) (0000, 0000, 0000)
+012E:1C9E Music Staff Spot, Type 7, Song 2, Perm: 1E, (-690, 860, 342) (0000, 8000, 0000)
+0111:4403 Breakable Pot, Collectable: 03 Temp: 02, (331, 460, -168) (0000, 4000, 0000)
+0111:4603 Breakable Pot, Collectable: 03 Temp: 03, (330, 460, -198) (0000, 4000, 0000)
+0111:6012 Breakable Pot, Collectable: 12 Temp: 10, (-117, 820, -1192) (0000, 0000, 0000)
+0111:6C12 Breakable Pot, Collectable: 12 Temp: 16, (-241, 820, -1193) (0000, 0000, 0000)
+005E:1079 Timed Torch, Light: 1, Local: 01, (-135, 480, -412) (0000, 8000, 0000)
+

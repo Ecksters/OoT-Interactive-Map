@@ -1,0 +1,24 @@
+Room 13
+Room at 02B65000
+Setup 0: 00000000
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000110
+0B: There are 7 Object(s). List starts at 00000040
+00F1, 016D, 011F, 0024, 015C, 0190, 00A8, 
+01: There are 12 actor(s). List starts at 00000050
+0095:8702 Gold Skulltula, Type 4, Group 07, Flag 02, (1259, 20, -1082) (4000, 4000, 0000)
+01D6:3811 Time Block Spawning (Green Navi) Spot, (1278, -33, -1355) (0000, 0000, 0003)
+01D6:B811 Time Block Spawning (Green Navi) Spot, (1278, -33, -1085) (0000, 0000, 0003)
+00F9:0000 Giant Rolling Boulder, (1569, -92, -1310) (0000, C000, 0000)
+00F9:0000 Giant Rolling Boulder, (1569, -130, -1080) (0000, 4000, 0000)
+00F9:0000 Giant Rolling Boulder, (1569, -130, -813) (0000, C000, 0000)
+0117:1FC2 Silver Rupee, Type: Rupee, Perm: 02, (1284, -33, -1355) (0000, 0000, 0000)
+0117:1FC2 Silver Rupee, Type: Rupee, Perm: 02, (1284, -33, -813) (0000, 0000, 0000)
+0117:1FC2 Silver Rupee, Type: Rupee, Perm: 02, (1856, -33, -944) (0000, 0000, 0000)
+0117:1FC2 Silver Rupee, Type: Rupee, Perm: 02, (1856, -33, -1219) (0000, 0000, 0000)
+0117:1FC2 Silver Rupee, Type: Rupee, Perm: 02, (1573, -33, -920) (0000, 0000, 0000)
+0117:0142 Silver Rupee, Type: Collect 5 Rupees, Perm: 02, (1562, -41, -1195) (0000, 0000, 0000)
+

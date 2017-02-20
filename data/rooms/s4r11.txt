@@ -1,0 +1,20 @@
+Room 11
+Room at 02365000
+Setup 0: 00000000
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 02
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000E0
+0B: There are 12 Object(s). List starts at 00000040
+002C, 00A4, 000E, 00C9, 011C, 0190, 00A8, 011F, 018E, 000D, 0085, 005F, 
+01: There are 8 actor(s). List starts at 00000058
+000A:5849 Chest, Small, reward 42: Small Key, chest flag: 09, bound to Perm: 00, (-1545, 2800, -41) (0000, 8000, 0000)
+012A:0B01 Rusted Switch, Ice? no, ?? no, Blue? no, Toggle? no, Perm: 0B, (-2030, 2980, -1) (0000, 4000, 0000)
+006F:0B02 Metal Gate, (-1675, 2800, -3) (0000, C000, 0000)
+01AE:2E43 Goron, (-1630, 2800, -20) (0000, C000, 0000)
+011B:13A9 Navi Infospot, Type: Pop-up, Text: This switch looks rusted., Perm: 13, (-2031, 2980, -2) (0000, 0000, 0000)
+01D6:B021 Time Block Spawning (Green Navi) Spot, (-2030, 2940, -2) (0000, 0000, 0000)
+01D6:3021 Time Block Spawning (Green Navi) Spot, (-1730, 2800, 188) (0000, 0000, 0000)
+0173:3F05 Targetable Navi Spot (Green), (-1980, 2988, -1) (0000, 0022, 0001)
+

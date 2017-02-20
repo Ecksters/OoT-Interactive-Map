@@ -1,0 +1,20 @@
+Room 27
+Room at 02BDC000
+Setup 0: 00000000
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000D0
+0B: There are 4 Object(s). List starts at 00000040
+00F1, 016D, 00D6, 0085, 
+01: There are 8 actor(s). List starts at 00000048
+00F6:0003 Anubis, (-1055, 30, -1680) (0000, 0000, 0000)
+0080:1120 Sliding Metal Spike Trap, (-1055, 30, -1680) (0000, 0000, 0000)
+0049:4FF9 Flame Circle, Disabled, small, turns on for short time, camera 0F, bound to Local: 01, (-865, 30, -1507) (0000, 0000, 0000)
+012A:3903 Crystal Switch, Ice? no, ?? no, Blue? no, Toggle? no, Local: 01, (-1050, 30, -1418) (0000, E000, 0000)
+0111:5A3F Breakable Pot, Collectable: 3F Temp: 0D, (-975, 30, -1751) (0000, 0000, 0000)
+0111:5C3F Breakable Pot, Collectable: 3F Temp: 0E, (-928, 30, -1827) (0000, 0000, 0000)
+0111:5E03 Breakable Pot, Collectable: 03 Temp: 0F, (-1211, 30, -1530) (0000, 0000, 0000)
+0111:6015 Breakable Pot, Collectable: 15 Temp: 10, (-1055, 30, -1680) (0000, 0000, 0000)
+

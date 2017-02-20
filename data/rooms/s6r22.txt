@@ -1,0 +1,29 @@
+Room 22
+Room at 02BA4000
+Setup 0: 00000000
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000170
+0B: There are 9 Object(s). List starts at 00000040
+00F1, 016D, 000E, 0090, 0179, 011C, 018E, 002B, 0025, 
+01: There are 17 actor(s). List starts at 00000054
+012D:FFC2 Hookshot Block, (685, 1893, -1448) (4000, 0000, 0000)
+01B4:FF01 Clear Block, No Flag, (685, 1804, -1620) (0000, 0000, 0000)
+01B4:0101 Clear Block, Perm: 01, (685, 1791, -1449) (0000, 0000, 0000)
+01C1:FF00 Fake Door, (416, 1633, -1420) (0000, 4000, 0000)
+01C1:FF00 Fake Door, (416, 1633, -1086) (0000, 4000, 0000)
+01C1:FF00 Fake Door, (500, 1633, -1663) (0000, 0000, 0000)
+01C1:FF00 Fake Door, (858, 1633, -1663) (0000, 0000, 0000)
+01C1:FF00 Fake Door, (942, 1633, -1420) (0000, C000, 0000)
+01C1:FF00 Fake Door, (942, 1633, -1086) (0000, C000, 0000)
+0049:2FF7 Flame Circle, Small, shuts off for long time, camera 0F, bound to Temp: 17, (688, 1633, -1604) (0000, 0000, 0000)
+0038:FFFF Torch Slug, (536, 1633, -1311) (0000, 0000, 0000)
+0038:FFFF Torch Slug, (600, 1633, -1507) (0000, 0000, 0000)
+0038:FFFF Torch Slug, (766, 1633, -1194) (0000, 0000, 0000)
+0038:FFFF Torch Slug, (846, 1633, -1459) (0000, 0000, 0000)
+012A:3700 Floor Switch, Ice? no, ?? no, Blue? no, Toggle? no, Temp: 17, (688, 1804, -1620) (0000, 0000, 0000)
+012A:0102 Eye Switch, Ice? no, ?? no, Blue? no, Toggle? no, Perm: 01, (500, 1684, -1673) (0000, 0000, 0000)
+000A:27EA Chest, Boss Key’s Chest, reward 3F: Boss Key, chest flag: 0A, bound to Perm: 00, (685, 1633, -1601) (0000, 8000, 0000)
+

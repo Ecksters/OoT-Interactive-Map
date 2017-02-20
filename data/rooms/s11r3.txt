@@ -1,0 +1,26 @@
+Room 3
+Room at 028A6000
+Setup 0: 00000000
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? True, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000130
+0B: There are 7 Object(s). List starts at 00000040
+004D, 011C, 0183, 000E, 0090, 006B, 018E, 
+01: There are 14 actor(s). List starts at 00000050
+012D:FFC2 Hookshot Block, (-1083, 399, -2747) (4000, 0000, 0000)
+01AF:FF00 Wolfos, No Flag, (-1604, 159, -2483) (0000, 0000, 0000)
+01AF:FF00 Wolfos, No Flag, (-1322, 159, -2579) (0000, 0000, 0000)
+01C1:FF00 Fake Door, (-1159, 159, -2748) (0000, C000, 0000)
+01AF:FF01 Wolfos, No Flag, (-1377, 159, -2795) (0000, 0000, 0000)
+01AF:FF01 Wolfos, No Flag, (-1675, 159, -2849) (0000, 0000, 0000)
+00FF:0BC3 Huge Color12 Block, Bound to Perm: 0B, load when unset, (-1577, 159, -3057) (0000, 0000, 0000)
+00FF:0BC7 Huge Color12 Block, Bound to Perm: 0B, load when set, (-1577, -41, -3257) (0000, 0000, 0000)
+0139:000B Block Spot Switch, Perm: 0B, (-1577, -41, -3257) (0000, 0000, 0000)
+012A:0F00 Floor Switch, Ice? no, ?? no, Blue? no, Toggle? no, Perm: 0F, (-930, 239, -2745) (0000, 0000, 0000)
+0185:4DCB Check Spot, Instant, dialog One with silver hands shall move a giant, Perm: 0B, (-1574, 231, -2930) (0000, 0000, 000B)
+0185:4E0F Check Spot, Instant, dialog Without the necessary items, one will be, Perm: 0F, (-1422, 159, -2512) (0000, 0000, 0045)
+000A:7971 Chest, Small, Appears, Clear Flag, reward 4B: Arrows (15), chest flag: 11, bound to Perm: 00, (-1331, 159, -2858) (0000, 8000, 0000)
+01CD:0000 Circular Piece of Stone Wall, (-1157, 279, -2747) (0000, C000, 0000)
+

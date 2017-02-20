@@ -1,0 +1,27 @@
+Room 2
+Room at 032F5000
+Setup 0: 00000000
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? True, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000140
+0B: There are 6 Object(s). List starts at 00000040
+008D, 0187, 0098, 00A4, 000D, 00B7, 
+01: There are 15 actor(s). List starts at 0000004C
+0090:7FFE Gibdo, Standing, (-2070, 0, -854) (0000, 0000, 0000)
+005E:2400 Lit Wooden Torch, Perm: 00, (-2085, 0, -960) (0000, 0000, 0000)
+0015:0111 Collectable Small Key, Perm: 01, (-2346, 10, -614) (0000, 0000, 0000)
+005E:100E Timed Torch, Light: 0, Perm: 0E, (-1885, 0, -520) (0000, 0000, 0000)
+00BD:020E Coffin Lid, (-1920, 40, -680) (0000, 0000, 0000)
+005E:100F Timed Torch, Light: 0, Perm: 0F, (-1885, 0, -960) (0000, 0000, 0000)
+00BD:000F Coffin Lid, (-1970, 40, -800) (0000, 8000, 0000)
+005E:1010 Timed Torch, Light: 0, Perm: 10, (-2085, 0, -520) (0000, 0000, 0000)
+00BD:0110 Coffin Lid, (-2120, 40, -680) (0000, 0000, 0000)
+005E:1011 Timed Torch, Light: 0, Perm: 11, (-2285, 0, -960) (0000, 0000, 0000)
+00BD:0211 Coffin Lid, (-2370, 40, -800) (0000, 8000, 0000)
+005E:1012 Timed Torch, Light: 0, Perm: 12, (-2285, 0, -520) (0000, 0000, 0000)
+00BD:0212 Coffin Lid, (-2320, 40, -680) (0000, 0000, 0000)
+0015:1F03 Collectable Heart, Perm: 1F, (-1947, 10, -625) (0000, 0000, 0000)
+0015:2003 Collectable Heart, Temp: 00, (-2144, 10, -859) (0000, 0000, 0000)
+

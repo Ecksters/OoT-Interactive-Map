@@ -1,0 +1,26 @@
+Room 4
+Room at 02B1D000
+Setup 0: 00000000
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000140
+0B: There are 9 Object(s). List starts at 00000040
+00F1, 016D, 00AB, 012A, 0024, 000E, 0090, 001B, 015C, 
+01: There are 14 actor(s). List starts at 00000054
+0095:0000 Skullwalltula, Type 0, Group 00, Flag 00, (-1185, 619, -870) (3F4A, 4000, 0000)
+0095:0000 Skullwalltula, Type 0, Group 00, Flag 00, (-1178, 583, -971) (4000, 4000, 0000)
+0095:0000 Skullwalltula, Type 0, Group 00, Flag 00, (-1000, 152, -1295) (4000, C000, 0000)
+0095:0000 Skullwalltula, Type 0, Group 00, Flag 00, (-1000, 278, -1236) (4000, C000, 0000)
+0025:FFFF Lizafos, Spawn on entering door bound to invalid, (-1074, 501, -717) (0000, 6000, 0000)
+0025:FFFF Lizafos, Spawn on entering door bound to invalid, (-730, 480, -736) (0000, AAAB, 0000)
+0095:8708 Gold Skulltula, Type 4, Group 07, Flag 08, (-1120, 442, -1258) (4000, 4000, 0000)
+0150:2300 Sun Emblem Switch, (-921, 480, -889) (C000, C000, 0000)
+0159:0023 Light-Blocking Rock, (-1160, 686, -880) (0000, 0000, 0000)
+012A:1203 Crystal Switch, Ice? no, ?? no, Blue? no, Toggle? no, Perm: 12, (-990, 625, -638) (0000, 0000, 0000)
+0111:4610 Breakable Pot, Collectable: 10 Temp: 03, (-1101, 40, -1305) (0000, 0000, 0000)
+0185:04BF Check Spot, Checkable, dialog Show me the light!, No Flag, (-920, 480, -884) (0000, 0000, 000B)
+000A:8066 Chest, Small, Falls, Switch Flag, reward 03: Bombchus (10), chest flag: 06, bound to Perm: 12, (-907, 589, -1288) (0000, 8000, 0012)
+000A:852C Chest, Small, Falls, Switch Flag, reward 29: Deku Shield, chest flag: 0C, bound to Perm: 12, (-717, 586, -1139) (0000, 4000, 0012)
+

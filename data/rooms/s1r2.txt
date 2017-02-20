@@ -1,0 +1,39 @@
+Room 2
+Room at 01F4E000
+Setup 0: 00000000
+16: Sound Settings: Echo 4
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000200
+0B: There are 5 Object(s). List starts at 00000040
+002B, 018A, 0031, 0024, 015C, 
+01: There are 27 actor(s). List starts at 0000004C
+0095:0000 Skullwalltula, Type 0, Group 00, Flag 00, (-1920, 604, -1252) (0000, 0000, 0000)
+011B:BF14 Navi Infospot, Type: C-up, Text: Wow! Look at all those Bomb Flowers! Is there any way you can set them all off a, No Flag, (-1960, 20, -1303) (001E, 0024, 0000)
+004C:FFFF Bombflower, (-2070, 20, -1665) (0000, 0000, 0000)
+004C:FFFF Bombflower, (-2070, 20, -1605) (0000, 0000, 0000)
+004C:FFFF Bombflower, (-2070, 20, -1545) (0000, 0000, 0000)
+004C:FFFF Bombflower, (-2070, 20, -1485) (0000, 0000, 0000)
+004C:FFFF Bombflower, (-2070, 20, -1425) (0000, 0000, 0000)
+004C:FFFF Bombflower, (-2070, 20, -1365) (0000, 0000, 0000)
+004C:FFFF Bombflower, (-2070, 20, -1305) (0000, 0000, 0000)
+004C:FFFF Bombflower, (-2015, 20, -1305) (0000, 0000, 0000)
+004C:FFFF Bombflower, (-1903, 20, -1305) (0000, 0000, 0000)
+004C:FFFF Bombflower, (-1844, 20, -1665) (0000, 0000, 0000)
+004C:FFFF Bombflower, (-1844, 20, -1605) (0000, 0000, 0000)
+004C:FFFF Bombflower, (-1844, 20, -1545) (0000, 0000, 0000)
+004C:FFFF Bombflower, (-1844, 20, -1485) (0000, 0000, 0000)
+004C:FFFF Bombflower, (-1844, 20, -1425) (0000, 0000, 0000)
+004C:FFFF Bombflower, (-1844, 20, -1365) (0000, 0000, 0000)
+004C:FFFF Bombflower, (-1844, 20, -1305) (0000, 0000, 0000)
+004C:FFFF Bombflower, (-1797, 0, -1105) (0000, 0000, 0000)
+0095:8201 Gold Skulltula, Type 4, Group 02, Flag 01, (-2000, 683, -1256) (0000, 0000, 0000)
+0059:A002 Bombable Wall, Perm: 02, (-1960, 0, -1040) (0000, 8000, 0000)
+0095:8204 Gold Skulltula, Type 4, Group 02, Flag 04, (-1965, 635, -2059) (0000, 0000, 0000)
+005C:0023 Giant Stone Stairs, Temp: 03, (-1960, 480, -1900) (0000, C000, 0000)
+0111:6603 Breakable Pot, Collectable: 03 Temp: 13, (-2414, 380, -1823) (0000, 0000, 0000)
+0111:6802 Breakable Pot, Collectable: 02 Temp: 14, (-2368, 380, -1827) (0000, 0000, 0000)
+0111:6A02 Breakable Pot, Collectable: 02 Temp: 15, (-1574, 380, -1831) (0000, 0000, 0000)
+0111:6C03 Breakable Pot, Collectable: 03 Temp: 16, (-1528, 380, -1827) (0000, 0000, 0000)
+

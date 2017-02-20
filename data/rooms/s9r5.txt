@@ -1,0 +1,46 @@
+Room 5
+Room at 02C2A000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 01
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030001B0
+0B: There are 7 Object(s). List starts at 00000058
+006B, 0021, 000D, 0024, 015C, 0190, 00A8, 
+01: There are 20 actor(s). List starts at 00000068
+0015:2E02 Collectable Red rupee, Temp: 0E, (-1699, 225, -697) (0000, 0000, 0000)
+0015:2F02 Collectable Red rupee, Temp: 0F, (-1648, 226, -715) (0000, 0000, 0000)
+0015:3002 Collectable Red rupee, Temp: 10, (-1648, 225, -677) (0000, 0000, 0000)
+0013:0004 Ice Keese, (-1367, 0, -1017) (0000, 0000, 0000)
+0013:0004 Ice Keese, (-1359, 0, -749) (0000, FBBC, 0000)
+0013:0004 Ice Keese, (-1208, 0, -490) (0000, 0000, 0000)
+0095:8A01 Gold Skulltula, Type 4, Group 0A, Flag 01, (-761, 185, -525) (0000, A889, 0000)
+01D1:383A Time Block, Local: 02, (-1681, 120, -695) (0000, 0000, 0003)
+01D1:3938 Time Block, Local: 00, (-1820, 122, -695) (0000, 0000, 0003)
+01D1:3939 Time Block, Local: 01, (-1760, 122, -695) (0000, 0000, 0003)
+0117:1FC9 Silver Rupee, Type: Rupee, Perm: 09, (-1676, 112, -552) (0000, 0000, 0000)
+0117:1FC9 Silver Rupee, Type: Rupee, Perm: 09, (-1558, 41, -951) (0000, 0000, 0000)
+0117:1FC9 Silver Rupee, Type: Rupee, Perm: 09, (-1294, 113, -899) (0000, 0000, 0000)
+0117:1FC9 Silver Rupee, Type: Rupee, Perm: 09, (-1120, 119, -1577) (0000, 0000, 0000)
+0117:1FC9 Silver Rupee, Type: Rupee, Perm: 09, (-1040, 112, -485) (0000, 0000, 0000)
+0117:0149 Silver Rupee, Type: Collect 5 Rupees, Perm: 09, (-1387, 0, -334) (0000, 0000, 0000)
+00F0:FFFF Blue Flame, (-1942, 150, -690) (0000, 0000, 0000)
+01C8:0901 2D Ice Bars, (-1388, 120, -164) (0000, 8000, 0000)
+00D6:0000 Movable Ice Block, (-1060, 0, -900) (0000, 0000, 0000)
+00EF:0010 Red Ice, (-1126, 119, -1577) (0000, F555, 0000)
+
+Cutscene 0: 000001D0
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 030001B0
+0B: There are 3 Object(s). List starts at 00000210
+006B, 008A, 00B6, 
+01: There are 3 actor(s). List starts at 00000218
+00D6:0000 Movable Ice Block, (-1060, 0, -900) (0000, 0000, 0000)
+00EF:00FF Red Ice, (-1120, 119, -1577) (0000, F555, 0000)
+00EF:01FF Red Ice, (-1948, 121, -684) (0000, 4000, 0000)
+

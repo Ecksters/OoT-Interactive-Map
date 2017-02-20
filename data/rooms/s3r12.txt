@@ -1,0 +1,17 @@
+Room 12
+Room at 02466000
+Setup 0: 00000000
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000A0
+0B: There are 8 Object(s). List starts at 00000040
+0073, 0072, 0099, 00A4, 000E, 0090, 005C, 006F, 
+01: There are 5 actor(s). List starts at 00000050
+0173:3F94 Targetable Navi Spot (Green), (-430, 881, -3406) (0002, 001E, 0000)
+0173:0A95 Targetable Navi Spot (Green), (-430, 881, -3406) (0002, 005E, 0000)
+000A:784D Chest, Small, Appears, Clear Flag, reward 42: Small Key, chest flag: 0D, bound to Perm: 00, (-458, 827, -3495) (0000, 4000, 0000)
+0093:021D Poe Sisters Puzzle, Type: Joelle Painting, Perm: 1D, (-707, 1308, -3380) (0000, C000, 0000)
+0105:011D Poe Sisters Golden Torch, Color: Red (Joelle), Perm: 1D, (-431, 827, -3410) (0000, 0000, 0000)
+

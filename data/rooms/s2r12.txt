@@ -1,0 +1,39 @@
+Room 12
+Room at 02796000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000120
+0B: There are 9 Object(s). List starts at 00000058
+0096, 00A3, 0007, 0012, 0021, 0056, 0026, 000E, 0090, 
+01: There are 11 actor(s). List starts at 0000006C
+0187:7828 Timer, Room Clear Time: 00:40 Perm: 1E, (-651, -340, -5767) (0000, 0000, 0000)
+000A:B804 Chest, Large, Appears, Switch Flag, reward 40: Compass, chest flag: 04, bound to Perm: 1E, (-669, -340, -5681) (0000, 8000, 001E)
+002D:FFFF Shaboom, (-776, -340, -5894) (0000, 0000, 0000)
+002D:FFFF Shaboom, (-560, -340, -5746) (0000, 0000, 0000)
+002D:FFFF Shaboom, (-552, -340, -5606) (0000, 0000, 0000)
+002D:FFFF Shaboom, (-749, -47, -5771) (0000, 0000, 0000)
+002D:FFFF Shaboom, (-744, -83, -5579) (0000, 0000, 0000)
+002D:FFFF Shaboom, (-643, -340, -5552) (0000, 0000, 0000)
+002D:FFFF Shaboom, (-445, -138, -5823) (0000, 0000, 0000)
+002D:FFFF Shaboom, (-786, -340, -5667) (0000, 0000, 0000)
+002D:FFFF Shaboom, (-852, -340, -5480) (0000, 0000, 0000)
+
+Cutscene 0: 00000140
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 03000120
+0B: There are 4 Object(s). List starts at 00000180
+0096, 00A3, 0007, 000E, 
+01: There are 5 actor(s). List starts at 00000188
+000E:0000 Octorok, (-832, -340, -5861) (0000, 20B6, 0000)
+000E:0000 Octorok, (-839, -340, -5503) (0000, 5F4A, 0000)
+000E:0000 Octorok, (-476, -340, -5499) (0000, A000, 0000)
+000E:0000 Octorok, (-481, -340, -5860) (0000, DD28, 0000)
+000A:0043 Chest, Large, reward 02: Deku Nuts, chest flag: 03, bound to Perm: 00, (-659, -340, -5681) (0000, 8000, 0000)
+

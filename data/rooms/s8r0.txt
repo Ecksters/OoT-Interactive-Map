@@ -1,0 +1,47 @@
+Room 0
+Room at 032D3000
+Setup 0: 00000000
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? True, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000290
+0B: There are 15 Object(s). List starts at 00000040
+008D, 0187, 000B, 000E, 0090, 0024, 012B, 000D, 005D, 00D4, 0163, 015C, 00DC, 00F2, 00CB, 
+01: There are 35 actor(s). List starts at 00000060
+0037:0001 Big Skulltula, (-607, 268, -1439) (0000, 0000, 0000)
+0037:0001 Big Skulltula, (-3, 15, 600) (0000, 0000, 0000)
+0037:0001 Big Skulltula, (323, 160, -532) (0000, 8000, 0000)
+0037:0001 Big Skulltula, (598, 140, 210) (0000, C000, 0000)
+0011:0001 Ceiling Wall Master, (-2, 0, -742) (0000, 0000, 0000)
+00DD:FFFF Like-Like, (944, 0, -710) (0000, 0000, 0000)
+00AE:0000 Unknown Shadow Temple Graphical, (0, 0, -740) (0000, 0000, 0000)
+0095:8901 Gold Skulltula, Type 4, Group 09, Flag 01, (1130, 124, -740) (0000, 0000, 4000)
+000A:0801 Chest, Large, reward 40: Compass, chest flag: 01, bound to Perm: 00, (-314, 0, -412) (0000, 0000, 0000)
+000A:5062 Chest, Small, reward 03: Bombchus (10), chest flag: 02, bound to Perm: 00, (-98, -220, -275) (0000, 4000, 0000)
+00D7:0003 Bottom of the Well Water, Perm: 03, (0, 0, -740) (0000, 0000, 0000)
+012E:1C83 Music Staff Spot, Type 7, Song 2, Perm: 03, (10, -10, -1528) (0000, 8000, 0001)
+0185:8AC3 Check Spot, Disappears on Switch, dialog The crest of the Royal Family is inscrib, Perm: 03, (10, 0, -1502) (0000, 0000, 000B)
+000A:5C84 Chest, Small, reward 64: Deku nuts, chest flag: 04, bound to Perm: 00, (-1100, 0, -1510) (0000, C000, 0000)
+000A:5845 Chest, Small, reward 42: Small Key, chest flag: 05, bound to Perm: 00, (463, 0, -174) (0000, C000, 0000)
+00BE:0702 Shadow Temple Object, (-200, 24, -197) (0000, 0000, 0000)
+00BE:0802 Shadow Temple Object, (-1080, 24, -1477) (0000, 0000, 0000)
+000A:5848 Chest, Small, reward 42: Small Key, chest flag: 08, bound to Perm: 00, (-435, 0, -183) (0000, 8000, 0000)
+000A:5909 Chest, Small, reward 48: Heart, chest flag: 09, bound to Perm: 00, (-1353, -200, -737) (0000, C000, 0000)
+000A:554C Chest, Small, reward 2A: Hylian Shield, chest flag: 0C, bound to Perm: 00, (1077, 0, -744) (0000, 4000, 0000)
+000A:504E Chest, Small, reward 02: Deku Nuts, chest flag: 0E, bound to Perm: 00, (333, 0, -407) (0000, 0000, 0000)
+000A:5CD0 Chest, Small, reward 66: Bombs, chest flag: 10, bound to Perm: 00, (-93, -120, 206) (0000, C000, 0000)
+0111:4203 Breakable Pot, Collectable: 03 Temp: 01, (-969, 0, 55) (0000, 0000, 0000)
+0111:440F Breakable Pot, Collectable: 0F Temp: 02, (-966, 0, 9) (0000, 0000, 0000)
+0111:4603 Breakable Pot, Collectable: 03 Temp: 03, (-965, 0, -32) (0000, 0000, 0000)
+011B:2391 Navi Infospot, Type: Pop-up, Text: Watch for the shadows of / monsters that hang from the / ceiling., Temp: 03, (3, 0, -697) (001E, 0000, 0004)
+0111:480D Breakable Pot, Collectable: 0D Temp: 04, (-41, 0, 389) (0000, 0000, 0000)
+0111:4A0F Breakable Pot, Collectable: 0F Temp: 05, (36, 0, 389) (0000, 0000, 0000)
+0173:2526 Targetable Navi Spot (Green), (-66, 62, 443) (0004, 0000, 0001)
+0111:4C04 Breakable Pot, Collectable: 04 Temp: 06, (3, -92, -1641) (0000, 0000, 0000)
+0173:272B Targetable Navi Spot (Green), (9, 73, -1633) (0000, 0000, 0000)
+0173:282A Targetable Navi Spot (Green), (637, 97, -1549) (0000, 0000, 0000)
+0173:2929 Targetable Navi Spot (Green), (-627, 97, -1553) (0000, 0000, 0000)
+0069:01FB Bubble (flying skull), (680, 30, -42) (0000, 8000, 0000)
+0173:2C26 Targetable Navi Spot (Green), (-968, 59, 87) (0002, 0000, 0000)
+

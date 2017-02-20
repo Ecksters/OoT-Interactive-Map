@@ -1,0 +1,19 @@
+Room 12
+Room at 01FA0000
+Setup 0: 00000000
+16: Sound Settings: Echo 4
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000D0
+0B: There are 15 Object(s). List starts at 00000040
+002B, 018A, 000D, 0031, 000E, 001F, 0038, 0085, 012B, 008B, 0177, 0168, 0024, 0154, 0188, 
+01: There are 7 actor(s). List starts at 00000060
+0185:8A3F Check Spot, Disappears on Switch, dialog Look at this!, No Flag, (3088, 592, -608) (0000, 0000, 0000)
+0049:2FF9 Flame Circle, Small, shuts off for long time, camera 0F, bound to Local: 01, (3109, 531, -919) (0000, 0000, 0000)
+012A:3902 Eye Switch, Ice? no, ?? no, Blue? no, Toggle? no, Local: 01, (2688, 731, -920) (0000, 4000, 0000)
+0049:2FFA Flame Circle, Small, shuts off for long time, camera 0F, bound to Local: 02, (2927, 531, -921) (0000, 0000, 0000)
+012A:3A02 Eye Switch, Ice? no, ?? no, Blue? no, Toggle? no, Local: 02, (3088, 593, -608) (0000, 8000, 0000)
+0111:7603 Breakable Pot, Collectable: 03 Temp: 1B, (2705, 411, -1086) (0000, 0000, 0000)
+0111:7801 Breakable Pot, Collectable: 01 Temp: 1C, (3329, 411, -753) (0000, 0000, 0000)
+

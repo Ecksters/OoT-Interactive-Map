@@ -1,0 +1,15 @@
+Room 24
+Room at 023BB000
+Setup 0: 00000000
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 02
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000090
+0B: There are 9 Object(s). List starts at 00000040
+002C, 0025, 005D, 000D, 0038, 0085, 00A4, 005F, 009E, 
+01: There are 3 actor(s). List starts at 00000054
+0099:FFFF Flare Dancer, (-2928, 2920, 139) (0000, 0000, 0000)
+0047:FFFF Stone Elevator (Fire Temple), (-2928, 2840, 139) (0000, 4000, 0000)
+0049:0FFF Flame Circle, Large, doesn't shut off, camera 0F, bound to No Flag, (-2928, 2920, 139) (0000, 0000, 0000)
+

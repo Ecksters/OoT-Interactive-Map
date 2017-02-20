@@ -1,0 +1,29 @@
+Room 4
+Room at 02771000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000A0
+0B: There are 8 Object(s). List starts at 00000058
+0096, 00A3, 0007, 0012, 0021, 0056, 0026, 00AC, 
+01: There are 3 actor(s). List starts at 00000068
+000E:FF00 Octorok, (-1223, -40, -1479) (0000, 80B6, 0000)
+00B6:00FF Floppy Muscle Platform, (-1104, -40, -1700) (0000, C000, 0000)
+00B6:00FF Floppy Muscle Platform, (-1363, -40, -1700) (0000, 80B6, 0000)
+
+Cutscene 0: 000000C0
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 030000A0
+0B: There are 4 Object(s). List starts at 00000100
+0096, 00A3, 0007, 00AC, 
+01: There are 3 actor(s). List starts at 00000108
+000E:0000 Octorok, (-1223, -40, -1479) (0000, 80B6, 0000)
+00B6:00FF Floppy Muscle Platform, (-1104, -40, -1700) (0000, C000, 0000)
+00B6:00FF Floppy Muscle Platform, (-1363, -40, -1700) (0000, 80B6, 0000)
+

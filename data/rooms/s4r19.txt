@@ -1,0 +1,22 @@
+Room 19
+Room at 02398000
+Setup 0: 00000000
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 02
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000100
+0B: There are 12 Object(s). List starts at 00000040
+002C, 0025, 005D, 000D, 0085, 00A4, 005F, 0024, 015C, 00D4, 00F2, 00DC, 
+01: There are 10 actor(s). List starts at 00000058
+00DD:FFFF Like-Like, (879, 260, -1828) (0000, 0000, 0000)
+006B:FFFF Flying Floor Tile, (1090, 232, -1830) (0000, 0000, 0000)
+006B:0003 Flying Floor Tile, (1090, 232, -1650) (0000, 0000, 0000)
+006B:0007 Flying Floor Tile, (1170, 232, -1740) (0000, 0000, 0000)
+006B:0009 Flying Floor Tile, (1250, 232, -1830) (0000, 0000, 0000)
+006B:000D Flying Floor Tile, (1250, 232, -1650) (0000, 0000, 0000)
+006B:0011 Flying Floor Tile, (1330, 232, -1740) (0000, 0000, 0000)
+006B:0015 Flying Floor Tile, (1410, 232, -1830) (0000, 0000, 0000)
+006B:0019 Flying Floor Tile, (1410, 232, -1650) (0000, 0000, 0000)
+0095:8501 Gold Skulltula, Type 4, Group 05, Flag 01, (810, 341, -1742) (0000, 4000, 0000)
+

@@ -1,0 +1,16 @@
+Room 5
+Room at 027DE000
+Setup 0: 00000000
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? True, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 03000090
+0B: There are 4 Object(s). List starts at 00000040
+0069, 0187, 008B, 012F, 
+01: There are 4 actor(s). List starts at 00000048
+008A:0500 Beamos, (3358, -543, 55) (0000, C000, 0000)
+00AE:0006 Shadow Temple Wall of Skulls, (3358, -543, 55) (0000, C000, 0000)
+00BE:1E01 Shadow Temple Object, (3604, -463, 55) (0000, C000, 0000)
+0183:FF41 Song of Storms Fairy (Giant Fairy?), (3362, -543, 54) (0000, 0000, 0000)
+

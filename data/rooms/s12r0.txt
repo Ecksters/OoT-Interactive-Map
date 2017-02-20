@@ -1,11 +1,22 @@
-Room 11
-Room at 02509000
+Room 0
+Room at 032A0000
 Setup 0: 00000000
 16: Sound Settings: Echo 7
 08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
 12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
 10: Time Settings: FFFF 00
-0A: Room Mesh: 03000050
-0B: There are 10 Object(s). List starts at 00000038
-0036, 001E, 0024, 0039, 0164, 000E, 00A4, 012B, 00B7, 00BB, 
+0A: Room Mesh: 030000F0
+0B: There are 7 Object(s). List starts at 00000040
+00A4, 0122, 014B, 0169, 0167, 0170, 0116, 
+01: There are 10 actor(s). List starts at 00000050
+0186:FF01 Patrolling Gerudo, (1344, -160, -3640) (0000, 471C, 0000)
+0186:0800 Patrolling Gerudo, (1306, 216, -3480) (0000, 40B6, 0002)
+0112:1D3F Invisible Collectible, 03 14 3F, (820, 214, -3511) (0000, 0000, 0001)
+0112:1D3F Invisible Collectible, 03 14 3F, (38, 210, -3509) (0000, 0000, 0001)
+0111:5409 Breakable Pot, Collectable: 09 Temp: 0A, (1438, -108, -3629) (0000, 0000, 0000)
+0111:560E Breakable Pot, Collectable: 0E Temp: 0B, (1403, -108, -3679) (0000, 0000, 0000)
+01A0:FFFF Large Crate, (1600, -160, -3550) (0000, 0000, 0000)
+01A0:FFFF Large Crate, (1600, -160, -3502) (0000, 0000, 0000)
+01A0:FFFF Large Crate, (1360, -160, -3325) (0000, 0000, 0000)
+01A0:FFFF Large Crate, (1260, -160, -3155) (0000, 0000, 0000)
 

@@ -1,0 +1,23 @@
+Room 6
+Room at 027E4000
+Setup 0: 00000000
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? True, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 03000100
+0B: There are 4 Object(s). List starts at 00000040
+0069, 0187, 000E, 00B7, 
+01: There are 11 actor(s). List starts at 00000048
+0117:1FC1 Silver Rupee, Type: Rupee, Perm: 01, (3243, -543, -1061) (0000, 0000, 0000)
+0117:1FC1 Silver Rupee, Type: Rupee, Perm: 01, (3007, -423, -1222) (0000, 0000, 0000)
+0117:1FC1 Silver Rupee, Type: Rupee, Perm: 01, (3554, -543, -1432) (0000, 0000, 0000)
+0117:1FC1 Silver Rupee, Type: Rupee, Perm: 01, (2869, -543, -948) (0000, 0000, 0000)
+0117:1FC1 Silver Rupee, Type: Rupee, Perm: 01, (3399, -543, -838) (0000, 0000, 0000)
+0117:0141 Silver Rupee, Type: Collect 5 Rupees, Perm: 01, (3359, -492, -947) (0000, 0000, 0000)
+0173:2181 Targetable Navi Spot (Green), (4065, -480, -1227) (0000, FFA6, 0000)
+00AE:0007 Shadow Temple Floor (bluish? texture), (3978, -543, -1226) (0000, 0000, 0000)
+00AF:0103 Shadow Temple Platforms, (3768, -543, -786) (0000, 4000, 0000)
+00B1:0000 Spining Scythe Statue, (3358, -543, -946) (0000, 0000, 0000)
+000A:5842 Chest, Small, reward 42: Small Key, chest flag: 02, bound to Perm: 00, (3992, -543, -784) (0000, 4000, 0000)
+

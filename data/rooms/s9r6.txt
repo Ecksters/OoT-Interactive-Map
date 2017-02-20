@@ -1,0 +1,41 @@
+Room 6
+Room at 02C33000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 01
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030001A0
+0B: There are 8 Object(s). List starts at 00000058
+006B, 008A, 0114, 000E, 0085, 0090, 00B7, 000D, 
+01: There are 19 actor(s). List starts at 00000068
+0111:5403 Breakable Pot, Collectable: 03 Temp: 0A, (-1422, 265, 586) (0000, 0000, 0000)
+0111:5603 Breakable Pot, Collectable: 03 Temp: 0B, (-1488, 271, 676) (0000, 0000, 0000)
+01C7:0000 Icicles, (-1624, 227, 431) (0000, 0000, 0000)
+01C7:0000 Icicles, (-1595, 248, 600) (0000, 0000, 0000)
+01C7:0000 Icicles, (-1587, 240, 497) (0000, 0000, 0000)
+01C7:0000 Icicles, (-1514, 203, 307) (0000, 0000, 0000)
+01C7:0000 Icicles, (-1507, 226, 443) (0000, 0000, 0000)
+01C7:0000 Icicles, (-1367, 177, 206) (0000, 0000, 0000)
+01C7:0000 Icicles, (-1349, 188, 270) (0000, 0000, 0000)
+01C7:0000 Icicles, (-1288, 172, 184) (0000, 0000, 0000)
+01C7:0001 Icicles, (-1571, 473, 422) (0000, 0000, 0000)
+01C7:0002 Icicles, (-1412, 398, 246) (0000, 0000, 0000)
+01C7:0002 Icicles, (-1328, 385, 215) (0000, 0000, 0000)
+01C7:0002 Icicles, (-1231, 350, 170) (0000, 0000, 0000)
+00EF:0111 Red Ice, (-1459, 267, 625) (0000, 0000, 0000)
+00EF:0012 Red Ice, (-1488, 271, 676) (0000, 0000, 0000)
+00EF:0013 Red Ice, (-1422, 265, 586) (0000, 0000, 0000)
+0121:0000 Freezard, (-1513, 246, 560) (0000, 8000, 0000)
+0121:0000 Freezard, (-1508, 209, 358) (0000, 6444, 0000)
+
+Cutscene 0: 000001C0
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 030001A0
+0B: There are 3 Object(s). List starts at 000001F8
+006B, 008A, 00B6, 
+

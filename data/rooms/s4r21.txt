@@ -1,0 +1,21 @@
+Room 21
+Room at 023A4000
+Setup 0: 00000000
+16: Sound Settings: Echo 4
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 03
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000F0
+0B: There are 10 Object(s). List starts at 00000040
+002C, 0025, 005D, 000D, 0085, 00A4, 005F, 0024, 015C, 00B7, 
+01: There are 9 actor(s). List starts at 00000054
+0013:0003 Roosting Keese, (3279, 640, 326) (0000, 8000, 0000)
+0013:0003 Roosting Keese, (3280, 640, -321) (0000, 0000, 0000)
+005E:2400 Lit Wooden Torch, Perm: 00, (3312, 440, -192) (0000, 0000, 0000)
+0013:0003 Roosting Keese, (3335, 640, 326) (0000, 8000, 0000)
+0013:0003 Roosting Keese, (3337, 640, -320) (0000, 0000, 0000)
+0043:2F00 Fire Temple Stone Blocks, (3310, 440, 120) (0000, 0000, 0000)
+0015:2F03 Collectable Heart, Temp: 0F, (3476, 640, -359) (0000, 0000, 0000)
+0015:3003 Collectable Heart, Temp: 10, (3476, 640, -295) (0000, 0000, 0000)
+0015:3403 Collectable Heart, Temp: 14, (3526, 640, -339) (0000, 4000, 0000)
+

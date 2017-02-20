@@ -1,0 +1,19 @@
+Room 14
+Room at 02478000
+Setup 0: 00000000
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000D0
+0B: There are 11 Object(s). List starts at 00000040
+0073, 0072, 0099, 00A4, 000E, 0090, 0070, 0071, 000D, 005D, 0024, 
+01: There are 7 actor(s). List starts at 00000058
+005E:2400 Lit Wooden Torch, Perm: 00, (2034, 1220, -1322) (0000, C000, 0000)
+00E3:FF00 Forest Temple Object, (1999, 1058, -1322) (0000, 0000, 0000)
+0173:3F97 Targetable Navi Spot (Green), (1519, 1350, -1322) (0003, 0022, 0000)
+0068:FF21 Twisted Hallway Rooms, (1999, 1278, -3015) (0000, 0000, 0000)
+012A:2192 Eye Switch, Ice? yes, ?? no, Blue? no, Toggle? yes, Temp: 01, (1519, 1350, -1322) (0000, 4000, 0000)
+0111:5203 Breakable Pot, Collectable: 03 Temp: 09, (2312, 1093, -874) (0000, 0000, 0000)
+0111:5409 Breakable Pot, Collectable: 09 Temp: 0A, (2364, 1093, -873) (0000, 0000, 0000)
+

@@ -1,0 +1,21 @@
+Room 0
+Room at 02887000
+Setup 0: 00000000
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000E0
+0B: There are 6 Object(s). List starts at 00000040
+004D, 00A4, 000E, 0090, 00B9, 0177, 
+01: There are 9 actor(s). List starts at 0000004C
+005E:2400 Lit Wooden Torch, Perm: 00, (-160, -24, -200) (0000, 0000, 0000)
+005E:2400 Lit Wooden Torch, Perm: 00, (40, -24, -200) (0000, 0000, 0000)
+0185:4C2F Check Spot, Instant, dialog If you can overcome the trials in the ch, Temp: 0F, (-43, -64, -629) (0000, 0000, 000B)
+0185:4C2F Check Spot, Instant, dialog If you can overcome the trials in the ch, Temp: 0F, (468, -64, -188) (0000, 0000, 000B)
+0185:4C2F Check Spot, Instant, dialog If you can overcome the trials in the ch, Temp: 0F, (-590, -74, -176) (0000, 0000, 000B)
+012A:1A02 Eye Switch, Ice? no, ?? no, Blue? no, Toggle? no, Perm: 1A, (-64, 201, -6) (0000, 8000, 0000)
+000A:8947 Chest, Small, Falls, Switch Flag, reward 4A: Arrows (10), chest flag: 07, bound to Perm: 1A, (157, 219, -400) (0000, 6000, 001A)
+000A:8893 Chest, Small, Falls, Switch Flag, reward 44: Blue Rupee, chest flag: 13, bound to Perm: 1A, (-280, 215, -400) (0000, A000, 001A)
+0183:FF41 Song of Storms Fairy (Giant Fairy?), (-56, -20, -445) (0000, 0000, 0000)
+

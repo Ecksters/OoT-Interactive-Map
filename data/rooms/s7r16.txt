@@ -1,0 +1,25 @@
+Room 16
+Room at 02822000
+Setup 0: 00000000
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 03000130
+0B: There are 13 Object(s). List starts at 00000040
+0069, 0187, 000E, 000D, 0024, 015C, 00D4, 00DC, 00F2, 00CB, 0190, 00A8, 00B7, 
+01: There are 13 actor(s). List starts at 0000005C
+0013:0003 Roosting Keese, (5694, -934, 2520) (0000, 9555, 0000)
+0013:0003 Roosting Keese, (4983, -968, 2714) (0000, 8000, 0000)
+0013:0003 Roosting Keese, (5089, -975, 1553) (0000, 0000, 0000)
+00DD:FFFF Like-Like, (5637, -1143, 2128) (0000, C000, 0000)
+0015:2003 Collectable Heart, Temp: 00, (5676, -1028, 1565) (0000, 0000, 0000)
+0015:2103 Collectable Heart, Temp: 01, (5695, -1028, 1589) (0000, 0000, 0000)
+0095:8808 Gold Skulltula, Type 4, Group 08, Flag 08, (5995, -1031, 2129) (4000, C000, 0000)
+01D1:380A Time Block, Perm: 0A, (5669, -1143, 1585) (0000, 0000, 0002)
+0187:0FFF Timer, Clear to Switch Flag converter Perm: 03, (5319, -1143, 2142) (0000, 0000, 0000)
+00AF:0303 Shadow Temple Platforms, (5732, -1143, 2134) (0000, 4000, 0000)
+00B1:0001 Spining Scythe Statue, (5318, -1143, 2135) (0000, C000, 0000)
+000A:6976 Chest, Small, Invisible, reward 4B: Arrows (15), chest flag: 16, bound to Perm: 00, (5942, -1143, 2188) (0000, 4000, 0000)
+000A:588C Chest, Small, reward 44: Blue Rupee, chest flag: 0C, bound to Perm: 00, (5941, -1143, 2079) (0000, 4000, 0000)
+

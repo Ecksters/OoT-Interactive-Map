@@ -1,0 +1,16 @@
+Room 17
+Room at 02825000
+Setup 0: 00000000
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 03000090
+0B: There are 6 Object(s). List starts at 00000040
+0069, 0187, 0098, 000E, 0090, 000B, 
+01: There are 4 actor(s). List starts at 0000004C
+008E:8000 Floormaster, (-4304, -1363, -458) (0000, 8000, 0000)
+0111:6603 Breakable Pot, Collectable: 03 Temp: 13, (-4575, -1363, -811) (0000, 0000, 0000)
+0111:680A Breakable Pot, Collectable: 0A Temp: 14, (-4036, -1363, -811) (0000, 0000, 0000)
+000A:784D Chest, Small, Appears, Clear Flag, reward 42: Small Key, chest flag: 0D, bound to Perm: 00, (-4305, -1363, -363) (0000, 0000, 0000)
+

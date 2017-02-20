@@ -1,0 +1,17 @@
+Room 6
+Room at 03301000
+Setup 0: 00000000
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000A0
+0B: There are 5 Object(s). List starts at 00000040
+008D, 0187, 0039, 0024, 015C, 
+01: There are 5 actor(s). List starts at 0000004C
+0055:0000 Deku Baba (Snapping), (-327, 0, -1150) (0000, 0000, 0000)
+0095:8904 Gold Skulltula, Type 4, Group 09, Flag 04, (-325, 126, -1282) (C000, 8000, 0000)
+011D:00B4 Flying Pot, (-241, 0, -1238) (0000, 0000, 0000)
+011D:00F5 Flying Pot, (-413, 0, -1238) (0000, 0000, 0000)
+011D:03F6 Flying Pot, (-326, 0, -1234) (0000, 0000, 0000)
+

@@ -1,0 +1,17 @@
+Room 18
+Room at 02664000
+Setup 0: 00000000
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000B0
+0B: There are 11 Object(s). List starts at 00000040
+0059, 013B, 013A, 011C, 00B5, 00E5, 0016, 0012, 0026, 000E, 0090, 
+01: There are 5 actor(s). List starts at 00000058
+00C5:FFFF Shell Blade, (1509, 0, 111) (0000, 0000, 0000)
+00C5:FFFF Shell Blade, (1444, 0, 216) (0000, 8000, 0000)
+00C5:FFFF Shell Blade, (1536, 0, 245) (0000, 8000, 0000)
+0065:FF00 Large Water Square, (1350, 765, 180) (0000, C000, 0000)
+000A:7841 Chest, Small, Appears, Clear Flag, reward 42: Small Key, chest flag: 01, bound to Perm: 00, (1504, 0, 184) (0000, 4000, 0000)
+

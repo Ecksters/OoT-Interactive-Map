@@ -1,0 +1,15 @@
+Room 21
+Room at 02B9F000
+Setup 0: 00000000
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000080
+0B: There are 3 Object(s). List starts at 00000040
+00F1, 016D, 000E, 
+01: There are 3 actor(s). List starts at 00000048
+0008:03F4 Decorative Flame, (1778, 911, -679) (0000, 0000, 0000)
+0008:03F4 Decorative Flame, (2001, 911, -679) (0000, 0000, 0000)
+000A:5845 Chest, Small, reward 42: Small Key, chest flag: 05, bound to Perm: 00, (1891, 873, -681) (0000, 8000, 0000)
+

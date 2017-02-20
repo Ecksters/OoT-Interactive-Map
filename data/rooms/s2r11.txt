@@ -1,0 +1,26 @@
+Room 11
+Room at 02792000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000080
+0B: There are 9 Object(s). List starts at 00000058
+0096, 00A3, 0007, 0012, 0021, 0056, 0026, 00D5, 000E, 
+01: There are 1 actor(s). List starts at 0000006C
+00DE:0C02 Jabu-Jabu Tentacle, (660, 20, -5680) (0000, 0000, 0000)
+
+Cutscene 0: 000000A0
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 03000080
+0B: There are 4 Object(s). List starts at 000000E0
+0096, 00A3, 00D5, 000E, 
+01: There are 2 actor(s). List starts at 000000E8
+00DE:3FFF Jabu-Jabu Tentacle, (660, 20, -5680) (0000, 0000, 0000)
+000A:07C4 Chest, Large, reward 3E: Piece of Heart, chest flag: 04, bound to Perm: 00, (661, -340, -5876) (0000, 8000, 0000)
+

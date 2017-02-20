@@ -1,0 +1,15 @@
+Room 12
+Room at 02B62000
+Setup 0: 00000000
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000080
+0B: There are 6 Object(s). List starts at 00000040
+00F1, 016D, 000E, 00D4, 00DC, 00F2, 
+01: There are 3 actor(s). List starts at 0000004C
+00DD:FFFF Like-Like, (1701, 194, -1869) (0000, 0000, 0000)
+0183:FF40 Song of Storms Fairy (Giant Fairy?), (1571, -130, -1896) (0000, 0000, 0000)
+000A:5847 Chest, Small, reward 42: Small Key, chest flag: 07, bound to Perm: 00, (1573, -130, -1867) (0000, 8000, 0000)
+

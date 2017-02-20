@@ -1,0 +1,21 @@
+Room 8
+Room at 0261F000
+Setup 0: 00000000
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000F0
+0B: There are 14 Object(s). List starts at 00000040
+0059, 013B, 013A, 011C, 00B5, 00E5, 0016, 0026, 000E, 011F, 00B7, 000D, 0024, 015C, 
+01: There are 9 actor(s). List starts at 0000005C
+012D:FFC2 Hookshot Block, (-2020, -139, -1949) (0000, 4000, 0000)
+012D:FFC2 Hookshot Block, (-1743, -136, -1869) (0000, 8000, 0000)
+00C5:FFFF Shell Blade, (-1964, -220, -1965) (0000, 3F4A, 0000)
+00C5:FFFF Shell Blade, (-1912, -220, -1923) (0000, 3F4A, 0000)
+00D4:00FF Water Noise, (-1420, 50, -1950) (0000, 0000, 0000)
+000A:584A Chest, Small, reward 42: Small Key, chest flag: 0A, bound to Perm: 00, (-2196, 60, -1952) (0000, C000, 0000)
+012A:1B43 Crystal Switch, Ice? no, ?? yes, Blue? no, Toggle? no, Perm: 1B, (-2125, 60, -1886) (0000, 0000, 0000)
+012A:1B43 Crystal Switch, Ice? no, ?? yes, Blue? no, Toggle? no, Perm: 1B, (-1463, -212, -1833) (0000, 0000, 0000)
+01BB:129B Metal Gate, (-1853, -220, -1949) (0000, 4000, 0000)
+

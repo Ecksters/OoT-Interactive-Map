@@ -1,0 +1,29 @@
+Room 5
+Room at 032C1000
+Setup 0: 00000000
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000160
+0B: There are 8 Object(s). List starts at 00000040
+00A4, 0122, 014B, 0169, 0167, 0170, 0024, 0116, 
+01: There are 17 actor(s). List starts at 00000050
+0172:0F03 Metal Grate Door (Boss Door?), (401, 0, 397) (0000, 8000, 0000)
+0197:0F00 Gerudo Fighter, (532, 300, 203) (0000, 0000, 0013)
+0112:1D3F Invisible Collectible, 03 14 3F, (-65, 174, 173) (0000, 0000, 0001)
+0112:1D3F Invisible Collectible, 03 14 3F, (709, 166, 180) (0000, 0000, 0001)
+005E:2400 Lit Wooden Torch, Perm: 00, (-39, 0, 341) (0000, C000, 0000)
+005E:2400 Lit Wooden Torch, Perm: 00, (681, 0, 341) (0000, C000, 0000)
+0133:0322 Carpenter, (524, 0, 425) (0000, 8000, 0013)
+0111:4E03 Breakable Pot, Collectable: 03 Temp: 07, (661, 0, 16) (0000, 0000, 0000)
+0111:5001 Breakable Pot, Collectable: 01 Temp: 08, (691, 0, 48) (0000, 0000, 0000)
+0111:5202 Breakable Pot, Collectable: 02 Temp: 09, (691, 0, 16) (0000, 0000, 0000)
+0111:5803 Breakable Pot, Collectable: 03 Temp: 0C, (254, 0, 529) (0000, 0000, 0000)
+0111:5A03 Breakable Pot, Collectable: 03 Temp: 0D, (215, 0, 549) (0000, 0000, 0000)
+0111:5C03 Breakable Pot, Collectable: 03 Temp: 0E, (26, 0, 524) (0000, 0000, 0000)
+0111:5E03 Breakable Pot, Collectable: 03 Temp: 0F, (61, 0, 549) (0000, 0000, 0000)
+0185:4707 Check Spot, Instant, dialog Hey, you! Young man, over there! Look ov, Perm: 07, (523, 54, 424) (0000, 8000, 0006)
+01A0:FFFF Large Crate, (11, 0, 11) (0000, 0000, 0000)
+01A0:FFFF Large Crate, (-49, 0, 11) (0000, 0000, 0000)
+

@@ -1,0 +1,18 @@
+Room 1
+Room at 02897000
+Setup 0: 00000000
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000B0
+0B: There are 6 Object(s). List starts at 00000040
+004D, 000E, 0090, 0032, 011F, 0085, 
+01: There are 6 actor(s). List starts at 0000004C
+0002:0002 Stalfos, Rises out of Ground, No miniboss music, (-1629, -90, -19) (0000, 4E39, 0000)
+0002:0002 Stalfos, Rises out of Ground, No miniboss music, (-1870, -90, -357) (0000, 3333, 0000)
+0185:4C9F Check Spot, Instant, dialog Defeat all the enemies in a limited time, Perm: 1F, (-1395, -82, -233) (0000, 0000, 0045)
+0187:7C3C Timer, Room Clear Time: 01:00 Perm: 1F, (-1606, -90, -123) (0000, 0000, 0000)
+0080:0510 Sliding Metal Spike Trap, (-1150, -80, -281) (0000, 0000, 0000)
+000A:8840 Chest, Small, Falls, Switch Flag, reward 42: Small Key, chest flag: 00, bound to Perm: 1F, (-1674, 120, -494) (0000, 8000, 001F)
+

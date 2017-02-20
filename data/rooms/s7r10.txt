@@ -1,0 +1,27 @@
+Room 10
+Room at 02801000
+Setup 0: 00000000
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? True, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 03000150
+0B: There are 9 Object(s). List starts at 00000040
+0069, 0187, 000E, 0090, 012F, 0024, 015C, 0085, 00A4, 
+01: There are 15 actor(s). List starts at 00000054
+00FF:FF02 Very large Red Block, Bound to No Flag, load when unset, (961, -1343, 3685) (0000, 0000, 0000)
+0095:8802 Gold Skulltula, Type 4, Group 08, Flag 02, (770, -1272, 4066) (C000, 4000, 0000)
+0141:0026 Square Signpost, (1132, -1343, 4103) (0000, 8000, 0000)
+0111:4803 Breakable Pot, Collectable: 03 Temp: 04, (614, -1343, 3579) (0000, 0000, 0000)
+0111:4A04 Breakable Pot, Collectable: 04 Temp: 05, (798, -1343, 3574) (0000, 0000, 0000)
+0111:5603 Breakable Pot, Collectable: 03 Temp: 0B, (1173, -1183, 3707) (0000, 0000, 0000)
+0111:5A03 Breakable Pot, Collectable: 03 Temp: 0D, (1173, -1183, 3605) (0000, 0000, 0000)
+012A:0400 Floor Switch, Ice? no, ?? no, Blue? no, Toggle? no, Perm: 04, (738, -1183, 4067) (0000, 0000, 0000)
+0080:0210 Sliding Metal Spike Trap, (631, -1343, 3720) (0000, 4000, 0000)
+00AE:0009 Shadow Temple Wall with bluish?, fat bricks texture (one sided), (961, -1343, 3755) (0000, 0000, 0000)
+00BC:0001 Shadow Temple Object, (511, -1143, 3855) (0000, 0000, 0000)
+00BC:0001 Shadow Temple Object, (711, -1143, 3855) (0000, 0000, 0000)
+000A:8844 Chest, Small, Falls, Switch Flag, reward 42: Small Key, chest flag: 04, bound to Perm: 04, (1107, -1024, 3659) (0000, 4000, 0004)
+000A:5945 Chest, Small, reward 4A: Arrows (10), chest flag: 05, bound to Perm: 00, (505, -1343, 3657) (0000, 4000, 0000)
+000A:5886 Chest, Small, reward 44: Blue Rupee, chest flag: 06, bound to Perm: 00, (224, -1183, 4080) (0000, C000, 0000)
+

@@ -1,0 +1,39 @@
+Room 14
+Room at 0279D000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000180
+0B: There are 10 Object(s). List starts at 00000058
+0096, 00A3, 0007, 0012, 0021, 0056, 0026, 00B7, 0024, 015C, 
+01: There are 17 actor(s). List starts at 0000006C
+003A:000A Stinger, (1100, -1293, -2521) (0000, 0000, 0000)
+003A:000A Stinger, (936, -1283, -2277) (0000, 0000, 0000)
+003A:000A Stinger, (1264, -1293, -2281) (0000, 0000, 0000)
+00E6:3C04 Jabu-Jabu Switch, (651, -1072, -1603) (0000, 0000, 8000)
+00E6:3902 Jabu-Jabu Switch, (1098, -1294, -2387) (0000, 0000, 0000)
+00C8:3902 Jabu-Jabu object, (1100, -1283, -2383) (0000, 0000, 0000)
+0095:8308 Gold Skulltula, Type 4, Group 03, Flag 08, (801, -1129, -2380) (0000, 4000, 0000)
+0111:4A10 Breakable Pot, Collectable: 10 Temp: 05, (645, -1073, -2408) (0000, 0000, 0000)
+0111:4C12 Breakable Pot, Collectable: 12 Temp: 06, (703, -1073, -2371) (0000, 0000, 0000)
+0111:4E10 Breakable Pot, Collectable: 10 Temp: 07, (650, -1073, -2344) (0000, 0000, 0000)
+002D:FFFF Shaboom, (668, -1085, -3239) (0000, 0000, 0000)
+002D:FFFF Shaboom, (770, -1099, -3203) (0000, 0000, 0000)
+002D:FFFF Shaboom, (1092, -1176, -1770) (0000, 0000, 0000)
+002D:FFFF Shaboom, (1048, -1185, -1619) (0000, 0000, 0000)
+002D:FFFF Shaboom, (882, -1105, -3171) (0000, 0000, 0000)
+002D:FFFF Shaboom, (999, -1105, -3192) (0000, 0000, 0000)
+002D:FFFF Shaboom, (889, -1185, -1552) (0000, 0000, 0000)
+
+Cutscene 0: 000001A0
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 03000180
+0B: There are 2 Object(s). List starts at 000001D8
+0096, 00A3, 
+

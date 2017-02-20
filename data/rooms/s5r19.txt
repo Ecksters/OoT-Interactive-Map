@@ -1,0 +1,17 @@
+Room 19
+Room at 02669000
+Setup 0: 00000000
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000B0
+0B: There are 11 Object(s). List starts at 00000040
+0059, 013B, 013A, 011C, 00B5, 00E5, 0016, 0012, 0026, 000E, 0090, 
+01: There are 5 actor(s). List starts at 00000058
+00EC:0000 Spike Enemy, (1368, 780, 85) (0000, 0000, 0000)
+00EC:0000 Spike Enemy, (1557, 780, 87) (0000, 0000, 0000)
+00EC:0000 Spike Enemy, (1372, 780, 284) (0000, 8000, 0000)
+00EC:0000 Spike Enemy, (1562, 780, 289) (0000, 8000, 0000)
+000A:1822 Chest, Large, Appears, Clear Flag, reward 41: Map, chest flag: 02, bound to Perm: 00, (1510, 780, 180) (0000, 4000, 0000)
+

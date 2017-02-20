@@ -1,0 +1,23 @@
+Room 5
+Room at 01F6E000
+Setup 0: 00000000
+16: Sound Settings: Echo 4
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000100
+0B: There are 5 Object(s). List starts at 00000040
+002B, 018A, 0038, 0031, 000D, 
+01: There are 11 actor(s). List starts at 0000004C
+0054:FFFF Armos Monster, (-2051, 531, -321) (0000, C000, 0000)
+0054:FFFF Armos Monster, (-1960, 531, -410) (0000, 8000, 0000)
+0054:FFFF Armos Monster, (-1870, 531, -320) (0000, 4000, 0000)
+0013:0000 Fire Keese, (-2123, 660, -81) (0000, 4000, 0000)
+0013:0000 Fire Keese, (-1791, 621, -432) (0000, 2000, 0000)
+004C:FFFF Bombflower, (-2289, 531, -499) (0000, 20B6, 0000)
+004C:FFFF Bombflower, (-2286, 531, -133) (0000, 60B6, 0000)
+004C:FFFF Bombflower, (-1636, 531, -503) (0000, E000, 0000)
+004C:FFFF Bombflower, (-1634, 531, -134) (0000, A000, 0000)
+0054:0000 Pushable Armos, (-1959, 531, -227) (0000, 0000, 0000)
+012A:2200 Floor Switch, Ice? no, ?? no, Blue? no, Toggle? no, Temp: 02, (-1960, 631, -317) (0000, 0000, 0000)
+

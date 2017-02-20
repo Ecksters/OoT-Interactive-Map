@@ -1,0 +1,23 @@
+Room 4
+Room at 025FC000
+Setup 0: 00000000
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000110
+0B: There are 10 Object(s). List starts at 00000040
+0059, 013B, 013A, 011C, 00B5, 00E5, 0016, 0012, 0026, 000E, 
+01: There are 11 actor(s). List starts at 00000054
+0065:FF00 Large Water Square, (1300, 765, -180) (0000, 4000, 0000)
+018C:0000 Stinger (Enemy), (1199, 460, -772) (0000, C000, 0000)
+018C:0000 Stinger (Enemy), (1202, 460, -865) (0000, C000, 0000)
+018C:0000 Stinger (Enemy), (1350, 620, -867) (0000, C000, 0000)
+018C:0000 Stinger (Enemy), (1353, 620, -776) (0000, C000, 0000)
+012A:0803 Crystal Switch, Ice? no, ?? no, Blue? no, Toggle? no, Perm: 08, (1134, 800, -965) (0000, 0000, 0000)
+015F:1209 Water Spout, (1526, 800, -825) (0002, 0004, 0003)
+000A:0809 Chest, Large, reward 40: Compass, chest flag: 09, bound to Perm: 00, (1526, 800, -826) (0000, 8000, 0000)
+0111:4003 Breakable Pot, Collectable: 03 Temp: 00, (1222, 800, -617) (0000, 0000, 0000)
+0111:4E03 Breakable Pot, Collectable: 03 Temp: 07, (1122, 800, -617) (0000, 0000, 0000)
+0111:5003 Breakable Pot, Collectable: 03 Temp: 08, (1172, 800, -617) (0000, 0000, 0000)
+

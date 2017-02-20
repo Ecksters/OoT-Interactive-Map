@@ -1,0 +1,23 @@
+Room 17
+Room at 02486000
+Setup 0: 00000000
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000110
+0B: There are 9 Object(s). List starts at 00000040
+0073, 0072, 0099, 005D, 0024, 00A4, 000E, 00B0, 015C, 
+01: There are 11 actor(s). List starts at 00000054
+0037:0000 Skulltula, (-348, -760, -1097) (0000, 6000, 0000)
+0088:FFFF Forest Temple Rotating Pushable Walls, (119, -779, -1566) (0000, 8000, 0000)
+000A:592B Chest, Small, reward 49: Arrows (5), chest flag: 0B, bound to Perm: 00, (-404, -779, -1041) (0000, E000, 0000)
+0095:8410 Gold Skulltula, Type 4, Group 04, Flag 10, (-411, -595, -1196) (0000, 2000, 0000)
+00E3:1001 Forest Temple Object, (119, -779, -1029) (0000, 8000, 0000)
+012A:1000 Floor Switch, Ice? no, ?? no, Blue? no, Toggle? no, Perm: 10, (797, -779, -1566) (0000, 0000, 0000)
+00E3:1101 Forest Temple Object, (119, -779, -2103) (0000, 0000, 0000)
+012A:1100 Floor Switch, Ice? no, ?? no, Blue? no, Toggle? no, Perm: 11, (119, -779, -889) (0000, 0000, 0000)
+00E3:1201 Forest Temple Object, (657, -779, -1566) (0000, C000, 0000)
+012A:1200 Floor Switch, Ice? no, ?? no, Blue? no, Toggle? no, Perm: 12, (-346, -779, -2030) (0000, 0000, 0000)
+0087:001B Forest Temple Elevator, (119, -779, -1566) (0000, 0000, 0000)
+

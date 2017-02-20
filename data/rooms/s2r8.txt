@@ -1,0 +1,34 @@
+Room 8
+Room at 02786000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000C0
+0B: There are 10 Object(s). List starts at 00000058
+0096, 00A3, 0007, 0012, 0021, 0056, 0026, 00D5, 000E, 0090, 
+01: There are 5 actor(s). List starts at 0000006C
+00DE:0A01 Jabu-Jabu Tentacle, (1, 20, -5801) (0000, 0000, 0000)
+0034:FFFF Biri thing?, (-181, -262, -5982) (0000, 2222, 0000)
+0034:FFFF Biri thing?, (-184, -271, -5623) (0000, 5DDE, 0000)
+0034:FFFF Biri thing?, (184, -253, -5621) (0000, A38E, 0000)
+0034:FFFF Biri thing?, (182, -275, -5978) (0000, E000, 0000)
+
+Cutscene 0: 000000E0
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 030000C0
+0B: There are 6 Object(s). List starts at 00000120
+0096, 00A3, 00D5, 0021, 000E, 0090, 
+01: There are 6 actor(s). List starts at 0000012C
+00DE:3FFF Jabu-Jabu Tentacle, (1, 20, -5801) (0000, 0000, 0000)
+0034:FFFF Biri thing?, (-181, -262, -5982) (0000, 2222, 0000)
+0034:FFFF Biri thing?, (-184, -271, -5623) (0000, 5DDE, 0000)
+0034:FFFF Biri thing?, (184, -253, -5621) (0000, A38E, 0000)
+0034:FFFF Biri thing?, (182, -275, -5978) (0000, E000, 0000)
+000A:10C0 Chest, Large, Appears, Clear Flag, reward 06: Boomerang, chest flag: 00, bound to Perm: 00, (-11, -340, -6006) (0000, 8000, 0000)
+

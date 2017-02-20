@@ -1,0 +1,28 @@
+Room 2
+Room at 027CE000
+Setup 0: 00000000
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? True, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 03000150
+0B: There are 6 Object(s). List starts at 00000040
+0069, 0187, 008B, 012F, 000E, 00A4, 
+01: There are 16 actor(s). List starts at 0000004C
+008A:0C00 Beamos, (3358, -543, 55) (0000, C000, 0000)
+005E:2400 Lit Wooden Torch, Perm: 00, (876, -63, 55) (0000, 8000, 0000)
+0141:0027 Square Signpost, (910, -63, -192) (0000, C000, 0000)
+0185:493C Check Spot, Instant, dialog Make my beak face the skull of truth. Th, Local: 04, (738, -38, 54) (0000, 0000, 0001)
+0185:4F3D Check Spot, Instant, dialog The Shadow will yield only to one with t, Local: 05, (304, -2, 294) (0000, C000, 0015)
+00AE:0004 Shadow Temple Black square with large skull face, (326, -63, 295) (0000, 4000, 0000)
+00AE:0004 Shadow Temple Black square with large skull face, (326, -63, -185) (0000, 4000, 0000)
+00AE:0006 Shadow Temple Wall of Skulls, (3358, -543, 55) (0000, C000, 0000)
+00F7:1B00 Shadow Temple Truth Spinner, (666, -63, 55) (0000, 0000, 0000)
+00F7:1B01 Shadow Temple Truth Spinner, (666, -63, 55) (0000, 0000, 0000)
+00F7:1B03 Shadow Temple Truth Spinner, (456, 17, 55) (0000, 0000, 0000)
+00F7:1B03 Shadow Temple Truth Spinner, (561, 17, -127) (0000, D555, 0000)
+00F7:1B03 Shadow Temple Truth Spinner, (771, 17, -127) (0000, AAAB, 0000)
+00F7:1B03 Shadow Temple Truth Spinner, (561, 17, 237) (0000, 2AAB, 0000)
+00F7:1B03 Shadow Temple Truth Spinner, (771, 17, 237) (0000, 5555, 0000)
+00F7:1B02 Shadow Temple Truth Spinner, (1421, -63, 55) (0000, 0000, 0000)
+

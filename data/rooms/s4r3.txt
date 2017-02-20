@@ -1,0 +1,15 @@
+Room 3
+Room at 02318000
+Setup 0: 00000000
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 02
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000090
+0B: There are 10 Object(s). List starts at 00000040
+002C, 0025, 005D, 000D, 0085, 00A4, 005F, 000E, 0090, 009E, 
+01: There are 3 actor(s). List starts at 00000054
+0099:FFFF Flare Dancer, (-361, 80, -1300) (0000, 0000, 0000)
+0049:0FFF Flame Circle, Large, doesn't shut off, camera 0F, bound to No Flag, (-361, 80, -1300) (0000, 0000, 0000)
+000A:7CC0 Chest, Small, Appears, Clear Flag, reward 66: Bombs, chest flag: 00, bound to Perm: 00, (-361, 80, -1300) (0000, 0000, 0000)
+

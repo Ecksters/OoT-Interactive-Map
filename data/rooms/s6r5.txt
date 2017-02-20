@@ -1,0 +1,41 @@
+Room 5
+Room at 02B25000
+Setup 0: 00000000
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000230
+0B: There are 12 Object(s). List starts at 00000040
+00F1, 016D, 00AB, 00B0, 00A4, 012A, 000E, 0090, 0154, 0038, 011C, 0024, 
+01: There are 29 actor(s). List starts at 00000058
+0156:0004 Spirit Statue Stone Face, Perm: 04, (60, 1159, -1437) (0000, 0000, 0000)
+012A:0701 Rusted Switch, Ice? no, ?? no, Blue? no, Toggle? no, Perm: 07, (688, 813, -1537) (0000, 0000, 0000)
+012A:0820 Floor Switch, Ice? no, ?? no, Blue? yes, Toggle? no, Perm: 08, (-610, 333, -1018) (0000, 0000, 0000)
+015A:FFFF Circular Metal Grating (Inside Spirit Temple Statue), (60, 1057, -1534) (0000, 0000, 0000)
+012D:FFC2 Hookshot Block, (668, 733, -924) (4000, 8000, 0000)
+0054:0000 Pushable Armos, (-606, 480, -949) (0000, 4000, 0000)
+012E:1CB3 Music Staff Spot, Type 7, Song 2, Temp: 13, (445, 674, -1265) (0000, 0000, 0000)
+01C9:03FB Green Navi Spot, (-560, 813, -1348) (0000, 0000, 0002)
+0158:0000 Large Circular Mirror (Spirit Temple), (60, 1802, -1102) (0000, 0000, 0000)
+0157:0017 Chain Platform (Spirit Temple), Perm: 17, (60, 973, -1090) (0000, 0000, 0000)
+0185:8AF3 Check Spot, Disappears on Switch, dialog The crest of the Royal Family is inscrib, Temp: 13, (445, 674, -1265) (0000, 0000, 000B)
+0054:FFFF Armos Monster, (725, 480, -944) (0000, C000, 0000)
+000A:B823 Chest, Large, Appears, Switch Flag, reward 41: Map, chest flag: 03, bound to Perm: 06, (60, 353, -1220) (0000, 8000, 0006)
+000A:8842 Chest, Small, Falls, Switch Flag, reward 42: Small Key, chest flag: 02, bound to Temp: 13, (-336, 1261, -1272) (0000, 8000, 0033)
+000A:888F Chest, Small, Falls, Switch Flag, reward 44: Blue Rupee, chest flag: 0F, bound to Temp: 13, (696, 1282, -1342) (0000, 8000, 0033)
+005E:2400 Lit Wooden Torch, Perm: 00, (-473, 813, -955) (0000, 0000, 0000)
+005E:2400 Lit Wooden Torch, Perm: 00, (601, 813, -957) (0000, 0000, 0000)
+005E:1086 Timed Torch, Light: 2, Perm: 06, (-66, 333, -1220) (0000, 0000, 0000)
+005E:1086 Timed Torch, Light: 2, Perm: 06, (185, 333, -1220) (0000, 0000, 0000)
+0095:8704 Gold Skulltula, Type 4, Group 07, Flag 04, (-629, 860, -1555) (4000, 4000, 0000)
+011D:00F5 Flying Pot, (-385, 333, -1605) (0000, 0000, 0000)
+011D:00F6 Flying Pot, (508, 333, -1608) (0000, 0000, 0000)
+0173:3C24 Targetable Navi Spot (Green), (59, 1092, -1439) (0006, 0005, 0000)
+0111:483F Breakable Pot, Collectable: 3F Temp: 04, (-600, 333, -1213) (0000, 0000, 0000)
+0111:4A3F Breakable Pot, Collectable: 3F Temp: 05, (-564, 333, -1180) (0000, 0000, 0000)
+0111:4C3F Breakable Pot, Collectable: 3F Temp: 06, (-526, 333, -1213) (0000, 0000, 0000)
+0111:4E3F Breakable Pot, Collectable: 3F Temp: 07, (639, 333, -1224) (0000, 0000, 0000)
+0111:503F Breakable Pot, Collectable: 3F Temp: 08, (671, 333, -1179) (0000, 0000, 0000)
+0111:523F Breakable Pot, Collectable: 3F Temp: 09, (704, 333, -1224) (0000, 0000, 0000)
+

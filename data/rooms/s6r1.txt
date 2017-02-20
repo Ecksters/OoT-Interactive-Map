@@ -1,0 +1,23 @@
+Room 1
+Room at 02B09000
+Setup 0: 00000000
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000100
+0B: There are 8 Object(s). List starts at 00000040
+00F1, 016D, 00A4, 0038, 00B3, 0085, 000D, 008B, 
+01: There are 11 actor(s). List starts at 00000050
+0054:FFFF Armos Monster, (-1071, 0, -290) (0000, 0000, 0000)
+0013:0003 Roosting Keese, (-1096, 122, -557) (0000, 0000, 0000)
+0013:0003 Roosting Keese, (-1021, 122, -557) (0000, 0000, 0000)
+0013:0000 Fire Keese, (-1156, 72, -501) (0000, 1555, 0000)
+0013:0000 Fire Keese, (-965, 72, -501) (0000, EAAB, 0000)
+0080:1320 Sliding Metal Spike Trap, (-1071, 0, -290) (0000, 0000, 0000)
+005E:2400 Lit Wooden Torch, Perm: 00, (-1156, 0, -545) (0000, 1555, 0000)
+005E:2400 Lit Wooden Torch, Perm: 00, (-965, 0, -545) (0000, EAAB, 0000)
+0080:0310 Sliding Metal Spike Trap, (-981, -50, -73) (0000, 0000, 0000)
+0110:2C0C Crates, (-1151, 40, -939) (0000, 0000, 0000)
+0110:2E04 Crates, (-971, 40, -940) (0000, 0000, 0000)
+

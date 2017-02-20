@@ -1,0 +1,33 @@
+Room 8
+Room at 02C3E000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 01
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000110
+0B: There are 3 Object(s). List starts at 00000058
+006B, 0114, 0085, 
+01: There are 11 actor(s). List starts at 00000060
+01C7:0000 Icicles, (951, 172, -1217) (0000, 0000, 0000)
+01C7:0000 Icicles, (1029, 172, -1217) (0000, 0000, 0000)
+01C7:0000 Icicles, (1187, 172, -1217) (0000, 0000, 0000)
+01C7:0002 Icicles, (1063, 365, -1300) (0000, 0000, 0000)
+01C7:0002 Icicles, (1088, 351, -1505) (0000, 0000, 0000)
+01C7:0002 Icicles, (1141, 402, -946) (0000, 0000, 0000)
+01C7:0002 Icicles, (1229, 334, -1134) (0000, 0000, 0000)
+01C7:0002 Icicles, (1264, 348, -890) (0000, 0000, 0000)
+0121:0000 Freezard, (1103, 172, -1216) (0000, 0000, 0000)
+0080:0710 Sliding Metal Spike Trap, (950, 172, -1061) (0000, 4000, 0000)
+0080:0910 Sliding Metal Spike Trap, (980, 172, -1390) (0000, 4000, 0000)
+
+Cutscene 0: 00000130
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 03000110
+0B: There are 3 Object(s). List starts at 00000168
+006B, 008A, 00B6, 
+

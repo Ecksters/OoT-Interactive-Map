@@ -1,0 +1,36 @@
+Room 1
+Room at 02C06000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 01
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000150
+0B: There are 5 Object(s). List starts at 00000058
+006B, 0114, 00A1, 000D, 0085, 
+01: There are 14 actor(s). List starts at 00000064
+0015:2101 Collectable Blue rupee, Temp: 01, (-105, -10, 854) (0000, 8000, 0000)
+0121:FFFF Freezard, (-211, -10, 997) (0000, 2000, 0000)
+0080:2620 Sliding Metal Spike Trap, (1, -10, 1195) (0000, 0000, 0000)
+01C7:0000 Icicles, (-62, 1, 1642) (0000, 0000, 0000)
+01C7:0000 Icicles, (-19, 2, 1676) (0000, 0000, 0000)
+01C7:0000 Icicles, (36, 1, 1643) (0000, 0000, 0000)
+01C7:0001 Icicles, (-18, 110, 1760) (0000, 0000, 0000)
+01C8:0100 2D Ice Bars, (0, 1, 726) (0000, 0000, 0000)
+00EF:0103 Red Ice, (-105, -10, 854) (0000, 0000, 0000)
+00EF:0104 Red Ice, (119, -10, 856) (0000, 0000, 0000)
+0121:0000 Freezard, (-111, -10, 1277) (0000, 0000, 0000)
+0121:0000 Freezard, (0, -10, 1078) (0000, 0000, 0000)
+0121:0000 Freezard, (138, -10, 1260) (0000, EC17, 0000)
+0183:FF41 Song of Storms Fairy (Giant Fairy?), (4, -10, 1186) (0000, 0000, 0000)
+
+Cutscene 0: 00000170
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 03000150
+0B: There are 3 Object(s). List starts at 000001A8
+006B, 008A, 00B6, 
+

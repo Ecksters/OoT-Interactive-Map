@@ -1,0 +1,30 @@
+Room 4
+Room at 02C22000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 01
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000F0
+0B: There are 7 Object(s). List starts at 00000058
+006B, 008A, 0114, 000E, 0085, 0090, 00B7, 
+01: There are 8 actor(s). List starts at 00000068
+01C7:0000 Icicles, (-518, 23, -601) (0000, 0000, 0000)
+01C7:0000 Icicles, (-487, 22, -600) (0000, 0000, 0000)
+01C7:0000 Icicles, (-451, 22, -604) (0000, 0000, 0000)
+01C7:0000 Icicles, (-414, 22, -610) (0000, 0000, 0000)
+01C7:0000 Icicles, (-373, 22, -605) (0000, 0000, 0000)
+01C7:0002 Icicles, (-385, 135, -686) (0000, 0000, 0000)
+01C7:0002 Icicles, (-359, 138, -862) (0000, 0000, 0000)
+01C7:0002 Icicles, (-314, 122, -768) (0000, 0000, 0000)
+
+Cutscene 0: 00000110
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 030000F0
+0B: There are 3 Object(s). List starts at 00000148
+006B, 008A, 00B6, 
+

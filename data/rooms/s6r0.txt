@@ -1,0 +1,29 @@
+Room 0
+Room at 02AF8000
+Setup 0: 00000000
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000160
+0B: There are 8 Object(s). List starts at 00000040
+00F1, 016D, 00A4, 0038, 00B3, 0085, 000D, 008B, 
+01: There are 17 actor(s). List starts at 00000050
+0054:FFFF Armos Monster, (-127, -50, -20) (0000, 0000, 0000)
+0054:FFFF Armos Monster, (128, -50, -13) (0000, 0000, 0000)
+008A:0500 Beamos, (1070, 0, -290) (0000, 0000, 0000)
+00FF:10C3 Huge Color12 Block, Bound to Perm: 10, load when unset, (542, -50, -1) (0000, 8000, 0000)
+00FF:10C7 Huge Color12 Block, Bound to Perm: 10, load when set, (742, -250, -1) (0000, 0000, 0000)
+0139:0010 Block Spot Switch, Perm: 10, (742, -250, -1) (0000, 0000, 0000)
+0080:1320 Sliding Metal Spike Trap, (1071, 0, -289) (0000, 0000, 0000)
+018E:000B Stone Platform (Defunct?), (0, -50, -61) (0000, 0000, 0000)
+00C3:0406 Nabooru, (-494, -50, -1) (0000, 4000, 0000)
+012A:0E03 Crystal Switch, Ice? no, ?? no, Blue? no, Toggle? no, Perm: 0E, (1070, 270, -290) (8000, 0000, 0000)
+0111:4203 Breakable Pot, Collectable: 03 Temp: 01, (-181, -150, 233) (0000, 0000, 0000)
+0111:440E Breakable Pot, Collectable: 0E Temp: 02, (184, -150, 231) (0000, 0000, 0000)
+011D:00F1 Flying Pot, (-98, -150, 464) (0000, 0000, 0000)
+011D:00F2 Flying Pot, (103, -150, 463) (0000, 0000, 0000)
+0185:083F Check Spot, Checkable, dialog If you want to travel to the future, you, No Flag, (302, -51, 310) (0000, EAAB, 0016)
+0185:087F Check Spot, Checkable, dialog If you want to proceed to the past, you , No Flag, (-282, -51, 312) (0000, 1555, 0016)
+01D5:0010 Young Link Silver Block, (542, -50, -1) (0000, 8000, 0000)
+

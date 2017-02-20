@@ -1,0 +1,22 @@
+Room 25
+Room at 02BB9000
+Setup 0: 00000000
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000100
+0B: There are 11 Object(s). List starts at 00000040
+00F1, 016D, 00AB, 00B0, 00A4, 012A, 000D, 0025, 000B, 000E, 0090, 
+01: There are 10 actor(s). List starts at 00000058
+0150:1700 Sun Emblem Switch, (-174, 1732, -1035) (0000, 4000, 0000)
+0158:0000 Large Circular Mirror (Spirit Temple), (60, 1802, -1102) (0000, 0000, 0000)
+0157:0017 Chain Platform (Spirit Temple), Perm: 17, (60, 1613, -1090) (0000, 0000, 0000)
+012A:1303 Crystal Switch, Ice? no, ?? no, Blue? no, Toggle? no, Perm: 13, (17, 1735, -660) (0000, 0000, 0000)
+011D:03F9 Flying Pot, (-92, 1613, -1177) (0000, 0000, 0000)
+011D:00FA Flying Pot, (-39, 1733, -728) (0000, 0000, 0000)
+011D:03FB Flying Pot, (145, 1733, -728) (0000, 0000, 0000)
+011D:00FC Flying Pot, (206, 1613, -1177) (0000, 0000, 0000)
+011D:03FD Flying Pot, (-151, 1613, -1173) (0000, 0000, 0000)
+011D:03FE Flying Pot, (268, 1613, -1173) (0000, 0000, 0000)
+

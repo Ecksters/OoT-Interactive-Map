@@ -1,0 +1,17 @@
+Room 20
+Room at 02493000
+Setup 0: 00000000
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000B0
+0B: There are 10 Object(s). List starts at 00000040
+0073, 0072, 0099, 00A4, 000E, 0090, 0070, 0071, 005D, 000B, 
+01: There are 5 actor(s). List starts at 00000054
+0069:01FC Bubble (flying skull), (1998, 1276, -2503) (0000, 8000, 0000)
+0069:01FC Bubble (flying skull), (2001, 1269, -2165) (0000, 8000, 0000)
+0011:0001 Ceiling Wall Master, (1998, 1472, -3326) (0000, C0B6, 0000)
+011B:1791 Navi Infospot, Type: Pop-up, Text: Watch for the shadows of / monsters that hang from the / ceiling., Perm: 17, (1818, 1228, -3319) (0000, 0000, 0000)
+0068:8521 Twisted Hallway Rooms, (1999, 1278, -3015) (0000, 0000, 0000)
+

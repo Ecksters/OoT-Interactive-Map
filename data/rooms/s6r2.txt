@@ -1,0 +1,31 @@
+Room 2
+Room at 02B13000
+Setup 0: 00000000
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000190
+0B: There are 9 Object(s). List starts at 00000040
+00F1, 016D, 00A4, 0090, 000E, 000D, 015C, 0024, 000B, 
+01: There are 19 actor(s). List starts at 00000054
+0013:0003 Roosting Keese, (-735, 151, -1037) (0000, 0000, 0000)
+0013:0003 Roosting Keese, (-665, 112, -1037) (0000, 0000, 0000)
+0013:0003 Roosting Keese, (-505, 122, -1038) (0000, 0000, 0000)
+0013:0003 Roosting Keese, (-414, 142, -1038) (0000, 0000, 0000)
+011B:7E91 Navi Infospot, Type: Pop-up, Text: Watch for the shadows of / monsters that hang from the / ceiling., Local: 06, (-722, 30, -1366) (0064, 0000, 0001)
+0013:0000 Fire Keese, (-361, 93, -1393) (0000, 0000, 0000)
+0011:0001 Ceiling Wall Master, (-552, 30, -1434) (0000, 0000, 0000)
+0095:8710 Gold Skulltula, Type 4, Group 07, Flag 10, (-349, 151, -1039) (4000, 0000, 0000)
+00FD:0005 Climbable Metal Grating (Fire Temple), (-591, 30, -1053) (0000, 0000, 0000)
+005E:2400 Lit Wooden Torch, Perm: 00, (-361, 30, -1388) (0000, 0000, 0000)
+005E:1080 Timed Torch, Light: 2, Perm: 00, (-677, 30, -778) (0000, 0000, 0000)
+005E:1080 Timed Torch, Light: 2, Perm: 00, (-515, 30, -778) (0000, 0000, 0000)
+0117:1FC5 Silver Rupee, Type: Rupee, Perm: 05, (-766, 229, -1075) (0000, 0000, 0000)
+0117:1FC5 Silver Rupee, Type: Rupee, Perm: 05, (-672, 50, -1075) (0000, 0000, 0000)
+0117:1FC5 Silver Rupee, Type: Rupee, Perm: 05, (-511, 50, -1075) (0000, 0000, 0000)
+0117:1FC5 Silver Rupee, Type: Rupee, Perm: 05, (-347, 229, -1075) (0000, 0000, 0000)
+0117:1FC5 Silver Rupee, Type: Rupee, Perm: 05, (-335, 30, -1409) (0000, 0000, 0000)
+0117:0145 Silver Rupee, Type: Collect 5 Rupees, Perm: 05, (-592, 30, -1126) (0000, 0000, 0000)
+000A:8840 Chest, Small, Falls, Switch Flag, reward 42: Small Key, chest flag: 00, bound to Perm: 00, (-384, 225, -1242) (0000, 4000, 0000)
+

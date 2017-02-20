@@ -1,0 +1,36 @@
+Room 1
+Room at 02759000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000F0
+0B: There are 10 Object(s). List starts at 00000058
+0096, 00A3, 0007, 0012, 0021, 0056, 0026, 00BD, 00B7, 0168, 
+01: There are 8 actor(s). List starts at 0000006C
+000E:FF00 Octorok, (-118, -1248, -1700) (0000, 3BBC, 0000)
+0034:FFFF Biri thing?, (-4, -212, -1481) (0000, 0000, 0000)
+00C8:FF01 Jabu-Jabu object, (0, -771, -1703) (0000, 0000, 0000)
+00E6:3A00 Jabu-Jabu Switch, (477, -321, -1703) (0000, 0000, 0000)
+00C8:1D03 Jabu-Jabu object, (120, 80, -1583) (0000, 0000, 0000)
+0195:0000 Ground Deku Scrub, Deku Nuts, (-737, -1233, -1701) (0000, 4000, 0000)
+0110:FFFF Crates, (-189, -340, -1925) (0000, 1111, 0000)
+0110:FF03 Crates, (-141, -340, -1945) (0000, 1111, 0000)
+
+Cutscene 0: 00000110
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 030000F0
+0B: There are 4 Object(s). List starts at 00000150
+0096, 00A3, 0007, 0021, 
+01: There are 5 actor(s). List starts at 00000158
+000E:0000 Octorok, (59, -1248, -1780) (0000, A2D8, 0000)
+000E:0000 Octorok, (-108, -1248, -1603) (0000, 80B6, 0000)
+0034:FFFF Biri thing?, (-10, -78, -1481) (0000, 0000, 0000)
+00C8:3F01 Jabu-Jabu object, (0, -732, -1703) (0000, 0000, 0000)
+00C8:3F02 Jabu-Jabu object, (0, 80, -1703) (0000, C000, 0000)
+

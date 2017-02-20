@@ -1,0 +1,24 @@
+Room 2
+Room at 025EF000
+Setup 0: 00000000
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000120
+0B: There are 12 Object(s). List starts at 00000040
+0059, 013B, 013A, 011C, 00B5, 00E5, 0016, 0012, 0026, 000E, 0090, 00A4, 
+01: There are 12 actor(s). List starts at 00000058
+00C5:FFFF Shell Blade, (419, -346, 225) (0000, 0000, 0000)
+00C5:FFFF Shell Blade, (435, -345, 238) (0000, 0000, 0000)
+00EC:0000 Spike Enemy, (380, -350, 205) (0000, 0000, 0000)
+00EC:0000 Spike Enemy, (382, -350, 273) (0000, 0000, 0000)
+00EC:0000 Spike Enemy, (416, -350, 275) (0000, 0000, 0000)
+00EC:0000 Spike Enemy, (452, -350, 274) (0000, 0000, 0000)
+00EC:0000 Spike Enemy, (454, -350, 205) (0000, 0000, 0000)
+000A:5846 Chest, Small, reward 42: Small Key, chest flag: 06, bound to Perm: 00, (639, -220, 598) (0000, 4000, 0000)
+01BB:0FCE Metal Gate, (428, -363, 659) (C000, 0000, 0000)
+0187:3BFF Timer, Clear to Switch Flag converter Perm: 0E, (181, -500, 236) (0000, 0000, 0000)
+012A:3C03 Crystal Switch, Ice? no, ?? no, Blue? no, Toggle? no, Local: 04, (418, -500, 247) (0000, 0000, 0000)
+01BB:0FFC Metal Gate, (362, -363, 245) (C000, C000, 0000)
+

@@ -1,0 +1,35 @@
+Room 5
+Room at 02776000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000F0
+0B: There are 10 Object(s). List starts at 00000058
+0096, 00A3, 0007, 0012, 0021, 0056, 0026, 00AC, 0024, 015C, 
+01: There are 8 actor(s). List starts at 0000006C
+011B:AC39 Navi Infospot, Type: C-up, Text: There’s a switch beyond this wall!, Temp: 0C, (1547, -80, -1518) (0000, 0000, 0000)
+0034:FFFF Biri thing?, (1374, -440, -1323) (0000, 91C7, 0000)
+0034:FFFF Biri thing?, (1626, -420, -1829) (0000, BB06, 0000)
+0034:FFFF Biri thing?, (1622, -203, -1619) (0000, 0000, 0000)
+0034:FFFF Biri thing?, (1352, -197, -1467) (0000, 0000, 0000)
+0034:FFFF Biri thing?, (1253, -85, -1438) (0000, 0000, 0000)
+00E6:3D04 Jabu-Jabu Switch, (1351, 21, -1716) (8000, 0000, 0000)
+0095:8304 Gold Skulltula, Type 4, Group 03, Flag 04, (1640, -274, -1505) (0000, 5E94, 0000)
+
+Cutscene 0: 00000110
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 030000F0
+0B: There are 4 Object(s). List starts at 00000150
+0096, 00A3, 0021, 00AC, 
+01: There are 4 actor(s). List starts at 00000158
+0034:FFFF Biri thing?, (1277, -440, -1473) (0000, 91C7, 0000)
+0034:FFFF Biri thing?, (1525, -420, -1646) (0000, BB06, 0000)
+00B6:0014 Floppy Muscle Platform, (1177, -440, -1703) (0000, C000, 0000)
+00B6:0014 Floppy Muscle Platform, (1361, -420, -1813) (0000, 0000, 0000)
+

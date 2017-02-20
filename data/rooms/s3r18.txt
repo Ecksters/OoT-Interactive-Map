@@ -1,0 +1,14 @@
+Room 18
+Room at 02490000
+Setup 0: 00000000
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000080
+0B: There are 10 Object(s). List starts at 00000040
+0073, 0072, 0099, 005D, 0024, 00A4, 000E, 0090, 000B, 00B7, 
+01: There are 2 actor(s). List starts at 00000054
+008E:0000 Floormaster, (-2065, 503, -1855) (0000, 53E9, 0000)
+000A:7842 Chest, Small, Appears, Clear Flag, reward 42: Small Key, chest flag: 02, bound to Perm: 00, (-2074, 503, -1965) (0000, C000, 0000)
+

@@ -1,0 +1,22 @@
+Room 2
+Room at 02F04000
+Setup 0: 00000000
+16: Sound Settings: Echo 10
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000F0
+0B: There are 7 Object(s). List starts at 00000040
+0139, 00A4, 0085, 000D, 001B, 0032, 000E, 
+01: There are 10 actor(s). List starts at 00000050
+003B:00FE Ambient Sound, Unknown, (174, 260, 29) (0000, 0000, 0000)
+0008:03F4 Decorative Flame, (234, 374, 237) (0000, 0000, 0000)
+0008:03F4 Decorative Flame, (240, 374, -238) (0000, 0000, 0000)
+0008:03F4 Decorative Flame, (-237, 374, -238) (0000, 0000, 0000)
+0008:03F4 Decorative Flame, (-235, 374, 239) (0000, 0000, 0000)
+0002:FFFF Stalfos, Rises out of Ground, miniboss music, (-183, 260, -12) (0000, 8000, 0000)
+0002:FFFF Stalfos, Rises out of Ground, miniboss music, (161, 260, -7) (0000, 8000, 0000)
+0049:6FCA Flame Circle, Large, turns off permanently, camera 0F, bound to Perm: 0A, (2, 260, -1) (0000, 0000, 0000)
+0187:2BFF Timer, Clear to Switch Flag converter Perm: 0A, (-94, 260, -11) (0000, 0000, 0000)
+000A:27EB Chest, Boss Key’s Chest, reward 3F: Boss Key, chest flag: 0B, bound to Perm: 00, (-1, 260, -1) (0000, 0000, 0000)
+

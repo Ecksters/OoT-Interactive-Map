@@ -1,0 +1,31 @@
+Room 21
+Room at 02674000
+Setup 0: 00000000
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000190
+0B: There are 15 Object(s). List starts at 00000040
+0059, 013B, 013A, 011C, 00B5, 00E5, 0016, 0026, 000E, 011F, 00B7, 000D, 0024, 015C, 00B7, 
+01: There are 19 actor(s). List starts at 00000060
+012D:FFC2 Hookshot Block, (-1881, 580, -2725) (4000, 0000, 0000)
+0160:0000 Whirlpool Effect, (-2762, 195, -4378) (0000, 0000, 0000)
+0160:0000 Whirlpool Effect, (-2560, 110, -2510) (0000, 0000, 0000)
+0160:0000 Whirlpool Effect, (-2280, 110, -3390) (0000, 0000, 0000)
+0160:0000 Whirlpool Effect, (-2081, 110, -2783) (0000, 0000, 0000)
+0160:0000 Whirlpool Effect, (-1882, 110, -2503) (0000, 0000, 0000)
+0160:0000 Whirlpool Effect, (-1763, 110, -2825) (0000, 0000, 0000)
+000A:5843 Chest, Small, reward 42: Small Key, chest flag: 03, bound to Perm: 00, (-1561, 260, -2656) (0000, 4000, 0000)
+011B:47AB Navi Infospot, Type: Pop-up, Text: Link! Be careful! / Don't get swallowed by the  / vortexes!, Perm: 07, (-2885, 380, -4088) (0028, 0000, 0000)
+011B:47AB Navi Infospot, Type: Pop-up, Text: Link! Be careful! / Don't get swallowed by the  / vortexes!, Perm: 07, (-2862, 380, -4358) (0028, 0000, 0000)
+0095:8610 Gold Skulltula, Type 4, Group 06, Flag 10, (-2279, 349, -3469) (0000, 0000, 0000)
+0015:2A03 Collectable Heart, Temp: 0A, (-2781, 193, -2515) (0000, 0000, 0000)
+0015:2D03 Collectable Heart, Temp: 0D, (-2528, 180, -2727) (0000, 0000, 0000)
+0111:5E09 Breakable Pot, Collectable: 09 Temp: 0F, (-2226, 260, -2487) (0000, 0000, 0000)
+0111:6212 Breakable Pot, Collectable: 12 Temp: 11, (-2184, 260, -2456) (0000, 0000, 0000)
+0015:3203 Collectable Heart, Temp: 12, (-2436, 189, -3348) (0000, 0000, 0000)
+0015:3403 Collectable Heart, Temp: 14, (-2021, 190, -2937) (0000, 0000, 0000)
+01BB:117A Metal Gate, (-1670, 260, -2670) (0000, C000, 0000)
+012A:3A02 Eye Switch, Ice? no, ?? no, Blue? no, Toggle? no, Local: 02, (-1818, 368, -2431) (0000, 8000, 0000)
+

@@ -1,0 +1,22 @@
+Room 14
+Room at 02379000
+Setup 0: 00000000
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 02
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000100
+0B: There are 9 Object(s). List starts at 00000040
+002C, 0025, 005D, 000D, 0085, 00A4, 005F, 000E, 008B, 
+01: There are 10 actor(s). List starts at 00000054
+0013:0000 Fire Keese, (-2172, 4276, -991) (0000, 0000, 0000)
+0013:0000 Fire Keese, (-2078, 4290, -854) (0000, 0000, 0000)
+0110:FFFF Crates, (-2072, 4180, -1135) (0000, E000, 0000)
+0110:FFFF Crates, (-2030, 4180, -1172) (0000, E000, 0000)
+005E:2400 Lit Wooden Torch, Perm: 00, (-1970, 4180, -808) (0000, E000, 0000)
+005E:2400 Lit Wooden Torch, Perm: 00, (-1800, 4180, -978) (0000, E000, 0000)
+0013:0000 Fire Keese, (-1737, 4304, -741) (0000, 0000, 0000)
+0013:0000 Fire Keese, (-1513, 4264, -518) (0000, 0000, 0000)
+0071:0F00 Stone Steps And Platforms (Fire Temple), (-1884, 4200, -892) (0000, A000, 0000)
+012A:3D20 Floor Switch, Ice? no, ?? no, Blue? yes, Toggle? no, Local: 05, (-1342, 3680, -258) (0000, E000, 0000)
+

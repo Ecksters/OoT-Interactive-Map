@@ -1,0 +1,38 @@
+Room 2
+Room at 0275F000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 030000F0
+0B: There are 10 Object(s). List starts at 00000058
+0096, 00A3, 0007, 0012, 0021, 0056, 0026, 00D5, 0024, 015C, 
+01: There are 8 actor(s). List starts at 0000006C
+011B:182F Navi Infospot, Type: Pop-up, Text: Watch out, LINK! Electricity is running through this green slimy thing!, Perm: 18, (-267, -353, -3401) (001E, 000B, 0000)
+0063:FFFF Bari (Big Jellyfish), (-127, 60, -3272) (0000, 0000, 0000)
+0063:FFFF Bari (Big Jellyfish), (3, 60, -3612) (0000, 0000, 0000)
+00DF:0A81 Jabu-Jabu Electrified Tentacle, (-260, -366, -3401) (0000, 0000, 0000)
+0034:FFFF Biri thing?, (38, -318, -3232) (0000, 0000, 0000)
+0034:FFFF Biri thing?, (-110, -325, -3038) (0000, 0000, 0000)
+0034:FFFF Biri thing?, (-50, -319, -3394) (0000, 0000, 0000)
+00A1:0202 Child Princess Ruto, (216, -340, -3072) (0000, 0000, 0000)
+
+Cutscene 0: 00000110
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 030000F0
+0B: There are 5 Object(s). List starts at 00000150
+0096, 00A3, 0021, 0056, 00D5, 
+01: There are 7 actor(s). List starts at 0000015C
+0063:FFFF Bari (Big Jellyfish), (-127, 60, -3272) (0000, 0000, 0000)
+0063:FFFF Bari (Big Jellyfish), (3, 60, -3612) (0000, 0000, 0000)
+00DF:3FFF Jabu-Jabu Electrified Tentacle, (-260, -366, -3401) (0000, 0000, 0000)
+0034:FFFF Biri thing?, (38, -318, -3232) (0000, 0000, 0000)
+0034:FFFF Biri thing?, (-110, -325, -3038) (0000, 0000, 0000)
+0034:FFFF Biri thing?, (-50, -319, -3394) (0000, 0000, 0000)
+00A1:0002 Child Princess Ruto, (216, -340, -3072) (0000, 0000, 0000)
+

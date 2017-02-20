@@ -1,0 +1,23 @@
+Room 6
+Room at 02415000
+Setup 0: 00000000
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000110
+0B: There are 9 Object(s). List starts at 00000040
+0073, 0072, 0099, 00A4, 000E, 0090, 005C, 006F, 0032, 
+01: There are 11 actor(s). List starts at 00000054
+0002:FFFF Stalfos, Rises out of Ground, miniboss music, (273, 467, -3378) (0000, F1C7, 0000)
+0002:FFFF Stalfos, Rises out of Ground, miniboss music, (-38, 467, -3382) (0000, 0E39, 0000)
+000A:7840 Chest, Small, Appears, Clear Flag, reward 42: Small Key, chest flag: 00, bound to Perm: 00, (124, 467, -3322) (0000, 8000, 0000)
+000A:B08C Chest, Large, Appears, Switch Flag, reward 04: Fairy bow, chest flag: 0C, bound to Perm: 15, (129, 836, -3320) (0000, 0000, 0015)
+0086:1500 Large Round Platform (Forest Temple), (209, 827, -3320) (0000, 0000, 0000)
+0111:6203 Breakable Pot, Collectable: 03 Temp: 11, (90, 467, -3583) (0000, 0000, 0000)
+0111:6412 Breakable Pot, Collectable: 12 Temp: 12, (142, 467, -3583) (0000, 0000, 0000)
+0111:6603 Breakable Pot, Collectable: 03 Temp: 13, (206, 827, -3631) (0000, 0000, 0000)
+0111:6803 Breakable Pot, Collectable: 03 Temp: 14, (32, 827, -3012) (0000, 8000, 0000)
+0111:6A03 Breakable Pot, Collectable: 03 Temp: 15, (30, 827, -3631) (0000, 0000, 0000)
+0111:6C03 Breakable Pot, Collectable: 03 Temp: 16, (202, 827, -3012) (0000, 8000, 0000)
+

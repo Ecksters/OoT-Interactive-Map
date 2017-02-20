@@ -1,0 +1,55 @@
+Room 11
+Room at 02C4E000
+Setup 0: 00000000
+18: Alternate headers start at 00000048.
+16: Sound Settings: Echo 7
+08: Room Behavior: ? 01, Show invisible actors? False, Idle Animation 01
+12: Skybox Settings: Disable Sky? True, Disable Sun/Moon? True
+10: Time Settings: FFFF 00
+0A: Room Mesh: 03000240
+0B: There are 8 Object(s). List starts at 00000058
+006B, 0114, 000E, 0090, 0085, 000D, 0024, 015C, 
+01: There are 29 actor(s). List starts at 00000068
+0013:0003 Roosting Keese, (1099, 17, 669) (0000, 76C1, 0000)
+0013:0003 Roosting Keese, (1216, 68, 672) (0000, 78E4, 0000)
+0013:0003 Roosting Keese, (1462, -41, 412) (0000, B82E, 0000)
+0015:0106 Collectable Heart Piece, Perm: 01, (1262, -71, 68) (0000, 0000, 0000)
+0095:8A04 Gold Skulltula, Type 4, Group 0A, Flag 04, (1349, 143, 163) (0000, 8000, 0000)
+01C7:0000 Icicles, (1159, -71, 552) (0000, 0000, 0000)
+01C7:0000 Icicles, (1191, -71, 565) (0000, 0000, 0000)
+01C7:0000 Icicles, (1223, -71, 195) (0000, 0000, 0000)
+01C7:0000 Icicles, (1227, -71, 549) (0000, 0000, 0000)
+01C7:0000 Icicles, (1257, -71, 202) (0000, 0000, 0000)
+01C7:0000 Icicles, (1267, -71, 559) (0000, 0000, 0000)
+01C7:0000 Icicles, (1297, -71, 200) (0000, 0000, 0000)
+01C7:0000 Icicles, (1317, -71, 470) (0000, 0000, 0000)
+01C7:0000 Icicles, (1321, -71, 404) (0000, 0000, 0000)
+01C7:0000 Icicles, (1336, -71, 343) (0000, 0000, 0000)
+01C7:0000 Icicles, (1341, -71, 438) (0000, 0000, 0000)
+01C7:0000 Icicles, (1348, -71, 382) (0000, 0000, 0000)
+01C7:0000 Icicles, (1361, -71, 312) (0000, 0000, 0000)
+01C7:0001 Icicles, (1187, 150, 66) (0000, 0000, 0000)
+01C7:0001 Icicles, (1347, 150, 110) (0000, 0000, 0000)
+01C7:0002 Icicles, (1026, 150, 296) (0000, AAAB, 0000)
+01C7:0002 Icicles, (1058, 150, 369) (0000, B1C7, 0000)
+01C7:0002 Icicles, (1092, 150, 274) (0000, C000, 0000)
+01C7:0002 Icicles, (1148, 150, 347) (0000, B8E4, 0000)
+01C7:0002 Icicles, (1252, 150, 356) (0000, B1C7, 0000)
+00F0:FFFF Blue Flame, (1493, -22, 413) (0000, 0000, 0000)
+00EF:000E Red Ice, (1201, -72, 643) (0000, C000, 0000)
+00EF:000F Red Ice, (1261, -71, 68) (0000, 0000, 0000)
+000A:0801 Chest, Large, reward 40: Compass, chest flag: 01, bound to Perm: 00, (1202, -71, 649) (0000, 0000, 0000)
+
+Cutscene 0: 00000260
+16: Sound Settings: Echo 0
+08: Room Behavior: ? 00, Show invisible actors? False, Idle Animation 00
+12: Skybox Settings: Disable Sky? False, Disable Sun/Moon? False
+10: Time Settings: FFFF FF
+0A: Room Mesh: 03000240
+0B: There are 3 Object(s). List starts at 000002A0
+006B, 008A, 00B6, 
+01: There are 3 actor(s). List starts at 000002A8
+00EF:01FF Red Ice, (1305, -51, 644) (0000, C000, 0000)
+00F0:FFFF Blue Flame, (1291, -32, 242) (0000, 0000, 0000)
+00F0:FFFF Blue Flame, (1493, -22, 413) (0000, 0000, 0000)
+
