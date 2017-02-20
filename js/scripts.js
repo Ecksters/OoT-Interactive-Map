@@ -279,7 +279,7 @@ function fetchROMDump(name)
   });
 }
 
-fetchROMDump("scenes/0");
+fetchROMDump("rooms/s52r0");
 
 map.on("zoomend", function(e)
 {
