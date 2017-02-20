@@ -200,16 +200,17 @@ function addOverlay(overlayData)
   overlayLayer = L.geoJSON(overlayData, {
       style: function(feature) {
         return {
-        "color": "#000000",
+        "color": "transparent",
         "weight": 0,
-        "fill": false,
+        "fill": "transparent",
         "lineJoin":  'round',
+        "fill-opacity": "0",
         "className": feature.properties.className
         };
       },
       onEachFeature: function (feature, layer) {
         layer.on('mouseout', function () {
-            $('.'+feature.properties.className.split(" ")[0]).attr("fill", "none");
+            $('.'+feature.properties.className.split(" ")[0]).attr({"fill": "transparent", "fill-opacity": "0"});
         });
         layer.on('mouseover', function () {
           $('.'+feature.properties.className.split(" ")[0]).attr({"fill": "black", "fill-opacity": "0.2"});
@@ -229,10 +230,10 @@ function addOverlay(overlayData)
           $('.'+feature.properties.className.split(" ")[0]).attr({"fill": "black", "fill-opacity": "0.6"});
         });
         layer.on('mouseup', function () {
-          $('.'+feature.properties.className.split(" ")[0]).attr("fill", "none");
+          $('.'+feature.properties.className.split(" ")[0]).attr({"fill": "transparent", "fill-opacity": "0"});
         });
         layer.on('click', function () {
-          $('.'+feature.properties.className.split(" ")[0]).attr("fill", "none");
+          $('.'+feature.properties.className.split(" ")[0]).attr({"fill": "transparent", "fill-opacity": "0"});
           map.fitBounds(layer.getBounds());
           var newData = "none";
           if(feature.properties.type == "scene")
