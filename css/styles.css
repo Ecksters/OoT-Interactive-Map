@@ -7,6 +7,11 @@ html, body, #map {
     width: 100%;
     background: #000000;
 }
+
+.clear {
+    clear: both;
+}
+
 .leaflet-container .leaflet-control-mouseposition {
   background-color: rgba(255, 255, 255, 0.7);
   box-shadow: 0 0 5px #bbb;
@@ -192,6 +197,7 @@ html, body, #map {
 #verboseOutput{
   position: relative;
   width: 370px;
+  min-height: 100px;
   
   white-space: pre;
   border-radius: 3px;
@@ -212,15 +218,17 @@ html, body, #map {
 #verboseOutputHeader
 {
   width: 370px;
-  float: left;
+  height: 80px;
   margin: 0px;
   font-size: 16px;
+  
 }
 
 #verboseOutputChanger
 {
   width: 370px;
-  float: left;
+  height: 50px;
   margin: 0px;
+  margin-bottom: 10px;
   font-size: 14px;
 }

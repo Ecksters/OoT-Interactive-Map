@@ -224,6 +224,7 @@ function addOverlay(overlayData)
               var newView = "Scene " + feature.properties.scene + ": " + mapData[feature.properties.scene].name + "<br>Room " + feature.properties.id + ": " + feature.properties.name;
             }
             $("#verboseOutputChanger").html(newView);
+            fixSidebarHeight();
         });
         layer.on('mousedown', function () {
           if(map.getZoom() < 14)
@@ -248,6 +249,7 @@ function addOverlay(overlayData)
           }
           if(newData != "none") {
             $("#verboseOutputHeader").html(newData);
+            fixSidebarHeight();
           }
         });
       }
@@ -280,7 +282,29 @@ function fetchROMDump(name)
   });
 }
 
+function fixSidebarHeight()
+{
+  var sidebarTextHeight = $('#dataUpperText').offset().top + $('#dataUpperText').outerHeight(true);
+  var sidebarHeight = $('#sidebarContent').offset().top + $('#sidebarContent').outerHeight(true);
+  
+  $('#verboseOutput').css("height", sidebarHeight-sidebarTextHeight-20);
+}
+
 fetchROMDump("rooms/s52r0");
+
+$('#dataUpperText')
+
+$(document).ready(function(){
+  fixSidebarHeight();
+  
+});
+
+$(window).resize(function() {
+    clearTimeout(window.resizedFinished);
+    window.resizedFinished = setTimeout(function(){
+        fixSidebarHeight();
+    }, 50);
+});
 
 map.on("zoomend", function(e)
 {
