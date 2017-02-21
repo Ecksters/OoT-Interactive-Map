@@ -200,9 +200,6 @@ function loadRegions(currentMap, data)
   return overlayData;
 }
 
-
-
-
 function addOverlay(overlayData)
 {
   overlayLayer = L.geoJSON(overlayData, {
@@ -246,20 +243,13 @@ function addOverlay(overlayData)
         layer.on('click', function () {
           $('.'+feature.properties.className.split(" ")[0]).attr({"fill": "transparent", "fill-opacity": "0"});
           map.fitBounds(layer.getBounds());
-          var newData = "none";
           if(feature.properties.type == "scene")
           {
-            var newData = "Scene " + feature.properties.id + ": " + feature.properties.name + "<br><br>";
-            fetchROMDump("scenes/scene"+feature.properties.id);
+            updateVerboseOutput(feature.properties.id, -1)
           }
           else if(feature.properties.type == "room")
           {
-            var newData = "Scene " + feature.properties.scene + ": " + mapData[feature.properties.scene].name + "<br>Room " + feature.properties.id + ": " + feature.properties.name;
-            fetchROMDump("rooms/s"+feature.properties.scene+"r"+feature.properties.id);
-          }
-          if(newData != "none") {
-            $("#verboseOutputHeader").html(newData);
-            fixSidebarHeight();
+            updateVerboseOutput(feature.properties.scene, feature.properties.id)
           }
         });
       }
@@ -285,6 +275,76 @@ function addLabel(overlayLayer){
   });
 }
 
+
+//updateVerboseOutput(52, 0);
+var romScene = 52;
+var romRoom = -1;
+
+var sceneVerboseSelect = new Array();
+var roomVerboseSelect = new Array();
+for(var i in mapData)
+{
+  sceneVerboseSelect.push({id: i, text: i + ": " + mapData[i].name});
+}
+
+roomVerboseSelect.push({id: romRoom, text: romRoom + ": Scene Data"});
+$('#verboseScene').select2({data: sceneVerboseSelect});
+$('#verboseRoom').select2({data: roomVerboseSelect});
+
+$('#verboseScene').val(52).trigger("change");
+
+$('#verboseScene').on("select2:select", function (e) {
+  var foundLayer = false;
+  sceneLayer.eachLayer(function(layer) {
+    if(!foundLayer && e.params.data.id == layer.feature.properties.id)
+    {
+      map.fitBounds(layer.getBounds());
+      foundLayer = true;
+    }
+  });
+  updateVerboseOutput(e.params.data.id, -1)
+});
+
+
+$('#verboseRoom').on("select2:select", function (e) {
+  var foundLayer = false;
+  roomLayer.eachLayer(function(layer) {
+    if(!foundLayer && romScene == layer.feature.properties.scene && e.params.data.id == layer.feature.properties.id)
+    {
+      map.fitBounds(layer.getBounds());
+      foundLayer = true;
+    }
+  });
+  updateVerboseOutput(romScene, e.params.data.id)
+});
+
+function updateVerboseOutput(scene, room)
+{
+  $('#verboseScene').val(scene).trigger("change");
+  roomVerboseSelect = new Array();
+  
+  roomVerboseSelect.push({id: -1, text: -1 + ": Scene Data"});
+  for(var i in mapData[scene].rooms) {
+    roomVerboseSelect.push({id: i, text: i + ": " + mapData[scene].rooms[i].name});
+  }
+  $("#verboseRoom").select2('destroy').empty().select2({data: roomVerboseSelect});
+  $('#verboseRoom').val(room).trigger("change");
+  $("#verboseRoom input.select2-input").trigger("input");
+
+  if(room == -1)
+  {
+    fetchROMDump("scenes/scene"+scene);
+  }
+  else
+  {
+    fetchROMDump("rooms/s"+scene+"r"+room);
+  }
+  fixSidebarHeight();
+  
+  romScene = scene;
+  romRoom = room;
+}
+
 function fetchROMDump(name)
 {
   jQuery.get('http://map.ecksters.com/data/'+name+'.txt', function(data) {
@@ -299,10 +359,6 @@ function fixSidebarHeight()
   
   $('#verboseOutput').css("height", sidebarHeight-sidebarTextHeight-20);
 }
-
-fetchROMDump("rooms/s52r0");
-
-$('#dataUpperText')
 
 $(document).ready(function(){
   fixSidebarHeight();

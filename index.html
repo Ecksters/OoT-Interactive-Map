@@ -5,10 +5,11 @@
     <link rel="stylesheet" href="css/leaflet.draw.css" />
     <link rel="stylesheet" href="css/Control.MiniMap.min.css" />
     <link rel="stylesheet" href="css/leaflet-sidebar.css" />
-    <link rel="stylesheet" href="css/styles.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/leaflet.zoomhome.css"/>
+    <link rel="stylesheet" href="css/select2.min.css" />
     <link rel="stylesheet" type="text/css" href="css/tooltipster.bundle.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
     <script src="js/leaflet.draw.js"></script>
@@ -16,6 +17,7 @@
     <script src="js/leaflet-sidebar.js"></script>
     <script src="js/leaflet.zoomhome.min.js"></script>
     <script src="js/Leaflet.Control.Custom.js"></script>
+    <script src="js/select2.min.js"></script>
     <script type="text/javascript" src="js/tooltipster.bundle.min.js"></script>
     
     <script src="js/mapdata.js"></script>
@@ -52,7 +54,7 @@
                   Click to view data for:
                   <h2 id="verboseOutputChanger">Scene 1: Dodongo's Cavern<br>Room 3: Whatever description we thought of for the room</h2>
                   Currently Viewing Data For:
-                  <h2 id="verboseOutputHeader">Scene 52: Link's House<br>Room 0: Link's House</h2>
+                  <h2 id="verboseOutputHeader"><label>Scene </label><select class="verboseDropdown" id="verboseScene"></select><br><label>Room </label><select class="verboseDropdown"  id="verboseRoom"></select></h2>
                 </div>
                 <div id="verboseOutput">
                    text<br>0E: There are 12 transition actor(s). List starts at 00000080.<br>01 FF -> 00 FF, 002E:007F, Front Clear Door, No Flag, (-455, 400, 455) (0000, E000, 0000)
