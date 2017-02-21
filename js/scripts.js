@@ -49,11 +49,16 @@
     regionLayer.remove();
     sceneLayer.remove();
     roomLayer.remove();
-    regionLayer = addOverlay(loadRegions(layerData[data.name]["id"], dataRegions));
+    if ( $('#enableRegions').is(':checked') ) {
+      regionLayer = addOverlay(loadRegions(layerData[data.name]["id"], dataRegions));
+      addLabel(regionLayer);
+    }
     areaLayersData = loadAreas(layerData[data.name].folder);
-    sceneLayer = addOverlay(areaLayersData.sceneData);
-    roomLayer = addOverlay(areaLayersData.roomData);
-    addLabel(regionLayer);
+    if ( $('#enableScenes').is(':checked') )
+      sceneLayer = addOverlay(areaLayersData.sceneData);
+    if ( $('#enableRooms').is(':checked') )
+      roomLayer = addOverlay(areaLayersData.roomData);
+    
     miniMap.changeLayer(new L.TileLayer('maps/' + layerData[data.name]["folder"] + '/{z}/map_tile_{x}_{y}.png', {minZoom: 8, maxZoom: 10, attribution: "minimap"}));
   }
  
@@ -83,7 +88,11 @@
 function changeAge() {    
     mapAdult = !mapAdult;
     // toggle the layer
-    if (mapAdult) {
+    refreshMap();
+}
+
+function refreshMap() {
+      if (mapAdult) {
         map.removeLayer(layers.childAngledLayer);
         map.addLayer(layers.adultAngledLayer);
         updateView({layer: layers.adultAngledLayer, name: "Adult Angled View"})
@@ -94,7 +103,6 @@ function changeAge() {
     }
 
 }
-
 
 var regionLayerData = loadRegions(0, dataRegions);
 var regionLayer = addOverlay(regionLayerData);
@@ -213,21 +221,23 @@ function addOverlay(overlayData)
             $('.'+feature.properties.className.split(" ")[0]).attr({"fill": "transparent", "fill-opacity": "0"});
         });
         layer.on('mouseover', function () {
-          $('.'+feature.properties.className.split(" ")[0]).attr({"fill": "black", "fill-opacity": "0.2"});
-            var newView = "Hover Over an Area<br><br>";
-            if(feature.properties.type == "scene")
-            {
-              var newView = "Scene " + feature.properties.id + ": " + feature.properties.name + "<br><br>";
-            }
-            else if(feature.properties.type == "room")
-            {
-              var newView = "Scene " + feature.properties.scene + ": " + mapData[feature.properties.scene].name + "<br>Room " + feature.properties.id + ": " + feature.properties.name;
-            }
-            $("#verboseOutputChanger").html(newView);
-            fixSidebarHeight();
+          if(map.getZoom() < 14 || feature.properties.type != "region"){
+            $('.'+feature.properties.className.split(" ")[0]).attr({"fill": "black", "fill-opacity": "0.2"});
+          }
+          var newView = "Hover Over an Area<br><br>";
+          if(feature.properties.type == "scene")
+          {
+            var newView = "Scene " + feature.properties.id + ": " + feature.properties.name + "<br><br>";
+          }
+          else if(feature.properties.type == "room")
+          {
+            var newView = "Scene " + feature.properties.scene + ": " + mapData[feature.properties.scene].name + "<br>Room " + feature.properties.id + ": " + feature.properties.name;
+          }
+          $("#verboseOutputChanger").html(newView);
+          fixSidebarHeight();
         });
         layer.on('mousedown', function () {
-          if(map.getZoom() < 14)
+          if(map.getZoom() < 14 || feature.properties.type == "room")
           $('.'+feature.properties.className.split(" ")[0]).attr({"fill": "black", "fill-opacity": "0.6"});
         });
         layer.on('mouseup', function () {
@@ -296,7 +306,6 @@ $('#dataUpperText')
 
 $(document).ready(function(){
   fixSidebarHeight();
-  
 });
 
 $(window).resize(function() {
@@ -305,6 +314,8 @@ $(window).resize(function() {
         fixSidebarHeight();
     }, 50);
 });
+
+$('.settingsToggle').on('click', function(){refreshMap()});
 
 map.on("zoomend", function(e)
 {
