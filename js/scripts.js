@@ -276,22 +276,26 @@ function addLabel(overlayLayer){
 }
 
 
-//updateVerboseOutput(52, 0);
 var romScene = 52;
 var romRoom = -1;
 
 var sceneVerboseSelect = new Array();
 var roomVerboseSelect = new Array();
-for(var i in mapData)
-{
+for(var i in mapData){
   sceneVerboseSelect.push({id: i, text: i + ": " + mapData[i].name});
+}
+
+for(var i in mapData[romScene].rooms) {
+  roomVerboseSelect.push({id: i, text: i + ": " + mapData[romScene].rooms[i].name});
 }
 
 roomVerboseSelect.push({id: romRoom, text: romRoom + ": Scene Data"});
 $('#verboseScene').select2({data: sceneVerboseSelect});
 $('#verboseRoom').select2({data: roomVerboseSelect});
 
-$('#verboseScene').val(52).trigger("change");
+$('#verboseScene').val(romScene).trigger("change");
+$('#verboseRoom').val(romRoom).trigger("change");
+fetchROMDump("scenes/scene"+romScene);
 
 $('#verboseScene').on("select2:select", function (e) {
   var foundLayer = false;
