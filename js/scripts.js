@@ -353,6 +353,7 @@ function fetchROMDump(name)
 {
   jQuery.get('http://map.ecksters.com/data/'+name+'.txt', function(data) {
     $("#verboseOutput").html(data);
+    $("#verboseOutput").scrollTop(0).scrollLeft(0);
   });
 }
 
