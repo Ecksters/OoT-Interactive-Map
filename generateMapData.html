@@ -1,21 +1,73 @@
 <html>
   <script src="js/rawmapdata.js"></script>
   <script>
-    mapData = scenesRaw;
+    mapData = scenesRaw; //Set scenes as the top level objects
     var subData = new Array({name: "rooms", data: roomsRaw}, {name: "setups", data: setupsRaw});
-    
-    for(h in subData) {
-      for(i in subData[h].data) {
+    var currentEnemy = 0;
+    for(h in subData) { //Loop through both rooms and setups
+      for(i in subData[h].data) { //Within each room/setup
         var entry = subData[h].data[i];
-        var sceneID = JSON.parse(JSON.stringify(entry.sceneID));
-        delete entry.sceneID;
+        var sceneID = JSON.parse(JSON.stringify(entry.sceneID)); //Make a copy of scene ID before we delete it from entry
+        delete entry.sceneID; //Clear out repeat data (stored in parent scene)
         delete entry.sceneName;
-        if(typeof mapData[sceneID][subData[h].name] === "undefined") {
+        if(typeof mapData[sceneID][subData[h].name] === "undefined") { //Make new object array for rooms/setups within scene if it doesn't exist
           mapData[sceneID][subData[h].name] = new Array();
         }
-        mapData[sceneID][subData[h].name].push(entry);
+        var newLength = mapData[sceneID][subData[h].name].push(entry); //Add room/setup to the scene
+        var addedRoom = mapData[sceneID][subData[h].name][newLength - 1];
+        if(h == 0) { //For rooms
+          while(currentEnemy < enemies.length && enemies[currentEnemy].scene == sceneID && enemies[currentEnemy].room == entry.id) { //Check if current enemy we're on is in this scene>room
+            if(typeof addedRoom.enemies === "undefined") { //Make new object array for enemies within room if it doesn't exist
+              mapData[sceneID][subData[h].name][newLength - 1].enemies = new Array();
+            }
+            var newEnemy = enemies[currentEnemy];
+            delete newEnemy.scene; //Clear out repeat data (stored in parents)
+            delete newEnemy.room;
+            addedRoom.enemies.push(newEnemy); //Add enemy to room
+            
+            
+            if(typeof addedRoom.enemyCounts === "undefined") { //Make new object array for enemy counts within room if it doesn't exist
+              addedRoom.enemyCounts = new Array();
+            }
+            var exists = false;
+            if(newEnemy.id == 75 || newEnemy.id == 76 || newEnemy.id == 77) { //Convert various types of Gold Skulltula to just normal type
+                newEnemy.id = 74;
+            }
+            for(var j in addedRoom.enemyCounts) { //Loop through room's already counted enemies
+              if(addedRoom.enemyCounts[j].id == newEnemy.id) { //If enemy has already been added at least once
+                addedRoom.enemyCounts[j].count++; //Increment count
+                exists = true;
+                break;
+              }
+            }
+            if(!exists) { //If enemy wasn't found in the scene count list already
+             addedRoom.enemyCounts.push({id: newEnemy.id, count: 1});
+            }
+            
+            if(typeof mapData[sceneID].enemyCounts === "undefined") { //Make new object array for enemy counts within scene if it doesn't exist
+              mapData[sceneID].enemyCounts = new Array();
+            }
+            exists = false;
+            for(var j in mapData[sceneID].enemyCounts) { //Loop through scene's already counted enemies
+              if(mapData[sceneID].enemyCounts[j].id == newEnemy.id) { //If enemy has already been added at least once
+                mapData[sceneID].enemyCounts[j].count++; //Increment count
+                exists = true;
+                break;
+              }
+            }
+            if(!exists) { //If enemy wasn't found in the scene count list already
+              mapData[sceneID].enemyCounts.push({id: newEnemy.id, count: 1});
+            }
+            
+            currentEnemy++; //Enemy array is pre-ordered by scene>room>setup, so we're simply stepping through them until we get to the next scene>room
+          }
+          if(typeof mapData[sceneID][subData[h].name][newLength - 1].enemies !== "undefined") { //Sort enemies by setup if room has them
+            mapData[sceneID][subData[h].name][newLength - 1].enemies.sort(function(a,b){return a.setup - b.setup;});
+          }
+        }
       }
     }
+    
     document.write(JSON.stringify(mapData));
   </script>
 </html>

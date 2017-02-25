@@ -49,15 +49,18 @@
     regionLayer.remove();
     sceneLayer.remove();
     roomLayer.remove();
-    if ( $('#enableRegions').is(':checked') ) {
-      regionLayer = addOverlay(loadRegions(layerData[data.name]["id"], dataRegions));
-      addLabel(regionLayer);
-    }
+    enemiesLayer[0].remove();
+    enemiesLayer[1].remove();
+
+    regionLayer = addOverlay(loadRegions(0, dataRegions)); //Old Region Code, layerData[data.name]["id"], saved for when we add top
+    addLabel(regionLayer);
     areaLayersData = loadAreas(layerData[data.name].folder);
-    if ( $('#enableScenes').is(':checked') )
-      sceneLayer = addOverlay(areaLayersData.sceneData);
-    if ( $('#enableRooms').is(':checked') )
-      roomLayer = addOverlay(areaLayersData.roomData);
+    sceneLayer = addOverlay(areaLayersData.sceneData);
+    roomLayer = addOverlay(areaLayersData.roomData);
+    enemiesLayer = addEnemyOverlay(loadEnemies());
+    $('.enemyIcon').hide();
+    
+    updateZoom();
     
     miniMap.changeLayer(new L.TileLayer('maps/' + layerData[data.name]["folder"] + '/{z}/map_tile_{x}_{y}.png', {minZoom: 8, maxZoom: 10, attribution: "minimap"}));
   }
@@ -91,6 +94,28 @@ function changeAge() {
     refreshMap();
 }
 
+$('div.sidebar-tabs > ul > li').on('click', function(e){controlSwap(e)});
+
+function controlSwap(newTab){
+  if($(newTab.currentTarget).hasClass("active"))
+  {
+    var tab = newTab.currentTarget.id;
+    switch(tab){
+    case 'dataTab':
+        $('#' + tab + 'UpperText').append($('#locationChangerContainer'));
+      break;
+    case 'natureTab':
+        $('#' + tab + 'UpperText').append($('#locationChangerContainer'));
+      break;
+    case 'enemiesTab':
+        $('#' + tab + 'UpperText').append($('#locationChangerContainer'));
+      break;
+    }
+    fixSidebarHeight();
+    
+  }
+}
+
 function refreshMap() {
       if (mapAdult) {
         map.removeLayer(layers.childAngledLayer);
@@ -111,6 +136,8 @@ addLabel(regionLayer);
 var areaLayersData = loadAreas(defaultMap.folder)
 var sceneLayer = addOverlay(areaLayersData.sceneData);
 var roomLayer = addOverlay(areaLayersData.roomData);
+var enemiesLayer = addEnemyOverlay(loadEnemies());
+$('.enemyIcon').hide();
 
 function loadAreas(mapName) {
   var sceneData = Array();
@@ -200,8 +227,82 @@ function loadRegions(currentMap, data)
   return overlayData;
 }
 
-function addOverlay(overlayData)
-{
+function loadEnemies(){
+
+  var enemyRoomIconContainers = Array();
+  roomLayer.eachLayer(function (room){
+    var coords = room.getBounds().getCenter()
+    if(typeof mapData[room.feature.properties.scene].rooms[room.feature.properties.id].enemies != 'undefined')
+    enemyRoomIconContainers.push(
+    {
+         "type": "Feature", 
+         "geometry": { 
+           "type": "Point", 
+           "coordinates": [coords.lng, coords.lat]
+         }, 
+         "properties": { 
+           "room": room.feature.properties.id,
+           "class": "enemyRoomContainer enemyMarkerContainer enemyMarkers" + room.feature.properties.scene + "r" + room.feature.properties.id,
+           "type": "enemyRoomContainer",
+           "scene": room.feature.properties.scene,
+           "enemies": mapData[room.feature.properties.scene].rooms[room.feature.properties.id].enemyCounts
+           }
+    });
+  });
+  var enemySceneIconContainers = Array();
+  sceneLayer.eachLayer(function (scene){
+    var coords = scene.getBounds().getCenter();
+    if(typeof mapData[scene.feature.properties.id].enemyCounts != 'undefined' && scene.feature.properties.id != 62) //Only push rooms with enemies, and NOT grotto scene
+    enemySceneIconContainers.push(
+    {
+         "type": "Feature", 
+         "geometry": { 
+           "type": "Point", 
+           "coordinates": [coords.lng, coords.lat]
+         }, 
+         "properties": { 
+           "room": -1,
+           "class": "enemySceneContainer enemyMarkerContainer enemyMarkers" + scene.feature.properties.id,
+           "type": "enemySceneContainer",
+           "scene": scene.feature.properties.id,
+           "enemies": mapData[scene.feature.properties.id].enemyCounts
+           }
+    });
+  });
+  
+  return {rooms: enemyRoomIconContainers, scenes: enemySceneIconContainers};
+}
+
+function getEnemyImages(enemies){
+  var images = "";
+  for(i in enemies)
+  {
+    var enemyName = enemyTable[enemies[i].id].name.replace(/ |-|\'/gi, "")
+    images += "<img class='enemyIcon enemyIcon" + enemies[i].id + "' src='images/enemyIcons/" + enemyName + ".png' />";
+  }
+  return images;
+}
+
+function addEnemyOverlay(enemyContainers){
+  var overlayLayers = Array();
+  for(var i in enemyContainers)
+  {
+    overlayLayers.push(L.geoJSON(enemyContainers[i], {
+      pointToLayer: function(feature, latlng) {
+          return L.marker(latlng, {
+            icon: new L.divIcon({className: feature.properties.class,
+            iconSize: null,
+            html: getEnemyImages(feature.properties.enemies)
+            }),
+            class: feature.properties.className,
+          });
+        }
+      }).addTo(map));
+  }
+  return overlayLayers;
+}
+
+function addOverlay(overlayData){
   overlayLayer = L.geoJSON(overlayData, {
       style: function(feature) {
         return {
@@ -230,7 +331,7 @@ function addOverlay(overlayData)
           {
             var newView = "Scene " + feature.properties.scene + ": " + mapData[feature.properties.scene].name + "<br>Room " + feature.properties.id + ": " + feature.properties.name;
           }
-          $("#verboseOutputChanger").html(newView);
+          $("#locationChangerPreview").html(newView);
           fixSidebarHeight();
         });
         layer.on('mousedown', function () {
@@ -279,6 +380,10 @@ function addLabel(overlayLayer){
 var romScene = 52;
 var romRoom = -1;
 
+
+////////////////////////////////////////////////////////////////////////////////
+// Initialize Scene/Room Selection Interface
+////////////////////////////////////////////////////////////////////////////////
 var sceneVerboseSelect = new Array();
 var roomVerboseSelect = new Array();
 for(var i in mapData){
@@ -322,8 +427,60 @@ $('#verboseRoom').on("select2:select", function (e) {
   updateVerboseOutput(romScene, e.params.data.id)
 });
 
+////////////////////////////////////////////////////////////////////////////////
+// Initialize Enemy Filter Interface
+////////////////////////////////////////////////////////////////////////////////
+
+var enemySelect = new Array();
+var enemySelectAll = new Array();
+for(var i in enemyTable) {
+  enemySelect.push({id: i, text: enemyTable[i].actor + ": " + enemyTable[i].name});
+  enemySelectAll.push(i);
+}
+
+$('#enemyFilter').select2({data: enemySelect,
+                           placeholder: "Select Enemies",
+                           closeOnSelect:false});
+
+$('#enemyFilter').on("change", function (e) {
+  $('.enemyIcon').hide();
+  var enemiesSelected = $('#enemyFilter').select2("data");
+  var enemiesShown = "";
+  for(i in  enemiesSelected) {
+    enemiesShown += ".enemyIcon" + enemiesSelected[i].id + ",";
+  }
+  $(enemiesShown.slice(0,-1)).show();
+  $('#enableRegions').attr('checked', false).trigger('change');
+});
+
+$('#enemiesShowAll').on('click', function(){$('select#enemyFilter').val(enemySelectAll).trigger('change');});
+$('#enemiesHideAll').on('click', function(){
+  $('select#enemyFilter option').attr('selected', false);
+  $('select#enemyFilter').val(null).trigger('change');
+  });
+
+
+$('#enemiesHighlightAll').on('click', function(){
+  highlightEnemies();
+});
+
+var currentlyHighlighting = false;
+function highlightEnemies(){
+    if(currentlyHighlighting == false)
+  {
+    currentlyHighlighting = true;
+    $('.enemyIcon').addClass('glow');
+    setTimeout(function(){
+      $('.enemyIcon').removeClass('glow');
+      currentlyHighlighting = false;
+    }, 8000);
+  }
+}
+
 function updateVerboseOutput(scene, room)
 {
+  romScene = scene;
+  romRoom = room;
   $('#verboseScene').val(scene).trigger("change");
   roomVerboseSelect = new Array();
   
@@ -343,10 +500,8 @@ function updateVerboseOutput(scene, room)
   {
     fetchROMDump("rooms/s"+scene+"r"+room);
   }
+  fetchEnemies(scene, room);
   fixSidebarHeight();
-  
-  romScene = scene;
-  romRoom = room;
 }
 
 function fetchROMDump(name)
@@ -357,12 +512,106 @@ function fetchROMDump(name)
   });
 }
 
+function fetchEnemies(scene, room) {
+  var roomEnemies = new Array();
+  console.log(room);
+  if(room == "-1"){
+    $("#enemiesTable").html("<tr><th>No Enemies Exist on the Scene Level</th></tr>");
+    return 0;
+  }
+  else{
+    roomEnemies = mapData[scene].rooms[room].enemies;
+  }
+  if(typeof roomEnemies == "undefined")
+  {
+    $("#enemiesTable").html("<tr><th>No Enemies Found in Room Selected</th></tr>");
+    return 0;
+  }
+  
+  var currentSetup = -1;
+  $('.enemyRow').tooltipster('destroy');
+  var table = $("#enemiesTable");
+  table.html("<tr><th>Name</th><th>Details</th><th>Search</th></tr>");
+  for(i in roomEnemies)
+  {
+    var enemy = roomEnemies[i];
+    if(enemy.setup != currentSetup)
+    {
+      var setupName = "";
+      currentSetup = enemy.setup;
+      for (var i in mapData[romScene].setups) {
+        if (mapData[romScene].setups[i].id == currentSetup){
+          if(mapData[romScene].setups[i].name != ""){
+            setupName = " - " + mapData[romScene].setups[i].name;
+          }
+        }
+      }
+      table.append("<tr><td colspan='3' class='enemySetupSplit'>Scene Setup: " + currentSetup + setupName + "</td></tr>");
+    }
+    enemy.position = enemy.x + "," + enemy.y + "," + enemy.z;
+    enemy.rotation = enemy['x-rotation'] + "," + enemy['y-rotation'] + "," + enemy['z-rotation'];
+    var newRow = $("<tr data-tooltip-content='#tooltip_content' class='enemyRow' data-id='" + enemy.id + 
+    "' data-parameters='" + enemy.parameters + 
+    "' data-setup='" + enemy.setup + 
+    "' data-position='"  + enemy.position +  
+    "' data-rotation='"  + enemy.rotation +
+    "'><td><div>" + enemyTable[enemy.id].name + "</div></td><td class='enemyDetails'><i class='fa fa-book enemyDetails'></i></td><td class='enemySearch'><i class='fa fa-binoculars'></i></td></tr>");
+    table.append(newRow);
+    var profile = "<div><h2>" + enemyTable[enemy.id].name + "</h2></div>"
+    $("#tooltip_content").html(enemyDataTable(enemy));
+    newRow.tooltipster({
+      theme: ['tooltipster-shadow', 'tooltipster-shadow-customized'],
+      delay: [200,300],
+      interactive: true,
+      contentCloning: true,
+      side: ['left', 'top', 'bottom', 'right']});
+    table.scrollTop(0).scrollLeft(0);
+    //fa fa-window-maximize
+  }
+  $('td.enemyDetails').on('click', function(e){
+    updateModalEnemy($(this));
+    $('#openModal').modal();
+  });
+  $('td.enemySearch').on('click', function(e){
+    setEnemySearch($(this));
+  });
+}
+
+function updateModalEnemy(enemy) {
+  var enemyData = enemy.parent().data();
+  $('#infoPopup').html("<div class='thirds' style='text-align: center;'><h2 class='label'>" + 
+                        enemyTable[enemyData.id].name +
+                        "</h2><img src='images/enemyIcons/" +
+                        enemyTable[enemyData.id].name.replace(/ |-|\'/gi, "") + ".png' /></div>" +
+                        "<div class='thirds' style='width: 66.6%;'>Actor: " + enemyTable[enemyData.id].actor +
+                        "<br>Parameters: " + enemyData.parameters +
+                        "<br>Drop Table " + enemyTable[enemyData.id].drop||"None" + ": <br>" +
+                        JSON.stringify(dropTables[enemyTable[enemyData.id].drop].table) + "</div>");
+  
+}
+
+function enemyDataTable(enemy) {
+  return "<table><tr><th>Actor</th><th>Parameters</th><th>Drop Table</th><th>Position</th><th>Rotation</th></tr>" +
+         "<tr><td>" + enemyTable[enemy.id].actor + "</td><td>" + enemy.parameters + "</td><td>" +
+         enemyTable[enemy.id].drop + "</td><td>(" +  enemy.position + ")</td><td>(" + enemy.rotation + ")</td></tr></table>";
+  
+}
+
+function setEnemySearch(enemy) {
+  var enemyData = enemy.parent().data();
+  $('select#enemyFilter').val([enemyData.id]).trigger('change');
+  highlightEnemies();
+}
+
 function fixSidebarHeight()
 {
-  var sidebarTextHeight = $('#dataUpperText').offset().top + $('#dataUpperText').outerHeight(true);
+  var dataTextHeight = $('#dataTabUpperText').offset().top + $('#dataTabUpperText').outerHeight(true);
+  var enemyTextHeight = $('#enemiesTabUpperText').offset().top + $('#enemiesTabUpperText').outerHeight(true);
   var sidebarHeight = $('#sidebarContent').offset().top + $('#sidebarContent').outerHeight(true);
   
-  $('#verboseOutput').css("height", sidebarHeight-sidebarTextHeight-20);
+  $('#verboseOutput').css("height", sidebarHeight-dataTextHeight-20);
+  $('#enemiesTableContainer').css("height", sidebarHeight-enemyTextHeight-20);
+  
 }
 
 $(document).ready(function(){
@@ -376,22 +625,48 @@ $(window).resize(function() {
     }, 50);
 });
 
-$('.settingsToggle').on('click', function(){refreshMap()});
+$('.settingsToggle').on('change', function(){updateZoom()});
 
-map.on("zoomend", function(e)
+map.on("zoomend", function(e){updateZoom()});
+
+function updateZoom()
 {
-  regionLayer.eachLayer(function(layer) {
-    if(typeof layer.getTooltip() != "undefined")
-    {
-      if(map.getZoom() < 13){
-        layer.openTooltip();
-      }
-      else {
-        layer.closeTooltip();
-      }
+  
+  if ($('#enableRegions').is(':checked') ){
+    $('.region').show();
+    if(map.getZoom() < 13){
+      $('.leaflet-tooltip.label').css('visibility', 'visible');
     }
-  });
-});
+    else{
+      $('.leaflet-tooltip.label').css('visibility', 'hidden');
+    }
+  }
+  else{
+    $('.region').hide();
+    $('.leaflet-tooltip.label').css('visibility', 'hidden');
+  }
+  if ( $('#enableScenes').is(':checked') ){
+    $('.scene').show();
+  }
+  else{
+    $('.scene').hide();
+  }
+  if ( $('#enableRooms').is(':checked') ) {
+    $('.room').show();
+  }
+  else {
+    $('.room').hide();
+  }
+  
+  if(map.getZoom() < 13){
+    $('.enemySceneContainer').show();
+    $('.enemyRoomContainer').hide();
+  }
+  else {
+    $('.enemySceneContainer').hide();
+    $('.enemyRoomContainer').show();
+  }
+}
   
   var sidebar = L.control.sidebar('sidebar', {position: 'right'}).addTo(map);
   
@@ -446,6 +721,7 @@ map.on('draw:created', function(e) {
   }
   window.prompt("Copy to clipboard: Ctrl+C, Enter", "[[" + coordsText + "]]");
 });
+
   
   function getLayerType(layer) {
 

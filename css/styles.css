@@ -215,7 +215,7 @@ html, body, #map {
   color: white;
 }
 
-#verboseOutputHeader
+#locationChanger
 {
   width: 370px;
   height: 80px;
@@ -224,7 +224,7 @@ html, body, #map {
   
 }
 
-#verboseOutputChanger
+#locationChangerPreview
 {
   width: 370px;
   height: 50px;
@@ -233,12 +233,32 @@ html, body, #map {
   font-size: 14px;
 }
 
-.verboseDropdown {
+.selectDropdown {
   width: 300px;;
 }
 
 #verboseRoom {
   width: 303px;
+}
+
+.select2-selection--multiple .select2-search--inline .select2-search__field {
+  width: auto !important;
+  scroll-y: auto;
+  color: white;
+  text-shadow: 2px 2px black;
+  font-family: dialogueText;
+}
+
+.select2-container--default .select2-selection--multiple {
+  background-color: rgba(0,0,0,.4);
+  border: 1px solid rgba(5,5,5,.4);
+  height: 64px;
+  overflow: auto;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+  font-size: 8px;
+  background-color: rgba(20,20,20,.8);
 }
 
 .select2-dropdown {
@@ -272,3 +292,148 @@ html, body, #map {
   background-color: rgba(70,70,70,.9);
   border: 1px solid rgba(5,5,5,.4);
 }
+
+table {
+  background-color: rgba(20,20,20,.7);
+  width: 100%;
+  font-size: 14px;
+  border: solid #666 1px;
+  border-collapse: collapse;
+}
+
+#enemiesTableContainer {
+  position: relative;
+  width: 380px;
+  min-height: 200px;
+  overflow-y: auto;
+}
+
+th {
+  background-color: rgba(80,80,80,1);
+  border: solid #666 1px;
+}
+
+td {
+  border: solid #666 1px;
+  text-overflow: ellipsis;
+}
+
+tr {
+  border: solid #666 1px;
+  background-color: rgba(30,30,30,.7);
+}
+
+tr:nth-child(even) {
+    background-color: rgba(50,50,50,.7);
+}
+
+tr:hover {
+  background-color: rgba(0,0,0,.9);
+}
+
+td > div {
+  width: 230px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.enemySetupSplit {
+  background-color: rgba(70,70,70,.9);
+  text-align: center;
+}
+
+.enemyDetails, .enemySearch {
+  text-align: center;
+}
+
+.enemyDetails:hover, .enemySearch:hover {
+  color: #DD0000;
+  background-color: #888;
+}
+
+.enemyDetails:active, .enemySearch:active {
+  color: #AAAAAA;
+  background-color: #080;
+}
+
+.jquery-modal {
+  z-index: 9001;
+}
+
+.modal {
+  color: white;
+  text-shadow: 2px 2px black;
+  text-align: left;
+  font-family: dialogueText;
+  background-color: rgba(4, 20, 56, 0.8);
+  height: 280px;
+  width: 840px;
+  padding: 20px;
+}
+
+.blocker {
+  background-color: transparent;
+}
+
+.modal a.close-modal {
+  position: absolute;
+  top: inherit;
+  border: solid 8px rgba(6, 80, 224, .85);
+  width: 0px;
+  height: 0px;
+  background: none;
+  right: 50%;
+  box-shadow: 0px 0px 8px 0px rgba(6, 80, 224, .85);
+  bottom: -8px;
+}
+
+.tooltip_templates { display: none; }
+
+div.thirds{
+  width: 33.3%;
+  float: left;
+}
+
+.enemyMarkerContainer {
+  width: 200px;
+  margin-left: -100px;
+  text-align: center;
+}
+
+.leaflet-marker-icon.leaflet-interactive, .leaflet-image-layer.leaflet-interactive, .leaflet-pane > svg path.leaflet-interactive .enemyMarkerContainer {
+  pointer-events: none;
+}
+
+.enemyIcon {
+  width: 16.6%;
+  display:inline-block;
+  margin-top: -8%;
+}
+
+.glow {
+  animation: fadeinout 8s linear forwards;
+}
+
+@keyframes fadeinout {
+  0%,100% { box-shadow: none; }
+  12.5%,37.5%,62.5%,87.5% { box-shadow: 0 0px 24px 0 rgba(255,255,255,0.9); }
+  25%,50%,75% { box-shadow: 0 0px 24px 0 rgba(0,0,0,0.9); }
+}
+
+
+.button {
+    font-family: dialogueText;
+    background-color: rgba(4, 20, 56, 0.8);
+    border: none;
+    color: white;
+    padding: 5px 8px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button:hover {
+    box-shadow: 0 0px 16px 0 rgba(255,255,255,0.5);
+}
+
