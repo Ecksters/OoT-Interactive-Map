@@ -513,6 +513,7 @@ function fetchROMDump(name)
 
 function fetchEnemies(scene, room) {
   var roomEnemies = new Array();
+  var table = $("#enemiesTable");
   if(room == "-1"){
     $("#enemiesTable").html("<tr><th>No Enemies Exist on the Scene Level</th></tr>");
     return 0;
@@ -528,7 +529,6 @@ function fetchEnemies(scene, room) {
   
   var currentSetup = -1;
   $('.enemyRow').tooltipster('destroy');
-  var table = $("#enemiesTable");
   table.html("<tr><th>Name</th><th>Details</th><th>Search</th></tr>");
   for(i in roomEnemies)
   {
@@ -562,7 +562,7 @@ function fetchEnemies(scene, room) {
 
 
 function searchEnemies() {
-
+  var table = $("#enemiesSearchTable");
   if($('#enemyFilter').select2("data").length === 0){
     table.html("<tr><th>No Enemies Selected</th></tr>");
     return 0;
@@ -573,7 +573,6 @@ function searchEnemies() {
   var currentSetup = -1;
   var currentRoom = -1;
   $('.enemySearchRow').tooltipster('destroy');
-  var table = $("#enemiesSearchTable");
   table.html("<tr><th>Name</th><th>Details</th><th>Zoom</th></tr>");
   for(i in enemyResults) {
     var enemy = enemyResults[i];
@@ -733,7 +732,8 @@ $(document).ready(function(){
 		$("#"+tab_id).addClass('current');
     fixSidebarHeight();
 	});
-  
+  fetchEnemies(romScene, romRoom);
+  searchEnemies();
   fixSidebarHeight();
 });
 
