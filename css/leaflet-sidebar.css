@@ -4,7 +4,8 @@
   bottom: 0;
   width: 100%;
   overflow: hidden;
-  z-index: 2000; }
+  z-index: 2000;
+  width: 460px;  }
   .sidebar.collapsed {
     width: 40px; }
   @media (min-width: 768px) {
@@ -12,15 +13,6 @@
       top: 10px;
       bottom: 10px;
       transition: width 500ms; } }
-  @media (min-width: 768px) and (max-width: 991px) {
-    .sidebar {
-      width: 305px; } }
-  @media (min-width: 992px) and (max-width: 1199px) {
-    .sidebar {
-      width: 390px; } }
-  @media (min-width: 1200px) {
-    .sidebar {
-      width: 460px; } }
 
 .sidebar-left {
   left: 0; }
