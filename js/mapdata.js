@@ -650,10 +650,10 @@ var enemies = {"1":[{"scene":0,"setup":0,"room":0,"parameters":"0000","x":-218,"
 
 var items = ["Green Rupee","Blue Rupee","Red Rupee","Heart","Bombs","Deku Seeds/Arrows(1)","Heart Piece","Heart Container (Alpha!)","Deku Seeds/Arrows (5)","Deku Seeds/Arrows (10)","Deku Seeds/Arrows (30)","Bombs","Deku Nut","Deku Stick","Magic Jar (Large)","Magic Jar (Small)","Deku Seeds/Arrows (5)","Small Key","Flexible Drop","Giant Orange Rupee","Large Purple Rupee","Deku Shield","Hylian Shield","Zora Tunic","Goron Tunic","Bombs"];
 
-var dropTableColors = {"Bombs": "#081982", "Flexible Drop": "#9467bd", "Green Rupee": "#2ca02c", "Blue Rupee": "#8ea7f8",
-                      "Blue Rupee x 3": "#1f77b4", "Red Rupee": "#dd7876", "Red Rupee x 3": "#c61718", "Heart": "#f7b6d2", "Heart x 3": "#e377c2",
-                      "Small Magic Jar": "#9edae5", "Large Magic Jar": "#17becf", "Seeds/Arrows": "#eeaa67", "Seeds/Arrows(10)": "#ff7f0e",
-                      "Seeds/Arrows(30)": "#bcbd22", "Deku Nuts": "#c49c94", "Deku Stick": "#8c564b", "Nothing": "#7f7f7f"};
+var dropTableColors = {0: {name: "Bombs", color: "#081982"}, 1: {name: "Flexible Drop", color: "#9467bd"}, 2: {name: "Green Rupee", color: "#2ca02c"}, 3: {name: "Blue Rupee", color: "#8ea7f8"},
+                      4: {name: "Blue Rupee x 3", color: "#1f77b4"}, 5: {name: "Red Rupee", color: "#dd7876"}, 6: {name: "Red Rupee x 3", color: "#c61718"}, 7: {name: "Heart", color: "#f7b6d2"}, 8: {name: "Heart x 3", color: "#e377c2"},
+                      9: {name: "Small Magic Jar", color: "#9edae5"}, 10: {name: "Large Magic Jar", color: "#17becf"}, 11: {name: "Seeds/Arrows", color: "#eeaa67"}, 12: {name: "Seeds/Arrows(10)", color: "#ff7f0e"},
+                      13: {name: "Seeds/Arrows(30)", color: "#bcbd22"}, 14: {name: "Deku Nuts", color: "#c49c94"}, 15: {name: "Deku Stick", color: "#8c564b"}, 16: {name: "Nothing", color: "#7f7f7f"}};
 
 var dropTables = {
    "0": {

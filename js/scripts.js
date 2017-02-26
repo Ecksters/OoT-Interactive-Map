@@ -642,6 +642,15 @@ function enemySearchRow(enemy) {
   newRow.tooltipster({
     theme: ['tooltipster-shadow', 'tooltipster-shadow-customized'],
     delay: [200,300],
+    trigger: 'custom',
+    triggerOpen: {
+        mouseenter: true,
+        touchstart: true
+    },
+    triggerClose: {
+        mouseleave: true,
+        touchleave: true
+    },
     interactive: true,
     contentCloning: true,
     side: ['left', 'top', 'bottom', 'right']});
@@ -652,14 +661,28 @@ function enemySearchRow(enemy) {
 
 function updateModalEnemy(enemy) {
   var enemyData = enemy.parent().data();
-  $('#infoPopup').html("<div class='thirds' style='text-align: center;'><h2 class='label'>" + 
+  var drop = "None";
+  var dropTable = "";
+  if(enemyTable[enemyData.id].drop != ''){
+    drop = "Table " + enemyTable[enemyData.id].drop;
+    table = dropTables[enemyTable[enemyData.id].drop].table;
+    dropTable = "<div class='dropTable'>";
+    for(var i in table){
+      if(table[i] > 0){
+        dropTable += "<div class='dropTableSlot' style='background: " + dropTableColors[i].color + "; width: " + table[i]*5.55 + "%;'><div class='fractionTop'>" + table[i] + 
+                      "</div><div class='fractionBottom'>16</div><img class='dropImage' src='images/drops/drop" + i + ".png' />​</div>";
+      }
+    }
+    dropTable += "</div>"
+  }
+  $('#infoPopup').html("<div class='profileSection' style='width: 20%; text-align: center;'><h2 class='label'>" + 
                         enemyTable[enemyData.id].name +
                         "</h2><img src='images/enemyIcons/" +
                         enemyTable[enemyData.id].name.replace(/ |-|\'/gi, "") + ".png' /></div>" +
-                        "<div class='thirds' style='width: 66.6%;'>Actor: " + enemyTable[enemyData.id].actor +
+                        "<div class='profileSection' style='width: 80%;'>Actor: " + enemyTable[enemyData.id].actor +
                         "<br>Parameters: " + enemyData.parameters +
-                        "<br>Drop Table " + enemyTable[enemyData.id].drop||"None" + ": <br>" +
-                        JSON.stringify(dropTables[enemyTable[enemyData.id].drop].table) + "</div>");
+                        "<br>Drop: " + drop + " <br>" + 
+                        dropTable + "</div>");
   
 }
 
@@ -684,6 +707,15 @@ function enemyTableRow(enemy) {
   newRow.tooltipster({
     theme: ['tooltipster-shadow', 'tooltipster-shadow-customized'],
     delay: [200,300],
+    trigger: 'custom',
+    triggerOpen: {
+        mouseenter: true,
+        touchstart: true
+    },
+    triggerClose: {
+        mouseleave: true,
+        touchleave: true
+    },
     interactive: true,
     contentCloning: true,
     side: ['left', 'top', 'bottom', 'right']});
@@ -694,6 +726,8 @@ function enemyTableRow(enemy) {
 function setEnemySearch(enemy) {
   var enemyData = enemy.parent().data();
   $('select#enemyFilter').val([enemyData.id]).trigger('change');
+  $('#searchEnemiesTab').tooltipster('open');
+  setTimeout(function(){$('#searchEnemiesTab').tooltipster('close');}, 3000);
   highlightEnemies();
 }
 
@@ -736,6 +770,7 @@ $(document).ready(function(){
 		$("#"+tab_id).addClass('current');
     fixSidebarHeight();
 	});
+  $('#searchEnemiesTab').tooltipster({trigger: 'custom'});
   fetchEnemies(romScene, romRoom);
   searchEnemies();
   fixSidebarHeight();
