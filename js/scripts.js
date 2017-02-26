@@ -444,7 +444,7 @@ $('#enemyFilter').on("change", function (e) {
   $('.enemyIcon').hide();
   var enemiesSelected = $('#enemyFilter').select2("data");
   var enemiesShown = "";
-  for(i in  enemiesSelected) {
+  for(i in enemiesSelected) {
     enemiesShown += ".enemyIcon" + enemiesSelected[i].id + ",";
   }
   $(enemiesShown.slice(0,-1)).show();
@@ -530,6 +530,7 @@ function fetchEnemies(scene, room) {
   var currentSetup = -1;
   $('.enemyRow').tooltipster('destroy');
   table.html("<tr><th>Name</th><th>Details</th><th>Search</th></tr>");
+  var tableData = [];
   for(i in roomEnemies)
   {
     var enemy = roomEnemies[i];
@@ -544,13 +545,14 @@ function fetchEnemies(scene, room) {
           }
         }
       }
-      table.append("<tr><td colspan='3' class='enemySetupSplit'>Scene Setup: " + currentSetup + setupName + "</td></tr>");
+      tableData.push("<tr><td colspan='3' class='enemySetupSplit'>Scene Setup: " + currentSetup + setupName + "</td></tr>");
     }
     var newRow = enemyTableRow(enemy);
-    table.append(newRow);
+    tableData.push(newRow);
     table.scrollTop(0).scrollLeft(0);
     //fa fa-window-maximize
   }
+  table.append(tableData);
   $('td.enemyDetails').on('click', function(e){
     updateModalEnemy($(this));
     $('#openModal').modal();
@@ -574,6 +576,7 @@ function searchEnemies() {
   var currentRoom = -1;
   $('.enemySearchRow').tooltipster('destroy');
   table.html("<tr><th>Name</th><th>Details</th><th>Zoom</th></tr>");
+  var tableData = [];
   for(i in enemyResults) {
     var enemy = enemyResults[i];
     if(enemy.scene != currentScene || enemy.setup != currentSetup)
@@ -589,13 +592,14 @@ function searchEnemies() {
         }
       }
       
-      table.append("<tr><td colspan='3' class='enemySetupSplit'>Scene: " + currentScene + " (" + mapData[currentScene].name + "), Setup: " + currentSetup + setupName + "</td></tr>");
+      tableData.push("<tr><td colspan='3' class='enemySetupSplit'>Scene: " + currentScene + " (" + mapData[currentScene].name + "), Setup: " + currentSetup + setupName + "</td></tr>");
     }
     var newRow = enemySearchRow(enemy);
-    table.append(newRow);
+    tableData.push(newRow);
     table.scrollTop(0).scrollLeft(0);
     //fa fa-window-maximize
   }
+  table.append(tableData);
   $('td.enemyDetails').on('click', function(e){
     updateModalEnemy($(this));
     $('#openModal').modal();
