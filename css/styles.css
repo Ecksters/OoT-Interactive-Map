@@ -1,6 +1,9 @@
 body {
     padding: 0;
     margin: 0;
+    color: white;
+    font: dialogueText;
+    text-shadow: 2px 2px black;
 }
 html, body, #map {
     height: 100%;
@@ -301,9 +304,9 @@ table {
   border-collapse: collapse;
 }
 
-#enemiesTableContainer {
+.tableContainer {
   position: relative;
-  width: 380px;
+  width: 350px;
   min-height: 200px;
   overflow-y: auto;
 }
@@ -343,7 +346,7 @@ td > div {
   text-align: center;
 }
 
-.enemyDetails, .enemySearch {
+.enemyDetails, .enemySearch, .enemyZoom {
   text-align: center;
 }
 
@@ -436,4 +439,53 @@ div.thirds{
 .button:hover {
     box-shadow: 0 0px 16px 0 rgba(255,255,255,0.5);
 }
+
+
+
+
+
+
+
+
+
+
+
+ul.tabs{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  width: 340px;
+  text-align: center;
+}
+ul.tabs li{
+  background: rgba(4, 20, 56, 0.8);
+  display: inline;
+  padding: 10px 15px;
+  cursor: pointer;
+  width: 137px;
+  margin-bottom: 5px;
+}
+
+ul.tabs li.current{
+  background: rgba(8, 40, 112, 0.8);
+  border-radius: 5px 5px 0px 0px;
+}
+
+.tab-content{
+  display: none;
+  background: rgba(8, 40, 112, 0.8);
+  padding: 15px;
+  border-radius: 5px;
+  width: 340px;
+  margin-top: 10px;
+}
+
+.tab-content.current{
+  display: inherit;
+}
+
+
+
+
+
 

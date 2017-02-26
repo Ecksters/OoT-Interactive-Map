@@ -66,16 +66,33 @@
                 <h1>Coming Soon</h1>
             </div>
             <div class="sidebar-pane" id="enemiesTabSidebar">
-                <div id="enemiesTabUpperText"><h1 class="sidebar-header">Enemies<span class="sidebar-close"><i class="fa fa-caret-right"></i></span></h1>
+              <div id="enemiesTabUpperText">
+                <h1 class="sidebar-header">Enemies<span class="sidebar-close"><i class="fa fa-caret-right"></i></span></h1>
                 <p>Click a room find out all in-game enemies in that room using the tools below</p>
                 <p>Alternatively, you can  search for a specific enemy or number of enemies to have them marked across the map.</p>
-                <label for="enemyFilter">
-                  Search: 
-                  <select class="selectDropdown" id="enemyFilter" multiple="multiple"></select>
-                </label>
-                <div style="width: 350px; text-align: right;"><button id="enemiesShowAll" class="button" style="background-color: rgba( 6, 80, 224, .6);">Show All</button>
-                <button id="enemiesHideAll" class="button" style="background-color: rgba( 224, 6, 6, .6);">Hide All</button> <button id="enemiesHighlightAll" class="button" style="background-color: rgba( 224,184, 10, .6);">Highlight</button></div>
-                </div><div id="enemiesTableContainer"><table id="enemiesTable"></table></div>
+
+                <ul class="tabs">
+                  <li class="tab-link current" data-tab="enemyContextual">Location Enemies</li>
+                  <li class="tab-link" data-tab="enemySearch">Enemy Search</li>
+                </ul>
+              </div>
+              <div id="enemyTabs">
+                <div id="enemyContextual" class="tab-content current">
+                  <div id="enemiesTableContainer" class="tableContainer"><table id="enemiesTable"></table></div>
+                </div>
+                <div id="enemySearch" class="tab-content">
+                  <div id="enemyFilterContainer">
+                    <label for="enemyFilter">
+                      Search: 
+                      <select class="selectDropdown" id="enemyFilter" multiple="multiple"></select>
+                    </label>
+                    <div style="width: 350px; margin-top: 10px;"><button id="enemiesShowAll" class="button" style="background-color: rgba( 6, 80, 224, .6);">Show All</button>
+                    <button id="enemiesHideAll" class="button" style="background-color: rgba( 224, 6, 6, .6);">Hide All</button> <button id="enemiesHighlightAll" class="button" style="background-color: rgba( 224,184, 10, .6);">Highlight</button></div>
+                    <br />
+                  </div>
+                  <div id="enemiesSearchContainer" class="tableContainer"><table id="enemiesSearchTable"></table></div>
+                </div>
+              </div>
             </div>
             <div class="sidebar-pane" id="entrancesTabSidebar">
                 <h1 class="sidebar-header">Entrances and Exits<span class="sidebar-close"><i class="fa fa-caret-right"></i></span></h1>

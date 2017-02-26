@@ -58,7 +58,7 @@
     sceneLayer = addOverlay(areaLayersData.sceneData);
     roomLayer = addOverlay(areaLayersData.roomData);
     enemiesLayer = addEnemyOverlay(loadEnemies());
-    $('.enemyIcon').hide();
+    $('#enemyFilter').trigger('change');
     
     updateZoom();
     
@@ -108,7 +108,7 @@ function controlSwap(newTab){
         $('#' + tab + 'UpperText').append($('#locationChangerContainer'));
       break;
     case 'enemiesTab':
-        $('#' + tab + 'UpperText').append($('#locationChangerContainer'));
+        $('#enemyContextual').prepend($('#locationChangerContainer'));
       break;
     }
     fixSidebarHeight();
@@ -332,7 +332,6 @@ function addOverlay(overlayData){
             var newView = "Scene " + feature.properties.scene + ": " + mapData[feature.properties.scene].name + "<br>Room " + feature.properties.id + ": " + feature.properties.name;
           }
           $("#locationChangerPreview").html(newView);
-          fixSidebarHeight();
         });
         layer.on('mousedown', function () {
           if(map.getZoom() < 14 || feature.properties.type == "room")
@@ -430,7 +429,6 @@ $('#verboseRoom').on("select2:select", function (e) {
 ////////////////////////////////////////////////////////////////////////////////
 // Initialize Enemy Filter Interface
 ////////////////////////////////////////////////////////////////////////////////
-
 var enemySelect = new Array();
 var enemySelectAll = new Array();
 for(var i in enemyTable) {
@@ -451,13 +449,14 @@ $('#enemyFilter').on("change", function (e) {
   }
   $(enemiesShown.slice(0,-1)).show();
   $('#enableRegions').attr('checked', false).trigger('change');
+  searchEnemies();
 });
 
 $('#enemiesShowAll').on('click', function(){$('select#enemyFilter').val(enemySelectAll).trigger('change');});
 $('#enemiesHideAll').on('click', function(){
   $('select#enemyFilter option').attr('selected', false);
   $('select#enemyFilter').val(null).trigger('change');
-  });
+});
 
 
 $('#enemiesHighlightAll').on('click', function(){
@@ -514,7 +513,6 @@ function fetchROMDump(name)
 
 function fetchEnemies(scene, room) {
   var roomEnemies = new Array();
-  console.log(room);
   if(room == "-1"){
     $("#enemiesTable").html("<tr><th>No Enemies Exist on the Scene Level</th></tr>");
     return 0;
@@ -548,23 +546,8 @@ function fetchEnemies(scene, room) {
       }
       table.append("<tr><td colspan='3' class='enemySetupSplit'>Scene Setup: " + currentSetup + setupName + "</td></tr>");
     }
-    enemy.position = enemy.x + "," + enemy.y + "," + enemy.z;
-    enemy.rotation = enemy['x-rotation'] + "," + enemy['y-rotation'] + "," + enemy['z-rotation'];
-    var newRow = $("<tr data-tooltip-content='#tooltip_content' class='enemyRow' data-id='" + enemy.id + 
-    "' data-parameters='" + enemy.parameters + 
-    "' data-setup='" + enemy.setup + 
-    "' data-position='"  + enemy.position +  
-    "' data-rotation='"  + enemy.rotation +
-    "'><td><div>" + enemyTable[enemy.id].name + "</div></td><td class='enemyDetails'><i class='fa fa-book enemyDetails'></i></td><td class='enemySearch'><i class='fa fa-binoculars'></i></td></tr>");
+    var newRow = enemyTableRow(enemy);
     table.append(newRow);
-    var profile = "<div><h2>" + enemyTable[enemy.id].name + "</h2></div>"
-    $("#tooltip_content").html(enemyDataTable(enemy));
-    newRow.tooltipster({
-      theme: ['tooltipster-shadow', 'tooltipster-shadow-customized'],
-      delay: [200,300],
-      interactive: true,
-      contentCloning: true,
-      side: ['left', 'top', 'bottom', 'right']});
     table.scrollTop(0).scrollLeft(0);
     //fa fa-window-maximize
   }
@@ -576,6 +559,93 @@ function fetchEnemies(scene, room) {
     setEnemySearch($(this));
   });
 }
+
+
+function searchEnemies() {
+
+  if($('#enemyFilter').select2("data").length === 0){
+    table.html("<tr><th>No Enemies Selected</th></tr>");
+    return 0;
+  }
+  
+  enemyResults = filterCurrentEnemies();
+  var currentScene = -1;
+  var currentSetup = -1;
+  var currentRoom = -1;
+  $('.enemySearchRow').tooltipster('destroy');
+  var table = $("#enemiesSearchTable");
+  table.html("<tr><th>Name</th><th>Details</th><th>Zoom</th></tr>");
+  for(i in enemyResults) {
+    var enemy = enemyResults[i];
+    if(enemy.scene != currentScene || enemy.setup != currentSetup)
+    {
+      var setupName = "";
+      currentScene = enemy.scene;
+      currentSetup = enemy.setup;
+      for (var i in mapData[currentScene].setups) {
+        if (mapData[currentScene].setups[i].id == currentSetup){
+          if(mapData[currentScene].setups[i].name != ""){
+            setupName = " (" + mapData[currentScene].setups[i].name + ")";
+          }
+        }
+      }
+      
+      table.append("<tr><td colspan='3' class='enemySetupSplit'>Scene: " + currentScene + " (" + mapData[currentScene].name + "), Setup: " + currentSetup + setupName + "</td></tr>");
+    }
+    var newRow = enemySearchRow(enemy);
+    table.append(newRow);
+    table.scrollTop(0).scrollLeft(0);
+    //fa fa-window-maximize
+  }
+  $('td.enemyDetails').on('click', function(e){
+    updateModalEnemy($(this));
+    $('#openModal').modal();
+  });
+  $('td.enemyZoom').on('click', function(e){
+    setEnemyZoom($(this));
+  });
+}
+
+
+function filterCurrentEnemies() {
+  var currentSelection = $('#enemyFilter').select2("data");
+  var currentFilter = new Array();
+  var enemiesFound = new Array();
+  
+  for(var i in currentSelection){
+    currentFilter.push(parseInt(currentSelection[i].id));
+  }
+  for(var i in enemies){
+    if($.inArray(enemies[i].id, currentFilter) !== -1){
+      enemiesFound.push(enemies[i]);
+    }
+  }
+  return enemiesFound;
+}
+
+function enemySearchRow(enemy) {
+  enemy.position = enemy.x + "," + enemy.y + "," + enemy.z;
+  enemy.rotation = enemy['x-rotation'] + "," + enemy['y-rotation'] + "," + enemy['z-rotation'];
+  
+  var newRow = $("<tr data-tooltip-content='#tooltip_content' class='enemySearchRow' data-id='" + enemy.id + 
+    "' data-scene='" + enemy.scene + 
+    "' data-room='" + enemy.room + 
+    "' data-parameters='" + enemy.parameters + 
+    "' data-setup='" + enemy.setup + 
+    "' data-position='"  + enemy.position +  
+    "' data-rotation='"  + enemy.rotation +
+    "'><td><div>" + enemyTable[enemy.id].name + "</div></td><td class='enemyDetails'><i class='fa fa-book enemyDetails'></i></td><td class='enemyZoom'><i class='fa fa-search-plus'></i></td></tr>");
+    $("#tooltip_content").html(enemyDataTable(enemy));
+  newRow.tooltipster({
+    theme: ['tooltipster-shadow', 'tooltipster-shadow-customized'],
+    delay: [200,300],
+    interactive: true,
+    contentCloning: true,
+    side: ['left', 'top', 'bottom', 'right']});
+      
+  return newRow;
+}
+
 
 function updateModalEnemy(enemy) {
   var enemyData = enemy.parent().data();
@@ -591,10 +661,31 @@ function updateModalEnemy(enemy) {
 }
 
 function enemyDataTable(enemy) {
+  enemy.position = enemy.x + "," + enemy.y + "," + enemy.z;
+  enemy.rotation = enemy['x-rotation'] + "," + enemy['y-rotation'] + "," + enemy['z-rotation'];
+  
   return "<table><tr><th>Actor</th><th>Parameters</th><th>Drop Table</th><th>Position</th><th>Rotation</th></tr>" +
          "<tr><td>" + enemyTable[enemy.id].actor + "</td><td>" + enemy.parameters + "</td><td>" +
          enemyTable[enemy.id].drop + "</td><td>(" +  enemy.position + ")</td><td>(" + enemy.rotation + ")</td></tr></table>";
   
+}
+
+function enemyTableRow(enemy) {
+  var newRow = $("<tr data-tooltip-content='#tooltip_content' class='enemyRow' data-id='" + enemy.id + 
+    "' data-parameters='" + enemy.parameters + 
+    "' data-setup='" + enemy.setup + 
+    "' data-position='"  + enemy.position +  
+    "' data-rotation='"  + enemy.rotation +
+    "'><td><div>" + enemyTable[enemy.id].name + "</div></td><td class='enemyDetails'><i class='fa fa-book enemyDetails'></i></td><td class='enemySearch'><i class='fa fa-binoculars'></i></td></tr>");
+    $("#tooltip_content").html(enemyDataTable(enemy));
+  newRow.tooltipster({
+    theme: ['tooltipster-shadow', 'tooltipster-shadow-customized'],
+    delay: [200,300],
+    interactive: true,
+    contentCloning: true,
+    side: ['left', 'top', 'bottom', 'right']});
+      
+  return newRow;
 }
 
 function setEnemySearch(enemy) {
@@ -603,18 +694,46 @@ function setEnemySearch(enemy) {
   highlightEnemies();
 }
 
+function setEnemyZoom(enemy) {
+  var enemyData = enemy.parent().data();
+  console.log(enemyData);
+  var foundLayer = false;
+  roomLayer.eachLayer(function(layer) {
+    if(!foundLayer && enemyData.scene == layer.feature.properties.scene && enemyData.room == layer.feature.properties.id)
+    {
+      map.fitBounds(layer.getBounds());
+      foundLayer = true;
+    }
+  });
+}
+
 function fixSidebarHeight()
 {
-  var dataTextHeight = $('#dataTabUpperText').offset().top + $('#dataTabUpperText').outerHeight(true);
-  var enemyTextHeight = $('#enemiesTabUpperText').offset().top + $('#enemiesTabUpperText').outerHeight(true);
-  var sidebarHeight = $('#sidebarContent').offset().top + $('#sidebarContent').outerHeight(true);
+  var sidebarHeight = $('#sidebarContent').outerHeight(true);
+  
+  var dataTextHeight = $('#dataTabUpperText').outerHeight(true);
+
+  var enemyTextHeight = $('#enemiesTabUpperText').outerHeight(true);
+  var locationChangerHeight = $('#locationChangerContainer').outerHeight(true);
+  var enemySearchHeight = $('#enemyFilterContainer').outerHeight(true);
   
   $('#verboseOutput').css("height", sidebarHeight-dataTextHeight-20);
-  $('#enemiesTableContainer').css("height", sidebarHeight-enemyTextHeight-20);
-  
+  $('#enemiesTableContainer').css("height", sidebarHeight-(enemyTextHeight+locationChangerHeight)-50);
+  $('#enemiesSearchContainer').css("height", sidebarHeight-(enemyTextHeight+enemySearchHeight)-50);
 }
 
 $(document).ready(function(){
+  $('ul.tabs li').click(function(){
+		var tab_id = $(this).attr('data-tab');
+
+		$('ul.tabs li').removeClass('current');
+		$('.tab-content').removeClass('current');
+
+		$(this).addClass('current');
+		$("#"+tab_id).addClass('current');
+    fixSidebarHeight();
+	});
+  
   fixSidebarHeight();
 });
 
