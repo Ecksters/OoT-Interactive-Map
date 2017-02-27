@@ -1,3 +1,4 @@
+/* General CSS Code */
 body {
     padding: 0;
     margin: 0;
@@ -23,6 +24,7 @@ html, body, #map {
   color: #fff;
   font: 11px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
+
 .label {
   color: white;
   text-shadow: 0px 0px .5em black;
@@ -35,6 +37,8 @@ html, body, #map {
 .leaflet-control-minimap {
   background: #000000;
 }
+
+/* Custom Fonts */
 
 @font-face {
 	font-family: dialogueText;
@@ -50,6 +54,8 @@ html, body, #map {
 	font-family: bossText;
 	src: url(fonts/KokinEdo.otf);
 }
+
+/* Sidebar general styling */
 
 .sidebar-tabs {
   background: rgba(209, 147, 0, 0.95);
@@ -104,29 +110,23 @@ html, body, #map {
   font-size: 16px;
 }
 
-/* unvisited link */
 .sidebar-content * a:link {
     color: #CC0000;
 }
 
-/* visited link */
 .sidebar-content * a:visited {
     color: #AA0000;
 }
 
-/* mouse over link */
 .sidebar-content * a:hover {
     color: #DD0000;
 }
 
-/* selected link */
 .sidebar-content * a:active {
     color: #AAAAAA;
 }
 
-.leaflet-control-minimap {
-    cursor: move;
-}
+/* Age Selection interface */
 
 #ageToggle{
   height: 100px;
@@ -178,6 +178,8 @@ html, body, #map {
     background: rgba(209, 147, 0, 0.8);
 }
 
+/*Tooltipster Shadow theme, with customizations */
+
 .tooltipster-sidetip.tooltipster-shadow .tooltipster-box{border:none;border-radius:5px;background:#fff;box-shadow:0 0 10px 6px rgba(0,0,0,.1)}.tooltipster-sidetip.tooltipster-shadow.tooltipster-bottom .tooltipster-box{margin-top:6px}.tooltipster-sidetip.tooltipster-shadow.tooltipster-left .tooltipster-box{margin-right:6px}.tooltipster-sidetip.tooltipster-shadow.tooltipster-right .tooltipster-box{margin-left:6px}.tooltipster-sidetip.tooltipster-shadow.tooltipster-top .tooltipster-box{margin-bottom:6px}.tooltipster-sidetip.tooltipster-shadow .tooltipster-arrow{height:6px;margin-left:-6px;width:12px}.tooltipster-sidetip.tooltipster-shadow.tooltipster-left .tooltipster-arrow,.tooltipster-sidetip.tooltipster-shadow.tooltipster-right .tooltipster-arrow{height:12px;margin-left:0;margin-top:-6px;width:6px}.tooltipster-sidetip.tooltipster-shadow .tooltipster-arrow-background{display:none}.tooltipster-sidetip.tooltipster-shadow .tooltipster-arrow-border{border:6px solid transparent}.tooltipster-sidetip.tooltipster-shadow.tooltipster-bottom .tooltipster-arrow-border{border-bottom-color:#fff}.tooltipster-sidetip.tooltipster-shadow.tooltipster-left .tooltipster-arrow-border{border-left-color:#fff}.tooltipster-sidetip.tooltipster-shadow.tooltipster-right .tooltipster-arrow-border{border-right-color:#fff}.tooltipster-sidetip.tooltipster-shadow.tooltipster-top .tooltipster-arrow-border{border-top-color:#fff}.tooltipster-sidetip.tooltipster-shadow.tooltipster-bottom .tooltipster-arrow-uncropped{top:-6px}.tooltipster-sidetip.tooltipster-shadow.tooltipster-right .tooltipster-arrow-uncropped{left:-6px}
 
 .tooltipster-sidetip.tooltipster-shadow.tooltipster-shadow-customized .tooltipster-box {
@@ -195,7 +197,7 @@ html, body, #map {
 	padding: 8px;
 }
 
-
+/* ROM Dump Output text field */
 
 #verboseOutput{
   position: relative;
@@ -218,6 +220,8 @@ html, body, #map {
   color: white;
 }
 
+
+/*Location Changer Interface */
 #locationChanger
 {
   width: 370px;
@@ -240,7 +244,7 @@ html, body, #map {
   width: 300px;;
 }
 
-#verboseRoom {
+#locationChangerRoom {
   width: 303px;
 }
 
@@ -296,6 +300,8 @@ html, body, #map {
   border: 1px solid rgba(5,5,5,.4);
 }
 
+/* General Table theming */
+
 table {
   background-color: rgba(20,20,20,.7);
   width: 100%;
@@ -341,6 +347,9 @@ td > div {
   white-space: nowrap;
 }
 
+
+/* Enemy Tab Specific Table */
+
 .enemySetupSplit {
   background-color: rgba(70,70,70,.9);
   text-align: center;
@@ -359,6 +368,8 @@ td > div {
   color: #AAAAAA;
   background-color: #080;
 }
+
+/* Modal */
 
 .jquery-modal {
   z-index: 9001;
@@ -392,11 +403,36 @@ td > div {
   bottom: -8px;
 }
 
-.tooltip_templates { display: none; }
-
 div.profileSection{
   float: left;
 }
+
+/* Drop Table visualization */
+
+div.dropTable {
+  width: 100%;
+  height: 55px;
+  font-size: 12px;
+  font-family: "Cambria", "Georgia";
+  text-shadow: 1px 1px black;
+}
+
+div.dropTableSlot {
+  height: 100%;
+  text-align: center;
+  background: white;
+  border: solid 1px black;
+  display: inline-block;
+}
+
+.fractionTop{border-bottom:solid white 1px; display:inline-block; width: 20px;}
+.fractionbottom{ display:inline-block;}
+
+.dropImage {
+  height: 20px;
+}
+
+/* Enemy Thumbnails on Map */
 
 .enemyMarkerContainer {
   width: 200px;
@@ -410,7 +446,7 @@ div.profileSection{
 
 .enemyIcon {
   width: 16.6%;
-  display:inline-block;
+  display: none;
   margin-top: -8%;
 }
 
@@ -424,6 +460,7 @@ div.profileSection{
   25%,50%,75% { box-shadow: 0 0px 24px 0 rgba(0,0,0,0.9); }
 }
 
+/* Enemy Search Interface */
 
 .button {
     font-family: dialogueText;
@@ -439,6 +476,8 @@ div.profileSection{
 .button:hover {
     box-shadow: 0 0px 16px 0 rgba(255,255,255,0.5);
 }
+
+/* Subtabs */
 
 ul.tabs{
   margin: 0px;
@@ -472,27 +511,4 @@ ul.tabs li.current{
 
 .tab-content.current{
   display: inherit;
-}
-
-div.dropTable {
-  width: 100%;
-  height: 55px;
-  font-size: 12px;
-  font-family: "Cambria", "Georgia";
-  text-shadow: 1px 1px black;
-}
-
-div.dropTableSlot {
-  height: 100%;
-  text-align: center;
-  background: white;
-  border: solid 1px black;
-  display: inline-block;
-}
-
-.fractionTop{border-bottom:solid white 1px; display:inline-block; width: 20px;}
-.fractionbottom{ display:inline-block;}
-
-.dropImage {
-  height: 20px;
 }

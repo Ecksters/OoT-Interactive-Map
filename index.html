@@ -17,162 +17,177 @@
     <title>OoT Interactive Map</title>
   </head>
   <body>
-  <div id="sidebar" class="sidebar">
-        <!-- Nav tabs -->
-        <div class="sidebar-tabs">
-            <ul role="tablist">
-                <li id="dataTab" class="tooltip active" title="ROM Data Output"><a href="#dataTabSidebar" role="tab"><i class="fa fa-list-alt"></i></a></li>
-                <!-- <li id="natureTab" class="tooltip" title="Grass, Rocks, and Trees"><a href="#natureTabSidebar" role="tab"><i class="fa fa-tree"></i></a></li>
-                <li id="containersTab" class="tooltip" title="Crates, Pots, and Boxes"><a href="#containersTabSidebar" role="tab"><i class="fa fa-archive"></i></a></li> -->
-                <li id="enemiesTab" class="tooltip" title="Enemies"><a href="#enemiesTabSidebar" role="tab"><i class="fa fa-bug"></i></a></li>
-                <!-- <li id="entrancesTab" class="tooltip" title="Entrances and Exits"><a href="#entrancesTabSidebar" role="tab"><i class="fa fa-compass"></i></a></li> -->
-                <li id="settingsTab" class="tooltip" title="Map Settings"><a href="#settingsTabSidebar" role="tab"><i class="fa fa-gear"></i></a></li>
-            </ul>
+    <div id="sidebar" class="sidebar">
+      <!-- Nav tabs -->
+      <div class="sidebar-tabs">
+          <ul role="tablist">
+              <li id="dataTab" class="tooltip active" title="ROM Data Output"><a href="#dataTabSidebar" role="tab"><i class="fa fa-list-alt"></i></a></li>
+              <!-- <li id="natureTab" class="tooltip" title="Grass, Rocks, and Trees"><a href="#natureTabSidebar" role="tab"><i class="fa fa-tree"></i></a></li>
+              <li id="containersTab" class="tooltip" title="Crates, Pots, and Boxes"><a href="#containersTabSidebar" role="tab"><i class="fa fa-archive"></i></a></li> -->
+              <li id="enemiesTab" class="tooltip" title="Enemies"><a href="#enemiesTabSidebar" role="tab"><i class="fa fa-bug"></i></a></li>
+              <!-- <li id="entrancesTab" class="tooltip" title="Entrances and Exits"><a href="#entrancesTabSidebar" role="tab"><i class="fa fa-compass"></i></a></li> -->
+              <li id="settingsTab" class="tooltip" title="Map Settings"><a href="#settingsTabSidebar" role="tab"><i class="fa fa-gear"></i></a></li>
+          </ul>
 
-            <ul role="tablist">
-                <li class="tooltip" title="Project Information" id="projectInfo"><a href="#home" role="tab"><i class="fa fa-info"></i></a></li>
-                <li class="tooltip" title="Project Author"><a href="#profile" role="tab"><i class="fa fa-user fa-fw"></i></a></li>
-                <li class="tooltip" title="Project GitHub"><a href="https://github.com/Ecksters/OoT-Interactive-Map" role="tab" target="_blank"><i class="fa fa-github"></i></a></li>
-            </ul>
-        </div>
+          <ul role="tablist">
+              <li class="tooltip" title="Project Information" id="projectInfo"><a href="#home" role="tab"><i class="fa fa-info"></i></a></li>
+              <li class="tooltip" title="Project Author"><a href="#profile" role="tab"><i class="fa fa-user fa-fw"></i></a></li>
+              <li class="tooltip" title="Project GitHub"><a href="https://github.com/Ecksters/OoT-Interactive-Map" role="tab" target="_blank"><i class="fa fa-github"></i></a></li>
+          </ul>
+      </div>
 
-        <!-- Tab panes -->
-        <div class="sidebar-content" id="sidebarContent">
-            <div class="sidebar-pane active" id="dataTabSidebar">
-                <div id="dataTabUpperText">
-                  <h1 class="sidebar-header">
-                      ROM Data Output
-                      <span class="sidebar-close"><i class="fa fa-caret-right"></i></span>
-                  </h1>
-                  <p style="float: left; width: 100%;">The data in the below table is pulled directly from the Ocarina of Time game data, attempts have been made to translate the data dumped into its significance at runtime.</p>
-                  <div id="locationChangerContainer">
-                    Click to view data for:
-                    <h2 id="locationChangerPreview">Scene 1: Dodongo's Cavern<br>Room 3: Whatever description we thought of for the room</h2>
-                    Currently viewing data for:
-                    <h2 id="locationChanger"><label for="verboseScene">Scene <select class="selectDropdown" id="verboseScene"></select></label><br><label for="verboseRoom">Room <select class="verboseDropdown"  id="verboseRoom"></select></label></h2>
-                  </div>
-                </div>
-                <div id="verboseOutput">
-                   Waiting for data...
-                </div>
+      <!-- Tab panes -->
+      <div class="sidebar-content" id="sidebarContent">
+        <!-- ROM Data Output Tab (Also initially has locationChanger interface) -->
+        <div class="sidebar-pane active" id="dataTabSidebar">
+            <div id="dataTabUpperText">
+              <h1 class="sidebar-header">
+                  ROM Data Output
+                  <span class="sidebar-close"><i class="fa fa-caret-right"></i></span>
+              </h1>
+              <p style="float: left; width: 100%;">The data in the below table is pulled directly from the Ocarina of Time game data, attempts have been made to translate the data dumped into its significance at runtime.</p>
+              <div id="locationChangerContainer">
+                Click to view data for:
+                <h2 id="locationChangerPreview">Scene 1: Dodongo's Cavern<br>Room 3: Whatever description we thought of for the room</h2>
+                Currently viewing data for:
+                <h2 id="locationChanger"><label for="locationChangerScene">Scene <select class="selectDropdown" id="locationChangerScene"></select></label><br><label for="locationChangerRoom">Room <select id="locationChangerRoom"></select></label></h2>
+              </div>
             </div>
+            <div id="verboseOutput">
+               Waiting for data...
+            </div>
+        </div>
+        <!-- Rocks, Grass, and Trees Tab -->
+        <div class="sidebar-pane" id="natureTabSidebar">
+            <h1 class="sidebar-header">Rocks, Grass, and Trees<span class="sidebar-close"><i class="fa fa-caret-right"></i></span></h1>
+            <h1>Coming Soon</h1>
+        </div>
+        <!-- Crates, Pots, and Boxes Tab -->
+        <div class="sidebar-pane" id="containersTabSidebar">
+            <h1 class="sidebar-header">Crates, Pots, and Boxes<span class="sidebar-close"><i class="fa fa-caret-right"></i></span></h1>
+            <h1>Coming Soon</h1>
+        </div>
+        <!-- Enemies Tab -->
+        <div class="sidebar-pane" id="enemiesTabSidebar">
+          <div id="enemiesTabUpperText">
+            <h1 class="sidebar-header">Enemies<span class="sidebar-close"><i class="fa fa-caret-right"></i></span></h1>
+            <p>Click a room find out all in-game enemies in that room using the tools below</p>
+            <p>Alternatively, you can  search for a specific enemy or number of enemies to have them marked across the map.</p>
+
+            <ul class="tabs">
+              <li class="tab-link current" data-tab="enemyContextual">Location Enemies</li>
+              <li class="tab-link" id="searchEnemiesTab" title="Search Updated" data-tab="enemySearch">Enemy Search</li>
+            </ul>
+          </div>
+          
+          <div id="enemyTabs">
+            <!-- Enemies Tab, Location Enemies subtab -->
+            <div id="enemyContextual" class="tab-content current">
+              <div id="enemiesTableContainer" class="tableContainer"><table id="enemiesTable"></table></div>
+            </div>
+            <!-- Enemies Tab, Search Enemies subtab -->
+            <div id="enemySearch" class="tab-content">
+              <div id="enemyFilterContainer">
+                <label for="enemyFilter">
+                  Search: 
+                  <select class="selectDropdown" id="enemyFilter" multiple="multiple"></select>
+                </label>
+                <div style="width: 350px; margin-top: 10px;"><button id="enemiesShowAll" class="button" style="background-color: rgba( 6, 80, 224, .6);">Show All</button>
+                <button id="enemiesHideAll" class="button" style="background-color: rgba( 224, 6, 6, .6);">Hide All</button> <button id="enemiesHighlightAll" class="button" style="background-color: rgba( 224,184, 10, .6);">Highlight</button></div>
+                <br />
+              </div>
+              <div id="enemiesSearchContainer" class="tableContainer"><table id="enemiesSearchTable"></table></div>
+            </div>
+          </div>
+        </div>
+        <!-- Entrances Tab -->
+        <div class="sidebar-pane" id="entrancesTabSidebar">
+            <h1 class="sidebar-header">Entrances and Exits<span class="sidebar-close"><i class="fa fa-caret-right"></i></span></h1>
+            <h1>Coming Soon</h1>
+        </div>
+        <!-- Settings Tab -->
+        <div class="sidebar-pane" id="settingsTabSidebar">
+            <h1 class="sidebar-header">Settings<span class="sidebar-close"><i class="fa fa-caret-right"></i></span></h1>
+            <input type="checkbox" class="settingsToggle" checked id="enableRegions"> Enable Regions<br>
+            <input type="checkbox" class="settingsToggle" checked id="enableScenes"> Enable Scenes<br>
+            <input type="checkbox" class="settingsToggle" checked id="enableRooms"> Enable Rooms
+        </div>
+        <!-- Project Information Tab -->
+        <div class="sidebar-pane" id="home">
+            <h1 class="sidebar-header">
+                Ocarina of Time - Interactive World Map
+                <span class="sidebar-close"><i class="fa fa-caret-right"></i></span>
+            </h1>
+
+            <p>The goal of this Interactive World Map for The Legend of Zelda: Ocarina of Time is to provide a visual guide or table of contents
+            to most of the useful internal game data that we're aware of. Using this data, the hope is that runners and perhaps just Ocarina of Time
+            enthusiasts will have better access to the technical information about the game.</p>
             
-            <div class="sidebar-pane" id="natureTabSidebar">
-                <h1 class="sidebar-header">Rocks, Grass, and Trees<span class="sidebar-close"><i class="fa fa-caret-right"></i></span></h1>
-                <h1>Coming Soon</h1>
-            </div>
-            <div class="sidebar-pane" id="containersTabSidebar">
-                <h1 class="sidebar-header">Crates, Pots, and Boxes<span class="sidebar-close"><i class="fa fa-caret-right"></i></span></h1>
-                <h1>Coming Soon</h1>
-            </div>
-            <div class="sidebar-pane" id="enemiesTabSidebar">
-              <div id="enemiesTabUpperText">
-                <h1 class="sidebar-header">Enemies<span class="sidebar-close"><i class="fa fa-caret-right"></i></span></h1>
-                <p>Click a room find out all in-game enemies in that room using the tools below</p>
-                <p>Alternatively, you can  search for a specific enemy or number of enemies to have them marked across the map.</p>
-
-                <ul class="tabs">
-                  <li class="tab-link current" data-tab="enemyContextual">Location Enemies</li>
-                  <li class="tab-link" id="searchEnemiesTab" title="Search Updated" data-tab="enemySearch">Enemy Search</li>
-                </ul>
-              </div>
-              <div id="enemyTabs">
-                <div id="enemyContextual" class="tab-content current">
-                  <div id="enemiesTableContainer" class="tableContainer"><table id="enemiesTable"></table></div>
-                </div>
-                <div id="enemySearch" class="tab-content">
-                  <div id="enemyFilterContainer">
-                    <label for="enemyFilter">
-                      Search: 
-                      <select class="selectDropdown" id="enemyFilter" multiple="multiple"></select>
-                    </label>
-                    <div style="width: 350px; margin-top: 10px;"><button id="enemiesShowAll" class="button" style="background-color: rgba( 6, 80, 224, .6);">Show All</button>
-                    <button id="enemiesHideAll" class="button" style="background-color: rgba( 224, 6, 6, .6);">Hide All</button> <button id="enemiesHighlightAll" class="button" style="background-color: rgba( 224,184, 10, .6);">Highlight</button></div>
-                    <br />
-                  </div>
-                  <div id="enemiesSearchContainer" class="tableContainer"><table id="enemiesSearchTable"></table></div>
-                </div>
-              </div>
-            </div>
-            <div class="sidebar-pane" id="entrancesTabSidebar">
-                <h1 class="sidebar-header">Entrances and Exits<span class="sidebar-close"><i class="fa fa-caret-right"></i></span></h1>
-                <h1>Coming Soon</h1>
-            </div>
-            <div class="sidebar-pane" id="settingsTabSidebar">
-                <h1 class="sidebar-header">Settings<span class="sidebar-close"><i class="fa fa-caret-right"></i></span></h1>
-                <input type="checkbox" class="settingsToggle" checked id="enableRegions"> Enable Regions<br>
-                <input type="checkbox" class="settingsToggle" checked id="enableScenes"> Enable Scenes<br>
-                <input type="checkbox" class="settingsToggle" checked id="enableRooms"> Enable Rooms
-            </div>
-            <div class="sidebar-pane" id="home">
-                <h1 class="sidebar-header">
-                    Ocarina of Time - Interactive World Map
-                    <span class="sidebar-close"><i class="fa fa-caret-right"></i></span>
-                </h1>
-
-                <p>The goal of this Interactive World Map for The Legend of Zelda: Ocarina of Time is to provide a visual guide or table of contents
-                to most of the useful internal game data that we're aware of. Using this data, the hope is that runners and perhaps just Ocarina of Time
-                enthusiasts will have better access to the technical information about the game.
-                
-                <p>Prior to this project, most game data was stored in relatively cryptic spreadsheets and pastebins. Building on the backs of the many
-                talented contributors to these data sources, this map should hopefully make their work accessible to a much wider audience.</p>
-                
-                <p>Please visit the <a href="https://trello.com/b/DSrWWi3Z/ocarina-of-time-interactive-map">Trello board</a> to see a listing of upcoming
-                and feel free to suggest anything you think should be added.</p>
-                
-                <p>This project wouldn't be possible without the amazing resources provided by the various Ocarina of Time hackers out there:<p>
-                <h3>Beautiful <a href="http://www.vgmaps.com/Atlas/N64/index.htm#LegendOfZeldaOcarinaOfTime">Map Images</a> by Peardian</h3>
-                <h3>Data extraction from game ROM provided by MzxRules</h3>
-                <h3>And everyone who has contributed to the well-organized data sheets about Ocarina of Time</h3>
-                <a href="#infoPopup" rel="modal:open" id="openModal" style="display: none" >Open Modal</a>
-            </div>
-
-            <div class="sidebar-pane" id="profile">
-                <h1 class="sidebar-header">Created by Ecksters<span class="sidebar-close"><i class="fa fa-caret-right"></i></span></h1>
-                
-                <p>While I consider this my data visualization masterpiece, check out my prior Ocarina of Time related infographics:</p>
-                <h3><a href="http://imgur.com/f8zeuRJ">OoT Enemy's Item Drop Rates</a></h3>
-                <h3><a href="http://imgur.com/7iQr8DM">Flex Drops Explained</a></h3>
-                <h3><a href="http://imgur.com/ehhImO2">Probability of Bomb Drops per Grass Patch</a></h3>
-                <h3><a href="http://imgur.com/JY8AR08">Probability Guide to Dampe's Heart-Pounding Gravedigging Tour</a></h3>
-                <h3><a href="http://imgur.com/5rmAkME">The Truth About Truthspinner</a></h3>
-                <h3><a href="http://imgur.com/n81cLi6">Guard RNG Explained</a></h3>
-            </div>
+            <p>Prior to this project, most game data was stored in relatively cryptic spreadsheets and pastebins. Building on the backs of the many
+            talented contributors to these data sources, this map should hopefully make their work accessible to a much wider audience.</p>
+            
+            <p>Please visit the <a href="https://trello.com/b/DSrWWi3Z/ocarina-of-time-interactive-map">Trello board</a> to see a listing of upcoming
+            and feel free to suggest anything you think should be added.</p>
+            
+            <p>This project wouldn't be possible without the amazing resources provided by the various Ocarina of Time hackers out there:</p>
+            <h3>Beautiful <a href="http://www.vgmaps.com/Atlas/N64/index.htm#LegendOfZeldaOcarinaOfTime">Map Images</a> by Peardian</h3>
+            <h3>Data extraction from game ROM provided by MzxRules</h3>
+            <h3>And everyone who has contributed to the well-organized data sheets about Ocarina of Time</h3>
+            <a href="#infoPopup" rel="modal:open" id="openModal" style="display: none" >Open Modal</a>
         </div>
+        <!-- Author Tab -->
+        <div class="sidebar-pane" id="profile">
+            <h1 class="sidebar-header">Created by Ecksters<span class="sidebar-close"><i class="fa fa-caret-right"></i></span></h1>
+            
+            <p>While I consider this my data visualization masterpiece, check out my prior Ocarina of Time related infographics:</p>
+            <h3><a href="http://imgur.com/f8zeuRJ">OoT Enemy's Item Drop Rates</a></h3>
+            <h3><a href="http://imgur.com/7iQr8DM">Flex Drops Explained</a></h3>
+            <h3><a href="http://imgur.com/ehhImO2">Probability of Bomb Drops per Grass Patch</a></h3>
+            <h3><a href="http://imgur.com/JY8AR08">Probability Guide to Dampe's Heart-Pounding Gravedigging Tour</a></h3>
+            <h3><a href="http://imgur.com/5rmAkME">The Truth About Truthspinner</a></h3>
+            <h3><a href="http://imgur.com/n81cLi6">Guard RNG Explained</a></h3>
+        </div>
+      </div>
     </div>
+    
+    <!-- Empty Modal, filled with information as needed -->
     <div id="infoPopup" class="modal"  style="display:none;">
 
     </div>
     
+    <!-- Empty Tooltip, filled with information as needed -->
     <div class="tooltip_templates">
         <span id="tooltip_content">
-            <img src="images/enemyIcons/Amy.png" /> <strong>This is the content of my tooltip!</strong>
+            
         </span>
     </div>
+    
     <div id="map" class="sidebar-map"></div>
-      <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-      <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
-      <script src="js/leaflet.draw.js"></script>
-      <script src="js/Control.MiniMap.min.js"></script>
-      <script src="js/leaflet-sidebar.js"></script>
-      <script src="js/leaflet.zoomhome.min.js"></script>
-      <script src="js/Leaflet.Control.Custom.js"></script>
-      <script src="js/select2.min.js"></script>
-      <script type="text/javascript" src="js/tooltipster.bundle.min.js"></script>
-      <script type="text/javascript" src="js/jquery.modal.min.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+    <script src="js/leaflet.draw.js"></script>
+    <script src="js/Control.MiniMap.min.js"></script>
+    <script src="js/leaflet-sidebar.js"></script>
+    <script src="js/leaflet.zoomhome.min.js"></script>
+    <script src="js/Leaflet.Control.Custom.js"></script>
+    <script src="js/select2.min.js"></script>
+    <script type="text/javascript" src="js/tooltipster.bundle.min.js"></script>
+    <script type="text/javascript" src="js/jquery.modal.min.js"></script>
       
-      <script src="js/mapdata.js"></script>
-      <script src="js/scripts.js"></script>
-      <script src="js/leaflet-hash.js"></script>
-      <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    <script src="js/mapdata.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/leaflet-hash.js"></script>
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-        ga('create', 'UA-92016802-1', 'auto');
-        ga('send', 'pageview');
+      ga('create', 'UA-92016802-1', 'auto');
+      ga('send', 'pageview');
 
-      </script>
+    </script>
   </body>
 </html>
