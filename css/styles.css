@@ -350,7 +350,7 @@ td > div {
 
 /* Enemy Tab Specific Table */
 
-.enemySetupSplit {
+.actorSetupSplit {
   background-color: rgba(70,70,70,.9);
   text-align: center;
 }
@@ -434,7 +434,7 @@ div.dropTableSlot {
 
 /* Enemy Thumbnails on Map */
 
-.enemyMarkerContainer {
+.markerContainer {
   width: 200px;
   margin-left: -100px;
   text-align: center;
@@ -444,7 +444,7 @@ div.dropTableSlot {
   pointer-events: none;
 }
 
-.enemyIcon {
+.actorIcon {
   width: 16.6%;
   display: none;
   margin-top: -8%;

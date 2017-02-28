@@ -17,13 +17,13 @@
         var addedRoom = mapData[sceneID][subData[h].name][newLength - 1];
         if(h == 0) { //For rooms
           while(currentEnemy < enemies.length && enemies[currentEnemy].scene == sceneID && enemies[currentEnemy].room == entry.id) { //Check if current enemy we're on is in this scene>room
-            if(typeof addedRoom.enemies === "undefined") { //Make new object array for enemies within room if it doesn't exist
-              mapData[sceneID][subData[h].name][newLength - 1].enemies = new Array();
+            if(typeof addedRoom.enemy === "undefined") { //Make new object array for enemies within room if it doesn't exist
+              mapData[sceneID][subData[h].name][newLength - 1].enemy = new Array();
             }
             var newEnemy = enemies[currentEnemy];
             delete newEnemy.scene; //Clear out repeat data (stored in parents)
             delete newEnemy.room;
-            addedRoom.enemies.push(newEnemy); //Add enemy to room
+            addedRoom.enemy.push(newEnemy); //Add enemy to room
             
             
             if(typeof addedRoom.enemyCounts === "undefined") { //Make new object array for enemy counts within room if it doesn't exist
@@ -61,8 +61,8 @@
             
             currentEnemy++; //Enemy array is pre-ordered by scene>room>setup, so we're simply stepping through them until we get to the next scene>room
           }
-          if(typeof mapData[sceneID][subData[h].name][newLength - 1].enemies !== "undefined") { //Sort enemies by setup if room has them
-            mapData[sceneID][subData[h].name][newLength - 1].enemies.sort(function(a,b){return a.setup - b.setup;});
+          if(typeof mapData[sceneID][subData[h].name][newLength - 1].enemy !== "undefined") { //Sort enemies by setup if room has them
+            mapData[sceneID][subData[h].name][newLength - 1].enemy.sort(function(a,b){return a.setup - b.setup;});
           }
         }
       }

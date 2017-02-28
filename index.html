@@ -22,9 +22,9 @@
       <div class="sidebar-tabs">
           <ul role="tablist">
               <li id="dataTab" class="tooltip active" title="ROM Data Output"><a href="#dataTabSidebar" role="tab"><i class="fa fa-list-alt"></i></a></li>
-              <!-- <li id="natureTab" class="tooltip" title="Grass, Rocks, and Trees"><a href="#natureTabSidebar" role="tab"><i class="fa fa-tree"></i></a></li>
-              <li id="containersTab" class="tooltip" title="Crates, Pots, and Boxes"><a href="#containersTabSidebar" role="tab"><i class="fa fa-archive"></i></a></li> -->
-              <li id="enemiesTab" class="tooltip" title="Enemies"><a href="#enemiesTabSidebar" role="tab"><i class="fa fa-bug"></i></a></li>
+              <li id="natureTab" class="tooltip" title="Grass, Rocks, and Trees"><a href="#natureTabSidebar" role="tab"><i class="fa fa-tree"></i></a></li>
+              <!-- <li id="containersTab" class="tooltip" title="Crates, Pots, and Boxes"><a href="#containersTabSidebar" role="tab"><i class="fa fa-archive"></i></a></li> -->
+              <li id="enemyTab" class="tooltip" title="Enemies"><a href="#enemyTabSidebar" role="tab"><i class="fa fa-bug"></i></a></li>
               <!-- <li id="entrancesTab" class="tooltip" title="Entrances and Exits"><a href="#entrancesTabSidebar" role="tab"><i class="fa fa-compass"></i></a></li> -->
               <li id="settingsTab" class="tooltip" title="Map Settings"><a href="#settingsTabSidebar" role="tab"><i class="fa fa-gear"></i></a></li>
           </ul>
@@ -57,10 +57,38 @@
                Waiting for data...
             </div>
         </div>
-        <!-- Rocks, Grass, and Trees Tab -->
+        <!-- Nature Tab -->
         <div class="sidebar-pane" id="natureTabSidebar">
-            <h1 class="sidebar-header">Rocks, Grass, and Trees<span class="sidebar-close"><i class="fa fa-caret-right"></i></span></h1>
-            <h1>Coming Soon</h1>
+          <div id="natureTabUpperText">
+            <h1 class="sidebar-header">Nature<span class="sidebar-close"><i class="fa fa-caret-right"></i></span></h1>
+            <p>Click a room find out all in-game enemies in that room using the tools below</p>
+            <p>Alternatively, you can  search for a specific enemy or number of enemies to have them marked across the map.</p>
+
+            <ul class="tabs" id="nature-tabs">
+              <li class="tab-link current" data-tab="natureContextual">Location Nature</li>
+              <li class="tab-link" id="natureSearchTab" title="Search Updated" data-tab="natureSearch">Nature Search</li>
+            </ul>
+          </div>
+          
+          <div id="natureTabs">
+            <!-- Nature Tab, Location Nature subtab -->
+            <div id="natureContextual" class="tab-content nature-tab-content current">
+              <div id="natureTableContainer" class="tableContainer"><table id="natureTable"></table></div>
+            </div>
+            <!-- Nature Tab, Search Nature subtab -->
+            <div id="natureSearch" class="tab-content nature-tab-content">
+              <div id="natureFilterContainer">
+                <label for="natureFilter">
+                  Search: 
+                  <select class="selectDropdown" id="natureFilter" multiple="multiple"></select>
+                </label>
+                <div style="width: 350px; margin-top: 10px;"><button id="natureShowAll" class="button" style="background-color: rgba( 6, 80, 224, .6);">Show All</button>
+                <button id="natureHideAll" class="button" style="background-color: rgba( 224, 6, 6, .6);">Hide All</button> <button id="natureHighlightAll" class="button" style="background-color: rgba( 224,184, 10, .6);">Highlight</button></div>
+                <br />
+              </div>
+              <div id="natureSearchContainer" class="tableContainer"><table id="natureSearchTable"></table></div>
+            </div>
+          </div>
         </div>
         <!-- Crates, Pots, and Boxes Tab -->
         <div class="sidebar-pane" id="containersTabSidebar">
@@ -68,35 +96,35 @@
             <h1>Coming Soon</h1>
         </div>
         <!-- Enemies Tab -->
-        <div class="sidebar-pane" id="enemiesTabSidebar">
-          <div id="enemiesTabUpperText">
+        <div class="sidebar-pane" id="enemyTabSidebar">
+          <div id="enemyTabUpperText">
             <h1 class="sidebar-header">Enemies<span class="sidebar-close"><i class="fa fa-caret-right"></i></span></h1>
             <p>Click a room find out all in-game enemies in that room using the tools below</p>
             <p>Alternatively, you can  search for a specific enemy or number of enemies to have them marked across the map.</p>
 
-            <ul class="tabs">
+            <ul class="tabs" id="enemy-tabs">
               <li class="tab-link current" data-tab="enemyContextual">Location Enemies</li>
-              <li class="tab-link" id="searchEnemiesTab" title="Search Updated" data-tab="enemySearch">Enemy Search</li>
+              <li class="tab-link" id="enemySearchTab" title="Search Updated" data-tab="enemySearch">Enemy Search</li>
             </ul>
           </div>
           
           <div id="enemyTabs">
             <!-- Enemies Tab, Location Enemies subtab -->
-            <div id="enemyContextual" class="tab-content current">
-              <div id="enemiesTableContainer" class="tableContainer"><table id="enemiesTable"></table></div>
+            <div id="enemyContextual" class="tab-content enemy-tab-content current">
+              <div id="enemyTableContainer" class="tableContainer"><table id="enemyTable"></table></div>
             </div>
             <!-- Enemies Tab, Search Enemies subtab -->
-            <div id="enemySearch" class="tab-content">
+            <div id="enemySearch" class="tab-content enemy-tab-content">
               <div id="enemyFilterContainer">
                 <label for="enemyFilter">
                   Search: 
                   <select class="selectDropdown" id="enemyFilter" multiple="multiple"></select>
                 </label>
-                <div style="width: 350px; margin-top: 10px;"><button id="enemiesShowAll" class="button" style="background-color: rgba( 6, 80, 224, .6);">Show All</button>
-                <button id="enemiesHideAll" class="button" style="background-color: rgba( 224, 6, 6, .6);">Hide All</button> <button id="enemiesHighlightAll" class="button" style="background-color: rgba( 224,184, 10, .6);">Highlight</button></div>
+                <div style="width: 350px; margin-top: 10px;"><button id="enemyShowAll" class="button" style="background-color: rgba( 6, 80, 224, .6);">Show All</button>
+                <button id="enemyHideAll" class="button" style="background-color: rgba( 224, 6, 6, .6);">Hide All</button> <button id="enemyHighlightAll" class="button" style="background-color: rgba( 224,184, 10, .6);">Highlight</button></div>
                 <br />
               </div>
-              <div id="enemiesSearchContainer" class="tableContainer"><table id="enemiesSearchTable"></table></div>
+              <div id="enemySearchContainer" class="tableContainer"><table id="enemySearchTable"></table></div>
             </div>
           </div>
         </div>
@@ -153,13 +181,6 @@
     <!-- Empty Modal, filled with information as needed -->
     <div id="infoPopup" class="modal"  style="display:none;">
 
-    </div>
-    
-    <!-- Empty Tooltip, filled with information as needed -->
-    <div class="tooltip_templates">
-        <span id="tooltip_content">
-            
-        </span>
     </div>
     
     <div id="map" class="sidebar-map"></div>

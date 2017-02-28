@@ -12,6 +12,8 @@ var layers = {
     attribution: 'Adult Angled View',
   })
 };
+
+var actorTypes = ['enemy', 'nature'];
   
 var layerData = {
 "Child Angled View": {"id": 0, "southWest": [-13000, 25000], "northEast": [40000, -8000], "folder": "childAngled", "zoom": 11},
@@ -62,15 +64,15 @@ $('div.sidebar-tabs > ul > li').on('click', function(e){controlSwap(e)});
 function controlSwap(newTab) { //Logic for when user swaps between tabs on the sidebar
   if($(newTab.currentTarget).hasClass("active"))
   {
-    var tab = newTab.currentTarget.id;
+    var tab = newTab.currentTarget.id.slice(0, -3);
     switch(tab){
-    case 'dataTab':
+    case 'data':
         $('#' + tab + 'UpperText').append($('#locationChangerContainer'));
       break;
-    case 'natureTab':
-        $('#' + tab + 'UpperText').append($('#locationChangerContainer'));
+    case 'nature':
+        $('#natureContextual').prepend($('#locationChangerContainer'));
       break;
-    case 'enemiesTab':
+    case 'enemy':
         $('#enemyContextual').prepend($('#locationChangerContainer'));
       break;
     }
@@ -92,7 +94,7 @@ function updateView(data) { //Load map layers whenever a new map is selected(Ang
   areaLayersData = loadAreas(layerData[data.name].folder);
   sceneLayer = addOverlay(areaLayersData.sceneData);
   roomLayer = addOverlay(areaLayersData.roomData);
-//  enemiesLayer = addEnemyOverlay(loadEnemies());
+//  enemiesLayer = addIconOverlay(loadEnemies());
 //  $('#enemyFilter').trigger('change');
   
   updateZoom();
@@ -125,13 +127,21 @@ function fixSidebarHeight() { //Fixed to heights of utilities so that the sideba
   
   var dataTextHeight = $('#dataTabUpperText').outerHeight(true);
 
-  var enemyTextHeight = $('#enemiesTabUpperText').outerHeight(true);
   var locationChangerHeight = $('#locationChangerContainer').outerHeight(true);
+  
+  var enemyTextHeight = $('#enemyTabUpperText').outerHeight(true);
   var enemySearchHeight = $('#enemyFilterContainer').outerHeight(true);
   
+  var natureTextHeight = $('#natureTabUpperText').outerHeight(true);
+  var natureSearchHeight = $('#natureFilterContainer').outerHeight(true);
+  
   $('#verboseOutput').css("height", sidebarHeight-dataTextHeight-20);
-  $('#enemiesTableContainer').css("height", sidebarHeight-(enemyTextHeight+locationChangerHeight)-50);
-  $('#enemiesSearchContainer').css("height", sidebarHeight-(enemyTextHeight+enemySearchHeight)-50);
+  
+  $('#enemyTableContainer').css("height", sidebarHeight-(enemyTextHeight+locationChangerHeight)-50);
+  $('#enemySearchContainer').css("height", sidebarHeight-(enemyTextHeight+enemySearchHeight)-50);
+  
+  $('#natureTableContainer').css("height", sidebarHeight-(natureTextHeight+locationChangerHeight)-50);
+  $('#natureSearchContainer').css("height", sidebarHeight-(natureTextHeight+natureSearchHeight)-50);
 }
 
 $('.settingsToggle').on('change', function(){updateZoom()});
@@ -166,14 +176,14 @@ function updateZoom() { // All checks that occur each time the viewer zooms in/o
   else {
     $('.room').hide();
   }
-  //Enemy Markers Showing as Grouped by Scene or By Room at Various Zooms
+  //Actor Markers Showing as Grouped by Scene or By Room at Various Zooms
   if(map.getZoom() < 13){
-    $('.enemySceneContainer').show();
-    $('.enemyRoomContainer').hide();
+    $('.sceneContainer').show();
+    $('.roomContainer').hide();
   }
   else {
-    $('.enemySceneContainer').hide();
-    $('.enemyRoomContainer').show();
+    $('.sceneContainer').hide();
+    $('.roomContainer').show();
   }
 }
   
@@ -231,21 +241,30 @@ map.on('draw:created', function(e) { //Returns coordinates for shape/object crea
 
 
 $(document).ready(function(){
-  $('ul.tabs li').click(function(){
-		var tab_id = $(this).attr('data-tab');
-
-		$('ul.tabs li').removeClass('current');
-		$('.tab-content').removeClass('current');
-
-		$(this).addClass('current');
-		$("#"+tab_id).addClass('current');
-    fixSidebarHeight();
-	});
-  $('#searchEnemiesTab').tooltipster({trigger: 'custom'});
-  fetchEnemies(romScene, romRoom);
-  searchEnemies();
+  for(var i in actorTypes) {
+    initializeSearchInterface(actorTypes[i]);
+    initializeSubTab(actorTypes[i]);
+    $('#' + actorTypes[i] + 'SearchTab').tooltipster({trigger: 'custom'});
+    fetchActors(romScene, romRoom, actorTypes[i]);
+    searchActors(actorTypes[i]);
+  }
   fixSidebarHeight();
 });
+
+function initializeSubTab(type) {
+  $('ul#' + type + '-tabs li').click(function(){
+      console.log($(this));
+      console.log(type + " tab clicked");
+      var tab_id = $(this).attr('data-tab');
+      console.log(tab_id);
+      $('ul#' + type + '-tabs li').removeClass('current');
+      $('.' + type + '-tab-content').removeClass('current');
+
+      $(this).addClass('current');
+      $("#"+tab_id).addClass('current');
+      fixSidebarHeight();
+    });
+}
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //**************************************************************************************************************************************************************
@@ -260,7 +279,7 @@ addLabel(regionLayer);
 var areaLayersData = loadAreas(defaultMap.folder)
 var sceneLayer = addOverlay(areaLayersData.sceneData);
 var roomLayer = addOverlay(areaLayersData.roomData);
-var enemiesLayer = addEnemyOverlay(loadEnemies());
+var enemiesLayer = addIconOverlay(loadThumbnailContainers(), "enemy");
 
 function loadAreas(mapName) { //Loads Rooms and Scenes onto the map with their respective data
   var sceneData = Array();
@@ -350,12 +369,12 @@ function loadRegions(currentMap, data) //Loads overall Regions(think original ma
   return overlayData;
 }
 
-function loadEnemies() { //Finds center of each room/scene and adds a container with thumbnails of each enemy in that room/scene
+function loadThumbnailContainers() { //Finds center of each room/scene and adds a container for thumbnails of each actor in that room/scene
 
   var enemyRoomIconContainers = Array();
   roomLayer.eachLayer(function (room){
     var coords = room.getBounds().getCenter()
-    if(typeof mapData[room.feature.properties.scene].rooms[room.feature.properties.id].enemies != 'undefined')
+    if(typeof mapData[room.feature.properties.scene].rooms[room.feature.properties.id].enemy != 'undefined')
     enemyRoomIconContainers.push(
     {
          "type": "Feature", 
@@ -365,10 +384,10 @@ function loadEnemies() { //Finds center of each room/scene and adds a container 
          }, 
          "properties": { 
            "room": room.feature.properties.id,
-           "class": "enemyRoomContainer enemyMarkerContainer enemyMarkers" + room.feature.properties.scene + "r" + room.feature.properties.id,
-           "type": "enemyRoomContainer",
+           "class": "roomContainer markerContainer markers" + room.feature.properties.scene + "r" + room.feature.properties.id,
+           "type": "roomContainer",
            "scene": room.feature.properties.scene,
-           "enemies": mapData[room.feature.properties.scene].rooms[room.feature.properties.id].enemyCounts
+           "enemy": mapData[room.feature.properties.scene].rooms[room.feature.properties.id].enemyCounts
            }
     });
   });
@@ -385,10 +404,10 @@ function loadEnemies() { //Finds center of each room/scene and adds a container 
          }, 
          "properties": { 
            "room": -1,
-           "class": "enemySceneContainer enemyMarkerContainer enemyMarkers" + scene.feature.properties.id,
-           "type": "enemySceneContainer",
+           "class": "sceneContainer markerContainer markers" + scene.feature.properties.id,
+           "type": "sceneContainer",
            "scene": scene.feature.properties.id,
-           "enemies": mapData[scene.feature.properties.id].enemyCounts
+           "enemy": mapData[scene.feature.properties.id].enemyCounts
            }
     });
   });
@@ -396,26 +415,26 @@ function loadEnemies() { //Finds center of each room/scene and adds a container 
   return {rooms: enemyRoomIconContainers, scenes: enemySceneIconContainers};
 }
 
-function getEnemyImages(enemies) { //Gets image files and generates their HTML for array of enemies passed
+function getIconImages(searchables, type) { //Gets image files and generates their HTML for array of actors passed
   var images = "";
-  for(i in enemies)
+  for(i in searchables)
   {
-    var enemyName = enemyTable[enemies[i].id].name.replace(/ |-|\'/gi, "")
-    images += "<img class='enemyIcon enemyIcon" + enemies[i].id + "' src='images/enemyIcons/" + enemyName + ".png' />";
+    var searchableName = dataTable[type][searchables[i].id].name.replace(/ |-|\'/gi, "")
+    images += "<img class='actorIcon " + type + "Icon " + type + "Icon" + searchables[i].id + "' src='images/" + type + "Icons/" + searchableName + ".png' />";
   }
   return images;
 }
 
-function addEnemyOverlay(enemyContainers) { //Adds enemy icons to the map(all of them) for later usage and filtering
+function addIconOverlay(iconContainers, type) { //Adds icons to the map(all of them, of any type) for later usage and filtering
   var overlayLayers = Array();
-  for(var i in enemyContainers)
+  for(var i in iconContainers)
   {
-    overlayLayers.push(L.geoJSON(enemyContainers[i], {
+    overlayLayers.push(L.geoJSON(iconContainers[i], {
       pointToLayer: function(feature, latlng) {
           return L.marker(latlng, {
             icon: new L.divIcon({className: feature.properties.class,
             iconSize: null,
-            html: getEnemyImages(feature.properties.enemies)
+            html: getIconImages(feature.properties[type], type)
             }),
             class: feature.properties.className,
           });
@@ -573,7 +592,8 @@ function updateLocationChanger(scene, room) { //Calls all necessary functions fo
   {
     fetchROMDump("rooms/s"+scene+"r"+room);
   }
-  fetchEnemies(scene, room);
+  fetchActors(scene, room, "enemy");
+  fetchActors(scene, room, "nature");
   fixSidebarHeight();
 }
 
@@ -600,38 +620,38 @@ function fetchROMDump(name) { //Fetches and updates the ROM Dump output with the
 // Location Enemies Interface and Functionalities
 ////////////////////////////////////////////////////////////////////////////////
 
-function fetchEnemies(scene, room) { //Finds and lists enemies in the currently viewed scene/room
-  var roomEnemies = new Array();
-  var table = $("#enemiesTable");
+function fetchActors(scene, room, type) { //Finds and lists actors in the currently viewed scene/room
+  var roomActors = new Array();
+  var table = $("#" + type + "Table");
   if(room == "-1") {
-    $("#enemiesTable").html("<tr><th>No Enemies Exist on the Scene Level</th></tr>");
+    $("#" + type + "Table").html("<tr><th>No Enemies Exist on the Scene Level</th></tr>");
     return 0;
   }
   else {
-    roomEnemies = mapData[scene].rooms[room].enemies;
+    roomActors = mapData[scene].rooms[room][type];
   }
-  if(typeof roomEnemies == "undefined") {
-    $("#enemiesTable").html("<tr><th>No Enemies Found in Room Selected</th></tr>");
+  if(typeof roomActors == "undefined") {
+    $("#" + type + "Table").html("<tr><th>No Enemies Found in Room Selected</th></tr>");
     return 0;
   }
   
   var currentSetup = -1;
-  $('.enemyRow').tooltipster('destroy');
+  $("." + type + "Row").tooltipster('destroy');
   table.html("<tr><th>Name</th><th>Details</th><th>Search</th></tr>");
   var tableData = [];
-  for(i in roomEnemies) {
-    var enemy = roomEnemies[i];
-    if(enemy.setup != currentSetup) {
+  for(i in roomActors) {
+    var actor = roomActors[i];
+    if(actor.setup != currentSetup) {
       var setupName = "";
-      currentSetup = enemy.setup;
+      currentSetup = actor.setup;
       for (var i in mapData[romScene].setups) {
         if(mapData[romScene].setups[i].id == currentSetup && mapData[romScene].setups[i].name != "") {
           setupName = " - " + mapData[romScene].setups[i].name;
         }
       }
-      tableData.push("<tr><td colspan='3' class='enemySetupSplit'>Scene Setup: " + currentSetup + setupName + "</td></tr>");
+      tableData.push("<tr><td colspan='3' class='actorSetupSplit'>Scene Setup: " + currentSetup + setupName + "</td></tr>");
     }
-    var newRow = enemyTableRow(enemy);
+    var newRow = createTableRow(actor, type);
     tableData.push(newRow);
     table.scrollTop(0).scrollLeft(0);
     //fa fa-window-maximize (Might later add a way to view the data all together in a larger window)
@@ -640,77 +660,80 @@ function fetchEnemies(scene, room) { //Finds and lists enemies in the currently 
 }
 
 ////////////////////////////////////////////////////////////////////////////////
-// Enemy Search Interface and Functionalities
+// Actor Search Interface and Functionalities
 ////////////////////////////////////////////////////////////////////////////////
 
-var enemySelect = new Array();
-var enemySelectAll = new Array();
-for(var i in enemyTable) {
-  enemySelect.push({id: i, text: enemyTable[i].actor + ": " + enemyTable[i].name});
-  enemySelectAll.push(i);
+function initializeSearchInterface(type) { //Creates handlers and fills dropdowns for Search Interfaces
+  var select = new Array();
+  var selectAll = new Array();
+  for(var i in dataTable[type]) {
+    select.push({id: i, text: dataTable[type][i].actor + ": " + dataTable[type][i].name});
+    selectAll.push(i);
+  }
+
+  $('#' + type + 'Filter').select2({data: select,
+                             placeholder: "Select Enemies",
+                             closeOnSelect:false});
+
+  $('#' + type + 'Filter').on("change", function (e) {
+    $('.' + type + 'Icon').hide();
+    var selected = $('#' + type + 'Filter').select2("data");
+    var shown = "";
+    for(i in selected) {
+      shown += '.' + type + 'Icon' + selected[i].id + ',';
+    }
+    $(shown.slice(0,-1)).show();
+    $('#enableRegions').attr('checked', false).trigger('change');
+    searchActors(type);
+  });
+
+  $('#' + type + 'ShowAll').on('click', function(){$('select#' + type + 'Filter').val(selectAll).trigger('change');});
+  $('#' + type + 'HideAll').on('click', function(){
+    $('select#' + type + 'Filter option').attr('selected', false);
+    $('select#' + type + 'Filter').val(null).trigger('change');
+  });
+
+
+  $('#' + type + 'HighlightAll').on('click', function(){
+    highlightActors();
+  });
+
 }
 
-$('#enemyFilter').select2({data: enemySelect,
-                           placeholder: "Select Enemies",
-                           closeOnSelect:false});
-
-$('#enemyFilter').on("change", function (e) {
-  $('.enemyIcon').hide();
-  var enemiesSelected = $('#enemyFilter').select2("data");
-  var enemiesShown = "";
-  for(i in enemiesSelected) {
-    enemiesShown += ".enemyIcon" + enemiesSelected[i].id + ",";
-  }
-  $(enemiesShown.slice(0,-1)).show();
-  $('#enableRegions').attr('checked', false).trigger('change');
-  searchEnemies();
-});
-
-$('#enemiesShowAll').on('click', function(){$('select#enemyFilter').val(enemySelectAll).trigger('change');});
-$('#enemiesHideAll').on('click', function(){
-  $('select#enemyFilter option').attr('selected', false);
-  $('select#enemyFilter').val(null).trigger('change');
-});
-
-
-$('#enemiesHighlightAll').on('click', function(){
-  highlightEnemies();
-});
-
 var currentlyHighlighting = false;
-function highlightEnemies(){ //Puts an alternating glow/shadow on all visible enemy icons for 8 seconds
+function highlightActors(type){ //Puts an alternating glow/shadow on all visible actor icons for 8 seconds
     if(currentlyHighlighting == false)
   {
     currentlyHighlighting = true;
-    $('.enemyIcon').addClass('glow');
+    $('.' + type + 'Icon').addClass('glow');
     setTimeout(function(){
-      $('.enemyIcon').removeClass('glow');
+      $('.' + type + 'Icon').removeClass('glow');
       currentlyHighlighting = false;
     }, 8000);
   }
 }
 
-function searchEnemies() { //Finds and updates table and map icons with enemies in current filter
-  var table = $("#enemiesSearchTable");
-  if($('#enemyFilter').select2("data").length === 0){
+function searchActors(type) { //Finds and updates table and map icons with actors in current filter
+  var table = $("#" + type + "SearchTable");
+  if($("#" + type + "Filter").select2("data").length === 0){
     table.html("<tr><th>No Enemies Selected</th></tr>");
     return 0;
   }
   
-  enemyResults = filterCurrentEnemies();
+  searchResults = filterCurrentActors(type);
   var currentScene = -1;
   var currentSetup = -1;
   var currentRoom = -1;
-  $('.enemySearchRow').tooltipster('destroy');
+  $("." + type + "SearchRow").tooltipster('destroy');
   table.html("<tr><th>Name</th><th>Details</th><th>Zoom</th></tr>");
   var tableData = [];
-  for(i in enemyResults) {
-    var enemy = enemyResults[i];
-    if(enemy.scene != currentScene || enemy.setup != currentSetup)
+  for(i in searchResults) {
+    var actor = searchResults[i];
+    if(actor.scene != currentScene || actor.setup != currentSetup)
     {
       var setupName = "";
-      currentScene = enemy.scene;
-      currentSetup = enemy.setup;
+      currentScene = actor.scene;
+      currentSetup = actor.setup;
       for (var i in mapData[currentScene].setups) {
         if (mapData[currentScene].setups[i].id == currentSetup){
           if(mapData[currentScene].setups[i].name != ""){
@@ -718,9 +741,9 @@ function searchEnemies() { //Finds and updates table and map icons with enemies 
           }
         }
       }
-      tableData.push("<tr><td colspan='3' class='enemySetupSplit'>Scene: " + currentScene + " (" + mapData[currentScene].name + "), Setup: " + currentSetup + setupName + "</td></tr>");
+      tableData.push("<tr><td colspan='3' class='actorSetupSplit'>Scene: " + currentScene + " (" + mapData[currentScene].name + "), Setup: " + currentSetup + setupName + "</td></tr>");
     }
-    var newRow = enemyTableRow(enemy);
+    var newRow = createTableRow(actor, type);
     tableData.push(newRow);
     table.scrollTop(0).scrollLeft(0);
     //fa fa-window-maximize (Might later add a way to view the data all together in a larger window)
@@ -728,76 +751,72 @@ function searchEnemies() { //Finds and updates table and map icons with enemies 
   table.append(tableData);
 }
 
-function filterCurrentEnemies() { //Finds enemies that match the current filter in the enemy search bar, returns array of their IDs
-  var currentSelection = $('#enemyFilter').select2("data");
+function filterCurrentActors(type) { //Finds actorss that match the current filter in the actor search bar, returns array of their IDs
+  var currentSelection = $("#" + type + "Filter").select2("data");
   var currentFilter = new Array();
-  var enemiesFound = new Array();
+  var actorsFound = new Array();
   
   for(var i in currentSelection){
     currentFilter.push(parseInt(currentSelection[i].id));
   }
-  for(var i in enemies){
-    if($.inArray(enemies[i].id, currentFilter) !== -1){
-      enemiesFound.push(enemies[i]);
+  for(var i in searchables[ type]){
+    if($.inArray(searchables[type][i].id, currentFilter) !== -1){
+      actorsFound.push(searchables[type][i]);
     }
   }
-  return enemiesFound;
+  return actorsFound;
 }
 
 
 ////////////////////////////////////////////////////////////////////////////////
-// Creation of Rows and their functionalities in Enemy Tables
+// Creation of Rows and their functionalities in Actor Tables
 ////////////////////////////////////////////////////////////////////////////////
 
-function enemyTableRow(enemy) { //Generates a row for Enemy Location table, passed a fresh enemy object
+function createTableRow(data, type) { //Generates a row for Location tables, passed a fresh object
   var locationData = "";
-  var rowType = "enemyRow";
+  var rowType = type + "Row";
   var lookType = "Search";
-  var lookFunction = setEnemySearch;
+  var lookFunction = setSearch;
   var checkIcon = "binoculars";
-  if(typeof enemy.scene != 'undefined') { //Swap variables over if the row is on the Search page
-    locationData =     "' data-scene='" + enemy.scene + 
-    "' data-room='" + enemy.room;
-    rowType="enemySearchRow";
+  if(typeof data.scene != 'undefined') { //Swap variables over if the row is on the Search page
+    locationData = "' data-scene='" + data.scene + "' data-room='" + data.room;
+    rowType= type + "SearchRow";
     lookType = "Zoom";
-    lookFunction = setEnemyZoom;
+    lookFunction = setZoom;
     checkIcon = "search-plus";
   }
-  $("#tooltip_content").html(enemyDataTable(enemy));
-  var newRow = $("<tr data-tooltip-content='#tooltip_content' class='" + rowType + "' data-id='" + enemy.id + 
-    locationData +
-    "' data-parameters='" + enemy.parameters + 
-    "' data-setup='" + enemy.setup + 
-    "' data-position='"  + enemy.position +  
-    "' data-rotation='"  + enemy.rotation +
-    "'><td><div>" + enemyTable[enemy.id].name + "</div></td><td class='enemyDetails'><i class='fa fa-book enemyDetails'></i></td><td class='enemy" + lookType + "'><i class='fa fa-" + checkIcon + "'></i></td></tr>");
+  var newRow = $("<tr class='" + rowType + "' data-id='" + data.id + 
+    locationData + "' data-parameters='" + data.parameters + "' data-setup='" + data.setup + 
+    "' data-position='"  + data.position +  "' data-rotation='"  + data.rotation + "'><td><div>" + 
+    dataTable[type][data.id].name + "</div></td><td class='" + type + "Details'><i class='fa fa-book " + type + "Details'></i></td><td class='" + type + lookType + "'><i class='fa fa-" + checkIcon + "'></i></td></tr>");
   
-  newRow.find('td.enemyDetails').on('click', function(e){
-    updateModalEnemy($(this));
+  newRow.find('td.' + type + 'Details').on('click', function(e){
+    updateModalActor($(this), type);
     $('#openModal').modal();
   });
-  newRow.find('td.enemy' + lookType).on('click', function(e){
-    lookFunction($(this));
+  newRow.find('td.' + type + lookType).on('click', function(e){
+    lookFunction($(this), type);
   });
   
-  createEnemyTooltip(newRow);
+  createRowTooltip(newRow, data, type);
   return newRow;
 }
 
-function enemyDataTable(enemy) { //Creates the table used in the enemy tooltips, passed an enemy object pre-rotation/position additions and adds them.
-  enemy.position = enemy.x + "," + enemy.y + "," + enemy.z;
-  enemy.rotation = enemy['x-rotation'] + "," + enemy['y-rotation'] + "," + enemy['z-rotation'];
+function rowDataTable(data, type) { //Creates the table used in the row tooltips, passed an object pre-rotation/position additions and adds them.
+  data.position = data.x + "," + data.y + "," + data.z;
+  data.rotation = data['x-rotation'] + "," + data['y-rotation'] + "," + data['z-rotation'];
   
   return "<table><tr><th>Actor</th><th>Parameters</th><th>Drop Table</th><th>Position</th><th>Rotation</th></tr>" +
-         "<tr><td>" + enemyTable[enemy.id].actor + "</td><td>" + enemy.parameters + "</td><td>" +
-         enemyTable[enemy.id].drop + "</td><td>(" +  enemy.position + ")</td><td>(" + enemy.rotation + ")</td></tr></table>";
+         "<tr><td>" + dataTable[type][data.id].actor + "</td><td>" + data.parameters + "</td><td>" +
+         dataTable[type][data.id].drop + "</td><td>(" +  data.position + ")</td><td>(" + data.rotation + ")</td></tr></table>";
 }
 
-function createEnemyTooltip(newRow) { //Generates the tooltip placed on an enemy row, must have updated the modal before calling with function enemyDataTable, passed the row to add Tooltipster to
+function createRowTooltip(newRow, data, type) { //Generates the tooltip placed on an actor row, must have updated the modal before calling with function rowDataTable, passed the row to add Tooltipster to
     newRow.tooltipster({
     theme: ['tooltipster-shadow', 'tooltipster-shadow-customized'],
     delay: [200,300],
     trigger: 'custom',
+    content: $(rowDataTable(data, type)),
     triggerOpen: {
         mouseenter: true,
         touchstart: true
@@ -811,13 +830,13 @@ function createEnemyTooltip(newRow) { //Generates the tooltip placed on an enemy
     side: ['left', 'top', 'bottom', 'right']});
 }
 
-function updateModalEnemy(enemy) { // Updates the popup with enemy details and generates the visual Drop Table, passed "Details" button that was clicked
-  var enemyData = enemy.parent().data();
+function updateModalActor(data, type) { // Updates the popup with actor details and generates the visual Drop Table, passed "Details" button that was clicked
+  var actorData = data.parent().data();
   var drop = "None";
   var dropTable = "";
-  if(enemyTable[enemyData.id].drop != ''){
-    drop = "Table " + enemyTable[enemyData.id].drop;
-    table = dropTables[enemyTable[enemyData.id].drop].table;
+  if(dataTable[type][actorData.id].drop != ''){
+    drop = "Table " + dataTable[type][actorData.id].drop;
+    table = dropTables[dataTable[type][actorData.id].drop].table;
     dropTable = "<div class='dropTable'>";
     for(var i in table){
       if(table[i] > 0){
@@ -828,26 +847,26 @@ function updateModalEnemy(enemy) { // Updates the popup with enemy details and g
     dropTable += "</div>"
   }
   $('#infoPopup').html("<div class='profileSection' style='width: 20%; text-align: center;'><h2 class='label'>" + 
-                        enemyTable[enemyData.id].name +
-                        "</h2><img src='images/enemyIcons/" +
-                        enemyTable[enemyData.id].name.replace(/ |-|\'/gi, "") + ".png' /></div>" +
-                        "<div class='profileSection' style='width: 80%;'>Actor: " + enemyTable[enemyData.id].actor +
-                        "<br>Parameters: " + enemyData.parameters +
+                        dataTable[type][actorData.id].name +
+                        "</h2><img src='images/" + type + "Icons/" +
+                        dataTable[type][actorData.id].name.replace(/ |-|\'/gi, "") + ".png' /></div>" +
+                        "<div class='profileSection' style='width: 80%;'>Actor: " + dataTable[type][actorData.id].actor +
+                        "<br>Parameters: " + actorData.parameters +
                         "<br>Drop: " + drop + " <br>" + 
                         dropTable + "</div>");
 }
 
-function setEnemySearch(enemy) { //Sets global enemy search to the enemy clicked, adds temporary popover, and changes tabs to Search tab
-  var enemyData = enemy.parent().data();
-  $('select#enemyFilter').val([enemyData.id]).trigger('change');
-  $('#searchEnemiesTab').tooltipster('open');
-  $('#searchEnemiesTab').trigger('click');
-  setTimeout(function(){$('#searchEnemiesTab').tooltipster('close');}, 3000);
-  highlightEnemies();
+function setSearch(data, type) { //Sets global actor search to the actor clicked, adds temporary popover, and changes tabs to Search tab
+  var actorData = data.parent().data();
+  $('select#' + type + 'Filter').val([actorData.id]).trigger('change');
+  $('#' + type + 'SearchTab').tooltipster('open');
+  $('#' + type + 'SearchTab').trigger('click');
+  setTimeout(function(){$('#' + type + 'SearchTab').tooltipster('close');}, 3000);
+  highlightActors();
 }
 
-function setEnemyZoom(enemy) { //Zooms in on the room where an enemy is located
-  var enemyData = enemy.parent().data();
+function setZoom(data, type) { //Zooms in on the room where an actor is located
+  var enemyData = data.parent().data();
   var foundLayer = false;
   roomLayer.eachLayer(function(layer) {
     if(!foundLayer && enemyData.scene == layer.feature.properties.scene && enemyData.room == layer.feature.properties.id)
