@@ -678,7 +678,7 @@ function initializeSearchInterface(type) { //Creates handlers and fills dropdown
   }
 
   $('#' + type + 'Filter').select2({data: select,
-                             placeholder: "Select Enemies",
+                             placeholder: "Select " + plurals[type],
                              closeOnSelect:false});
 
   $('#' + type + 'Filter').on("change", function (e) {
@@ -701,7 +701,7 @@ function initializeSearchInterface(type) { //Creates handlers and fills dropdown
 
 
   $('#' + type + 'HighlightAll').on('click', function(){
-    highlightActors();
+    highlightActors(type);
   });
 
 }
@@ -889,7 +889,7 @@ function setSearch(data, type) { //Sets global actor search to the actor clicked
   $('#' + type + 'SearchTab').tooltipster('open');
   $('#' + type + 'SearchTab').trigger('click');
   setTimeout(function(){$('#' + type + 'SearchTab').tooltipster('close');}, 3000);
-  highlightActors();
+  highlightActors(type);
 }
 
 function setZoom(data, type) { //Zooms in on the room where an actor is located
