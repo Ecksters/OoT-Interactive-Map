@@ -14,6 +14,7 @@ var layers = {
 };
 
 var actorTypes = ['enemy', 'nature'];
+var plurals = {"enemy": "Enemies", "nature": "Flora or Rocks"};
   
 var layerData = {
 "Child Angled View": {"id": 0, "southWest": [-13000, 25000], "northEast": [40000, -8000], "folder": "childAngled", "zoom": 11},
@@ -243,7 +244,7 @@ map.on('draw:created', function(e) { //Returns coordinates for shape/object crea
 $(document).ready(function(){
   for(var i in actorTypes) {
     initializeSearchInterface(actorTypes[i]);
-    initializeSubTab(actorTypes[i]);
+    initializeSubtab(actorTypes[i]);
     $('#' + actorTypes[i] + 'SearchTab').tooltipster({trigger: 'custom'});
     fetchActors(romScene, romRoom, actorTypes[i]);
     searchActors(actorTypes[i]);
@@ -251,12 +252,9 @@ $(document).ready(function(){
   fixSidebarHeight();
 });
 
-function initializeSubTab(type) {
+function initializeSubtab(type) {
   $('ul#' + type + '-tabs li').click(function(){
-      console.log($(this));
-      console.log(type + " tab clicked");
       var tab_id = $(this).attr('data-tab');
-      console.log(tab_id);
       $('ul#' + type + '-tabs li').removeClass('current');
       $('.' + type + '-tab-content').removeClass('current');
 
@@ -623,15 +621,17 @@ function fetchROMDump(name) { //Fetches and updates the ROM Dump output with the
 function fetchActors(scene, room, type) { //Finds and lists actors in the currently viewed scene/room
   var roomActors = new Array();
   var table = $("#" + type + "Table");
+
+  
   if(room == "-1") {
-    $("#" + type + "Table").html("<tr><th>No Enemies Exist on the Scene Level</th></tr>");
+    $("#" + type + "Table").html("<tr><th>No " + plurals[type] + " Exist on the Scene Level</th></tr>");
     return 0;
   }
   else {
     roomActors = mapData[scene].rooms[room][type];
   }
   if(typeof roomActors == "undefined") {
-    $("#" + type + "Table").html("<tr><th>No Enemies Found in Room Selected</th></tr>");
+    $("#" + type + "Table").html("<tr><th>No " + plurals[type] + " Found in Room Selected</th></tr>");
     return 0;
   }
   
@@ -716,7 +716,7 @@ function highlightActors(type){ //Puts an alternating glow/shadow on all visible
 function searchActors(type) { //Finds and updates table and map icons with actors in current filter
   var table = $("#" + type + "SearchTable");
   if($("#" + type + "Filter").select2("data").length === 0){
-    table.html("<tr><th>No Enemies Selected</th></tr>");
+    table.html("<tr><th>No " + plurals[type] + " Selected</th></tr>");
     return 0;
   }
   
@@ -772,23 +772,39 @@ function filterCurrentActors(type) { //Finds actorss that match the current filt
 // Creation of Rows and their functionalities in Actor Tables
 ////////////////////////////////////////////////////////////////////////////////
 
-function createTableRow(data, type) { //Generates a row for Location tables, passed a fresh object
+function createTableRow(actor, type) { //Generates a row for Location tables, passed a fresh object
   var locationData = "";
   var rowType = type + "Row";
   var lookType = "Search";
   var lookFunction = setSearch;
   var checkIcon = "binoculars";
-  if(typeof data.scene != 'undefined') { //Swap variables over if the row is on the Search page
-    locationData = "' data-scene='" + data.scene + "' data-room='" + data.room;
+  if(typeof actor.scene != 'undefined') { //Swap variables over if the row is on the Search page
+    locationData = "' data-scene='" + actor.scene + "' data-room='" + actor.room;
     rowType= type + "SearchRow";
     lookType = "Zoom";
     lookFunction = setZoom;
     checkIcon = "search-plus";
   }
-  var newRow = $("<tr class='" + rowType + "' data-id='" + data.id + 
-    locationData + "' data-parameters='" + data.parameters + "' data-setup='" + data.setup + 
-    "' data-position='"  + data.position +  "' data-rotation='"  + data.rotation + "'><td><div>" + 
-    dataTable[type][data.id].name + "</div></td><td class='" + type + "Details'><i class='fa fa-book " + type + "Details'></i></td><td class='" + type + lookType + "'><i class='fa fa-" + checkIcon + "'></i></td></tr>");
+  
+  actor.position = actor.x + "," + actor.y + "," + actor.z;
+  actor.rotation = actor['x-rotation'] + "," + actor['y-rotation'] + "," + actor['z-rotation'];
+  
+  if(type == "enemy"){
+    actor.drop = dataTable[type][actor.id].drop;
+  }
+  else {
+    if(typeof actor.data == "undefined" || typeof actor.data.drop == "undefined" || actor.data.drop === false){
+      actor.drop = "None";
+    }
+    else if(actor.data.drop != false){
+      actor.drop = actor.data.drop;
+    }
+  }
+  var newRow = $("<tr class='" + rowType + "' data-id='" + actor.id + 
+    locationData + "' data-parameters='" + actor.parameters + "' data-setup='" + actor.setup + "' data-drop='" + actor.drop + 
+    "' data-position='"  + actor.position +  "' data-rotation='"  + actor.rotation + "'><td><div>" + 
+    dataTable[type][actor.id].name + "</div></td><td class='" + type + "Details actorDetails'><i class='fa fa-book " + type + "Details actorDetails'></i></td><td class='" + 
+    type + lookType + " actor" + lookType + "'><i class='fa fa-" + checkIcon + "'></i></td></tr>");
   
   newRow.find('td.' + type + 'Details').on('click', function(e){
     updateModalActor($(this), type);
@@ -797,26 +813,22 @@ function createTableRow(data, type) { //Generates a row for Location tables, pas
   newRow.find('td.' + type + lookType).on('click', function(e){
     lookFunction($(this), type);
   });
-  
-  createRowTooltip(newRow, data, type);
+  createRowTooltip(newRow, actor, type);
   return newRow;
 }
 
-function rowDataTable(data, type) { //Creates the table used in the row tooltips, passed an object pre-rotation/position additions and adds them.
-  data.position = data.x + "," + data.y + "," + data.z;
-  data.rotation = data['x-rotation'] + "," + data['y-rotation'] + "," + data['z-rotation'];
-  
+function rowDataTable(actor, type) { //Creates the table used in the row tooltips, passed an actor and its type
   return "<table><tr><th>Actor</th><th>Parameters</th><th>Drop Table</th><th>Position</th><th>Rotation</th></tr>" +
-         "<tr><td>" + dataTable[type][data.id].actor + "</td><td>" + data.parameters + "</td><td>" +
-         dataTable[type][data.id].drop + "</td><td>(" +  data.position + ")</td><td>(" + data.rotation + ")</td></tr></table>";
+         "<tr><td>" + dataTable[type][actor.id].actor + "</td><td>" + actor.parameters + "</td><td>" +
+          actor.drop + "</td><td>(" +  actor.position + ")</td><td>(" + actor.rotation + ")</td></tr></table>";
 }
 
-function createRowTooltip(newRow, data, type) { //Generates the tooltip placed on an actor row, must have updated the modal before calling with function rowDataTable, passed the row to add Tooltipster to
+function createRowTooltip(newRow, actor, type) { //Generates the tooltip placed on an actor row, must have updated the modal before calling with function rowDataTable, passed the row to add Tooltipster to
     newRow.tooltipster({
     theme: ['tooltipster-shadow', 'tooltipster-shadow-customized'],
     delay: [200,300],
     trigger: 'custom',
-    content: $(rowDataTable(data, type)),
+    content: $(rowDataTable(actor, type)),
     triggerOpen: {
         mouseenter: true,
         touchstart: true
@@ -830,13 +842,17 @@ function createRowTooltip(newRow, data, type) { //Generates the tooltip placed o
     side: ['left', 'top', 'bottom', 'right']});
 }
 
-function updateModalActor(data, type) { // Updates the popup with actor details and generates the visual Drop Table, passed "Details" button that was clicked
-  var actorData = data.parent().data();
+function updateModalActor(actor, type) { // Updates the popup with actor details and generates the visual Drop Table, passed "Details" button that was clicked
+  var actorData = actor.parent().data();
   var drop = "None";
   var dropTable = "";
-  if(dataTable[type][actorData.id].drop != ''){
-    drop = "Table " + dataTable[type][actorData.id].drop;
-    table = dropTables[dataTable[type][actorData.id].drop].table;
+  var actorDrop = actorData.drop;
+  if(actorDrop === ""){
+    actorDrop = dataTable[type][actorData.id].drop
+  }
+  if(actorDrop !== '' && actorDrop != 'None' && actorDrop !== false){
+    drop = "Table " + actorDrop;
+    table = dropTables[actorDrop].table;
     dropTable = "<div class='dropTable'>";
     for(var i in table){
       if(table[i] > 0){

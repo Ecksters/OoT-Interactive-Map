@@ -348,23 +348,23 @@ td > div {
 }
 
 
-/* Enemy Tab Specific Table */
+/* Actor Tab Specific Table */
 
 .actorSetupSplit {
   background-color: rgba(70,70,70,.9);
   text-align: center;
 }
 
-.enemyDetails, .enemySearch, .enemyZoom {
+.actorDetails, .actorSearch, .actorZoom {
   text-align: center;
 }
 
-.enemyDetails:hover, .enemySearch:hover, .enemyZoom:hover {
+.actorDetails:hover, .actorSearch:hover, .actorZoom:hover {
   color: #DD0000;
   background-color: #888;
 }
 
-.enemyDetails:active, .enemySearch:active, .enemyZoom:active {
+.actorDetails:active, .actorSearch:active, .actorZoom:active {
   color: #AAAAAA;
   background-color: #080;
 }
