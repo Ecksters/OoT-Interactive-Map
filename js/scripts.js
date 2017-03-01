@@ -369,11 +369,11 @@ function loadRegions(currentMap, data) //Loads overall Regions(think original ma
 
 function loadThumbnailContainers() { //Finds center of each room/scene and adds a container for thumbnails of each actor in that room/scene
 
-  var enemyRoomIconContainers = Array();
+  var roomIconContainers = Array();
   roomLayer.eachLayer(function (room){
     var coords = room.getBounds().getCenter()
-    if(typeof mapData[room.feature.properties.scene].rooms[room.feature.properties.id].enemy != 'undefined')
-    enemyRoomIconContainers.push(
+    if(typeof mapData[room.feature.properties.scene].rooms[room.feature.properties.id].enemy != 'undefined' || typeof mapData[room.feature.properties.scene].rooms[room.feature.properties.id].nature != 'undefined')
+    roomIconContainers.push(
     {
          "type": "Feature", 
          "geometry": { 
@@ -385,15 +385,16 @@ function loadThumbnailContainers() { //Finds center of each room/scene and adds 
            "class": "roomContainer markerContainer markers" + room.feature.properties.scene + "r" + room.feature.properties.id,
            "type": "roomContainer",
            "scene": room.feature.properties.scene,
-           "enemy": mapData[room.feature.properties.scene].rooms[room.feature.properties.id].enemyCounts
+           "enemy": mapData[room.feature.properties.scene].rooms[room.feature.properties.id].enemyCounts,
+           "nature": mapData[room.feature.properties.scene].rooms[room.feature.properties.id].natureCounts
            }
     });
   });
-  var enemySceneIconContainers = Array();
+  var sceneIconContainers = Array();
   sceneLayer.eachLayer(function (scene){
     var coords = scene.getBounds().getCenter();
-    if(typeof mapData[scene.feature.properties.id].enemyCounts != 'undefined' && scene.feature.properties.id != 62) //Only push rooms with enemies, and NOT grotto scene
-    enemySceneIconContainers.push(
+    if((typeof mapData[scene.feature.properties.id].enemyCounts != 'undefined'  || typeof mapData[scene.feature.properties.id].natureCounts != 'undefined') && scene.feature.properties.id != 62) //Only push rooms with enemies, and NOT grotto scene
+    sceneIconContainers.push(
     {
          "type": "Feature", 
          "geometry": { 
@@ -405,12 +406,13 @@ function loadThumbnailContainers() { //Finds center of each room/scene and adds 
            "class": "sceneContainer markerContainer markers" + scene.feature.properties.id,
            "type": "sceneContainer",
            "scene": scene.feature.properties.id,
-           "enemy": mapData[scene.feature.properties.id].enemyCounts
+           "enemy": mapData[scene.feature.properties.id].enemyCounts,
+           "nature": mapData[scene.feature.properties.id].natureCounts
            }
     });
   });
   
-  return {rooms: enemyRoomIconContainers, scenes: enemySceneIconContainers};
+  return {rooms: roomIconContainers, scenes: sceneIconContainers};
 }
 
 function getIconImages(searchables, type) { //Gets image files and generates their HTML for array of actors passed
@@ -423,16 +425,20 @@ function getIconImages(searchables, type) { //Gets image files and generates the
   return images;
 }
 
-function addIconOverlay(iconContainers, type) { //Adds icons to the map(all of them, of any type) for later usage and filtering
+function addIconOverlay(iconContainers) { //Adds icons to the map(all of them, of any type) for later usage and filtering
   var overlayLayers = Array();
-  for(var i in iconContainers)
-  {
+  console.log(iconContainers);
+  for(var i in iconContainers) {
     overlayLayers.push(L.geoJSON(iconContainers[i], {
       pointToLayer: function(feature, latlng) {
+          var iconImages = "";
+          for(var j in actorTypes) {
+            iconImages += getIconImages(feature.properties[actorTypes[j]], actorTypes[j]);
+          }
           return L.marker(latlng, {
             icon: new L.divIcon({className: feature.properties.class,
             iconSize: null,
-            html: getIconImages(feature.properties[type], type)
+            html: iconImages
             }),
             class: feature.properties.className,
           });

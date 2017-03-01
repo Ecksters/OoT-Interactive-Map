@@ -27,8 +27,6 @@
 function insertActor(addedRoom, actorType) {
   var actors = actorData[actorType].data;
   var type = actorData[actorType].name;
-  console.log(actorCurrent[actorType]);
-  console.log(type);
   while(actorCurrent[actorType] < actors.length && actors[actorCurrent[actorType]].scene == sceneID && actors[actorCurrent[actorType]].room == entry.id) { //Check if current actor we're on is in this scene>room
     console.log("adding actor");
     if(typeof addedRoom[type] === "undefined") { //Make new object array for actors within room if it doesn't exist
