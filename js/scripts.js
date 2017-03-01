@@ -21,21 +21,21 @@ var layerData = {
 "Adult Angled View": {"id": 1, "southWest": [0, 15000], "northEast": [15000, 0], "folder": "adultAngled", "zoom": 11}
 };
   
-var defaultMap = layerData["Child Angled View"];
+var currentMap = layerData["Child Angled View"];
 
 var map = L.map('map', {
   crs: L.CRS.Simple,
   maxZoom: 15,
   zoom: 11,
   center: [-.23,.4],
-  minZoom: defaultMap.zoom,
+  minZoom: currentMap.zoom,
   noWrap: true,
   layers: [layers.childAngledLayer],
   attributionControl: false,
   zoomControl: false,
 });
  
-var mapBounds = new L.LatLngBounds(map.unproject(defaultMap.southWest, 15), map.unproject(defaultMap.northEast, 15));
+var mapBounds = new L.LatLngBounds(map.unproject(currentMap.southWest, 15), map.unproject(currentMap.northEast, 15));
 
 map.setMaxBounds(mapBounds);
 
@@ -83,7 +83,8 @@ function controlSwap(newTab) { //Logic for when user swaps between tabs on the s
 
 
 function updateView(data) { //Load map layers whenever a new map is selected(Angle, Age changes)
-  map.setMinZoom(layerData[data.name]["zoom"]);
+  currentMap = layerData[data.name];
+  map.setMinZoom(currentMap["zoom"]);
   regionLayer.remove();
   sceneLayer.remove();
   roomLayer.remove();
@@ -92,7 +93,7 @@ function updateView(data) { //Load map layers whenever a new map is selected(Ang
 
   regionLayer = addOverlay(loadRegions(0, dataRegions)); //Old Region Code, layerData[data.name]["id"], saved for when we add top
   addLabel(regionLayer);
-  areaLayersData = loadAreas(layerData[data.name].folder);
+  areaLayersData = loadAreas(currentMap.folder);
   sceneLayer = addOverlay(areaLayersData.sceneData);
   roomLayer = addOverlay(areaLayersData.roomData);
 //  enemiesLayer = addIconOverlay(loadEnemies());
@@ -100,7 +101,7 @@ function updateView(data) { //Load map layers whenever a new map is selected(Ang
   
   updateZoom();
   
-  miniMap.changeLayer(new L.TileLayer('maps/' + layerData[data.name]["folder"] + '/{z}/map_tile_{x}_{y}.png', {minZoom: 8, maxZoom: 10, attribution: "minimap"}));
+  miniMap.changeLayer(new L.TileLayer('maps/' + currentMap["folder"] + '/{z}/map_tile_{x}_{y}.png', {minZoom: 8, maxZoom: 10, attribution: "minimap"}));
 }
 
 function refreshMap() { //Reloads the map, properly selecting Child/Adult
@@ -190,7 +191,7 @@ function updateZoom() { // All checks that occur each time the viewer zooms in/o
   
 var sidebar = L.control.sidebar('sidebar', {position: 'right'}).addTo(map);
 
-var miniMapTiles = new L.TileLayer('maps/' + defaultMap.folder + '/{z}/map_tile_{x}_{y}.png', {minZoom: 8, maxZoom: 10, attribution: "minimap"});
+var miniMapTiles = new L.TileLayer('maps/' + currentMap.folder + '/{z}/map_tile_{x}_{y}.png', {minZoom: 8, maxZoom: 10, attribution: "minimap"});
 var miniMap = new L.Control.MiniMap(miniMapTiles, {position: 'bottomleft', width: 200}).addTo(map);
   
   
@@ -274,7 +275,7 @@ var regionLayerData = loadRegions(0, dataRegions);
 var regionLayer = addOverlay(regionLayerData);
 addLabel(regionLayer);
 
-var areaLayersData = loadAreas(defaultMap.folder)
+var areaLayersData = loadAreas(currentMap.folder)
 var sceneLayer = addOverlay(areaLayersData.sceneData);
 var roomLayer = addOverlay(areaLayersData.roomData);
 var enemiesLayer = addIconOverlay(loadThumbnailContainers(), "enemy");
@@ -427,7 +428,6 @@ function getIconImages(searchables, type) { //Gets image files and generates the
 
 function addIconOverlay(iconContainers) { //Adds icons to the map(all of them, of any type) for later usage and filtering
   var overlayLayers = Array();
-  console.log(iconContainers);
   for(var i in iconContainers) {
     overlayLayers.push(L.geoJSON(iconContainers[i], {
       pointToLayer: function(feature, latlng) {
@@ -806,9 +806,14 @@ function createTableRow(actor, type) { //Generates a row for Location tables, pa
       actor.drop = actor.data.drop;
     }
   }
+  
+  if(typeof actor[currentMap.folder + "Coords"] != 'undefined' && actor[currentMap.folder + "Coords"] != ""){
+    actor.coords = actor[currentMap.folder + "Coords"]
+  }
+  
   var newRow = $("<tr class='" + rowType + "' data-id='" + actor.id + 
     locationData + "' data-parameters='" + actor.parameters + "' data-setup='" + actor.setup + "' data-drop='" + actor.drop + 
-    "' data-position='"  + actor.position +  "' data-rotation='"  + actor.rotation + "'><td><div>" + 
+    "' data-position='"  + actor.position +  "' data-rotation='"  + actor.rotation + "' data-coords='" + actor.coords + "'><td><div>" + 
     dataTable[type][actor.id].name + "</div></td><td class='" + type + "Details actorDetails'><i class='fa fa-book " + type + "Details actorDetails'></i></td><td class='" + 
     type + lookType + " actor" + lookType + "'><i class='fa fa-" + checkIcon + "'></i></td></tr>");
   
@@ -888,13 +893,20 @@ function setSearch(data, type) { //Sets global actor search to the actor clicked
 }
 
 function setZoom(data, type) { //Zooms in on the room where an actor is located
-  var enemyData = data.parent().data();
+  var actorData = data.parent().data();
   var foundLayer = false;
   roomLayer.eachLayer(function(layer) {
-    if(!foundLayer && enemyData.scene == layer.feature.properties.scene && enemyData.room == layer.feature.properties.id)
+    if(!foundLayer && actorData.scene == layer.feature.properties.scene && actorData.room == layer.feature.properties.id)
     {
-      updateLocationChanger(romScene = enemyData.scene, romRoom = enemyData.room)
-      map.fitBounds(layer.getBounds());
+      if(actorData.coords == 'undefined' || actorData.coords == ""){
+        updateLocationChanger(romScene = actorData.scene, romRoom = actorData.room)
+        map.fitBounds(layer.getBounds());
+      }
+      else {
+        coords = actorData.coords.split(', ');
+        newView = new L.LatLng(coords[0], coords[1]);
+        map.setView(newView, 15, { animation: true });
+      }
       foundLayer = true;
     }
   });
