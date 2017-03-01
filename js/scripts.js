@@ -250,6 +250,8 @@ $(document).ready(function(){
     fetchActors(romScene, romRoom, actorTypes[i]);
     searchActors(actorTypes[i]);
   }
+  $('#natureAllCatchables').on('click', function(){$('select#natureFilter').val([1,3,15,17,18]).trigger('change');});
+  $('#natureAllClusters').on('click', function(){$('select#natureFilter').val([11,12]).trigger('change');});
   fixSidebarHeight();
 });
 
@@ -264,7 +266,6 @@ function initializeSubtab(type) {
       fixSidebarHeight();
     });
 }
-
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //**************************************************************************************************************************************************************
 // Map Layer creation, add everything that's on the map itself
