@@ -928,22 +928,22 @@ function setSearch(data, type) { //Sets global actor search to the actor clicked
 function setZoom(data, type) { //Zooms in on the room where an actor is located
   var actorData = data.parent().data();
   var foundLayer = false;
-  roomLayer.eachLayer(function(layer) {
-    if(!foundLayer && actorData.scene == layer.feature.properties.scene && actorData.room == layer.feature.properties.id)
-    {
-      if(actorData.coords == 'undefined' || actorData.coords == ""){
+  if(actorData.coords == 'undefined' || actorData.coords == ""){
+    roomLayer.eachLayer(function(layer) {
+      if(!foundLayer && actorData.scene == layer.feature.properties.scene && actorData.room == layer.feature.properties.id)
+      {
         updateLocationChanger(romScene = actorData.scene, romRoom = actorData.room)
         map.fitBounds(layer.getBounds());
+        foundLayer = true;
       }
-      else {
-        showArrow();
-        coords = actorData.coords.split(', ');
-        newView = new L.LatLng(coords[0], coords[1]);
-        map.setView(newView, 15, { animation: true });
-      }
-      foundLayer = true;
-    }
-  });
+    });
+  }
+  else {
+    showArrow();
+    coords = actorData.coords.split(', ');
+    newView = new L.LatLng(coords[0], coords[1]);
+    map.setView(newView, 15, { animation: true });
+  }
 }
 
   
