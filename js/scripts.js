@@ -13,8 +13,8 @@ var layers = {
   })
 };
 
-var actorTypes = ['enemy', 'nature'];
-var plurals = {"enemy": "Enemies", "nature": "Flora or Rocks"};
+var actorTypes = ['enemy', 'nature', 'container'];
+var plurals = {"enemy": "Enemies", "nature": "Flora or Rocks", "container": "Containers"};
   
 var layerData = {
 "Child Angled View": {"id": 0, "southWest": [-13000, 25000], "northEast": [40000, -8000], "folder": "childAngled", "zoom": 11},
@@ -76,6 +76,9 @@ function controlSwap(newTab) { //Logic for when user swaps between tabs on the s
     case 'enemy':
         $('#enemyContextual').prepend($('#locationChangerContainer'));
       break;
+    case 'container':
+        $('#containerContextual').prepend($('#locationChangerContainer'));
+      break;
     }
     fixSidebarHeight();
   }
@@ -131,19 +134,28 @@ function fixSidebarHeight() { //Fixed to heights of utilities so that the sideba
 
   var locationChangerHeight = $('#locationChangerContainer').outerHeight(true);
   
+  $('#verboseOutput').css("height", sidebarHeight-dataTextHeight-20);
+  
+  //Fix all this repeated garbage later, cmon bro, DRY!
+  
   var enemyTextHeight = $('#enemyTabUpperText').outerHeight(true);
   var enemySearchHeight = $('#enemyFilterContainer').outerHeight(true);
   
   var natureTextHeight = $('#natureTabUpperText').outerHeight(true);
   var natureSearchHeight = $('#natureFilterContainer').outerHeight(true);
   
-  $('#verboseOutput').css("height", sidebarHeight-dataTextHeight-20);
+  var containerTextHeight = $('#containerTabUpperText').outerHeight(true);
+  var containerSearchHeight = $('#containerFilterContainer').outerHeight(true);
+ 
   
   $('#enemyTableContainer').css("height", sidebarHeight-(enemyTextHeight+locationChangerHeight)-50);
   $('#enemySearchContainer').css("height", sidebarHeight-(enemyTextHeight+enemySearchHeight)-50);
   
   $('#natureTableContainer').css("height", sidebarHeight-(natureTextHeight+locationChangerHeight)-50);
   $('#natureSearchContainer').css("height", sidebarHeight-(natureTextHeight+natureSearchHeight)-50);
+  
+  $('#containerTableContainer').css("height", sidebarHeight-(containerTextHeight+locationChangerHeight)-50);
+  $('#containerSearchContainer').css("height", sidebarHeight-(containerTextHeight+containerSearchHeight)-50);
 }
 
 $('.settingsToggle').on('change', function(){updateZoom()});
@@ -280,7 +292,7 @@ addLabel(regionLayer);
 var areaLayersData = loadAreas(currentMap.folder)
 var sceneLayer = addOverlay(areaLayersData.sceneData);
 var roomLayer = addOverlay(areaLayersData.roomData);
-var enemiesLayer = addIconOverlay(loadThumbnailContainers(), "enemy");
+var enemiesLayer = addIconOverlay(loadThumbnailContainers());
 
 function loadAreas(mapName) { //Loads Rooms and Scenes onto the map with their respective data
   var sceneData = Array();
@@ -600,6 +612,7 @@ function updateLocationChanger(scene, room) { //Calls all necessary functions fo
   }
   fetchActors(scene, room, "enemy");
   fetchActors(scene, room, "nature");
+  fetchActors(scene, room, "container");
   fixSidebarHeight();
 }
 

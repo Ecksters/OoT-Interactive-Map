@@ -44,7 +44,7 @@ html, body, #map {
   top: 50%;
   left: 50%;
   margin-top: -20px;
-  margin-left: -10px;
+  margin-left: -8px;
   z-index: 9000;
 }
 
@@ -450,7 +450,7 @@ div.dropTableSlot {
   text-align: center;
 }
 
-.leaflet-marker-icon.leaflet-interactive, .leaflet-image-layer.leaflet-interactive, .leaflet-pane > svg path.leaflet-interactive .enemyMarkerContainer {
+.leaflet-marker-icon.leaflet-interactive, .leaflet-image-layer.leaflet-interactive, .leaflet-pane > svg path.leaflet-interactive .markerContainer {
   pointer-events: none;
 }
 
@@ -475,9 +475,9 @@ div.dropTableSlot {
 }
 
 @keyframes shake {
-  0%,100% { margin-left: -10px; }
-  12.5%,25%,37.5%,50%,62.5%,75%,87.5% { margin-left: -13px;}
-  6.25%,18.75%,31.25%,43.75%,56.25%,68.75%,81.25%,93.75% { margin-left: -7px;}
+  0%,100% { margin-left: -8px; }
+  12.5%,25%,37.5%,50%,62.5%,75%,87.5% { margin-left: -11px;}
+  6.25%,18.75%,31.25%,43.75%,56.25%,68.75%,81.25%,93.75% { margin-left: -5px;}
 }
 
 /* Enemy Search Interface */
@@ -503,7 +503,8 @@ ul.tabs{
   margin: 0px;
   padding: 0px;
   list-style: none;
-  width: 340px;
+  width: 360px;
+  margin-left: 5px;
   text-align: center;
 }
 ul.tabs li{
@@ -513,11 +514,11 @@ ul.tabs li{
   cursor: pointer;
   width: 137px;
   margin-bottom: 5px;
+  border-radius: 5px 5px 0px 0px;
 }
 
 ul.tabs li.current{
   background: rgba(8, 40, 112, 0.8);
-  border-radius: 5px 5px 0px 0px;
 }
 
 .tab-content{

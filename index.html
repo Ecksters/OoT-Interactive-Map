@@ -23,7 +23,7 @@
           <ul role="tablist">
               <li id="dataTab" class="tooltip active" title="ROM Data Output"><a href="#dataTabSidebar" role="tab"><i class="fa fa-list-alt"></i></a></li>
               <li id="natureTab" class="tooltip" title="Grass, Rocks, and Trees"><a href="#natureTabSidebar" role="tab"><i class="fa fa-tree"></i></a></li>
-              <!-- <li id="containersTab" class="tooltip" title="Crates, Pots, and Boxes"><a href="#containersTabSidebar" role="tab"><i class="fa fa-archive"></i></a></li> -->
+              <li id="containerTab" class="tooltip" title="Crates, Pots, and Boxes"><a href="#containerTabSidebar" role="tab"><i class="fa fa-archive"></i></a></li>
               <li id="enemyTab" class="tooltip" title="Enemies"><a href="#enemyTabSidebar" role="tab"><i class="fa fa-bug"></i></a></li>
               <!-- <li id="entrancesTab" class="tooltip" title="Entrances and Exits"><a href="#entrancesTabSidebar" role="tab"><i class="fa fa-compass"></i></a></li> -->
               <li id="settingsTab" class="tooltip" title="Map Settings"><a href="#settingsTabSidebar" role="tab"><i class="fa fa-gear"></i></a></li>
@@ -99,9 +99,37 @@
           </div>
         </div>
         <!-- Crates, Pots, and Boxes Tab -->
-        <div class="sidebar-pane" id="containersTabSidebar">
+        <div class="sidebar-pane" id="containerTabSidebar">
+          <div id="containerTabUpperText">
             <h1 class="sidebar-header">Crates, Pots, and Boxes<span class="sidebar-close"><i class="fa fa-caret-right"></i></span></h1>
-            <h1>Coming Soon</h1>
+            <p>Click a room find out all in-game containers in that room using the tools below</p>
+            <p>Alternatively, you can  search for a specific container or various types to have them marked across the map.</p>
+
+            <ul class="tabs" id="container-tabs">
+              <li class="tab-link current" data-tab="containerContextual">Location Containers</li>
+              <li class="tab-link" id="containerSearchTab" title="Search Updated" data-tab="containerSearch">Container Search</li>
+            </ul>
+          </div>
+          
+          <div id="containerTabs">
+            <!-- Containers Tab, Location Containers subtab -->
+            <div id="containerContextual" class="tab-content container-tab-content current">
+              <div id="containerTableContainer" class="tableContainer"><table id="containerTable"></table></div>
+            </div>
+            <!-- Enemies Tab, Search Containers subtab -->
+            <div id="containerSearch" class="tab-content container-tab-content">
+              <div id="containerFilterContainer">
+                <label for="containerFilter">
+                  Search: 
+                  <select class="selectDropdown" id="containerFilter" multiple="multiple"></select>
+                </label>
+                <div style="width: 350px; margin-top: 10px;"><button id="containerShowAll" class="button" style="background-color: rgba( 6, 80, 224, .6);">Show All</button>
+                <button id="containerHideAll" class="button" style="background-color: rgba( 224, 6, 6, .6);">Hide All</button> <button id="containerHighlightAll" class="button" style="background-color: rgba( 224,184, 10, .6);">Highlight</button></div>
+                <br />
+              </div>
+              <div id="containerSearchContainer" class="tableContainer"><table id="containerSearchTable"></table></div>
+            </div>
+          </div>
         </div>
         <!-- Enemies Tab -->
         <div class="sidebar-pane" id="enemyTabSidebar">
