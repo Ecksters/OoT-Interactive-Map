@@ -246,12 +246,13 @@ $(document).ready(function(){
   for(var i in actorTypes) {
     initializeSearchInterface(actorTypes[i]);
     initializeSubtab(actorTypes[i]);
-    $('#' + actorTypes[i] + 'SearchTab').tooltipster({trigger: 'custom'});
+    $('#' + actorTypes[i] + 'SearchTab').tooltipster({theme: ['tooltipster-shadow', 'tooltipster-shadow-customized'], trigger: 'custom'});
     fetchActors(romScene, romRoom, actorTypes[i]);
     searchActors(actorTypes[i]);
   }
   $('#natureAllCatchables').on('click', function(){$('select#natureFilter').val([1,3,15,17,18]).trigger('change');});
   $('#natureAllClusters').on('click', function(){$('select#natureFilter').val([11,12]).trigger('change');});
+  $('#screenCenter').tooltipster({theme: ['tooltipster-shadow', 'tooltipster-shadow-customized'], trigger: 'custom'});
   fixSidebarHeight();
 });
 
@@ -720,6 +721,24 @@ function highlightActors(type){ //Puts an alternating glow/shadow on all visible
   }
 }
 
+var startShake;
+function showArrow(){ //Shows and shakes arrow in center of screen for 2 seconds
+  startShake = new Date().getTime();
+  $('#screenCenter').removeClass('shake');
+  $('#screenCenter').fadeIn(300);
+  $('#screenCenter').addClass('shake');
+  setTimeout(function(){
+    if(new Date().getTime() - startShake > 1999) {
+      $('#screenCenter').removeClass('shake');
+    }
+  }, 2000);
+  setTimeout(function(){
+    if(new Date().getTime() - startShake > 2999){
+      $('#screenCenter').fadeOut(300);
+    }
+  }, 3000);
+}
+
 function searchActors(type) { //Finds and updates table and map icons with actors in current filter
   var table = $("#" + type + "SearchTable");
   if($("#" + type + "Filter").select2("data").length === 0){
@@ -904,6 +923,7 @@ function setZoom(data, type) { //Zooms in on the room where an actor is located
         map.fitBounds(layer.getBounds());
       }
       else {
+        showArrow();
         coords = actorData.coords.split(', ');
         newView = new L.LatLng(coords[0], coords[1]);
         map.setView(newView, 15, { animation: true });

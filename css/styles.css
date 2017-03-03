@@ -38,6 +38,16 @@ html, body, #map {
   background: #000000;
 }
 
+#screenCenter {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -20px;
+  margin-left: -10px;
+  z-index: 9000;
+}
+
 /* Custom Fonts */
 
 @font-face {
@@ -454,10 +464,20 @@ div.dropTableSlot {
   animation: fadeinout 8s linear forwards;
 }
 
+.shake {
+  animation: shake 4s linear forwards;
+}
+
 @keyframes fadeinout {
   0%,100% { box-shadow: none; }
   12.5%,37.5%,62.5%,87.5% { box-shadow: 0 0px 24px 0 rgba(255,255,255,0.9); }
   25%,50%,75% { box-shadow: 0 0px 24px 0 rgba(0,0,0,0.9); }
+}
+
+@keyframes shake {
+  0%,100% { margin-left: -10px; }
+  12.5%,25%,37.5%,50%,62.5%,75%,87.5% { margin-left: -13px;}
+  6.25%,18.75%,31.25%,43.75%,56.25%,68.75%,81.25%,93.75% { margin-left: -7px;}
 }
 
 /* Enemy Search Interface */
