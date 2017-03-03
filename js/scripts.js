@@ -68,7 +68,7 @@ function controlSwap(newTab) { //Logic for when user swaps between tabs on the s
     var tab = newTab.currentTarget.id.slice(0, -3);
     switch(tab){
     case 'data':
-        $('#' + tab + 'UpperText').append($('#locationChangerContainer'));
+        $('#' + tab + 'TabUpperText').append($('#locationChangerContainer'));
       break;
     case 'nature':
         $('#natureContextual').prepend($('#locationChangerContainer'));
@@ -561,7 +561,7 @@ $('#locationChangerRoom').select2({data: roomLocationChangerSelect});
 
 $('#locationChangerScene').val(romScene).trigger("change");
 $('#locationChangerRoom').val(romRoom).trigger("change");
-fetchROMDump("scenes/scene"+romScene);
+fetchROMDump(romScene, romRoom);
 
 $('#locationChangerScene').on("select2:select", function (e) {
   var foundLayer = false;
@@ -602,14 +602,7 @@ function updateLocationChanger(scene, room) { //Calls all necessary functions fo
   $('#locationChangerRoom').val(room).trigger("change");
   $("#locationChangerRoom input.select2-input").trigger("input");
 
-  if(room == -1)
-  {
-    fetchROMDump("scenes/scene"+scene);
-  }
-  else
-  {
-    fetchROMDump("rooms/s"+scene+"r"+room);
-  }
+  fetchROMDump(scene, room);
   fetchActors(scene, room, "enemy");
   fetchActors(scene, room, "nature");
   fetchActors(scene, room, "container");
@@ -622,7 +615,14 @@ function updateLocationChanger(scene, room) { //Calls all necessary functions fo
 //**************************************************************************************************************************************************************
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-function fetchROMDump(name) { //Fetches and updates the ROM Dump output with the Verbose Ocarina output stored in the data text files
+function fetchROMDump(scene, room) { //Fetches and updates the ROM Dump output with the Verbose Ocarina output stored in the data text files
+  if(room == -1){
+    var name = "scenes/scene"+scene;
+  }
+  else{
+    var name = "rooms/s"+scene+"r"+room;
+  }
+  
   jQuery.get('http://map.ecksters.com/data/'+name+'.txt', function(data) {
     $("#verboseOutput").html(data);
     $("#verboseOutput").scrollTop(0).scrollLeft(0);
