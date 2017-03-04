@@ -387,7 +387,8 @@ function loadThumbnailContainers() { //Finds center of each room/scene and adds 
   var roomIconContainers = Array();
   roomLayer.eachLayer(function (room){
     var coords = room.getBounds().getCenter()
-    if(typeof mapData[room.feature.properties.scene].rooms[room.feature.properties.id].enemy != 'undefined' || typeof mapData[room.feature.properties.scene].rooms[room.feature.properties.id].nature != 'undefined')
+    if(typeof mapData[room.feature.properties.scene].rooms[room.feature.properties.id].enemy != 'undefined' || typeof mapData[room.feature.properties.scene].rooms[room.feature.properties.id].nature != 'undefined'
+     || typeof mapData[room.feature.properties.scene].rooms[room.feature.properties.id].container != 'undefined')
     roomIconContainers.push(
     {
          "type": "Feature", 
@@ -401,14 +402,16 @@ function loadThumbnailContainers() { //Finds center of each room/scene and adds 
            "type": "roomContainer",
            "scene": room.feature.properties.scene,
            "enemy": mapData[room.feature.properties.scene].rooms[room.feature.properties.id].enemyCounts,
-           "nature": mapData[room.feature.properties.scene].rooms[room.feature.properties.id].natureCounts
+           "nature": mapData[room.feature.properties.scene].rooms[room.feature.properties.id].natureCounts,
+           "container": mapData[room.feature.properties.scene].rooms[room.feature.properties.id].containerCounts
            }
     });
   });
   var sceneIconContainers = Array();
   sceneLayer.eachLayer(function (scene){
     var coords = scene.getBounds().getCenter();
-    if((typeof mapData[scene.feature.properties.id].enemyCounts != 'undefined'  || typeof mapData[scene.feature.properties.id].natureCounts != 'undefined') && scene.feature.properties.id != 62) //Only push rooms with enemies, and NOT grotto scene
+    if((typeof mapData[scene.feature.properties.id].enemyCounts != 'undefined'  || typeof mapData[scene.feature.properties.id].natureCounts != 'undefined'  ||
+    typeof mapData[scene.feature.properties.id].containerCounts != 'undefined') && scene.feature.properties.id != 62) //Only push rooms with enemies, and NOT grotto scene
     sceneIconContainers.push(
     {
          "type": "Feature", 
@@ -422,7 +425,8 @@ function loadThumbnailContainers() { //Finds center of each room/scene and adds 
            "type": "sceneContainer",
            "scene": scene.feature.properties.id,
            "enemy": mapData[scene.feature.properties.id].enemyCounts,
-           "nature": mapData[scene.feature.properties.id].natureCounts
+           "nature": mapData[scene.feature.properties.id].natureCounts,
+           "container": mapData[scene.feature.properties.id].containerCounts
            }
     });
   });
@@ -434,7 +438,7 @@ function getIconImages(searchables, type) { //Gets image files and generates the
   var images = "";
   for(i in searchables)
   {
-    var searchableName = dataTable[type][searchables[i].id].name.replace(/ |-|\'/gi, "")
+    var searchableName = dataTable[type][searchables[i].id].name.replace(/ |-|\/|\'/gi, "")
     images += "<img class='actorIcon " + type + "Icon " + type + "Icon" + searchables[i].id + "' src='images/" + type + "Icons/" + searchableName + ".png' />";
   }
   return images;
@@ -831,14 +835,6 @@ function createTableRow(actor, type) { //Generates a row for Location tables, pa
   if(type == "enemy"){
     actor.drop = dataTable[type][actor.id].drop;
   }
-  else {
-    if(typeof actor.data == "undefined" || typeof actor.data.drop == "undefined" || actor.data.drop === false){
-      actor.drop = "None";
-    }
-    else if(actor.data.drop != false){
-      actor.drop = actor.data.drop;
-    }
-  }
   
   if(typeof actor[currentMap.folder + "Coords"] != 'undefined' && actor[currentMap.folder + "Coords"] != ""){
     actor.coords = actor[currentMap.folder + "Coords"]
@@ -888,13 +884,13 @@ function createRowTooltip(newRow, actor, type) { //Generates the tooltip placed 
 
 function updateModalActor(actor, type) { // Updates the popup with actor details and generates the visual Drop Table, passed "Details" button that was clicked
   var actorData = actor.parent().data();
-  var drop = "None";
+  var drop = actorData.drop;
   var dropTable = "";
   var actorDrop = actorData.drop;
   if(actorDrop === ""){
     actorDrop = dataTable[type][actorData.id].drop
   }
-  if(actorDrop !== '' && actorDrop != 'None' && actorDrop !== false){
+  else if(actorDrop != 'None' && actorDrop != 'N/A'){
     drop = "Table " + actorDrop;
     table = dropTables[actorDrop].table;
     dropTable = "<div class='dropTable'>";
