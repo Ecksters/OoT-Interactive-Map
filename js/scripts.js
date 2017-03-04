@@ -514,7 +514,7 @@ function addActorMarkers() { //Adds coordinate-specific markers to the map(all o
       console.log(actor);
       coords = searchables[actorType][actor][currentMap.folder + "Coords"];
       if(typeof coords != 'undefined' && coords != ""){
-        coords = coords.split(', ');
+        coords = coords.replace(/\s/g,'').split(',');
         console.log("inner loop");
         marked.push({
          "type": "Feature", 
@@ -923,6 +923,12 @@ function createTableRow(actor, type) { //Generates a row for Location tables, pa
     checkIcon = "search-plus";
   }
   
+  if(type == "container"){
+    lookType = "Zoom";
+    lookFunction = setZoom;
+    checkIcon = "search-plus";
+  }
+  
   actor.position = actor.x + "," + actor.y + "," + actor.z;
   actor.rotation = actor['x-rotation'] + "," + actor['y-rotation'] + "," + actor['z-rotation'];
   
@@ -931,7 +937,7 @@ function createTableRow(actor, type) { //Generates a row for Location tables, pa
   }
   
   if(typeof actor[currentMap.folder + "Coords"] != 'undefined' && actor[currentMap.folder + "Coords"] != ""){
-    actor.coords = actor[currentMap.folder + "Coords"]
+    actor.coords = actor[currentMap.folder + "Coords"];
   }
   
   var newRow = $("<tr class='" + rowType + "' data-id='" + actor.id + 
@@ -1030,9 +1036,12 @@ function setZoom(data, type) { //Zooms in on the room where an actor is located
   }
   else {
     showArrow();
-    coords = actorData.coords.split(', ');
+    coords = actorData.coords.split(',');
     newView = new L.LatLng(coords[0], coords[1]);
     map.setView(newView, 15, { animation: true });
+    if(typeof actorData.scene != 'undefined'){
+      updateLocationChanger(romScene = actorData.scene, romRoom = actorData.room);
+    }
   }
 }
 
