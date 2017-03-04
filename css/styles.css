@@ -460,6 +460,10 @@ div.dropTableSlot {
   margin-top: -8%;
 }
 
+.actorMarker {
+  display: none;
+}
+
 .glow {
   animation: fadeinout 8s linear forwards;
 }

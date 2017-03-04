@@ -190,7 +190,7 @@ function updateZoom() { // All checks that occur each time the viewer zooms in/o
   else {
     $('.room').hide();
   }
-  //Actor Markers Showing as Grouped by Scene or By Room at Various Zooms
+  //Actor Icons Showing as Grouped by Scene or By Room at Various Zooms
   if(map.getZoom() < 13){
     $('.sceneContainer').show();
     $('.roomContainer').hide();
@@ -198,6 +198,16 @@ function updateZoom() { // All checks that occur each time the viewer zooms in/o
   else {
     $('.sceneContainer').hide();
     $('.roomContainer').show();
+  }
+  
+  //Coordinate specific markers, showing specific or by room once zoomed in all the way
+  if(map.getZoom() > 14){
+    $('.containerIcon').css('visibility', 'hidden');
+    $('.actorMarker').css('visibility', 'visible');
+  }
+  else {
+    $('.containerIcon').css('visibility', 'visible');
+    $('.actorMarker').css('visibility', 'hidden');
   }
 }
   
@@ -293,6 +303,7 @@ var areaLayersData = loadAreas(currentMap.folder)
 var sceneLayer = addOverlay(areaLayersData.sceneData);
 var roomLayer = addOverlay(areaLayersData.roomData);
 var enemiesLayer = addIconOverlay(loadThumbnailContainers());
+var actorMarkersLayer = addActorMarkers();
 
 function loadAreas(mapName) { //Loads Rooms and Scenes onto the map with their respective data
   var sceneData = Array();
@@ -464,6 +475,83 @@ function addIconOverlay(iconContainers) { //Adds icons to the map(all of them, o
       }).addTo(map));
   }
   return overlayLayers;
+}
+
+function loadIconsMarkers() { //Finds center of each room/scene and adds a container for thumbnails of each actor in that room/scene
+
+  var iconMarkers = Array();
+  roomLayer.eachLayer(function (room){
+    var coords = room.getBounds().getCenter()
+    if(typeof mapData[room.feature.properties.scene].rooms[room.feature.properties.id].enemy != 'undefined' || typeof mapData[room.feature.properties.scene].rooms[room.feature.properties.id].nature != 'undefined'
+     || typeof mapData[room.feature.properties.scene].rooms[room.feature.properties.id].container != 'undefined')
+    roomIconContainers.push(
+    {
+         "type": "Feature", 
+         "geometry": { 
+           "type": "Point", 
+           "coordinates": [coords.lng, coords.lat]
+         }, 
+         "properties": { 
+           "room": room.feature.properties.id,
+           "class": "roomContainer markerContainer markers" + room.feature.properties.scene + "r" + room.feature.properties.id,
+           "type": "roomContainer",
+           "scene": room.feature.properties.scene,
+           "enemy": mapData[room.feature.properties.scene].rooms[room.feature.properties.id].enemyCounts,
+           "nature": mapData[room.feature.properties.scene].rooms[room.feature.properties.id].natureCounts,
+           "container": mapData[room.feature.properties.scene].rooms[room.feature.properties.id].containerCounts
+           }
+    });
+  });
+  
+  return {rooms: roomIconContainers, scenes: sceneIconContainers};
+}
+
+function addActorMarkers() { //Adds coordinate-specific markers to the map(all of them, of any type) for later usage and filtering
+  var marked = Array();
+  //for(var i in actorTypes){
+    var actorType = "container";
+    for(actor in searchables[actorType]){
+      console.log(actor);
+      coords = searchables[actorType][actor][currentMap.folder + "Coords"];
+      if(typeof coords != 'undefined' && coords != ""){
+        coords = coords.split(', ');
+        console.log("inner loop");
+        marked.push({
+         "type": "Feature", 
+         "geometry": { 
+           "type": "Point", 
+           "coordinates": [coords[1], coords[0]]
+         }, 
+         "properties": { 
+           "className": "actorMarker " + actorType + "ActorMarker " + actorType + "ActorMarker" + searchables[actorType][actor].id,
+           "type": actorType,
+           "actor": searchables[actorType][actor]
+          }
+        });
+      }
+    }
+  //}
+  var overlayLayers = Array();
+  for(var i in marked) {
+    overlayLayers.push(L.geoJSON(marked[i], {
+      pointToLayer: function(feature, latlng) {
+        return L.marker(latlng, {
+          icon: new L.Icon({className: feature.properties.className,
+          iconUrl: getIconImage(feature.properties.actor, feature.properties.type),
+          iconSize: [20,20],
+          iconAnchor: [10,20]
+          })
+        });
+      }
+    }).addTo(map));
+  }
+  return overlayLayers;
+}
+
+function getIconImage(actor, type) { //Gets image file for actor
+  var searchableName = dataTable[type][actor.id].name.replace(/ |-|\/|\'/gi, "")
+  var image = "images/" + type + "Icons/" + searchableName + ".png";
+  return image;
 }
 
 function addOverlay(overlayData) { //Add Region/Scene/Room dark clickable overlays
@@ -706,6 +794,12 @@ function initializeSearchInterface(type) { //Creates handlers and fills dropdown
     var shown = "";
     for(i in selected) {
       shown += '.' + type + 'Icon' + selected[i].id + ',';
+      if(type == 'container'){
+        shown += '.' + type + 'ActorMarker' + selected[i].id + ',';
+      }
+    }
+    if(type == 'container'){
+      $('.containerActorMarker').hide();
     }
     $(shown.slice(0,-1)).show();
     $('#enableRegions').attr('checked', false).trigger('change');
