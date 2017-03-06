@@ -3,7 +3,7 @@ body {
     padding: 0;
     margin: 0;
     color: white;
-    font: dialogueText;
+    font-family: dialogueText;
     text-shadow: 2px 2px black;
 }
 html, body, #map {
@@ -32,6 +32,10 @@ html, body, #map {
   border: none;
   box-shadow: none;
   font-family: hylianSerif, "Cambria", "Georgia";
+}
+
+.leaflet-popup-content {
+  text-shadow: none;
 }
 
 .leaflet-control-minimap {
@@ -417,6 +421,69 @@ div.profileSection{
   float: left;
 }
 
+
+/* Video Player */
+
+
+#videoPlayer {
+  z-index: 9001;
+  position: fixed;
+  bottom: -300px;
+  left: 250px;
+  color: white;
+  text-shadow: 2px 2px black;
+  text-align: left;
+  font-family: dialogueText;
+  background-color: rgba(4, 20, 56, 0.8);
+  width: 420px;
+  height: 256px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#videoPlayer a.close-modal {
+  position: absolute;
+  top: -8px;
+  border: solid 8px rgba(6, 80, 224, .85);
+  width: 0px;
+  height: 0px;
+  background: none;
+  right: 50%;
+  box-shadow: 0px 0px 8px 0px rgba(6, 80, 224, .85);
+  bottom: inherit;
+}
+
+.glitchContainer {
+  width: 100px;
+  height: auto;
+  margin-left: -75px;
+  text-align: center;
+  float: left;
+  display: inline-block;
+}
+
+.glitchIcon {
+  background-color: rgba(4, 20, 56, 0.8);
+  border: solid 1px rgba(8, 40, 112, 0.8);
+  width: 22px;
+  height: 22px;
+  line-height: 22px;
+  text-align: center;
+  font-family: dialogueText;
+  margin: 1px;
+  display: inline-block;
+}
+
+.glitchIcon:hover {
+  background-color: rgba(6, 30, 84, 0.8);
+  border: dashed 1px rgba(16, 80, 224, 0.8);
+}
+
+.leaflet-div-icon {
+  background: none;
+  border: none;
+}
+
 /* Drop Table visualization */
 
 div.dropTable {
@@ -450,7 +517,7 @@ div.dropTableSlot {
   text-align: center;
 }
 
-.leaflet-marker-icon.leaflet-interactive, .leaflet-image-layer.leaflet-interactive, .leaflet-pane > svg path.leaflet-interactive .markerContainer {
+.leaflet-marker-icon.leaflet-interactive.markerContainer, .leaflet-pane > svg path.leaflet-interactive .markerContainer {
   pointer-events: none;
 }
 

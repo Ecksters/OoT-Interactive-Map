@@ -26,6 +26,7 @@
               <li id="containerTab" class="tooltip" title="Crates, Pots, and Boxes"><a href="#containerTabSidebar" role="tab"><i class="fa fa-archive"></i></a></li>
               <li id="enemyTab" class="tooltip" title="Enemies"><a href="#enemyTabSidebar" role="tab"><i class="fa fa-bug"></i></a></li>
               <!-- <li id="entrancesTab" class="tooltip" title="Entrances and Exits"><a href="#entrancesTabSidebar" role="tab"><i class="fa fa-compass"></i></a></li> -->
+              <li id="glitchTab" class="tooltip" title="Glitch Database"><a href="#glitchTabSidebar" role="tab"><i class="fa fa-play-circle-o"></i></a></li>
               <li id="settingsTab" class="tooltip" title="Map Settings"><a href="#settingsTabSidebar" role="tab"><i class="fa fa-gear"></i></a></li>
           </ul>
 
@@ -169,6 +170,41 @@
             <h1 class="sidebar-header">Entrances and Exits<span class="sidebar-close"><i class="fa fa-caret-right"></i></span></h1>
             <h1>Coming Soon</h1>
         </div>
+        <!-- Glitches Tab -->
+        <div class="sidebar-pane" id="glitchTabSidebar">
+          <div id="glitchTabUpperText">
+            <h1 class="sidebar-header">Glitches - RainingChain's Glitch DB<span class="sidebar-close"><i class="fa fa-caret-right"></i></span></h1>
+            <p>This is only a partially implemented feature, to hide the icons you must reload your browser.</p>
+            <p>Click any of the icons on the map to view the associated video with the glitch. All data is maintained and access was given by RainingChain.
+            Check out his <a href="https://rainingchain.com/zelda/oot">glitch database</a> and contribute if you see a glitch missing.</p>
+            <p>Future updates will make viewing glitches by Room/Scene possible and should overall make it better, but I considered this feature cool enough
+            to push it out before I finished polishing much at all.</p>
+            <!--<ul class="tabs" id="glitch-tabs">
+              <li class="tab-link current" data-tab="glitchContextual">Location Glitches</li>
+              <li class="tab-link" id="glitchSearchTab" title="Search Updated" data-tab="glitchSearch">Glitch Search</li>
+            </ul>-->
+          </div>
+          
+          <!--<div id="glitchTabs">
+            <!-- Glitches Tab, Location Glitches subtab ->
+            <div id="glitchContextual" class="tab-content glitch-tab-content current">
+              <div id="glitchTableContainer" class="tableContainer"><table id="glitchTable"></table></div>
+            </div>
+            <!-- Glitches Tab, Search Glitches subtab ->
+            <div id="glitchSearch" class="tab-content glitch-tab-content">
+              <div id="glitchFilterContainer">
+                <label for="glitchFilter">
+                  Search: 
+                  <select class="selectDropdown" id="glitchFilter" multiple="multiple"></select>
+                </label>
+                <div style="width: 350px; margin-top: 10px;"><button id="glitchShowAll" class="button" style="background-color: rgba( 6, 80, 224, .6);">Show All</button>
+                <button id="glitchHideAll" class="button" style="background-color: rgba( 224, 6, 6, .6);">Hide All</button> <button id="glitchHighlightAll" class="button" style="background-color: rgba( 224,184, 10, .6);">Highlight</button></div>
+                <br />
+              </div>
+              <div id="glitchSearchContainer" class="tableContainer"><table id="glitchSearchTable"></table></div>
+            </div>
+          </div>-->
+        </div>
         <!-- Settings Tab -->
         <div class="sidebar-pane" id="settingsTabSidebar">
             <h1 class="sidebar-header">Settings<span class="sidebar-close"><i class="fa fa-caret-right"></i></span></h1>
@@ -219,6 +255,12 @@
 
     </div>
     
+    <div id="videoPlayer" style="">
+      <a class="close-modal" href="#"></a>
+      <iframe src="https://player.vimeo.com/video/1084537?api=1" id="video"
+      width="420" height="256" frameborder="0" allowfullscreen></iframe>
+    </div>
+    
     <div id="map" class="sidebar-map"></div>
     
     <div id="screenCenter">&#x25BC;</div>
@@ -233,8 +275,15 @@
     <script src="js/select2.min.js"></script>
     <script type="text/javascript" src="js/tooltipster.bundle.min.js"></script>
     <script type="text/javascript" src="js/jquery.modal.min.js"></script>
+    <script type="text/javascript" src="js/embedplayer.js"></script>
+    <script type="text/javascript" src="js/html5.js"></script>
+    <script type="text/javascript" src="js/twitch.js"></script>
+    <script type="text/javascript" src="js/youtube.js"></script>
       
     <script src="js/mapdata.js"></script>
+    <script src="http://rainingchain.com/zelda/Zdb.js"></script>
+    <script src="http://rainingchain.com/zelda/Zdb_oot.js"></script>
+    <script src="http://rainingchain.com/zelda/Zdb_oot3d.js"></script>
     <script src="js/scripts.js"></script>
     <script src="js/leaflet-hash.js"></script>
     

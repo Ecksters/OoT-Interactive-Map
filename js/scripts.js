@@ -79,10 +79,19 @@ function controlSwap(newTab) { //Logic for when user swaps between tabs on the s
     case 'container':
         $('#containerContextual').prepend($('#locationChangerContainer'));
       break;
+    case 'glitch':
+      $('#videoPlayer').animate({'bottom': '0px'});
+      glitchMarkersLayer = addGlitchOverlay();
+      /*$('#glitchContextual').prepend($('#locationChangerContainer'));*/
+      break;
     }
     fixSidebarHeight();
   }
 }
+
+$('#videoPlayer>a.close-modal').on('click', function(){
+  $('#videoPlayer').animate({'bottom': '-300px'});
+  });
 
 
 function updateView(data) { //Load map layers whenever a new map is selected(Angle, Age changes)
@@ -146,6 +155,9 @@ function fixSidebarHeight() { //Fixed to heights of utilities so that the sideba
   
   var containerTextHeight = $('#containerTabUpperText').outerHeight(true);
   var containerSearchHeight = $('#containerFilterContainer').outerHeight(true);
+  
+  var glitchTextHeight = $('#glitchTabUpperText').outerHeight(true);
+  var glitchSearchHeight = $('#glitchFilterContainer').outerHeight(true);
  
   
   $('#enemyTableContainer').css("height", sidebarHeight-(enemyTextHeight+locationChangerHeight)-50);
@@ -156,6 +168,9 @@ function fixSidebarHeight() { //Fixed to heights of utilities so that the sideba
   
   $('#containerTableContainer').css("height", sidebarHeight-(containerTextHeight+locationChangerHeight)-50);
   $('#containerSearchContainer').css("height", sidebarHeight-(containerTextHeight+containerSearchHeight)-50);
+  
+  $('#glitchTableContainer').css("height", sidebarHeight-(glitchTextHeight+locationChangerHeight)-50);
+  $('#glitchSearchContainer').css("height", sidebarHeight-(glitchTextHeight+glitchSearchHeight)-50);
 }
 
 $('.settingsToggle').on('change', function(){updateZoom()});
@@ -249,7 +264,8 @@ map.on('draw:created', function(e) { //Returns coordinates for shape/object crea
   if(layerType)
   {
     coords = e.layer.getLatLng();
-    coordsText = "[" + coords.lat + ", " + coords.lng + "]";
+    coordsText = "[" + coords.lng + ", " + coords.lat + "]";
+    //coordsText = map.project(new L.LatLng(coords.lat, coords.lng),15)
   }
   else
   {
@@ -259,9 +275,116 @@ map.on('draw:created', function(e) { //Returns coordinates for shape/object crea
       coordsText = coordsText + "[" + coords[0][i].lng + ", " + coords[0][i].lat + "], ";
     }
     coordsText = coordsText.substring(0, coordsText.length - 2);
+    //coordsText = map.project(new L.LatLng(coords[0][i].lng,coords[0][i].lat),15)
   }
   window.prompt("Copy to clipboard: Ctrl+C, Enter", "[[" + coordsText + "]]");
 });
+
+
+
+
+
+
+
+function addGlitchOverlay() { //Retrieves the top left corner's coordinates for every region, calculates glitch positions from RainingChain's DB relative to regions and palces them in containers on the map
+  var marked = Array();
+  for(var i in dataRegions[0]){
+    regionUpperLeft = map.project(new L.LatLng(dataRegions[0][i].Outline[0][1][1],dataRegions[0][i].Outline[0][1][0]),15);
+    if(Zdb.Game.DB.oot.mapObj[i]) {
+      var regionPositions = Zdb.Game.DB.oot.mapObj[i].positions;
+      var glitchMapZoom = Zdb.Game.DB.oot.mapObj[i].img.zoom;
+      var zmapID = -1;
+      for(k in Zdb.Game.DB.oot.maps) {
+        if(Zdb.Game.DB.oot.maps[k].id == i){
+          zmapID = k;
+          break;
+        }
+      }
+      for(var j in regionPositions) {
+        fixedCoordinates = map.unproject([regionUpperLeft.y+(regionPositions[j].y*glitchMapZoom), regionUpperLeft.x+(regionPositions[j].x*glitchMapZoom)], 15);
+        Zdb.Game.DB.oot.mapObj[i].glitchCount = 0;
+        marked.push({
+         "type": "Feature", 
+         "geometry": { 
+           "type": "Point", 
+           "coordinates": [-fixedCoordinates.lat, -fixedCoordinates.lng]
+         }, 
+         "properties": { 
+           "map": Zdb.Game.DB.oot.mapObj[i].id,
+           "position": regionPositions[j].id,
+           "className": "glitchContainer",
+           "class": "glitchMap" + Zdb.Game.DB.oot.mapObj[i].id + " glitch"
+          }
+        });
+      }
+    }
+  }
+  var overlayLayers = Array();
+  for(var i in marked) {
+    overlayLayers.push(L.geoJSON(marked[i], {
+      pointToLayer: function(feature, latlng) {
+        data = Zdb.Game.DB.oot.mapObj[feature.properties.map]
+        glitches = data.tricks.filter(function( trick ) {
+          return trick.positionId == feature.properties.position;
+        });
+        var glitchOutput = "<div class='glitchContainer'>";
+        for(j in glitches){
+          glitchCount = (Zdb.Game.DB.oot.mapObj[feature.properties.map].glitchCount+1);
+          glitchOutput += "<div data-glitchName='" + glitches[j].name + "' data-glitchId=" + glitches[j].id + " data-position=" + feature.properties.position + " data-map=" + feature.properties.map + " data-glitch=" + glitchCount + " class='glitchIcon " + feature.properties.class + glitchCount + "'>" + glitchCount + "</div>";
+          Zdb.Game.DB.oot.mapObj[feature.properties.map].glitchCount++;
+        }
+        return L.marker(latlng, {
+          icon: new L.divIcon({
+          
+          iconSize: null,
+          html: glitchOutput + "</div>"
+          }),
+          class: feature.properties.class,
+        });
+      }
+    }).addTo(map));
+  }
+  $('.glitchIcon').each(function(){
+    var glitchData = $(this).data();
+    var trick = "";
+    for(i in Zdb.Game.DB.oot.mapObj[glitchData.map].tricks){
+      if(Zdb.Game.DB.oot.mapObj[glitchData.map].tricks[i].id == glitchData.glitchid){
+        trick = Zdb.Game.DB.oot.mapObj[glitchData.map].tricks[i];
+        break;
+      }
+    }
+    $(this).tooltipster({
+      theme: ['tooltipster-shadow', 'tooltipster-shadow-customized'],
+      delay: 50,
+      content: glitchData.glitchname});
+    $(this).on('click', function(){
+      loadVideo(Zdb.Trick.getEmbedUrl(trick.urlInfo));
+      console.log(Zdb.Trick.getEmbedUrl(trick.urlInfo));
+    });
+  });
+  return overlayLayers;
+}
+
+
+
+
+
+function loadVideo(url) {
+	try {
+		var attrs = {
+			id: 'video',
+			src: url+"&autoplay=1",
+      allowfullscreen: 'allowfullscreen',
+      frameborder: '0',
+      width: '420',
+      height: '256'
+		};
+		$('iframe').attr(attrs).embedplayer();
+	}
+	catch (e) {
+		$('#error').text(String(e));
+	}
+}
 
 
 $(document).ready(function(){
@@ -275,6 +398,7 @@ $(document).ready(function(){
   $('#natureAllCatchables').on('click', function(){$('select#natureFilter').val([1,3,15,17,18]).trigger('change');});
   $('#natureAllClusters').on('click', function(){$('select#natureFilter').val([11,12]).trigger('change');});
   $('#screenCenter').tooltipster({theme: ['tooltipster-shadow', 'tooltipster-shadow-customized'], trigger: 'custom'});
+  initializeSubtab("glitch");
   fixSidebarHeight();
 });
 
@@ -304,6 +428,7 @@ var sceneLayer = addOverlay(areaLayersData.sceneData);
 var roomLayer = addOverlay(areaLayersData.roomData);
 var enemiesLayer = addIconOverlay(loadThumbnailContainers());
 var actorMarkersLayer = addActorMarkers();
+var glitchMarkersLayer;
 
 function loadAreas(mapName) { //Loads Rooms and Scenes onto the map with their respective data
   var sceneData = Array();
@@ -511,11 +636,9 @@ function addActorMarkers() { //Adds coordinate-specific markers to the map(all o
   //for(var i in actorTypes){
     var actorType = "container";
     for(actor in searchables[actorType]){
-      console.log(actor);
       coords = searchables[actorType][actor][currentMap.folder + "Coords"];
       if(typeof coords != 'undefined' && coords != ""){
         coords = coords.replace(/\s/g,'').split(',');
-        console.log("inner loop");
         marked.push({
          "type": "Feature", 
          "geometry": { 
