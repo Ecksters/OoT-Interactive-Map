@@ -360,7 +360,7 @@ function addGlitchOverlay() { //Retrieves the top left corner's coordinates for 
       content: glitchData.glitchname});
     $(this).on('click', function(){
       $('#videoPlayer').animate({'bottom': '0px'});
-      loadVideo(Zdb.Trick.getEmbedUrl(trick.urlInfo));
+      loadVideo(trick.urlInfo);
     });
   });
   return overlayLayers;
@@ -371,10 +371,12 @@ function addGlitchOverlay() { //Retrieves the top left corner's coordinates for 
 
 
 function loadVideo(url) {
+  var videoUrl = Zdb.Trick.getEmbedUrl(url);
+  console.log(url);
 	try {
 		var attrs = {
 			id: 'video',
-			src: url+"&autoplay=1",
+			src: videoUrl+"&autoplay=1&start=" + url.time,
       allowfullscreen: 'allowfullscreen',
       frameborder: '0',
       width: '420',
