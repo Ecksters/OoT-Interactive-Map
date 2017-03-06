@@ -460,6 +460,7 @@ div.profileSection{
   text-align: center;
   float: left;
   display: inline-block;
+  display: none;
 }
 
 .glitchIcon {

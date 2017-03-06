@@ -66,6 +66,7 @@ function controlSwap(newTab) { //Logic for when user swaps between tabs on the s
   if($(newTab.currentTarget).hasClass("active"))
   {
     var tab = newTab.currentTarget.id.slice(0, -3);
+    $('.glitchContainer').hide();
     switch(tab){
     case 'data':
         $('#' + tab + 'TabUpperText').append($('#locationChangerContainer'));
@@ -80,8 +81,7 @@ function controlSwap(newTab) { //Logic for when user swaps between tabs on the s
         $('#containerContextual').prepend($('#locationChangerContainer'));
       break;
     case 'glitch':
-      $('#videoPlayer').animate({'bottom': '0px'});
-      glitchMarkersLayer = addGlitchOverlay();
+      $('.glitchContainer').show();
       /*$('#glitchContextual').prepend($('#locationChangerContainer'));*/
       break;
     }
@@ -91,6 +91,7 @@ function controlSwap(newTab) { //Logic for when user swaps between tabs on the s
 
 $('#videoPlayer>a.close-modal').on('click', function(){
   $('#videoPlayer').animate({'bottom': '-300px'});
+  $('#videoPlayer>iframe').attr("src", "about:blank")
   });
 
 
@@ -358,8 +359,8 @@ function addGlitchOverlay() { //Retrieves the top left corner's coordinates for 
       delay: 50,
       content: glitchData.glitchname});
     $(this).on('click', function(){
+      $('#videoPlayer').animate({'bottom': '0px'});
       loadVideo(Zdb.Trick.getEmbedUrl(trick.urlInfo));
-      console.log(Zdb.Trick.getEmbedUrl(trick.urlInfo));
     });
   });
   return overlayLayers;
@@ -379,10 +380,10 @@ function loadVideo(url) {
       width: '420',
       height: '256'
 		};
-		$('iframe').attr(attrs).embedplayer();
+		$('iframe').attr(attrs);
 	}
 	catch (e) {
-		$('#error').text(String(e));
+		console.log(String(e));
 	}
 }
 
@@ -428,7 +429,7 @@ var sceneLayer = addOverlay(areaLayersData.sceneData);
 var roomLayer = addOverlay(areaLayersData.roomData);
 var enemiesLayer = addIconOverlay(loadThumbnailContainers());
 var actorMarkersLayer = addActorMarkers();
-var glitchMarkersLayer;
+var glitchMarkersLayer = addGlitchOverlay();
 
 function loadAreas(mapName) { //Loads Rooms and Scenes onto the map with their respective data
   var sceneData = Array();
