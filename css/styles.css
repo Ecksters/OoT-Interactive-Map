@@ -140,7 +140,7 @@ html, body, #map {
     color: #AAAAAA;
 }
 
-/* Age Selection interface */
+/* Age and Angle Selection interfaces */
 
 #ageToggle{
   height: 100px;
@@ -174,6 +174,7 @@ html, body, #map {
   border-radius: 5px;
   margin-bottom: 20px;
   margin-left: 3px;
+  float: left;
 }
 
 #ageToggleContainer > img{
@@ -190,6 +191,59 @@ html, body, #map {
 #ageToggleContainer:active {
     box-shadow: 0px 0px 30px 0px rgba(255, 255, 255, 0.8);
     background: rgba(209, 147, 0, 0.8);
+}
+
+
+#angleToggle{
+  height: 75px;
+  background: rgba(0,0,0,.7);
+  width: 76px;
+  position: absolute;
+  top: 76px;
+  left: 0px;
+  z-index: 5000;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.8);
+  border-radius: 3px;
+  margin-left: 3px;
+  margin-bottom: 30px;
+  margin-top: -7px;
+}
+
+#angleToggleSelection{
+  height: 75px;
+  width: 73px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 5000;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.8);
+  border-radius: 3px;
+  margin-left: 3px;
+  border-left: 3px solid white;
+  margin-top: -7px;
+}
+
+#angleToggleContainer{
+  cursor: pointer;
+  height: 150px;
+  border-radius: 5px;
+  margin-top: -7px;
+  margin-left: 3px;
+  float: left;
+}
+
+#angleToggleContainer > img{
+  border-radius: 5px;
+}
+
+#angleToggleContainer:hover{
+    box-shadow: 0px 0px 15px 0px rgba(255, 253, 195, 0.8);
+    background: rgba(255, 255, 255, 0.8);
+}
+
+#angleToggleContainer:active {
+    box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.8);
 }
 
 /*Tooltipster Shadow theme, with customizations */
@@ -399,6 +453,10 @@ td > div {
   width: 650px;
   max-width: 800px;
   padding: 20px;
+}
+
+.profileSection {
+  word-break: break-word;
 }
 
 .blocker {

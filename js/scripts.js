@@ -1,15 +1,34 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //**************************************************************************************************************************************************************
+// Interactive OoT Map Javascript
+// Yes, I know this code is ugly as sin, it uses global variables left and right, is poorly optimized, and would make any good functional Javascript programmer
+// cry. This map project initally was only intended to be a fun test of Leaflet's map capabilities, it quickly became a much larger project than originally
+// intended, and I was more interested in simply getting features done than making beautiful code. The reality is this is a lot of hardcoded data in an
+// extremely old game, so I don't expect to be updating it often.
+// If you are here to work on it, I sincerely apologize, I know it is disgusting, but it works.
+//**************************************************************************************************************************************************************
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//**************************************************************************************************************************************************************
 // Map Controls and Basic Initialization
 //**************************************************************************************************************************************************************
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   
 var layers = {
-     childAngledLayer: L.tileLayer('maps/childAngled/{z}/map_tile_{x}_{y}.png', {
+    childAngledLayer: L.tileLayer('maps/childAngled/{z}/map_tile_{x}_{y}.png', {
     attribution: 'Child Angled View',
   }),
-     adultAngledLayer: L.tileLayer('maps/adultAngled/{z}/map_tile_{x}_{y}.png', {
+    adultAngledLayer: L.tileLayer('maps/adultAngled/{z}/map_tile_{x}_{y}.png', {
     attribution: 'Adult Angled View',
+  }),
+    childTopLayer: L.tileLayer('maps/childTop/{z}/map_tile_{x}_{y}.png', {
+    attribution: 'Child Top View',
+  }),
+    adultTopLayer: L.tileLayer('maps/adultTop/{z}/map_tile_{x}_{y}.png', {
+    attribution: 'Adult Top View',
   })
 };
 
@@ -18,7 +37,9 @@ var plurals = {"enemy": "Enemies", "nature": "Flora or Rocks", "container": "Con
   
 var layerData = {
 "Child Angled View": {"id": 0, "southWest": [-13000, 25000], "northEast": [40000, -8000], "folder": "childAngled", "zoom": 11},
-"Adult Angled View": {"id": 1, "southWest": [0, 15000], "northEast": [15000, 0], "folder": "adultAngled", "zoom": 11}
+"Adult Angled View": {"id": 1, "southWest": [0, 15000], "northEast": [15000, 0], "folder": "adultAngled", "zoom": 11},
+"Child Top View": {"id": 2, "southWest": [0, 15000], "northEast": [15000, 0], "folder": "childTop", "zoom": 10},
+"Adult Top View": {"id": 3, "southWest": [0, 15000], "northEast": [15000, 0], "folder": "adultTop", "zoom": 10}
 };
   
 var currentMap = layerData["Child Angled View"];
@@ -52,11 +73,25 @@ $('.tooltip').tooltipster({theme: ['tooltipster-shadow', 'tooltipster-shadow-cus
 $('#projectInfo').tooltipster('open');
 $('#projectInfo').tooltipster('close');
 var mapAdult = false;
+var mapSide = true;
 map.addLayer(layers.childAngledLayer);
  
 function changeAge() { //Swap age map out
     mapAdult = !mapAdult;
     // toggle the layer
+    refreshMap();
+}
+
+function changeAngle() { //Swap angle map out
+    mapSide = !mapSide;
+    // toggle the layer
+    if(!mapSide){
+      sidebar.close();
+      $('#mapTabs > li').addClass('disabled');
+    }
+    else {
+      $('#mapTabs > li').removeClass('disabled');
+    }
     refreshMap();
 }
 
@@ -104,6 +139,7 @@ function updateView(data) { //Load map layers whenever a new map is selected(Ang
 //  enemiesLayer[0].remove(); Not removing enemies layer for now, until Top-Down view is added, it lags if Show All is selected
 //  enemiesLayer[1].remove(); Will add logic to check map angle changes for this later
 
+if(mapSide){
   regionLayer = addOverlay(loadRegions(0, dataRegions)); //Old Region Code, layerData[data.name]["id"], saved for when we add top
   addLabel(regionLayer);
   areaLayersData = loadAreas(currentMap.folder);
@@ -111,21 +147,29 @@ function updateView(data) { //Load map layers whenever a new map is selected(Ang
   roomLayer = addOverlay(areaLayersData.roomData);
 //  enemiesLayer = addIconOverlay(loadEnemies());
 //  $('#enemyFilter').trigger('change');
-  
+}
   updateZoom();
   
   miniMap.changeLayer(new L.TileLayer('maps/' + currentMap["folder"] + '/{z}/map_tile_{x}_{y}.png', {minZoom: 8, maxZoom: 10, attribution: "minimap"}));
 }
 
 function refreshMap() { //Reloads the map, properly selecting Child/Adult
-      if (mapAdult) {
-        map.removeLayer(layers.childAngledLayer);
+      map.removeLayer(layers.childAngledLayer);
+      map.removeLayer(layers.adultAngledLayer);
+      map.removeLayer(layers.childTopLayer);
+      map.removeLayer(layers.adultTopLayer);
+      if (mapAdult && mapSide) {
         map.addLayer(layers.adultAngledLayer);
         updateView({layer: layers.adultAngledLayer, name: "Adult Angled View"})
-    } else {
-        map.removeLayer(layers.adultAngledLayer);
+    } else if (!mapAdult && mapSide) {
         map.addLayer(layers.childAngledLayer);
         updateView({layer: layers.childAngledLayer, name: "Child Angled View"})
+    } else if (mapAdult && !mapSide) {
+        map.addLayer(layers.adultTopLayer);
+        updateView({layer: layers.adultTopLayer, name: "Adult Top View"})
+    } else if (!mapAdult && !mapSide) {
+        map.addLayer(layers.childTopLayer);
+        updateView({layer: layers.childTopLayer, name: "Child Top View"})
     }
 
 }
@@ -230,8 +274,30 @@ function updateZoom() { // All checks that occur each time the viewer zooms in/o
 var sidebar = L.control.sidebar('sidebar', {position: 'right'}).addTo(map);
 
 var miniMapTiles = new L.TileLayer('maps/' + currentMap.folder + '/{z}/map_tile_{x}_{y}.png', {minZoom: 8, maxZoom: 10, attribution: "minimap"});
+
+L.control.custom({ //Initialize Map Angle Switcher
+    position: 'bottomleft',
+    content : '<div id="angleToggleContainer"><img src="images/angleToggle.png"><div id="angleToggle"></div><div id="angleToggleSelection"></div></div>',
+    classes : '',
+    style   :
+    {
+        margin: '10px',
+        padding: '0px 0 0 0',
+        cursor: 'pointer',
+        clear: 'none'
+    },
+    events:
+    {
+        click: function(data)
+        {
+            changeAngle();
+            $('#angleToggle').animate({top: mapSide*76+"px"}, 200)
+            $('#angleToggleSelection').animate({top: !mapSide*76+"px"}, 200)
+        }
+    }
+}).addTo(map);
+
 var miniMap = new L.Control.MiniMap(miniMapTiles, {position: 'bottomleft', width: 200}).addTo(map);
-  
   
 L.control.custom({ //Initialize Link Age Switcher
     position: 'bottomleft',
@@ -372,11 +438,10 @@ function addGlitchOverlay() { //Retrieves the top left corner's coordinates for 
 
 function loadVideo(url) {
   var videoUrl = Zdb.Trick.getEmbedUrl(url);
-  console.log(url);
 	try {
 		var attrs = {
 			id: 'video',
-			src: videoUrl+"&autoplay=1&start=" + url.time,
+			src: videoUrl+"&autoplay=1&rel=0&start=" + url.time,
       allowfullscreen: 'allowfullscreen',
       frameborder: '0',
       width: '420',
