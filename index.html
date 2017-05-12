@@ -2,7 +2,7 @@
 <html>
   <head>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
-    <link rel="stylesheet" href="css/leaflet.draw.css" />
+    <!--<link rel="stylesheet" href="css/leaflet.draw.css" />-->
     <link rel="stylesheet" href="css/Control.MiniMap.min.css" />
     <link rel="stylesheet" href="css/leaflet-sidebar.css" />
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -25,7 +25,7 @@
               <li id="natureTab" class="tooltip" title="Grass, Rocks, and Trees"><a href="#natureTabSidebar" role="tab"><i class="fa fa-tree"></i></a></li>
               <li id="containerTab" class="tooltip" title="Crates, Pots, and Boxes"><a href="#containerTabSidebar" role="tab"><i class="fa fa-archive"></i></a></li>
               <li id="enemyTab" class="tooltip" title="Enemies"><a href="#enemyTabSidebar" role="tab"><i class="fa fa-bug"></i></a></li>
-              <!-- <li id="entrancesTab" class="tooltip" title="Entrances and Exits"><a href="#entrancesTabSidebar" role="tab"><i class="fa fa-compass"></i></a></li> -->
+              <!--<li id="entrancesTab" class="tooltip" title="Entrances and Exits"><a href="#entrancesTabSidebar" role="tab"><i class="fa fa-compass"></i></a></li>-->
               <li id="glitchTab" class="tooltip" title="Glitch Database"><a href="#glitchTabSidebar" role="tab"><i class="fa fa-play-circle-o"></i></a></li>
               <li id="settingsTab" class="tooltip" title="Map Settings"><a href="#settingsTabSidebar" role="tab"><i class="fa fa-gear"></i></a></li>
           </ul>
@@ -165,45 +165,60 @@
             </div>
           </div>
         </div>
-        <!-- Entrances Tab -->
+        <!-- Entrances Tab 
         <div class="sidebar-pane" id="entrancesTabSidebar">
+          <div id="entranceTabUpperText">
             <h1 class="sidebar-header">Entrances and Exits<span class="sidebar-close"><i class="fa fa-caret-right"></i></span></h1>
-            <h1>Coming Soon</h1>
-        </div>
+            <p>Click a room find out all in-game entrances in that room using the tools below</p>
+            <p>Alternatively, you can  search for a specific entrance or number of entrances to have them marked across the map.</p>
+
+            <ul class="tabs" id="entrance-tabs">
+              <li class="tab-link current" data-tab="entranceContextual">Entrances</li>
+              <li class="tab-link" id="entranceSearchTab" title="Search Updated" data-tab="entranceSearch">Exits</li>
+              <li class="tab-link" id="entrancePathTab" data-tab="entrancePath">Path Finder</li>
+            </ul>
+          </div> 
+          
+          <div id="entranceTabs">
+            <!-- Entrances/Exits Tab, Entrances subtab 
+            <div id="entranceContextual" class="tab-content entrance-tab-content current">
+              <div id="entranceTableContainer" class="tableContainer"><table id="entranceTable"></table></div>
+            </div>
+            <!-- Entrances/Exits Tab, Exits subtab 
+            <div id="entranceSearch" class="tab-content entrance-tab-content">
+              <div id="entranceFilterContainer">
+                <label for="entranceFilter">
+                  Search: 
+                  <select class="selectDropdown" id="entranceFilter" multiple="multiple"></select>
+                </label>
+                <div style="width: 350px; margin-top: 10px;"><button id="entranceShowAll" class="button" style="background-color: rgba( 6, 80, 224, .6);">Show All</button>
+                <button id="entranceHideAll" class="button" style="background-color: rgba( 224, 6, 6, .6);">Hide All</button> <button id="entranceHighlightAll" class="button" style="background-color: rgba( 224,184, 10, .6);">Highlight</button></div>
+                <br />
+              </div>
+              <div id="entranceSearchContainer" class="tableContainer"><table id="entranceSearchTable"></table></div>
+            </div>
+            <!-- Entrances/Exits Tab, Pathfinder subtab
+            <div id="entrancePath" class="tab-content entrance-tab-content">
+              
+            </div>
+          </div>
+        </div>-->
         <!-- Glitches Tab -->
         <div class="sidebar-pane" id="glitchTabSidebar">
           <div id="glitchTabUpperText">
             <h1 class="sidebar-header">Glitches - RainingChain's Glitch DB<span class="sidebar-close"><i class="fa fa-caret-right"></i></span></h1>
-            <p>This is only a partially implemented feature.</p>
-            <p>Click any of the icons on the map to view the associated video with the glitch. All data is maintained and access was given by RainingChain.
+            <p>Click any of the icons on the map to view the associated video with the glitch. You may need to zoom in to click some
+            of the boxes. All data is maintained and access was given by RainingChain.
             Check out his <a href="https://rainingchain.com/zelda/oot">glitch database</a> and contribute if you see a glitch missing.</p>
-            <p>Future updates will make viewing glitches by Room/Scene possible and should overall make it better, but I considered this feature cool enough
-            to push it out before I finished polishing much at all.</p>
-            <!--<ul class="tabs" id="glitch-tabs">
-              <li class="tab-link current" data-tab="glitchContextual">Location Glitches</li>
-              <li class="tab-link" id="glitchSearchTab" title="Search Updated" data-tab="glitchSearch">Glitch Search</li>
-            </ul>-->
+            
+            <h3>Viewing glitches for:</h3>
+            <form id="gameToggle">
+              <input type="radio" name="game" value="oot" checked> Original Ocarina of Time<br>
+              <input type="radio" name="game" value="oot3d"> Ocarina of Time 3D<br>
+            </form>
           </div>
           
-          <!--<div id="glitchTabs">
-            <!-- Glitches Tab, Location Glitches subtab ->
-            <div id="glitchContextual" class="tab-content glitch-tab-content current">
-              <div id="glitchTableContainer" class="tableContainer"><table id="glitchTable"></table></div>
-            </div>
-            <!-- Glitches Tab, Search Glitches subtab ->
-            <div id="glitchSearch" class="tab-content glitch-tab-content">
-              <div id="glitchFilterContainer">
-                <label for="glitchFilter">
-                  Search: 
-                  <select class="selectDropdown" id="glitchFilter" multiple="multiple"></select>
-                </label>
-                <div style="width: 350px; margin-top: 10px;"><button id="glitchShowAll" class="button" style="background-color: rgba( 6, 80, 224, .6);">Show All</button>
-                <button id="glitchHideAll" class="button" style="background-color: rgba( 224, 6, 6, .6);">Hide All</button> <button id="glitchHighlightAll" class="button" style="background-color: rgba( 224,184, 10, .6);">Highlight</button></div>
-                <br />
-              </div>
-              <div id="glitchSearchContainer" class="tableContainer"><table id="glitchSearchTable"></table></div>
-            </div>
-          </div>-->
+
         </div>
         <!-- Settings Tab -->
         <div class="sidebar-pane" id="settingsTabSidebar">
@@ -223,15 +238,12 @@
             to most of the useful internal game data that we're aware of. Using this data, the hope is that runners and perhaps just Ocarina of Time
             enthusiasts will have better access to the technical information about the game.</p>
             
-            <p>Prior to this project, most game data was stored in relatively cryptic spreadsheets and pastebins. Building on the backs of the many
-            talented contributors to these data sources, this map should hopefully make their work accessible to a much wider audience.</p>
-            
-            <p>Please visit the <a href="https://trello.com/b/DSrWWi3Z/ocarina-of-time-interactive-map">Trello board</a> to see a listing of upcoming
-            and feel free to suggest anything you think should be added.</p>
+            <p>Building on the backs of the many talented contributors to these data sources, this map should hopefully make their work accessible to a much wider audience.</p>
             
             <p>This project wouldn't be possible without the amazing resources provided by the various Ocarina of Time hackers out there:</p>
             <h3>Beautiful <a href="http://www.vgmaps.com/Atlas/N64/index.htm#LegendOfZeldaOcarinaOfTime">Map Images</a> by Peardian</h3>
             <h3>Data extraction from game ROM provided by MzxRules</h3>
+            <h3>And the amazing <a href="https://rainingchain.com/zelda/oot">glitch database</a> from RainingChain</h3>
             <h3>And everyone who has contributed to the well-organized data sheets about Ocarina of Time</h3>
             <a href="#infoPopup" rel="modal:open" id="openModal" style="display: none" >Open Modal</a>
         </div>

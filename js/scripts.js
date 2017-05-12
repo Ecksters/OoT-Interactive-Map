@@ -62,8 +62,8 @@ map.setMaxBounds(mapBounds);
 
 var zoomHome = L.Control.zoomHome();
 zoomHome.addTo(map);
-var drawControl = new L.Control.Draw();
-map.addControl(drawControl);
+//var drawControl = new L.Control.Draw();
+//map.addControl(drawControl);
 
 $('.tooltip').tooltipster({theme: ['tooltipster-shadow', 'tooltipster-shadow-customized'],
                             side: ['left', 'top', 'bottom', 'right'],
@@ -115,6 +115,9 @@ function controlSwap(newTab) { //Logic for when user swaps between tabs on the s
     case 'container':
         $('#containerContextual').prepend($('#locationChangerContainer'));
       break;
+    case 'entrance':
+        //$('#entranceContextual').prepend($('#locationChangerContainer'));
+      break;
     case 'glitch':
       $('.glitchContainer').show();
       /*$('#glitchContextual').prepend($('#locationChangerContainer'));*/
@@ -123,6 +126,22 @@ function controlSwap(newTab) { //Logic for when user swaps between tabs on the s
     fixSidebarHeight();
   }
 }
+
+$('#gameToggle').change(function(){
+    $('.glitchIcon').each(function(){
+      $(this).tooltipster('destroy');
+    });
+    for(var i in glitchMarkersLayer){
+      glitchMarkersLayer[i].remove();
+    }
+    glitchMarkersLayer = addGlitchOverlay();
+    $('.glitchContainer').show();
+  }
+);
+
+
+
+
 
 $('#videoPlayer>a.close-modal').on('click', function(){
   $('#videoPlayer').animate({'bottom': '-300px'});
@@ -353,23 +372,24 @@ map.on('draw:created', function(e) { //Returns coordinates for shape/object crea
 
 
 
-function addGlitchOverlay() { //Retrieves the top left corner's coordinates for every region, calculates glitch positions from RainingChain's DB relative to regions and palces them in containers on the map
+function addGlitchOverlay() { //Retrieves the top left corner's coordinates for every region, calculates glitch positions from RainingChain's DB relative to regions and places them in containers on the map
   var marked = Array();
+  glitchDb = Zdb.Game.DB[$('input[name="game"]:checked').val()];
   for(var i in dataRegions[0]){
     regionUpperLeft = map.project(new L.LatLng(dataRegions[0][i].Outline[0][1][1],dataRegions[0][i].Outline[0][1][0]),15);
-    if(Zdb.Game.DB.oot.mapObj[i]) {
-      var regionPositions = Zdb.Game.DB.oot.mapObj[i].positions;
-      var glitchMapZoom = Zdb.Game.DB.oot.mapObj[i].img.zoom;
+    if(glitchDb.mapObj[i]) {
+      var regionPositions = glitchDb.mapObj[i].positions;
+      var glitchMapZoom = glitchDb.mapObj[i].img.zoom;
       var zmapID = -1;
-      for(k in Zdb.Game.DB.oot.maps) {
-        if(Zdb.Game.DB.oot.maps[k].id == i){
+      for(k in glitchDb.maps) {
+        if(glitchDb.maps[k].id == i){
           zmapID = k;
           break;
         }
       }
       for(var j in regionPositions) {
         fixedCoordinates = map.unproject([regionUpperLeft.y+(regionPositions[j].y*glitchMapZoom), regionUpperLeft.x+(regionPositions[j].x*glitchMapZoom)], 15);
-        Zdb.Game.DB.oot.mapObj[i].glitchCount = 0;
+        glitchDb.mapObj[i].glitchCount = 0;
         marked.push({
          "type": "Feature", 
          "geometry": { 
@@ -377,10 +397,10 @@ function addGlitchOverlay() { //Retrieves the top left corner's coordinates for 
            "coordinates": [-fixedCoordinates.lat, -fixedCoordinates.lng]
          }, 
          "properties": { 
-           "map": Zdb.Game.DB.oot.mapObj[i].id,
+           "map": glitchDb.mapObj[i].id,
            "position": regionPositions[j].id,
            "className": "glitchContainer",
-           "class": "glitchMap" + Zdb.Game.DB.oot.mapObj[i].id + " glitch"
+           "class": "glitchMap" + glitchDb.mapObj[i].id + " glitch"
           }
         });
       }
@@ -390,15 +410,15 @@ function addGlitchOverlay() { //Retrieves the top left corner's coordinates for 
   for(var i in marked) {
     overlayLayers.push(L.geoJSON(marked[i], {
       pointToLayer: function(feature, latlng) {
-        data = Zdb.Game.DB.oot.mapObj[feature.properties.map]
+        data = glitchDb.mapObj[feature.properties.map]
         glitches = data.tricks.filter(function( trick ) {
           return trick.positionId == feature.properties.position;
         });
         var glitchOutput = "<div class='glitchContainer'>";
         for(j in glitches){
-          glitchCount = (Zdb.Game.DB.oot.mapObj[feature.properties.map].glitchCount+1);
+          glitchCount = (glitchDb.mapObj[feature.properties.map].glitchCount+1);
           glitchOutput += "<div data-glitchName='" + glitches[j].name + "' data-glitchId=" + glitches[j].id + " data-position=" + feature.properties.position + " data-map=" + feature.properties.map + " data-glitch=" + glitchCount + " class='glitchIcon " + feature.properties.class + glitchCount + "'>" + glitchCount + "</div>";
-          Zdb.Game.DB.oot.mapObj[feature.properties.map].glitchCount++;
+          glitchDb.mapObj[feature.properties.map].glitchCount++;
         }
         return L.marker(latlng, {
           icon: new L.divIcon({
@@ -414,9 +434,9 @@ function addGlitchOverlay() { //Retrieves the top left corner's coordinates for 
   $('.glitchIcon').each(function(){
     var glitchData = $(this).data();
     var trick = "";
-    for(i in Zdb.Game.DB.oot.mapObj[glitchData.map].tricks){
-      if(Zdb.Game.DB.oot.mapObj[glitchData.map].tricks[i].id == glitchData.glitchid){
-        trick = Zdb.Game.DB.oot.mapObj[glitchData.map].tricks[i];
+    for(i in glitchDb.mapObj[glitchData.map].tricks){
+      if(glitchDb.mapObj[glitchData.map].tricks[i].id == glitchData.glitchid){
+        trick = glitchDb.mapObj[glitchData.map].tricks[i];
         break;
       }
     }
@@ -454,6 +474,86 @@ function loadVideo(url) {
 	}
 }
 
+/*
+
+function addExitOverlay() { //Adds overlay for Exit polygons
+  var exitData = Array();
+  var coords = currentMap.folder + "Coords";
+  for(var j in exits)
+  {
+    var exit = exits[j];
+    if(Array.isArray(exit[coords]))
+    {
+      for(var k in exit[coords]){
+        currentSection = exit[coords][k];
+        exitData.push(
+        {
+             "type": "Feature", 
+             "geometry": { 
+               "type": "Polygon", 
+               "coordinates": [currentSection]
+             }, 
+             "properties": { 
+               "name": exit.to,
+               "className": "exit"+exit.exit+"s"+exit.scene+ " exit",
+               "type": "exit",
+               "scene": exit.scene,
+               "id": exit.id
+              } 
+        });
+      }
+    }
+  }
+  
+  overlayLayer = L.geoJSON(exitData, {
+      style: function(feature) {
+        return {
+        "color": "transparent",
+        "weight": 0,
+        "fill": "transparent",
+        "lineJoin":  'round',
+        "fill-opacity": "0",
+        "className": feature.properties.className
+        };
+      },
+      onEachFeature: function (feature, layer) {
+        layer.on('mouseout', function () {
+            $('.'+feature.properties.className.split(" ")[0]).attr({"fill": "transparent", "fill-opacity": "0"});
+        });
+        layer.on('mouseover', function () {
+          if(map.getZoom() < 14 || feature.properties.type != "region"){
+            $('.'+feature.properties.className.split(" ")[0]).attr({"fill": "black", "fill-opacity": "0.2"});
+            map.removeLayer(exitDirection);
+            var coords = getBounds().getCenter()
+          }
+          var newView = "Hover Over an Area<br><br>";
+          newView = "Scene " + feature.properties.id + ": " + feature.properties.name + "<br><br>";
+          
+          $("#locationChangerPreview").html(newView);
+        });
+        layer.on('mousedown', function () {
+          $('.'+feature.properties.className.split(" ")[0]).attr({"fill": "black", "fill-opacity": "0.6"});
+        });
+        layer.on('mouseup', function () {
+          $('.'+feature.properties.className.split(" ")[0]).attr({"fill": "transparent", "fill-opacity": "0"});
+        });
+        layer.on('click', function () {
+          $('.'+feature.properties.className.split(" ")[0]).attr({"fill": "transparent", "fill-opacity": "0"});
+          map.fitBounds(layer.getBounds());
+          if(feature.properties.type == "scene")
+          {
+            updateLocationChanger(feature.properties.id, -1)
+          }
+          else if(feature.properties.type == "room")
+          {
+            updateLocationChanger(feature.properties.scene, feature.properties.id)
+          }
+        });
+      }
+  }).addTo(map);
+  return overlayLayer;
+}
+*/
 
 $(document).ready(function(){
   for(var i in actorTypes) {
@@ -466,6 +566,7 @@ $(document).ready(function(){
   $('#natureAllCatchables').on('click', function(){$('select#natureFilter').val([1,3,15,17,18]).trigger('change');});
   $('#natureAllClusters').on('click', function(){$('select#natureFilter').val([11,12]).trigger('change');});
   $('#screenCenter').tooltipster({theme: ['tooltipster-shadow', 'tooltipster-shadow-customized'], trigger: 'custom'});
+  //initializeSubtab("entrance");
   initializeSubtab("glitch");
   fixSidebarHeight();
 });
@@ -491,17 +592,19 @@ var regionLayerData = loadRegions(0, dataRegions);
 var regionLayer = addOverlay(regionLayerData);
 addLabel(regionLayer);
 
-var areaLayersData = loadAreas(currentMap.folder)
+var areaLayersData = loadAreas();
 var sceneLayer = addOverlay(areaLayersData.sceneData);
 var roomLayer = addOverlay(areaLayersData.roomData);
+//var exitsLayer = addExitOverlay();
 var enemiesLayer = addIconOverlay(loadThumbnailContainers());
 var actorMarkersLayer = addActorMarkers();
 var glitchMarkersLayer = addGlitchOverlay();
+//var exitDirection;
 
-function loadAreas(mapName) { //Loads Rooms and Scenes onto the map with their respective data
+function loadAreas() { //Loads Rooms and Scenes onto the map with their respective data
   var sceneData = Array();
   var roomData = Array();
-  var coords = mapName + "Coords";
+  var coords = currentMap.folder + "Coords";
   for(var i in mapData)
   {
     var currentScene = mapData[i];
