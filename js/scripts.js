@@ -34,6 +34,7 @@ var layers = {
 
 var actorTypes = ['enemy', 'nature', 'container'];
 var plurals = {"enemy": "Enemies", "nature": "Flora or Rocks", "container": "Containers"};
+
   
 var layerData = {
 "Child Angled View": {"id": 0, "southWest": [-13000, 25000], "northEast": [40000, -8000], "folder": "childAngled", "zoom": 11},
@@ -145,8 +146,8 @@ $('#gameToggle').change(function(){
 
 $('#videoPlayer>a.close-modal').on('click', function(){
   $('#videoPlayer').animate({'bottom': '-300px'});
-  $('#videoPlayer>iframe').attr("src", "about:blank")
-  });
+  $('#videoPlayer>iframe').attr("src", "about:blank");
+});
 
 
 function updateView(data) { //Load map layers whenever a new map is selected(Angle, Age changes)
@@ -457,7 +458,7 @@ function addGlitchOverlay() { //Retrieves the top left corner's coordinates for 
 
 
 function loadVideo(url) {
-  var videoUrl = Zdb.Trick.getEmbedUrl(url);
+  var videoUrl = url.getEmbedUrl();
 	try {
 		var attrs = {
 			id: 'video',
@@ -569,6 +570,12 @@ $(document).ready(function(){
   //initializeSubtab("entrance");
   initializeSubtab("glitch");
   fixSidebarHeight();
+  if (!localStorage['firstTime']) {
+     localStorage['firstTime'] = 'no';
+     $('#videoPlayer').animate({'bottom': '0px'});
+      loadVideo(Zdb.UrlInfo.create('https://www.youtube.com/embed/8Kax18LLsQg'));
+  }
+
 });
 
 function initializeSubtab(type) {
