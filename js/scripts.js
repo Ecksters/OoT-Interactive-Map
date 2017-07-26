@@ -2,7 +2,7 @@
 //**************************************************************************************************************************************************************
 // Interactive OoT Map Javascript
 // Yes, I know this code is ugly as sin, it uses global variables left and right, is poorly optimized, and would make any good functional Javascript programmer
-// cry. This map project initally was only intended to be a fun test of Leaflet's map capabilities, it quickly became a much larger project than originally
+// cry. This map project initially was only intended to be a fun test of Leaflet's map capabilities, it quickly became a much larger project than originally
 // intended, and I was more interested in simply getting features done than making beautiful code. The reality is this is a lot of hardcoded data in an
 // extremely old game, so I don't expect to be updating it often.
 // If you are here to work on it, I sincerely apologize, I know it is disgusting, but it works.
@@ -573,7 +573,7 @@ $(document).ready(function(){
   if (!localStorage['firstTime']) {
      localStorage['firstTime'] = 'no';
      $('#videoPlayer').animate({'bottom': '0px'});
-      loadVideo(Zdb.UrlInfo.create('https://www.youtube.com/embed/8Kax18LLsQg'));
+      loadVideo(Zdb.UrlInfo.create('https://www.youtube.com/embed/8DCS2XtMwOg'));
   }
 
 });
