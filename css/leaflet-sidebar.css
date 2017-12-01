@@ -42,6 +42,7 @@
     padding: 0; }
     .sidebar-tabs > li, .sidebar-tabs > ul > li {
       width: 100%;
+	  list-style-type: none;
       height: 40px;
       color: #333;
       font-size: 12pt;
