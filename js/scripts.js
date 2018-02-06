@@ -575,7 +575,7 @@ $(document).ready(function(){
      $('#videoPlayer').animate({'bottom': '0px'});
       loadVideo(Zdb.UrlInfo.create('https://www.youtube.com/embed/8DCS2XtMwOg'));
 	 $('.tooltip').tooltipster('open');
-	 setTimeout(function() { $('.tooltip').tooltipster('close'); }, 15000);
+	 setTimeout(function() { $('.tooltip').tooltipster('close'); }, 25000);
   }
 
 });
