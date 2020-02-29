@@ -372,7 +372,7 @@ map.on('draw:created', function(e) { //Returns coordinates for shape/object crea
 
 
 
-
+/*
 function addGlitchOverlay() { //Retrieves the top left corner's coordinates for every region, calculates glitch positions from RainingChain's DB relative to regions and places them in containers on the map
   var marked = Array();
   glitchDb = Zdb.Game.DB[$('input[name="game"]:checked').val()];
@@ -451,7 +451,7 @@ function addGlitchOverlay() { //Retrieves the top left corner's coordinates for 
     });
   });
   return overlayLayers;
-}
+} */
 
 
 
@@ -607,7 +607,7 @@ var roomLayer = addOverlay(areaLayersData.roomData);
 //var exitsLayer = addExitOverlay();
 var enemiesLayer = addIconOverlay(loadThumbnailContainers());
 var actorMarkersLayer = addActorMarkers();
-var glitchMarkersLayer = addGlitchOverlay();
+//var glitchMarkersLayer = addGlitchOverlay();
 //var exitDirection;
 
 function loadAreas() { //Loads Rooms and Scenes onto the map with their respective data
@@ -1300,7 +1300,7 @@ function updateModalActor(actor, type) { // Updates the popup with actor details
     for(var i in table){
       if(table[i] > 0){
         dropTable += "<div class='dropTableSlot' style='background: " + dropTableColors[i].color + "; width: " + table[i]*5.55 + "%;'><div class='fractionTop'>" + table[i] + 
-                      "</div><div class='fractionBottom'>16</div><img class='dropImage' src='images/drops/drop" + i + ".png' />​</div>";
+                      "</div><div class='fractionBottom'>16</div><img class='dropImage' src='images/drops/drop" + i + ".png' />â€‹</div>";
       }
     }
     dropTable += "</div>"
