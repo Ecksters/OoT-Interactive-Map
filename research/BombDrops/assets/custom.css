@@ -1,0 +1,43 @@
+/* Drop Table visualization */
+
+@font-face {
+	font-family: dialogueText;
+	src: url(fonts/chiaro.ttf);
+}
+
+@font-face {
+	font-family: hylianSerif;
+	src: url(fonts/HyliaSerifBeta-Regular.otf);
+}
+
+@font-face {
+	font-family: bossText;
+	src: url(fonts/KokinEdo.otf);
+}
+
+div.dropTable {
+  width: 100%;
+  height: 55px;
+  font-size: 12px;
+  font-family: "Cambria", "Georgia";
+  text-shadow: 1px 1px black;
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-family: dialogueText;
+  text-shadow: 2px 2px black;
+}
+
+div.dropTableSlot {
+  text-align: center;
+  background: white;
+  border: solid 1px black;
+  float: left;
+}
+
+.fractionTop{border-bottom:solid white 1px; display:inline-block; width: 20px;}
+.fractionbottom{ display:inline-block;}
+
+.dropImage {
+  height: 20px;
+}

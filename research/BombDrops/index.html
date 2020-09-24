@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <title>Analysis of Lake Hylia Bomb Drops</title>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/androidstudio.css">
+    <link rel="stylesheet" href="assets/jquery.fancybox.min.css">
+
+    <link href="assets/custom.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="#">Analysis of Lake Hylia Bomb Drops</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/">Interactive OoT Map</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="jumbotron">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <h1 class="display-3">Analysis of Lake Hylia Bomb Drops</h1>
+            <p>A statistical cost-benefit analysis using Monte Carlo simulations to test the viability of dropping up to 4 bombs at Lake Hylia in order to improve bomb drop odds with Flex Drops.</p>
+          </div>
+          <div class="col-md-4">
+            <a data-fancybox="screenshots" href="assets/img/BombDrops.png"><img src="assets/img/BombDrops.png" class="rounded img-fluid"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h2>Summary</h2>
+          <p>This analysis aims to estimate the utility of dropping bombs in order to achieve Flex Drops before cutting the shrubs at Lake Hylia. The most extreme case of dropping 4 bombs was analyzed, but results can be trivially extrapolated to other amounts.
+          Getting Flex Drops reduces the odds of getting no bomb drops from all 3 patches from 9.7% to 0.8%. In the simulations, Flex Drops resulted in trials ending with 20 bombs increasing from 20% to 31%; however, 33% of simulations without Flex Drops
+          ended with 19 or 20 bombs. The results showed dropping 4 bombs resulted in a functionally insignificant increase of 0.5% in the final bomb count mean, while also introducing the 0.8% risk of ending with
+          only 5 bombs.</p>
+          <p>If willing to stop at 19 bombs, rather than 20, simulations without Flex Drops could stop cutting before the 3rd grass patch 23% of the time, as opposed to 20% of the time with Flex Drops.
+          Should runners choose to keep cutting until 20 bombs, however, only 9% of attempts were able to stop cutting before the 3rd group of shrubs. In conclusion, about 9 bombs appears to be the tipping
+          point for whether a runner should waste bombs to achieve Flex Drops or not. Furthermore, due to the 3 bomb limit of Ocarina of Time, and time wasted throwing bombs, wasting any more than 3 bombs
+          will likely slow the runner down, while not increasing bomb count significantly.</p>
+          <p>It is recommended that all runners study the requirements for Flex Drops before attempting to manipulate them in their runs, as it is not uncommon for runners to learn about this topic and begin wasting bombs at
+          points in the run when Bomb Flex Drops are not possible due to other missing requirements. Another conclusion from this study could be that bombs should be used liberally prior to visiting Lake Hylia,
+          as extra bombs have a minimal effect compared to having Flex Drops, and any time that could be saved using them is well worth it.</p>
+        </div>
+      </div><br>
+      <div class="row">
+        <div class="col-sm-12">
+          <h2>Background</h2>
+          <p>In some of the speedrunning routes for Ocarina of Time, specifically 100%, having a decent bomb count is paramount to being able to accomplish all necessary tricks. Due to being the location
+          with the highest density of shrubs in the entire game, Lake Hylia is an ideal location along many routes for farming bombs drops. Below are the drop charts for all shrub patches for both Child and Adult Link:
+          <h6>Child Link Shrub Patch Drop Table</h6>
+          <div class="dropTable">
+            <img src="assets/drops/ChildLink.png" style="float: left;">
+            <div class="dropTableSlot" style="background: #081982; width: 5.55%;"><div class="fractionTop">1</div><div class="fractionBottom">16</div><img class="dropImage" src="assets/drops/drop0.png">&#8203;</div>
+            <div class="dropTableSlot" style="background: #9467bd; width: 5.55%;"><div class="fractionTop">1</div><div class="fractionBottom">16</div><img class="dropImage" src="assets/drops/drop1.png">&#8203;</div>
+            <div class="dropTableSlot" style="background: #2ca02c; width: 11.1%;"><div class="fractionTop">2</div><div class="fractionBottom">16</div><img class="dropImage" src="assets/drops/drop2.png">&#8203;</div>
+            <div class="dropTableSlot" style="background: #f7b6d2; width: 11.1%;"><div class="fractionTop">2</div><div class="fractionBottom">16</div><img class="dropImage" src="assets/drops/drop7.png">&#8203;</div>
+            <div class="dropTableSlot" style="background: #9edae5; width: 11.1%;"><div class="fractionTop">2</div><div class="fractionBottom">16</div><img class="dropImage" src="assets/drops/drop9.png">&#8203;</div>
+            <div class="dropTableSlot" style="background: #eeaa67; width: 11.1%;"><div class="fractionTop">2</div><div class="fractionBottom">16</div><img class="dropImage" src="assets/drops/drop11.png">&#8203;</div>
+            <div class="dropTableSlot" style="background: #7f7f7f; width: 33.3%;"><div class="fractionTop">6</div><div class="fractionBottom">16</div><img class="dropImage" src="assets/drops/drop16.png">&#8203;</div>
+          </div>
+          <br>
+          <h6>Adult Link Shrub Patch Drop Table</h6>
+          <div class="dropTable">
+            <img src="assets/drops/AdultLink.png" style="float: left;">
+            <div class="dropTableSlot" style="background: #081982; width: 5.55%;"><div class="fractionTop">1</div><div class="fractionBottom">16</div><img class="dropImage" src="assets/drops/drop0.png">&#8203;</div>
+            <div class="dropTableSlot" style="background: #9467bd; width: 5.55%;"><div class="fractionTop">1</div><div class="fractionBottom">16</div><img class="dropImage" src="assets/drops/drop1.png">&#8203;</div>
+            <div class="dropTableSlot" style="background: #2ca02c; width: 11.1%;"><div class="fractionTop">2</div><div class="fractionBottom">16</div><img class="dropImage" src="assets/drops/drop2.png">&#8203;</div>
+            <div class="dropTableSlot" style="background: #8ea7f8; width: 5.55%;"><div class="fractionTop">1</div><div class="fractionBottom">16</div><img class="dropImage" src="assets/drops/drop3.png">&#8203;</div>
+            <div class="dropTableSlot" style="background: #f7b6d2; width: 5.55%;"><div class="fractionTop">1</div><div class="fractionBottom">16</div><img class="dropImage" src="assets/drops/drop7.png">&#8203;</div>
+            <div class="dropTableSlot" style="background: #9edae5; width: 5.55%;"><div class="fractionTop">1</div><div class="fractionBottom">16</div><img class="dropImage" src="assets/drops/drop9.png">&#8203;</div>
+            <div class="dropTableSlot" style="background: #17becf; width: 5.55%;"><div class="fractionTop">1</div><div class="fractionBottom">16</div><img class="dropImage" src="assets/drops/drop10.png">&#8203;</div>
+            <div class="dropTableSlot" style="background: #eeaa67; width: 5.55%;"><div class="fractionTop">1</div><div class="fractionBottom">16</div><img class="dropImage" src="assets/drops/drop11.png">&#8203;</div>
+            <div class="dropTableSlot" style="background: #7f7f7f; width: 38.85%;"><div class="fractionTop">7</div><div class="fractionBottom">16</div><img class="dropImage" src="assets/drops/drop16.png">&#8203;</div>
+          </div><br>
+          
+          While shrubs at both ages normally have a 1/16 chance of dropping bombs,
+          certain conditions in-game allow for an additional 1/16 chance known as a "Flex Drop" to drop bombs as well. The conditions to get bombs from a flex drop are:</p>
+          <ul>
+            <li>Have more than 5 hearts, filled</li>
+            <li>Have non-zero magic, or magic not unlocked yet</li>
+            <li>Have Bow/Sling(Depending on age), and more than 5 of their respective ammo</li>
+            <li>Have 5 bombs or less</li>
+          </ul>
+          <p>In the past several info-graphics were created explaining Ocarina of Time's Drop Tables and Flex Drops, and even specifically Bomb Drops from shrub patches. All relevant infographics are shown below:</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12"><h4>Related Infographics</h4></div>
+        <div class="col-md-4">
+          <a data-fancybox="gallery" href="assets/img/EnemyDropTablesInfographic.png"><img src="assets/img/EnemyDropTablesInfographicSmall.png"></a>
+        </div>
+        <div class="col-md-4">
+          <a data-fancybox="gallery" href="assets/img/FlexDropsInfographic.png"><img src="assets/img/FlexDropsInfographicSmall.png"></a>
+        </div>
+        <div class="col-md-4">
+          <a data-fancybox="gallery" href="assets/img/BombDropsInfographic.png"><img src="assets/img/BombDropsInfographicSmall.png"></a>
+        </div>
+      </div><br><br>
+      <div class="row">
+        <div class="col-sm-12">
+          <h2>Introduction</h2>
+          <p>In order to optimize bomb drops at Lake Hylia and increases chances of ideal bomb counts throughout a run, it's important to understand how and when a runner should consider reducing their bomb count in order to improve the odds of
+          bomb drops via Flex Drops. Getting Flex Drops doubles the odds of a bomb drop from any individual shrub, and since 3 shrub patches of 12 shrubs exist at Lake Hylia, this increase is multiplied across 36 shrubs.</p>
+          <p>The aim of this study is to test whether spending excess bombs that prevent Flex Drops could be expected to result in a net gain in bomb count. The end goal of such analysis is to assist
+          runners in making the decision as to whether or not they should intentionally spend bombs prior to reaching Lake Hylia. Two effects were measured: the final bomb count, and the number of shrub patches that
+          were necessary to cut before achieving a bomb count of 20. The analysis was also run with the Normal group, without Flex Drops, stopping at 19 bombs, rather than continuing for 20, as this is a realistic
+          expectation from a normal run.</p>
+        </div>
+      </div><br>
+      <div class="row">
+        <div class="col-sm-12">
+          <h2>Methods</h2>
+          <div class="row">
+            <div class="col-sm-8"><p>While in-game testing would be ideal for accuracy, running a large number of simulations in-game and tracking the results automatically is more complicated than this analysis warrants. Instead, the known
+            probabilities for the drops were used to create a simulation of outcomes, allowing us to use the Monte Carlo method by running 1 million simulations of cutting the grass patches at Lake Hylia.</p></div>
+            <div class="col-sm-4">
+              <a data-fancybox="screenshots" href="assets/img/BushLook.png"><img src="assets/img/BushLook.png" class="rounded img-fluid"></a>
+            </div>
+          </div>
+          <h5>Assumptions</h5>
+          <ul>
+            <li>There are 3 groups of shrubs with 12 shrubs each</li>
+            <li>Flex drops double the chances of bomb drops from 1/16 to 1/8 for each shrub cut. This is confirmed by RAM analysis of in-game drop tables.</li>
+            <li>Runners will stop cutting grass after achieving nearly 20 bombs. Separate analysis were performed for stopping at 19 and stopping at 20.</li>
+            <li>To account for bomb drops falling onto the runner mid-spinslash and ending Flex Drops, the simulation assumes 3 bushes can insta-drop a bomb onto the runner,
+            and they are distributed throughout the spinslash at 1, 4, and 9 plants cut. The simulation also assumes a 50% chance of the drop flying in the direction of the player.</li>
+            <li>Runners will immediately grab any bombs dropped, rather than cutting 2 shrub groups before collecting any bombs in order to flex drops, doing so, however, could improve the Flex Drop effect
+            very significantly, and testing shows it is very feasible.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <h5>Simulation Code in R</h5>
+          <pre  style="height: 400px;"><code class="R"># Cutting bush group Monte Carlo
+          
+attempts <- 1000000 #1 million trials
+bombFinishNormal <- bombFinishNormalGroups <- bombFinishFlex <- bombFinishFlexGroups <- vector(length=attempts)
+
+bombNormalProbability <- 1/16
+
+for(attempt in 1:attempts)
+{
+  bombFlexProbability <- 1/8 #Reset flex drop odds
+  
+  bombCountFlex <- 5 #Reset bomb counts
+  bombCountNormal <- 9
+  
+  groupCountFlex <- 0 #Reset number of bush groups cut
+  groupCountNormal <- 0
+  
+  for(bushGroup in 1:3) {
+    if(bombCountFlex < 20){ #Increment bush groups cut
+      groupCountFlex =  groupCountFlex + 1
+    }
+      
+    if(bombCountNormal < 20) {
+      groupCountNormal  =  groupCountNormal + 1
+    }
+    
+    if(bombCountFlex > 5){
+      bombFlexProbability <- 1/16 #Remove Flex drops if already got a bomb drop
+    }
+    
+    for(plant in 1:12) {
+      drop <- runif(1, 0, 1) #Random number from 0 to 1
+
+      if(bombCountFlex < 20 && drop < bombFlexProbability) {
+        if(bombFlexProbability == 1/8 && (plant == 1 || plant == 4 || plant == 9)) { #Bushes immediately next to Link
+          if(runif(1, 0, 1) > .5){
+            bombFlexProbability <- 1/16  #Remove Flex drops partway through the spin attack
+          }
+          
+        }
+        bombCountFlex <- bombCountFlex + 5
+      }
+      if(bombCountNormal < 20 && drop < bombNormalProbability) {
+        bombCountNormal <- bombCountNormal + 5
+      }
+    }
+    if(bombCountNormal > 20) { #Fix count back to max of 20 if over 20.
+      bombCountNormal <- 20
+    }
+    if(bombCountFlex > 20) {
+      bombCountFlex <- 20
+    }
+  }
+  #Add results of current attempt to results tables
+  bombFinishNormal[attempt] <- bombCountNormal
+  bombFinishFlex[attempt] <- bombCountFlex
+  bombFinishNormalGroups[attempt] <- groupCountNormal
+  bombFinishFlexGroups[attempt] <- groupCountFlex
+}
+
+table(bombFinishNormalGroups) #Table for Number of groups cut before 20 bombs without flex drops
+table(bombFinishFlexGroups) #Table for Number of groups cut before 20 bombs with flex drops
+
+table(bombFinishFlex) #Table of final bomb counts for flex drop attempts
+summary(bombFinishFlex) #Statistical summary of bomb counts for flex drops
+table(bombFinishNormal) #Table of final bomb counts without flex drops
+summary(bombFinishNormal) #Statistical summary of bomb counts without flex drops</code></pre>
+        </div>
+      </div><br>
+      <div class="row">
+        <div class="col-sm-12">
+          <h2>Results</h2>
+          <p>Two different simulations of 1 million trials were run, one with a goal of achieving 20 bombs, the other with a goal of achieving 19 bombs, in order to better compare how a runner would
+          likely respond in a real run. The simulations would stop cutting patches early if they achieved
+          their goal before cutting all 3. Their results below will be shown in parallel.</p>
+          
+          <h5>Number of Shrub Patches Cut Before Achieving Bomb Count Goal</h5>
+          <p>One potential goal could be to reduce the number of patches a runner has to cut to fill up their bombs, this could potentially save a few seconds if Flex drops
+          potentially allow a runner to stop cutting earlier than normal. The data for this is shown below:</p>
+        </div>
+        <div class="col-md-6">
+          <table class="table table-sm table-inverse table-hover table-bordered table-striped table-responsive">
+            <h6 class="text-center">Number of Shrub Patches Cut Before Finishing or Reaching <span class="text-danger">20</span> Bombs</h6>
+            <thead><tr class="tableizer-firstrow"><th>Patches Cut</th><th>1</th><th>2</th><th>3</th></tr></thead><tbody>
+             <tr class="bg-success"><th scope="row">Flex Trials</th><td>149999</td><td>241022</td><td>608979</td></tr>
+             <tr><th scope="row">Flex Proportion</th><td>15.0%</td><td>24.1%</td><td>60.9%</td></tr>
+             <tr class="bg-danger"><th scope="row">Normal Trials</th><td>35256</td><td>151402</td><td>813342</td></tr>
+             <tr><th scope="row">Normal Proportion</th><td>3.5%</td><td>15.1%</td><td>81.3%</td></tr>
+           </tbody></table>
+        </div>
+        <div class="col-md-6">
+          <h6 class="text-center">Number of Shrub Patches Cut Before Finishing or Reaching <span class="text-primary">19</span> Bombs</h6>
+          <table class="table table-sm table-inverse table-hover table-bordered table-striped table-responsive">
+          <thead><tr class="tableizer-firstrow"><th>Patches Cut</th><th>1</th><th>2</th><th>3</th></tr></thead><tbody>
+           <tr class="bg-success"><th scope="row">Flex Trials</th><td>151203</td><td>240692</td><td>608105</td></tr>
+           <tr><th scope="row">Flex Proportion</th><td>15.1%</td><td>24.1%</td><td>60.8%</td></tr>
+           <tr class="bg-danger"><th scope="row">Normal Trials</th><td>171182</td><td>276914</td><td>551904</td></tr>
+           <tr><th scope="row">Normal Proportion</th><td class="text-warning">17.1%</td><td class="text-warning">27.7%</td><td class="text-warning">55.2%</td></tr>
+        </tbody></table><br>
+        </div>
+        <div class="col-sm-12">
+          <h5>Final Expected Bomb Count For Each Trial Type</h5>
+          <p>Another goal could be maximizing the expected or median bomb count after cutting the bushes. This would mean that one method
+            might, on average, end up giving more bombs than the other. The data for this is shown below:</p>
+        </div>
+
+        <div class="col-md-6">
+          <h6 class="text-center">Statistics for Finishing or Reaching <span class="text-danger">20</span> Bombs</h6>
+          <table class="table table-sm table-inverse table-hover table-bordered table-striped table-responsive">
+          <thead><tr class="tableizer-firstrow"><th>Trial Type</th><th>Median</th><th>Mean</th></tr></thead><tbody>
+           <tr><td>Normal</td><td>19</td><td>17.24</td></tr>
+           <tr><td>Flex</td><td>20</td><td>17.33</td></tr>
+          </tbody></table>
+        </div>
+        <div class="col-md-6">
+          <h6 class="text-center">Statistics for Finishing or Reaching <span class="text-primary">19</span> Bombs</h6>
+          <table class="table table-sm table-inverse table-hover table-bordered table-striped table-responsive">
+          <thead><tr class="tableizer-firstrow"><th>Trial Type</th><th>Median</th><th>Mean</th></tr></thead><tbody>
+           <tr><td>Normal</td><td>19</td><td class="text-warning">16.84</td></tr>
+           <tr><td>Flex</td><td>20</td><td>17.33</td></tr>
+          </tbody></table><br>
+        </div>
+         
+        <div class="col-sm-12">
+          <h5>Proportion of Trials Ending on Specific Bomb Counts</h5>
+          <p>Should having at least a certain number of bombs be important, then knowing what percent of the trials of each type gives an idea of how often one method
+          will give that result compared to the other. The data for these results are split by goals of 20 and 19 bombs, and Flex and Normal trial types:</p>
+        </div>
+        
+        <div class="col-md-6">
+          <table class="table table-sm table-inverse table-hover table-bordered table-striped table-responsive">
+          <h6 class="text-center"><span class="text-success">Flex</span> Trial Final Bomb Counts, Attempting to Reach <span class="text-danger">20</span> Bombs</h6>
+          <thead><tr class="tableizer-firstrow"><th>Bomb Count</th><th>Trials</th><th>Proportion</th></tr></thead><tbody>
+           <tr><td>5</td><td>8138</td><td>0.8%</td></tr>
+           <tr><td>10</td><td>129578</td><td>13.0%</td></tr>
+           <tr><td>15</td><td>250039</td><td>25.0%</td></tr>
+           <tr><td>20</td><td>612245</td><td>61.2%</td></tr>
+          </tbody></table>
+        </div>
+        <div class="col-md-6">
+         <table class="table table-sm table-inverse table-hover table-bordered table-striped table-responsive">
+          <h6 class="text-center"><span class="text-danger">Normal</span> Trial Final Bomb Counts, Attempting to Reach <span class="text-danger">20</span> Bombs</h6>
+          <thead><tr class="tableizer-firstrow"><th>Bomb Count</th><th>Trials</th><th>Proportion</th></tr></thead><tbody>
+           <tr><td>9</td><td>97555</td><td>9.8%</td></tr>
+           <tr><td>14</td><td>235181</td><td>23.5%</td></tr>
+           <tr><td>19</td><td>274300</td><td>27.4%</td></tr>
+           <tr><td>20</td><td>392964</td><td>39.3%</td></tr>
+          </tbody></table>
+        </div>
+        <div class="col-md-6">
+          <table class="table table-sm table-inverse table-hover table-bordered table-striped table-responsive">
+          <h6 class="text-center"><span class="text-success">Flex</span> Trial Final Bomb Counts, Attempting to Reach <span class="text-primary">19</span> Bombs</h6>
+          <thead><tr class="tableizer-firstrow"><th>Bomb Count</th><th>Trials</th><th>Proportion</th></tr></thead><tbody>
+           <tr><td>5</td><td>8099</td><td>0.8%</td></tr>
+           <tr><td>10</td><td>129730</td><td>13.0%</td></tr>
+           <tr><td>15</td><td>249785</td><td>25.0%</td></tr>
+           <tr><td>20</td><td>612386</td><td>61.2%</td></tr>
+          </tbody></table>
+        </div>
+        <div class="col-md-6">
+          <table class="table table-sm table-inverse table-hover table-bordered table-striped table-responsive">
+          <h6 class="text-center"><span class="text-danger">Normal</span> Trial Final Bomb Counts, Attempting to Reach <span class="text-primary">19</span> Bombs</h6>
+          <thead><tr class="tableizer-firstrow"><th>Bomb Count</th><th>Trials</th><th>Proportion</th></tr></thead><tbody>
+           <tr><td>9</td><td>98224</td><td>9.8%</td></tr>
+           <tr><td>14</td><td>234795</td><td>23.5%</td></tr>
+           <tr><td>19</td><td>666981</td><td>66.7%</td></tr>
+          </tbody></table><br><br><br>
+        </div>
+          
+        <div class="col-sm-12">
+          <h2>Analysis</h2>
+          <p>Breaking the results down into easily digestible graphs, it becomes easier to rapidly identify the consequences of attempting to improve our outcomes with Flex Drops.</p>
+          
+          <h5>Effect on Final Bomb Count</h5>
+          Shown below is the effect of Flex Drops on final bomb count when trying to get to 19 bombs or 20 bombs:</p>
+        </div>
+
+        <div class="col-md-6">
+          <a data-fancybox="finalBombCount" href="assets/img/BombCountStopAt19.png"><img src="assets/img/BombCountStopAt19.png" class="rounded img-fluid"></a>
+        </div>
+        <div class="col-md-6">
+          <a data-fancybox="finalBombCount" href="assets/img/BombCountStopAt20.png"><img src="assets/img/BombCountStopAt20.png" class="rounded img-fluid"></a>
+        </div>
+      
+        <div class="col-sm-12">
+          <br>
+          <p>The above charts show Flex Drops are significantly more effective at achieving a final bomb count of 20, with 61.2% of trials ending with 20 bombs. However, when
+          the simulation stops farming bombs at 19, 66.6% of the Normal trials reached 19 bombs. Other parallel bomb counts (9,10; 14,15) are fairly similar,
+          however, Flex Drops do have the benefit of being 1 bomb ahead.</p>
+          <h5>Extrapolating to Other Starting Bomb Counts</h5>
+          <p>Starting with 9 bombs is worst-case scenario when comparing to Flex Drops. However, the results for any other bomb count would be the same, simply subtract
+          out however many bombs less there are from the final total bomb count. For example, if a runner started with 8 bombs, 66.6% of attempts would end up at 18 bombs or more, with 39.3% of attempts
+          getting 20 bombs should the runner choose to try for 20 bombs.</p>
+          <p>Since the difference of 1 bomb is rarely significant in runs, most likely runners will accept stopping at 19 bombs. This difference becomes more significant should a runner
+          enter Lake Hylia with less than 9 bombs, and may be enough to justify wasting bombs to get Flex drops.</p>
+          
+          <h5>Effect on Number of Shrub Patches Cut</h5>
+          <p>There is a similar result with the number of patches the simulations had to cut before running out of patches or reaching their goal of 19 or 20 bombs:</p>
+        </div>
+      </div>
+        
+      <div class="row">
+        <div class="col-md-6">
+          <a data-fancybox="finalBombCount" href="assets/img/ShrubsCutStopAt19.png"><img src="assets/img/ShrubsCutStopAt19.png" class="rounded img-fluid"></a>
+        </div>
+        <div class="col-md-6">
+          <a data-fancybox="finalBombCount" href="assets/img/ShrubsCutStopAt20.png"><img src="assets/img/ShrubsCutStopAt20.png" class="rounded img-fluid"></a>
+        </div>
+        <div class="col-sm-12">
+          <br>
+          <p>Again, it shows that if a runner chooses to stop at 19 bombs, rather than top off at 20, Flex Drops yield actually slightly worse results. This result makes sense,
+          considering Flex Drops must get an entire additional drop in order to keep up.</p><br>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <h2>Conclusion</h2>
+          <p>The results of these tests show that around 9 bombs is about the tipping point where it begins to stop making sense to throw away bombs in order to gain the benefits of Flex Drops. Due to the game's limitations
+          of only allowing 3 bombs out at any period of time, it is likely faster to simply not throw away the bombs.</p>
+          <p>Another factor that should be taken into consideration is simplicity. While Flex drops have the potential to save time on a run, it may be more effort than it's worth for a runner to worry about them. On the 
+          other hand, runners who are aware of the data shown here can plan ahead. Knowing that farming with 5 bombs will yield similar end results to farming with 9 bombs means that an experienced runner may be able to
+          use up any bombs they have above 5 doing small optimizations prior to reaching Lake Hylia.</p>
+          <p>The other potential issue of using Flex Drops is it allows a 0.8% chance of getting no bombs at all and leaving Lake Hylia with only 5 bombs. This would be detrimental to any run, and may not be an acceptable risk.
+          Bottom line, dropping 2-3 bombs is probably around the maximum range where it's worthwhile, more than that incurs unnecessary risk for no benefit.</p>
+          <p>Thank you for taking the time to read this analysis, I hope it plays a role in improving your runs.</p>
+        </div>
+      </div>
+  
+      <hr>
+
+      <footer>
+        <p>By: Ecksters, 2017</p>
+      </footer>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="assets/jquery.fancybox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script src="assets/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+        <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-92016802-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+  </body>
+</html>
