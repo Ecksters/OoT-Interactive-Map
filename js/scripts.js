@@ -1018,7 +1018,7 @@ function fetchROMDump(scene, room) { //Fetches and updates the ROM Dump output w
     var name = "rooms/s"+scene+"r"+room;
   }
   
-  jQuery.get('/data/'+name+'.txt', function(data) {
+  jQuery.get('data/'+name+'.txt', function(data) {
     $("#verboseOutput").html(data);
     $("#verboseOutput").scrollTop(0).scrollLeft(0);
   });
