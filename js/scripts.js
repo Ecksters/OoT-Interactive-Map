@@ -1300,7 +1300,7 @@ function updateModalActor(actor, type) { // Updates the popup with actor details
     for(var i in table){
       if(table[i] > 0){
         dropTable += "<div class='dropTableSlot' style='background: " + dropTableColors[i].color + "; width: " + table[i]*5.55 + "%;'><div class='fractionTop'>" + table[i] + 
-                      "</div><div class='fractionBottom'>16</div><img class='dropImage' src='images/drops/drop" + i + ".png' />â€‹</div>";
+                      "</div><div class='fractionBottom'>16</div><img class='dropImage' src='images/drops/drop" + i + ".png' /></div>";
       }
     }
     dropTable += "</div>"
