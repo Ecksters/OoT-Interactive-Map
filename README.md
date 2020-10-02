@@ -12,4 +12,7 @@ Due to sheer size of the split OoT maps, to install the images, [download the zi
 This project is being worked on heavily, but you can view a recently uploaded version here:
 http://OoTMap.com/
 
+Should that domain name ever go down, the map is also hosted via Github from this repository:
+https://ecksters.github.io/OoT-Interactive-Map/
+
 Built using [LeafletJS](http://leafletjs.com).
